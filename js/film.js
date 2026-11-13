@@ -256,8 +256,10 @@
       [1, 2, 3, 4, 5].map((n) => `<button type="button" data-star="${n}" class="${n <= shown ? 'is-on' : ''}" aria-label="${n} out of 5">★</button>`).join('') +
       '</div>' +
       '<p class="rate-meta">' + (r.count
-        ? '<b>' + Number(r.avg).toFixed(1) + '</b> · ' + r.count + (r.count === 1 ? ' vote' : ' votes') + ' from the club'
+        ? '<b>' + Number(r.avg).toFixed(1) + '</b> · ' + r.count + (r.count === 1 ? ' vote' : ' votes') +
+          (RT.ratings.server ? ' from the club' : ' on this device')
         : 'No votes yet — be the first') + '</p>' +
+      (RT.ratings.server ? '' : '<p class="rate-mine">Club-wide votes need the club server; here the rating stays in this browser.</p>') +
       (mine ? '<p class="rate-mine">Your vote: ' + mine + '/5 · tap another star to change it</p>' : '');
     RT.$$('#rateBox [data-star]').forEach((b) => b.addEventListener('click', async () => {
       await RT.ratings.vote(film.id, +b.dataset.star);

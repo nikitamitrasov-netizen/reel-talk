@@ -162,6 +162,7 @@
   };
 
   RT.ratings = {
+    server: false,
     data: { films: {} },
     mine: RT.store.get('myvotes', {}),
     async load() {
@@ -171,6 +172,7 @@
           if (res.ok) {
             const json = await res.json();
             RT.ratings.data = json && json.films ? json : { films: {} };
+            RT.ratings.server = true;
             return RT.ratings.data;
           }
         } catch (e) {}
