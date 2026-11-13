@@ -144,8 +144,12 @@
       done += (p.vocab || []).length;
       total += 1;
       if (p.order) done += 1;
-      total += 2;
+      total += 3;
       done += Object.keys(p.scramble || {}).length;
+      total += (film.truefalse || []).length;
+      done += Object.keys(p.tf || {}).length;
+      total += (film.shortAnswers || []).length;
+      done += Object.keys(p.sa || {}).length;
       return { done, total, pct: total ? Math.round((done / total) * 100) : 0 };
     }
   };

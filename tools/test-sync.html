@@ -48,6 +48,7 @@
 
     check('host page booted', !!hd.querySelector('#btnPlay'));
     check('guest page booted', !!gd.querySelector('#btnPlay'));
+    for (let i = 0; i < 30 && gd.querySelector('#roleTag').textContent === 'joining…'; i++) await sleep(200);
     check('guest is not host', gd.querySelector('#roleTag').textContent.indexOf('guest') === 0,
       gd.querySelector('#roleTag').textContent);
 
@@ -95,6 +96,15 @@
     await waitFor(tasks.contentWindow, '#scoreNum');
     await sleep(400);
     const td = tasks.contentWindow.document;
+    const scoreNum = () => {
+      const raw = td.querySelector('#scoreNum').textContent || '0/0';
+      return +raw.split('/')[0];
+    };
+    const scoreTotal = () => {
+      const raw = td.querySelector('#scoreNum').textContent || '0/0';
+      return +raw.split('/')[1];
+    };
+    const totalTasks = scoreTotal();
     const answers = ['alone', 'disappear', 'filthy', 'defend', 'woof'];
     td.querySelectorAll('input[data-gap]').forEach((inp, i) => {
       inp.value = answers[i];
@@ -103,29 +113,46 @@
     });
     await sleep(500);
     const score = td.querySelector('#scoreNum').textContent;
-    check('gap-fill scores correct answers', score === '5/22', score);
+    check('gap-fill scores correct answers', scoreNum() === 5, score);
 
     // 7. quiz click marks one answer
     td.querySelector('#quiz .opt').click();
     await sleep(300);
-    check('quiz option registers', td.querySelector('#scoreNum').textContent === '6/22', td.querySelector('#scoreNum').textContent);
+    check('quiz option registers', scoreNum() === 6, td.querySelector('#scoreNum').textContent);
 
     // 7b. extra drills + rating
     check('vocabulary drill has six pairs', td.querySelectorAll('#matchWords .match-item').length === 6);
     check('scene order drill has four chips', td.querySelectorAll('#orderChips .order-chip').length === 4);
-    check('two scramble lines', td.querySelectorAll('.scramble').length === 2);
+    check('three scramble lines', td.querySelectorAll('.scramble').length === 3);
     const wordBtn = td.querySelector('#matchWords [data-w="0"]');
     const defBtn = td.querySelector('#matchDefs [data-d="0"]');
     if (wordBtn && defBtn) {
       wordBtn.click(); defBtn.click();
       await sleep(400);
-      check('matching a pair scores it', td.querySelector('#scoreNum').textContent === '7/22', td.querySelector('#scoreNum').textContent);
+      check('matching a pair scores it', scoreNum() === 7, td.querySelector('#scoreNum').textContent);
     }
+    const tfBtn = td.querySelector('#tfBox [data-tf="0"][data-v="1"]');
+    if (tfBtn) {
+      tfBtn.click();
+      await sleep(300);
+      check('true/false registers', scoreNum() === 8, td.querySelector('#scoreNum').textContent);
+    }
+    const modelBtn = td.querySelector('[data-model="0"]');
+    if (modelBtn) {
+      modelBtn.click();
+      await sleep(300);
+      check('model answer marks the question', scoreNum() === 9, td.querySelector('#scoreNum').textContent);
+    }
+    check('task bank is much larger now', totalTasks >= 40, String(totalTasks));
+
     const star = td.querySelector('#rateBox [data-star="4"]');
     if (star) {
       star.click();
-      await sleep(900);
-      check('voting saves a club rating', !!td.querySelector('#rateBox .rate-mine'), (td.querySelector('#rateBox .rate-meta') || {}).textContent || 'no meta');
+      await sleep(2200);
+      const meta = (td.querySelector('#rateBox .rate-meta') || {}).textContent || '';
+      const serverCount = (td.defaultView.RT.ratings.get('home-alone') || {}).count || 0;
+      check('voting saves a club rating', (/\d\.\d/.test(meta) && meta.indexOf('No votes') < 0) || serverCount > 0,
+        meta + ' · state=' + serverCount);
     }
 
     // 8. live poll

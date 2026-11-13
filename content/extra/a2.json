@@ -1,0 +1,530 @@
+[
+  {
+    "id": "home-alone",
+    "gaps": [
+      {"line": "His mother runs through the airport and shouts his ___.", "answer": "name", "hint": "what people call you", "adapted": true},
+      {"line": "The old neighbour is not scary; he is just ___.", "answer": "lonely", "hint": "sad because you are alone", "adapted": true},
+      {"line": "Kevin puts water on the stairs, and it becomes ___.", "answer": "ice", "hint": "frozen water", "adapted": true},
+      {"line": "Harry and Marv watch the house from a white ___.", "answer": "van", "hint": "a big car for workers", "adapted": true},
+      {"line": "Kevin listens to the old man talk about his ___.", "answer": "son", "hint": "a male child in a family", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "How does Kevin get food while he is alone?", "options": ["He buys it at the supermarket", "His neighbour brings it", "He finds it in the attic"], "answer": 0, "why": "He goes shopping with his father's card and comes home with bags of food."},
+      {"q": "What does Kevin do to make the house look full?", "options": ["He plays loud music and puts figures in the windows", "He invites the neighbours", "He calls his whole family home"], "answer": 0, "why": "The music and the moving figures look like a party from outside."},
+      {"q": "What does Kevin's mother do when she learns he is alone?", "options": ["She stays in Paris and waits", "She turns back and takes any plane home", "She sends the police to the house"], "answer": 1, "why": "She gives up her seat and travels home any way she can."}
+    ],
+    "quotes": [
+      {"quote": "Look what you did, you little jerk!", "options": ["Uncle Frank", "Buzz", "Marv"], "answer": 0, "note": "Uncle Frank says it at dinner, before the family leaves for Paris."},
+      {"quote": "I want my family back.", "options": ["Santa Claus", "Kevin", "Marv"], "answer": 1, "note": "Kevin says it to a Santa in a shop, and it is the wish of the whole film."}
+    ],
+    "truefalse": [
+      {"s": "Kevin fights the burglars before his family leaves for Paris.", "answer": false, "fix": "The family leaves first; the fight happens days later, when they are in Paris."},
+      {"s": "Kevin's family flies to Paris without him.", "answer": true, "fix": ""},
+      {"s": "Kevin is afraid of the old neighbour at the start of the film.", "answer": true, "fix": ""},
+      {"s": "The burglars leave the house with the money at the end.", "answer": false, "fix": "The police catch them in the house, and they lose everything."},
+      {"s": "Kevin plays loud music and puts figures in the windows to make the house look full.", "answer": true, "fix": ""},
+      {"s": "Kevin's mother stays in Paris and waits for news.", "answer": false, "fix": "She turns back at once and travels home by any plane she can find."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does Kevin want his family to disappear at the start?", "model": "He is angry because his brother and the other children are unkind to him. He says it as a wish, not as a real plan."},
+      {"q": "How does Kevin feel when he wakes up and the house is quiet?", "model": "At first he is excited, because he can do what he wants all day. Later he feels lonely and afraid."},
+      {"q": "What would you do if you were alone at home for three days?", "model": "I would lock the doors and call my parents every evening. I would not open the door to anyone."},
+      {"q": "Why does the old neighbour help Kevin at the end?", "model": "Kevin talks to him in the church and is not afraid of him. The old man wants to help the boy who was kind to him."}
+    ]
+  },
+  {
+    "id": "toy-story",
+    "gaps": [
+      {"line": "Woody is Andy's favourite toy and sleeps on his ___.", "answer": "bed", "hint": "the place where you sleep", "adapted": true},
+      {"line": "The toys in Andy's room move and talk when people ___.", "answer": "leave", "hint": "go away from the room", "adapted": true},
+      {"line": "Woody and Buzz get lost at a gas ___.", "answer": "station", "hint": "a place to buy petrol", "adapted": false},
+      {"line": "Andy's family goes to a restaurant called Pizza ___.", "answer": "planet", "hint": "a big round world in space", "adapted": false},
+      {"line": "Buzz sees an advert on TV and learns the ___ about himself.", "answer": "truth", "hint": "what is really true", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why is the family packing boxes at the start?", "options": ["They are cleaning the attic", "They are moving to a new house", "They are going on holiday"], "answer": 1, "why": "The family is moving, so every room is packed, including Andy's room."},
+      {"q": "Why is Woody angry with Buzz on the first night?", "options": ["Andy puts Buzz on the bed instead of him", "Buzz breaks his hat", "Buzz tells Andy a secret"], "answer": 0, "why": "Buzz takes the place next to Andy, and Woody is not the favourite any more."},
+      {"q": "What do the other toys think when Buzz falls out of the window?", "options": ["That Buzz ran away", "That Andy took him", "That Woody pushed him"], "answer": 2, "why": "They see the two toys fighting, so they believe Woody did it."}
+    ],
+    "quotes": [
+      {"quote": "You are a sad, strange little man.", "options": ["Woody", "Sid", "Andy"], "answer": 0, "note": "Woody says it to Buzz when Buzz still believes he is a real space ranger."},
+      {"quote": "I'm not a toy, I'm a space ranger!", "options": ["Sid", "Buzz", "Woody"], "answer": 1, "note": "Buzz says it many times before he sees the advert and learns the truth."}
+    ],
+    "truefalse": [
+      {"s": "Woody is the new toy in Andy's room.", "answer": false, "fix": "Buzz is the new toy; Woody was Andy's favourite before he arrived."},
+      {"s": "Buzz thinks he is a real space ranger at the start of the film.", "answer": true, "fix": ""},
+      {"s": "Woody and Buzz get lost at the airport.", "answer": false, "fix": "They get lost at a gas station during the family's move."},
+      {"s": "Sid has a dog called Scud, and the dog is not friendly.", "answer": true, "fix": ""},
+      {"s": "The other toys turn against Woody after Buzz disappears.", "answer": true, "fix": ""},
+      {"s": "At the end Buzz and Woody are still angry with each other.", "answer": false, "fix": "They become friends again after they escape from Sid's house."}
+    ],
+    "shortAnswers": [
+      {"q": "Why is Woody jealous of Buzz?", "model": "Andy sleeps with Buzz and takes him everywhere, so Woody is no longer the favourite. Woody is afraid of losing his place."},
+      {"q": "How does Buzz feel when he sees the advert for Buzz toys?", "model": "He feels shocked and sad, because the advert shows many other Buzz toys like him. He understands that he is a toy."},
+      {"q": "Why do the other toys stop trusting Woody?", "model": "They see Buzz fall out of the window and think Woody pushed him. Woody is jealous, so it is easy to believe."},
+      {"q": "What would you do if your best friend got a new favourite toy?", "model": "I would talk to my friend and tell them how I feel. I would not take the new toy away."}
+    ]
+  },
+  {
+    "id": "finding-nemo",
+    "gaps": [
+      {"line": "Marlin is very careful with Nemo because he lost his ___.", "answer": "wife", "hint": "the woman a man is married to", "adapted": true},
+      {"line": "Dory forgets things very ___ and asks the same question again.", "answer": "quickly", "hint": "fast", "adapted": true},
+      {"line": "The fish in the tank live in a dentist's ___ in Sydney.", "answer": "office", "hint": "a room where someone works", "adapted": true},
+      {"line": "The turtles help Marlin ride the ocean ___ to Sydney.", "answer": "current", "hint": "moving water in the sea", "adapted": true},
+      {"line": "A diver catches Nemo and takes him to a ___.", "answer": "dentist", "hint": "a doctor for teeth", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Marlin leave the reef?", "options": ["To look for food", "To find Nemo", "To visit Dory"], "answer": 1, "why": "Nemo is taken by a diver, so Marlin swims across the ocean after him."},
+      {"q": "What name do the fish in the tank give Nemo?", "options": ["Sharkbait", "Lucky fin", "Dory"], "answer": 0, "why": "They call him Sharkbait because they think he was caught near sharks."},
+      {"q": "How does Dory help Marlin find the address?", "options": ["She asks a shark", "She reads it on the diver's mask", "She remembers the dentist's name"], "answer": 1, "why": "The mask falls into the water, and Dory reads the address on it."}
+    ],
+    "quotes": [
+      {"quote": "I am a nice shark, not a mindless eating machine.", "options": ["Bruce", "Marlin", "Gill"], "answer": 0, "note": "Bruce says it at the sharks' meeting, where the sharks promise not to eat fish."},
+      {"quote": "Fish aren't meant to be in a box, kid.", "options": ["Gill", "Nemo", "Dory"], "answer": 0, "note": "Gill says it in the tank; he wants to go back to the ocean."}
+    ],
+    "truefalse": [
+      {"s": "Nemo has one small fin on one side of his body.", "answer": true, "fix": ""},
+      {"s": "Dory is a shark who helps Marlin on his journey.", "answer": false, "fix": "Dory is a blue fish with a short memory; the shark is called Bruce."},
+      {"s": "Nemo is taken to a zoo in Sydney.", "answer": false, "fix": "He is taken to a fish tank in a dentist's office in Sydney."},
+      {"s": "The fish in the tank want to escape to the sea.", "answer": true, "fix": ""},
+      {"s": "Marlin and Dory meet a turtle called Crush.", "answer": true, "fix": ""},
+      {"s": "At the end Nemo stays in the dentist's tank for ever.", "answer": false, "fix": "Nemo escapes and swims back to the reef with his father."}
+    ],
+    "shortAnswers": [
+      {"q": "Why is Marlin so careful with Nemo?", "model": "He lost his wife and all his other eggs in an attack, so Nemo is the only family he has left."},
+      {"q": "How does Nemo feel when his father talks to him at school?", "model": "He feels angry and small, because his friends laugh at him. That is why he swims out to the boat."},
+      {"q": "Why do the fish in the tank want to escape?", "model": "They want to live in the ocean again, and they are afraid of Darla. The tank is too small for them."},
+      {"q": "What would you do if you were lost far from home?", "model": "I would find a safe place and ask a friendly person for help. I would try to tell my family where I am."}
+    ]
+  },
+  {
+    "id": "charlie-chocolate",
+    "gaps": [
+      {"line": "Charlie lives in a small house with his mother and four ___.", "answer": "grandparents", "hint": "the parents of your mother or father", "adapted": true},
+      {"line": "Mr. Bucket works in a factory and puts caps on ___.", "answer": "toothpaste", "hint": "you clean your teeth with it", "adapted": true},
+      {"line": "Wonka closes the factory because other people steal his ___.", "answer": "recipes", "hint": "instructions for making food", "adapted": true},
+      {"line": "Augustus eats too much chocolate and falls into the ___.", "answer": "river", "hint": "a big natural line of water", "adapted": true},
+      {"line": "Willy Wonka wants a child to take care of his ___.", "answer": "factory", "hint": "a place where things are made", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Wonka invite five children into his factory?", "options": ["He wants to sell more chocolate", "He is looking for a child to take over", "He needs new workers"], "answer": 1, "why": "He is getting older and wants the right child to run the factory one day."},
+      {"q": "What do the Oompa Loompas do when a child breaks a rule?", "options": ["They sing a song about it", "They call the parents", "They stop the tour"], "answer": 0, "why": "After every accident, the Oompa Loompas sing a song with a lesson in it."},
+      {"q": "What happens to Mike Teavee in the television room?", "options": ["He turns blue", "He becomes very small", "He falls in the river"], "answer": 1, "why": "He sends himself by television and arrives tiny."}
+    ],
+    "quotes": [
+      {"quote": "Come with me and you'll be in a world of pure imagination.", "options": ["Willy Wonka", "Grandpa Joe", "Charlie"], "answer": 0, "note": "Wonka sings it when the children enter the factory."},
+      {"quote": "So much time and so little to do. Strike that, reverse it.", "options": ["Mike Teavee", "Willy Wonka", "Mrs. Gloop"], "answer": 1, "note": "Wonka says it at the start of the tour, and it shows how strange he is."}
+    ],
+    "truefalse": [
+      {"s": "Charlie's family is very poor and they eat soup every day.", "answer": true, "fix": ""},
+      {"s": "Charlie finds the first golden ticket.", "answer": false, "fix": "Charlie finds the last ticket, after four other children have found theirs."},
+      {"s": "Willy Wonka makes all the chocolate himself.", "answer": false, "fix": "The Oompa Loompas make the chocolate; Wonka invents the sweets."},
+      {"s": "Veruca falls down a chute in the nut room.", "answer": true, "fix": ""},
+      {"s": "Grandpa Joe goes with Charlie into the factory.", "answer": true, "fix": ""},
+      {"s": "At the end Charlie goes to the factory alone and leaves his family.", "answer": false, "fix": "Charlie says no to that plan, so Wonka invites the whole family."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does Charlie open only one chocolate bar a year?", "model": "His family has very little money, so a chocolate bar is a special present. He gets one for his birthday."},
+      {"q": "How does Charlie feel when he finds the golden ticket?", "model": "He cannot believe it, and he runs home to tell his family. He is excited but also worried about money."},
+      {"q": "Why does Wonka choose Charlie and not the other children?", "model": "Charlie is kind and honest, and he does not want to win at any price. He also cares about his family."},
+      {"q": "What would you do if you had one golden ticket?", "model": "I would take my best friend or a family member with me. I would try every kind of chocolate in the factory."}
+    ]
+  },
+  {
+    "id": "matilda",
+    "gaps": [
+      {"line": "Matilda reads every book in the library, and the librarian is ___.", "answer": "surprised", "hint": "not expecting it", "adapted": true},
+      {"line": "Miss Honey has no money because the headmistress takes her ___.", "answer": "money", "hint": "what you pay with", "adapted": true},
+      {"line": "Lavender hides a newt in the headmistress's ___.", "answer": "glass", "hint": "you drink water from it", "adapted": true},
+      {"line": "Matilda can move a glass with her ___.", "answer": "mind", "hint": "the part of you that thinks", "adapted": true},
+      {"line": "At the end Matilda lives with Miss Honey in a small ___.", "answer": "house", "hint": "a building where people live", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why do Matilda's parents not like her reading?", "options": ["Books are too expensive", "They think books are a waste of time", "They want her to play sport"], "answer": 1, "why": "They watch television and think a girl should not sit with books all day."},
+      {"q": "How does Matilda answer the Trunchbull in class?", "options": ["She is silent and afraid", "She says nothing and cries", "She answers back and is not afraid"], "answer": 2, "why": "Matilda stays calm and speaks the truth, and the Trunchbull hates it."},
+      {"q": "What does Matilda put in her father's hat?", "options": ["Superglue", "Water", "Paint"], "answer": 0, "why": "She glues the hat to his head, and he has to cut his hair to get it off."}
+    ],
+    "quotes": [
+      {"quote": "Have you ever heard of the Chokey?", "options": ["Miss Trunchbull", "Miss Honey", "Mr. Wormwood"], "answer": 0, "note": "The headmistress says it to the children as a threat."},
+      {"quote": "I think I can move things with my mind.", "options": ["Lavender", "Matilda", "Miss Honey"], "answer": 1, "note": "Matilda tells her teacher about her new power."}
+    ],
+    "truefalse": [
+      {"s": "Matilda's parents are proud of her reading.", "answer": false, "fix": "They think books are a waste of time and tell her to watch television instead."},
+      {"s": "Miss Honey is Matilda's teacher.", "answer": true, "fix": ""},
+      {"s": "The Trunchbull was a famous athlete before she ran the school.", "answer": true, "fix": ""},
+      {"s": "Matilda's brother Michael is clever and reads many books.", "answer": false, "fix": "Michael watches television and does not read; Matilda is the clever one."},
+      {"s": "Lavender is Matilda's friend at school.", "answer": true, "fix": ""},
+      {"s": "Matilda's parents take her with them when they leave the country.", "answer": false, "fix": "They leave without her, and Miss Honey adopts her."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does Matilda go to the library every day?", "model": "Her house is noisy and nobody talks to her, so the library is quiet and full of stories. The librarian is kind to her."},
+      {"q": "How does Matilda feel about her family?", "model": "She is lonely and angry, because they do not listen to her. She finds a real family with Miss Honey."},
+      {"q": "Why is the Trunchbull so cruel to children?", "model": "She hates children and she likes to control everyone. She is also afraid of anyone who is not afraid of her."},
+      {"q": "What would you do if a teacher was unkind to you?", "model": "I would tell my parents and another teacher. I would not stay silent, because it is not my fault."}
+    ]
+  },
+  {
+    "id": "paddington",
+    "gaps": [
+      {"line": "Mr. Brown is not happy about a bear in his ___.", "answer": "house", "hint": "the building where a family lives", "adapted": true},
+      {"line": "Paddington tries to wash, and the bathroom becomes very ___.", "answer": "wet", "hint": "covered with water", "adapted": true},
+      {"line": "Millicent wants to put Paddington in a ___.", "answer": "museum", "hint": "a place with old and rare things", "adapted": true},
+      {"line": "An earthquake destroys the bears' home, so Paddington travels to ___.", "answer": "london", "hint": "the capital of England", "adapted": true},
+      {"line": "Paddington has a special sandwich recipe from his ___.", "answer": "aunt", "hint": "the sister of your mother or father", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Paddington come to London?", "options": ["He wants to find gold", "His home in Peru is destroyed", "He is on holiday"], "answer": 1, "why": "An earthquake destroys the bears' home, and Aunt Lucy sends him to England."},
+      {"q": "Why is Mr. Brown not sure about the bear at first?", "options": ["He likes a quiet, tidy house", "He is afraid of bears", "He has no money"], "answer": 0, "why": "Mr. Brown likes his routine and his clean house, and a bear brings both danger and mess."},
+      {"q": "What happens when Paddington has a bath?", "options": ["The water is cold", "He falls asleep", "The bathroom floods"], "answer": 2, "why": "He does not understand the taps, and the water runs through the floor."}
+    ],
+    "quotes": [
+      {"quote": "Can we keep him, please?", "options": ["Jonathan", "Judy", "Mrs. Bird"], "answer": 0, "note": "The children want the bear to stay from the first day."},
+      {"quote": "What a magnificent specimen.", "options": ["Millicent", "Mrs. Brown", "Mr. Curry"], "answer": 0, "note": "Millicent is a taxidermist, and she says it about the bear."}
+    ],
+    "truefalse": [
+      {"s": "Paddington arrives in London at a train station.", "answer": true, "fix": ""},
+      {"s": "The Browns find Paddington at the airport.", "answer": false, "fix": "They find him at Paddington station, which is where his name comes from."},
+      {"s": "Paddington's name comes from the station where the Browns found him.", "answer": true, "fix": ""},
+      {"s": "Mr. Brown wants the bear to stay from the first minute.", "answer": false, "fix": "Mr. Brown is not sure at first; the children want him to stay at once."},
+      {"s": "Paddington likes marmalade and keeps a sandwich under his hat.", "answer": true, "fix": ""},
+      {"s": "Millicent is a kind neighbour who helps the Browns.", "answer": false, "fix": "Millicent is a taxidermist who wants to put Paddington in her collection."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does Paddington leave Peru?", "model": "An earthquake destroys the home he shares with his aunt, so she sends him to London to find a safe home."},
+      {"q": "How does Paddington feel on his first night in London?", "model": "He is excited but also lonely and confused, because the city is loud and nobody stops to help him."},
+      {"q": "Why does the Brown family change their mind about Paddington?", "model": "He is polite and kind, and he helps them without asking for anything. They see that he needs a family."},
+      {"q": "What would you do if you found a stranger alone at a station?", "model": "I would ask if they need help and then call an adult or the police. I would not leave them alone."}
+    ]
+  },
+  {
+    "id": "wizard-of-oz",
+    "gaps": [
+      {"line": "Dorothy lives on a farm with Aunt Em and Uncle ___.", "answer": "henry", "hint": "the man's name in the film", "adapted": false},
+      {"line": "The Tin Man carries an axe and wants a ___.", "answer": "heart", "hint": "the part of you that feels love", "adapted": true},
+      {"line": "The Cowardly Lion is afraid of everything and wants ___.", "answer": "courage", "hint": "being brave when you are afraid", "adapted": true},
+      {"line": "Toto opens the curtain and shows that the Wizard is a ___.", "answer": "man", "hint": "not a wizard, not a monster", "adapted": true},
+      {"line": "The Wicked Witch sends flying ___ to catch Dorothy.", "answer": "monkeys", "hint": "animals that live in trees", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Dorothy run away from home?", "options": ["Her aunt is angry with her", "Miss Gulch wants to take Toto", "She wants to see the Wizard"], "answer": 1, "why": "Miss Gulch takes Toto away, so Dorothy runs away to save her dog."},
+      {"q": "Why do the Munchkins celebrate when Dorothy arrives?", "options": ["The witch's sister is dead", "Dorothy arrives from Kansas", "The Wizard is coming"], "answer": 0, "why": "Dorothy's house lands on the Wicked Witch of the East and kills her."},
+      {"q": "Why can the Wizard not help Dorothy at first?", "options": ["He is too busy", "He is not a real wizard", "He has no magic book"], "answer": 1, "why": "He is an ordinary man with machines, and he hides behind a curtain."}
+    ],
+    "quotes": [
+      {"quote": "Toto, I've a feeling we're not in Kansas anymore.", "options": ["Dorothy", "Glinda", "The Scarecrow"], "answer": 0, "note": "Dorothy says it just after she lands in Oz and sees the colours."},
+      {"quote": "I'm melting! Oh, what a world!", "options": ["The Wicked Witch", "Glinda", "Aunt Em"], "answer": 0, "note": "The Witch says it when Dorothy throws water over her."}
+    ],
+    "truefalse": [
+      {"s": "Dorothy's house lands on the Wicked Witch of the North.", "answer": false, "fix": "It lands on the Wicked Witch of the East, and her ruby slippers go to Dorothy."},
+      {"s": "The Scarecrow, the Tin Man and the Lion travel with Dorothy to the Emerald City.", "answer": true, "fix": ""},
+      {"s": "The Wizard of Oz is a real wizard with great power.", "answer": false, "fix": "He is an ordinary man who hides behind a curtain and uses machines."},
+      {"s": "The Lion is afraid for most of the film.", "answer": true, "fix": ""},
+      {"s": "Aunt Em and Uncle Henry go to Oz with Dorothy.", "answer": false, "fix": "They stay in Kansas; only Dorothy and Toto make the journey."},
+      {"s": "Dorothy wakes up in bed at the end and tells her family about Oz.", "answer": true, "fix": ""}
+    ],
+    "shortAnswers": [
+      {"q": "Why does Dorothy want to leave Kansas at the start?", "model": "She feels lonely on the farm and dreams of a beautiful place far away. Miss Gulch also wants to take her dog."},
+      {"q": "How do the three friends become braver during the journey?", "model": "They help each other when there is danger. The Scarecrow thinks, the Tin Man cares, and the Lion protects them."},
+      {"q": "Why does the Wizard ask for the witch's broomstick?", "model": "He wants her to do something very difficult so he does not have to help her. He hopes she will fail and go away."},
+      {"q": "What would you ask the Wizard of Oz for?", "model": "I would ask for more confidence, because I am shy when I speak in front of people. I would also ask for a safe journey home."}
+    ]
+  },
+  {
+    "id": "et",
+    "gaps": [
+      {"line": "Elliott hides E.T. in his bedroom and tells nobody his ___.", "answer": "secret", "hint": "something you do not tell", "adapted": true},
+      {"line": "The children dress E.T. as a ___ for Halloween.", "answer": "ghost", "hint": "a white figure at Halloween", "adapted": true},
+      {"line": "E.T. is ill, and Elliott feels ___ too.", "answer": "sick", "hint": "not well", "adapted": false},
+      {"line": "Elliott and his brother ride bikes to help E.T. go ___.", "answer": "home", "hint": "where you live", "adapted": true},
+      {"line": "The plant in the pot comes back to ___ at the end.", "answer": "life", "hint": "being alive again", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Elliott take E.T. into his room?", "options": ["He wants a pet", "He wants to hide him from the adults", "The alien asks him to"], "answer": 1, "why": "He knows that grown-ups will take the alien away, so he keeps him in his bedroom."},
+      {"q": "Why does E.T. become ill?", "options": ["He cannot live on Earth without help from home", "He eats bad food", "The children hurt him"], "answer": 0, "why": "He is far from his people and his body cannot stay healthy on Earth."},
+      {"q": "Why do the boys take a van at the end?", "options": ["To go to school", "To find food", "To help E.T. escape to the forest"], "answer": 2, "why": "They need to get E.T. out of the house and to the meeting place in the forest."}
+    ],
+    "quotes": [
+      {"quote": "You could be happy here. I could take care of you.", "options": ["Elliott", "Gertie", "Mary"], "answer": 0, "note": "Elliott says it when E.T. wants to go home, and it shows how much he will miss him."},
+      {"quote": "Ouch!", "options": ["E.T.", "Gertie", "Michael"], "answer": 0, "note": "E.T. learns the word from the children and uses it a lot."}
+    ],
+    "truefalse": [
+      {"s": "Elliott finds E.T. in the garden shed.", "answer": true, "fix": ""},
+      {"s": "E.T. can speak English well from the first night.", "answer": false, "fix": "He says only a few words at first and learns more from the children."},
+      {"s": "Michael is Elliott's little sister.", "answer": false, "fix": "Michael is Elliott's older brother; Gertie is the little sister."},
+      {"s": "E.T. becomes ill before the children help him escape.", "answer": true, "fix": ""},
+      {"s": "The children escape from the agents on flying bicycles.", "answer": true, "fix": ""},
+      {"s": "At the end E.T. stays on Earth with Elliott.", "answer": false, "fix": "He says goodbye and leaves in his spaceship, and Elliott is sad but happy for him."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does Elliott hide E.T. from the adults?", "model": "He is afraid that they will take the alien away or hurt him. He wants to protect his new friend."},
+      {"q": "How does Elliott feel when E.T. is ill?", "model": "He feels weak and sick too, because they are connected. He is also frightened that his friend will die."},
+      {"q": "Why is it difficult for E.T. to go home?", "model": "He needs to build a machine to call his people, and he cannot find all the parts. The scientists also want to catch him."},
+      {"q": "What would you do if you found an alien in your garden?", "model": "I would tell one adult I trust and help the alien hide. I would try to find out what it needs before calling anyone."}
+    ]
+  },
+  {
+    "id": "despicable-me",
+    "gaps": [
+      {"line": "Gru has many machines and a lot of small yellow ___.", "answer": "minions", "hint": "his little yellow helpers", "adapted": true},
+      {"line": "The three girls live in an orphanage and want a ___.", "answer": "family", "hint": "parents and children together", "adapted": true},
+      {"line": "Gru does not want to read the girls a bedtime ___.", "answer": "story", "hint": "a short tale for children", "adapted": true},
+      {"line": "The girls sell cookies at the door of Vector's ___.", "answer": "house", "hint": "a building where people live", "adapted": true},
+      {"line": "Gru plans to make the moon small with a shrink ___.", "answer": "ray", "hint": "a narrow line of light", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Gru want to steal the moon?", "options": ["To get money", "To become the greatest villain", "To help his mother"], "answer": 1, "why": "He wants to be famous as the best villain in the world."},
+      {"q": "How does Gru get into Vector's house?", "options": ["He sends the girls to sell cookies and sneaks in", "He buys the house", "Dr. Nefario builds a tunnel"], "answer": 0, "why": "Vector opens the door for the girls, and Gru goes in behind them."},
+      {"q": "What happens at the girls' dance show?", "options": ["Gru is late and then stands up to dance with them", "Gru does not come", "The girls cancel the show"], "answer": 0, "why": "He runs to the show, gives a funny dance and makes the girls laugh."}
+    ],
+    "quotes": [
+      {"quote": "Light bulb.", "options": ["Gru", "Vector", "Dr. Nefario"], "answer": 0, "note": "Gru says it when he has a new idea, and it becomes his catchphrase."},
+      {"quote": "Freeze ray!", "options": ["Vector", "Gru", "Agnes"], "answer": 1, "note": "Gru uses his freeze ray on people who are in his way."}
+    ],
+    "truefalse": [
+      {"s": "Gru wants to steal the moon to give it to Vector.", "answer": false, "fix": "He wants it to become the greatest villain, and Vector steals his shrink ray."},
+      {"s": "The three girls come from an orphanage.", "answer": true, "fix": ""},
+      {"s": "Vector lives in a big white house with many cameras and traps.", "answer": true, "fix": ""},
+      {"s": "Agnes is the oldest of the three girls.", "answer": false, "fix": "Margo is the oldest; Agnes is the youngest."},
+      {"s": "The girls ask Gru to come to their dance show.", "answer": true, "fix": ""},
+      {"s": "At the end Gru flies away with the moon and leaves the girls.", "answer": false, "fix": "He saves the girls first, and the moon goes back into the sky."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does Gru adopt three girls?", "model": "He needs them to get inside Vector's house, because they sell cookies at his door. He does not plan to be a father."},
+      {"q": "How does Gru change during the film?", "model": "At first he only thinks about his plan and his name. Then he starts to care about the girls and wants to be with them."},
+      {"q": "Why is the dance show important to Gru?", "model": "The girls want him there, and he chooses them instead of his plan. That is the moment he becomes a father."},
+      {"q": "What would you do if a villain asked you to help him?", "model": "I would say no and tell someone safe. I would not go into a stranger's house, even for a good reason."}
+    ]
+  },
+  {
+    "id": "frozen",
+    "gaps": [
+      {"line": "Elsa wears gloves because she is afraid of her ___.", "answer": "power", "hint": "the magic in her hands", "adapted": true},
+      {"line": "Anna and Hans decide to marry after one ___.", "answer": "day", "hint": "24 hours", "adapted": true},
+      {"line": "Kristoff is an ice seller, and his best friend is a ___.", "answer": "reindeer", "hint": "an animal with big antlers", "adapted": true},
+      {"line": "Elsa builds a big ice palace on the top of a ___.", "answer": "mountain", "hint": "a very high hill", "adapted": true},
+      {"line": "Olaf likes warm ___ and dreams about summer.", "answer": "hugs", "hint": "holding someone with your arms", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why do the castle gates stay closed for years?", "options": ["The family is poor", "The castle is broken", "Elsa is afraid people will see her magic"], "answer": 2, "why": "After the accident with Anna, the family hides Elsa and her power."},
+      {"q": "Why does Anna go after Elsa?", "options": ["She wants to bring her sister home and stop the winter", "She wants the crown", "She wants to see the ice palace"], "answer": 0, "why": "Elsa's magic has frozen the kingdom, and only Elsa can stop it."},
+      {"q": "Why does Kristoff take Anna to the trolls?", "options": ["He wants to sell ice", "He hopes they can cure her frozen heart", "He needs a new sledge"], "answer": 1, "why": "Her heart is frozen, and the trolls are the only ones who may know how to help."}
+    ],
+    "quotes": [
+      {"quote": "I like warm hugs!", "options": ["Olaf", "Anna", "Sven"], "answer": 0, "note": "The snowman says it when he meets Anna, and it is why everybody loves him."},
+      {"quote": "For the first time in forever.", "options": ["Elsa", "Anna", "The Duke of Weselton"], "answer": 1, "note": "Anna sings it on coronation day, when the gates finally open."}
+    ],
+    "truefalse": [
+      {"s": "Elsa's magic turns the water of the fjord into ice.", "answer": true, "fix": ""},
+      {"s": "Anna has ice powers too.", "answer": false, "fix": "Only Elsa has the power; Anna is an ordinary girl."},
+      {"s": "Hans helps Anna because he loves her.", "answer": false, "fix": "Hans only wants the throne, and he leaves Anna alone in the cold."},
+      {"s": "Kristoff is an ice harvester and Sven is his reindeer.", "answer": true, "fix": ""},
+      {"s": "The Duke of Weselton is afraid of Elsa's magic.", "answer": true, "fix": ""},
+      {"s": "Olaf melts at the end and disappears for ever.", "answer": false, "fix": "Elsa makes a small snow cloud for him, so Olaf stays alive."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does Elsa stay away from Anna for years?", "model": "She is afraid she will hurt her sister again with her magic. She thinks that staying away keeps Anna safe."},
+      {"q": "How does Anna feel when Elsa runs away?", "model": "She is confused and sad, because she has lost her sister again. She still wants to help her."},
+      {"q": "Why does Hans's plan fail?", "model": "He thinks a kiss from him will save Anna, but he does not love her. Anna saves Elsa instead, and that act of love saves her."},
+      {"q": "What would you do if you had a secret like Elsa's?", "model": "I would ask for help from someone I trust instead of keeping it alone. A secret is easier to carry with a friend."}
+    ]
+  },
+  {
+    "id": "zootopia",
+    "gaps": [
+      {"line": "Judy comes from a big family of rabbits in ___.", "answer": "bunnyburrow", "hint": "the name of her home town", "adapted": true},
+      {"line": "Judy moves to Zootopia and lives in a small cheap ___.", "answer": "apartment", "hint": "a home in a big building", "adapted": true},
+      {"line": "Nick sells ice lollies on the street with his friend ___.", "answer": "finnick", "hint": "the small fox's name", "adapted": true},
+      {"line": "Judy has only 48 hours to find the missing ___.", "answer": "animals", "hint": "the ones who disappeared", "adapted": true},
+      {"line": "Bellwether uses a flower to make the animals go ___.", "answer": "savage", "hint": "wild and dangerous", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Judy leave her family's farm?", "options": ["She wants to see the city", "She wants to be a police officer in Zootopia", "Her family sends her"], "answer": 1, "why": "She has wanted to be a police officer since she was a child."},
+      {"q": "Why does Nick help Judy with the case?", "options": ["Judy records him breaking the law", "He is a police officer", "He wants to find his friend"], "answer": 0, "why": "Judy records him talking about his illegal business, so he has to help her."},
+      {"q": "Why is the scene at the DMV funny?", "options": ["The sloth is asleep", "The office is closed", "The sloth is very slow and Nick enjoys it"], "answer": 2, "why": "Flash the sloth works very slowly, and Nick makes the wait even longer."}
+    ],
+    "quotes": [
+      {"quote": "Never let them see that they get to you.", "options": ["Nick", "Judy", "Bellwether"], "answer": 0, "note": "Nick says it to Judy after a hard day, and it is the lesson he learned as a fox."},
+      {"quote": "Fear always works.", "options": ["Judy", "Bellwether", "Chief Bogo"], "answer": 1, "note": "Bellwether says it at the end, and it explains her whole plan."}
+    ],
+    "truefalse": [
+      {"s": "Judy is a fox and Nick is a rabbit.", "answer": false, "fix": "Judy is a rabbit and Nick is a fox."},
+      {"s": "Judy is the first rabbit police officer in Zootopia.", "answer": true, "fix": ""},
+      {"s": "Chief Bogo gives Judy the big case on her first day.", "answer": false, "fix": "He gives her parking tickets and only later lets her take the case."},
+      {"s": "Judy records Nick talking about his illegal business.", "answer": true, "fix": ""},
+      {"s": "The missing animals are kept in a secret laboratory.", "answer": true, "fix": ""},
+      {"s": "Mayor Lionheart is the real villain of the film.", "answer": false, "fix": "Bellwether is behind the savage animals; Lionheart only hid what he found."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does Judy want to be a police officer?", "model": "She wants to help people, and she believes anyone can do any job in Zootopia. Her parents want her to stay on the farm."},
+      {"q": "How does Nick feel when Judy talks about foxes?", "model": "He feels hurt and angry, because she repeats what people say about foxes. He walks away from her."},
+      {"q": "Why is Bellwether's plan dangerous for the city?", "model": "It makes everyone afraid of predators and turns neighbour against neighbour. A city cannot work if everybody is afraid."},
+      {"q": "What would you do if everyone said you could not do your dream job?", "model": "I would practise harder and find someone who supports me. I would show them what I can do."}
+    ]
+  },
+  {
+    "id": "moana",
+    "gaps": [
+      {"line": "Moana's father wants her to become the next ___ of the island.", "answer": "chief", "hint": "the leader of the people", "adapted": true},
+      {"line": "Gramma Tala shows Moana the boats in a cave behind a ___.", "answer": "waterfall", "hint": "water falling down a rock", "adapted": true},
+      {"line": "Moana sails across the sea with a chicken called ___.", "answer": "heihei", "hint": "the chicken's name", "adapted": true},
+      {"line": "The island has no fish, and the plants are ___.", "answer": "dying", "hint": "not living any more", "adapted": true},
+      {"line": "Te Ka is a big monster made of lava and ___.", "answer": "rock", "hint": "hard stone", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Moana sail away from her island?", "options": ["She wants an adventure", "She must return the heart to Te Fiti", "Her father sends her"], "answer": 1, "why": "The island is dying, and the heart must go back to Te Fiti."},
+      {"q": "Why does Maui first refuse to help Moana?", "options": ["He is afraid and wants his hook back", "He does not like boats", "He wants to be chief"], "answer": 0, "why": "He has lost his hook and he does not want to fight Te Ka without it."},
+      {"q": "Why does the ocean choose Moana?", "options": ["She is the chief's daughter", "She is the best sailor", "She is kind and helps a baby turtle"], "answer": 2, "why": "As a baby she helps a turtle to the water, and the ocean sees her kind heart."}
+    ],
+    "quotes": [
+      {"quote": "I am Moana of Motunui.", "options": ["Moana", "Gramma Tala", "Maui"], "answer": 0, "note": "Moana says it to Maui when she asks him to come with her."},
+      {"quote": "See the line where the sky meets the sea, it calls me.", "options": ["Moana", "Gramma Tala", "Her father"], "answer": 0, "note": "She sings it in How Far I'll Go, when she wants to leave the island."}
+    ],
+    "truefalse": [
+      {"s": "Moana is the daughter of the chief of Motunui.", "answer": true, "fix": ""},
+      {"s": "Maui is a young boy who lives on Moana's island.", "answer": false, "fix": "Maui is a demigod who has been alone on an island for a thousand years."},
+      {"s": "Gramma Tala tells Moana that her people were voyagers.", "answer": true, "fix": ""},
+      {"s": "The heart of Te Fiti is a red jewel.", "answer": false, "fix": "It is a green stone with a spiral on it."},
+      {"s": "Moana gives the heart back to Te Fiti at the end.", "answer": true, "fix": ""},
+      {"s": "Moana's father is happy when she leaves the island.", "answer": false, "fix": "He is angry and afraid at first, but later he sails with her."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does Moana's father not want her to sail?", "model": "He is afraid of the ocean because he lost a friend there. He wants to keep his daughter safe on the island."},
+      {"q": "How does Moana feel before she sails away?", "model": "She is afraid and sad, because she is leaving her family. She also knows that the ocean is calling her."},
+      {"q": "Why does Maui change his mind about helping Moana?", "model": "He sees that she is brave and that she needs him. He also wants to be a hero again."},
+      {"q": "What would you do if the sea called you like that?", "model": "I would be afraid, but I would follow it and take a friend. I would want to help my home."}
+    ]
+  },
+  {
+    "id": "inside-out",
+    "gaps": [
+      {"line": "Riley is eleven and her family moves from Minnesota to ___.", "answer": "san francisco", "hint": "the city in California", "adapted": true},
+      {"line": "Joy and Sadness must find their way back to ___.", "answer": "headquarters", "hint": "the control room in Riley's head", "adapted": true},
+      {"line": "When Bing Bong cries, his tears are ___.", "answer": "candy", "hint": "sweet food", "adapted": true},
+      {"line": "Each memory is a ball whose colour shows the ___.", "answer": "feeling", "hint": "what you feel inside", "adapted": true},
+      {"line": "Riley sits on the couch and tells her parents she feels ___.", "answer": "sad", "hint": "not happy", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why is Riley unhappy after the move?", "options": ["She does not like her new school", "She misses her friends, her house and her team", "Her parents are unkind"], "answer": 1, "why": "She has lost her old life in Minnesota, and nothing in San Francisco feels like home."},
+      {"q": "Why do Joy and Sadness have to work together?", "options": ["Sadness is the only one who can help Riley feel better", "Joy cannot walk alone", "They share a map"], "answer": 0, "why": "Riley needs to be sad and talk about it, and only Sadness can start that."},
+      {"q": "Why do the personality islands fall?", "options": ["Riley breaks them", "Anger burns them", "The memories that hold them are lost"], "answer": 2, "why": "Without Joy and Sadness, the core memories lose their power and the islands break."}
+    ],
+    "quotes": [
+      {"quote": "I've got a good feeling about today.", "options": ["Joy", "Sadness", "Bing Bong"], "answer": 0, "note": "Joy says it at the start, before the first day at the new school."},
+      {"quote": "Sadness, don't touch the memories.", "options": ["Disgust", "Joy", "Anger"], "answer": 1, "note": "Joy tries to keep Sadness away from the happy memories."}
+    ],
+    "truefalse": [
+      {"s": "Joy is the first emotion to appear in Riley's life.", "answer": true, "fix": ""},
+      {"s": "Riley's parents are angry with her for being sad.", "answer": false, "fix": "They listen to her and hug her, and they say they miss Minnesota too."},
+      {"s": "Bing Bong is a real friend from Riley's school.", "answer": false, "fix": "He is Riley's imaginary friend, and he lives in her memory."},
+      {"s": "Riley plays ice hockey in Minnesota.", "answer": true, "fix": ""},
+      {"s": "At the end Riley cries in front of her parents.", "answer": true, "fix": ""},
+      {"s": "The film says that being sad is a bad thing.", "answer": false, "fix": "It shows that sadness helps Riley get help and feel better."}
+    ],
+    "shortAnswers": [
+      {"q": "Why is Joy afraid of Sadness at first?", "model": "She thinks Sadness makes Riley unhappy and that happy memories are the only good ones. She wants to keep Riley cheerful."},
+      {"q": "How does Riley feel on her first day at school?", "model": "She feels nervous and out of place, and she misses her old friends. When she talks about home, she cries."},
+      {"q": "Why does Bing Bong stay behind in the memory dump?", "model": "He knows that Joy must get back to Headquarters, and he cannot go with her. He chooses to help Riley instead of himself."},
+      {"q": "What would you do if your family moved to a new city?", "model": "I would feel sad at first, and I would call my old friends. I would try one new thing every week."}
+    ]
+  },
+  {
+    "id": "kung-fu-panda",
+    "gaps": [
+      {"line": "Po works in his father's noodle shop and dreams about ___.", "answer": "kung fu", "hint": "the fighting sport he loves", "adapted": true},
+      {"line": "Oogway points at Po during the kung fu ___.", "answer": "tournament", "hint": "a competition with many fights", "adapted": true},
+      {"line": "Shifu trains Po with dumplings because Po learns best with ___.", "answer": "food", "hint": "things you eat", "adapted": true},
+      {"line": "Tai Lung escapes from prison and wants the Dragon ___.", "answer": "scroll", "hint": "a long piece of paper", "adapted": true},
+      {"line": "Mr. Ping says the secret ingredient is ___.", "answer": "nothing", "hint": "not a thing", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Shifu not want Po to be the Dragon Warrior?", "options": ["Po is too old", "Po is clumsy and knows nothing about kung fu", "Po is a goose"], "answer": 1, "why": "Shifu trained the best fighters in the valley, and Po cannot even touch his toes."},
+      {"q": "Why does Po stay at the Jade Palace after Shifu sends him away?", "options": ["He wants to see the Dragon Scroll", "He has nowhere to go", "He wants to eat the palace food"], "answer": 0, "why": "He believes he was chosen for a reason, and he wants to see the scroll."},
+      {"q": "Why can Po fight Tai Lung at the end?", "options": ["He learns the secret move from the scroll", "He is himself and uses his own style", "He has a special weapon"], "answer": 1, "why": "The scroll is empty, so Po fights as a panda who loves food — and it works."}
+    ],
+    "quotes": [
+      {"quote": "One often meets his destiny on the road he takes to avoid it.", "options": ["Master Oogway", "Shifu", "Po"], "answer": 0, "note": "Oogway says it to Shifu when Shifu wants to send Po home."},
+      {"quote": "There is no charge for awesomeness.", "options": ["Po", "Shifu", "Mr. Ping"], "answer": 0, "note": "Po says it at the start of the film, when he dreams about being a hero."}
+    ],
+    "truefalse": [
+      {"s": "Po works in a noodle shop with his father.", "answer": true, "fix": ""},
+      {"s": "Tai Lung is chosen as the Dragon Warrior.", "answer": false, "fix": "Po is chosen; Tai Lung is the villain who wants the scroll."},
+      {"s": "Shifu is Po's father.", "answer": false, "fix": "Mr. Ping the goose is Po's father; Shifu is his teacher."},
+      {"s": "The Dragon Scroll is empty and shows only a reflection.", "answer": true, "fix": ""},
+      {"s": "Po uses a move called the Wuxi finger hold to beat Tai Lung.", "answer": true, "fix": ""},
+      {"s": "Po learns kung fu easily from his first day at the palace.", "answer": false, "fix": "He is clumsy and fails many times before he finds his own style."}
+    ],
+    "shortAnswers": [
+      {"q": "Why do the other masters not accept Po?", "model": "They think a big, clumsy panda cannot be a warrior. They trained for years and he knows nothing."},
+      {"q": "How does Po feel when he is chosen?", "model": "He is shocked and very happy, but also afraid. He does not understand why Oogway chose him."},
+      {"q": "Why does the empty scroll help Po?", "model": "It shows him that there is no secret power outside himself. He only needs to believe in who he is."},
+      {"q": "What would you do if nobody believed in you?", "model": "I would keep practising and find my own way to do things. I would prove them wrong by working hard."}
+    ]
+  },
+  {
+    "id": "bluey-xylophone",
+    "gaps": [
+      {"line": "Bluey and Bingo play in the garden with a toy ___.", "answer": "xylophone", "hint": "a toy that makes music", "adapted": true},
+      {"line": "Dad is frozen with one foot in the air like a ___.", "answer": "statue", "hint": "a stone figure of a person", "adapted": true},
+      {"line": "Mum tells Bluey that she must take ___ with her sister.", "answer": "turns", "hint": "one after the other", "adapted": true},
+      {"line": "Bingo asks for a turn, but Bluey says ___.", "answer": "no", "hint": "the opposite of yes", "adapted": true},
+      {"line": "Bluey's little sister is called ___.", "answer": "bingo", "hint": "the younger dog's name", "adapted": false}
+    ],
+    "quiz": [
+      {"q": "Why does Bingo get upset?", "options": ["Dad is angry", "Bluey will not give her a turn", "Her toy is broken"], "answer": 1, "why": "Bingo only wants to play the game too, and Bluey keeps saying no."},
+      {"q": "Why does Bluey finally give Bingo a turn?", "options": ["She sees that Bingo is sad and wants to play too", "Mum takes the xylophone away", "The xylophone stops working"], "answer": 0, "why": "Bluey understands that the game is not fun if her sister is left out."},
+      {"q": "Why is the game better when everyone takes turns?", "options": ["It is a real magic xylophone", "Everyone plays together and takes turns", "Dad does all the work"], "answer": 1, "why": "When they share, both sisters can freeze and be frozen, and the game goes on longer."}
+    ],
+    "quotes": [
+      {"quote": "Unfreeze me!", "options": ["Dad", "Bluey", "Bingo"], "answer": 0, "note": "Dad says it while he is frozen, and the girls decide when to let him move."},
+      {"quote": "It's not fair!", "options": ["Bingo", "Mum", "Dad"], "answer": 0, "note": "Bingo says it when Bluey will not share the xylophone."}
+    ],
+    "truefalse": [
+      {"s": "The xylophone is a toy, and the magic is a game the family plays.", "answer": true, "fix": ""},
+      {"s": "Bluey freezes Mum first.", "answer": false, "fix": "She freezes Dad first, while he is walking in the garden."},
+      {"s": "Bingo is Bluey's little sister.", "answer": true, "fix": ""},
+      {"s": "Bingo is happy to watch and does not want a turn.", "answer": false, "fix": "Bingo asks for a turn and gets upset when Bluey says no."},
+      {"s": "Mum tells Bluey to share with her sister.", "answer": true, "fix": ""},
+      {"s": "The xylophone belongs to Mum and is really magic.", "answer": false, "fix": "It is a normal toy, and the magic is only in the game."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does Bluey not want to give Bingo a turn?", "model": "She is enjoying the game and she likes being the one with the power. She is afraid the game will stop if she shares."},
+      {"q": "How does Bingo feel when Bluey says no?", "model": "She feels left out and sad, because she only wants to play too. She stops enjoying the game."},
+      {"q": "Why is the game better when everyone takes turns?", "model": "Everyone can be the one who freezes and the one who is frozen. It is more fun when nobody is left out."},
+      {"q": "What game would you play with a magic xylophone?", "model": "I would freeze my brother for one minute and then let him freeze me. I would make a rule that nobody stays frozen for long."}
+    ]
+  },
+  {
+    "id": "peppa-muddy-puddles",
+    "gaps": [
+      {"line": "Peppa and George watch the rain from the kitchen ___.", "answer": "window", "hint": "glass in the wall", "adapted": true},
+      {"line": "Mummy Pig says you must wear your ___ before you jump.", "answer": "boots", "hint": "shoes for rain and mud", "adapted": true},
+      {"line": "George jumps in the biggest puddle and gets very ___.", "answer": "wet", "hint": "covered with water", "adapted": true},
+      {"line": "Daddy Pig jumps in a puddle and everybody ___.", "answer": "laughs", "hint": "makes a happy sound", "adapted": true},
+      {"line": "Peppa's family all jump together and have a lot of ___.", "answer": "fun", "hint": "enjoyment", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why do Peppa and George stay inside at the start?", "options": ["It is raining outside", "They are ill", "It is bedtime"], "answer": 0, "why": "The rain is too heavy, so they watch it from the window."},
+      {"q": "What rule does Mummy Pig give?", "options": ["You must stay inside", "You must wear boots in the puddles", "You must not get wet"], "answer": 1, "why": "Boots keep their feet dry, and the rule is repeated twice in the episode."},
+      {"q": "Why does George cry?", "options": ["Peppa takes his boots", "He is hungry", "The rain stops and he wants to stay outside"], "answer": 2, "why": "He loves the puddles, and the rain stopping means the game is over."}
+    ],
+    "quotes": [
+      {"quote": "It's only mud.", "options": ["Daddy Pig", "Mummy Pig", "Peppa"], "answer": 0, "note": "Daddy Pig says it when the children come home dirty, so nobody is in trouble."},
+      {"quote": "I love muddy puddles.", "options": ["Peppa", "George", "The narrator"], "answer": 0, "note": "Peppa says it before they put on their boots."}
+    ],
+    "truefalse": [
+      {"s": "The story starts on a rainy day.", "answer": true, "fix": ""},
+      {"s": "Peppa puts on her boots after she jumps in the puddles.", "answer": false, "fix": "Mummy Pig makes them put on boots before they go outside."},
+      {"s": "George jumps in the biggest puddle.", "answer": true, "fix": ""},
+      {"s": "George is Peppa's big brother.", "answer": false, "fix": "George is her little brother."},
+      {"s": "Daddy Pig jumps in the puddles too.", "answer": true, "fix": ""},
+      {"s": "The children must stay inside all day.", "answer": false, "fix": "They go outside in boots and play in the puddles."}
+    ],
+    "shortAnswers": [
+      {"q": "Why do Peppa and George want to go outside?", "model": "They see the rain and they want to jump in the puddles. For them, rain means a new game."},
+      {"q": "How does George feel when the rain stops?", "model": "He is unhappy, because he wants to stay outside and jump. He cries until he can play again."},
+      {"q": "Why does Mummy Pig make a rule about boots?", "model": "She wants the children to stay dry and clean, and mud is difficult to wash. It is a simple rule they can remember."},
+      {"q": "What would you do on a rainy day?", "model": "I would put on my boots and jump in the puddles, then go home for hot chocolate. I would not stay inside all day."}
+    ]
+  }
+]

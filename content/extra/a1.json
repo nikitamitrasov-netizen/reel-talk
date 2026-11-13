@@ -1,0 +1,464 @@
+[
+  {
+    "id": "the-gruffalo",
+    "gaps": [
+      {"line": "The owl wants to have ___ with the mouse.", "answer": "tea", "hint": "a hot drink in a cup", "adapted": true},
+      {"line": "The mouse says a ___ lives in the wood.", "answer": "gruffalo", "hint": "the big monster in the story", "adapted": true},
+      {"line": "The gruffalo's eyes are orange and his tongue is ___.", "answer": "black", "hint": "the colour of night", "adapted": true},
+      {"line": "The snake lives in a house made of ___.", "answer": "logs", "hint": "pieces of wood from a tree", "adapted": true},
+      {"line": "The animals are ___ of the big monster.", "answer": "afraid", "hint": "scared", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "What colour are the gruffalo's eyes?", "options": ["Blue", "Orange", "Green"], "answer": 1, "why": "The mouse describes him: orange eyes, a black tongue and purple prickles on his back."},
+      {"q": "What does the snake invite the mouse to eat?", "options": ["Breakfast", "Lunch", "Supper"], "answer": 2, "why": "The snake offers supper in his logpile house, and the mouse says no."},
+      {"q": "How many animals does the mouse meet before the gruffalo?", "options": ["Three", "Two", "Five"], "answer": 0, "why": "First the fox, then the owl, then the snake, and then the real gruffalo."}
+    ],
+    "quotes": [
+      {"quote": "Come and have tea in my treetop house.", "options": ["The fox", "The mouse", "The owl"], "answer": 2, "note": "The owl's invitation. The fox offers lunch and the snake offers supper."},
+      {"quote": "I'm going to have lunch with a gruffalo.", "options": ["The mouse", "The fox", "The owl"], "answer": 0, "note": "The mouse says this to the fox, and it is the first time we hear the monster's name."}
+    ],
+    "truefalse": [
+      {"s": "The mouse meets a fox, an owl and a snake in the wood.", "answer": true, "fix": ""},
+      {"s": "The owl lives in a hole under the ground.", "answer": false, "fix": "The owl lives in a treetop."},
+      {"s": "The gruffalo has purple prickles all over his back.", "answer": true, "fix": ""},
+      {"s": "The mouse is big and strong.", "answer": false, "fix": "The mouse is small, but he is very clever."},
+      {"s": "The fox runs away when he hears about the gruffalo.", "answer": true, "fix": ""},
+      {"s": "The gruffalo eats the mouse at the end.", "answer": false, "fix": "The gruffalo runs away and the mouse eats a nut."}
+    ],
+    "shortAnswers": [
+      {"q": "Why do the fox, the owl and the snake run away?", "model": "They think the gruffalo is behind the mouse, and they are afraid of him."},
+      {"q": "How does the mouse save himself from the gruffalo?", "model": "He walks in front of the gruffalo, so the animals run away and the gruffalo is afraid too."},
+      {"q": "Which animal in the wood do you like best, and why?", "model": "I like the mouse best because he is small and very clever."},
+      {"q": "What would you say to a hungry fox at your door?", "model": "I would say that my friend the gruffalo is coming for lunch."}
+    ]
+  },
+  {
+    "id": "room-on-the-broom",
+    "gaps": [
+      {"line": "The witch has long ginger ___.", "answer": "hair", "hint": "it grows on your head", "adapted": true},
+      {"line": "The dog asks for a ___ on the broom.", "answer": "ride", "hint": "a trip on it", "adapted": true},
+      {"line": "The animals cover themselves in ___ to make a monster.", "answer": "mud", "hint": "wet, soft earth", "adapted": true},
+      {"line": "The new broom has a ___ for everyone.", "answer": "seat", "hint": "you sit on it", "adapted": true},
+      {"line": "The witch says ___ to every animal who asks.", "answer": "yes", "hint": "not no", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "What does the wind blow into the reeds?", "options": ["The hat", "The wand", "The bow"], "answer": 1, "why": "The wand falls into the reeds, and the frog finds it there."},
+      {"q": "Where does the broom break in two?", "options": ["Over a town", "Over a hill", "Over a bog"], "answer": 2, "why": "It snaps over a bog and everybody falls into the mud."},
+      {"q": "What does the witch do at the end?", "options": ["She walks home", "She makes a new broom with seats for all", "She gives the dragon a ride"], "answer": 1, "why": "The new broom has a seat for the cat, the dog, the bird and the frog."}
+    ],
+    "quotes": [
+      {"quote": "Is there room on the broom for a frog like me?", "options": ["The bird", "The frog", "The dog"], "answer": 1, "note": "The frog has the wand in his mouth, and he wants a ride too."},
+      {"quote": "Witch and chips for my tea!", "options": ["The cat", "The frog", "The dragon"], "answer": 2, "note": "The dragon's dinner plan. He is very hungry, and the witch is on the menu."}
+    ],
+    "truefalse": [
+      {"s": "The dog brings back the witch's hat and asks for a ride.", "answer": true, "fix": ""},
+      {"s": "The frog finds the witch's hat in the water.", "answer": false, "fix": "The frog finds the witch's wand in the reeds."},
+      {"s": "The broom breaks because too many animals are on it.", "answer": true, "fix": ""},
+      {"s": "The dragon is not hungry.", "answer": false, "fix": "The dragon is very hungry and wants to eat the witch."},
+      {"s": "The animals make a monster from mud to scare the dragon.", "answer": true, "fix": ""},
+      {"s": "The witch says no to the animals.", "answer": false, "fix": "The witch says yes to every animal who asks."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does the broom break in two?", "model": "Five of them are on the broom, and it is too heavy for the strong wind."},
+      {"q": "How do the animals save the witch from the dragon?", "model": "They cover themselves in mud and stand together like one big monster."},
+      {"q": "Why does the dragon fly away?", "model": "He thinks the mud monster is real, and he is afraid of it."},
+      {"q": "Which animal on the broom do you like best, and why?", "model": "I like the frog because he is funny and he finds the wand."}
+    ]
+  },
+  {
+    "id": "stick-man",
+    "gaps": [
+      {"line": "A girl throws Stick Man into the ___.", "answer": "river", "hint": "water that moves to the sea", "adapted": true},
+      {"line": "The dog runs after Stick Man and wants to ___.", "answer": "play", "hint": "have fun with him", "adapted": true},
+      {"line": "Stick Man is cold and ___ in the snow.", "answer": "lost", "hint": "far from home and not knowing the way", "adapted": true},
+      {"line": "A man puts Stick Man near the ___.", "answer": "fire", "hint": "hot orange flames", "adapted": true},
+      {"line": "The sea carries Stick Man far from ___.", "answer": "home", "hint": "the place where he lives", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Where does the girl throw Stick Man?", "options": ["Into the river", "Into a tree", "Into a box"], "answer": 0, "why": "She throws him into the river, and the water carries him away."},
+      {"q": "How many children does Stick Man have?", "options": ["Two", "Three", "Five"], "answer": 1, "why": "He lives in the family tree with his wife and their three stick children."},
+      {"q": "Where does Santa take Stick Man?", "options": ["To the North Pole", "To a school", "Home to his family tree"], "answer": 2, "why": "Santa finds him in the fireplace and takes him home in his sleigh."}
+    ],
+    "quotes": [
+      {"quote": "Stick Man, oh Stick Man, beware of the dog!", "options": ["Stick Man", "The narrator", "The dog"], "answer": 1, "note": "The narrator warns him again and again, but the dog only wants to play."},
+      {"quote": "Stick Man, oh Stick Man, beware of the swan!", "options": ["The swan", "Stick Man", "The narrator"], "answer": 2, "note": "The second warning: the swan thinks he is a twig for her nest."}
+    ],
+    "truefalse": [
+      {"s": "Stick Man has three children.", "answer": true, "fix": ""},
+      {"s": "The swan uses Stick Man to build her nest.", "answer": true, "fix": ""},
+      {"s": "Stick Man lives in a house in a town.", "answer": false, "fix": "He lives in a tree in the wood with his family."},
+      {"s": "A girl throws Stick Man into the river.", "answer": true, "fix": ""},
+      {"s": "The dog eats Stick Man.", "answer": false, "fix": "The dog only wants to play fetch with him."},
+      {"s": "Stick Man is warm and happy in the snow.", "answer": false, "fix": "He is cold, lost and far from home in the snow."}
+    ],
+    "shortAnswers": [
+      {"q": "Why is Stick Man sad in the middle of the film?", "model": "He is far from home, he is cold, and nobody knows that he is Stick Man."},
+      {"q": "How does Stick Man get home?", "model": "Santa finds him in the fireplace and takes him home in his sleigh."},
+      {"q": "Why does the dog take Stick Man away?", "model": "The dog thinks he is a good stick for playing fetch in the park."},
+      {"q": "What would you do if you found a stick that could talk?", "model": "I would ask it where it lives and help it go home."}
+    ]
+  },
+  {
+    "id": "the-snowman",
+    "gaps": [
+      {"line": "The boy builds a snowman in the ___.", "answer": "garden", "hint": "the land around a house", "adapted": true},
+      {"line": "The boy puts a ___ on the snowman's head.", "answer": "hat", "hint": "you wear it on your head", "adapted": true},
+      {"line": "The boy and the snowman fly over the ___.", "answer": "town", "hint": "a place with many houses and streets", "adapted": true},
+      {"line": "There are many ___ at the party in the wood.", "answer": "snowmen", "hint": "more than one man of snow", "adapted": true},
+      {"line": "In the morning the garden is white with ___.", "answer": "snow", "hint": "soft white pieces from the sky", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "What colour is the snowman's nose?", "options": ["Red", "Orange", "Black"], "answer": 1, "why": "His nose is an orange, and his eyes are black coals."},
+      {"q": "Where is the party?", "options": ["In the wood", "In a house", "On the moon"], "answer": 0, "why": "The snowman takes the boy through the trees to a party with many snowmen."},
+      {"q": "What is the weather like at the start of the film?", "options": ["Sunny", "Rainy", "Snowy"], "answer": 2, "why": "Snow falls all day, and the garden turns white."}
+    ],
+    "quotes": [
+      {"quote": "No words: the snowman takes the boy's hand and they fly out of the garden.", "options": ["The boy", "The snowman", "Father Christmas"], "answer": 1, "note": "A moment, not a line: there is no dialogue in this film, so the pictures tell the story."},
+      {"quote": "No words: the boy finds a scarf and a small pile of snow.", "options": ["The snowman", "His mother", "The boy"], "answer": 2, "note": "A moment, not a line: the last shot shows what is left of the snowman."}
+    ],
+    "truefalse": [
+      {"s": "The boy builds the snowman in the garden.", "answer": true, "fix": ""},
+      {"s": "The snowman comes alive in the morning.", "answer": false, "fix": "He comes alive at midnight."},
+      {"s": "The boy and the snowman fly over the town.", "answer": true, "fix": ""},
+      {"s": "The boy's parents see the snowman move.", "answer": false, "fix": "His parents are asleep, so only the boy sees it."},
+      {"s": "There are many snowmen at the party.", "answer": true, "fix": ""},
+      {"s": "The snowman is still in the garden on Christmas morning.", "answer": false, "fix": "He melts, and only his scarf is left in the garden."}
+    ],
+    "shortAnswers": [
+      {"q": "Why is the boy sad on Christmas morning?", "model": "His friend the snowman has melted, and only the scarf is left."},
+      {"q": "What would you do if your snowman came alive at midnight?", "model": "I would say hello and ask him to fly with me over the town."},
+      {"q": "Which part of the night do you like best, and why?", "model": "I like the flying part best because the town looks small and bright under them."},
+      {"q": "How does the boy feel when he flies?", "model": "He feels happy and a little afraid, and he holds on very tight."}
+    ]
+  },
+  {
+    "id": "charlie-brown-christmas",
+    "gaps": [
+      {"line": "Lucy asks Charlie Brown to direct the ___.", "answer": "play", "hint": "a story on a stage", "adapted": true},
+      {"line": "Charlie Brown's dog is called ___.", "answer": "Snoopy", "hint": "a funny name for a small dog", "adapted": true},
+      {"line": "Snoopy decorates his ___ for a competition.", "answer": "doghouse", "hint": "a little house for a dog", "adapted": true},
+      {"line": "Linus reads the Christmas story from the ___.", "answer": "Bible", "hint": "a very old book", "adapted": true},
+      {"line": "The children sing ___ songs at the end.", "answer": "Christmas", "hint": "songs about the holiday", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "What instrument does Schroeder play?", "options": ["A guitar", "A piano", "A drum"], "answer": 1, "why": "Schroeder plays a small piano, even at Christmas."},
+      {"q": "Where do Charlie Brown and Linus get the tree?", "options": ["In a forest", "At a supermarket", "At a tree market"], "answer": 2, "why": "They look at a market full of big, shiny trees and choose the little real one."},
+      {"q": "What does Charlie Brown put on the little tree?", "options": ["One red ball", "A star", "Many lights"], "answer": 0, "why": "One ball is enough to make the little tree bend over."}
+    ],
+    "quotes": [
+      {"quote": "That's what Christmas is all about, Charlie Brown.", "options": ["Lucy", "Snoopy", "Linus"], "answer": 2, "note": "Linus says it after he reads the Christmas story, and the hall goes quiet."},
+      {"quote": "I never thought it was such a bad little tree.", "options": ["Linus", "Lucy", "Schroeder"], "answer": 0, "note": "Linus says it when the other children laugh at Charlie Brown's tree."}
+    ],
+    "truefalse": [
+      {"s": "Lucy asks Charlie Brown to direct the Christmas play.", "answer": true, "fix": ""},
+      {"s": "Charlie Brown buys a big, beautiful tree.", "answer": false, "fix": "He buys a very small, thin tree with few branches."},
+      {"s": "Snoopy decorates his doghouse with lights.", "answer": true, "fix": ""},
+      {"s": "Charlie Brown is happy at the start of the film.", "answer": false, "fix": "He is sad and does not feel the Christmas feeling."},
+      {"s": "The children sing a song at the end.", "answer": true, "fix": ""},
+      {"s": "Nobody helps Charlie Brown at the end.", "answer": false, "fix": "The other children come and decorate the little tree with him."}
+    ],
+    "shortAnswers": [
+      {"q": "Why is Charlie Brown sad at Christmas?", "model": "He does not feel happy like the other children, and he thinks nobody likes him."},
+      {"q": "Why do the children laugh at his tree?", "model": "The tree is very small and thin, and they want a big, modern one."},
+      {"q": "What does Linus tell the children about Christmas?", "model": "He reads the old story and says Christmas is about love, not presents."},
+      {"q": "Which character in the film is most like you, and why?", "model": "I am like Linus because I stay calm and I help my friends."}
+    ]
+  },
+  {
+    "id": "piper",
+    "gaps": [
+      {"line": "The mother bird flies to the ___ for food.", "answer": "sea", "hint": "the big salt water", "adapted": true},
+      {"line": "Piper waits for her mother in the ___.", "answer": "nest", "hint": "a bird's home", "adapted": true},
+      {"line": "The crab has a hard ___ on his back.", "answer": "shell", "hint": "a hard cover", "adapted": true},
+      {"line": "Piper opens her eyes and sees ___ under the water.", "answer": "shells", "hint": "hard round things on the sand", "adapted": true},
+      {"line": "At the end, Piper eats well and she is ___.", "answer": "happy", "hint": "feeling good", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "What does Piper have on her body?", "options": ["Fur", "Scales", "Feathers"], "answer": 2, "why": "She is a small bird, so her body is covered in feathers."},
+      {"q": "What does the crab do when a big wave comes?", "options": ["It digs into the sand", "It flies away", "It swims out to sea"], "answer": 0, "why": "He digs in and shows Piper the trick: open your eyes under the water."},
+      {"q": "Where is Piper's nest?", "options": ["In a tree", "On the beach", "On a boat"], "answer": 1, "why": "The nest is on the sand, a short walk from the water."}
+    ],
+    "quotes": [
+      {"quote": "No words: the crab digs into the sand and the wave goes over him.", "options": ["Piper", "The crab", "The mother"], "answer": 1, "note": "A moment, not a line: nobody speaks in this film."},
+      {"quote": "No words: Piper brings food to the other birds and they all eat.", "options": ["The crab", "Her mother", "Piper"], "answer": 2, "note": "A moment, not a line: the last shots show her feeding the whole flock."}
+    ],
+    "truefalse": [
+      {"s": "Piper is a little bird.", "answer": true, "fix": ""},
+      {"s": "The crab helps Piper find food.", "answer": true, "fix": ""},
+      {"s": "Piper likes the water from the start.", "answer": false, "fix": "She is afraid of the water at first."},
+      {"s": "Piper's mother brings food to the nest.", "answer": true, "fix": ""},
+      {"s": "The crab has a big shell and no legs.", "answer": false, "fix": "The crab has a hard shell and small legs."},
+      {"s": "Piper never goes near the water again.", "answer": false, "fix": "She goes back to the water and finds lots of food."}
+    ],
+    "shortAnswers": [
+      {"q": "Why is Piper afraid of the water?", "model": "A big wave hits her, and she gets wet and cold."},
+      {"q": "How does the crab help Piper?", "model": "He digs into the sand and shows her how to look under the water."},
+      {"q": "Why are the other birds happy at the end?", "model": "Piper finds a lot of food, and they all eat together."},
+      {"q": "Which part of the film do you like best, and why?", "model": "I like the part under the water because we see the shells and the bright sand."}
+    ]
+  },
+  {
+    "id": "bao",
+    "gaps": [
+      {"line": "The mother makes buns in the ___.", "answer": "kitchen", "hint": "the room where you cook", "adapted": true},
+      {"line": "The mother takes the bun to the ___.", "answer": "park", "hint": "a green place with trees and children", "adapted": true},
+      {"line": "The bun brings a ___ home to meet his mother.", "answer": "girl", "hint": "a young woman", "adapted": true},
+      {"line": "The mother is very ___ when the bun goes away.", "answer": "sad", "hint": "not happy", "adapted": true},
+      {"line": "At the end, the son and his mother ___.", "answer": "hug", "hint": "hold each other with love", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Where does the mother take the bun?", "options": ["To school", "To the park", "To the sea"], "answer": 1, "why": "They go out to the park, where other children are playing."},
+      {"q": "What does the bun do with the other children?", "options": ["He plays with them", "He fights with them", "He eats with them"], "answer": 0, "why": "He runs and plays with them, and he does not want to go home."},
+      {"q": "How does the film end?", "options": ["The mother is alone again", "The bun comes back home", "The mother and son eat together and hug"], "answer": 2, "why": "The real son comes back, and they share food and cry together."}
+    ],
+    "quotes": [
+      {"quote": "No words: the mother cries in bed with her eyes closed.", "options": ["The bun", "The mother", "The son"], "answer": 1, "note": "A moment, not a line: there is almost no dialogue in this film."},
+      {"quote": "No words: the son and his mother hug at the end.", "options": ["The bun and the girl", "The baker", "The son and his mother"], "answer": 2, "note": "A moment, not a line: the film ends with the real son and his mother together."}
+    ],
+    "truefalse": [
+      {"s": "The mother makes buns in the kitchen.", "answer": true, "fix": ""},
+      {"s": "One bun comes alive and becomes like a son to her.", "answer": true, "fix": ""},
+      {"s": "The bun is a real boy from the start.", "answer": false, "fix": "The bun is a steamed bun that comes alive."},
+      {"s": "The mother is happy when the bun leaves with his girlfriend.", "answer": false, "fix": "She is very sad, and she eats the bun."},
+      {"s": "The real son comes home at the end.", "answer": true, "fix": ""},
+      {"s": "The bun stays small all his life.", "answer": false, "fix": "The bun grows up and becomes a young man."}
+    ],
+    "shortAnswers": [
+      {"q": "Why is the mother lonely at the start?", "model": "She lives alone, and her son is not at home."},
+      {"q": "Why does the mother eat the bun?", "model": "She is afraid of losing him, so she eats him, and then she cries."},
+      {"q": "How does the son say sorry to his mother?", "model": "He comes home, sits on her bed and gives her something to eat."},
+      {"q": "What does the film tell us about parents and children?", "model": "Parents love their children very much, but they must let them go."}
+    ]
+  },
+  {
+    "id": "grand-day-out",
+    "gaps": [
+      {"line": "The machine on the moon wants to ___.", "answer": "ski", "hint": "move on snow with two boards", "adapted": true},
+      {"line": "The machine dreams of a skiing ___.", "answer": "holiday", "hint": "a time with no work", "adapted": true},
+      {"line": "Wallace and Gromit are very good ___.", "answer": "friends", "hint": "two people who like each other", "adapted": true},
+      {"line": "The rocket flies up into the ___.", "answer": "sky", "hint": "the space above us", "adapted": true},
+      {"line": "The machine is sad when the rocket ___ away.", "answer": "flies", "hint": "moves through the air", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "How do Wallace and Gromit get to the moon?", "options": ["By plane", "In a rocket", "By boat"], "answer": 1, "why": "They build the rocket in the cellar and fly it to the moon."},
+      {"q": "Where does the machine live?", "options": ["In the cellar", "In the garden", "On the moon"], "answer": 2, "why": "It is a machine on the moon, and that is where they meet it."},
+      {"q": "What does the machine do at the end?", "options": ["It goes home with them", "It stays on the moon", "It eats the cheese"], "answer": 1, "why": "The rocket leaves, and the machine is alone on the moon again."}
+    ],
+    "quotes": [
+      {"quote": "No words: Gromit opens the fridge and there is no cheese inside.", "options": ["Wallace", "Gromit", "The machine"], "answer": 1, "note": "A moment, not a line: one look from Gromit says everything."},
+      {"quote": "No words: the machine watches the rocket leave and looks very sad.", "options": ["Gromit", "The machine", "Wallace"], "answer": 1, "note": "A moment, not a line: Gromit never speaks, and this machine only makes noises."}
+    ],
+    "truefalse": [
+      {"s": "Wallace and Gromit build a rocket in the cellar.", "answer": true, "fix": ""},
+      {"s": "Gromit speaks a lot in the film.", "answer": false, "fix": "Gromit never speaks; he shows his feelings with his face."},
+      {"s": "The moon is made of cheese in this film.", "answer": true, "fix": ""},
+      {"s": "They find a machine on the moon.", "answer": true, "fix": ""},
+      {"s": "They go to the moon by plane.", "answer": false, "fix": "They go in a rocket that they build themselves."},
+      {"s": "The machine wants to go home with them.", "answer": false, "fix": "The machine wants to go skiing."}
+    ],
+    "shortAnswers": [
+      {"q": "Why do Wallace and Gromit go to the moon?", "model": "There is no cheese at home, and Wallace thinks the moon is made of cheese."},
+      {"q": "How does Gromit show what he thinks without words?", "model": "He looks at Wallace and moves his eyebrows and his eyes."},
+      {"q": "Why is the machine sad at the end?", "model": "It wants to go with them, but the rocket leaves without it."},
+      {"q": "Which invention in the film would you like to have, and why?", "model": "I would like the rocket, because I want to see the moon."}
+    ]
+  },
+  {
+    "id": "wrong-trousers",
+    "gaps": [
+      {"line": "The penguin sleeps in Gromit's ___.", "answer": "room", "hint": "a part of a house with a bed", "adapted": true},
+      {"line": "Gromit packs his ___ and leaves the house.", "answer": "bag", "hint": "you carry things in it", "adapted": true},
+      {"line": "The penguin goes to the ___ at night.", "answer": "museum", "hint": "a place with old and famous things", "adapted": true},
+      {"line": "The penguin is black and ___.", "answer": "white", "hint": "the colour of snow", "adapted": true},
+      {"line": "At the end, the penguin is in the ___.", "answer": "zoo", "hint": "a place with wild animals", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "What does the penguin carry when he arrives at the house?", "options": ["A small bag", "A big box", "A toy train"], "answer": 0, "why": "He arrives with one small bag and says nothing at all."},
+      {"q": "How does the penguin make Wallace walk at night?", "options": ["He carries him", "He calls him", "He uses the techno trousers"], "answer": 2, "why": "The trousers are remote-controlled, and Wallace does not know."},
+      {"q": "What does the penguin put on his head before he goes out?", "options": ["A red rubber glove", "A black hat", "A scarf"], "answer": 0, "why": "The glove makes him look like a chicken — his disguise."}
+    ],
+    "quotes": [
+      {"quote": "No words: the penguin puts a red rubber glove on his head.", "options": ["The penguin", "Wallace", "Gromit"], "answer": 0, "note": "A moment, not a line: the glove is his chicken disguise."},
+      {"quote": "No words: Gromit packs his bag and closes the door behind him.", "options": ["Gromit", "Wallace", "The penguin"], "answer": 0, "note": "A moment, not a line: he leaves home because the penguin takes his room."}
+    ],
+    "truefalse": [
+      {"s": "The techno trousers are a birthday present for Gromit.", "answer": true, "fix": ""},
+      {"s": "Gromit likes the penguin from the first day.", "answer": false, "fix": "Gromit does not trust the penguin and watches everything he does."},
+      {"s": "The penguin is a lodger in Wallace's house.", "answer": true, "fix": ""},
+      {"s": "The penguin steals a diamond from the museum.", "answer": true, "fix": ""},
+      {"s": "The chase happens in a supermarket.", "answer": false, "fix": "The chase happens on Wallace's model railway."},
+      {"s": "Wallace knows about the penguin's plan.", "answer": false, "fix": "Wallace knows nothing; the trousers take him out while he sleeps."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does Gromit leave home?", "model": "The penguin takes his room, so Gromit is sad and angry."},
+      {"q": "How does the penguin use the techno trousers?", "model": "At night he controls them, and they walk Wallace to the museum."},
+      {"q": "Why is the model railway important at the end?", "model": "The chase happens there, and Wallace and Gromit catch the penguin."},
+      {"q": "Which character do you like best, and why?", "model": "I like Gromit because he is quiet and clever, and he saves Wallace."}
+    ]
+  },
+  {
+    "id": "farmer-llamas",
+    "gaps": [
+      {"line": "The llamas are tall and they ___ a lot.", "answer": "spit", "hint": "throw water from the mouth", "adapted": true},
+      {"line": "Shaun is a clever ___ on the farm.", "answer": "sheep", "hint": "a farm animal with soft wool", "adapted": true},
+      {"line": "The Farmer brings the llamas home from the ___.", "answer": "fair", "hint": "a big market with games", "adapted": true},
+      {"line": "Bitzer blows his ___ to call the sheep.", "answer": "whistle", "hint": "a small thing that makes a loud sound", "adapted": true},
+      {"line": "Shaun and Bitzer make a ___ to stop the llamas.", "answer": "plan", "hint": "an idea for what to do", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "What is the farm dog's name?", "options": ["Shaun", "Bitzer", "Timmy"], "answer": 1, "why": "Bitzer is the dog who works with the Farmer."},
+      {"q": "What do the animals ride?", "options": ["A quad bike", "A car", "A bus"], "answer": 0, "why": "The quad bike goes fast round the farm, and nobody can stop it."},
+      {"q": "What do the llamas do when they are angry?", "options": ["They sing", "They spit", "They run away"], "answer": 1, "why": "They spit at the sheep and at Bitzer."}
+    ],
+    "quotes": [
+      {"quote": "No words: a llama spits at Bitzer and he falls over.", "options": ["Bitzer", "Timmy", "A llama"], "answer": 2, "note": "A moment, not a line: there is almost no dialogue in this film."},
+      {"quote": "No words: the Farmer comes home with a big grey rhinoceros.", "options": ["Shaun", "The Farmer", "Bitzer"], "answer": 1, "note": "A moment, not a line: the last joke of the film."}
+    ],
+    "truefalse": [
+      {"s": "The Farmer brings three llamas home from the fair.", "answer": true, "fix": ""},
+      {"s": "Bitzer is the farm dog.", "answer": true, "fix": ""},
+      {"s": "The llamas are small and quiet.", "answer": false, "fix": "They are tall, and they spit and make a lot of noise."},
+      {"s": "The llamas lock the Farmer in the wardrobe.", "answer": true, "fix": ""},
+      {"s": "Shaun is a pig.", "answer": false, "fix": "Shaun is a sheep, and he is the clever one."},
+      {"s": "The music makes the llamas wild and angry.", "answer": false, "fix": "The music makes them quiet and sleepy."}
+    ],
+    "shortAnswers": [
+      {"q": "Why are the sheep unhappy when the llamas arrive?", "model": "The llamas are big and rude, and they take their field and the Farmer's house."},
+      {"q": "How do Shaun and Bitzer make the llamas sleepy?", "model": "They play music on bottles and on a flute, and the llamas fall asleep."},
+      {"q": "Why does the music work?", "model": "The llamas love music, so they stop and listen, and then they sleep."},
+      {"q": "Which animal on the farm would you like to meet, and why?", "model": "I would like to meet Shaun because he is clever and he makes good plans."}
+    ]
+  },
+  {
+    "id": "for-the-birds",
+    "gaps": [
+      {"line": "The wire is between two tall ___.", "answer": "poles", "hint": "long sticks that hold a wire", "adapted": true},
+      {"line": "The big bird has a big ___.", "answer": "beak", "hint": "the mouth of a bird", "adapted": true},
+      {"line": "The little birds fall to the ___.", "answer": "ground", "hint": "the earth under your feet", "adapted": true},
+      {"line": "The big bird ___ at the little birds.", "answer": "laughs", "hint": "makes a happy sound", "adapted": true},
+      {"line": "The big bird is not angry, he is ___.", "answer": "friendly", "hint": "kind and nice", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "What colour are the little birds?", "options": ["Red", "Blue", "Green"], "answer": 1, "why": "Fifteen small blue birds sit together on the wire."},
+      {"q": "Where do the little birds fall?", "options": ["Into the water", "Into a tree", "To the ground"], "answer": 2, "why": "The wire throws them up, and then they fall down to the ground."},
+      {"q": "Who laughs at the end?", "options": ["The little birds", "The big bird", "Nobody"], "answer": 1, "why": "The big bird laughs, and then he gives a leaf to a bird with no feathers."}
+    ],
+    "quotes": [
+      {"quote": "No words: the big bird hangs from the wire by one last toe.", "options": ["A little bird", "The big bird", "The wind"], "answer": 1, "note": "A moment, not a line: there is no dialogue in this film."},
+      {"quote": "No words: the little birds fly up into the sky and lose their feathers.", "options": ["The big bird", "The wind", "The little birds"], "answer": 2, "note": "A moment, not a line: the wire works like a slingshot."}
+    ],
+    "truefalse": [
+      {"s": "The little birds sit on a telephone wire.", "answer": true, "fix": ""},
+      {"s": "The big bird is very small.", "answer": false, "fix": "The big bird is very big, and the wire goes down under him."},
+      {"s": "The little birds peck the big bird's toes.", "answer": true, "fix": ""},
+      {"s": "The big bird is angry and eats the little birds.", "answer": false, "fix": "The big bird is friendly; he laughs and gives them a leaf."},
+      {"s": "The wire throws the little birds into the air.", "answer": true, "fix": ""},
+      {"s": "The little birds keep all their feathers.", "answer": false, "fix": "They lose all their feathers."}
+    ],
+    "shortAnswers": [
+      {"q": "Why are the little birds angry with the big bird?", "model": "He is very big, and when he sits on the wire it goes down and they slide together."},
+      {"q": "How do the little birds try to make the big bird fall?", "model": "They peck his toes again and again."},
+      {"q": "Why does the big bird give the little bird a leaf?", "model": "The little bird has no feathers, and the big bird is kind and wants to help."},
+      {"q": "Which bird is funnier, the big bird or the little birds? Say why.", "model": "The big bird is funnier because he only wants to sit with them and he smiles all the time."}
+    ]
+  },
+  {
+    "id": "lava",
+    "gaps": [
+      {"line": "Uku sings to the ___ every day.", "answer": "sea", "hint": "the big salt water", "adapted": true},
+      {"line": "Uku is alone on a small ___.", "answer": "island", "hint": "land with water all around", "adapted": true},
+      {"line": "Uku watches the animals with their ___.", "answer": "families", "hint": "mothers, fathers and children", "adapted": true},
+      {"line": "Lele comes up out of the ___.", "answer": "water", "hint": "the sea is full of it", "adapted": true},
+      {"line": "The two volcanoes sing ___ at the end.", "answer": "together", "hint": "with each other", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "What does Uku sing to?", "options": ["The moon", "The sea", "The birds"], "answer": 1, "why": "He sings his song to the sea and hopes for an answer."},
+      {"q": "How long does Uku sing alone?", "options": ["For one day", "For a week", "For years"], "answer": 2, "why": "The song says 'years of singing all alone'."},
+      {"q": "How many volcanoes sing at the end?", "options": ["Two", "One", "Three"], "answer": 0, "why": "Uku and Lele sing together, and their two islands become one."}
+    ],
+    "quotes": [
+      {"quote": "Another volcano was listening to his song.", "options": ["Uku", "A bird", "Lele"], "answer": 2, "note": "A line from the song: Lele is under the water, and she hears every word."},
+      {"quote": "Uku's red fire goes out and grey stone covers him.", "options": ["Lele", "Uku", "The sea"], "answer": 1, "note": "A moment, not a line: we see the years go by as his lava turns to stone."}
+    ],
+    "truefalse": [
+      {"s": "Uku is a volcano on a small island.", "answer": true, "fix": ""},
+      {"s": "Lele lives under the sea.", "answer": true, "fix": ""},
+      {"s": "Uku is happy alone at the start.", "answer": false, "fix": "He is lonely and wants someone to love."},
+      {"s": "Lele is a big volcano at the start of the film.", "answer": false, "fix": "Lele is a small volcano under the water."},
+      {"s": "Uku's lava turns to stone over the years.", "answer": true, "fix": ""},
+      {"s": "The two volcanoes become two separate islands.", "answer": false, "fix": "They come together and become one island."}
+    ],
+    "shortAnswers": [
+      {"q": "Why is Uku sad at the start of the film?", "model": "He is alone on his island, and he wants someone to love."},
+      {"q": "How does Uku change over the years?", "model": "He sings alone for years, and his hot lava turns to grey stone."},
+      {"q": "Why is Uku happy at the end?", "model": "Lele comes out of the sea and sings his song, so he is not alone."},
+      {"q": "Which song is nicer, the first song or the last one? Say why.", "model": "The last song is nicer because two voices sing it together."}
+    ]
+  },
+  {
+    "id": "hair-love",
+    "gaps": [
+      {"line": "Dad sprays ___ on Zuri's hair.", "answer": "water", "hint": "you drink it", "adapted": true},
+      {"line": "Mum wears a scarf on her ___.", "answer": "head", "hint": "it is on top of your body", "adapted": true},
+      {"line": "Zuri's hair is full of small ___.", "answer": "curls", "hint": "round pieces of hair", "adapted": true},
+      {"line": "Doing Zuri's hair is a big ___ for Dad.", "answer": "job", "hint": "a piece of work", "adapted": true},
+      {"line": "It is a special ___ for Zuri and her dad.", "answer": "day", "hint": "24 hours", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "What colour is Zuri's hair?", "options": ["Red", "Black", "Yellow"], "answer": 1, "why": "Zuri has long, black, curly hair."},
+      {"q": "What does Mum do with her scarf at the end?", "options": ["She gives it to Zuri", "She puts it on", "She takes it off"], "answer": 2, "why": "She takes it off in the hospital and smiles at Zuri."},
+      {"q": "What does Zuri's hair look like after Dad finishes?", "options": ["Two round puffs", "One long plait", "Short and straight"], "answer": 0, "why": "Dad makes two round puffs, one on each side of her head."}
+    ],
+    "quotes": [
+      {"quote": "Dad puts his head in his hands and stops trying.", "options": ["Zuri", "Dad", "Mum"], "answer": 1, "note": "A moment, not a line: he is tired and the brush is stuck again."},
+      {"quote": "Dad watches the video and tries the hair again.", "options": ["Mum", "Zuri", "Dad"], "answer": 2, "note": "A moment, not a line: the video gives him a new idea."}
+    ],
+    "truefalse": [
+      {"s": "Zuri's dad does her hair in this film.", "answer": true, "fix": ""},
+      {"s": "Zuri's hair is short and straight.", "answer": false, "fix": "Her hair is long and curly."},
+      {"s": "Dad learns how to do Zuri's hair from a video.", "answer": true, "fix": ""},
+      {"s": "Mum is at home all day.", "answer": false, "fix": "Mum is in hospital."},
+      {"s": "Dad makes two round puffs in Zuri's hair.", "answer": true, "fix": ""},
+      {"s": "Mum is angry about her hair.", "answer": false, "fix": "Mum smiles, takes off her scarf and hugs her family."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does Dad find Zuri's hair difficult?", "model": "Her hair is long and curly, the brush gets stuck, and he has never done it before."},
+      {"q": "How does Dad learn to do the hair?", "model": "Zuri shows him a video, and he watches it and tries again."},
+      {"q": "Why does Mum take off her scarf?", "model": "She wants Zuri to see her head, and she is not afraid."},
+      {"q": "Why is the film called Hair Love?", "model": "Because the father shows his love by learning to do his daughter's hair."}
+    ]
+  },
+  {
+    "id": "the-present",
+    "gaps": [
+      {"line": "Mum puts the box on the ___.", "answer": "floor", "hint": "you walk on it", "adapted": true},
+      {"line": "The boy sits and plays a computer ___.", "answer": "game", "hint": "something fun on a screen", "adapted": true},
+      {"line": "The puppy wants to play with the ___.", "answer": "boy", "hint": "the child in the film", "adapted": true},
+      {"line": "The puppy falls down and gets ___ again.", "answer": "up", "hint": "not down", "adapted": true},
+      {"line": "The boy smiles at the ___ at the end.", "answer": "puppy", "hint": "a young dog", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Who brings the box into the room?", "options": ["His mother", "His father", "His sister"], "answer": 0, "why": "The mother puts the box down and leaves the boy alone with it."},
+      {"q": "What does the puppy bring to the boy?", "options": ["A bone", "A red ball", "A shoe"], "answer": 1, "why": "He finds a red ball and brings it to the boy again and again."},
+      {"q": "How does the puppy move around the room?", "options": ["He walks very slowly", "He jumps on the sofa", "He runs, falls and gets up"], "answer": 2, "why": "He has three legs, so he falls down, but he always gets up again."}
+    ],
+    "quotes": [
+      {"quote": "No words: the boy puts down his game and looks at the puppy.", "options": ["The mother", "The boy", "The puppy"], "answer": 1, "note": "A moment, not a line: there is no dialogue in this film."},
+      {"quote": "No words: the mother puts the box on the floor and leaves the room.", "options": ["The boy", "The puppy", "The mother"], "answer": 2, "note": "A moment, not a line: the present is a surprise, and the box is moving."}
+    ],
+    "truefalse": [
+      {"s": "The puppy has three legs.", "answer": true, "fix": ""},
+      {"s": "The boy is happy to see the puppy's three legs.", "answer": false, "fix": "He is angry, and he does not want the puppy near him."},
+      {"s": "The ball is red.", "answer": true, "fix": ""},
+      {"s": "The puppy stops trying to play.", "answer": false, "fix": "The puppy keeps trying and brings the ball again and again."},
+      {"s": "The boy has one leg.", "answer": true, "fix": ""},
+      {"s": "The boy stays inside at the end.", "answer": false, "fix": "He takes his crutches and goes outside to play."}
+    ],
+    "shortAnswers": [
+      {"q": "Why is the boy angry at the puppy?", "model": "The puppy has three legs like him, and he does not want to see that."},
+      {"q": "Why does the puppy keep getting up?", "model": "He wants to play with the boy, so he never stops trying."},
+      {"q": "What does the boy learn from the puppy?", "model": "He learns that he can still play and be happy with one leg."},
+      {"q": "How do you feel at the end of the film?", "model": "I feel happy because the boy and the puppy go outside together."}
+    ]
+  }
+]

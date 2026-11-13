@@ -1,0 +1,365 @@
+[
+  {
+    "id": "mulholland-drive",
+    "gaps": [
+      {"line": "It is all tape and ___.", "answer": "illusion", "hint": "something that looks real but is not", "adapted": true},
+      {"line": "She came to Hollywood to be in ___.", "answer": "pictures", "hint": "an old word for films", "adapted": true},
+      {"line": "Where is the blue ___?", "answer": "key", "hint": "it opens a small box", "adapted": true},
+      {"line": "I am staying at my aunt's ___.", "answer": "apartment", "hint": "a flat in a building", "adapted": true},
+      {"line": "She has a screen ___ on Monday.", "answer": "test", "hint": "a short filmed audition", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "The film breaks in two, and the same lines return in different mouths. What does that repetition suggest?", "options": ["The first half may be a dream built out of the second", "The second half is a sequel set years later", "All the characters are secretly related"], "answer": 0, "why": "The same sentences in new mouths are the film's main clue that one half is remembering the other."},
+      {"q": "Club Silencio tells us that every sound on stage is recorded. Why does the film confess this?", "options": ["To explain how the theatre pays its bills", "To make us distrust music we have already been moved by", "To warn that the projector is failing"], "answer": 1, "why": "The confession arrives exactly when the song has worked on us, so it turns our own feelings into part of the trick."},
+      {"q": "Why does the film show us the blue key long before we learn what it opens?", "options": ["So the plot can move faster", "So the audience forgets about it", "So its meaning builds before we can name it"], "answer": 2, "why": "An unexplained object gathers weight each time it appears; the film trusts the audience to hold the question."}
+    ],
+    "quotes": [
+      {"quote": "No hay banda.", "options": ["The master of ceremonies", "Rita", "Adam Kesher"], "answer": 0, "note": "Spanish for 'there is no band', repeated at Club Silencio until it sounds like a threat."},
+      {"quote": "I came here to be an actress.", "options": ["Rita", "Betty", "Diane"], "answer": 1, "note": "A close paraphrase of Betty's first scenes; the rest of the film tests that sentence."}
+    ],
+    "truefalse": [
+      {"s": "Rita takes her name from a poster for the film Gilda.", "answer": true, "fix": ""},
+      {"s": "Betty comes to Los Angeles to stay in her aunt's apartment and to audition.", "answer": true, "fix": ""},
+      {"s": "The blue key and the diner behind Winkie's both return in the second half.", "answer": true, "fix": ""},
+      {"s": "Adam Kesher is the detective who investigates the crash on the hill.", "answer": false, "fix": "Adam Kesher is a film director being pushed to cast a particular actress."},
+      {"s": "Betty and Rita are sisters who were separated as children.", "answer": false, "fix": "They meet as strangers when Rita hides in Aunt Ruth's apartment."},
+      {"s": "The Cowboy explains the mystery to Betty in the last scene.", "answer": false, "fix": "The Cowboy delivers a threat and explains nothing at all."}
+    ],
+    "shortAnswers": [
+      {"q": "What does the film refuse to explain about the woman called Rita?", "model": "It never says who she was before the crash, or whether her story exists outside Diane's head. It keeps her a surface, so we have to build a person out of a face and a borrowed name."},
+      {"q": "Why does the audition scene keep the camera so calm and so close?", "model": "The stillness lets us watch Betty become someone else the moment she starts to act. Because the camera does not cut, we cannot pretend the transformation is a trick of editing."},
+      {"q": "What is the cost of Diane's dream in the second half?", "model": "The dream costs her the only version of her life in which she is loved, and waking leaves her with a key, a box and a debt. The film makes the cost physical before it makes it emotional."},
+      {"q": "Why does the last shot belong to the blue-haired woman and a single word?", "model": "After two hours of noise the film finishes with a woman we have barely met telling us to be quiet. Silence is the only explanation it is willing to give."}
+    ]
+  },
+  {
+    "id": "there-will-be-blood",
+    "gaps": [
+      {"line": "I hate most ___.", "answer": "people", "hint": "human beings", "adapted": false},
+      {"line": "There are times when I look at people and see nothing worth ___.", "answer": "liking", "hint": "finding anything to value", "adapted": true},
+      {"line": "Cap the ___ before it blows.", "answer": "well", "hint": "a hole drilled for oil", "adapted": true},
+      {"line": "I am a false ___.", "answer": "prophet", "hint": "a person who claims to speak for God", "adapted": false},
+      {"line": "They are laying a ___ to the coast.", "answer": "pipeline", "hint": "a long pipe that carries oil", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "The film opens with five minutes of work and almost no speech. What does that opening establish?", "options": ["Daniel's body and his trade before we hear his voice", "The town's hostility to outsiders", "Eli's power over the workers"], "answer": 0, "why": "We meet the man as a body in a hole before he is allowed to explain himself, and that order never quite reverses."},
+      {"q": "The score sounds more like a warning than a tune. What does that do to scenes that look calm?", "options": ["It makes the dialogue harder to hear", "It keeps us tense inside them", "It tells us the town band is playing"], "answer": 1, "why": "The strings rise under polite conversation, so the audience feels the threat before any character states it."},
+      {"q": "Daniel calls Eli's faith a superstition. What does the film do with that claim?", "options": ["It has no interest in religion", "It proves that Daniel is right", "It shows both men using belief as a tool"], "answer": 2, "why": "Eli sells belief to a crowd and Daniel sells land; the film keeps the two performances side by side rather than choosing."}
+    ],
+    "quotes": [
+      {"quote": "I hate most people.", "options": ["Daniel Plainview", "Eli Sunday", "Henry"], "answer": 0, "note": "Said quietly in a half-lit room, and the closest the film comes to a confession."},
+      {"quote": "I am a false prophet.", "options": ["Daniel Plainview", "Eli Sunday", "Abel Sunday"], "answer": 1, "note": "Eli's forced confession in the bowling alley; it is the price of his life."}
+    ],
+    "truefalse": [
+      {"s": "Daniel builds a pipeline to the coast so he can send his oil out without the railways.", "answer": true, "fix": ""},
+      {"s": "Eli asks Daniel to pay for his church, and Daniel later uses that debt to humiliate him.", "answer": true, "fix": ""},
+      {"s": "The film opens in a mine shaft, years before the oil business begins.", "answer": true, "fix": ""},
+      {"s": "Daniel is a generous employer who shares the profits with the town.", "answer": false, "fix": "He pays as little as he can and treats the town as land to be signed."},
+      {"s": "Eli heals people and asks for nothing in return.", "answer": false, "fix": "Eli performs healings and demands money and credit for the church."},
+      {"s": "The man who arrives claiming to be Daniel's brother really is his brother.", "answer": false, "fix": "He is an impostor, and Daniel kills him once he is sure."}
+    ],
+    "shortAnswers": [
+      {"q": "What does the film refuse to explain about Daniel's past?", "model": "It gives us one long confession in a dark room and no dates, no family and no reason for the hatred. The gap is the point: we are asked to judge a man whose history has been kept from us."},
+      {"q": "Why is the church scene played with Daniel on the floor and Eli above him?", "model": "The frame gives Eli every advantage of height while the dialogue gives Daniel every advantage of money. The film wants us to feel that power can be borrowed from a room and then taken back."},
+      {"q": "What is the cost of Daniel's competition, and who pays it?", "model": "H.W., the man who called himself Henry, Eli's dignity and finally Daniel's own company are all spent on it. The film counts the cost in people rather than in dollars."},
+      {"q": "Why does the last scene stay in a wide, calm frame while the violence happens?", "model": "The stillness refuses to let the audience call the killing a thrill. By not moving, the camera behaves like a witness who has seen this before."}
+    ]
+  },
+  {
+    "id": "barry-lyndon",
+    "gaps": [
+      {"line": "I remain your most ___ servant.", "answer": "obedient", "hint": "willing to do as you are told", "adapted": true},
+      {"line": "He is a man of no ___.", "answer": "fortune", "hint": "money and property", "adapted": true},
+      {"line": "The ___ are in your favour.", "answer": "odds", "hint": "the numbers that decide a bet", "adapted": true},
+      {"line": "By what ___ do you claim it?", "answer": "right", "hint": "a moral or legal claim", "adapted": true},
+      {"line": "He bought a ___ in the army.", "answer": "commission", "hint": "an officer's rank, paid for with money", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "The narrator often tells us the outcome before the scene is played. What does that do to suspense?", "options": ["It replaces suspense with judgement: we watch how, not whether", "It removes all interest from the duels", "It proves the narrator was in the room"], "answer": 0, "why": "Knowing the ending turns each scene into evidence, and the voice quietly tells us how to weigh it."},
+      {"q": "Why does Kubrick slowly pull the camera back instead of cutting closer in emotional scenes?", "options": ["The lens could not focus any closer", "It makes the people look small inside their own lives", "It hides the actors' faces from the audience"], "answer": 1, "why": "Distance turns feeling into a picture, so we observe the characters instead of dissolving into them."},
+      {"q": "The film is lit almost entirely by candlelight. What does that do to the faces?", "options": ["It hides which character is speaking", "It makes everyone look younger", "It makes them look like paintings we study rather than people we identify with"], "answer": 2, "why": "The soft, painted light frames every face like a portrait, which keeps us at a cool, judging distance."}
+    ],
+    "quotes": [
+      {"quote": "You are no gentleman, sir.", "options": ["Lady Lyndon", "Lord Bullingdon", "Captain Quin"], "answer": 1, "note": "Bullingdon's verdict on his stepfather; the wording is a close paraphrase of the film's cold exchanges."},
+      {"quote": "I have lost everything.", "options": ["Lady Lyndon", "The narrator", "Barry"], "answer": 2, "note": "A paraphrase of Barry's position at the tables, and the sentence the whole film keeps proving."}
+    ],
+    "truefalse": [
+      {"s": "Barry marries Lady Lyndon after her husband dies, and her son never accepts him.", "answer": true, "fix": ""},
+      {"s": "Barry escapes the army by taking another officer's uniform and papers.", "answer": true, "fix": ""},
+      {"s": "Bryan, Barry's young son, dies after a fall from a horse.", "answer": true, "fix": ""},
+      {"s": "Barry wins the last duel and returns to England in triumph.", "answer": false, "fix": "He is wounded in the duel and leaves England ruined."},
+      {"s": "Lady Lyndon has no money of her own and marries Barry for love.", "answer": false, "fix": "She is very rich, and the film leaves her feelings for Barry in doubt."},
+      {"s": "Barry stays a soldier for the whole film and never returns to civilian life.", "answer": false, "fix": "He leaves the army, lives by gambling and cards, and ends in poverty."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does the film keep Barry's own thoughts out of the narration?", "model": "A narrator who judged him from inside would make him either a hero or a villain. By staying outside, the film makes Barry a surface that other people read, which is exactly what he does to them."},
+      {"q": "What is the cost of Barry's social climbing, and who pays it?", "model": "Bryan's death and Lady Lyndon's grief are the bills, and Barry pays with his leg and his name. The film lets the family pay first."},
+      {"q": "Why is the last duel shot at a distance and without music?", "model": "The wide shot makes two men look like a formality being carried out rather than a climax. With no music to tell us how to feel, we supply the judgement ourselves."},
+      {"q": "What does the film refuse to explain about Lady Lyndon?", "model": "It never tells us whether she loves Barry, tolerates him or is simply trapped. Her face in the candlelight is the only evidence, and it is not enough to settle the question."}
+    ]
+  },
+  {
+    "id": "the-favourite",
+    "gaps": [
+      {"line": "The ___ will vote on the peace.", "answer": "Parliament", "hint": "the body that makes the laws", "adapted": true},
+      {"line": "Everyone at court is thinking about the ___.", "answer": "succession", "hint": "who takes the throne next", "adapted": true},
+      {"line": "You have the queen's ___ now.", "answer": "ear", "hint": "her attention and her trust", "adapted": true},
+      {"line": "Her majesty suffers from ___.", "answer": "gout", "hint": "a painful disease of the joints", "adapted": true},
+      {"line": "She was ___ from court before the winter.", "answer": "dismissed", "hint": "officially removed from her position", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "The film uses wide lenses and very low light. What does that do to the court?", "options": ["It makes the rooms huge and the people small and strange", "It makes the palace look cheap", "It hides which character is speaking"], "answer": 0, "why": "The distorted width turns a palace into a space where people are specimens, and the darkness keeps half of each face unreadable."},
+      {"q": "Why does a court of 1708 speak in modern slang and swearing?", "options": ["Because the writers could not find period sources", "So the cruelty sounds like something we might say today", "To show that the queen was uneducated"], "answer": 1, "why": "The modern idiom removes the safety of distance: these insults could be said in a corridor now."},
+      {"q": "Why does the last shot hold on the two women for so long?", "options": ["It shows that Abigail has been forgiven", "It is simply waiting for the credits", "It leaves the question of who has won uncomfortably open"], "answer": 2, "why": "The film ends on a hand and a face rather than a verdict, so the audience has to decide what the victory is worth."}
+    ],
+    "quotes": [
+      {"quote": "I am a lady now.", "options": ["Sarah", "Abigail", "Anne"], "answer": 1, "note": "Paraphrased from Abigail's insistence on her new status after her marriage."},
+      {"quote": "The war is ruining this country.", "options": ["Sarah", "Anne", "Harley"], "answer": 2, "note": "Harley's case for peace, which is also his route to power."}
+    ],
+    "truefalse": [
+      {"s": "Abigail marries Samuel Masham and gains a title and a place at court.", "answer": true, "fix": ""},
+      {"s": "Sarah is the queen's oldest friend and manages much of the household and the war.", "answer": true, "fix": ""},
+      {"s": "The battle scenes are distant, muddy and confusing rather than heroic.", "answer": true, "fix": ""},
+      {"s": "Anne has seventeen children and they live with her at court.", "answer": false, "fix": "She has lost seventeen children, and the rabbits stand for them."},
+      {"s": "Harley works to keep Sarah at court.", "answer": false, "fix": "Harley works against Sarah and helps Abigail take her place."},
+      {"s": "Abigail arrives at court as a rich and welcome guest.", "answer": false, "fix": "She arrives dirty and desperate and is treated as a servant."}
+    ],
+    "shortAnswers": [
+      {"q": "What is the cost of Abigail's success, and who pays it?", "model": "She wins the queen's ear and loses any life of her own, and the last shot makes that price visible. Sarah pays too, but she keeps the one thing Abigail traded away."},
+      {"q": "Why does the film keep the war off screen and its violence brief?", "model": "The war is a bargaining chip in the corridors, so the film shows it as noise and mud rather than as heroism. What matters is who can end it, not who fights it."},
+      {"q": "What does the film refuse to explain about Anne's grief?", "model": "It never gives Anne a scene of mourning; we count rabbits instead of hearing her speak. That refusal makes the court's politeness look like a way of not saying the obvious."},
+      {"q": "Why is the final shot so uncomfortable to watch?", "model": "The camera stays on two faces long after the dialogue has stopped, so we cannot pretend the story is over. It asks us to watch a relationship that has turned into a job."}
+    ]
+  },
+  {
+    "id": "macbeth",
+    "gaps": [
+      {"line": "Yet do I fear thy ___.", "answer": "nature", "hint": "your character, what you are like inside", "adapted": false},
+      {"line": "Screw your ___ to the sticking-place.", "answer": "courage", "hint": "bravery", "adapted": false},
+      {"line": "All the perfumes of ___ will not sweeten this hand.", "answer": "Arabia", "hint": "a country famous for its scents", "adapted": true},
+      {"line": "Out, out, brief ___!", "answer": "candle", "hint": "a wax light", "adapted": false},
+      {"line": "Tomorrow, and tomorrow, and tomorrow creeps in this petty ___.", "answer": "pace", "hint": "a step, or the speed of walking", "adapted": false}
+    ],
+    "quiz": [
+      {"q": "The film cuts many of Shakespeare's speeches and lets wind, mud and fire carry the meaning. What does that gain?", "options": ["The audience reads bodies and weather instead of waiting for explanations", "It made the film cheaper to shoot", "It removes the need for actors"], "answer": 0, "why": "With the verse thinned out, the audience has to interpret faces and landscape, which is closer to how the play works in a theatre."},
+      {"q": "Much of the dialogue is whispered. What does that do to the audience?", "options": ["It makes the words easier to follow", "It makes us lean in and makes the court feel secretive", "It shows that the characters are ill"], "answer": 1, "why": "Whispering forces close attention and turns public scenes into conspiracies we are eavesdropping on."},
+      {"q": "Why does the film show the murder of Macduff's family rather than report it?", "options": ["It gives Lady Macbeth more screen time", "It explains the prophecy", "It makes the cost of Macbeth's rule concrete"], "answer": 2, "why": "A reported murder is information; a shown one is a debt the audience carries into the final battle."}
+    ],
+    "quotes": [
+      {"quote": "Yet do I fear thy nature.", "options": ["Macbeth", "Lady Macbeth", "The witches"], "answer": 1, "note": "She reads her husband's letter and finds him too kind for the plan she already has."},
+      {"quote": "Out, out, brief candle.", "options": ["Malcolm", "The porter", "Macbeth"], "answer": 2, "note": "Said after his wife's death, when he has no feeling left to spend on it."}
+    ],
+    "truefalse": [
+      {"s": "Macbeth is made Thane of Cawdor after the opening battle.", "answer": true, "fix": ""},
+      {"s": "Lady Macbeth dies before the final battle, and Macbeth meets the news with almost no feeling.", "answer": true, "fix": ""},
+      {"s": "Banquo's ghost appears at the banquet and only Macbeth can see it.", "answer": true, "fix": ""},
+      {"s": "Macbeth kills Duncan to protect him from his enemies.", "answer": false, "fix": "He kills him out of ambition, pushed by the prophecy and by his wife."},
+      {"s": "Lady Macbeth dies in the same battle as her husband.", "answer": false, "fix": "She dies before the battle, off screen, and he barely reacts."},
+      {"s": "The witches tell Macbeth exactly how to keep his crown.", "answer": false, "fix": "They give him riddles that sound like safety and work like traps."}
+    ],
+    "shortAnswers": [
+      {"q": "What does the film refuse to explain about the witches?", "model": "It never says whether they cause the future or only describe it, and it keeps them half out of frame. That uncertainty is what makes Macbeth's choices feel like his own."},
+      {"q": "Why is the sleepwalking scene shot in near darkness?", "model": "The darkness makes her hands the only bright thing in the frame, which is where the guilt is. It also stops us reading her face, so the voice has to do the work."},
+      {"q": "What is the cost of Macbeth's ambition, and who pays it?", "model": "His wife, his friend, Macduff's family and finally his own name are the price. The film counts the cost in bodies rather than in crowns."},
+      {"q": "Why does the film keep the blood on faces and hands instead of washing it away?", "model": "The blood is the only record of what has been done in a film that cuts most of the explaining. Keeping it visible makes the murders cumulative rather than separate."}
+    ]
+  },
+  {
+    "id": "glengarry",
+    "gaps": [
+      {"line": "These are the ___ leads.", "answer": "Glengarry", "hint": "the name of the best property in the office", "adapted": false},
+      {"line": "And to you they are ___.", "answer": "gold", "hint": "a precious metal", "adapted": false},
+      {"line": "Did you get the ___?", "answer": "signature", "hint": "the name written on a contract", "adapted": true},
+      {"line": "He has put nothing on the ___ this week.", "answer": "board", "hint": "the list of sales results on the wall", "adapted": true},
+      {"line": "He works on straight ___.", "answer": "commission", "hint": "a share of each sale instead of a salary", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "The film almost never leaves the office, the diner and the street outside. What does that restriction do?", "options": ["It makes the men's world feel closed and inescapable", "It only saves money on locations", "It shows us the property they are selling"], "answer": 0, "why": "With no wider world on screen, the office becomes the whole universe and every conversation becomes a last chance."},
+      {"q": "Why does the camera keep moving in a film that is nearly all talk?", "options": ["It shows off the office furniture", "It keeps the pressure physical while the words do the damage", "It hides the actors' faces"], "answer": 1, "why": "The restless camera turns talking into action, so a scene of men on telephones feels like a fight."},
+      {"q": "Blake's speech was written for the film and not for the play. What does that suggest?", "options": ["The play had no salesmen in it", "The writer had forgotten his own play", "The film wants a visible outside force to start the fear"], "answer": 2, "why": "Blake arrives from somewhere above the office, delivers the threat and leaves, so the pressure has a face rather than a rumour."}
+    ],
+    "quotes": [
+      {"quote": "You see this watch?", "options": ["Roma", "Blake", "Williamson"], "answer": 1, "note": "The opening of the humiliation: the watch costs more than the listener's car."},
+      {"quote": "I was a closer once.", "options": ["Moss", "Roma", "Shelley"], "answer": 2, "note": "A paraphrase of Shelley's whole defence of himself, and the reason the others have stopped listening."}
+    ],
+    "truefalse": [
+      {"s": "Blake appears only at the start of the film and never comes back.", "answer": true, "fix": ""},
+      {"s": "Moss proposes breaking into the office to steal the leads.", "answer": true, "fix": ""},
+      {"s": "Almost every outdoor scene in the film takes place at night or in the rain.", "answer": true, "fix": ""},
+      {"s": "Roma is the office manager who controls the leads and the keys.", "answer": false, "fix": "Williamson is the manager; Roma is the salesman who has to beg him."},
+      {"s": "The men are selling land they have visited and can describe in detail.", "answer": false, "fix": "None of them has seen the land; they sell it down a telephone."},
+      {"s": "Shelley is the youngest man in the office and the best closer.", "answer": false, "fix": "Shelley is the oldest, and he was the best closer years ago."}
+    ],
+    "shortAnswers": [
+      {"q": "What does the film refuse to show us, and why does that make the office feel like a trap?", "model": "We never see the land or the buyers, only voices and paper, so the product becomes pure talk. A trap is exactly right for men who cannot check whether anything they say is true."},
+      {"q": "What is the cost of 'always be closing', and who pays it?", "model": "The men pay with their sleep, their dignity and finally their jobs. The buyers pay too, in money for land that exists only on a map."},
+      {"q": "Why is Blake's speech shot with him moving around the room?", "model": "He invades the space of every man he speaks to, so the camera makes the threat physical without a blow. The movement also means nobody can politely look away."},
+      {"q": "Is Shelley a victim, a thief, or both?", "model": "He was made by this system and then discarded by it, and he steals because the system taught him that only winning counts. The film lets him be both, which is why the ending is cruel rather than satisfying."}
+    ]
+  },
+  {
+    "id": "the-big-short",
+    "gaps": [
+      {"line": "They rated it ___.", "answer": "AAA", "hint": "the safest credit rating", "adapted": true},
+      {"line": "The interest rate ___ after two years.", "answer": "resets", "hint": "changes to a new level", "adapted": true},
+      {"line": "It is a ___ default swap.", "answer": "credit", "hint": "the C in CDS", "adapted": true},
+      {"line": "The bank is too big to ___.", "answer": "fail", "hint": "go under", "adapted": true},
+      {"line": "The whole system is ___.", "answer": "rigged", "hint": "dishonestly controlled", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "The film stops to explain its jargon straight to camera, then jokes about explaining it. What does that do?", "options": ["It lets us laugh at our own confusion while still learning the term", "It proves the terms cannot be explained", "It hides the plot from the audience"], "answer": 0, "why": "The joke admits that the subject is designed to be boring, and the explanation makes sure we cannot hide behind that excuse."},
+      {"q": "Why does the film cut from a bathtub to a blackjack table to a stripper with five mortgages?", "options": ["To advertise the casinos", "To make a dull system feel like a scam we can enjoy watching", "To show that all the characters are friends"], "answer": 1, "why": "The comedy keeps us entertained by the very behaviour we are being asked to condemn."},
+      {"q": "Why does the film end with statistics about jobs and homes lost?", "options": ["To prove the numbers were invented", "To set up a sequel about banks", "To turn the investors' win into a public cost"], "answer": 2, "why": "The final captions take the profit away from the characters and hand the bill to people who never appear on screen."}
+    ],
+    "quotes": [
+      {"quote": "You bet against the American economy.", "options": ["Mark Baum", "Ben Rickert", "Jared Vennett"], "answer": 1, "note": "Said to men who have just become rich, and the film's moral centre in one sentence; a close paraphrase."},
+      {"quote": "This is fraud.", "options": ["Michael Burry", "Ben Rickert", "Mark Baum"], "answer": 2, "note": "Baum's conclusion in Florida, and the word the film keeps returning to; paraphrased."}
+    ],
+    "truefalse": [
+      {"s": "Burry reads the mortgage documents and realises the rates will reset and many borrowers will fail.", "answer": true, "fix": ""},
+      {"s": "The film uses famous faces and direct address to camera to explain financial terms.", "answer": true, "fix": ""},
+      {"s": "Burry's investors try to take their money back when his bet looks wrong.", "answer": true, "fix": ""},
+      {"s": "The banks refuse to sell Burry the swaps because they know the market is unsafe.", "answer": false, "fix": "They sell gladly, because they think he is throwing his money away."},
+      {"s": "The film presents the crash as a natural disaster with nobody to blame.", "answer": false, "fix": "It names the banks, the lenders and the ratings agencies as the makers of it."},
+      {"s": "Baum makes his fortune and ends the film happy.", "answer": false, "fix": "He ends the film sickened by what the winnings mean."}
+    ],
+    "shortAnswers": [
+      {"q": "What does the film explain twice, and what does it never explain?", "model": "It explains the jargon twice, with jokes, so nobody can claim they did not understand. It never explains why the people who saw it coming did so little, which is the harder question."},
+      {"q": "Why does the film keep interrupting itself with direct address?", "model": "The subject is a system designed to be unreadable, so the film has to break its own story to be understood. The interruptions are also a joke about how easily we accept nonsense."},
+      {"q": "What is the cost of being right early, as Burry is?", "model": "He loses his investors' trust and years of his life while everyone tells him he is wrong. Being right early looks exactly like being wrong until the moment it does not."},
+      {"q": "Is the film an explanation or an accusation?", "model": "It explains enough to make the accusation legible, then uses the ending to point it at named institutions. The comedy keeps the audience in the room while the charge is read out."}
+    ]
+  },
+  {
+    "id": "tinker-tailor",
+    "gaps": [
+      {"line": "We ___ him for six weeks.", "answer": "tailed", "hint": "followed him secretly", "adapted": true},
+      {"line": "Meet me at the ___ house.", "answer": "safe", "hint": "a secret place where people can talk", "adapted": true},
+      {"line": "He is a ___, not a friend.", "answer": "defector", "hint": "someone who leaves one country for another", "adapted": true},
+      {"line": "They put him in the ___ and left him there.", "answer": "cold", "hint": "out of the service, forgotten", "adapted": true},
+      {"line": "His ___ was blown in Budapest.", "answer": "cover", "hint": "the story that hides who you really are", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "The film cuts away from important conversations and shows us the aftermath. What does that make the audience do?", "options": ["Build the scene from evidence, like an investigator", "Lose interest in the plot", "Trust the narrator more"], "answer": 0, "why": "We are given the same fragments the officers have, so understanding the scene becomes the exercise."},
+      {"q": "Why is the palette grey, brown and washed out?", "options": ["It hides the fact that the film is set in summer", "It makes the offices feel like part of the plot", "It shows that the characters are ill"], "answer": 1, "why": "The building and the men are the same colour, so the institution looks like something they cannot step outside of."},
+      {"q": "Why is the Christmas party, the warmest scene, placed near the centre of a cold film?", "options": ["It gives the actors a break from the plot", "It proves the Circus is a happy family", "It shows friendship as the place where betrayal is easiest"], "answer": 2, "why": "The one room with music and affection is also the room where the audience learns how close the betrayal was."}
+    ],
+    "quotes": [
+      {"quote": "There is a mole at the top of the Circus.", "options": ["Smiley", "Control", "Alleline"], "answer": 1, "note": "The sentence that starts the search; a close paraphrase of Control's warning."},
+      {"quote": "You were always the clever one, George.", "options": ["Control", "Percy Alleline", "Bill Haydon"], "answer": 2, "note": "Haydon's affection and condescension in one line; paraphrased from their last conversation."}
+    ],
+    "truefalse": [
+      {"s": "Smiley is brought back from retirement to find the mole.", "answer": true, "fix": ""},
+      {"s": "Haydon is the mole.", "answer": true, "fix": ""},
+      {"s": "Smiley's wife, Ann, has been having an affair with Haydon.", "answer": true, "fix": ""},
+      {"s": "Smiley is loud and impatient and shouts at his colleagues.", "answer": false, "fix": "He is quiet and patient, and he wins by listening."},
+      {"s": "The mole is caught because he leaves a written confession in the files.", "answer": false, "fix": "There is almost no written evidence; Smiley catches him by comparing what people say."},
+      {"s": "Prideaux is shot in Hungary and dies there.", "answer": false, "fix": "He survives the shooting and later lives quietly as a school teacher."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does the film refuse to explain the plot twice?", "model": "It treats the audience as another intelligence officer who can hold a file in their head. The confusion is the subject: every character is working from fragments as well."},
+      {"q": "What is the cost of Smiley's patience?", "model": "He wins the argument and loses his wife, his friend and any belief that the service deserves him. The film lets the victory look like the loneliest possible outcome."},
+      {"q": "Why does the camera sit still in long takes during conversations?", "model": "Stillness makes us watch for the small betrayals, a glance or a pause, that the dialogue is hiding. Cutting would give us the excitement the film is deliberately withholding."},
+      {"q": "What does the film leave unsaid about Ann?", "model": "We hear about her only from men describing their own wounds. She is the one character with no scene of her own, and that absence is how the film measures what the job costs."}
+    ]
+  },
+  {
+    "id": "under-the-skin",
+    "gaps": [
+      {"line": "What is your ___?", "answer": "name", "hint": "what someone is called", "adapted": true},
+      {"line": "I do not get ___ much.", "answer": "out", "hint": "away from home, among people", "adapted": true},
+      {"line": "Where are we ___?", "answer": "going", "hint": "moving towards somewhere", "adapted": true},
+      {"line": "Do you want to come ___?", "answer": "in", "hint": "inside the house", "adapted": true},
+      {"line": "Could you give me a ___?", "answer": "hand", "hint": "some help", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "The film repeats the same pick-up with different men. What does the repetition do?", "options": ["It turns an atrocity into a routine, then makes the routine unbearable", "It shows she is learning to drive", "It fills time before the plot starts"], "answer": 0, "why": "By the fourth van the audience knows the ending, and the film uses that knowledge to make the ordinariness sickening."},
+      {"q": "Why does the camera often stay inside the van at eye level?", "options": ["It was the only way to record the sound", "It puts us in the seat beside her, close enough to feel the trap close", "It hides the Scottish landscape"], "answer": 1, "why": "Sitting at her shoulder, we become a passenger in the scene rather than a judge watching from outside it."},
+      {"q": "The black room has no furniture, no horizon and almost no sound. What does that space remove?", "options": ["The need for a script", "The possibility of music", "Every clue that would tell us where we are or what is real"], "answer": 2, "why": "With nothing to measure the space against, the audience loses the bearings that would let us explain what we are seeing."}
+    ],
+    "quotes": [
+      {"quote": "Do you want to come with me?", "options": ["The motorcyclist", "The woman", "A man on the beach"], "answer": 1, "note": "Almost her whole script, and the sentence she uses to make strangers follow her."},
+      {"quote": "Where are we going?", "options": ["The woman", "The child on the beach", "A man in the van"], "answer": 2, "note": "The men ask it, and the film never gives an answer."}
+    ],
+    "truefalse": [
+      {"s": "Many of the men in the van were not actors and did not know they were being filmed.", "answer": true, "fix": ""},
+      {"s": "The woman rarely answers questions about herself, and her face stays still while the men talk.", "answer": true, "fix": ""},
+      {"s": "The beach sequence is filmed from a distance, and we watch people in trouble without being taken close to them.", "answer": true, "fix": ""},
+      {"s": "The woman is a human being who has lost her memory.", "answer": false, "fix": "She is something other than human, learning what people are by watching them."},
+      {"s": "The motorcyclist is a police officer trying to stop her.", "answer": false, "fix": "He is one of her own kind, watching her and clearing up afterwards."},
+      {"s": "The film explains where she comes from in a short laboratory scene.", "answer": false, "fix": "No such scene exists; the film never explains her origin."}
+    ],
+    "shortAnswers": [
+      {"q": "What does the film refuse to explain about where she comes from?", "model": "We never see a ship, a laboratory or a home, only a van and a black room. Without an origin she becomes pure behaviour, and the audience has to read her like an animal or a child."},
+      {"q": "Why does the film use non-actors in the van?", "model": "Their hesitation and ordinary faces make the encounters feel unscripted, so we cannot file them safely as fiction. That discomfort is the film's real subject."},
+      {"q": "What is the cost of her curiosity about being human?", "model": "She loses the protection of being nothing, and the world answers her with violence. The film treats tenderness as the most dangerous thing she learns."},
+      {"q": "Why does the score sound like an alarm rather than a melody?", "model": "The strings scrape and repeat, so the sound says something is being tracked rather than something is being felt. It keeps the audience in the position of the watched."}
+    ]
+  },
+  {
+    "id": "the-lighthouse",
+    "gaps": [
+      {"line": "Let ___ strike ye dead!", "answer": "Neptune", "hint": "the Roman god of the sea", "adapted": true},
+      {"line": "It is bad luck to kill a ___.", "answer": "seabird", "hint": "a bird that lives on the sea", "adapted": true},
+      {"line": "Ye will not climb the ___ without me.", "answer": "tower", "hint": "the tall building on the rock", "adapted": true},
+      {"line": "The ___ is not coming.", "answer": "boat", "hint": "the vessel that would take them home", "adapted": true},
+      {"line": "Do ye ___ me, boy?", "answer": "hear", "hint": "listen to what I am saying", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "The film is shot in black and white on an almost square frame. What does that do to the two men?", "options": ["It makes them look shut in and pressed together", "It makes the sea look calm", "It helps us read the period costumes"], "answer": 0, "why": "The narrow frame leaves no room at the edges, so the two faces fill the space and the island feels like a wall."},
+      {"q": "Why does the sound design use foghorns, wind and a low drone?", "options": ["It covers a lack of dialogue", "It wears the audience down before anything is explained", "It shows the island is near a town"], "answer": 1, "why": "The noise works on the body, so we are unsettled before we have understood a single line of the dialect."},
+      {"q": "Wake tells the same stories in different versions. What does that suggest?", "options": ["That he is losing his memory", "That Winslow is imagining him", "That his authority is a performance he keeps rebuilding"], "answer": 2, "why": "Each retelling adds a detail that suits the moment, which tells us the truth matters less to him than the effect."}
+    ],
+    "quotes": [
+      {"quote": "Let Neptune strike ye dead!", "options": ["Winslow", "Wake", "The gull"], "answer": 1, "note": "From the long curse in the middle of the film, aimed at Winslow and at the sea at once."},
+      {"quote": "I want what I am owed.", "options": ["Wake", "The keeper before", "Winslow"], "answer": 2, "note": "Paraphrased from Winslow's demand for his wages, which is also a demand for respect."}
+    ],
+    "truefalse": [
+      {"s": "The film is black and white and framed almost square.", "answer": true, "fix": ""},
+      {"s": "Winslow kills a gull after Wake warns him it brings bad luck.", "answer": true, "fix": ""},
+      {"s": "The two men drink heavily, and the drinking blurs what is real.", "answer": true, "fix": ""},
+      {"s": "Wake lets Winslow into the lamp room whenever he asks.", "answer": false, "fix": "Wake keeps the lamp room locked and forbids Winslow to enter."},
+      {"s": "Winslow is a cheerful young man who enjoys the work.", "answer": false, "fix": "He is sullen, secretive and increasingly violent."},
+      {"s": "The film ends with a rescue boat and both men going home.", "answer": false, "fix": "No boat comes, and the ending is a violent, unexplained image."}
+    ],
+    "shortAnswers": [
+      {"q": "What does the film refuse to explain about the lamp?", "model": "It never says what is inside the lens or why Wake worships it, and it never lets us look for long. The refusal keeps the lamp powerful in a way an explanation would ruin."},
+      {"q": "Why is the film in black and white?", "model": "The grey sea and white sky put the men on the same scale as the rock, so the island looks like a fact rather than a set. Colour would give the landscape a beauty the story does not allow."},
+      {"q": "What is the cost of Wake's authority, and who pays it?", "model": "Winslow pays with his sanity and Wake with his life, and neither of them ever admits the debt. The authority was only ever a story about a light."},
+      {"q": "Why does the film end on an image rather than an explanation?", "model": "An explanation would decide which of the two men's stories was true. The image leaves both versions possible and makes the audience carry the doubt out of the cinema."}
+    ]
+  },
+  {
+    "id": "fleabag-s1e1",
+    "gaps": [
+      {"line": "I need a ___ to keep the cafe open.", "answer": "loan", "hint": "money borrowed from a bank", "adapted": true},
+      {"line": "It is not what it ___.", "answer": "looks", "hint": "seems to be", "adapted": true},
+      {"line": "I have got a lot on my ___.", "answer": "plate", "hint": "a lot of things to deal with", "adapted": true},
+      {"line": "I am not in the ___ for this.", "answer": "mood", "hint": "how you feel just now", "adapted": true},
+      {"line": "You have got it all ___.", "answer": "wrong", "hint": "not correct", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "She talks to the camera at the moments when she is least honest with the people in the room. What does that make us?", "options": ["Accomplices in the lie rather than judges of it", "Her therapists", "Complete strangers"], "answer": 0, "why": "We are told the truth in the aside and then watch her lie, so our silence becomes part of the performance."},
+      {"q": "The bank manager thinks her jokes are an offer of sex. How does the scene use that?", "options": ["It proves she wanted the loan for sex", "It shows that her performance of confidence is read as something else entirely", "It shows that the bank is generous"], "answer": 1, "why": "For once she is not trying anything, and the misreading exposes how little control she has over what she signals."},
+      {"q": "The episode is twenty-seven minutes and mostly comic. Where does the sadness come through?", "options": ["In the music", "In the scenes with her father", "In the pauses just before and after the jokes"], "answer": 2, "why": "The comedy is a timing trick, and the half-second of stillness either side of a punchline is where the grief sits."}
+    ],
+    "quotes": [
+      {"quote": "It is a guinea-pig cafe.", "options": ["Claire", "Fleabag", "The bank manager"], "answer": 1, "note": "Her explanation of her life's work, and the line that makes the cafe's failure funny."},
+      {"quote": "I do not know what I am doing.", "options": ["Claire", "Harry", "Fleabag"], "answer": 2, "note": "The sentence under almost every joke in the episode, usually said to the camera and never to the person in the room."}
+    ],
+    "truefalse": [
+      {"s": "Fleabag talks directly to the camera in the middle of conversations.", "answer": true, "fix": ""},
+      {"s": "At the lecture, Fleabag and Claire raise their hands and find that nobody else has.", "answer": true, "fix": ""},
+      {"s": "The cafe is failing, and the loan is meant to keep it open.", "answer": true, "fix": ""},
+      {"s": "Fleabag goes to the bank to borrow money for a second cafe.", "answer": false, "fix": "She needs the loan to keep the one cafe open."},
+      {"s": "Claire is the best friend who died.", "answer": false, "fix": "Claire is her sister; Boo was the friend who died."},
+      {"s": "The episode ends with the loan approved and the cafe saved.", "answer": false, "fix": "It ends on a look to camera with nothing settled."}
+    ],
+    "shortAnswers": [
+      {"q": "What does the episode refuse to say out loud about Boo?", "model": "Boo is named and mourned only in pieces, never in a scene where someone explains what happened. The grief leaks out through jokes, which is how the show makes it feel real."},
+      {"q": "Why does she look at the camera exactly when she is lying?", "model": "The camera is the only place where she can be honest about being dishonest. It makes the audience a friend and an alibi at the same time."},
+      {"q": "What is the cost of her jokes, and who pays it?", "model": "The jokes keep her in the room but stop anyone getting close, so she pays in loneliness and the people around her pay in confusion. The show never lets the jokes buy her anything lasting."},
+      {"q": "Is the bank scene funnier than it is sad?", "model": "It is funny because she cannot stop performing, and sad because the performance is the only thing she has. The scene turns when he believes it and she realises she has been read wrong."}
+    ]
+  }
+]

@@ -38,6 +38,11 @@
     });
   });
 
+  function taskTotal(f) {
+    return f.gaps.length + f.quotes.length + f.quiz.length + f.words.length + 1 + 3 +
+      (f.truefalse || []).length + (f.shortAnswers || []).length;
+  }
+
   function parseHash() {
     const parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
     return { id: parts[0] === 'f' ? parts[1] : parts[0], tab: parts[2] || '' };
@@ -74,7 +79,7 @@
     $('#filmTabs').innerHTML = TABS.map(([id, label]) => {
       let n = '';
       if (id === 'discuss') n = film.questions.length;
-      if (id === 'tasks') n = film.gaps.length + film.quotes.length + film.quiz.length + film.words.length + 3;
+      if (id === 'tasks') n = taskTotal(film);
       if (id === 'quest') n = film.quest.length;
       return `<button type="button" data-tab="${id}">${label}${n ? `<span class="n">${n}</span>` : ''}</button>`;
     }).join('');
@@ -142,7 +147,7 @@
 
   function renderPanels() {
     const lv = RT.level(film.level);
-    const total = film.gaps.length + film.quotes.length + film.quiz.length + film.words.length + 3;
+    const total = taskTotal(film);
     const html =
       `<section class="tab-panel" data-tab="overview">${overviewHTML(lv)}</section>` +
       `<section class="tab-panel" data-tab="discuss">${discussHTML()}</section>` +
@@ -409,9 +414,35 @@
     </div>
 
     <div class="task-block" style="margin-top:16px">
-      <div class="task-head"><h2>Rebuild the line</h2><span class="hint">2 lines</span></div>
+      <div class="task-head"><h2>Rebuild the line</h2><span class="hint">3 lines</span></div>
       <div class="task-body" id="scrambleBox"></div>
-    </div>`;
+    </div>
+
+    ${(film.truefalse || []).length ? `<div class="task-block" style="margin-top:16px">
+      <div class="task-head"><h2>True or false?</h2><span class="hint">${film.truefalse.length} statements</span></div>
+      <div class="task-body" id="tfBox">
+        ${(film.truefalse || []).map((x, i) => `<div class="tf-card" data-i="${i}">
+          <p class="tf-s">${esc(x.s)}</p>
+          <div class="tf-btns">
+            <button class="tf-btn" type="button" data-tf="${i}" data-v="1">True</button>
+            <button class="tf-btn" type="button" data-tf="${i}" data-v="0">False</button>
+          </div>
+          <div class="fb-line" data-fb="tf-${i}"></div>
+        </div>`).join('')}
+      </div>
+    </div>` : ''}
+
+    ${(film.shortAnswers || []).length ? `<div class="task-block" style="margin-top:16px">
+      <div class="task-head"><h2>Answer in your own words</h2><span class="hint">${film.shortAnswers.length} questions · model answer</span></div>
+      <div class="task-body" id="saBox">
+        ${(film.shortAnswers || []).map((x, i) => `<div class="sa-card" data-i="${i}">
+          <p class="sa-q">${esc(x.q)}</p>
+          <textarea data-sa="${i}" rows="2" placeholder="Write your answer…"></textarea>
+          <div class="sa-actions"><button class="btn btn-ghost btn-sm" type="button" data-model="${i}">Show a model answer</button></div>
+          <div class="sa-model" data-model-box="${i}" hidden>${esc(x.model)}</div>
+        </div>`).join('')}
+      </div>
+    </div>` : ''}`;
   }
 
   function bindTasks() {
@@ -629,7 +660,7 @@
 
     /* rebuild the line */
     const box = $('#scrambleBox');
-    const drills = film.gaps.slice(0, 2).map((g, i) => {
+    const drills = film.gaps.slice(0, 3).map((g, i) => {
       const full = g.line.replace('___', g.answer);
       return { i, full, words: seededShuffle(full.split(' '), 11 + i * 7 + film.title.length) };
     });
@@ -641,7 +672,7 @@
         <div class="scramble-actions"><button class="btn btn-ghost btn-sm" type="button" data-check="${d.i}" ${solved[d.i] ? 'disabled' : ''}>Check</button><button class="btn btn-quiet btn-sm" type="button" data-reset="${d.i}" ${solved[d.i] ? 'disabled' : ''}>Reset</button></div>
       </div>`).join('');
 
-    const answers = { 0: [], 1: [] };
+    const answers = { 0: [], 1: [], 2: [] };
     RT.$$('.scramble').forEach((card) => {
       const si = +card.dataset.s;
       const ansBox = $('[data-ans]', card);
@@ -671,6 +702,62 @@
       });
       paint();
     });
+
+    /* true / false */
+    const tfp = p.tf || {};
+    RT.$$('[data-tf]').forEach((btn) => btn.addEventListener('click', () => {
+      const i = +btn.dataset.tf;
+      if (tfp[i] != null) return;
+      const choice = btn.dataset.v === '1';
+      const right = choice === film.truefalse[i].answer;
+      tfp[i] = right;
+      RT.progress.save(film.id, { tf: tfp });
+      paintTf(i, choice);
+      updateScore();
+    }));
+    Object.keys(tfp).forEach((i) => paintTf(+i, tfp[i] === (film.truefalse[+i] || {}).answer));
+    function paintTf(i, choice) {
+      const card = $(`#tfBox .tf-card[data-i="${i}"]`);
+      if (!card) return;
+      const item = film.truefalse[i];
+      const right = choice === item.answer;
+      RT.$$('.tf-btn', card).forEach((b) => {
+        b.disabled = true;
+        const v = b.dataset.v === '1';
+        if (v === item.answer) b.classList.add('is-right');
+        else if (v === choice) b.classList.add('is-wrong');
+      });
+      const fb = $('.fb-line', card);
+      fb.className = 'fb-line ' + (right ? 'ok' : 'bad');
+      fb.innerHTML = right
+        ? '✓ Right — ' + esc(item.answer ? 'that is true.' : (item.fix || 'that is false.'))
+        : '✗ It is ' + (item.answer ? 'true' : 'false') + '. ' + esc(item.fix || '');
+    }
+
+    /* short answers */
+    const sap = p.sa || {};
+    RT.$$('[data-sa]').forEach((area) => {
+      const i = +area.dataset.sa;
+      if (sap[i]) area.value = sap[i];
+      area.addEventListener('input', RT.debounce(() => {
+        sap[i] = area.value.trim();
+        RT.progress.save(film.id, { sa: sap });
+      }, 350));
+    });
+    RT.$$('[data-model]').forEach((btn) => btn.addEventListener('click', () => {
+      const i = +btn.dataset.model;
+      const box = $(`[data-model-box="${i}"]`);
+      if (!box) return;
+      const open = box.hidden;
+      box.hidden = !open;
+      btn.textContent = open ? 'Hide the model answer' : 'Show a model answer';
+      if (open) {
+        sap[i] = sap[i] || 'seen';
+        RT.progress.save(film.id, { sa: sap });
+        updateScore();
+      }
+    }));
+    Object.keys(sap).forEach((i) => { const b = $(`[data-model-box="${i}"]`); if (b) b.hidden = false; });
   }
 
   /* ── act it out ───────────────────────────────────────── */

@@ -1,0 +1,1948 @@
+[
+  {
+    "id": "forrest-gump",
+    "gaps": [
+      {
+        "line": "Jenny and me was like peas and ___.",
+        "answer": "carrots",
+        "hint": "a long orange vegetable; the two go together",
+        "adapted": true
+      },
+      {
+        "line": "That's all I have to say about ___.",
+        "answer": "that",
+        "hint": "the thing we were just talking about",
+        "adapted": false
+      },
+      {
+        "line": "Lieutenant Dan got me invested in some kind of ___ company.",
+        "answer": "fruit",
+        "hint": "apples and oranges belong to this group",
+        "adapted": true
+      },
+      {
+        "line": "Mama said they was my magic ___.",
+        "answer": "shoes",
+        "hint": "you wear them on your feet",
+        "adapted": true
+      },
+      {
+        "line": "I'm pretty tired. I think I'll go home ___.",
+        "answer": "now",
+        "hint": "at this moment",
+        "adapted": false
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What does Forrest learn to do in the army hospital?",
+        "options": [
+          "Play ping-pong",
+          "Play the guitar",
+          "Speak French"
+        ],
+        "answer": 0,
+        "why": "He is shot in the buttocks, recovers in hospital, and becomes a ping-pong star."
+      },
+      {
+        "q": "Why does Forrest start running across America?",
+        "options": [
+          "He feels like running after Jenny leaves",
+          "He is training for a race",
+          "He wants to visit every state"
+        ],
+        "answer": 0,
+        "why": "He says he just felt like running, and he keeps going for more than three years."
+      },
+      {
+        "q": "What does Forrest give to Bubba's family?",
+        "options": [
+          "Money from the shrimp business",
+          "Bubba's old guitar",
+          "A letter from the army"
+        ],
+        "answer": 0,
+        "why": "Bubba's share of the shrimp money goes to his family after the war."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "Lieutenant Dan, you got new legs.",
+        "options": [
+          "Forrest",
+          "Lieutenant Dan",
+          "Bubba"
+        ],
+        "answer": 0,
+        "note": "Forrest says it without thinking when Dan arrives with metal legs."
+      },
+      {
+        "quote": "Dear God, make me a bird, so I can fly far, far away.",
+        "options": [
+          "Jenny",
+          "Forrest",
+          "Mrs Gump"
+        ],
+        "answer": 0,
+        "note": "Young Jenny prays it when her father is cruel to her."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "Forrest grows up in Greenbow, Alabama.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Bubba dies in the war in Vietnam.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Forrest and Bubba meet in the army and plan a shrimp business together.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Forrest grows up in Savannah, Georgia.",
+        "answer": false,
+        "fix": "He grows up in Greenbow, Alabama; Savannah is where he tells his story."
+      },
+      {
+        "s": "Lieutenant Dan dies in the hurricane on the shrimp boat.",
+        "answer": false,
+        "fix": "He survives the storm and later gets new legs."
+      },
+      {
+        "s": "Jenny marries Lieutenant Dan before she dies.",
+        "answer": false,
+        "fix": "Jenny marries Forrest, and their son is called Forrest Jr."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why does Forrest keep waiting for Jenny all those years?",
+        "model": "He loves her and keeps his promise to look after her, even when she stays away. Waiting is simply how he shows that love."
+      },
+      {
+        "q": "What does the ending suggest when the feather rises into the sky?",
+        "model": "It suggests that life goes on and that Forrest will keep going too. The feather is free, like him."
+      },
+      {
+        "q": "Would you have run across America like Forrest? Why?",
+        "model": "Probably not, because I need a reason and a plan. But I admire that he runs simply because he feels like it."
+      },
+      {
+        "q": "Why does Lieutenant Dan find it so hard to thank Forrest?",
+        "model": "Forrest saved his life, but Dan believed he was meant to die in the war. Thanking Forrest means accepting a life he did not choose."
+      }
+    ]
+  },
+  {
+    "id": "truman-show",
+    "gaps": [
+      {
+        "line": "We accept the ___ of the world with which we're presented.",
+        "answer": "reality",
+        "hint": "what is real",
+        "adapted": true
+      },
+      {
+        "line": "The world is a ___ place.",
+        "answer": "sick",
+        "hint": "not healthy; cruel",
+        "adapted": true
+      },
+      {
+        "line": "There is no more ___ out there than in the world I made for you.",
+        "answer": "truth",
+        "hint": "what is true",
+        "adapted": true
+      },
+      {
+        "line": "You can leave at any ___.",
+        "answer": "time",
+        "hint": "whenever you want",
+        "adapted": true
+      },
+      {
+        "line": "Do you ever feel like you're being ___?",
+        "answer": "watched",
+        "hint": "looked at all the time",
+        "adapted": true
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Who created Seahaven and controls Truman's life?",
+        "options": [
+          "Christof",
+          "Marlon",
+          "Sylvia"
+        ],
+        "answer": 0,
+        "why": "Christof is the director of the show and speaks to Truman from the control room."
+      },
+      {
+        "q": "Why does Truman begin to doubt his perfect life?",
+        "options": [
+          "People repeat themselves and behave strangely",
+          "He finds a newspaper from the future",
+          "His wife tells him the truth"
+        ],
+        "answer": 0,
+        "why": "A lamp falls from the sky, his father returns, and the same routines keep repeating."
+      },
+      {
+        "q": "What happens to Truman's father during the film?",
+        "options": [
+          "He reappears on the street",
+          "He dies in a storm",
+          "He takes Truman to Fiji"
+        ],
+        "answer": 0,
+        "why": "The actor who played his father comes back, and Truman recognises him."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "Was nothing real?",
+        "options": [
+          "Truman",
+          "Christof",
+          "Marlon"
+        ],
+        "answer": 0,
+        "note": "Truman asks it at the edge of the set, when the truth finally reaches him."
+      },
+      {
+        "quote": "There's no more truth out there than in the world I created for you.",
+        "options": [
+          "Christof",
+          "Sylvia",
+          "Meryl"
+        ],
+        "answer": 0,
+        "note": "Christof says it to defend the world he built."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "Truman lives in a town called Seahaven.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Truman works as an insurance salesman.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Marlon is Truman's best friend.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Truman's wife Meryl secretly helps him escape.",
+        "answer": false,
+        "fix": "Meryl is an actress in the show, and she tries to keep him inside Seahaven."
+      },
+      {
+        "s": "Christof plays Truman's father in the show.",
+        "answer": false,
+        "fix": "Christof is the director who created the show; another actor plays his father."
+      },
+      {
+        "s": "Truman escapes by plane to Fiji.",
+        "answer": false,
+        "fix": "He escapes through a door in the wall at the edge of the set."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why does Christof believe the show is good for Truman?",
+        "model": "He thinks the real world is dangerous and that Seahaven gives Truman a safe, happy life. He sees himself as a father protecting his child."
+      },
+      {
+        "q": "What does the ending suggest when Truman bows and walks out?",
+        "model": "It suggests that he chooses reality over comfort, even though he does not know what comes next. The bow is his goodbye to the audience and to his old life."
+      },
+      {
+        "q": "Would you have chosen to leave Seahaven? Why?",
+        "model": "Yes, because a safe life that is not really mine would feel like a prison. I would rather be free and uncertain."
+      },
+      {
+        "q": "Why do the viewers at the end change channels so quickly?",
+        "model": "For them the show was only entertainment, so when it ends they simply look for the next programme. It shows that Truman mattered to them less than he thought."
+      }
+    ]
+  },
+  {
+    "id": "groundhog-day",
+    "gaps": [
+      {
+        "line": "It's cold out there today. It's cold out there every ___.",
+        "answer": "day",
+        "hint": "24 hours",
+        "adapted": true
+      },
+      {
+        "line": "It's the same ___ every day.",
+        "answer": "thing",
+        "hint": "the situation never changes",
+        "adapted": true
+      },
+      {
+        "line": "I am not going to live by their ___ anymore.",
+        "answer": "rules",
+        "hint": "what people say you must do",
+        "adapted": false
+      },
+      {
+        "line": "Sometimes I wish I had a thousand ___.",
+        "answer": "lifetimes",
+        "hint": "whole lives",
+        "adapted": true
+      },
+      {
+        "line": "I have been stabbed, shot, poisoned, frozen and ___.",
+        "answer": "burned",
+        "hint": "hurt by fire",
+        "adapted": true
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Where does Phil travel to report on Groundhog Day?",
+        "options": [
+          "Punxsutawney",
+          "Pittsburgh",
+          "Buffalo"
+        ],
+        "answer": 0,
+        "why": "He leaves Pittsburgh for the small town of Punxsutawney, where the groundhog ceremony happens."
+      },
+      {
+        "q": "Why does Phil start taking crazy risks at first?",
+        "options": [
+          "He believes nothing he does has consequences",
+          "He wants to impress Rita",
+          "He is ordered to by his boss"
+        ],
+        "answer": 0,
+        "why": "He realises the day resets, so he drives dangerously and breaks rules without fear."
+      },
+      {
+        "q": "How does Phil finally escape the loop?",
+        "options": [
+          "He becomes a better person and the next morning arrives",
+          "He drives out of town",
+          "Rita tells him the secret"
+        ],
+        "answer": 0,
+        "why": "He stops chasing what he wants and starts helping people, and only then does tomorrow finally come."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "I'm a god. I'm not the God, I don't think.",
+        "options": [
+          "Phil",
+          "Rita",
+          "Ned"
+        ],
+        "answer": 0,
+        "note": "Phil says it after hundreds of repeats, when the day has made him feel all-powerful."
+      },
+      {
+        "quote": "It's Groundhog Day.",
+        "options": [
+          "Rita",
+          "Phil",
+          "Ned"
+        ],
+        "answer": 1,
+        "note": "Phil says it flatly when he realises the same day has started again."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "Phil is a TV weatherman from Pittsburgh.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Phil travels to Punxsutawney for the Groundhog Day report.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Rita is Phil's producer.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Phil wakes up to the sound of a rooster every morning.",
+        "answer": false,
+        "fix": "He wakes up to the song 'I Got You Babe' on the radio."
+      },
+      {
+        "s": "Phil learns to play the violin.",
+        "answer": false,
+        "fix": "He learns to play the piano."
+      },
+      {
+        "s": "Ned Ryerson is the mayor of Punxsutawney.",
+        "answer": false,
+        "fix": "Ned is an old school friend of Phil's who works in insurance."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why does Phil stop trying to escape the day?",
+        "model": "He tries everything and nothing works, so he finally accepts the situation. Once he stops fighting it, he starts using the time to help people."
+      },
+      {
+        "q": "What does the film suggest about whether a person can really change?",
+        "model": "It suggests that change is possible, but it takes time and repetition. Phil becomes kinder through practice, not through one big decision."
+      },
+      {
+        "q": "Would you have told Rita the truth about the loop? Why?",
+        "model": "Yes, because keeping it secret made Phil lonely and strange. Telling her is the first honest thing he does."
+      },
+      {
+        "q": "Why does Rita fall for Phil only after he stops pretending?",
+        "model": "Before, he was trying to impress her with tricks and lies. When he becomes genuinely kind, she can finally trust him."
+      }
+    ]
+  },
+  {
+    "id": "back-to-the-future",
+    "gaps": [
+      {
+        "line": "Great ___!",
+        "answer": "Scott",
+        "hint": "a man's name; Doc says it when he is surprised",
+        "adapted": false
+      },
+      {
+        "line": "Are you telling me you built a time machine out of a ___?",
+        "answer": "DeLorean",
+        "hint": "a car with steel doors",
+        "adapted": true
+      },
+      {
+        "line": "The flux ___ is what makes time travel possible.",
+        "answer": "capacitor",
+        "hint": "a part that stores electric charge",
+        "adapted": true
+      },
+      {
+        "line": "When this baby hits eighty-eight miles per ___, you're gonna see some serious stuff.",
+        "answer": "hour",
+        "hint": "60 minutes",
+        "adapted": true
+      },
+      {
+        "line": "I'm sure that in 1985, plutonium is available in every corner ___ store.",
+        "answer": "drug",
+        "hint": "a shop that sells medicine",
+        "adapted": false
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Who helps Marty get back to 1985?",
+        "options": [
+          "The 1955 version of Doc Brown",
+          "Biff",
+          "Jennifer"
+        ],
+        "answer": 0,
+        "why": "Marty finds the younger Doc, who works out how to send him home with the clock tower lightning."
+      },
+      {
+        "q": "Why does Lorraine look after Marty in 1955?",
+        "options": [
+          "Her father's car hits him and she feels responsible",
+          "He saves her from Biff",
+          "He is a friend of George"
+        ],
+        "answer": 0,
+        "why": "Lorraine's father knocks Marty down with his car, so she takes him home to recover."
+      },
+      {
+        "q": "How does George finally stand up to Biff?",
+        "options": [
+          "He punches him when Biff attacks Lorraine",
+          "He calls the police",
+          "He runs away"
+        ],
+        "answer": 0,
+        "why": "George finds Biff harassing Lorraine and knocks him out, which changes how everyone sees him."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "History is gonna change.",
+        "options": [
+          "Doc",
+          "Marty",
+          "Biff"
+        ],
+        "answer": 0,
+        "note": "Doc says it when he understands what Marty's trip to the past could do."
+      },
+      {
+        "quote": "Your kids are gonna love it.",
+        "options": [
+          "Marty",
+          "Doc",
+          "Jennifer"
+        ],
+        "answer": 1,
+        "note": "Doc's last line, as the car lifts off and the future begins."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "Doc builds the time machine from a DeLorean car.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Biff bullies George and works for him in 1985.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Lorraine is a teenager in 1955.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Marty travels to 1955 after the clock tower is struck by lightning.",
+        "answer": false,
+        "fix": "He travels to 1955 by accident; the lightning at the clock tower is how he gets home."
+      },
+      {
+        "s": "Doc is shot by the terrorists and stays dead.",
+        "answer": false,
+        "fix": "He survives because he is wearing a bulletproof vest."
+      },
+      {
+        "s": "Marty plays the violin at the school dance.",
+        "answer": false,
+        "fix": "He plays the guitar at the dance."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why does Marty's trip to 1955 put his own existence at risk?",
+        "model": "He accidentally stops his parents from falling in love, so he might never be born. Everything he does in 1955 is really about getting them back together."
+      },
+      {
+        "q": "What does the film suggest about the future being what you make it?",
+        "model": "It shows that small choices, like George standing up to Biff, can change a whole life. The future is not fixed; people build it."
+      },
+      {
+        "q": "Would you have gone with Doc in the time machine? Why?",
+        "model": "I would be curious, but I would also be afraid of changing something important. I would probably go only if Doc explained the plan first."
+      },
+      {
+        "q": "Why does George's new confidence change the whole family's life?",
+        "model": "Once George believes in himself, he becomes successful and the family grows up richer and happier. His confidence changes what his children expect from life."
+      }
+    ]
+  },
+  {
+    "id": "dead-poets",
+    "gaps": [
+      {
+        "line": "O Captain! My ___!",
+        "answer": "Captain",
+        "hint": "the name Keating's students give him",
+        "adapted": false
+      },
+      {
+        "line": "I stand upon my ___ to remind myself that we must look at things differently.",
+        "answer": "desk",
+        "hint": "a table you write at",
+        "adapted": true
+      },
+      {
+        "line": "Boys, you must strive to find your own ___.",
+        "answer": "voice",
+        "hint": "the way you speak and think for yourself",
+        "adapted": true
+      },
+      {
+        "line": "Most men lead lives of quiet ___.",
+        "answer": "desperation",
+        "hint": "quiet unhappiness",
+        "adapted": true
+      },
+      {
+        "line": "There's a time for daring and a time for ___.",
+        "answer": "caution",
+        "hint": "being careful",
+        "adapted": true
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What does Neil's father want him to become?",
+        "options": [
+          "A doctor",
+          "An actor",
+          "A teacher"
+        ],
+        "answer": 0,
+        "why": "His father has planned a medical career for him and refuses to accept the theatre."
+      },
+      {
+        "q": "Why do the boys stand on their desks at the end?",
+        "options": [
+          "To show that they still support Keating",
+          "To clean the classroom",
+          "To hide from the headmaster"
+        ],
+        "answer": 0,
+        "why": "Keating taught them to stand up for what they believe, and the gesture is their silent answer."
+      },
+      {
+        "q": "Who is blamed for Neil's death and forced to leave the school?",
+        "options": [
+          "Keating",
+          "Todd",
+          "Charlie"
+        ],
+        "answer": 0,
+        "why": "The school and Neil's father blame Keating's teaching, and he loses his job."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "Language was invented for one reason, boys: to woo women.",
+        "options": [
+          "Keating",
+          "Neil",
+          "Todd"
+        ],
+        "answer": 0,
+        "note": "Keating uses the joke to make poetry feel alive and human."
+      },
+      {
+        "quote": "I went to the woods because I wanted to live deliberately.",
+        "options": [
+          "Keating",
+          "Neil",
+          "Todd"
+        ],
+        "answer": 0,
+        "note": "Keating quotes Thoreau to show the boys how to live fully."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "Keating teaches English at Welton Academy.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Neil auditions for the school play without telling his father.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Todd is a shy new student at Welton.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Keating tells the boys to follow the school rules without question.",
+        "answer": false,
+        "fix": "He tells them to think for themselves and seize the day."
+      },
+      {
+        "s": "Neil's father supports his acting and comes to watch the play.",
+        "answer": false,
+        "fix": "His father forbids the play and plans to send him to military school."
+      },
+      {
+        "s": "Charlie is expelled for standing on his desk.",
+        "answer": false,
+        "fix": "Charlie is expelled after his article and for refusing to sign the confession."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why does Neil hide the play from his father?",
+        "model": "He knows his father will forbid it and force him back onto the medical path. Hiding it is the only way he can do something he loves."
+      },
+      {
+        "q": "What does Keating mean when he tells the boys to 'seize the day'?",
+        "model": "He means they should not wait for permission to live fully. They should use the time they have and make their lives matter."
+      },
+      {
+        "q": "Would you have signed the confession? Why?",
+        "model": "I would find it very hard, because signing would mean betraying Keating. But I would also be afraid of being expelled, so I understand why the boys hesitate."
+      },
+      {
+        "q": "What does the ending suggest about whether Keating's lessons worked?",
+        "model": "Todd stands on his desk and calls him 'Captain', so the lessons clearly worked. Keating leaves, but the boys have learned to speak for themselves."
+      }
+    ]
+  },
+  {
+    "id": "notting-hill",
+    "gaps": [
+      {
+        "line": "We met by ___ in my bookshop.",
+        "answer": "chance",
+        "hint": "not planned",
+        "adapted": true
+      },
+      {
+        "line": "I didn't spill the juice on ___.",
+        "answer": "purpose",
+        "hint": "not by accident",
+        "adapted": true
+      },
+      {
+        "line": "I think we should just be ___.",
+        "answer": "friends",
+        "hint": "not lovers",
+        "adapted": true
+      },
+      {
+        "line": "I've never seen a film star in ___ before.",
+        "answer": "person",
+        "hint": "face to face, not on a screen",
+        "adapted": true
+      },
+      {
+        "line": "In the ___, she comes back to the shop.",
+        "answer": "end",
+        "hint": "finally",
+        "adapted": true
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Why does William think a relationship with Anna is impossible?",
+        "options": [
+          "Their lives are too different",
+          "She is married",
+          "He is moving abroad"
+        ],
+        "answer": 0,
+        "why": "He is a quiet bookseller and she is a famous actress with a very public life."
+      },
+      {
+        "q": "What do Anna and William do in the private garden?",
+        "options": [
+          "They climb over a wall and sit on a bench",
+          "They have a picnic",
+          "They get married"
+        ],
+        "answer": 0,
+        "why": "They sneak into a neighbour's garden at night and talk on a bench."
+      },
+      {
+        "q": "How does Anna return to William at the end?",
+        "options": [
+          "She comes to his bookshop and says she is staying",
+          "She sends him a letter",
+          "She calls him from America"
+        ],
+        "answer": 0,
+        "why": "She appears in the shop, and they finally admit how they feel."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "Surreal, but nice.",
+        "options": [
+          "Anna",
+          "William",
+          "Spike"
+        ],
+        "answer": 1,
+        "note": "William's quiet summary of a very strange and very happy moment."
+      },
+      {
+        "quote": "I'm leaving tomorrow.",
+        "options": [
+          "Anna",
+          "William",
+          "Honey"
+        ],
+        "answer": 0,
+        "note": "Anna says it at the press conference, before she changes her mind."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "William runs a bookshop in Notting Hill.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Anna is a famous American film star.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Spike is William's flatmate.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Anna spills orange juice on William.",
+        "answer": false,
+        "fix": "William spills orange juice on Anna."
+      },
+      {
+        "s": "William and Anna meet for the first time at a birthday party.",
+        "answer": false,
+        "fix": "They meet in William's bookshop; the dinner party comes later."
+      },
+      {
+        "s": "William lives in Beverly Hills.",
+        "answer": false,
+        "fix": "William lives in Notting Hill; Anna lives in Beverly Hills."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why does William keep saying that he and Anna are from different worlds?",
+        "model": "He is afraid that her fame and his ordinary life cannot fit together. Saying it protects him from hoping for something that might hurt him."
+      },
+      {
+        "q": "What does the film suggest about whether fame makes love easier or harder?",
+        "model": "It makes love harder, because Anna's life is public and full of people with opinions. William has to decide whether he can live with that."
+      },
+      {
+        "q": "Would you have gone to the press conference? Why?",
+        "model": "Yes, because it would be my last chance to tell her the truth. Staying at home would only guarantee that I lost her."
+      },
+      {
+        "q": "Why does Anna come back to the bookshop at the end?",
+        "model": "She chooses an ordinary life with William over the safe, glamorous life she had planned. The bookshop is where their real story began."
+      }
+    ]
+  },
+  {
+    "id": "devil-wears-prada",
+    "gaps": [
+      {
+        "line": "Florals? For ___? Groundbreaking.",
+        "answer": "spring",
+        "hint": "the season after winter",
+        "adapted": false
+      },
+      {
+        "line": "Everybody wants this. Everybody wants to be ___.",
+        "answer": "us",
+        "hint": "Miranda and her world",
+        "adapted": false
+      },
+      {
+        "line": "You're not trying. You're ___.",
+        "answer": "whining",
+        "hint": "complaining in a childish way",
+        "adapted": true
+      },
+      {
+        "line": "Get me the ___.",
+        "answer": "manuscript",
+        "hint": "a book before it is published",
+        "adapted": true
+      },
+      {
+        "line": "You sold your soul to the ___.",
+        "answer": "devil",
+        "hint": "the evil one in the title",
+        "adapted": true
+      }
+    ],
+    "quiz": [
+      {
+        "q": "What does Andy hope to become before she takes the fashion job?",
+        "options": [
+          "A journalist",
+          "A fashion designer",
+          "A lawyer"
+        ],
+        "answer": 0,
+        "why": "She wants to write, and she takes the magazine job as a stepping stone."
+      },
+      {
+        "q": "Why does Andy throw her phone into the fountain?",
+        "options": [
+          "She is fed up with Miranda calling her at all hours",
+          "She has bought a new phone",
+          "She wants to call her boyfriend"
+        ],
+        "answer": 0,
+        "why": "Miranda's constant demands finally push her too far, and the phone becomes a symbol of that life."
+      },
+      {
+        "q": "What does Miranda ask Andy to bring before it is published?",
+        "options": [
+          "The new Harry Potter manuscript",
+          "A pair of shoes",
+          "A cup of coffee"
+        ],
+        "answer": 0,
+        "why": "Miranda wants the unpublished book for her twins, and Andy has to find it."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "Everybody wants this. Everybody wants to be us.",
+        "options": [
+          "Miranda",
+          "Andy",
+          "Nigel"
+        ],
+        "answer": 0,
+        "note": "Miranda says it to Andy in Paris, and it explains why she never apologises."
+      },
+      {
+        "quote": "Fashion is not about utility.",
+        "options": [
+          "Miranda",
+          "Nigel",
+          "Emily"
+        ],
+        "answer": 1,
+        "note": "Nigel says it when he explains why the blue sweater matters."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "Andy gets a job as Miranda's junior assistant.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "The magazine is called Runway.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Nigel helps Andy with her makeover.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Andy goes to London Fashion Week with Miranda.",
+        "answer": false,
+        "fix": "She goes to Paris Fashion Week with Miranda."
+      },
+      {
+        "s": "Miranda is kind and patient with her assistants.",
+        "answer": false,
+        "fix": "She is demanding and often cold."
+      },
+      {
+        "s": "Andy decides to stay in Paris and become Miranda's favourite.",
+        "answer": false,
+        "fix": "She walks away from Miranda and leaves the job."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why does Andy find it hard to leave Miranda's job even when it hurts her?",
+        "model": "The job makes her feel chosen and capable, and she wants to prove she can survive it. Leaving would feel like admitting that Miranda won."
+      },
+      {
+        "q": "What does the film suggest about success and friendship?",
+        "model": "It suggests that success is empty if you lose the people who knew you before. Andy only feels free when she chooses her own values over Miranda's approval."
+      },
+      {
+        "q": "Would you have taken the job with Miranda? Why?",
+        "model": "I would probably take it for the experience, but I would set a limit on how long I stayed. Nobody should lose themselves for a job."
+      },
+      {
+        "q": "Why does Miranda say that everybody wants to be 'us'?",
+        "model": "She believes that power and beauty are what everyone secretly wants. It is also her way of justifying how badly she treats people."
+      }
+    ]
+  },
+  {
+    "id": "school-of-rock",
+    "gaps": [
+      {
+        "line": "That's the ___!",
+        "answer": "spirit",
+        "hint": "the right attitude",
+        "adapted": true
+      },
+      {
+        "line": "We need a ___ for the band.",
+        "answer": "name",
+        "hint": "what people call you",
+        "adapted": true
+      },
+      {
+        "line": "Let's get ___.",
+        "answer": "started",
+        "hint": "begin",
+        "adapted": true
+      },
+      {
+        "line": "You're in the ___.",
+        "answer": "band",
+        "hint": "the group that plays music",
+        "adapted": true
+      },
+      {
+        "line": "You have to feel the ___.",
+        "answer": "beat",
+        "hint": "the rhythm",
+        "adapted": true
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Why does Dewey pretend to be Ned Schneebly?",
+        "options": [
+          "He needs a job and uses his friend's name",
+          "He wants to teach music",
+          "Ned asks him to"
+        ],
+        "answer": 0,
+        "why": "He has no money and takes the teaching job by pretending to be his flatmate."
+      },
+      {
+        "q": "What happens when Rosalie visits the classroom during band practice?",
+        "options": [
+          "The children hide the instruments and pretend to study",
+          "They play her a song",
+          "She joins the band"
+        ],
+        "answer": 0,
+        "why": "They quickly hide what they are doing so the headmistress does not discover the plan."
+      },
+      {
+        "q": "Why do the children keep the band a secret?",
+        "options": [
+          "They want to play at the Battle of the Bands",
+          "They are afraid of Dewey",
+          "They want to miss lessons"
+        ],
+        "answer": 0,
+        "why": "They know the school would stop them, and they want their one chance on stage."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "I'm a rock star.",
+        "options": [
+          "Dewey",
+          "Ned",
+          "Rosalie"
+        ],
+        "answer": 0,
+        "note": "Dewey's answer to almost everything, and the lie he needs to believe himself."
+      },
+      {
+        "quote": "I'm the manager.",
+        "options": [
+          "Summer",
+          "Zack",
+          "Dewey"
+        ],
+        "answer": 0,
+        "note": "Summer takes the job seriously and refuses to be left out."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "Dewey is kicked out of his band at the start.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Dewey pretends to be Ned Schneebly to get a teaching job.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Zack plays electric guitar in the class band.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Dewey is a real music teacher at the school.",
+        "answer": false,
+        "fix": "He is a fake substitute teacher who is not qualified."
+      },
+      {
+        "s": "Rosalie Mullins is the school's music teacher.",
+        "answer": false,
+        "fix": "She is the headmistress of the school."
+      },
+      {
+        "s": "The children come from a poor state school.",
+        "answer": false,
+        "fix": "They come from a private school."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why does Dewey care more about the band than about the school rules?",
+        "model": "Music is the one place where he feels successful and free. The rules feel small compared with the chance to make something real."
+      },
+      {
+        "q": "What does the film suggest about learning through something you love?",
+        "model": "The children work harder for the band than they ever did for tests. When learning feels like play, they discover what they can really do."
+      },
+      {
+        "q": "Would you have joined Dewey's band? Why?",
+        "model": "Yes, because it would be exciting to make something with other people. I would worry about getting in trouble, but the fun would win."
+      },
+      {
+        "q": "Why do the children respect Dewey by the end, even though he lied to them?",
+        "model": "He lied about who he was, but he kept his promise to give them a real show. They respect what he did for them, not his name."
+      }
+    ]
+  },
+  {
+    "id": "pursuit-of-happyness",
+    "gaps": [
+      {
+        "line": "We're going to be ___.",
+        "answer": "okay",
+        "hint": "fine, all right",
+        "adapted": true
+      },
+      {
+        "line": "I'm not going to ___ up.",
+        "answer": "give",
+        "hint": "stop trying",
+        "adapted": true
+      },
+      {
+        "line": "It's a numbers ___.",
+        "answer": "game",
+        "hint": "something you play",
+        "adapted": true
+      },
+      {
+        "line": "I'll do my ___.",
+        "answer": "best",
+        "hint": "as well as I can",
+        "adapted": true
+      },
+      {
+        "line": "Life, liberty and the pursuit of ___.",
+        "answer": "happiness",
+        "hint": "the word in the title, spelled differently there",
+        "adapted": true
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Why does Chris take the unpaid internship at the firm?",
+        "options": [
+          "It is his only way into a paid job",
+          "He wants to study at university",
+          "His wife asks him to"
+        ],
+        "answer": 0,
+        "why": "The internship is a six-month competition, and only one person will get the paid position."
+      },
+      {
+        "q": "Why does Chris carry a bone-density scanner everywhere?",
+        "options": [
+          "It is the only thing he can sell to make money",
+          "He uses it as a suitcase",
+          "He wants to give it to his son"
+        ],
+        "answer": 0,
+        "why": "The scanners are his business, and every sale means rent and food."
+      },
+      {
+        "q": "What happens when Chris finally gets the job?",
+        "options": [
+          "He walks out into the street and cries",
+          "He buys a car",
+          "He calls his wife"
+        ],
+        "answer": 0,
+        "why": "He holds back tears in the office, then lets them out among the crowd outside."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "People can't do something themselves, they want to tell you you can't do it.",
+        "options": [
+          "Chris",
+          "Jay Twistle",
+          "Christopher"
+        ],
+        "answer": 0,
+        "note": "Chris says it to his son after the boy gives up on basketball."
+      },
+      {
+        "quote": "I'm going to be a stockbroker.",
+        "options": [
+          "Chris",
+          "Jay Twistle",
+          "Christopher"
+        ],
+        "answer": 0,
+        "note": "Chris decides it in the street, before he has any idea how to get there."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "Chris sells bone-density scanners.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Chris and his son sleep in a station toilet at one point.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Chris wins the paid job at the end.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Chris's wife stays with him through the whole film.",
+        "answer": false,
+        "fix": "She leaves him and moves to New York."
+      },
+      {
+        "s": "Chris gets the internship because he is the boss's nephew.",
+        "answer": false,
+        "fix": "He earns it by showing his intelligence and persistence."
+      },
+      {
+        "s": "Chris solves a crossword puzzle in the taxi.",
+        "answer": false,
+        "fix": "He solves a Rubik's cube."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why does Chris hide his situation from his boss?",
+        "model": "He is afraid that being homeless will make him look unreliable. He needs the job more than he needs sympathy."
+      },
+      {
+        "q": "What does the film suggest about the difference between being rich and being happy?",
+        "model": "Chris is poor for most of the film but never stops loving his son. The ending suggests that happiness comes from hope and effort, not money alone."
+      },
+      {
+        "q": "Would you have taken an unpaid internship with no home? Why?",
+        "model": "It would be terrifying, and I am not sure I could do it with a child. But Chris has no better route, so the risk makes sense for him."
+      },
+      {
+        "q": "Why does Chris keep telling his son to protect his dream?",
+        "model": "He does not want his son to accept other people's limits, as he once did. The advice is also a promise to himself."
+      }
+    ]
+  },
+  {
+    "id": "bend-it-like-beckham",
+    "gaps": [
+      {
+        "line": "Football is my ___.",
+        "answer": "life",
+        "hint": "the thing that matters most",
+        "adapted": true
+      },
+      {
+        "line": "You have to follow your ___.",
+        "answer": "heart",
+        "hint": "what you truly feel",
+        "adapted": true
+      },
+      {
+        "line": "I don't want to ___ you.",
+        "answer": "disappoint",
+        "hint": "make someone unhappy by not doing what they hoped",
+        "adapted": true
+      },
+      {
+        "line": "It's not the end of the ___.",
+        "answer": "world",
+        "hint": "the planet; a phrase meaning 'not a disaster'",
+        "adapted": true
+      },
+      {
+        "line": "I want to play football for a ___.",
+        "answer": "living",
+        "hint": "to earn money from it",
+        "adapted": true
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Why does Jess's father finally let her play in the final?",
+        "options": [
+          "He sees how much she loves the game and remembers his own dream",
+          "He needs her to win money",
+          "Joe asks him to"
+        ],
+        "answer": 0,
+        "why": "He recognises his daughter's talent and does not want her to give up what he once gave up."
+      },
+      {
+        "q": "What happens after the final match?",
+        "options": [
+          "Jess is offered a place at an American university",
+          "Jess gives up football",
+          "Her family moves to India"
+        ],
+        "answer": 0,
+        "why": "Her performance earns her a football scholarship in America."
+      },
+      {
+        "q": "Who is Tony?",
+        "options": [
+          "Jess's friend who pretends to be her boyfriend",
+          "Jess's coach",
+          "Pinky's husband"
+        ],
+        "answer": 0,
+        "why": "Tony helps Jess hide football from her family by acting as her boyfriend."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "It's my life.",
+        "options": [
+          "Jess",
+          "Joe",
+          "Pinky"
+        ],
+        "answer": 0,
+        "note": "Jess says it when her family tries to decide her future for her."
+      },
+      {
+        "quote": "I'm proud of you.",
+        "options": [
+          "Jess's father",
+          "Joe",
+          "Pinky"
+        ],
+        "answer": 0,
+        "note": "Her father says it after the final, when he finally accepts her football."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "Jess is from a British-Indian family in London.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Jules is Jess's teammate and best friend.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Jess's sister Pinky is getting married.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Joe is the captain of the Indian cricket team.",
+        "answer": false,
+        "fix": "Joe is the coach of Jess's football team."
+      },
+      {
+        "s": "Jess's parents want her to become a professional footballer.",
+        "answer": false,
+        "fix": "They want her to study, cook and marry."
+      },
+      {
+        "s": "The team is called the London Lions.",
+        "answer": false,
+        "fix": "The team is called the Hounslow Harriers."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why does Jess hide football from her parents for so long?",
+        "model": "She knows they see football as a waste of time for a girl. She wants to keep playing without disappointing them."
+      },
+      {
+        "q": "What does the film suggest about balancing family and your own dream?",
+        "model": "It suggests that you do not have to choose completely. Jess finds a way to respect her family and still play, but only after she is honest with them."
+      },
+      {
+        "q": "Would you have told your parents the truth earlier? Why?",
+        "model": "Yes, because lying made everything harder and hurt them more in the end. I would rather argue honestly than live a double life."
+      },
+      {
+        "q": "Why does Joe's opinion of Jess change during the film?",
+        "model": "At first he sees her as a talented player, but later he sees her courage and loyalty. He understands what she risks to play."
+      }
+    ]
+  },
+  {
+    "id": "plan-9-from-outer-space",
+    "gaps": [
+      {
+        "line": "I'm not ___, I tell you.",
+        "answer": "crazy",
+        "hint": "mad",
+        "adapted": true
+      },
+      {
+        "line": "The saucer has ___.",
+        "answer": "landed",
+        "hint": "come down to Earth",
+        "adapted": true
+      },
+      {
+        "line": "The Earth is in ___.",
+        "answer": "danger",
+        "hint": "not safe",
+        "adapted": true
+      },
+      {
+        "line": "This is only the ___.",
+        "answer": "beginning",
+        "hint": "the start, not the end",
+        "adapted": true
+      },
+      {
+        "line": "It's too ___.",
+        "answer": "late",
+        "hint": "there is no time left",
+        "adapted": true
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Why do the aliens resurrect the dead?",
+        "options": [
+          "To frighten humanity into listening to them",
+          "To build an army of workers",
+          "To bring back their own families"
+        ],
+        "answer": 0,
+        "why": "Their plan is to make people so afraid that they will stop destroying the universe."
+      },
+      {
+        "q": "Who leads the aliens?",
+        "options": [
+          "Eros",
+          "Criswell",
+          "Inspector Clay"
+        ],
+        "answer": 0,
+        "why": "Eros gives the orders and explains the aliens' plan to the humans."
+      },
+      {
+        "q": "What happens to Inspector Clay?",
+        "options": [
+          "He is killed and comes back as a zombie",
+          "He flies the saucer",
+          "He leaves the police"
+        ],
+        "answer": 0,
+        "why": "The aliens kill him in the cemetery, and he later returns as one of the walking dead."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "There's no proof.",
+        "options": [
+          "The police inspector",
+          "Criswell",
+          "Eros"
+        ],
+        "answer": 0,
+        "note": "The police dismiss the witnesses because they have no evidence."
+      },
+      {
+        "quote": "We have no choice.",
+        "options": [
+          "Eros",
+          "Criswell",
+          "Inspector Clay"
+        ],
+        "answer": 0,
+        "note": "Eros says it to justify the aliens' plan to the people of Earth."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "Criswell narrates the film.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "The aliens' plan involves raising the dead.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "The film is in black and white.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "The film is set in New York City.",
+        "answer": false,
+        "fix": "It is set in California, around a cemetery and a nearby house."
+      },
+      {
+        "s": "Eros is a police officer.",
+        "answer": false,
+        "fix": "Eros is the leader of the aliens."
+      },
+      {
+        "s": "The aliens succeed in taking over the world.",
+        "answer": false,
+        "fix": "Their plan fails, and the dead fall down again at the end."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why do the aliens think humans are dangerous?",
+        "model": "They believe humans will keep building weapons until they destroy the whole universe. They see their plan as a warning, not an attack."
+      },
+      {
+        "q": "What makes Plan 9 a famous 'bad' film?",
+        "model": "The sets shake, the acting is flat, and the story makes little sense. People enjoy it because it is so strange and earnest."
+      },
+      {
+        "q": "Would you have believed the witnesses? Why?",
+        "model": "I would probably not believe them at first, because their story sounds impossible. But I would want to see the cemetery for myself."
+      },
+      {
+        "q": "What does the ending suggest about the future?",
+        "model": "It suggests that the danger is never completely over, because the aliens may come back. The narrator also warns that the future belongs to the audience."
+      }
+    ]
+  },
+  {
+    "id": "friends-s1e1",
+    "gaps": [
+      {
+        "line": "I'm not going to ___ him.",
+        "answer": "marry",
+        "hint": "become someone's husband or wife",
+        "adapted": true
+      },
+      {
+        "line": "I've never had a ___.",
+        "answer": "job",
+        "hint": "work you are paid for",
+        "adapted": true
+      },
+      {
+        "line": "I need a ___.",
+        "answer": "plan",
+        "hint": "an idea about what to do next",
+        "adapted": true
+      },
+      {
+        "line": "I'm going to make it on my ___.",
+        "answer": "own",
+        "hint": "without help",
+        "adapted": true
+      },
+      {
+        "line": "I'm not going back to ___.",
+        "answer": "Barry",
+        "hint": "the man she was going to marry",
+        "adapted": true
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Who is Barry?",
+        "options": [
+          "The man Rachel was going to marry",
+          "Monica's brother",
+          "A waiter at Central Perk"
+        ],
+        "answer": 0,
+        "why": "Barry is Rachel's fiancé, and she leaves him at the wedding."
+      },
+      {
+        "q": "Why does Ross look unhappy at the start?",
+        "options": [
+          "His wife has left him",
+          "He has lost his job",
+          "He cannot find a date"
+        ],
+        "answer": 0,
+        "why": "His wife Carol has left him, and he is still hurt by it."
+      },
+      {
+        "q": "Why does Rachel decide to stay with Monica?",
+        "options": [
+          "She wants to start a new life and has nowhere else to go",
+          "She cannot afford a hotel",
+          "Monica asks her to clean the flat"
+        ],
+        "answer": 0,
+        "why": "She has just run away from her wedding and needs a place to begin again."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "I left him at the altar.",
+        "options": [
+          "Rachel",
+          "Monica",
+          "Phoebe"
+        ],
+        "answer": 0,
+        "note": "Rachel explains why she arrived in a wedding dress."
+      },
+      {
+        "quote": "I'm an actor.",
+        "options": [
+          "Joey",
+          "Chandler",
+          "Ross"
+        ],
+        "answer": 0,
+        "note": "Joey's proud answer whenever anyone asks what he does."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "Rachel arrives at Central Perk in a wedding dress.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Monica and Rachel were friends at school.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Ross is Monica's brother.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Rachel marries Barry at the end of the episode.",
+        "answer": false,
+        "fix": "She leaves Barry and stays with Monica."
+      },
+      {
+        "s": "Phoebe is Monica's roommate at the start.",
+        "answer": false,
+        "fix": "Monica lives alone until Rachel moves in."
+      },
+      {
+        "s": "Chandler is a chef.",
+        "answer": false,
+        "fix": "Monica is the chef; Chandler has an office job."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why does Rachel leave the wedding instead of telling Barry?",
+        "model": "She realises in the ceremony that she does not want the life everyone planned for her. Running away is easier than explaining that to Barry and her family."
+      },
+      {
+        "q": "What does the episode suggest about starting over?",
+        "model": "It is frightening and messy, but friends can make it possible. Rachel has no plan, only courage and a place to stay."
+      },
+      {
+        "q": "Would you have let Rachel stay? Why?",
+        "model": "Yes, because she had nowhere else to go and clearly needed help. It would be hard, but friendship means making room."
+      },
+      {
+        "q": "Why does Ross not tell Rachel how he feels?",
+        "model": "He is afraid of being hurt again after his marriage ended. He would rather hide his feelings than risk losing her friendship."
+      }
+    ]
+  },
+  {
+    "id": "modern-family-s1e1",
+    "gaps": [
+      {
+        "line": "I'm a real ___ agent.",
+        "answer": "estate",
+        "hint": "property; Phil sells houses",
+        "adapted": true
+      },
+      {
+        "line": "This is my partner, ___.",
+        "answer": "Cameron",
+        "hint": "Mitchell's husband",
+        "adapted": true
+      },
+      {
+        "line": "Our daughter Lily is from ___.",
+        "answer": "Vietnam",
+        "hint": "a country in Southeast Asia",
+        "adapted": false
+      },
+      {
+        "line": "I'm going to be a ___.",
+        "answer": "father",
+        "hint": "a dad",
+        "adapted": true
+      },
+      {
+        "line": "I'm the ___.",
+        "answer": "mom",
+        "hint": "Claire's role in the family",
+        "adapted": true
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Why does Mitchell feel nervous about becoming a father?",
+        "options": [
+          "He is afraid he will not be good at it",
+          "He does not like children",
+          "He wants to move away"
+        ],
+        "answer": 0,
+        "why": "He worries that he has no idea how to be a parent, even though he wants the baby."
+      },
+      {
+        "q": "Who is Lily?",
+        "options": [
+          "Mitchell and Cameron's adopted daughter",
+          "Jay's new wife",
+          "Claire's baby"
+        ],
+        "answer": 0,
+        "why": "Lily is the baby girl Mitchell and Cameron adopt from Vietnam."
+      },
+      {
+        "q": "Why does Manny live with Jay?",
+        "options": [
+          "His mother Gloria has married Jay",
+          "He is Jay's nephew",
+          "He is a neighbour"
+        ],
+        "answer": 0,
+        "why": "Gloria and Manny move into Jay's house after Jay and Gloria marry."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "I'm a lawyer.",
+        "options": [
+          "Mitchell",
+          "Phil",
+          "Jay"
+        ],
+        "answer": 0,
+        "note": "Mitchell introduces himself by his job, which tells us how serious he is."
+      },
+      {
+        "quote": "I'm from Colombia.",
+        "options": [
+          "Claire",
+          "Gloria",
+          "Mitchell"
+        ],
+        "answer": 1,
+        "note": "Gloria says it proudly, and it explains part of the family's culture."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "Jay is Claire and Mitchell's father.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Gloria is from Colombia.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Mitchell and Cameron adopt a baby girl called Lily.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "Phil is Jay's son.",
+        "answer": false,
+        "fix": "Phil is married to Claire, Jay's daughter."
+      },
+      {
+        "s": "Manny is Gloria's grandson.",
+        "answer": false,
+        "fix": "Manny is Gloria's son."
+      },
+      {
+        "s": "The three families live in the same house.",
+        "answer": false,
+        "fix": "They live in different houses and meet for dinner."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why does Phil try so hard to be a 'cool dad'?",
+        "model": "He wants his children to like him more than they respect him. He is also a little insecure about being the fun parent."
+      },
+      {
+        "q": "What does the episode suggest about how different families can still be close?",
+        "model": "It suggests that love and effort matter more than tradition. The three families are very different, but they keep showing up for each other."
+      },
+      {
+        "q": "Would you want a camera crew following your family? Why?",
+        "model": "No, because we would start performing for the camera instead of being ourselves. Some family moments should stay private."
+      },
+      {
+        "q": "Why does Jay find it difficult to accept Manny at first?",
+        "model": "He is not used to being a stepfather, and Manny is strange and very direct. Jay needs time to see that Manny is part of his new family."
+      }
+    ]
+  },
+  {
+    "id": "our-planet-s1e1",
+    "gaps": [
+      {
+        "line": "The ocean is the largest ___ on Earth.",
+        "answer": "habitat",
+        "hint": "the natural home of a plant or animal",
+        "adapted": true
+      },
+      {
+        "line": "We are the first generation to know we are ___ the planet.",
+        "answer": "destroying",
+        "hint": "damaging completely",
+        "adapted": true
+      },
+      {
+        "line": "We need to live in ___ with nature.",
+        "answer": "harmony",
+        "hint": "peace and balance",
+        "adapted": true
+      },
+      {
+        "line": "Nature is not a place to visit. It is our ___.",
+        "answer": "home",
+        "hint": "where we live",
+        "adapted": true
+      },
+      {
+        "line": "This is a story of ___.",
+        "answer": "hope",
+        "hint": "believing things can get better",
+        "adapted": true
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Which place does the episode show with a great animal migration?",
+        "options": [
+          "The Serengeti",
+          "The Sahara",
+          "The Amazon"
+        ],
+        "answer": 0,
+        "why": "The episode follows the huge herds of the Serengeti and the animals that hunt them."
+      },
+      {
+        "q": "By how much does the episode say wildlife has fallen in fifty years?",
+        "options": [
+          "60%",
+          "10%",
+          "90%"
+        ],
+        "answer": 0,
+        "why": "It reports that wild animal populations have fallen by around sixty per cent."
+      },
+      {
+        "q": "Why does the episode end with a message of hope?",
+        "options": [
+          "It says we can still fix the damage",
+          "It says the planet is already saved",
+          "It says animals do not need help"
+        ],
+        "answer": 0,
+        "why": "The final message is that the future is not decided yet and people can still act."
+      }
+    ],
+    "quotes": [
+      {
+        "quote": "This is the only home we have.",
+        "options": [
+          "David Attenborough",
+          "A scientist",
+          "A farmer"
+        ],
+        "answer": 0,
+        "note": "The narrator says it to remind viewers that there is no second planet."
+      },
+      {
+        "quote": "There is still time.",
+        "options": [
+          "A scientist",
+          "David Attenborough",
+          "A farmer"
+        ],
+        "answer": 1,
+        "note": "It is the episode's final note of hope."
+      }
+    ],
+    "truefalse": [
+      {
+        "s": "The episode is narrated by David Attenborough.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "The episode shows animals and places from different parts of the world.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "The episode says that everything in nature is connected.",
+        "answer": true,
+        "fix": ""
+      },
+      {
+        "s": "The episode says wildlife has grown in the last fifty years.",
+        "answer": false,
+        "fix": "It says wildlife has declined sharply in the last fifty years."
+      },
+      {
+        "s": "The episode is set only in Africa.",
+        "answer": false,
+        "fix": "It travels to many continents and oceans."
+      },
+      {
+        "s": "The episode says humans cannot change the planet.",
+        "answer": false,
+        "fix": "It says humans have the power to change the planet, for good or bad."
+      }
+    ],
+    "shortAnswers": [
+      {
+        "q": "Why does the episode show the same message in different places?",
+        "model": "It wants to show that the same problems affect very different habitats. That makes the damage feel global rather than distant."
+      },
+      {
+        "q": "What does the ending suggest about the future?",
+        "model": "It suggests that the future is still open, but only if people act soon. The film ends with hope, not with a promise."
+      },
+      {
+        "q": "Would you change anything in your life after watching? Why?",
+        "model": "I would try to waste less and buy fewer things I do not need. The programme makes it clear that small habits add up."
+      },
+      {
+        "q": "Why does Attenborough say the natural world is our greatest ally?",
+        "model": "Because healthy nature gives us clean air, water and food. Protecting it is also protecting ourselves."
+      }
+    ]
+  }
+]

@@ -1,0 +1,464 @@
+[
+  {
+    "id": "inception",
+    "gaps": [
+      {"line": "I specialize in a very specific type of ___.", "answer": "security", "hint": "the work of keeping something safe", "adapted": false},
+      {"line": "If you're going to perform inception, you need ___.", "answer": "imagination", "hint": "the ability to invent images and ideas", "adapted": false},
+      {"line": "What is the most resilient parasite? An ___.", "answer": "idea", "hint": "a thought that takes hold", "adapted": true},
+      {"line": "You keep telling yourself what you know. But what do you ___?", "answer": "believe", "hint": "accept as true", "adapted": false},
+      {"line": "The dream has become their ___.", "answer": "reality", "hint": "the world they think is real", "adapted": false}
+    ],
+    "quiz": [
+      {"q": "Why does the film show Paris folding before anyone explains the rules of dreaming?", "options": ["To let us feel the dream's logic before we can name it", "To prove that Ariadne is a better architect than Cobb", "To show that Cobb misses living in Paris"], "answer": 0, "why": "The spectacle teaches the audience the same lesson Ariadne is learning: in a dream, the world can obey a different physics."},
+      {"q": "Saito offers Cobb a clean record rather than money. Why is that the stronger offer?", "options": ["It answers the one thing Cobb cannot buy: going home to his children", "It would make Cobb rich enough to retire", "It would keep Cobb out of Fischer's dreams"], "answer": 0, "why": "Cobb's guilt and exile are the real stakes, so the promise of a legal identity is worth more to him than cash."},
+      {"q": "Why does Nolan cross-cut the van, the hotel, the snow fortress and limbo instead of finishing one level at a time?", "options": ["To turn four escapes into one shared deadline", "To hide how little dialogue the climax contains", "To show that Ariadne has lost control of the dream"], "answer": 0, "why": "The cuts synchronise the kicks, so the audience feels time as a single physical pressure rather than four separate stories."}
+    ],
+    "quotes": [
+      {"quote": "What is the most resilient parasite? An idea.", "options": ["Cobb", "Saito", "Eames"], "answer": 0, "note": "Cobb's opening pitch to Saito turns a metaphor into the film's method."},
+      {"quote": "You keep telling yourself what you know. But what do you believe?", "options": ["Mal", "Ariadne", "Cobb"], "answer": 0, "note": "Mal asks it in limbo, and the question exposes the difference between memory and faith."}
+    ],
+    "truefalse": [
+      {"s": "Cobb's team enters Fischer's dream without his knowledge or consent.", "answer": true, "fix": ""},
+      {"s": "Ariadne is recruited because she can build impossible spaces.", "answer": true, "fix": ""},
+      {"s": "Saito promises to clear Cobb's name so that Cobb can return to his children.", "answer": true, "fix": ""},
+      {"s": "The film confirms that Cobb is awake at the end by showing the top fall.", "answer": false, "fix": "The film cuts to black before the top falls, so Cobb's reality stays unresolved."},
+      {"s": "Mal appears in Cobb's dreams because she is a real agent working for Saito.", "answer": false, "fix": "Mal is Cobb's dead wife and a projection of his guilt, not a living agent."},
+      {"s": "The spinning top was Ariadne's totem before Cobb borrowed it.", "answer": false, "fix": "The top was Mal's totem, and Cobb uses it to test his own reality."}
+    ],
+    "shortAnswers": [
+      {"q": "Defend the reading that the film is about Cobb's grief rather than dream technology. Which two scenes support it?", "model": "The dream machinery is the language, but the engine is Cobb's refusal to accept Mal's death. His limbo confession and his repeated projection of Mal show that every job is also a visit to the same wound."},
+      {"q": "Nolan withholds the fall of the top. What does that withholding ask the audience to do?", "model": "It forces us to choose between the evidence on screen and our need for a verdict. The cut makes the audience complicit in Cobb's leap of faith."},
+      {"q": "How does the heist structure keep us complicit in Cobb's lies to his team?", "model": "We want the job to succeed, so we accept the rules Cobb withholds from Ariadne and the others. The film makes our suspense depend on the same omissions that endanger the team."},
+      {"q": "Why place Ariadne's first lesson in a Paris street rather than in a lecture hall?", "model": "The street lets her touch and fold the dream instead of hearing about it, so the audience learns by spectacle. It also makes her creativity look playful before the film reveals how dangerous it is."}
+    ]
+  },
+  {
+    "id": "grand-budapest",
+    "gaps": [
+      {"line": "I'm afraid I don't quite ___ your meaning.", "answer": "follow", "hint": "understand what someone is saying", "adapted": true},
+      {"line": "A concierge must be discreet to a ___.", "answer": "fault", "hint": "an imperfection", "adapted": false},
+      {"line": "You can't blame someone for their basic lack of moral ___.", "answer": "fiber", "hint": "strength of character", "adapted": false},
+      {"line": "The plot, as they say, ___.", "answer": "thickens", "hint": "becomes more complicated", "adapted": false},
+      {"line": "He certainly sustained the illusion with marvellous ___.", "answer": "grace", "hint": "elegance and ease", "adapted": false}
+    ],
+    "quiz": [
+      {"q": "Why does Anderson frame the hotel in symmetrical, centred shots even during the shootout?", "options": ["To make violence look like one more decorative ritual", "To show that the hotel was built by an architect", "To suggest the police are in control"], "answer": 0, "why": "The symmetry keeps the world looking composed, so the farce and the killing land as part of the same artificial order."},
+      {"q": "Why does the film tell Gustave's story through three narrators: the reader, the Author and old Zero?", "options": ["To show that memory turns a man into a legend", "To explain the political history of Zubrowka", "To prove that Zero is unreliable"], "answer": 0, "why": "Each layer adds nostalgia and distance, so we never receive Gustave directly, only as a story someone chose to preserve."},
+      {"q": "Why is the prison break staged with pastries and tools rather than with force?", "options": ["It keeps the caper comic while showing that courtesy is a practical skill", "It proves that Agatha is a better fighter than Gustave", "It shows that the prison guards are easily bribed"], "answer": 0, "why": "The escape depends on Mendl's boxes and Gustave's manners, so charm is presented as a tool of survival."}
+    ],
+    "quotes": [
+      {"quote": "To be frank, I think his world had vanished long before he ever entered it.", "options": ["Zero", "Gustave", "The Author"], "answer": 0, "note": "Old Zero's narration turns Gustave into a man already out of time when we meet him."},
+      {"quote": "Nobody move; everybody's under arrest.", "options": ["Henckels", "Jopling", "Dmitri"], "answer": 0, "note": "The Inspector restores order by arresting the whole room, which is the film's idea of a solution."}
+    ],
+    "truefalse": [
+      {"s": "Gustave is arrested for the murder of Madame D.", "answer": true, "fix": ""},
+      {"s": "Agatha hides the tools Gustave needs inside pastries from Mendl's.", "answer": true, "fix": ""},
+      {"s": "Jopling kills Serge X before Serge can explain the second will.", "answer": true, "fix": ""},
+      {"s": "Gustave is shot while trying to escape alone with the painting.", "answer": false, "fix": "He is shot at a military checkpoint while protecting Zero, not while escaping with the painting."},
+      {"s": "Madame D leaves the painting to Dmitri, which is why Gustave is arrested.", "answer": false, "fix": "Madame D leaves Boy with Apple to Gustave, and Dmitri contests the will."},
+      {"s": "Zero is a lawyer who defends Gustave at his trial.", "answer": false, "fix": "Zero is the lobby boy who becomes Gustave's ally; a lawyer handles the defence."}
+    ],
+    "shortAnswers": [
+      {"q": "Gustave calls himself a servant but lectures everyone. Defend the reading that his manners are a form of power.", "model": "His courtesy sets the rules of every room, so people obey him without being ordered. The film shows that politeness can be as coercive as a weapon, especially when it is never dropped."},
+      {"q": "What does the film gain by letting old Zero narrate a story we have already watched?", "model": "The frame turns the plot into an act of remembrance, so the comedy is shadowed by loss. We see Gustave twice: as he behaved and as the man Zero needed him to have been."},
+      {"q": "How does the film's treatment of the painting turn an object into a person?", "model": "Characters speak of Boy with Apple as if it had rights, feelings and a family tree. The joke exposes how inheritance turns art into a substitute for the love nobody in the family can say out loud."},
+      {"q": "Why does the film refuse to let the comic tone disappear, even at the execution and the shootout?", "model": "The farce keeps the violence at a distance, which is how the film survives its own grief. Anderson makes us laugh at the surface so that the loss underneath arrives late, like a delayed punchline."}
+    ]
+  },
+  {
+    "id": "twelve-angry-men",
+    "gaps": [
+      {"line": "I'm not saying he's innocent. I'm saying there is ___ doubt.", "answer": "reasonable", "hint": "doubt a jury must take seriously", "adapted": true},
+      {"line": "We owe him a few ___.", "answer": "words", "hint": "things said", "adapted": false},
+      {"line": "You can't send a boy to die on a ___.", "answer": "hunch", "hint": "a guess based on feeling", "adapted": true},
+      {"line": "Let's take it one ___ at a time.", "answer": "step", "hint": "a single stage in a process", "adapted": true},
+      {"line": "What if the old man was ___?", "answer": "mistaken", "hint": "wrong about what he saw", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does the film stay in one room for almost its whole running time?", "options": ["To make the audience feel the pressure of a decision with no escape", "To save money on sets", "To show that the courthouse is old"], "answer": 0, "why": "The single room removes distraction and forces us to watch twelve men negotiate the same facts until the facts change."},
+      {"q": "Why does Juror 8 wait until late in the film to reveal his own uncertainty?", "options": ["To keep the room arguing long enough to test its certainty", "Because he secretly knows the boy is guilty", "Because he wants to be chosen foreman"], "answer": 0, "why": "He withholds a personal verdict so the jury must examine evidence rather than follow a leader."},
+      {"q": "Why does Lumet move the camera lower and closer as the afternoon wears on?", "options": ["To make the room feel hotter and the men more trapped", "To show the ceiling and the fan", "To give every juror a heroic angle"], "answer": 0, "why": "The tightening frame turns a debate into a physical contest, and the heat becomes part of the argument."}
+    ],
+    "quotes": [
+      {"quote": "We owe him a few words.", "options": ["Juror 8", "Juror 3", "Foreman"], "answer": 0, "note": "Juror 8 asks for discussion, not acquittal, and the line gives the film its moral minimum."},
+      {"quote": "Only an ignorant man can believe that.", "options": ["Juror 9", "Juror 10", "Juror 4"], "answer": 0, "note": "Juror 9 answers a racist generalisation with a sentence that is calm, precise and unanswerable."}
+    ],
+    "truefalse": [
+      {"s": "Juror 8 votes not guilty because he believes the boy is innocent.", "answer": false, "fix": "He votes not guilty because he wants the jury to discuss the evidence, not because he is certain of innocence."},
+      {"s": "Juror 9 is the first man to join Juror 8's vote.", "answer": true, "fix": ""},
+      {"s": "The jury re-enacts the old man's walk to test how long it took him to reach the door.", "answer": true, "fix": ""},
+      {"s": "Juror 3's certainty is strengthened when he sees the photograph of his son.", "answer": false, "fix": "The photograph exposes the personal wound behind his certainty and breaks it."},
+      {"s": "Juror 4 changes his vote after he realises the woman wore glasses.", "answer": true, "fix": ""},
+      {"s": "The film ends with the jury still unable to reach a verdict.", "answer": false, "fix": "The jury reaches a unanimous not-guilty verdict, and the film ends as two jurors exchange names outside."}
+    ],
+    "shortAnswers": [
+      {"q": "Defend the reading that Juror 8 is trying to win a contest, not find the truth. What evidence supports it?", "model": "He introduces the knife and the timing experiment as theatrical moves, and he often waits for the room's reaction before explaining. The film lets his strategy look like leadership, which is what makes the reading possible."},
+      {"q": "What does the film withhold about the boy, and why?", "model": "We never see the murder or hear the boy's own account, so the jury's certainty has to be built from other people's words. That gap makes the audience share the jurors' dependence on testimony."},
+      {"q": "How does the language of the jury room build power?", "model": "Jurors gain authority by naming procedures such as reasonable doubt, burden of proof and verdict, and they lose it when they shout. The film shows that whoever controls the vocabulary of the law controls the room."},
+      {"q": "Why is Juror 10's racist rant met with silence and turned backs rather than a speech?", "model": "The staging lets the others withdraw consent instead of arguing, which is more damning than a reply. It shows that a room can reject a speaker without ever refuting him."}
+    ]
+  },
+  {
+    "id": "imitation-game",
+    "gaps": [
+      {"line": "They beat you up because you're ___.", "answer": "different", "hint": "not the same as the others", "adapted": false},
+      {"line": "Was I God? No. Because God didn't win the war. We ___.", "answer": "did", "hint": "we won it", "adapted": false},
+      {"line": "The hardest time to lie is when the other person is expecting to be ___ to.", "answer": "lied", "hint": "told an untruth", "adapted": false},
+      {"line": "You have to trust me, even when you don't ___ me.", "answer": "understand", "hint": "make sense of someone", "adapted": true},
+      {"line": "We can't afford to be ___.", "answer": "sentimental", "hint": "guided by tender feelings", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does the film keep cutting from Bletchley to the police interview?", "options": ["To make the present interrogate the story the past keeps telling about itself", "To show that the police are close to solving Enigma", "To give the actor a chance to play two characters"], "answer": 0, "why": "The interview frames Turing's war work as evidence, so every heroic scene is shadowed by the question of what the state later did to him."},
+      {"q": "Why are Turing's school years shown in short flashes instead of one continuous flashback?", "options": ["To link his first friendship to the machine and to his adult isolation", "To hide the identity of Christopher", "To avoid showing the war"], "answer": 0, "why": "The fragments make Christopher a private key that keeps unlocking the present, so the machine's name carries emotional weight."},
+      {"q": "Why does the film put the convoy decision immediately after the team's celebration?", "options": ["To turn victory into a moral debt that must be paid at once", "To show that the team does not enjoy winning", "To introduce Peter's brother earlier"], "answer": 0, "why": "The cut from cheers to the map makes the cost of intelligence inseparable from the breakthrough."}
+    ],
+    "quotes": [
+      {"quote": "They beat you up because you're different.", "options": ["Christopher", "Joan", "Denniston"], "answer": 0, "note": "Christopher's correction is kinder and harder than Turing's own explanation for the bullying."},
+      {"quote": "Was I God? No. Because God didn't win the war. We did.", "options": ["Turing", "Menzies", "Denniston"], "answer": 0, "note": "Turing refuses the role of judge while quietly claiming the victory for his team."}
+    ],
+    "truefalse": [
+      {"s": "Turing names his machine Christopher after his childhood friend.", "answer": true, "fix": ""},
+      {"s": "Joan Clarke joins the team as a mathematician and codebreaker.", "answer": true, "fix": ""},
+      {"s": "The team decides to act on every decoded message so that no one dies.", "answer": false, "fix": "They act on only some messages, because acting on all of them would reveal that Enigma has been broken."},
+      {"s": "Turing is arrested for passing secrets to the Germans.", "answer": false, "fix": "He is arrested because homosexual acts were illegal, not for spying."},
+      {"s": "Peter Hilton's brother is on the convoy the team chooses not to save.", "answer": true, "fix": ""},
+      {"s": "Joan leaves Bletchley as soon as Turing tells her the truth about himself.", "answer": false, "fix": "Joan refuses to leave; she tells him the work matters more than his rejection."}
+    ],
+    "shortAnswers": [
+      {"q": "Defend the reading that the film is unfair to Joan Clarke. What does it give her to do, and what does it leave out?", "model": "It gives her the cleverest line in the room and then makes her career depend on Turing's decisions. Her real mathematical work is mostly implied, while her loyalty is dramatised, so the film remembers the man and forgets the colleague."},
+      {"q": "What does the film withhold about Turing's inner life, and why might that be a choice rather than a failure?", "model": "It shows his desire mainly through what he cannot say, so the audience experiences the secrecy that shaped him. The restraint keeps the film inside the period's code of silence instead of explaining it away."},
+      {"q": "How does the film use the idea of a game to make the audience complicit in Turing's logic?", "model": "The codebreaking is framed as a puzzle with rules, so we enjoy the solution before we count its cost. That pleasure is exactly what makes the convoy decision feel like a betrayal of the story we thought we were watching."},
+      {"q": "Why does the film end with a title card about Turing's death rather than with a scene?", "model": "The card refuses to turn his death into a tidy emotional climax. It puts the historical record in front of us and asks what the film's own storytelling has left out."}
+    ]
+  },
+  {
+    "id": "whiplash",
+    "gaps": [
+      {"line": "You don't have what it ___.", "answer": "takes", "hint": "is required", "adapted": true},
+      {"line": "Nobody remembers the ones who ___.", "answer": "quit", "hint": "stop trying", "adapted": true},
+      {"line": "I'd rather die broke at thirty-four than live rich and ___.", "answer": "forgotten", "hint": "no longer remembered", "adapted": true},
+      {"line": "You're holding ___.", "answer": "back", "hint": "not playing at full force", "adapted": true},
+      {"line": "I never really had a Charlie ___.", "answer": "Parker", "hint": "the saxophonist Fletcher keeps mentioning", "adapted": false}
+    ],
+    "quiz": [
+      {"q": "Why does Chazelle cut the final solo like a fight scene, with close-ups on hands, eyes and sweat?", "options": ["To make the audience feel the performance as physical combat", "To show that the band is badly lit", "To prove that Fletcher is a better drummer"], "answer": 0, "why": "The editing turns music into a contest of endurance, so we watch bodies under pressure rather than a polished concert."},
+      {"q": "Why does the film never show Andrew becoming a great drummer in a way everyone agrees on?", "options": ["To leave the cost of his ambition unresolved", "To suggest that jazz is dying", "To avoid using a stunt double"], "answer": 0, "why": "The ending gives us intensity, not judgement, so the audience must decide whether the sacrifice was worth it."},
+      {"q": "Why is the dinner-table scene with Andrew's family placed before the final concert?", "options": ["To show that ordinary success looks empty to him", "To introduce his uncle as a rival", "To explain why he broke up with Nicole"], "answer": 0, "why": "The family's talk of model UN and football sets up the only language Andrew respects: greatness that others cannot measure."}
+    ],
+    "quotes": [
+      {"quote": "I don't think people understood what it was I was doing at Shaffer.", "options": ["Fletcher", "Andrew", "Jim"], "answer": 0, "note": "Fletcher's justification for the abuse sounds reasonable until we remember what the film has shown us."},
+      {"quote": "I never really had a Charlie Parker.", "options": ["Fletcher", "Andrew", "Jim"], "answer": 0, "note": "Fletcher's confession sounds like grief for a student he never found, and like an excuse for what he did."}
+    ],
+    "truefalse": [
+      {"s": "Andrew is a drummer in Studio Band at Shaffer Conservatory.", "answer": true, "fix": ""},
+      {"s": "Fletcher slaps Andrew during the rehearsal because Andrew cannot say whether he was rushing or dragging.", "answer": true, "fix": ""},
+      {"s": "Andrew breaks up with Nicole because he believes the relationship will distract him from greatness.", "answer": true, "fix": ""},
+      {"s": "Andrew misses the competition because he decides to stay home.", "answer": false, "fix": "He is hit by a truck on the way and crawls out to reach the stage."},
+      {"s": "At the final concert, Fletcher apologises to Andrew and offers him the solo.", "answer": false, "fix": "Fletcher sets him up with an unfamiliar piece; Andrew returns and takes control of the performance."},
+      {"s": "The film ends with Andrew deciding to give up drumming.", "answer": false, "fix": "It ends with him playing an extended solo while Fletcher watches, his future left open."}
+    ],
+    "shortAnswers": [
+      {"q": "Defend the reading that Fletcher is the real victim of the film. Which two scenes support it?", "model": "He is humiliated by his own students and by the institution that removes him, and his final confession suggests a life spent without the genius he wanted to create. The film gives him grief as well as cruelty, which is what makes the reading possible."},
+      {"q": "What does the film withhold about whether Andrew is actually great, and why?", "model": "It shows us effort, blood and speed but never a stable external judgement of his talent. That gap forces us to ask whether greatness is a fact or a story the ambitious tell themselves."},
+      {"q": "How does the language of the rehearsal room build power?", "model": "Fletcher controls the vocabulary of tempo, rushing and dragging, and makes Andrew repeat it until he owns the fault. The scene shows that power begins with who gets to name the mistake."},
+      {"q": "Why might the film refuse to let the audience simply condemn Fletcher?", "model": "It gives him a sincere theory of teaching and a moment of grief for a former student, so our dislike has to compete with understanding. That discomfort is the film's argument: abuse can sound like devotion."}
+    ]
+  },
+  {
+    "id": "birdman",
+    "gaps": [
+      {"line": "I'm trying to do something ___.", "answer": "important", "hint": "serious and meaningful", "adapted": false},
+      {"line": "You're the one who doesn't ___.", "answer": "exist", "hint": "be real or present", "adapted": false},
+      {"line": "You're doing this because you wanna feel ___ again.", "answer": "relevant", "hint": "important to the present", "adapted": false},
+      {"line": "You're not doing this for the sake of ___.", "answer": "art", "hint": "serious creative work", "adapted": false},
+      {"line": "I'm not a movie star. I'm an ___.", "answer": "actor", "hint": "someone who performs roles", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does the film show Riggan walking through Times Square in his underwear?", "options": ["To make his public humiliation literal and comic at once", "To show that he cannot afford clothes", "To advertise the play's opening night"], "answer": 0, "why": "The scene turns a private fear of exposure into a public spectacle, which is exactly what Riggan both dreads and wants."},
+      {"q": "Why does the camera stay behind Sam at the window instead of showing what she sees?", "options": ["To leave Riggan's fate open and put the interpretation on us", "To hide a mistake in the special effects", "To set up a sequel about Sam"], "answer": 0, "why": "Her smile is the only evidence, so the audience must decide whether it means flight, death or freedom."},
+      {"q": "Why does the voice in Riggan's head sound most confident when he is alone and failing?", "options": ["To show that the fantasy feeds on isolation and shame", "To prove that Birdman is a real superhero", "To explain the play's plot to the audience"], "answer": 0, "why": "The voice offers grandeur exactly when Riggan has no audience, so it works as a symptom rather than a solution."}
+    ],
+    "quotes": [
+      {"quote": "You're not important. Get used to it.", "options": ["Sam", "Mike", "Tabitha"], "answer": 0, "note": "Sam says it to her father, and the film never quite proves her wrong."},
+      {"quote": "I'm trying to do something important.", "options": ["Riggan", "Sam", "Jake"], "answer": 0, "note": "Riggan's defence of the play is also a plea to be taken seriously."}
+    ],
+    "truefalse": [
+      {"s": "Riggan is adapting a Raymond Carver story for the Broadway stage.", "answer": true, "fix": ""},
+      {"s": "Mike Shiner is a celebrated stage actor who joins the production.", "answer": true, "fix": ""},
+      {"s": "Tabitha Dickinson promises to destroy the play with her review.", "answer": true, "fix": ""},
+      {"s": "Riggan actually flies over New York at the end, and the film confirms it.", "answer": false, "fix": "The film never confirms the flying; Sam's smile leaves it ambiguous."},
+      {"s": "Mike Shiner is Riggan's agent and negotiates the theatre lease.", "answer": false, "fix": "Mike is a stage actor who joins the cast, not Riggan's agent."},
+      {"s": "The film ends with Riggan dying on stage and the play closing.", "answer": false, "fix": "He shoots himself on stage but survives; the play becomes a success, and the ending leaves his jump unresolved."}
+    ],
+    "shortAnswers": [
+      {"q": "Defend the reading that Riggan is a reliable narrator and the film's magic is real. Which moments support it?", "model": "Objects move without being touched, and the voice predicts events that then happen on stage. The film never gives us a doctor's diagnosis, so the magical reading remains available."},
+      {"q": "What does the film withhold at the end, and why?", "model": "It withholds the view from the window, so we cannot tell whether Sam is watching her father fly or fall. The choice keeps the film's argument about art and delusion unresolved."},
+      {"q": "How does the continuous-take illusion shape the way we judge Riggan?", "model": "Because we never cut away, we are trapped in his backstage rush and see no outside perspective. The camera makes us complicit in his self-dramatisation instead of letting us stand back."},
+      {"q": "What does Tabitha represent in the film's argument about criticism and fame?", "model": "She speaks for a cultural hierarchy that despises popular success and controls the review pages. Her power exposes how much of Riggan's crisis is really about who is allowed to call something art."}
+    ]
+  },
+  {
+    "id": "manchester-by-the-sea",
+    "gaps": [
+      {"line": "It was an ___.", "answer": "accident", "hint": "something that happens by chance, not design", "adapted": true},
+      {"line": "You can't ___ yourself.", "answer": "blame", "hint": "hold responsible", "adapted": true},
+      {"line": "Some things you can't ___.", "answer": "fix", "hint": "repair", "adapted": true},
+      {"line": "There's nothing ___.", "answer": "there", "hint": "the place already mentioned", "adapted": false},
+      {"line": "We don't have to ___ about it.", "answer": "talk", "hint": "speak", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does the film keep Lee's house-fire memory in brief, unmarked flashes?", "options": ["To make the past arrive without warning, as it does for Lee", "To keep the audience from understanding what happened", "To save the cost of a large set"], "answer": 0, "why": "The flashes refuse chronology, so we experience memory as an intrusion rather than a story Lee controls."},
+      {"q": "Why does the camera stay on Lee's face after the police interview instead of following the officers?", "options": ["To show that not being charged is not the same as being forgiven", "To suggest the police are about to arrest him", "To let the actor explain his feelings in a speech"], "answer": 0, "why": "The silence makes the legal decision feel irrelevant to the guilt Lee has already sentenced himself to."},
+      {"q": "Why does the film end with Lee and Patrick fishing rather than with a reconciliation?", "options": ["To show that ordinary routine can continue without the wound closing", "To suggest that Lee has fully recovered", "To introduce a new guardian for Patrick"], "answer": 0, "why": "The boat returns them to a shared habit, not a cure, so the ending is tender without being false."}
+    ],
+    "quotes": [
+      {"quote": "There's nothing there.", "options": ["Lee", "Randi", "Patrick"], "answer": 0, "note": "Lee's answer to Randi's attempt to reach him is also a description of himself."},
+      {"quote": "I said a lot of terrible things to you.", "options": ["Randi", "Lee", "George"], "answer": 0, "note": "Randi begins the street scene with an apology that Lee cannot accept without breaking."}
+    ],
+    "truefalse": [
+      {"s": "Joe's will names Lee as Patrick's guardian.", "answer": true, "fix": ""},
+      {"s": "Lee works as a handyman in Boston when the film begins.", "answer": true, "fix": ""},
+      {"s": "Patrick stays in Manchester with George at the end.", "answer": true, "fix": ""},
+      {"s": "Lee's children died in a car accident caused by Randi.", "answer": false, "fix": "They died in a house fire while Lee was out, and Randi was not responsible."},
+      {"s": "Lee decides to move back into his old house in Manchester to help Patrick.", "answer": false, "fix": "He moves back to Boston, and Patrick stays with George in Manchester."},
+      {"s": "The film shows the house fire in a single continuous flashback.", "answer": false, "fix": "The fire is shown in brief fragments, and the full memory arrives late in the film."}
+    ],
+    "shortAnswers": [
+      {"q": "Defend the reading that Patrick is the strongest person in the film, not Lee. Which two choices support it?", "model": "Patrick keeps playing hockey, keeps his band and insists on staying in the town that holds his father's memory. He grieves while continuing to live, which is the thing Lee cannot do."},
+      {"q": "What does the film withhold about Lee's guilt, and why?", "model": "It never lets anyone absolve him, and it never shows the moment of the fire in full. That withholding keeps the audience in the same unfinished sentence as Lee."},
+      {"q": "How does the film's dialogue build the feeling of a town that cannot forget?", "model": "People greet Lee with politeness that keeps slipping into blame, and the pauses do more work than the words. The script makes ordinary conversation carry a history everyone already knows."},
+      {"q": "Why might the film refuse to show Lee crying or explaining himself?", "model": "His restraint is the subject, not an obstacle to it. By keeping him closed, the film asks us to read grief in behaviour rather than in confession."}
+    ]
+  },
+  {
+    "id": "arrival",
+    "gaps": [
+      {"line": "Unlike speech, a logogram is free of ___.", "answer": "time", "hint": "what clocks measure", "adapted": false},
+      {"line": "So you get to see what's to ___.", "answer": "happen", "hint": "take place", "adapted": false},
+      {"line": "We have to ask better ___.", "answer": "questions", "hint": "things you ask", "adapted": true},
+      {"line": "They don't experience time the way we ___.", "answer": "do", "hint": "the verb that replaces 'experience time'", "adapted": true},
+      {"line": "A translation is never entirely ___.", "answer": "neutral", "hint": "taking no side", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does the film open with Louise's voice-over about beginnings and endings before we see the aliens?", "options": ["To place the story inside a memory that already knows its ending", "To explain the plot before it starts", "To introduce Colonel Weber's point of view"], "answer": 0, "why": "The frame prepares us to read the flash-forwards as memory rather than as a separate storyline."},
+      {"q": "Why does Villeneuve keep the heptapods behind mist and glass for most of the film?", "options": ["To make us work at reading them, as the linguists must", "To hide inexpensive visual effects", "To suggest they are hostile from the start"], "answer": 0, "why": "The visual restraint turns the audience into interpreters, so the aliens' meaning is never given to us directly."},
+      {"q": "Why do different countries translate the word weapon differently?", "options": ["To show that interpretation is shaped by the interpreter's fear", "To prove that the aliens speak many languages", "To set up a spy subplot"], "answer": 0, "why": "The mistranslation turns a linguistic problem into a political one, and the film argues that fear is a kind of bad translation."}
+    ],
+    "quotes": [
+      {"quote": "I used to think this was the beginning of your story.", "options": ["Louise", "Ian", "Hannah"], "answer": 0, "note": "The opening narration addresses Hannah and quietly tells us the film's story is already a memory."},
+      {"quote": "It conveys meaning, it does not represent sound.", "options": ["Ian", "Louise", "Weber"], "answer": 0, "note": "Ian's description of the logograms is the technical key to the film's view of language."}
+    ],
+    "truefalse": [
+      {"s": "Louise is a linguist recruited by the army to communicate with the visitors.", "answer": true, "fix": ""},
+      {"s": "The heptapods' written language is circular and not bound to the order of speech.", "answer": true, "fix": ""},
+      {"s": "Learning the language changes how Louise experiences time.", "answer": true, "fix": ""},
+      {"s": "The aliens are named Abbott and Costello by Louise.", "answer": false, "fix": "Ian names them Abbott and Costello."},
+      {"s": "The film confirms that the visitors came to attack humanity.", "answer": false, "fix": "Their message is a gift, and the word weapon is a mistranslation that nearly starts a war."},
+      {"s": "Louise chooses not to have a child once she sees her future.", "answer": false, "fix": "She chooses to have Hannah, knowing both the joy and the loss ahead."}
+    ],
+    "shortAnswers": [
+      {"q": "Defend the reading that Arrival is about grief rather than time. What supports it?", "model": "The time loop is the device, but the emotional centre is a mother rehearsing a loss she cannot prevent. Louise's choice only matters because the film treats memory as a way of loving someone before and after death."},
+      {"q": "What does the film withhold about the aliens' purpose, and why?", "model": "It withholds a clear statement until Louise can read the logogram, so the audience shares her slow work of interpretation. The delay makes understanding feel earned rather than explained."},
+      {"q": "How does the language of the film build the argument that translation is an ethical act?", "model": "The characters keep asking what a word can be used for, and the army's vocabulary of threat keeps misreading a gift. The film makes every translation a decision about whom to trust."},
+      {"q": "Why might the film refuse to show us Hannah's death directly?", "model": "Showing it would turn the future into a single event, while the film wants it to exist as many ordinary moments. The restraint lets us feel the life around the loss rather than the loss alone."}
+    ]
+  },
+  {
+    "id": "spotlight",
+    "gaps": [
+      {"line": "Show me this was ___.", "answer": "systemic", "hint": "built into the whole system", "adapted": false},
+      {"line": "I'm not going to ___ this story.", "answer": "rush", "hint": "do it too quickly", "adapted": false},
+      {"line": "They control ___.", "answer": "everything", "hint": "all of it", "adapted": false},
+      {"line": "They turned child abuse into a ___ industry.", "answer": "cottage", "hint": "a small, informal business", "adapted": true},
+      {"line": "We have a story about degenerate ___.", "answer": "clergy", "hint": "priests and church leaders", "adapted": false}
+    ],
+    "quiz": [
+      {"q": "Why does the film begin with the 1976 police report and then jump to 2001?", "options": ["To show that the story was known and buried long before the team arrives", "To introduce the main characters as children", "To explain why Boston is a newspaper town"], "answer": 0, "why": "The cold open gives the audience knowledge the journalists must spend the film recovering, so the investigation is also an act of un-forgetting."},
+      {"q": "Why does the film show so much ordinary office work such as phone calls, folders and court clerks?", "options": ["To make the scandal feel built from small, deniable decisions", "To slow the film down before the big speeches", "To show that the newsroom is badly managed"], "answer": 0, "why": "The procedural detail turns evil into a chain of routine choices, which is more disturbing than a single villain."},
+      {"q": "Why is the Church's abuse discussed rather than shown?", "options": ["To keep the film's focus on the system that protected abusers", "To avoid naming any real priests", "To make the film suitable for younger viewers"], "answer": 0, "why": "The restraint keeps the survivors' testimony central and refuses to turn their pain into spectacle."}
+    ],
+    "quotes": [
+      {"quote": "It takes a village to raise a child; it takes a village to abuse one.", "options": ["Mitchell Garabedian", "Robby", "Marty Baron"], "answer": 0, "note": "The lawyer's line widens the crime from one priest to a whole community that looked away."},
+      {"quote": "Guy leans on a guy. And suddenly the whole town just looks the other way.", "options": ["Robby", "Mike", "Sacha"], "answer": 0, "note": "Robby describes the Church's method as an ordinary social habit, which is what makes it horrifying."}
+    ],
+    "truefalse": [
+      {"s": "The Spotlight team works for the Boston Globe.", "answer": true, "fix": ""},
+      {"s": "Marty Baron pushes the team to investigate the system, not just individual priests.", "answer": true, "fix": ""},
+      {"s": "The team needs the court to unseal documents that show what the Church knew.", "answer": true, "fix": ""},
+      {"s": "The film ends by suggesting that the scandal was limited to Boston.", "answer": false, "fix": "Final cards show that the pattern reached far beyond Boston and other institutions."},
+      {"s": "Sacha Pfeiffer refuses to interview survivors because she is not a lawyer.", "answer": false, "fix": "She interviews survivors with patience, and her silence is part of how she listens."},
+      {"s": "Robby wants to publish as soon as the team has one priest's story.", "answer": false, "fix": "Robby insists on waiting until the team can show the full systemic pattern."}
+    ],
+    "shortAnswers": [
+      {"q": "Defend the reading that Spotlight is really about the daily grind of good journalism rather than about abuse. Which scenes support it?", "model": "The film spends its time on dockets, phone calls and editing decisions, and its heroes are people who keep showing up. That focus makes journalism look like a moral practice built from boring, repeated choices."},
+      {"q": "What does the film withhold about the survivors' experience, and why?", "model": "It gives us their words and faces but not graphic re-enactments, so the audience stays with the person rather than the crime. The restraint keeps the film's anger directed at the institution that enabled abuse."},
+      {"q": "How does the film use calm, procedural language to make the Church's power visible?", "model": "Terms like sick leave, unassigned and sealed documents show how bureaucracy turns children into paperwork. The film's quietness makes that vocabulary sound more damning than any speech."},
+      {"q": "Why might the film's focus on Boston's Catholic culture be both a strength and a limit?", "model": "It grounds the story in a specific community where the Church is trusted and loved, which makes the betrayal concrete. The same focus can leave less room for the wider institutional pattern the final cards describe."}
+    ]
+  },
+  {
+    "id": "marriage-story",
+    "gaps": [
+      {"line": "All your best acting is ___ you.", "answer": "behind", "hint": "in the past", "adapted": false},
+      {"line": "You're being so much like your ___.", "answer": "father", "hint": "his parent", "adapted": false},
+      {"line": "You're ___ Henry.", "answer": "suffocating", "hint": "not giving him room to breathe", "adapted": false},
+      {"line": "You chose this ___.", "answer": "life", "hint": "the way you live", "adapted": false},
+      {"line": "I don't know how to ___.", "answer": "start", "hint": "begin", "adapted": false}
+    ],
+    "quiz": [
+      {"q": "Why does the film open with two parallel montages of the things Charlie and Nicole love about each other?", "options": ["To make us hear the affection before the legal language takes over", "To show that they are already divorced", "To introduce the supporting cast"], "answer": 0, "why": "The lists establish an intimacy that the rest of the film will translate into evidence, so we feel the loss of a shared vocabulary."},
+      {"q": "Why does the film give both spouses a long monologue in a lawyer's office?", "options": ["To show how the same marriage becomes two incompatible stories", "To prove that one of them is lying", "To explain the legal process to the audience"], "answer": 0, "why": "Each monologue is coherent on its own terms, and the film's sadness comes from the fact that both can be true."},
+      {"q": "Why does the final shoe-tying gesture arrive after the legal case is over?", "options": ["To show that care survives the roles the law assigned them", "To suggest they will remarry", "To show that Charlie cannot tie his own shoes"], "answer": 0, "why": "The gesture is small, unprompted and outside the settlement, so it belongs to the people rather than to the case."}
+    ],
+    "quotes": [
+      {"quote": "We have to prepare to go to court hoping we don't go to court.", "options": ["Bert Spitz", "Nora Fanshaw", "Charlie"], "answer": 0, "note": "Bert explains that the legal system makes every reasonable choice feel like a threat."},
+      {"quote": "Getting divorced with a kid is one of the hardest things to do.", "options": ["Bert Spitz", "Nora Fanshaw", "Charlie"], "answer": 0, "note": "The lawyer's plain sentence lands harder than any courtroom speech in the film."}
+    ],
+    "truefalse": [
+      {"s": "Charlie and Nicole begin with a mediator's exercise in which they read lists of what they love about each other.", "answer": true, "fix": ""},
+      {"s": "Nora Fanshaw becomes Nicole's lawyer.", "answer": true, "fix": ""},
+      {"s": "The apartment argument escalates until Charlie says something he cannot take back.", "answer": true, "fix": ""},
+      {"s": "Nicole wants to stay in New York because her television work is there.", "answer": false, "fix": "Nicole wants to stay in Los Angeles, where her television pilot and her sense of home are."},
+      {"s": "The mediator succeeds in getting them to read their lists aloud together.", "answer": false, "fix": "Neither can finish reading the list, and the exercise collapses."},
+      {"s": "The film ends with Charlie and Nicole back together.", "answer": false, "fix": "They remain divorced; the final gesture shows care, not reconciliation."}
+    ],
+    "shortAnswers": [
+      {"q": "Defend the reading that Charlie is the more sympathetic parent. Which two moments support it?", "model": "He tries to keep the divorce cheap and civil, and he is the one who reads Nicole's list with tenderness. The film also shows him humiliated by a legal system he did not choose, which makes his failures look like exhaustion rather than malice."},
+      {"q": "What does the film withhold about the cause of the marriage's collapse, and why?", "model": "It refuses a single culprit, giving each spouse a coherent account of the same years. That ambiguity makes the divorce feel like a slow mismatch rather than a crime with a defendant."},
+      {"q": "How does the legal language in the film change the way the couple speak to each other?", "model": "Words like custody, settlement and served turn intimacy into negotiation, and both start performing for their lawyers. The film shows that a vocabulary designed to settle a case can make honest feeling harder to say."},
+      {"q": "Why might the film's sympathy for both spouses be a limitation as well as a strength?", "model": "It lets us understand each side, which is humane and rare. But balance can blur the unequal costs the film itself exposes, especially the different standards applied to mothers and fathers."}
+    ]
+  },
+  {
+    "id": "his-girl-friday",
+    "gaps": [
+      {"line": "I'm through with the newspaper ___.", "answer": "business", "hint": "the work of newspapers", "adapted": false},
+      {"line": "You've got the brain of a ___.", "answer": "pancake", "hint": "a flat breakfast food", "adapted": false},
+      {"line": "You're wonderful - in a ___ sort of way.", "answer": "loathsome", "hint": "disgusting but compelling", "adapted": false},
+      {"line": "I'm no suburban bridge ___.", "answer": "player", "hint": "someone who plays cards", "adapted": false},
+      {"line": "He comes by it naturally. His grandfather was a ___.", "answer": "snake", "hint": "a long, crawling animal", "adapted": false}
+    ],
+    "quiz": [
+      {"q": "Why does Hawks let the newsroom dialogue overlap so heavily?", "options": ["To make the audience feel the speed and noise of the job", "To hide the plot from the audience", "To suggest that nobody in the room is intelligent"], "answer": 0, "why": "The overlap creates the film's comic texture and trains us to catch meaning without hearing every word."},
+      {"q": "Why is Bruce given so little to do except wait and ask about trains?", "options": ["To make him the quiet measure of the life Hildy says she wants", "To set up a sequel about insurance", "To show that he is the film's villain"], "answer": 0, "why": "Bruce is decent and dull by design, so the audience feels the pull of a normal life even while enjoying Walter's chaos."},
+      {"q": "Why does the film end with Walter and Hildy heading off to cover another story rather than with a wedding?", "options": ["To show that the job is their real marriage", "To leave room for a courtroom sequel", "To prove that Hildy has given up writing"], "answer": 0, "why": "The last lines fold romance back into work, which is the film's joke and its argument."}
+    ],
+    "quotes": [
+      {"quote": "You've got the brain of a pancake.", "options": ["Walter", "Hildy", "Bruce"], "answer": 0, "note": "Walter's insult is affectionate and contemptuous at once, which is the film's whole tone."},
+      {"quote": "You're wonderful - in a loathsome sort of way.", "options": ["Hildy", "Walter", "Bruce"], "answer": 0, "note": "Hildy's compliment keeps its escape route open: admiration and disgust arrive in the same sentence."}
+    ],
+    "truefalse": [
+      {"s": "Hildy plans to leave the newspaper and marry Bruce Baldwin.", "answer": true, "fix": ""},
+      {"s": "Walter keeps inventing reasons to delay Hildy so she will stay on the story.", "answer": true, "fix": ""},
+      {"s": "The death-row interview becomes a major scoop after the prisoner escapes.", "answer": true, "fix": ""},
+      {"s": "Bruce is a fast-talking newspaper editor who outwits Walter.", "answer": false, "fix": "Bruce is a quiet insurance salesman, and Walter outmanoeuvres him repeatedly."},
+      {"s": "Walter wants Hildy back only because he is lonely and has no interest in the story.", "answer": false, "fix": "Walter wants her back on the story as much as he wants her back in his life."},
+      {"s": "The film ends with Hildy marrying Bruce and leaving for Albany.", "answer": false, "fix": "She stays with the paper and heads off with Walter to cover another story."}
+    ],
+    "shortAnswers": [
+      {"q": "Defend the reading that Hildy is the real protagonist and Walter is the obstacle. What supports it?", "model": "The film follows her choice between two lives, and every scene measures how much of her talent Walter can borrow. Walter drives the plot, but Hildy is the one who must decide what her work is worth."},
+      {"q": "What does the film's overlapping dialogue take away from the audience, and what does it give in return?", "model": "It takes away the comfort of hearing every line and gives the sensation of a real, fast workplace. That loss is the point: we learn to read tone, interruption and intention rather than waiting for a clean sentence."},
+      {"q": "How does the film use comedy to make a serious point about work and marriage?", "model": "The jokes keep proposing that a woman must choose between being a reporter and being a wife. By making that choice absurd, the film exposes how narrow the options were."},
+      {"q": "Why might Walter be charming rather than merely manipulative?", "model": "He is honest about his desire to win, and his schemes are aimed at a person he genuinely respects. The film lets us enjoy the manipulation because it never pretends Walter is harmless."}
+    ]
+  },
+  {
+    "id": "sherlock-s1e1",
+    "gaps": [
+      {"line": "I didn't know, I ___.", "answer": "saw", "hint": "perceived with my eyes", "adapted": false},
+      {"line": "You lower the ___ of the whole street.", "answer": "IQ", "hint": "a measure of intelligence", "adapted": false},
+      {"line": "I consider myself married to my ___.", "answer": "work", "hint": "his job", "adapted": false},
+      {"line": "The police don't consult ___.", "answer": "amateurs", "hint": "people who are not professionals", "adapted": false},
+      {"line": "I play the violin when I'm ___.", "answer": "thinking", "hint": "using my mind", "adapted": false}
+    ],
+    "quiz": [
+      {"q": "Why does the episode show John's therapy session before we meet Sherlock?", "options": ["To establish the emptiness the case will fill", "To explain the murder method", "To introduce Mycroft"], "answer": 0, "why": "John's line about nothing happening gives the audience a need that Sherlock's world answers almost immediately."},
+      {"q": "Why does Sherlock deduce John's whole history in the taxi instead of at the flat?", "options": ["To turn a conversation into a demonstration of his method", "To hide the fact that he already knows John", "To give the driver a chance to escape"], "answer": 0, "why": "The enclosed cab makes John a captive audience, so the deduction is also a performance of control."},
+      {"q": "Why does the episode cut between the pink crime scene and Sherlock's explanation?", "options": ["To let us test his reasoning against the evidence we can see", "To show that the police solve the case first", "To keep the killer's identity secret from Sherlock"], "answer": 0, "why": "The intercutting makes the audience active: we are invited to follow the deduction rather than simply receive it."}
+    ],
+    "quotes": [
+      {"quote": "Nothing happens to me.", "options": ["John", "Sherlock", "Mycroft"], "answer": 0, "note": "John's line to his therapist is the emptiness that the case is about to fill."},
+      {"quote": "Anderson, don't talk out loud. You lower the IQ of the whole street.", "options": ["Sherlock", "Lestrade", "Anderson"], "answer": 0, "note": "Sherlock's insult is also a demonstration: he is trying to think and the room is in his way."}
+    ],
+    "truefalse": [
+      {"s": "John Watson was invalided home from Afghanistan.", "answer": true, "fix": ""},
+      {"s": "Sherlock calls his job a consulting detective and says he invented it.", "answer": true, "fix": ""},
+      {"s": "The killer is a London cab driver.", "answer": true, "fix": ""},
+      {"s": "The dying woman wrote Rachel on the floor to name her killer.", "answer": false, "fix": "She was trying to write Rachel, her daughter's name and the phone's password, not the killer's name."},
+      {"s": "Sherlock believes the deaths are serial suicides from the start.", "answer": false, "fix": "He treats them as serial murders and looks for the pattern the police miss."},
+      {"s": "Mycroft is a police officer who resents Sherlock's help.", "answer": false, "fix": "Mycroft is Sherlock's older brother and a powerful government figure, not a police officer."}
+    ],
+    "shortAnswers": [
+      {"q": "Defend the reading that Sherlock is not a detective story but a study of two lonely men. What supports it?", "model": "The case gives them a reason to be in the same room, but the episode keeps returning to John's emptiness and Sherlock's isolation. The final standoff matters less than the fact that John chooses to stay."},
+      {"q": "What does the episode withhold about Sherlock's feelings, and why?", "model": "It shows his rudeness and his brilliance but rarely lets him name what he wants. That gap makes his final plea to John feel like a confession in a language he barely speaks."},
+      {"q": "How does the dialogue build power between Sherlock and the police?", "model": "He answers their procedure with deductions, so he controls the conversation without holding any rank. The police have authority, but he has the last word on what the evidence means."},
+      {"q": "Why might the episode's treatment of Molly be more revealing than its treatment of the killer?", "model": "Molly is kind, competent and repeatedly overlooked, and Sherlock's casual cruelty shows the cost of his attention. The killer gets a theory; Molly gets a lesson in how little genius notices."}
+    ]
+  },
+  {
+    "id": "the-crown-s1e1",
+    "gaps": [
+      {"line": "They're not the job. ___ is the job.", "answer": "she", "hint": "Elizabeth", "adapted": false},
+      {"line": "You didn't hear me say ___.", "answer": "that", "hint": "those words", "adapted": false},
+      {"line": "Of course, you'll miss your ___.", "answer": "career", "hint": "professional life", "adapted": false},
+      {"line": "Do you, boy? Do you ___?", "answer": "really", "hint": "truly", "adapted": false},
+      {"line": "The Crown is not a privilege. It is a ___.", "answer": "duty", "hint": "what you must do", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does the episode open with Philip renouncing his titles rather than with the wedding itself?", "options": ["To show what the marriage costs him before we see what it gives him", "To introduce the Greek royal family", "To explain the rules of succession"], "answer": 0, "why": "The renunciation turns the romance into a transaction, so the wedding carries both love and loss."},
+      {"q": "Why does the episode spend so long in Malta, away from court?", "options": ["To show the ordinary marriage the couple will lose", "To introduce Churchill's foreign policy", "To explain Philip's naval career in detail"], "answer": 0, "why": "Malta gives us a baseline of private happiness, which makes the later return to duty feel like a sacrifice rather than a promotion."},
+      {"q": "Why does the King tell Churchill about his illness before he tells his family?", "options": ["To keep the state steady while his family is kept in the dark", "Because Churchill is his doctor", "Because he trusts Churchill more than his wife"], "answer": 0, "why": "The choice shows the monarchy's instinct to protect the institution first, and it leaves the family outside the truth."}
+    ],
+    "quotes": [
+      {"quote": "They're not the job. She is the job.", "options": ["King George VI", "Prince Philip", "Queen Mary"], "answer": 0, "note": "The King tells Philip that the titles are decoration and that loving Elizabeth is the actual work."},
+      {"quote": "Do you, boy? Do you really?", "options": ["King George VI", "Churchill", "Philip"], "answer": 0, "note": "The King's follow-up question turns Philip's polite answer into a test of character."}
+    ],
+    "truefalse": [
+      {"s": "Philip renounces his Greek and Danish titles to marry Elizabeth as a British subject.", "answer": true, "fix": ""},
+      {"s": "Elizabeth and Philip live in Malta for several years while Philip serves in the Royal Navy.", "answer": true, "fix": ""},
+      {"s": "The King asks Elizabeth to take his place on a Commonwealth tour.", "answer": true, "fix": ""},
+      {"s": "The King tells his wife and daughters about his diagnosis before he tells Churchill.", "answer": false, "fix": "He tells Churchill first and keeps the diagnosis from his family."},
+      {"s": "Margaret asks Elizabeth to help her marry Peter Townsend immediately.", "answer": false, "fix": "She asks Elizabeth to keep the relationship secret, not to arrange a marriage."},
+      {"s": "Churchill loses the 1951 election and leaves office.", "answer": false, "fix": "Churchill wins the 1951 election and returns as Prime Minister."}
+    ],
+    "shortAnswers": [
+      {"q": "Defend the reading that the episode is about a family being turned into an institution. What supports it?", "model": "The wedding, the tour and the diagnosis are all private events that the Crown converts into public duties. Even the King's secrecy is less about protecting his wife than about protecting the throne."},
+      {"q": "What does the episode withhold about the King's illness, and why?", "model": "It shows the X-ray and the word shadow but not the full diagnosis in front of the family. That gap puts the audience in the same position as Elizabeth: close enough to suspect, not allowed to be told."},
+      {"q": "How does the language of the court build power?", "model": "Indirect requests, titles and understatement make obedience feel like courtesy. The episode shows that the most powerful people rarely give orders; they create a silence others must fill."},
+      {"q": "Why might Philip's renunciation be read as both love and humiliation?", "model": "He gives up his name, faith and career for Elizabeth, which is a genuine sacrifice. But the ceremony also strips him of a public identity, and the series keeps asking what is left for him to be."}
+    ]
+  },
+  {
+    "id": "black-mirror-s1e1",
+    "gaps": [
+      {"line": "There's not long to formulate our ___.", "answer": "response", "hint": "official reply", "adapted": false},
+      {"line": "UKN is ___ to us.", "answer": "dead", "hint": "finished, no longer a friend", "adapted": false},
+      {"line": "Everyone's ___ at us.", "answer": "laughing", "hint": "making fun of us", "adapted": false},
+      {"line": "We're losing ___ of it.", "answer": "control", "hint": "power over the situation", "adapted": true},
+      {"line": "The public has a right to ___.", "answer": "know", "hint": "be informed", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does the episode show the demand spreading on screens before the government meeting?", "options": ["To show that the public reaction is already ahead of the official response", "To introduce the kidnapper's identity", "To explain how the video was made"], "answer": 0, "why": "The sequence reverses the usual order: the country reacts before the state has decided, and the rest of the episode is an attempt to catch up."},
+      {"q": "Why does the episode stay outside the room during the broadcast?", "options": ["To make the audience imagine the act and confront its own curiosity", "To avoid showing the actor's face", "To suggest that nothing happens"], "answer": 0, "why": "The camera's refusal turns the viewer into a witness who is denied the spectacle, which makes the episode's point about complicity."},
+      {"q": "Why does the episode end with approval ratings and a silent wife rather than with the princess's rescue?", "options": ["To show that the political story survives and the human cost does not", "To set up a second episode about the princess", "To prove that the Prime Minister enjoyed the broadcast"], "answer": 0, "why": "The ironic ending measures the event in public opinion, leaving the private damage almost wordless."}
+    ],
+    "quotes": [
+      {"quote": "Everyone's laughing at us.", "options": ["Jane", "Michael", "Alex Cairns"], "answer": 0, "note": "Jane states the public mood as a fact, and her certainty is what Michael cannot answer."},
+      {"quote": "In their heads, that's what you're doing.", "options": ["Jane", "Michael", "Tom Blice"], "answer": 0, "note": "Jane tells Michael that the country has already staged the act in its imagination."}
+    ],
+    "truefalse": [
+      {"s": "The kidnapper demands that the Prime Minister perform a degrading act with a pig on live television.", "answer": true, "fix": ""},
+      {"s": "The kidnapper releases the princess before the broadcast.", "answer": true, "fix": ""},
+      {"s": "The Home Secretary arranges a fabricated broadcast using a body double.", "answer": true, "fix": ""},
+      {"s": "The Prime Minister refuses the demand and the broadcast never happens.", "answer": false, "fix": "He goes through with the broadcast, believing the princess is still in danger."},
+      {"s": "The press agrees to a D-notice and keeps the story quiet.", "answer": false, "fix": "The newspapers ignore the D-notice and publish within hours."},
+      {"s": "The episode shows the broadcast in explicit detail.", "answer": false, "fix": "The camera stays outside the room and shows only the reaction, not the act."}
+    ],
+    "shortAnswers": [
+      {"q": "Defend the reading that the episode is about the audience, not the Prime Minister. What supports it?", "model": "The kidnapper's power comes from the public's appetite, and the episode keeps cutting to screens, headlines and viewing figures. The final ratings joke makes us part of the crowd that demanded the spectacle."},
+      {"q": "What does the episode withhold, and why does that make it worse?", "model": "It withholds the act itself and most of the princess's experience, so our imagination fills the gap. That gap turns the viewer into a collaborator rather than a spectator."},
+      {"q": "How does the language of news and government shape the moral choices?", "model": "Phrases like the demand has been made and page one make an obscene event sound like a scheduling problem. The calm register exposes how institutions protect themselves by naming things politely."},
+      {"q": "Why might the episode's ending be read as a critique of approval ratings rather than of the Prime Minister?", "model": "The final numbers suggest that the public judges the crisis by how it looks, not by what it cost. The wife's silence is the one reaction that cannot be turned into a statistic."}
+    ]
+  }
+]

@@ -10,8 +10,20 @@ OUT = ROOT / "js" / "data" / "films.js"
 ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"]
 
 
+def load_extra():
+    extra = {}
+    folder = ROOT / "content" / "extra"
+    if not folder.exists():
+        return extra
+    for path in sorted(folder.glob("*.json")):
+        for item in json.loads(path.read_text(encoding="utf-8")):
+            extra[item["id"]] = item
+    return extra
+
+
 def main():
     films, seen = [], {}
+    extra = load_extra()
     for path in sorted(SRC.glob("*.json")):
         if path.name.startswith("_"):
             continue
@@ -22,6 +34,13 @@ def main():
                 sys.exit(f"duplicate id {fid} in {path.name} and {seen[fid]}")
             seen[fid] = path.name
             film["_src"] = path.name
+            ex = extra.get(fid)
+            if ex:
+                film["gaps"] = list(film.get("gaps", [])) + list(ex.get("gaps", []))
+                film["quiz"] = list(film.get("quiz", [])) + list(ex.get("quiz", []))
+                film["quotes"] = list(film.get("quotes", [])) + list(ex.get("quotes", []))
+                film["truefalse"] = list(ex.get("truefalse", []))
+                film["shortAnswers"] = list(ex.get("shortAnswers", []))
             poster = ROOT / "assets" / "posters" / (fid + ".jpg")
             if poster.exists() and poster.stat().st_size > 2000:
                 film["poster"] = "assets/posters/" + fid + ".jpg"
@@ -39,8 +58,10 @@ def main():
     print("  " + "  ".join(f"{k}:{v}" for k, v in counts.items()))
     gaps = sum(len(f["gaps"]) for f in films)
     tasks = gaps + sum(len(f["quiz"]) + len(f["quotes"]) + len(f["quest"]) for f in films)
-    print(f"  {sum(len(f['questions']) for f in films)} discussion questions, {tasks} interactive tasks, "
+    printed = sum(len(f.get("truefalse", [])) + len(f.get("shortAnswers", [])) for f in films)
+    print(f"  {sum(len(f['questions']) for f in films)} discussion questions, {tasks + printed} tasks, "
           f"{sum(len(f['scenes']) for f in films)} scene cues")
+    print(f"  extras merged: {len(extra)} films, {printed} new items")
 
 
 if __name__ == "__main__":

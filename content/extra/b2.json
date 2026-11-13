@@ -1,0 +1,464 @@
+[
+  {
+    "id": "shawshank",
+    "gaps": [
+      {"line": "For his first month inside, Andy kept his head ___ and spoke to nobody.", "answer": "down", "hint": "lowered, out of sight", "adapted": true},
+      {"line": "Brooks simply could not ___ it on the outside.", "answer": "make", "hint": "succeed, manage", "adapted": true},
+      {"line": "The Warden ruled the prison with an ___ fist.", "answer": "iron", "hint": "hard and unyielding", "adapted": true},
+      {"line": "Tommy let ___ that he knew who had really killed Andy's wife.", "answer": "slip", "hint": "revealed it by accident", "adapted": true},
+      {"line": "The Warden's money was ___ through a false identity.", "answer": "laundered", "hint": "cleaned of its criminal origin", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does the Warden have Tommy killed?", "options": ["Tommy could prove Andy's innocence and expose the Warden", "Tommy tried to escape with Red", "Tommy stole money from the Warden"], "answer": 0, "why": "Tommy's story would reopen Andy's case and put the Warden's money, and his control over Andy, at risk."},
+      {"q": "Why does Andy write a letter to the state legislature every week?", "options": ["To get books and money for a prison library", "To ask for a shorter sentence", "To complain about the food"], "answer": 0, "why": "He writes for years until the state finally sends money and boxes of books for the library."},
+      {"q": "What finally makes Red leave for Mexico?", "options": ["Andy's letter and the money under the black rock", "A job offer in Zihuatanejo", "An order from the parole board"], "answer": 0, "why": "The letter gives him a promise to keep, and the money gives him a way to break the habit of staying put."}
+    ],
+    "quotes": [
+      {"quote": "I hope the Pacific is as blue as it has been in my dreams.", "options": ["Red", "Andy", "Brooks"], "answer": 0, "note": "Red's last letter, after he decides to follow Andy south."},
+      {"quote": "Brooks was here.", "options": ["Brooks", "Red", "Andy"], "answer": 0, "note": "Carved into the beam of the halfway house, and the saddest three words in the film."}
+    ],
+    "truefalse": [
+      {"s": "Andy works in the prison laundry before he is moved to the library.", "answer": true, "fix": ""},
+      {"s": "The story is narrated by Red, not by Andy.", "answer": true, "fix": ""},
+      {"s": "Andy asks Red for a rock hammer in the first weeks of his sentence.", "answer": true, "fix": ""},
+      {"s": "Andy escapes on a snowy winter night.", "answer": false, "fix": "He escapes on a rainy night with thunder, crawling out through the sewer pipe."},
+      {"s": "Red finds Andy's money under a white rock near Buxton.", "answer": false, "fix": "The rock is black, the piece of volcanic rock Andy describes in his letter."},
+      {"s": "Tommy is killed in a fight with another prisoner.", "answer": false, "fix": "He is shot by a guard on the Warden's orders, and the death is reported as an escape attempt."}
+    ],
+    "shortAnswers": [
+      {"q": "Red describes terrible events in a calm, almost gentle voice. Why does the film give him that voice instead of an angry one?", "model": "A calm voice makes the horror sound ordinary and remembered, which is how prison changes a man; it also earns our trust, so we believe him when he finally speaks about hope."},
+      {"q": "Why does the film show the parole board three times, with almost the same questions each time?", "model": "The repetition shows that the system wants a performance of regret rather than the truth, and Red only gets out when he stops performing."},
+      {"q": "The Warden calls himself a man of God and keeps a Bible by his desk. Why does the film make him quote scripture?", "model": "It exposes the gap between the words he uses in public and the money he hides; the Bible that hides the hammer makes the hypocrisy literal."},
+      {"q": "Red says people have to get busy living. Why does the film give that line to Andy but the last word to Red?", "model": "Andy's line is a challenge, but Red is the one who has to act on it, so the film ends with the change it has been describing for twenty years."}
+    ]
+  },
+  {
+    "id": "kings-speech",
+    "gaps": [
+      {"line": "My game, my ___, my rules.", "answer": "turf", "hint": "your own territory", "adapted": false},
+      {"line": "Lionel refused to ___ down to a duke.", "answer": "bow", "hint": "bend in respect", "adapted": true},
+      {"line": "The doctors had no idea how to ___ with a stammer.", "answer": "deal", "hint": "handle it", "adapted": true},
+      {"line": "Lionel caught Bertie ___ guard with a question about his childhood.", "answer": "off", "hint": "not prepared", "adapted": true},
+      {"line": "David chose to walk ___ from the throne for the woman he loved.", "answer": "away", "hint": "in the other direction", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Lionel insist on calling the Duke Bertie?", "options": ["He believes the stammer grows out of fear of authority", "He wants to be paid more", "He has forgotten the Duke's title"], "answer": 0, "why": "Lionel is sure Bertie stammers worse when he is frightened of the person he is speaking to, so he removes the distance."},
+      {"q": "What surprises Bertie at the end of his first session?", "options": ["He hears himself read aloud without stammering", "Lionel gives him a written cure", "He is offered a place at Oxford"], "answer": 0, "why": "Lionel records him reading Shakespeare with music playing, and the recording proves that his voice works."},
+      {"q": "Who stands beside Bertie while he delivers the broadcast?", "options": ["Lionel, just out of shot", "The Archbishop of Canterbury", "Nobody at all"], "answer": 0, "why": "Lionel is in the room, mouthing the words with him, which is why the long speech holds together."}
+    ],
+    "quotes": [
+      {"quote": "My game, my turf, my rules.", "options": ["Lionel", "Bertie", "The Archbishop"], "answer": 0, "note": "Lionel's terms for the therapy, set out in the first session."},
+      {"quote": "I'm going to call you Bertie.", "options": ["Lionel", "Bertie", "David"], "answer": 0, "note": "His refusal to use the title, which shocks the Duke more than any exercise."}
+    ],
+    "truefalse": [
+      {"s": "Lionel records Bertie reading at their first meeting.", "answer": true, "fix": ""},
+      {"s": "Bertie's older brother David becomes king before him.", "answer": true, "fix": ""},
+      {"s": "The final speech is broadcast in 1939, when Britain goes to war.", "answer": true, "fix": ""},
+      {"s": "Lionel is a Harley Street doctor with a medical degree.", "answer": false, "fix": "Lionel is an Australian speech therapist with no formal qualifications."},
+      {"s": "Bertie meets Lionel for the first time at Wembley Stadium.", "answer": false, "fix": "His wife Elizabeth arranges a visit to Lionel's consulting room in Harley Street."},
+      {"s": "David gives up the throne because he is too ill to rule.", "answer": false, "fix": "He abdicates so that he can marry Wallis Simpson, a divorced American."}
+    ],
+    "shortAnswers": [
+      {"q": "Lionel swears first and tells Bertie that he may swear too. Why does the film make swearing part of the treatment?", "model": "Because fluent swearing proves that Bertie's voice works when he stops monitoring himself, so the film can show that the problem is fear rather than his mouth."},
+      {"q": "Why does the film keep cutting to the microphone and to the faces in the room during the final speech?", "model": "The close-ups show that a radio speech is made of small breaths and looks, so we see the effort behind a voice that sounds calm."},
+      {"q": "Bertie says he is a naval officer rather than a king. What does that tell us about how he sees himself?", "model": "He measures himself against a job where he knew he was competent, and the crown feels like a role he was given rather than one he earned."},
+      {"q": "Whose version of Bertie do you trust: the court's, which treats him as fragile, or Lionel's, which treats him as capable?", "model": "Lionel's, because he is the only person who tests Bertie instead of protecting him, and the broadcast proves that the test was right."}
+    ]
+  },
+  {
+    "id": "social-network",
+    "gaps": [
+      {"line": "Eduardo was slowly ___ out of his own company.", "answer": "pushed", "hint": "forced to leave", "adapted": true},
+      {"line": "Eduardo put up the ___ money when the site was only an idea.", "answer": "seed", "hint": "the first money for a new business", "adapted": true},
+      {"line": "Mark refused to ___ an inch during the deposition.", "answer": "budge", "hint": "move even slightly", "adapted": true},
+      {"line": "Both sides wanted to ___ a settlement before the trial.", "answer": "reach", "hint": "arrive at an agreement", "adapted": true},
+      {"line": "Mark managed to rub the twins up the wrong ___ in one meeting.", "answer": "way", "hint": "the wrong direction", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Mark build FaceMash on the night Erica breaks up with him?", "options": ["He is angry and wants to lash out at the students around him", "He is helping the twins with their site", "He is finishing a class project"], "answer": 0, "why": "The site is built in anger and drink, and it turns the evening's humiliation into something the whole campus can vote on."},
+      {"q": "Why does Eduardo freeze the company bank account?", "options": ["He wants Mark to answer him about the new shares", "He is stealing the company's money", "He wants to sell the company to Google"], "answer": 0, "why": "Mark stops answering him, so Eduardo uses the only power he has left to force a conversation."},
+      {"q": "What does Sean's arrest at the party show the investors?", "options": ["That he is brilliant but unreliable", "That he owns most of the company", "That he has never met Mark"], "answer": 0, "why": "The party and the arrest make him a risk to the company's image just as the serious money arrives."}
+    ],
+    "quotes": [
+      {"quote": "The internet isn't written in pencil, Mark. It's written in ink.", "options": ["Erica", "Mark", "Marylin"], "answer": 0, "note": "Erica's warning about what he has written about her online, and what cannot be taken back."},
+      {"quote": "I'm not a bad guy.", "options": ["Mark", "Eduardo", "Sean"], "answer": 0, "note": "His line to the lawyer after the depositions, and the claim the film spends two hours testing."}
+    ],
+    "truefalse": [
+      {"s": "Mark builds FaceMash after Erica breaks up with him in a bar.", "answer": true, "fix": ""},
+      {"s": "Eduardo is the first person to put money into the company.", "answer": true, "fix": ""},
+      {"s": "The Winklevoss twins row for Harvard.", "answer": true, "fix": ""},
+      {"s": "Mark is a student at Stanford when the site begins.", "answer": false, "fix": "He is a Harvard student in 2003, and the site starts in his dormitory."},
+      {"s": "Eduardo's share of the company is diluted to thirty percent.", "answer": false, "fix": "It is diluted to 0.03 per cent, while the others keep their shares."},
+      {"s": "The twins ask Mark to build their site before he creates FaceMash.", "answer": false, "fix": "They approach him after FaceMash, because they have seen what he can build."}
+    ],
+    "shortAnswers": [
+      {"q": "Why does the film tell the same story three times, in two depositions and in flashback?", "model": "Each version serves the person telling it, so the film makes us compare them instead of trusting a narrator; truth becomes something the audience has to assemble."},
+      {"q": "Mark says he is not a bad guy. Why does the film let him say that and then show us the depositions?", "model": "The line is a defence rather than a fact: the film lets him claim it and then shows the friends he lost, so we judge the claim against the evidence."},
+      {"q": "Sean speaks in slogans. Why does Mark listen to him and not to Eduardo?", "model": "Sean sells a future Mark wants, while Eduardo asks him to be careful; the film shows that flattery is more persuasive than friendship."},
+      {"q": "What is the film really saying about who gets credit for an idea?", "model": "It suggests that credit goes to whoever is in the room when the thing is built and to whoever can afford the lawyers, not to whoever thought of it first."}
+    ]
+  },
+  {
+    "id": "the-intern",
+    "gaps": [
+      {"line": "Jules could not bring herself to ___ over the company to a stranger.", "answer": "hand", "hint": "give control of it", "adapted": true},
+      {"line": "Ben knew the office inside ___ within a week.", "answer": "out", "hint": "completely", "adapted": true},
+      {"line": "The company was growing by ___ and bounds.", "answer": "leaps", "hint": "in big jumps", "adapted": true},
+      {"line": "Jules was spread too ___ to notice what her team needed.", "answer": "thin", "hint": "not enough of her to go round", "adapted": true},
+      {"line": "Jules ___ off the meeting with the investors at the last minute.", "answer": "called", "hint": "cancelled it", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Jules first suggest that Ben ask for a transfer?", "options": ["She thinks an intern she cannot use makes her look bad", "She dislikes older people", "She has no budget for an intern"], "answer": 0, "why": "She explains that he was assigned to her to set an example, and she cannot see a real job for him."},
+      {"q": "What makes Jules change her mind about Ben?", "options": ["He quietly tidies a desk nobody asked him to touch", "He complains to the human resources team", "He fixes the website overnight"], "answer": 0, "why": "The clean desk is the first proof that he notices what everyone else walks past, and she starts giving him real work."},
+      {"q": "Why does Ben agree to break into Jules's mother's house?", "options": ["Jules needs an email deleted before her mother reads it", "He wants to meet Jules's mother", "Davis asks him for a favour"], "answer": 0, "why": "Jules has sent an email to the wrong person, and Ben organises the raid because he can see how frightened she is."}
+    ],
+    "quotes": [
+      {"quote": "I'm loyal, I'm trustworthy, and I'm good in a crisis.", "options": ["Ben", "Jules", "Davis"], "answer": 0, "note": "From his application video, and the sentence that gets him the internship."},
+      {"quote": "I am not so fun to work for.", "options": ["Jules", "Becky", "Cameron"], "answer": 0, "note": "Her warning in their first two-minute meeting, which is both honest and a way of keeping him away."}
+    ],
+    "truefalse": [
+      {"s": "Ben applies with a video instead of a cover letter.", "answer": true, "fix": ""},
+      {"s": "Ben spent forty years at a company that printed phone books.", "answer": true, "fix": ""},
+      {"s": "Nobody at the company has a private office, not even the founder.", "answer": true, "fix": ""},
+      {"s": "Ben is sixty-five when he starts the internship.", "answer": false, "fix": "He is seventy, and the interview question about ten years' time becomes a joke."},
+      {"s": "Jules is the founder of a company that sells furniture.", "answer": false, "fix": "About the Fit sells clothes online, and it has grown faster than its systems."},
+      {"s": "Ben is hired to work in the marketing team.", "answer": false, "fix": "He is assigned directly to Jules, the founder, who says she has nothing for him to do."}
+    ],
+    "shortAnswers": [
+      {"q": "Ben says he wants the connection and the excitement. Why does a man with a pension want an internship rather than a job?", "model": "He is not chasing money or status; he wants a place to go and people who need him, which retirement took away."},
+      {"q": "Jules says she is not fun to work for. Is that honesty or a way of keeping Ben at a distance?", "model": "It is both: she warns him honestly, but the warning also saves her from explaining why she does not want an intern in the first place."},
+      {"q": "What is the film really saying about experience when Ben is given real work again?", "model": "It argues that experience is not nostalgia: his value is noticing, listening and staying calm, skills the young office has forgotten how to name."},
+      {"q": "Why does Ben keep wearing a suit in an office where nobody else does?", "model": "The suit is his way of showing respect for the job, and the film turns it from a joke into proof that old habits can be a strength."}
+    ]
+  },
+  {
+    "id": "the-help",
+    "gaps": [
+      {"line": "Hilly looked ___ on every woman who worked in her house.", "answer": "down", "hint": "as if they were beneath her", "adapted": true},
+      {"line": "Minny's mouth got her ___ trouble more than once.", "answer": "into", "hint": "inside a bad situation", "adapted": true},
+      {"line": "For years the maids had to ___ up with whatever the white families said.", "answer": "put", "hint": "endure it", "adapted": true},
+      {"line": "Minny finally gave Hilly a piece of her ___.", "answer": "mind", "hint": "told her exactly what she thought", "adapted": true},
+      {"line": "For once, Aibileen refused to ___ down when Hilly threatened her.", "answer": "back", "hint": "stop resisting", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Aibileen finally agree to tell her story?", "options": ["She has lost her own son and is raising another woman's child", "She needs the money for her church", "Skeeter threatens to publish without her"], "answer": 0, "why": "Grief and love have worn down her fear, and she decides that silence has already cost her too much."},
+      {"q": "What happens to Minny after Hilly spreads the word about her?", "options": ["No white family will hire her until Celia does", "She leaves Jackson for good", "She opens her own restaurant"], "answer": 0, "why": "Hilly's revenge keeps her out of every kitchen in town, and Celia is the only employer who does not care."},
+      {"q": "What does Skeeter learn about Constantine, the maid who raised her?", "options": ["Her mother sent her away and lied about it", "She died years ago in Jackson", "She moved north with Skeeter's brother"], "answer": 0, "why": "The discovery changes how Skeeter reads her own family, and it is why the book matters to her personally."}
+    ],
+    "quotes": [
+      {"quote": "Fried chicken just tend to make you feel better about life.", "options": ["Aibileen", "Minny", "Skeeter"], "answer": 0, "note": "Aibileen's voiceover, and the film's warmest line about ordinary comfort."},
+      {"quote": "You're a godless woman.", "options": ["Aibileen", "Minny", "Hilly"], "answer": 0, "note": "Aibileen's last words to Hilly in the driveway, after she is fired."}
+    ],
+    "truefalse": [
+      {"s": "Skeeter comes home from university with a degree and no interest in marriage.", "answer": true, "fix": ""},
+      {"s": "Minny goes to work for Celia Foote after Hilly fires her.", "answer": true, "fix": ""},
+      {"s": "The published book lists its author as Anonymous.", "answer": true, "fix": ""},
+      {"s": "Hilly wants separate kitchens built for the maids.", "answer": false, "fix": "She wants a separate toilet in every white house, and calls it a health measure."},
+      {"s": "Skeeter's book names every maid and every family in Jackson.", "answer": false, "fix": "The names are changed and the author is listed as Anonymous, which is the only way it can be printed."},
+      {"s": "Minny is the quiet one who avoids saying what she thinks.", "answer": false, "fix": "Minny is the most outspoken woman in Jackson, and her mouth is what gets her fired."}
+    ],
+    "shortAnswers": [
+      {"q": "Aibileen speaks one way to the Leefolt family and another way in her own kitchen. Why does she switch?", "model": "The polite voice is a survival skill, and the switch shows what segregation costs her: she must perform a smaller self to keep her job."},
+      {"q": "Whose book is it really: Skeeter's, Aibileen's, or all of theirs?", "model": "It carries all three names in spirit but only Skeeter's career on the cover, which is exactly the injustice the film wants us to notice."},
+      {"q": "Hilly says she is not a racist. Why does the film give her that line?", "model": "Because her politeness is the mechanism of the prejudice, not its opposite; the film shows that good manners can do the same work as a sign on a door."},
+      {"q": "Why does the film end with Aibileen walking away instead of showing us where she goes?", "model": "The walk is the point: she has lost her job but kept her voice, and the film refuses to tidy that into a happy ending."}
+    ]
+  },
+  {
+    "id": "erin-brockovich",
+    "gaps": [
+      {"line": "Ed told Erin to take it down a ___.", "answer": "notch", "hint": "a level", "adapted": true},
+      {"line": "Erin would not take no for an ___.", "answer": "answer", "hint": "a reply", "adapted": true},
+      {"line": "The company tried to buy the families ___.", "answer": "off", "hint": "with money, to keep them quiet", "adapted": true},
+      {"line": "The numbers in the file did not ___ up.", "answer": "add", "hint": "make sense when counted", "adapted": true},
+      {"line": "The families in Hinkley lived hand to ___.", "answer": "mouth", "hint": "with just enough for food", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Erin refuse Ed's first bonus?", "options": ["She thinks the figure does not match the work she did", "She wants to become a partner", "She is leaving for another firm"], "answer": 0, "why": "The number is smaller than agreed, and for Erin the insult is about respect rather than money."},
+      {"q": "Why do the families turn against Erin before the arbitration?", "options": ["They are told that she has sold them out", "She loses the company documents", "She misses a court date"], "answer": 0, "why": "A letter from one plaintiff says they have been lied to, and Erin has to win their trust back one kitchen at a time."},
+      {"q": "What makes Charles Embry agree to make a declaration?", "options": ["Erin lets him tell his story without pushing", "Ed offers him money", "He wants to be quoted in the newspaper"], "answer": 0, "why": "She sits with him and stays quiet, and the story of the shredded documents comes out on its own."}
+    ],
+    "quotes": [
+      {"quote": "I don't need pity. I need a paycheck.", "options": ["Erin", "Donna Jensen", "Rosalind"], "answer": 0, "note": "Her answer when Ed apologises for losing her case, and the reason she refuses to leave without a job."},
+      {"quote": "It's called accountability.", "options": ["Ed Masry", "Kurt Potter", "Theresa"], "answer": 0, "note": "Ed's reply when Erin says she left a message and then vanished for a week."}
+    ],
+    "truefalse": [
+      {"s": "Erin finds the medical records filed with a property sale.", "answer": true, "fix": ""},
+      {"s": "Ed fires Erin for disappearing for a week, then hires her back.", "answer": true, "fix": ""},
+      {"s": "More than six hundred families join the case.", "answer": true, "fix": ""},
+      {"s": "The chemical in the Hinkley water is lead.", "answer": false, "fix": "It is hexavalent chromium, which PG&E used to stop rust in its cooling towers."},
+      {"s": "PG&E's first settlement offer is 333 million dollars.", "answer": false, "fix": "The first offer is twenty million dollars; 333 million is the final settlement."},
+      {"s": "Erin has a law degree but has never practised.", "answer": false, "fix": "She has no law degree at all, and she says her brain is what she has instead."}
+    ],
+    "shortAnswers": [
+      {"q": "Erin has no law degree and no manners. Why does she succeed where trained lawyers fail?", "model": "She treats the families as people rather than clients, so they tell her things they would never tell a lawyer in a suit."},
+      {"q": "Whose version of the truth do you trust: the company's documents, the residents' memories, or Erin's reading of both?", "model": "The documents are the strongest evidence, but the residents' memories tell us what the documents meant, and Erin is the one who puts the two together."},
+      {"q": "Why does the film keep showing the babysitter, the bounced cheque and the broken car?", "model": "The domestic detail makes the case cost something visible: every hour Erin spends in Hinkley is an hour taken from her children."},
+      {"q": "Erin is rude and usually right. Is she a hero, or a difficult person who happens to be correct?", "model": "The film refuses to choose: her rudeness is what makes her effective and what makes her hard to live with, and both are true."}
+    ]
+  },
+  {
+    "id": "beautiful-mind",
+    "gaps": [
+      {"line": "Alicia stood ___ him when everyone else walked away.", "answer": "by", "hint": "supported him", "adapted": true},
+      {"line": "Nash's idea came to him in a sudden ___ of genius.", "answer": "stroke", "hint": "one brilliant moment", "adapted": true},
+      {"line": "Alicia never ___ up on him, even when the doctors had no answers.", "answer": "gave", "hint": "stopped believing", "adapted": true},
+      {"line": "He learned to keep the delusions at ___.", "answer": "bay", "hint": "under control, at a distance", "adapted": true},
+      {"line": "Nash ___ back into his delusions when he stopped the medication.", "answer": "slipped", "hint": "fell back", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Nash stop taking his medication?", "options": ["It flattens his thinking, and he cannot work", "He cannot afford the prescription", "Alicia asks him to stop"], "answer": 0, "why": "The drugs dull his mind and his marriage, and he decides that thinking is the part of himself he cannot lose."},
+      {"q": "What makes Alicia realise that Charles is not real?", "options": ["Marcee, the little girl, never grows older", "Nash tells her the truth", "Dr Rosen shows her the hospital file"], "answer": 0, "why": "She runs after Nash and sees that the child has stayed exactly the same age for years."},
+      {"q": "What is the turning point in Nash's treatment?", "options": ["He learns to recognise the delusions and ignore them", "A new drug cures him", "He leaves Alicia and moves away"], "answer": 0, "why": "He cannot make the figures disappear, so he learns to test them and to live alongside them."}
+    ],
+    "quotes": [
+      {"quote": "I've always believed in numbers.", "options": ["Nash", "Hansen", "Dr Rosen"], "answer": 0, "note": "The opening of his Nobel speech, and the belief the film quietly tests."},
+      {"quote": "Find a truly original idea. It's the only way I'll ever matter.", "options": ["Nash", "Hansen", "Parcher"], "answer": 0, "note": "His answer to the question of what he wants from Princeton."}
+    ],
+    "truefalse": [
+      {"s": "Nash's delusions include a roommate, a little girl and a government agent.", "answer": true, "fix": ""},
+      {"s": "Nash wins the Nobel Prize in Economics in 1994.", "answer": true, "fix": ""},
+      {"s": "Alicia is a physics student when she meets Nash.", "answer": true, "fix": ""},
+      {"s": "Nash's great idea is a code-breaking machine.", "answer": false, "fix": "His great idea is game theory, which later wins him the Nobel Prize."},
+      {"s": "Nash is diagnosed with schizophrenia while he is still a student at Princeton.", "answer": false, "fix": "He is diagnosed years later, after his marriage, when the delusions have taken hold."},
+      {"s": "Alicia leaves Nash when she learns about his illness.", "answer": false, "fix": "She stays, and the film makes her decision the centre of its second half."}
+    ],
+    "shortAnswers": [
+      {"q": "The film shows the world from inside Nash's head. Whose version of reality do you trust, and how does the film make us doubt both?", "model": "We trust Alicia because she sees what we cannot, but the film has already taught us to believe Nash's visions, so our own judgement becomes part of the story."},
+      {"q": "Nash learns to live with his hallucinations instead of curing them. Why is that a braver ending?", "model": "A cure would be a miracle; living with an illness he cannot argue away is the harder and more honest victory."},
+      {"q": "Alicia almost never raises her voice. Why does the film keep her quiet at the moment she decides to stay?", "model": "Her quietness makes the decision look deliberate rather than dramatic, which is more frightening and more convincing than a speech."},
+      {"q": "The film changes some facts of Nash's life. Is that a lie, or is that what fiction is for?", "model": "It is a shaping rather than a lie: the film uses one life to say something true about illness and love, and the cost is accuracy about the details."}
+    ]
+  },
+  {
+    "id": "the-terminal",
+    "gaps": [
+      {"line": "Dixon wanted to get ___ of Viktor before the inspection.", "answer": "rid", "hint": "make him disappear", "adapted": true},
+      {"line": "By the third month, Viktor was at his wits' ___.", "answer": "end", "hint": "the limit of his patience", "adapted": true},
+      {"line": "Viktor ___ up for Gupta when the inspectors arrived.", "answer": "stood", "hint": "defended him", "adapted": true},
+      {"line": "Dixon pulled a few ___ to keep Viktor inside the terminal.", "answer": "strings", "hint": "used his influence", "adapted": true},
+      {"line": "The whole terminal came to a ___ when Viktor refused to sign.", "answer": "stop", "hint": "a halt", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Viktor refuse Dixon's offer to leave the airport quietly?", "options": ["He would have to claim he was afraid to go home", "He wants to stay in America for good", "He has nowhere else to go"], "answer": 0, "why": "The offer depends on a lie about his country, and Viktor will not say it, even to get out."},
+      {"q": "How does Viktor first earn money inside the terminal?", "options": ["By returning luggage trolleys for the coins", "By selling newspapers", "By cleaning the floors at night"], "answer": 0, "why": "He collects the abandoned trolleys and keeps the deposit coins, which is just enough to eat."},
+      {"q": "Why does Amelia keep coming back to the terminal?", "options": ["She is unhappy and Viktor listens to her", "She works at the airport", "She is waiting for a visa"], "answer": 0, "why": "She passes through every week, and Viktor is the one person who asks her nothing and listens to everything."}
+    ],
+    "quotes": [
+      {"quote": "I am from Krakozhia.", "options": ["Viktor", "Gupta", "Officer Torres"], "answer": 0, "note": "His answer to every official, and the one fact none of them will accept."},
+      {"quote": "You're a man without a country.", "options": ["Dixon", "Viktor", "Amelia"], "answer": 0, "note": "Dixon's summary of the case, said with the patience of a man reading a form."}
+    ],
+    "truefalse": [
+      {"s": "Viktor's country is called Krakozhia.", "answer": true, "fix": ""},
+      {"s": "Viktor lives in the international transit lounge because he never crosses the border.", "answer": true, "fix": ""},
+      {"s": "Viktor came to New York to get the last autograph for his father's collection.", "answer": true, "fix": ""},
+      {"s": "Viktor's father was a jazz musician.", "answer": false, "fix": "His father was a fan who collected the signatures of jazz musicians."},
+      {"s": "Amelia is a customs officer at JFK.", "answer": false, "fix": "She is a flight attendant who passes through the terminal every week."},
+      {"s": "Viktor spends his first weeks in the terminal in a hotel room paid for by the airline.", "answer": false, "fix": "He sleeps on a bench in the transit lounge, because he has almost no money and cannot leave."}
+    ],
+    "shortAnswers": [
+      {"q": "Viktor cannot leave the airport and cannot enter the country. Is the terminal a prison or a home?", "model": "It becomes both: the film shows that a place can be a cage and a community at the same time, depending on who else is in it."},
+      {"q": "Dixon says he is only following the rules. Is he a villain, or a man with a job?", "model": "He is a bureaucrat who hides behind procedure, and the film shows that ordinary rules can do harm when nobody asks who they are hurting."},
+      {"q": "Viktor learns English from signs and television. What does that say about how language is really learned?", "model": "It says that need and repetition teach faster than lessons; he learns the words that let him survive, one sign at a time."},
+      {"q": "Why does the film keep Viktor's English simple and repetitive?", "model": "The short sentences make him sound honest and stubborn, and they let us hear the effort behind every answer."}
+    ]
+  },
+  {
+    "id": "little-miss-sunshine",
+    "gaps": [
+      {"line": "Grandpa told Olive to go ___ it and ignore what anyone else thought.", "answer": "for", "hint": "pursue it", "adapted": true},
+      {"line": "The family had to ___ together every time the van broke down.", "answer": "pull", "hint": "work as a team", "adapted": true},
+      {"line": "Dwayne's silence drove his family up the ___.", "answer": "wall", "hint": "crazy", "adapted": true},
+      {"line": "Grandpa never minced his ___ when he told Richard what he thought.", "answer": "words", "hint": "he said it plainly", "adapted": true},
+      {"line": "Dwayne finally ___ his silence in the middle of the desert.", "answer": "broke", "hint": "ended it", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Richard want Olive to compete even when the family is falling apart?", "options": ["He needs her to prove his winners-and-losers system", "He wants the prize money", "He has promised the pageant organisers"], "answer": 0, "why": "If Olive wins, his whole philosophy is right; if she does not compete, the family has lost by his own rules."},
+      {"q": "Why does the family run back on stage and join Olive's dance?", "options": ["They choose her over the audience's opinion", "They want to shock the judges", "They are trying to stop the music"], "answer": 0, "why": "After a whole film of arguing, they stand with her in public, which is the only kind of love this family knows how to show."},
+      {"q": "Why does Olive perform the routine that Grandpa taught her?", "options": ["It is the last thing they made together", "She has no other talent", "She wants to embarrass the judges"], "answer": 0, "why": "Grandpa chose the music and taught her the moves, so the dance is a goodbye as much as a performance."}
+    ],
+    "quotes": [
+      {"quote": "Sarcasm is the refuge of losers.", "options": ["Richard", "Frank", "Grandpa"], "answer": 0, "note": "Richard's line to Frank, straight out of step four of his programme."},
+      {"quote": "You are the most beautiful girl in the whole world.", "options": ["Grandpa", "Richard", "Frank"], "answer": 0, "note": "Grandpa's answer when Olive asks him whether she is pretty."}
+    ],
+    "truefalse": [
+      {"s": "The family drives from Albuquerque to Redondo Beach.", "answer": true, "fix": ""},
+      {"s": "Dwayne has taken a vow of silence until he gets into flight school.", "answer": true, "fix": ""},
+      {"s": "The van has to be pushed to start because the clutch is broken.", "answer": true, "fix": ""},
+      {"s": "Grandpa dies in a hospital in California.", "answer": false, "fix": "He dies in his sleep at a motel on the road, before the family reaches California."},
+      {"s": "Dwayne breaks his silence when he wins a place at flight school.", "answer": false, "fix": "He breaks it when he learns that he is colour-blind and cannot fly."},
+      {"s": "Olive wins the pageant.", "answer": false, "fix": "She does not win; the family leaves with her, and the film ends on the drive home."}
+    ],
+    "shortAnswers": [
+      {"q": "Richard divides the world into winners and losers. What does the film think of that idea?", "model": "It takes the idea seriously and then shows its cost: the people Richard loves are all, by his own measure, losers, and they are worth more than his programme."},
+      {"q": "Olive is seven and wants to be a beauty queen. Is the film laughing at her, at the pageant, or at the adults around her?", "model": "It laughs at the adults and at the pageant and never at Olive; her seriousness is the film's way of showing what the adults have forgotten."},
+      {"q": "Grandpa tells Olive to do what she loves, whatever other people think. Is that good advice for a child?", "model": "It is good advice delivered badly: the freedom is right, but a seven-year-old also needs adults who will protect her from the room."},
+      {"q": "The family insults each other constantly and nobody leaves. Why does the film make love sound so rude?", "model": "Because for this family insults are the only language they have left, and the film lets the shouting carry affection as well as damage."}
+    ]
+  },
+  {
+    "id": "hidden-figures",
+    "gaps": [
+      {"line": "Katherine had to ___ her ground in a room full of men.", "answer": "hold", "hint": "not give way", "adapted": true},
+      {"line": "Mary had to ___ the odds to get into that school.", "answer": "beat", "hint": "succeed despite the difficulty", "adapted": true},
+      {"line": "Katherine ran ___ and forth to a bathroom in another building.", "answer": "back", "hint": "in both directions", "adapted": true},
+      {"line": "Paul Stafford tried to ___ her out of the meetings.", "answer": "shut", "hint": "exclude her", "adapted": true},
+      {"line": "Mary's case ___ on an old Virginia law about segregated schools.", "answer": "hinged", "hint": "depended on", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Harrison tear down the bathroom sign?", "options": ["The rule is costing him working hours and making the team look foolish", "Katherine asks him to do it", "A court orders him to remove it"], "answer": 0, "why": "He is a practical man: the runs to another building are wasting time, and the injustice only becomes visible when it slows the mission."},
+      {"q": "Why does Dorothy learn to program the IBM machine?", "options": ["She sees the machine will replace her team", "Harrison orders her to learn it", "She wants a job as an engineer"], "answer": 0, "why": "She reads the manual and teaches herself so that her group still has work after the machine arrives."},
+      {"q": "Why does Paul Stafford dislike Katherine at first?", "options": ["Her numbers make his own work look slow", "He thinks she is a spy", "She replaced his best friend"], "answer": 0, "why": "He is used to being the cleverest person in the room, and her calculations keep arriving before his."}
+    ],
+    "quotes": [
+      {"quote": "It's not because we wear skirts. It's because we wear glasses.", "options": ["Katherine", "Mary", "Dorothy"], "answer": 0, "note": "Katherine's answer to Jim Johnson, and the film's clearest statement of what the women are hired for."},
+      {"quote": "Despite what you may think, I have nothing against y'all.", "options": ["Vivian Mitchell", "Al Harrison", "Paul Stafford"], "answer": 0, "note": "Said while she is blocking a promotion: the politeness is the point."}
+    ],
+    "truefalse": [
+      {"s": "Katherine is a computer, a woman who does the calculations by hand.", "answer": true, "fix": ""},
+      {"s": "Dorothy learns FORTRAN and becomes the supervisor of the programming group.", "answer": true, "fix": ""},
+      {"s": "John Glenn asks for Katherine to check the numbers before his flight.", "answer": true, "fix": ""},
+      {"s": "Mary Jackson wants to become a teacher.", "answer": false, "fix": "She wants to become an engineer, and the night classes she needs are held at a whites-only school."},
+      {"s": "The IBM machine is brought in to help the women finish their work.", "answer": false, "fix": "The IBM 7090 is brought in to replace the human computers, which is why Dorothy learns to program it."},
+      {"s": "Al Harrison is the engineer who keeps Katherine out of the Space Task Group.", "answer": false, "fix": "Harrison brings her into the group; it is Paul Stafford who keeps her out of the meetings."}
+    ],
+    "shortAnswers": [
+      {"q": "The film is called Hidden Figures. Who is hidden, and by whom?", "model": "The women are hidden by the record and by the office itself, and the film's job is to put them back into a story that was told without them."},
+      {"q": "Vivian Mitchell says she has nothing against you people while blocking a promotion. What does that politeness hide?", "model": "It hides the same exclusion in a softer voice; the film shows that courtesy can be a way of refusing without having to say no."},
+      {"q": "Katherine answers every insult with a fact. Why does she use that tone, and what does it cost her?", "model": "Facts are the only language the room accepts from her, and the cost is that she never gets to be angry in public."},
+      {"q": "Is Al Harrison a good man who changes, or a man who moves only when it helps the mission?", "model": "He changes when the injustice becomes inefficient, which is a smaller kind of courage than it looks, and the film knows it."}
+    ]
+  },
+  {
+    "id": "night-of-the-living-dead",
+    "gaps": [
+      {"line": "The people in the farmhouse could not ___ along for one night.", "answer": "get", "hint": "live peacefully together", "adapted": true},
+      {"line": "By midnight the house was ___ off from the rest of the world.", "answer": "cut", "hint": "separated", "adapted": true},
+      {"line": "Ben ___ charge while the others argued about the cellar.", "answer": "took", "hint": "became the leader", "adapted": true},
+      {"line": "Tom and Judy decided to make a ___ for it in the truck.", "answer": "run", "hint": "a dash to safety", "adapted": true},
+      {"line": "Everyone in the house was on ___ all night.", "answer": "edge", "hint": "tense and nervous", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Harry refuse to come out of the cellar?", "options": ["He trusts the cellar more than Ben's plan", "He is looking for his daughter", "He is waiting for the rescue party"], "answer": 0, "why": "He is afraid of the open ground floor and will not accept a plan he did not make himself."},
+      {"q": "Why does Barbra barely speak in the first hour?", "options": ["She is in shock after her brother's death", "She does not trust Ben", "She is looking for her father"], "answer": 0, "why": "She has just seen her brother killed, and the film shows the shock in her silence rather than in words."},
+      {"q": "What goes wrong with the plan to escape in the truck?", "options": ["The truck catches fire at the pump", "The keys are missing", "The cellar door is locked"], "answer": 0, "why": "The attempt ends in the fire at the pump, and after that the group has no plan left."}
+    ],
+    "quotes": [
+      {"quote": "We'll be safer in the cellar.", "options": ["Harry Cooper", "Ben", "Tom"], "answer": 0, "note": "Harry's whole argument, and the plan that splits the house in two."},
+      {"quote": "The dead are returning to life.", "options": ["The radio announcer", "Ben", "The sheriff"], "answer": 0, "note": "The bulletin that names what the characters keep refusing to believe."}
+    ],
+    "truefalse": [
+      {"s": "The film begins in a cemetery, where Barbra and her brother visit a grave.", "answer": true, "fix": ""},
+      {"s": "Ben boards up the windows while Harry argues for the cellar.", "answer": true, "fix": ""},
+      {"s": "The film is shot in black and white.", "answer": true, "fix": ""},
+      {"s": "The survivors are rescued at dawn by the army.", "answer": false, "fix": "Ben is shot by a posse who mistake him for one of the dead, and the film ends with his body on a fire."},
+      {"s": "Barbra escapes the farmhouse with Ben.", "answer": false, "fix": "She never leaves the house, and Ben ends the night alone."},
+      {"s": "Harry Cooper wants to make a run for the nearest town.", "answer": false, "fix": "Harry wants everyone in the cellar; it is Ben who wants to hold the ground floor."}
+    ],
+    "shortAnswers": [
+      {"q": "The film puts strangers in one room. What does each person want, and why can't they agree?", "model": "Each of them wants safety on their own terms, and the film shows that fear makes people defend a plan rather than listen to one."},
+      {"q": "Is this a horror film about monsters, or about people?", "model": "The monsters set the clock, but the horror comes from the living: who is trusted, who is listened to, and who is shot at the end."},
+      {"q": "The news broadcasts give information in pieces. How does that shape the characters' choices?", "model": "Half-information makes them guess and argue, which is exactly what the audience is doing too, so the film keeps us in the same fog."},
+      {"q": "The ending is famously harsh. What is the film saying about who gets rescued?", "model": "It says that rescue depends on being recognised as human, and Ben is not, which is the film's real subject."}
+    ]
+  },
+  {
+    "id": "the-office-s1e1",
+    "gaps": [
+      {"line": "The staff ___ along with Michael's joke because he is the boss.", "answer": "played", "hint": "pretended to enjoy it", "adapted": true},
+      {"line": "Dwight ___ at the chance to run the meeting.", "answer": "jumped", "hint": "took it eagerly", "adapted": true},
+      {"line": "Michael tried to ___ the remark off as a joke.", "answer": "pass", "hint": "pretend it was", "adapted": true},
+      {"line": "The meeting ___ downhill in about a minute.", "answer": "went", "hint": "got worse", "adapted": true},
+      {"line": "Michael ___ the point of the meeting completely.", "answer": "missed", "hint": "did not understand it", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Michael decide not to tell the staff about the possible downsizing?", "options": ["He does not want to be the boss who brings bad news on camera", "He has forgotten what Jan said", "Jan orders him to keep it secret"], "answer": 0, "why": "He wants the documentary to show him as a leader, and bad news does not fit the picture he is performing."},
+      {"q": "Why does Jim put Dwight's stapler in Jell-O?", "options": ["To wind Dwight up while the cameras watch", "Because Dwight asked him to", "To test the office fridge"], "answer": 0, "why": "It is a patient, small prank, and Jim's look at the camera shows that he knows exactly how Dwight will react."},
+      {"q": "What is the turning point in Michael's prank on Pam?", "options": ["She believes she is being fired and starts to cry", "She laughs before he finishes", "She calls the police"], "answer": 0, "why": "The joke stops being funny the moment she takes it seriously, and Michael has to admit it was a prank in front of the crew."}
+    ],
+    "quotes": [
+      {"quote": "I'm a friend first, a boss second and probably an entertainer third.", "options": ["Michael", "Jim", "Dwight"], "answer": 0, "note": "His summary of the atmosphere he has created, said straight to camera."},
+      {"quote": "This is my kingdom, as far as the eye can see.", "options": ["Michael", "Dwight", "Pam"], "answer": 0, "note": "The tour of the office floor, and the size of his ambition."}
+    ],
+    "truefalse": [
+      {"s": "Michael has worked at Dunder Mifflin for twelve years.", "answer": true, "fix": ""},
+      {"s": "Ryan arrives from a temp agency on his first day.", "answer": true, "fix": ""},
+      {"s": "Jim has hidden Dwight's belongings in Jell-O more than once.", "answer": true, "fix": ""},
+      {"s": "Jan tells Michael that the Stamford branch will definitely close.", "answer": false, "fix": "She says the board has not decided, and that Michael must convince her his branch can absorb the other."},
+      {"s": "Michael explains the downsizing news to the staff in the same meeting.", "answer": false, "fix": "He keeps it to himself, and compares it to a doctor not telling a patient that he has cancer."},
+      {"s": "Michael's prank on Pam is about stolen printer paper.", "answer": false, "fix": "He accuses her of stealing Post-it Notes, then admits it was a joke."}
+    ],
+    "shortAnswers": [
+      {"q": "Michael wants the camera to see him as a good boss. Why is that funny and painful at the same time?", "model": "Because the gap between the performance and the reality is visible in every scene, and the staff have to live inside that gap."},
+      {"q": "The staff say nothing when Michael is embarrassing. Would you speak up in that meeting?", "model": "Their silence is a survival strategy: the boss controls the room, and the camera makes speaking up even more expensive."},
+      {"q": "Jim is polite to Michael and makes fun of him behind his back. Is that kind or cruel?", "model": "It is neither: it is the small daily dishonesty that keeps an office running, and the film makes us complicit by letting us enjoy it."},
+      {"q": "Why does the show keep cutting to characters talking to the camera?", "model": "The talking heads let people explain themselves and expose themselves at the same time, because what they choose to say is the joke."}
+    ]
+  },
+  {
+    "id": "ted-lasso-s1e1",
+    "gaps": [
+      {"line": "Rebecca planned to ___ the club into the ground.", "answer": "run", "hint": "destroy it slowly", "adapted": true},
+      {"line": "Ted ___ off the journalists' jokes with a smile.", "answer": "brushed", "hint": "ignored them", "adapted": true},
+      {"line": "Ted ___ up for Nate in front of the whole team.", "answer": "stood", "hint": "defended him", "adapted": true},
+      {"line": "Roy tried to ___ Ted down in front of the players.", "answer": "put", "hint": "make him look small", "adapted": true},
+      {"line": "Ted took the criticism in his ___.", "answer": "stride", "hint": "without getting upset", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Higgins look uncomfortable while Rebecca praises Ted to the press?", "options": ["He knows her real plan and has to stand beside it", "He disagrees with the hire", "He wants Ted's job"], "answer": 0, "why": "Higgins is the only person in the room who knows she wants the club to fail, and his face carries the lie."},
+      {"q": "What does Ted do when a journalist asks whether the whole thing is a joke?", "options": ["He keeps answering politely and admits what he does not know", "He walks out of the room", "He insults the journalist back"], "answer": 0, "why": "He stays warm and honest about his ignorance, which makes the room's hostility look small."},
+      {"q": "Why does Rebecca offer Higgins a promotion?", "options": ["She needs his full support for her plan", "She is rewarding his honesty", "She wants him to leave the club"], "answer": 0, "why": "She buys his loyalty with a title and a raise, because her plan only works if he keeps quiet."}
+    ],
+    "quotes": [
+      {"quote": "Ted Lasso is gonna help me burn it to the ground.", "options": ["Rebecca", "Higgins", "Keeley"], "answer": 0, "note": "Said to Higgins after the press conference: the owner's real plan in one line."},
+      {"quote": "I do love a locker room. Smells like potential.", "options": ["Ted", "Coach Beard", "Roy"], "answer": 0, "note": "His first visit to the dressing room, and the whole method in two sentences."}
+    ],
+    "truefalse": [
+      {"s": "Rebecca fires the previous manager in the opening scene.", "answer": true, "fix": ""},
+      {"s": "Ted's last job was coaching American football at Wichita State.", "answer": true, "fix": ""},
+      {"s": "Nate is the kit man, and Ted asks his name.", "answer": true, "fix": ""},
+      {"s": "Rebecca tells the journalists that she hired Ted because he is a proven coach.", "answer": false, "fix": "In public she calls it a fresh start; in private she tells Higgins she wants to burn the club down."},
+      {"s": "Ted tells the press that he has coached Premier League football before.", "answer": false, "fix": "He admits that he has never coached the sport they call football at any level."},
+      {"s": "Ted's press conference goes badly because he refuses to answer questions.", "answer": false, "fix": "He answers happily but gets the game wrong, saying four quarters and being corrected to two halves."}
+    ],
+    "shortAnswers": [
+      {"q": "Rebecca hires Ted for a reason she keeps to herself. Is she a villain, a businesswoman, or something more complicated?", "model": "She is a woman using the only power she has to hurt the man who hurt her, and the film makes her sympathetic without excusing it."},
+      {"q": "Ted knows almost nothing about football. Could not knowing the rules ever make a coach better?", "model": "It can, because he sees the people rather than the tactics, and the players have been coached by experts for years without being seen."},
+      {"q": "Ted asks Nate his name, and Nate says nobody ever does. Why does that small moment matter?", "model": "It shows that Ted's method is attention rather than knowledge, and it is the first proof that he might be good at the job."},
+      {"q": "Why does Ted answer every hostile question with a joke and a compliment?", "model": "The jokes keep him in control of the room without a fight, and they buy him time to work out what he actually thinks."}
+    ]
+  },
+  {
+    "id": "brooklyn-99-s1e1",
+    "gaps": [
+      {"line": "Jake was ___ on winning the bet from the first minute.", "answer": "bent", "hint": "determined", "adapted": true},
+      {"line": "The squad was ___ aback by Holt's first order.", "answer": "taken", "hint": "surprised", "adapted": true},
+      {"line": "Amy ___ her nose up at Jake's shortcuts.", "answer": "turned", "hint": "showed contempt", "adapted": true},
+      {"line": "Boyle could not ___ up the courage to ask Rosa out.", "answer": "work", "hint": "build it slowly", "adapted": true},
+      {"line": "The bet got out of ___ by the end of the day.", "answer": "hand", "hint": "out of control", "adapted": true}
+    ],
+    "quiz": [
+      {"q": "Why does Amy make the bet with Jake?", "options": ["She wants to prove that proper police work beats his shortcuts", "She wants a date with him", "Holt tells her to compete"], "answer": 0, "why": "Jake's success without paperwork offends her sense of the job, and the bet is her chance to prove that method matters."},
+      {"q": "Why does Jake take the bet instead of ignoring it?", "options": ["He cannot resist proving he is the better detective", "He wants her car", "Holt orders him to compete"], "answer": 0, "why": "The bet is not really about the date: it is about being told, again, that he is not good enough."},
+      {"q": "What is the turning point for Jake and Holt?", "options": ["Holt tells him something personal in the car and Jake listens", "Jake apologises for the impression", "Holt praises his arrest record"], "answer": 0, "why": "The captain offers a fact about himself instead of a rule, and Jake has to decide whether to make a joke of it."}
+    ],
+    "quotes": [
+      {"quote": "I need my rabbi.", "options": ["Jake", "Boyle", "Gina"], "answer": 0, "note": "Jake's word for the mentor he wants in a captain, said before he has met one."},
+      {"quote": "Catch bad guys and look good doing it.", "options": ["Jake", "Holt", "Terry"], "answer": 0, "note": "His summary of the job at the end of the arrest, tie and all."}
+    ],
+    "truefalse": [
+      {"s": "Jake finds the camera hidden inside a teddy bear.", "answer": true, "fix": ""},
+      {"s": "Terry is on administrative leave because he is afraid of getting hurt.", "answer": true, "fix": ""},
+      {"s": "Jake is sent to the records room after Ratko escapes.", "answer": true, "fix": ""},
+      {"s": "Holt's first order is that the detectives must wear uniforms.", "answer": false, "fix": "He asks for a necktie, not a uniform, though Jake works out that the tie is about being part of a team."},
+      {"s": "The bet is about who can close more cases this month.", "answer": false, "fix": "It is about who makes more arrests this year, with a car and a date as the prizes."},
+      {"s": "Holt was given his own command as soon as he made captain.", "answer": false, "fix": "He was put in a public affairs unit for years and only now has a command of his own."}
+    ],
+    "shortAnswers": [
+      {"q": "Jake is a great detective and a terrible adult. Can someone be excellent at their job and still be a problem?", "model": "Yes, and the film is careful to show both: his arrests are real, and so is the cost to everyone who has to work with him."},
+      {"q": "Holt makes Jake wear a tie. Is that about discipline, respect, or power?", "model": "It is about all three at once, and Jake only understands it when he sees that Holt was kept off the team for years."},
+      {"q": "Amy and Jake bet a car against a date. Is that competitive fun or something less healthy?", "model": "The film plays it as fun, but the stakes are uneven: one prize is an object and the other is a person, and Amy knows it."},
+      {"q": "Holt speaks in full sentences and never uses contractions. Why does the show give him that voice?", "model": "It makes him sound like the rules themselves, and it makes the moment he speaks personally in the car land much harder."}
+    ]
+  }
+]

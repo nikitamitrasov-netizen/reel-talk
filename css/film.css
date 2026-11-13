@@ -357,3 +357,47 @@
 .scramble-actions { display: flex; gap: 8px; }
 .drill-ok { color: #2f6b4d; font-size: 13.5px; }
 .drill-bad { color: var(--red); font-size: 13px; }
+
+/* ── true / false and short answers ───────────────────────── */
+
+.tf-card, .sa-card { padding: 14px 0; border-bottom: 1px solid rgba(30, 26, 20, 0.09); }
+.tf-card:last-child, .sa-card:last-child { border-bottom: 0; }
+.tf-s { font-size: 14.5px; line-height: 1.55; color: var(--ink-soft); margin-bottom: 9px; }
+.tf-btns { display: flex; gap: 8px; }
+.tf-btn {
+  padding: 7px 18px;
+  border: 1px solid var(--line-2);
+  background: #fff;
+  font-size: 12.5px;
+  font-weight: 600;
+  transition: 0.15s;
+}
+.tf-btn:hover { border-color: #111; background: var(--bg-2, #f7f7f4); }
+.tf-btn.is-right { border-color: var(--green); background: #eef4ee; color: #1f6b46; }
+.tf-btn.is-wrong { border-color: var(--red); background: #fdeceb; color: var(--red); }
+.tf-btn[disabled] { cursor: default; }
+
+.sa-q { font-size: 14.5px; line-height: 1.55; color: var(--ink-soft); margin-bottom: 8px; }
+.sa-card textarea {
+  width: 100%;
+  min-height: 54px;
+  padding: 8px 10px;
+  border: 1px solid var(--line-2);
+  background: #fff;
+  font: inherit;
+  font-size: 13.5px;
+  line-height: 1.5;
+  resize: vertical;
+  outline: none;
+}
+.sa-card textarea:focus { border-color: #111; }
+.sa-actions { margin-top: 8px; }
+.sa-model {
+  margin-top: 9px;
+  padding: 9px 12px;
+  border-left: 3px solid var(--green);
+  background: #f5faf6;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}

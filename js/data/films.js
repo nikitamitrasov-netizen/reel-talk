@@ -117,6 +117,36 @@ window.FILM_DATA = [
     "answer": "brown",
     "hint": "his family name",
     "adapted": false
+   },
+   {
+    "line": "Lucy asks Charlie Brown to direct the ___.",
+    "answer": "play",
+    "hint": "a story on a stage",
+    "adapted": true
+   },
+   {
+    "line": "Charlie Brown's dog is called ___.",
+    "answer": "Snoopy",
+    "hint": "a funny name for a small dog",
+    "adapted": true
+   },
+   {
+    "line": "Snoopy decorates his ___ for a competition.",
+    "answer": "doghouse",
+    "hint": "a little house for a dog",
+    "adapted": true
+   },
+   {
+    "line": "Linus reads the Christmas story from the ___.",
+    "answer": "Bible",
+    "hint": "a very old book",
+    "adapted": true
+   },
+   {
+    "line": "The children sing ___ songs at the end.",
+    "answer": "Christmas",
+    "hint": "songs about the holiday",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -149,6 +179,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Linus then tells the story of the first Christmas."
+   },
+   {
+    "quote": "That's what Christmas is all about, Charlie Brown.",
+    "options": [
+     "Lucy",
+     "Snoopy",
+     "Linus"
+    ],
+    "answer": 2,
+    "note": "Linus says it after he reads the Christmas story, and the hall goes quiet."
+   },
+   {
+    "quote": "I never thought it was such a bad little tree.",
+    "options": [
+     "Linus",
+     "Lucy",
+     "Schroeder"
+    ],
+    "answer": 0,
+    "note": "Linus says it when the other children laugh at Charlie Brown's tree."
    }
   ],
   "quiz": [
@@ -201,6 +251,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The children decorate the little tree and sing together."
+   },
+   {
+    "q": "What instrument does Schroeder play?",
+    "options": [
+     "A guitar",
+     "A piano",
+     "A drum"
+    ],
+    "answer": 1,
+    "why": "Schroeder plays a small piano, even at Christmas."
+   },
+   {
+    "q": "Where do Charlie Brown and Linus get the tree?",
+    "options": [
+     "In a forest",
+     "At a supermarket",
+     "At a tree market"
+    ],
+    "answer": 2,
+    "why": "They look at a market full of big, shiny trees and choose the little real one."
+   },
+   {
+    "q": "What does Charlie Brown put on the little tree?",
+    "options": [
+     "One red ball",
+     "A star",
+     "Many lights"
+    ],
+    "answer": 0,
+    "why": "One ball is enough to make the little tree bend over."
    }
   ],
   "roleplay": {
@@ -248,7 +328,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "a1.json"
+  "_src": "a1.json",
+  "truefalse": [
+   {
+    "s": "Lucy asks Charlie Brown to direct the Christmas play.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Charlie Brown buys a big, beautiful tree.",
+    "answer": false,
+    "fix": "He buys a very small, thin tree with few branches."
+   },
+   {
+    "s": "Snoopy decorates his doghouse with lights.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Charlie Brown is happy at the start of the film.",
+    "answer": false,
+    "fix": "He is sad and does not feel the Christmas feeling."
+   },
+   {
+    "s": "The children sing a song at the end.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Nobody helps Charlie Brown at the end.",
+    "answer": false,
+    "fix": "The other children come and decorate the little tree with him."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why is Charlie Brown sad at Christmas?",
+    "model": "He does not feel happy like the other children, and he thinks nobody likes him."
+   },
+   {
+    "q": "Why do the children laugh at his tree?",
+    "model": "The tree is very small and thin, and they want a big, modern one."
+   },
+   {
+    "q": "What does Linus tell the children about Christmas?",
+    "model": "He reads the old story and says Christmas is about love, not presents."
+   },
+   {
+    "q": "Which character in the film is most like you, and why?",
+    "model": "I am like Linus because I stay calm and I help my friends."
+   }
+  ]
  },
  {
   "id": "bao",
@@ -366,6 +496,36 @@ window.FILM_DATA = [
     "answer": "son",
     "hint": "her boy child",
     "adapted": true
+   },
+   {
+    "line": "The mother makes buns in the ___.",
+    "answer": "kitchen",
+    "hint": "the room where you cook",
+    "adapted": true
+   },
+   {
+    "line": "The mother takes the bun to the ___.",
+    "answer": "park",
+    "hint": "a green place with trees and children",
+    "adapted": true
+   },
+   {
+    "line": "The bun brings a ___ home to meet his mother.",
+    "answer": "girl",
+    "hint": "a young woman",
+    "adapted": true
+   },
+   {
+    "line": "The mother is very ___ when the bun goes away.",
+    "answer": "sad",
+    "hint": "not happy",
+    "adapted": true
+   },
+   {
+    "line": "At the end, the son and his mother ___.",
+    "answer": "hug",
+    "hint": "hold each other with love",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -398,6 +558,26 @@ window.FILM_DATA = [
     ],
     "answer": 2,
     "note": "The real son comes back, and food is how this family says sorry."
+   },
+   {
+    "quote": "No words: the mother cries in bed with her eyes closed.",
+    "options": [
+     "The bun",
+     "The mother",
+     "The son"
+    ],
+    "answer": 1,
+    "note": "A moment, not a line: there is almost no dialogue in this film."
+   },
+   {
+    "quote": "No words: the son and his mother hug at the end.",
+    "options": [
+     "The bun and the girl",
+     "The baker",
+     "The son and his mother"
+    ],
+    "answer": 2,
+    "note": "A moment, not a line: the film ends with the real son and his mother together."
    }
   ],
   "quiz": [
@@ -450,6 +630,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The whole bun story was her dream, and her son is at the door."
+   },
+   {
+    "q": "Where does the mother take the bun?",
+    "options": [
+     "To school",
+     "To the park",
+     "To the sea"
+    ],
+    "answer": 1,
+    "why": "They go out to the park, where other children are playing."
+   },
+   {
+    "q": "What does the bun do with the other children?",
+    "options": [
+     "He plays with them",
+     "He fights with them",
+     "He eats with them"
+    ],
+    "answer": 0,
+    "why": "He runs and plays with them, and he does not want to go home."
+   },
+   {
+    "q": "How does the film end?",
+    "options": [
+     "The mother is alone again",
+     "The bun comes back home",
+     "The mother and son eat together and hug"
+    ],
+    "answer": 2,
+    "why": "The real son comes back, and they share food and cry together."
    }
   ],
   "roleplay": {
@@ -498,6 +708,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a1.json",
+  "truefalse": [
+   {
+    "s": "The mother makes buns in the kitchen.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "One bun comes alive and becomes like a son to her.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The bun is a real boy from the start.",
+    "answer": false,
+    "fix": "The bun is a steamed bun that comes alive."
+   },
+   {
+    "s": "The mother is happy when the bun leaves with his girlfriend.",
+    "answer": false,
+    "fix": "She is very sad, and she eats the bun."
+   },
+   {
+    "s": "The real son comes home at the end.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The bun stays small all his life.",
+    "answer": false,
+    "fix": "The bun grows up and becomes a young man."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why is the mother lonely at the start?",
+    "model": "She lives alone, and her son is not at home."
+   },
+   {
+    "q": "Why does the mother eat the bun?",
+    "model": "She is afraid of losing him, so she eats him, and then she cries."
+   },
+   {
+    "q": "How does the son say sorry to his mother?",
+    "model": "He comes home, sits on her bed and gives her something to eat."
+   },
+   {
+    "q": "What does the film tell us about parents and children?",
+    "model": "Parents love their children very much, but they must let them go."
+   }
+  ],
   "poster": "assets/posters/bao.jpg"
  },
  {
@@ -617,6 +877,36 @@ window.FILM_DATA = [
     "answer": "leaf",
     "hint": "a green part of a tree",
     "adapted": true
+   },
+   {
+    "line": "The wire is between two tall ___.",
+    "answer": "poles",
+    "hint": "long sticks that hold a wire",
+    "adapted": true
+   },
+   {
+    "line": "The big bird has a big ___.",
+    "answer": "beak",
+    "hint": "the mouth of a bird",
+    "adapted": true
+   },
+   {
+    "line": "The little birds fall to the ___.",
+    "answer": "ground",
+    "hint": "the earth under your feet",
+    "adapted": true
+   },
+   {
+    "line": "The big bird ___ at the little birds.",
+    "answer": "laughs",
+    "hint": "makes a happy sound",
+    "adapted": true
+   },
+   {
+    "line": "The big bird is not angry, he is ___.",
+    "answer": "friendly",
+    "hint": "kind and nice",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -649,6 +939,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "A moment, not a line: the big bird is kind at the end."
+   },
+   {
+    "quote": "No words: the big bird hangs from the wire by one last toe.",
+    "options": [
+     "A little bird",
+     "The big bird",
+     "The wind"
+    ],
+    "answer": 1,
+    "note": "A moment, not a line: there is no dialogue in this film."
+   },
+   {
+    "quote": "No words: the little birds fly up into the sky and lose their feathers.",
+    "options": [
+     "The big bird",
+     "The wind",
+     "The little birds"
+    ],
+    "answer": 2,
+    "note": "A moment, not a line: the wire works like a slingshot."
    }
   ],
   "quiz": [
@@ -701,6 +1011,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He laughs at the birds with no feathers, then kindly offers a leaf."
+   },
+   {
+    "q": "What colour are the little birds?",
+    "options": [
+     "Red",
+     "Blue",
+     "Green"
+    ],
+    "answer": 1,
+    "why": "Fifteen small blue birds sit together on the wire."
+   },
+   {
+    "q": "Where do the little birds fall?",
+    "options": [
+     "Into the water",
+     "Into a tree",
+     "To the ground"
+    ],
+    "answer": 2,
+    "why": "The wire throws them up, and then they fall down to the ground."
+   },
+   {
+    "q": "Who laughs at the end?",
+    "options": [
+     "The little birds",
+     "The big bird",
+     "Nobody"
+    ],
+    "answer": 1,
+    "why": "The big bird laughs, and then he gives a leaf to a bird with no feathers."
    }
   ],
   "roleplay": {
@@ -749,6 +1089,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "wave2-a.json",
+  "truefalse": [
+   {
+    "s": "The little birds sit on a telephone wire.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The big bird is very small.",
+    "answer": false,
+    "fix": "The big bird is very big, and the wire goes down under him."
+   },
+   {
+    "s": "The little birds peck the big bird's toes.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The big bird is angry and eats the little birds.",
+    "answer": false,
+    "fix": "The big bird is friendly; he laughs and gives them a leaf."
+   },
+   {
+    "s": "The wire throws the little birds into the air.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The little birds keep all their feathers.",
+    "answer": false,
+    "fix": "They lose all their feathers."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why are the little birds angry with the big bird?",
+    "model": "He is very big, and when he sits on the wire it goes down and they slide together."
+   },
+   {
+    "q": "How do the little birds try to make the big bird fall?",
+    "model": "They peck his toes again and again."
+   },
+   {
+    "q": "Why does the big bird give the little bird a leaf?",
+    "model": "The little bird has no feathers, and the big bird is kind and wants to help."
+   },
+   {
+    "q": "Which bird is funnier, the big bird or the little birds? Say why.",
+    "model": "The big bird is funnier because he only wants to sit with them and he smiles all the time."
+   }
+  ],
   "poster": "assets/posters/for-the-birds.jpg"
  },
  {
@@ -868,6 +1258,36 @@ window.FILM_DATA = [
     "answer": "hugs",
     "hint": "holds with love",
     "adapted": true
+   },
+   {
+    "line": "Dad sprays ___ on Zuri's hair.",
+    "answer": "water",
+    "hint": "you drink it",
+    "adapted": true
+   },
+   {
+    "line": "Mum wears a scarf on her ___.",
+    "answer": "head",
+    "hint": "it is on top of your body",
+    "adapted": true
+   },
+   {
+    "line": "Zuri's hair is full of small ___.",
+    "answer": "curls",
+    "hint": "round pieces of hair",
+    "adapted": true
+   },
+   {
+    "line": "Doing Zuri's hair is a big ___ for Dad.",
+    "answer": "job",
+    "hint": "a piece of work",
+    "adapted": true
+   },
+   {
+    "line": "It is a special ___ for Zuri and her dad.",
+    "answer": "day",
+    "hint": "24 hours",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -900,6 +1320,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "A moment, not a line: she has lost her hair, and she is still beautiful."
+   },
+   {
+    "quote": "Dad puts his head in his hands and stops trying.",
+    "options": [
+     "Zuri",
+     "Dad",
+     "Mum"
+    ],
+    "answer": 1,
+    "note": "A moment, not a line: he is tired and the brush is stuck again."
+   },
+   {
+    "quote": "Dad watches the video and tries the hair again.",
+    "options": [
+     "Mum",
+     "Zuri",
+     "Dad"
+    ],
+    "answer": 2,
+    "note": "A moment, not a line: the video gives him a new idea."
    }
   ],
   "quiz": [
@@ -952,6 +1392,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Dad learns a new skill because he loves Zuri and wants her to be happy."
+   },
+   {
+    "q": "What colour is Zuri's hair?",
+    "options": [
+     "Red",
+     "Black",
+     "Yellow"
+    ],
+    "answer": 1,
+    "why": "Zuri has long, black, curly hair."
+   },
+   {
+    "q": "What does Mum do with her scarf at the end?",
+    "options": [
+     "She gives it to Zuri",
+     "She puts it on",
+     "She takes it off"
+    ],
+    "answer": 2,
+    "why": "She takes it off in the hospital and smiles at Zuri."
+   },
+   {
+    "q": "What does Zuri's hair look like after Dad finishes?",
+    "options": [
+     "Two round puffs",
+     "One long plait",
+     "Short and straight"
+    ],
+    "answer": 0,
+    "why": "Dad makes two round puffs, one on each side of her head."
    }
   ],
   "roleplay": {
@@ -1000,6 +1470,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "wave2-a.json",
+  "truefalse": [
+   {
+    "s": "Zuri's dad does her hair in this film.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Zuri's hair is short and straight.",
+    "answer": false,
+    "fix": "Her hair is long and curly."
+   },
+   {
+    "s": "Dad learns how to do Zuri's hair from a video.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Mum is at home all day.",
+    "answer": false,
+    "fix": "Mum is in hospital."
+   },
+   {
+    "s": "Dad makes two round puffs in Zuri's hair.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Mum is angry about her hair.",
+    "answer": false,
+    "fix": "Mum smiles, takes off her scarf and hugs her family."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Dad find Zuri's hair difficult?",
+    "model": "Her hair is long and curly, the brush gets stuck, and he has never done it before."
+   },
+   {
+    "q": "How does Dad learn to do the hair?",
+    "model": "Zuri shows him a video, and he watches it and tries again."
+   },
+   {
+    "q": "Why does Mum take off her scarf?",
+    "model": "She wants Zuri to see her head, and she is not afraid."
+   },
+   {
+    "q": "Why is the film called Hair Love?",
+    "model": "Because the father shows his love by learning to do his daughter's hair."
+   }
+  ],
   "poster": "assets/posters/hair-love.jpg"
  },
  {
@@ -1119,6 +1639,36 @@ window.FILM_DATA = [
     "answer": "stone",
     "hint": "hard grey rock",
     "adapted": false
+   },
+   {
+    "line": "Uku sings to the ___ every day.",
+    "answer": "sea",
+    "hint": "the big salt water",
+    "adapted": true
+   },
+   {
+    "line": "Uku is alone on a small ___.",
+    "answer": "island",
+    "hint": "land with water all around",
+    "adapted": true
+   },
+   {
+    "line": "Uku watches the animals with their ___.",
+    "answer": "families",
+    "hint": "mothers, fathers and children",
+    "adapted": true
+   },
+   {
+    "line": "Lele comes up out of the ___.",
+    "answer": "water",
+    "hint": "the sea is full of it",
+    "adapted": true
+   },
+   {
+    "line": "The two volcanoes sing ___ at the end.",
+    "answer": "together",
+    "hint": "with each other",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -1151,6 +1701,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "A moment, not a line: she sings from under the sea, and his fire comes back."
+   },
+   {
+    "quote": "Another volcano was listening to his song.",
+    "options": [
+     "Uku",
+     "A bird",
+     "Lele"
+    ],
+    "answer": 2,
+    "note": "A line from the song: Lele is under the water, and she hears every word."
+   },
+   {
+    "quote": "Uku's red fire goes out and grey stone covers him.",
+    "options": [
+     "Lele",
+     "Uku",
+     "The sea"
+    ],
+    "answer": 1,
+    "note": "A moment, not a line: we see the years go by as his lava turns to stone."
    }
   ],
   "quiz": [
@@ -1203,6 +1773,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "They rise together and become one island."
+   },
+   {
+    "q": "What does Uku sing to?",
+    "options": [
+     "The moon",
+     "The sea",
+     "The birds"
+    ],
+    "answer": 1,
+    "why": "He sings his song to the sea and hopes for an answer."
+   },
+   {
+    "q": "How long does Uku sing alone?",
+    "options": [
+     "For one day",
+     "For a week",
+     "For years"
+    ],
+    "answer": 2,
+    "why": "The song says 'years of singing all alone'."
+   },
+   {
+    "q": "How many volcanoes sing at the end?",
+    "options": [
+     "Two",
+     "One",
+     "Three"
+    ],
+    "answer": 0,
+    "why": "Uku and Lele sing together, and their two islands become one."
    }
   ],
   "roleplay": {
@@ -1251,6 +1851,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "wave2-a.json",
+  "truefalse": [
+   {
+    "s": "Uku is a volcano on a small island.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Lele lives under the sea.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Uku is happy alone at the start.",
+    "answer": false,
+    "fix": "He is lonely and wants someone to love."
+   },
+   {
+    "s": "Lele is a big volcano at the start of the film.",
+    "answer": false,
+    "fix": "Lele is a small volcano under the water."
+   },
+   {
+    "s": "Uku's lava turns to stone over the years.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The two volcanoes become two separate islands.",
+    "answer": false,
+    "fix": "They come together and become one island."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why is Uku sad at the start of the film?",
+    "model": "He is alone on his island, and he wants someone to love."
+   },
+   {
+    "q": "How does Uku change over the years?",
+    "model": "He sings alone for years, and his hot lava turns to grey stone."
+   },
+   {
+    "q": "Why is Uku happy at the end?",
+    "model": "Lele comes out of the sea and sings his song, so he is not alone."
+   },
+   {
+    "q": "Which song is nicer, the first song or the last one? Say why.",
+    "model": "The last song is nicer because two voices sing it together."
+   }
+  ],
   "poster": "assets/posters/lava.jpg"
  },
  {
@@ -1369,6 +2019,36 @@ window.FILM_DATA = [
     "answer": "food",
     "hint": "something to eat",
     "adapted": true
+   },
+   {
+    "line": "The mother bird flies to the ___ for food.",
+    "answer": "sea",
+    "hint": "the big salt water",
+    "adapted": true
+   },
+   {
+    "line": "Piper waits for her mother in the ___.",
+    "answer": "nest",
+    "hint": "a bird's home",
+    "adapted": true
+   },
+   {
+    "line": "The crab has a hard ___ on his back.",
+    "answer": "shell",
+    "hint": "a hard cover",
+    "adapted": true
+   },
+   {
+    "line": "Piper opens her eyes and sees ___ under the water.",
+    "answer": "shells",
+    "hint": "hard round things on the sand",
+    "adapted": true
+   },
+   {
+    "line": "At the end, Piper eats well and she is ___.",
+    "answer": "happy",
+    "hint": "feeling good",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -1401,6 +2081,26 @@ window.FILM_DATA = [
     ],
     "answer": 2,
     "note": "She copies what the crab does, and it works."
+   },
+   {
+    "quote": "No words: the crab digs into the sand and the wave goes over him.",
+    "options": [
+     "Piper",
+     "The crab",
+     "The mother"
+    ],
+    "answer": 1,
+    "note": "A moment, not a line: nobody speaks in this film."
+   },
+   {
+    "quote": "No words: Piper brings food to the other birds and they all eat.",
+    "options": [
+     "The crab",
+     "Her mother",
+     "Piper"
+    ],
+    "answer": 2,
+    "note": "A moment, not a line: the last shots show her feeding the whole flock."
    }
   ],
   "quiz": [
@@ -1453,6 +2153,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "She finds food for the whole group, and the others copy her."
+   },
+   {
+    "q": "What does Piper have on her body?",
+    "options": [
+     "Fur",
+     "Scales",
+     "Feathers"
+    ],
+    "answer": 2,
+    "why": "She is a small bird, so her body is covered in feathers."
+   },
+   {
+    "q": "What does the crab do when a big wave comes?",
+    "options": [
+     "It digs into the sand",
+     "It flies away",
+     "It swims out to sea"
+    ],
+    "answer": 0,
+    "why": "He digs in and shows Piper the trick: open your eyes under the water."
+   },
+   {
+    "q": "Where is Piper's nest?",
+    "options": [
+     "In a tree",
+     "On the beach",
+     "On a boat"
+    ],
+    "answer": 1,
+    "why": "The nest is on the sand, a short walk from the water."
    }
   ],
   "roleplay": {
@@ -1501,6 +2231,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a1.json",
+  "truefalse": [
+   {
+    "s": "Piper is a little bird.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The crab helps Piper find food.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Piper likes the water from the start.",
+    "answer": false,
+    "fix": "She is afraid of the water at first."
+   },
+   {
+    "s": "Piper's mother brings food to the nest.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The crab has a big shell and no legs.",
+    "answer": false,
+    "fix": "The crab has a hard shell and small legs."
+   },
+   {
+    "s": "Piper never goes near the water again.",
+    "answer": false,
+    "fix": "She goes back to the water and finds lots of food."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why is Piper afraid of the water?",
+    "model": "A big wave hits her, and she gets wet and cold."
+   },
+   {
+    "q": "How does the crab help Piper?",
+    "model": "He digs into the sand and shows her how to look under the water."
+   },
+   {
+    "q": "Why are the other birds happy at the end?",
+    "model": "Piper finds a lot of food, and they all eat together."
+   },
+   {
+    "q": "Which part of the film do you like best, and why?",
+    "model": "I like the part under the water because we see the shells and the bright sand."
+   }
+  ],
   "poster": "assets/posters/piper.jpg"
  },
  {
@@ -1619,6 +2399,36 @@ window.FILM_DATA = [
     "answer": "hungry",
     "hint": "wanting to eat",
     "adapted": true
+   },
+   {
+    "line": "The witch has long ginger ___.",
+    "answer": "hair",
+    "hint": "it grows on your head",
+    "adapted": true
+   },
+   {
+    "line": "The dog asks for a ___ on the broom.",
+    "answer": "ride",
+    "hint": "a trip on it",
+    "adapted": true
+   },
+   {
+    "line": "The animals cover themselves in ___ to make a monster.",
+    "answer": "mud",
+    "hint": "wet, soft earth",
+    "adapted": true
+   },
+   {
+    "line": "The new broom has a ___ for everyone.",
+    "answer": "seat",
+    "hint": "you sit on it",
+    "adapted": true
+   },
+   {
+    "line": "The witch says ___ to every animal who asks.",
+    "answer": "yes",
+    "hint": "not no",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -1651,6 +2461,26 @@ window.FILM_DATA = [
     ],
     "answer": 2,
     "note": "The bird asks second, and she is the one who finds the bow."
+   },
+   {
+    "quote": "Is there room on the broom for a frog like me?",
+    "options": [
+     "The bird",
+     "The frog",
+     "The dog"
+    ],
+    "answer": 1,
+    "note": "The frog has the wand in his mouth, and he wants a ride too."
+   },
+   {
+    "quote": "Witch and chips for my tea!",
+    "options": [
+     "The cat",
+     "The frog",
+     "The dragon"
+    ],
+    "answer": 2,
+    "note": "The dragon's dinner plan. He is very hungry, and the witch is on the menu."
    }
   ],
   "quiz": [
@@ -1703,6 +2533,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Covered in mud, they look like a horrible beast and the dragon runs off."
+   },
+   {
+    "q": "What does the wind blow into the reeds?",
+    "options": [
+     "The hat",
+     "The wand",
+     "The bow"
+    ],
+    "answer": 1,
+    "why": "The wand falls into the reeds, and the frog finds it there."
+   },
+   {
+    "q": "Where does the broom break in two?",
+    "options": [
+     "Over a town",
+     "Over a hill",
+     "Over a bog"
+    ],
+    "answer": 2,
+    "why": "It snaps over a bog and everybody falls into the mud."
+   },
+   {
+    "q": "What does the witch do at the end?",
+    "options": [
+     "She walks home",
+     "She makes a new broom with seats for all",
+     "She gives the dragon a ride"
+    ],
+    "answer": 1,
+    "why": "The new broom has a seat for the cat, the dog, the bird and the frog."
    }
   ],
   "roleplay": {
@@ -1750,7 +2610,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "a1.json"
+  "_src": "a1.json",
+  "truefalse": [
+   {
+    "s": "The dog brings back the witch's hat and asks for a ride.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The frog finds the witch's hat in the water.",
+    "answer": false,
+    "fix": "The frog finds the witch's wand in the reeds."
+   },
+   {
+    "s": "The broom breaks because too many animals are on it.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The dragon is not hungry.",
+    "answer": false,
+    "fix": "The dragon is very hungry and wants to eat the witch."
+   },
+   {
+    "s": "The animals make a monster from mud to scare the dragon.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The witch says no to the animals.",
+    "answer": false,
+    "fix": "The witch says yes to every animal who asks."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does the broom break in two?",
+    "model": "Five of them are on the broom, and it is too heavy for the strong wind."
+   },
+   {
+    "q": "How do the animals save the witch from the dragon?",
+    "model": "They cover themselves in mud and stand together like one big monster."
+   },
+   {
+    "q": "Why does the dragon fly away?",
+    "model": "He thinks the mud monster is real, and he is afraid of it."
+   },
+   {
+    "q": "Which animal on the broom do you like best, and why?",
+    "model": "I like the frog because he is funny and he finds the wand."
+   }
+  ]
  },
  {
   "id": "farmer-llamas",
@@ -1869,6 +2779,36 @@ window.FILM_DATA = [
     "answer": "dog",
     "hint": "an animal that says woof",
     "adapted": true
+   },
+   {
+    "line": "The llamas are tall and they ___ a lot.",
+    "answer": "spit",
+    "hint": "throw water from the mouth",
+    "adapted": true
+   },
+   {
+    "line": "Shaun is a clever ___ on the farm.",
+    "answer": "sheep",
+    "hint": "a farm animal with soft wool",
+    "adapted": true
+   },
+   {
+    "line": "The Farmer brings the llamas home from the ___.",
+    "answer": "fair",
+    "hint": "a big market with games",
+    "adapted": true
+   },
+   {
+    "line": "Bitzer blows his ___ to call the sheep.",
+    "answer": "whistle",
+    "hint": "a small thing that makes a loud sound",
+    "adapted": true
+   },
+   {
+    "line": "Shaun and Bitzer make a ___ to stop the llamas.",
+    "answer": "plan",
+    "hint": "an idea for what to do",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -1901,6 +2841,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The llamas take the house, and the Farmer becomes their guest."
+   },
+   {
+    "quote": "No words: a llama spits at Bitzer and he falls over.",
+    "options": [
+     "Bitzer",
+     "Timmy",
+     "A llama"
+    ],
+    "answer": 2,
+    "note": "A moment, not a line: there is almost no dialogue in this film."
+   },
+   {
+    "quote": "No words: the Farmer comes home with a big grey rhinoceros.",
+    "options": [
+     "Shaun",
+     "The Farmer",
+     "Bitzer"
+    ],
+    "answer": 1,
+    "note": "A moment, not a line: the last joke of the film."
    }
   ],
   "quiz": [
@@ -1953,6 +2913,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He goes back to the auction and buys an even bigger animal."
+   },
+   {
+    "q": "What is the farm dog's name?",
+    "options": [
+     "Shaun",
+     "Bitzer",
+     "Timmy"
+    ],
+    "answer": 1,
+    "why": "Bitzer is the dog who works with the Farmer."
+   },
+   {
+    "q": "What do the animals ride?",
+    "options": [
+     "A quad bike",
+     "A car",
+     "A bus"
+    ],
+    "answer": 0,
+    "why": "The quad bike goes fast round the farm, and nobody can stop it."
+   },
+   {
+    "q": "What do the llamas do when they are angry?",
+    "options": [
+     "They sing",
+     "They spit",
+     "They run away"
+    ],
+    "answer": 1,
+    "why": "They spit at the sheep and at Bitzer."
    }
   ],
   "roleplay": {
@@ -2001,6 +2991,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a1.json",
+  "truefalse": [
+   {
+    "s": "The Farmer brings three llamas home from the fair.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Bitzer is the farm dog.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The llamas are small and quiet.",
+    "answer": false,
+    "fix": "They are tall, and they spit and make a lot of noise."
+   },
+   {
+    "s": "The llamas lock the Farmer in the wardrobe.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Shaun is a pig.",
+    "answer": false,
+    "fix": "Shaun is a sheep, and he is the clever one."
+   },
+   {
+    "s": "The music makes the llamas wild and angry.",
+    "answer": false,
+    "fix": "The music makes them quiet and sleepy."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why are the sheep unhappy when the llamas arrive?",
+    "model": "The llamas are big and rude, and they take their field and the Farmer's house."
+   },
+   {
+    "q": "How do Shaun and Bitzer make the llamas sleepy?",
+    "model": "They play music on bottles and on a flute, and the llamas fall asleep."
+   },
+   {
+    "q": "Why does the music work?",
+    "model": "The llamas love music, so they stop and listen, and then they sleep."
+   },
+   {
+    "q": "Which animal on the farm would you like to meet, and why?",
+    "model": "I would like to meet Shaun because he is clever and he makes good plans."
+   }
+  ],
   "poster": "assets/posters/farmer-llamas.jpg"
  },
  {
@@ -2119,6 +3159,36 @@ window.FILM_DATA = [
     "answer": "children",
     "hint": "young people in a family",
     "adapted": true
+   },
+   {
+    "line": "A girl throws Stick Man into the ___.",
+    "answer": "river",
+    "hint": "water that moves to the sea",
+    "adapted": true
+   },
+   {
+    "line": "The dog runs after Stick Man and wants to ___.",
+    "answer": "play",
+    "hint": "have fun with him",
+    "adapted": true
+   },
+   {
+    "line": "Stick Man is cold and ___ in the snow.",
+    "answer": "lost",
+    "hint": "far from home and not knowing the way",
+    "adapted": true
+   },
+   {
+    "line": "A man puts Stick Man near the ___.",
+    "answer": "fire",
+    "hint": "hot orange flames",
+    "adapted": true
+   },
+   {
+    "line": "The sea carries Stick Man far from ___.",
+    "answer": "home",
+    "hint": "the place where he lives",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -2151,6 +3221,26 @@ window.FILM_DATA = [
     ],
     "answer": 1,
     "note": "The narrator opens the story with this line."
+   },
+   {
+    "quote": "Stick Man, oh Stick Man, beware of the dog!",
+    "options": [
+     "Stick Man",
+     "The narrator",
+     "The dog"
+    ],
+    "answer": 1,
+    "note": "The narrator warns him again and again, but the dog only wants to play."
+   },
+   {
+    "quote": "Stick Man, oh Stick Man, beware of the swan!",
+    "options": [
+     "The swan",
+     "Stick Man",
+     "The narrator"
+    ],
+    "answer": 2,
+    "note": "The second warning: the swan thinks he is a twig for her nest."
    }
   ],
   "quiz": [
@@ -2203,6 +3293,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He is back in the family tree with his family."
+   },
+   {
+    "q": "Where does the girl throw Stick Man?",
+    "options": [
+     "Into the river",
+     "Into a tree",
+     "Into a box"
+    ],
+    "answer": 0,
+    "why": "She throws him into the river, and the water carries him away."
+   },
+   {
+    "q": "How many children does Stick Man have?",
+    "options": [
+     "Two",
+     "Three",
+     "Five"
+    ],
+    "answer": 1,
+    "why": "He lives in the family tree with his wife and their three stick children."
+   },
+   {
+    "q": "Where does Santa take Stick Man?",
+    "options": [
+     "To the North Pole",
+     "To a school",
+     "Home to his family tree"
+    ],
+    "answer": 2,
+    "why": "Santa finds him in the fireplace and takes him home in his sleigh."
    }
   ],
   "roleplay": {
@@ -2251,6 +3371,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a1.json",
+  "truefalse": [
+   {
+    "s": "Stick Man has three children.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The swan uses Stick Man to build her nest.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Stick Man lives in a house in a town.",
+    "answer": false,
+    "fix": "He lives in a tree in the wood with his family."
+   },
+   {
+    "s": "A girl throws Stick Man into the river.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The dog eats Stick Man.",
+    "answer": false,
+    "fix": "The dog only wants to play fetch with him."
+   },
+   {
+    "s": "Stick Man is warm and happy in the snow.",
+    "answer": false,
+    "fix": "He is cold, lost and far from home in the snow."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why is Stick Man sad in the middle of the film?",
+    "model": "He is far from home, he is cold, and nobody knows that he is Stick Man."
+   },
+   {
+    "q": "How does Stick Man get home?",
+    "model": "Santa finds him in the fireplace and takes him home in his sleigh."
+   },
+   {
+    "q": "Why does the dog take Stick Man away?",
+    "model": "The dog thinks he is a good stick for playing fetch in the park."
+   },
+   {
+    "q": "What would you do if you found a stick that could talk?",
+    "model": "I would ask it where it lives and help it go home."
+   }
+  ],
   "poster": "assets/posters/stick-man.jpg"
  },
  {
@@ -2370,6 +3540,36 @@ window.FILM_DATA = [
     "answer": "good",
     "hint": "nice, not bad",
     "adapted": false
+   },
+   {
+    "line": "The owl wants to have ___ with the mouse.",
+    "answer": "tea",
+    "hint": "a hot drink in a cup",
+    "adapted": true
+   },
+   {
+    "line": "The mouse says a ___ lives in the wood.",
+    "answer": "gruffalo",
+    "hint": "the big monster in the story",
+    "adapted": true
+   },
+   {
+    "line": "The gruffalo's eyes are orange and his tongue is ___.",
+    "answer": "black",
+    "hint": "the colour of night",
+    "adapted": true
+   },
+   {
+    "line": "The snake lives in a house made of ___.",
+    "answer": "logs",
+    "hint": "pieces of wood from a tree",
+    "adapted": true
+   },
+   {
+    "line": "The animals are ___ of the big monster.",
+    "answer": "afraid",
+    "hint": "scared",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -2402,6 +3602,26 @@ window.FILM_DATA = [
     ],
     "answer": 2,
     "note": "All three animals ask this; the fox asks it first."
+   },
+   {
+    "quote": "Come and have tea in my treetop house.",
+    "options": [
+     "The fox",
+     "The mouse",
+     "The owl"
+    ],
+    "answer": 2,
+    "note": "The owl's invitation. The fox offers lunch and the snake offers supper."
+   },
+   {
+    "quote": "I'm going to have lunch with a gruffalo.",
+    "options": [
+     "The mouse",
+     "The fox",
+     "The owl"
+    ],
+    "answer": 0,
+    "note": "The mouse says this to the fox, and it is the first time we hear the monster's name."
    }
   ],
   "quiz": [
@@ -2454,6 +3674,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "After all the danger he finds a nut, and the nut is good."
+   },
+   {
+    "q": "What colour are the gruffalo's eyes?",
+    "options": [
+     "Blue",
+     "Orange",
+     "Green"
+    ],
+    "answer": 1,
+    "why": "The mouse describes him: orange eyes, a black tongue and purple prickles on his back."
+   },
+   {
+    "q": "What does the snake invite the mouse to eat?",
+    "options": [
+     "Breakfast",
+     "Lunch",
+     "Supper"
+    ],
+    "answer": 2,
+    "why": "The snake offers supper in his logpile house, and the mouse says no."
+   },
+   {
+    "q": "How many animals does the mouse meet before the gruffalo?",
+    "options": [
+     "Three",
+     "Two",
+     "Five"
+    ],
+    "answer": 0,
+    "why": "First the fox, then the owl, then the snake, and then the real gruffalo."
    }
   ],
   "roleplay": {
@@ -2502,6 +3752,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a1.json",
+  "truefalse": [
+   {
+    "s": "The mouse meets a fox, an owl and a snake in the wood.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The owl lives in a hole under the ground.",
+    "answer": false,
+    "fix": "The owl lives in a treetop."
+   },
+   {
+    "s": "The gruffalo has purple prickles all over his back.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The mouse is big and strong.",
+    "answer": false,
+    "fix": "The mouse is small, but he is very clever."
+   },
+   {
+    "s": "The fox runs away when he hears about the gruffalo.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The gruffalo eats the mouse at the end.",
+    "answer": false,
+    "fix": "The gruffalo runs away and the mouse eats a nut."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why do the fox, the owl and the snake run away?",
+    "model": "They think the gruffalo is behind the mouse, and they are afraid of him."
+   },
+   {
+    "q": "How does the mouse save himself from the gruffalo?",
+    "model": "He walks in front of the gruffalo, so the animals run away and the gruffalo is afraid too."
+   },
+   {
+    "q": "Which animal in the wood do you like best, and why?",
+    "model": "I like the mouse best because he is small and very clever."
+   },
+   {
+    "q": "What would you say to a hungry fox at your door?",
+    "model": "I would say that my friend the gruffalo is coming for lunch."
+   }
+  ],
   "poster": "assets/posters/the-gruffalo.jpg"
  },
  {
@@ -2621,6 +3921,36 @@ window.FILM_DATA = [
     "answer": "leg",
     "hint": "you stand on it",
     "adapted": true
+   },
+   {
+    "line": "Mum puts the box on the ___.",
+    "answer": "floor",
+    "hint": "you walk on it",
+    "adapted": true
+   },
+   {
+    "line": "The boy sits and plays a computer ___.",
+    "answer": "game",
+    "hint": "something fun on a screen",
+    "adapted": true
+   },
+   {
+    "line": "The puppy wants to play with the ___.",
+    "answer": "boy",
+    "hint": "the child in the film",
+    "adapted": true
+   },
+   {
+    "line": "The puppy falls down and gets ___ again.",
+    "answer": "up",
+    "hint": "not down",
+    "adapted": true
+   },
+   {
+    "line": "The boy smiles at the ___ at the end.",
+    "answer": "puppy",
+    "hint": "a young dog",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -2653,6 +3983,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "A moment, not a line: now we understand him."
+   },
+   {
+    "quote": "No words: the boy puts down his game and looks at the puppy.",
+    "options": [
+     "The mother",
+     "The boy",
+     "The puppy"
+    ],
+    "answer": 1,
+    "note": "A moment, not a line: there is no dialogue in this film."
+   },
+   {
+    "quote": "No words: the mother puts the box on the floor and leaves the room.",
+    "options": [
+     "The boy",
+     "The puppy",
+     "The mother"
+    ],
+    "answer": 2,
+    "note": "A moment, not a line: the present is a surprise, and the box is moving."
    }
   ],
   "quiz": [
@@ -2705,6 +4055,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He walks with crutches because his left leg is missing below the knee."
+   },
+   {
+    "q": "Who brings the box into the room?",
+    "options": [
+     "His mother",
+     "His father",
+     "His sister"
+    ],
+    "answer": 0,
+    "why": "The mother puts the box down and leaves the boy alone with it."
+   },
+   {
+    "q": "What does the puppy bring to the boy?",
+    "options": [
+     "A bone",
+     "A red ball",
+     "A shoe"
+    ],
+    "answer": 1,
+    "why": "He finds a red ball and brings it to the boy again and again."
+   },
+   {
+    "q": "How does the puppy move around the room?",
+    "options": [
+     "He walks very slowly",
+     "He jumps on the sofa",
+     "He runs, falls and gets up"
+    ],
+    "answer": 2,
+    "why": "He has three legs, so he falls down, but he always gets up again."
    }
   ],
   "roleplay": {
@@ -2753,6 +4133,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "wave2-a.json",
+  "truefalse": [
+   {
+    "s": "The puppy has three legs.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The boy is happy to see the puppy's three legs.",
+    "answer": false,
+    "fix": "He is angry, and he does not want the puppy near him."
+   },
+   {
+    "s": "The ball is red.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The puppy stops trying to play.",
+    "answer": false,
+    "fix": "The puppy keeps trying and brings the ball again and again."
+   },
+   {
+    "s": "The boy has one leg.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The boy stays inside at the end.",
+    "answer": false,
+    "fix": "He takes his crutches and goes outside to play."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why is the boy angry at the puppy?",
+    "model": "The puppy has three legs like him, and he does not want to see that."
+   },
+   {
+    "q": "Why does the puppy keep getting up?",
+    "model": "He wants to play with the boy, so he never stops trying."
+   },
+   {
+    "q": "What does the boy learn from the puppy?",
+    "model": "He learns that he can still play and be happy with one leg."
+   },
+   {
+    "q": "How do you feel at the end of the film?",
+    "model": "I feel happy because the boy and the puppy go outside together."
+   }
+  ],
   "poster": "assets/posters/the-present.jpg"
  },
  {
@@ -2871,6 +4301,36 @@ window.FILM_DATA = [
     "answer": "melts",
     "hint": "turns into water",
     "adapted": true
+   },
+   {
+    "line": "The boy builds a snowman in the ___.",
+    "answer": "garden",
+    "hint": "the land around a house",
+    "adapted": true
+   },
+   {
+    "line": "The boy puts a ___ on the snowman's head.",
+    "answer": "hat",
+    "hint": "you wear it on your head",
+    "adapted": true
+   },
+   {
+    "line": "The boy and the snowman fly over the ___.",
+    "answer": "town",
+    "hint": "a place with many houses and streets",
+    "adapted": true
+   },
+   {
+    "line": "There are many ___ at the party in the wood.",
+    "answer": "snowmen",
+    "hint": "more than one man of snow",
+    "adapted": true
+   },
+   {
+    "line": "In the morning the garden is white with ___.",
+    "answer": "snow",
+    "hint": "soft white pieces from the sky",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -2903,6 +4363,26 @@ window.FILM_DATA = [
     ],
     "answer": 1,
     "note": "It is the middle of the night and the houses under them are dark."
+   },
+   {
+    "quote": "No words: the snowman takes the boy's hand and they fly out of the garden.",
+    "options": [
+     "The boy",
+     "The snowman",
+     "Father Christmas"
+    ],
+    "answer": 1,
+    "note": "A moment, not a line: there is no dialogue in this film, so the pictures tell the story."
+   },
+   {
+    "quote": "No words: the boy finds a scarf and a small pile of snow.",
+    "options": [
+     "The snowman",
+     "His mother",
+     "The boy"
+    ],
+    "answer": 2,
+    "note": "A moment, not a line: the last shot shows what is left of the snowman."
    }
   ],
   "quiz": [
@@ -2955,6 +4435,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The snowman has melted, but the scarf shows that the night was real."
+   },
+   {
+    "q": "What colour is the snowman's nose?",
+    "options": [
+     "Red",
+     "Orange",
+     "Black"
+    ],
+    "answer": 1,
+    "why": "His nose is an orange, and his eyes are black coals."
+   },
+   {
+    "q": "Where is the party?",
+    "options": [
+     "In the wood",
+     "In a house",
+     "On the moon"
+    ],
+    "answer": 0,
+    "why": "The snowman takes the boy through the trees to a party with many snowmen."
+   },
+   {
+    "q": "What is the weather like at the start of the film?",
+    "options": [
+     "Sunny",
+     "Rainy",
+     "Snowy"
+    ],
+    "answer": 2,
+    "why": "Snow falls all day, and the garden turns white."
    }
   ],
   "roleplay": {
@@ -3003,6 +4513,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a1.json",
+  "truefalse": [
+   {
+    "s": "The boy builds the snowman in the garden.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The snowman comes alive in the morning.",
+    "answer": false,
+    "fix": "He comes alive at midnight."
+   },
+   {
+    "s": "The boy and the snowman fly over the town.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The boy's parents see the snowman move.",
+    "answer": false,
+    "fix": "His parents are asleep, so only the boy sees it."
+   },
+   {
+    "s": "There are many snowmen at the party.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The snowman is still in the garden on Christmas morning.",
+    "answer": false,
+    "fix": "He melts, and only his scarf is left in the garden."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why is the boy sad on Christmas morning?",
+    "model": "His friend the snowman has melted, and only the scarf is left."
+   },
+   {
+    "q": "What would you do if your snowman came alive at midnight?",
+    "model": "I would say hello and ask him to fly with me over the town."
+   },
+   {
+    "q": "Which part of the night do you like best, and why?",
+    "model": "I like the flying part best because the town looks small and bright under them."
+   },
+   {
+    "q": "How does the boy feel when he flies?",
+    "model": "He feels happy and a little afraid, and he holds on very tight."
+   }
+  ],
   "poster": "assets/posters/the-snowman.jpg"
  },
  {
@@ -3122,6 +4682,36 @@ window.FILM_DATA = [
     "answer": "dog",
     "hint": "an animal that says woof",
     "adapted": true
+   },
+   {
+    "line": "The machine on the moon wants to ___.",
+    "answer": "ski",
+    "hint": "move on snow with two boards",
+    "adapted": true
+   },
+   {
+    "line": "The machine dreams of a skiing ___.",
+    "answer": "holiday",
+    "hint": "a time with no work",
+    "adapted": true
+   },
+   {
+    "line": "Wallace and Gromit are very good ___.",
+    "answer": "friends",
+    "hint": "two people who like each other",
+    "adapted": true
+   },
+   {
+    "line": "The rocket flies up into the ___.",
+    "answer": "sky",
+    "hint": "the space above us",
+    "adapted": true
+   },
+   {
+    "line": "The machine is sad when the rocket ___ away.",
+    "answer": "flies",
+    "hint": "moves through the air",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -3154,6 +4744,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Gromit never speaks in any Wallace and Gromit film — his face does the talking."
+   },
+   {
+    "quote": "No words: Gromit opens the fridge and there is no cheese inside.",
+    "options": [
+     "Wallace",
+     "Gromit",
+     "The machine"
+    ],
+    "answer": 1,
+    "note": "A moment, not a line: one look from Gromit says everything."
+   },
+   {
+    "quote": "No words: the machine watches the rocket leave and looks very sad.",
+    "options": [
+     "Gromit",
+     "The machine",
+     "Wallace"
+    ],
+    "answer": 1,
+    "note": "A moment, not a line: Gromit never speaks, and this machine only makes noises."
    }
   ],
   "quiz": [
@@ -3206,6 +4816,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The moon is empty and white, and a small machine lives there."
+   },
+   {
+    "q": "How do Wallace and Gromit get to the moon?",
+    "options": [
+     "By plane",
+     "In a rocket",
+     "By boat"
+    ],
+    "answer": 1,
+    "why": "They build the rocket in the cellar and fly it to the moon."
+   },
+   {
+    "q": "Where does the machine live?",
+    "options": [
+     "In the cellar",
+     "In the garden",
+     "On the moon"
+    ],
+    "answer": 2,
+    "why": "It is a machine on the moon, and that is where they meet it."
+   },
+   {
+    "q": "What does the machine do at the end?",
+    "options": [
+     "It goes home with them",
+     "It stays on the moon",
+     "It eats the cheese"
+    ],
+    "answer": 1,
+    "why": "The rocket leaves, and the machine is alone on the moon again."
    }
   ],
   "roleplay": {
@@ -3254,6 +4894,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a1.json",
+  "truefalse": [
+   {
+    "s": "Wallace and Gromit build a rocket in the cellar.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Gromit speaks a lot in the film.",
+    "answer": false,
+    "fix": "Gromit never speaks; he shows his feelings with his face."
+   },
+   {
+    "s": "The moon is made of cheese in this film.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "They find a machine on the moon.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "They go to the moon by plane.",
+    "answer": false,
+    "fix": "They go in a rocket that they build themselves."
+   },
+   {
+    "s": "The machine wants to go home with them.",
+    "answer": false,
+    "fix": "The machine wants to go skiing."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why do Wallace and Gromit go to the moon?",
+    "model": "There is no cheese at home, and Wallace thinks the moon is made of cheese."
+   },
+   {
+    "q": "How does Gromit show what he thinks without words?",
+    "model": "He looks at Wallace and moves his eyebrows and his eyes."
+   },
+   {
+    "q": "Why is the machine sad at the end?",
+    "model": "It wants to go with them, but the rocket leaves without it."
+   },
+   {
+    "q": "Which invention in the film would you like to have, and why?",
+    "model": "I would like the rocket, because I want to see the moon."
+   }
+  ],
   "poster": "assets/posters/grand-day-out.jpg"
  },
  {
@@ -3373,6 +5063,36 @@ window.FILM_DATA = [
     "answer": "dog",
     "hint": "an animal that says woof",
     "adapted": true
+   },
+   {
+    "line": "The penguin sleeps in Gromit's ___.",
+    "answer": "room",
+    "hint": "a part of a house with a bed",
+    "adapted": true
+   },
+   {
+    "line": "Gromit packs his ___ and leaves the house.",
+    "answer": "bag",
+    "hint": "you carry things in it",
+    "adapted": true
+   },
+   {
+    "line": "The penguin goes to the ___ at night.",
+    "answer": "museum",
+    "hint": "a place with old and famous things",
+    "adapted": true
+   },
+   {
+    "line": "The penguin is black and ___.",
+    "answer": "white",
+    "hint": "the colour of snow",
+    "adapted": true
+   },
+   {
+    "line": "At the end, the penguin is in the ___.",
+    "answer": "zoo",
+    "hint": "a place with wild animals",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -3405,6 +5125,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Nobody is wearing them — somebody else is in control."
+   },
+   {
+    "quote": "No words: the penguin puts a red rubber glove on his head.",
+    "options": [
+     "The penguin",
+     "Wallace",
+     "Gromit"
+    ],
+    "answer": 0,
+    "note": "A moment, not a line: the glove is his chicken disguise."
+   },
+   {
+    "quote": "No words: Gromit packs his bag and closes the door behind him.",
+    "options": [
+     "Gromit",
+     "Wallace",
+     "The penguin"
+    ],
+    "answer": 0,
+    "note": "A moment, not a line: he leaves home because the penguin takes his room."
    }
   ],
   "quiz": [
@@ -3457,6 +5197,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The last chase runs along a toy train set in the house."
+   },
+   {
+    "q": "What does the penguin carry when he arrives at the house?",
+    "options": [
+     "A small bag",
+     "A big box",
+     "A toy train"
+    ],
+    "answer": 0,
+    "why": "He arrives with one small bag and says nothing at all."
+   },
+   {
+    "q": "How does the penguin make Wallace walk at night?",
+    "options": [
+     "He carries him",
+     "He calls him",
+     "He uses the techno trousers"
+    ],
+    "answer": 2,
+    "why": "The trousers are remote-controlled, and Wallace does not know."
+   },
+   {
+    "q": "What does the penguin put on his head before he goes out?",
+    "options": [
+     "A red rubber glove",
+     "A black hat",
+     "A scarf"
+    ],
+    "answer": 0,
+    "why": "The glove makes him look like a chicken — his disguise."
    }
   ],
   "roleplay": {
@@ -3505,6 +5275,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a1.json",
+  "truefalse": [
+   {
+    "s": "The techno trousers are a birthday present for Gromit.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Gromit likes the penguin from the first day.",
+    "answer": false,
+    "fix": "Gromit does not trust the penguin and watches everything he does."
+   },
+   {
+    "s": "The penguin is a lodger in Wallace's house.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The penguin steals a diamond from the museum.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The chase happens in a supermarket.",
+    "answer": false,
+    "fix": "The chase happens on Wallace's model railway."
+   },
+   {
+    "s": "Wallace knows about the penguin's plan.",
+    "answer": false,
+    "fix": "Wallace knows nothing; the trousers take him out while he sleeps."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Gromit leave home?",
+    "model": "The penguin takes his room, so Gromit is sad and angry."
+   },
+   {
+    "q": "How does the penguin use the techno trousers?",
+    "model": "At night he controls them, and they walk Wallace to the museum."
+   },
+   {
+    "q": "Why is the model railway important at the end?",
+    "model": "The chase happens there, and Wallace and Gromit catch the penguin."
+   },
+   {
+    "q": "Which character do you like best, and why?",
+    "model": "I like Gromit because he is quiet and clever, and he saves Wallace."
+   }
+  ],
   "poster": "assets/posters/wrong-trousers.jpg"
  },
  {
@@ -3627,6 +5447,36 @@ window.FILM_DATA = [
     "answer": "move",
     "hint": "walk or change place",
     "adapted": true
+   },
+   {
+    "line": "Bluey and Bingo play in the garden with a toy ___.",
+    "answer": "xylophone",
+    "hint": "a toy that makes music",
+    "adapted": true
+   },
+   {
+    "line": "Dad is frozen with one foot in the air like a ___.",
+    "answer": "statue",
+    "hint": "a stone figure of a person",
+    "adapted": true
+   },
+   {
+    "line": "Mum tells Bluey that she must take ___ with her sister.",
+    "answer": "turns",
+    "hint": "one after the other",
+    "adapted": true
+   },
+   {
+    "line": "Bingo asks for a turn, but Bluey says ___.",
+    "answer": "no",
+    "hint": "the opposite of yes",
+    "adapted": true
+   },
+   {
+    "line": "Bluey's little sister is called ___.",
+    "answer": "bingo",
+    "hint": "the younger dog's name",
+    "adapted": false
    }
   ],
   "quotes": [
@@ -3659,6 +5509,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Paraphrased — Mum's line is short and calm, and it ends the argument."
+   },
+   {
+    "quote": "Unfreeze me!",
+    "options": [
+     "Dad",
+     "Bluey",
+     "Bingo"
+    ],
+    "answer": 0,
+    "note": "Dad says it while he is frozen, and the girls decide when to let him move."
+   },
+   {
+    "quote": "It's not fair!",
+    "options": [
+     "Bingo",
+     "Mum",
+     "Dad"
+    ],
+    "answer": 0,
+    "note": "Bingo says it when Bluey will not share the xylophone."
    }
   ],
   "quiz": [
@@ -3711,6 +5581,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The game is only fun for everyone when the sisters take turns."
+   },
+   {
+    "q": "Why does Bingo get upset?",
+    "options": [
+     "Dad is angry",
+     "Bluey will not give her a turn",
+     "Her toy is broken"
+    ],
+    "answer": 1,
+    "why": "Bingo only wants to play the game too, and Bluey keeps saying no."
+   },
+   {
+    "q": "Why does Bluey finally give Bingo a turn?",
+    "options": [
+     "She sees that Bingo is sad and wants to play too",
+     "Mum takes the xylophone away",
+     "The xylophone stops working"
+    ],
+    "answer": 0,
+    "why": "Bluey understands that the game is not fun if her sister is left out."
+   },
+   {
+    "q": "Why is the game better when everyone takes turns?",
+    "options": [
+     "It is a real magic xylophone",
+     "Everyone plays together and takes turns",
+     "Dad does all the work"
+    ],
+    "answer": 1,
+    "why": "When they share, both sisters can freeze and be frozen, and the game goes on longer."
    }
   ],
   "roleplay": {
@@ -3758,7 +5658,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "wave2-s1.json"
+  "_src": "wave2-s1.json",
+  "truefalse": [
+   {
+    "s": "The xylophone is a toy, and the magic is a game the family plays.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Bluey freezes Mum first.",
+    "answer": false,
+    "fix": "She freezes Dad first, while he is walking in the garden."
+   },
+   {
+    "s": "Bingo is Bluey's little sister.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Bingo is happy to watch and does not want a turn.",
+    "answer": false,
+    "fix": "Bingo asks for a turn and gets upset when Bluey says no."
+   },
+   {
+    "s": "Mum tells Bluey to share with her sister.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The xylophone belongs to Mum and is really magic.",
+    "answer": false,
+    "fix": "It is a normal toy, and the magic is only in the game."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Bluey not want to give Bingo a turn?",
+    "model": "She is enjoying the game and she likes being the one with the power. She is afraid the game will stop if she shares."
+   },
+   {
+    "q": "How does Bingo feel when Bluey says no?",
+    "model": "She feels left out and sad, because she only wants to play too. She stops enjoying the game."
+   },
+   {
+    "q": "Why is the game better when everyone takes turns?",
+    "model": "Everyone can be the one who freezes and the one who is frozen. It is more fun when nobody is left out."
+   },
+   {
+    "q": "What game would you play with a magic xylophone?",
+    "model": "I would freeze my brother for one minute and then let him freeze me. I would make a rule that nobody stays frozen for long."
+   }
+  ]
  },
  {
   "id": "charlie-chocolate",
@@ -3876,6 +5826,36 @@ window.FILM_DATA = [
     "answer": "doo",
     "hint": "a funny sound, not a word",
     "adapted": true
+   },
+   {
+    "line": "Charlie lives in a small house with his mother and four ___.",
+    "answer": "grandparents",
+    "hint": "the parents of your mother or father",
+    "adapted": true
+   },
+   {
+    "line": "Mr. Bucket works in a factory and puts caps on ___.",
+    "answer": "toothpaste",
+    "hint": "you clean your teeth with it",
+    "adapted": true
+   },
+   {
+    "line": "Wonka closes the factory because other people steal his ___.",
+    "answer": "recipes",
+    "hint": "instructions for making food",
+    "adapted": true
+   },
+   {
+    "line": "Augustus eats too much chocolate and falls into the ___.",
+    "answer": "river",
+    "hint": "a big natural line of water",
+    "adapted": true
+   },
+   {
+    "line": "Willy Wonka wants a child to take care of his ___.",
+    "answer": "factory",
+    "hint": "a place where things are made",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -3908,6 +5888,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Violet says it with pride, and gum is the reason she gets into trouble."
+   },
+   {
+    "quote": "Come with me and you'll be in a world of pure imagination.",
+    "options": [
+     "Willy Wonka",
+     "Grandpa Joe",
+     "Charlie"
+    ],
+    "answer": 0,
+    "note": "Wonka sings it when the children enter the factory."
+   },
+   {
+    "quote": "So much time and so little to do. Strike that, reverse it.",
+    "options": [
+     "Mike Teavee",
+     "Willy Wonka",
+     "Mrs. Gloop"
+    ],
+    "answer": 1,
+    "note": "Wonka says it at the start of the tour, and it shows how strange he is."
    }
   ],
   "quiz": [
@@ -3960,6 +5960,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Charlie says no, and that answer is why Wonka chooses him."
+   },
+   {
+    "q": "Why does Wonka invite five children into his factory?",
+    "options": [
+     "He wants to sell more chocolate",
+     "He is looking for a child to take over",
+     "He needs new workers"
+    ],
+    "answer": 1,
+    "why": "He is getting older and wants the right child to run the factory one day."
+   },
+   {
+    "q": "What do the Oompa Loompas do when a child breaks a rule?",
+    "options": [
+     "They sing a song about it",
+     "They call the parents",
+     "They stop the tour"
+    ],
+    "answer": 0,
+    "why": "After every accident, the Oompa Loompas sing a song with a lesson in it."
+   },
+   {
+    "q": "What happens to Mike Teavee in the television room?",
+    "options": [
+     "He turns blue",
+     "He becomes very small",
+     "He falls in the river"
+    ],
+    "answer": 1,
+    "why": "He sends himself by television and arrives tiny."
    }
   ],
   "roleplay": {
@@ -4008,6 +6038,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a2.json",
+  "truefalse": [
+   {
+    "s": "Charlie's family is very poor and they eat soup every day.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Charlie finds the first golden ticket.",
+    "answer": false,
+    "fix": "Charlie finds the last ticket, after four other children have found theirs."
+   },
+   {
+    "s": "Willy Wonka makes all the chocolate himself.",
+    "answer": false,
+    "fix": "The Oompa Loompas make the chocolate; Wonka invents the sweets."
+   },
+   {
+    "s": "Veruca falls down a chute in the nut room.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Grandpa Joe goes with Charlie into the factory.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "At the end Charlie goes to the factory alone and leaves his family.",
+    "answer": false,
+    "fix": "Charlie says no to that plan, so Wonka invites the whole family."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Charlie open only one chocolate bar a year?",
+    "model": "His family has very little money, so a chocolate bar is a special present. He gets one for his birthday."
+   },
+   {
+    "q": "How does Charlie feel when he finds the golden ticket?",
+    "model": "He cannot believe it, and he runs home to tell his family. He is excited but also worried about money."
+   },
+   {
+    "q": "Why does Wonka choose Charlie and not the other children?",
+    "model": "Charlie is kind and honest, and he does not want to win at any price. He also cares about his family."
+   },
+   {
+    "q": "What would you do if you had one golden ticket?",
+    "model": "I would take my best friend or a family member with me. I would try every kind of chocolate in the factory."
+   }
+  ],
   "poster": "assets/posters/charlie-chocolate.jpg"
  },
  {
@@ -4127,6 +6207,36 @@ window.FILM_DATA = [
     "answer": "show",
     "hint": "a performance for people",
     "adapted": true
+   },
+   {
+    "line": "Gru has many machines and a lot of small yellow ___.",
+    "answer": "minions",
+    "hint": "his little yellow helpers",
+    "adapted": true
+   },
+   {
+    "line": "The three girls live in an orphanage and want a ___.",
+    "answer": "family",
+    "hint": "parents and children together",
+    "adapted": true
+   },
+   {
+    "line": "Gru does not want to read the girls a bedtime ___.",
+    "answer": "story",
+    "hint": "a short tale for children",
+    "adapted": true
+   },
+   {
+    "line": "The girls sell cookies at the door of Vector's ___.",
+    "answer": "house",
+    "hint": "a building where people live",
+    "adapted": true
+   },
+   {
+    "line": "Gru plans to make the moon small with a shrink ___.",
+    "answer": "ray",
+    "hint": "a narrow line of light",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -4159,6 +6269,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Vector introduces himself this way, and usually adds 'Oh, yeah!'"
+   },
+   {
+    "quote": "Light bulb.",
+    "options": [
+     "Gru",
+     "Vector",
+     "Dr. Nefario"
+    ],
+    "answer": 0,
+    "note": "Gru says it when he has a new idea, and it becomes his catchphrase."
+   },
+   {
+    "quote": "Freeze ray!",
+    "options": [
+     "Vector",
+     "Gru",
+     "Agnes"
+    ],
+    "answer": 1,
+    "note": "Gru uses his freeze ray on people who are in his way."
    }
   ],
   "quiz": [
@@ -4211,6 +6341,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He chooses the girls, and the moon goes back into the sky."
+   },
+   {
+    "q": "Why does Gru want to steal the moon?",
+    "options": [
+     "To get money",
+     "To become the greatest villain",
+     "To help his mother"
+    ],
+    "answer": 1,
+    "why": "He wants to be famous as the best villain in the world."
+   },
+   {
+    "q": "How does Gru get into Vector's house?",
+    "options": [
+     "He sends the girls to sell cookies and sneaks in",
+     "He buys the house",
+     "Dr. Nefario builds a tunnel"
+    ],
+    "answer": 0,
+    "why": "Vector opens the door for the girls, and Gru goes in behind them."
+   },
+   {
+    "q": "What happens at the girls' dance show?",
+    "options": [
+     "Gru is late and then stands up to dance with them",
+     "Gru does not come",
+     "The girls cancel the show"
+    ],
+    "answer": 0,
+    "why": "He runs to the show, gives a funny dance and makes the girls laugh."
    }
   ],
   "roleplay": {
@@ -4259,6 +6419,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a2.json",
+  "truefalse": [
+   {
+    "s": "Gru wants to steal the moon to give it to Vector.",
+    "answer": false,
+    "fix": "He wants it to become the greatest villain, and Vector steals his shrink ray."
+   },
+   {
+    "s": "The three girls come from an orphanage.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Vector lives in a big white house with many cameras and traps.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Agnes is the oldest of the three girls.",
+    "answer": false,
+    "fix": "Margo is the oldest; Agnes is the youngest."
+   },
+   {
+    "s": "The girls ask Gru to come to their dance show.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "At the end Gru flies away with the moon and leaves the girls.",
+    "answer": false,
+    "fix": "He saves the girls first, and the moon goes back into the sky."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Gru adopt three girls?",
+    "model": "He needs them to get inside Vector's house, because they sell cookies at his door. He does not plan to be a father."
+   },
+   {
+    "q": "How does Gru change during the film?",
+    "model": "At first he only thinks about his plan and his name. Then he starts to care about the girls and wants to be with them."
+   },
+   {
+    "q": "Why is the dance show important to Gru?",
+    "model": "The girls want him there, and he chooses them instead of his plan. That is the moment he becomes a father."
+   },
+   {
+    "q": "What would you do if a villain asked you to help him?",
+    "model": "I would say no and tell someone safe. I would not go into a stranger's house, even for a good reason."
+   }
+  ],
   "poster": "assets/posters/despicable-me.jpg"
  },
  {
@@ -4377,6 +6587,36 @@ window.FILM_DATA = [
     "answer": "girl",
     "hint": "not a boy",
     "adapted": false
+   },
+   {
+    "line": "Elliott hides E.T. in his bedroom and tells nobody his ___.",
+    "answer": "secret",
+    "hint": "something you do not tell",
+    "adapted": true
+   },
+   {
+    "line": "The children dress E.T. as a ___ for Halloween.",
+    "answer": "ghost",
+    "hint": "a white figure at Halloween",
+    "adapted": true
+   },
+   {
+    "line": "E.T. is ill, and Elliott feels ___ too.",
+    "answer": "sick",
+    "hint": "not well",
+    "adapted": false
+   },
+   {
+    "line": "Elliott and his brother ride bikes to help E.T. go ___.",
+    "answer": "home",
+    "hint": "where you live",
+    "adapted": true
+   },
+   {
+    "line": "The plant in the pot comes back to ___ at the end.",
+    "answer": "life",
+    "hint": "being alive again",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -4409,6 +6649,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Elliott says it the moment his brother sees the alien."
+   },
+   {
+    "quote": "You could be happy here. I could take care of you.",
+    "options": [
+     "Elliott",
+     "Gertie",
+     "Mary"
+    ],
+    "answer": 0,
+    "note": "Elliott says it when E.T. wants to go home, and it shows how much he will miss him."
+   },
+   {
+    "quote": "Ouch!",
+    "options": [
+     "E.T.",
+     "Gertie",
+     "Michael"
+    ],
+    "answer": 0,
+    "note": "E.T. learns the word from the children and uses it a lot."
    }
   ],
   "quiz": [
@@ -4461,6 +6721,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "E.T. lifts the bicycles into the air and over the roadblock."
+   },
+   {
+    "q": "Why does Elliott take E.T. into his room?",
+    "options": [
+     "He wants a pet",
+     "He wants to hide him from the adults",
+     "The alien asks him to"
+    ],
+    "answer": 1,
+    "why": "He knows that grown-ups will take the alien away, so he keeps him in his bedroom."
+   },
+   {
+    "q": "Why does E.T. become ill?",
+    "options": [
+     "He cannot live on Earth without help from home",
+     "He eats bad food",
+     "The children hurt him"
+    ],
+    "answer": 0,
+    "why": "He is far from his people and his body cannot stay healthy on Earth."
+   },
+   {
+    "q": "Why do the boys take a van at the end?",
+    "options": [
+     "To go to school",
+     "To find food",
+     "To help E.T. escape to the forest"
+    ],
+    "answer": 2,
+    "why": "They need to get E.T. out of the house and to the meeting place in the forest."
    }
   ],
   "roleplay": {
@@ -4509,6 +6799,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a2.json",
+  "truefalse": [
+   {
+    "s": "Elliott finds E.T. in the garden shed.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "E.T. can speak English well from the first night.",
+    "answer": false,
+    "fix": "He says only a few words at first and learns more from the children."
+   },
+   {
+    "s": "Michael is Elliott's little sister.",
+    "answer": false,
+    "fix": "Michael is Elliott's older brother; Gertie is the little sister."
+   },
+   {
+    "s": "E.T. becomes ill before the children help him escape.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The children escape from the agents on flying bicycles.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "At the end E.T. stays on Earth with Elliott.",
+    "answer": false,
+    "fix": "He says goodbye and leaves in his spaceship, and Elliott is sad but happy for him."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Elliott hide E.T. from the adults?",
+    "model": "He is afraid that they will take the alien away or hurt him. He wants to protect his new friend."
+   },
+   {
+    "q": "How does Elliott feel when E.T. is ill?",
+    "model": "He feels weak and sick too, because they are connected. He is also frightened that his friend will die."
+   },
+   {
+    "q": "Why is it difficult for E.T. to go home?",
+    "model": "He needs to build a machine to call his people, and he cannot find all the parts. The scientists also want to catch him."
+   },
+   {
+    "q": "What would you do if you found an alien in your garden?",
+    "model": "I would tell one adult I trust and help the alien hide. I would try to find out what it needs before calling anyone."
+   }
+  ],
   "poster": "assets/posters/et.jpg"
  },
  {
@@ -4627,6 +6967,36 @@ window.FILM_DATA = [
     "answer": "squishy",
     "hint": "soft when you press it",
     "adapted": false
+   },
+   {
+    "line": "Marlin is very careful with Nemo because he lost his ___.",
+    "answer": "wife",
+    "hint": "the woman a man is married to",
+    "adapted": true
+   },
+   {
+    "line": "Dory forgets things very ___ and asks the same question again.",
+    "answer": "quickly",
+    "hint": "fast",
+    "adapted": true
+   },
+   {
+    "line": "The fish in the tank live in a dentist's ___ in Sydney.",
+    "answer": "office",
+    "hint": "a room where someone works",
+    "adapted": true
+   },
+   {
+    "line": "The turtles help Marlin ride the ocean ___ to Sydney.",
+    "answer": "current",
+    "hint": "moving water in the sea",
+    "adapted": true
+   },
+   {
+    "line": "A diver catches Nemo and takes him to a ___.",
+    "answer": "dentist",
+    "hint": "a doctor for teeth",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -4659,6 +7029,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The seagulls say it when they see something to eat."
+   },
+   {
+    "quote": "I am a nice shark, not a mindless eating machine.",
+    "options": [
+     "Bruce",
+     "Marlin",
+     "Gill"
+    ],
+    "answer": 0,
+    "note": "Bruce says it at the sharks' meeting, where the sharks promise not to eat fish."
+   },
+   {
+    "quote": "Fish aren't meant to be in a box, kid.",
+    "options": [
+     "Gill",
+     "Nemo",
+     "Dory"
+    ],
+    "answer": 0,
+    "note": "Gill says it in the tank; he wants to go back to the ocean."
    }
   ],
   "quiz": [
@@ -4711,6 +7101,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Darla is the dentist's niece, and the fish say she is bad news for fish."
+   },
+   {
+    "q": "Why does Marlin leave the reef?",
+    "options": [
+     "To look for food",
+     "To find Nemo",
+     "To visit Dory"
+    ],
+    "answer": 1,
+    "why": "Nemo is taken by a diver, so Marlin swims across the ocean after him."
+   },
+   {
+    "q": "What name do the fish in the tank give Nemo?",
+    "options": [
+     "Sharkbait",
+     "Lucky fin",
+     "Dory"
+    ],
+    "answer": 0,
+    "why": "They call him Sharkbait because they think he was caught near sharks."
+   },
+   {
+    "q": "How does Dory help Marlin find the address?",
+    "options": [
+     "She asks a shark",
+     "She reads it on the diver's mask",
+     "She remembers the dentist's name"
+    ],
+    "answer": 1,
+    "why": "The mask falls into the water, and Dory reads the address on it."
    }
   ],
   "roleplay": {
@@ -4759,6 +7179,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a2.json",
+  "truefalse": [
+   {
+    "s": "Nemo has one small fin on one side of his body.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Dory is a shark who helps Marlin on his journey.",
+    "answer": false,
+    "fix": "Dory is a blue fish with a short memory; the shark is called Bruce."
+   },
+   {
+    "s": "Nemo is taken to a zoo in Sydney.",
+    "answer": false,
+    "fix": "He is taken to a fish tank in a dentist's office in Sydney."
+   },
+   {
+    "s": "The fish in the tank want to escape to the sea.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Marlin and Dory meet a turtle called Crush.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "At the end Nemo stays in the dentist's tank for ever.",
+    "answer": false,
+    "fix": "Nemo escapes and swims back to the reef with his father."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why is Marlin so careful with Nemo?",
+    "model": "He lost his wife and all his other eggs in an attack, so Nemo is the only family he has left."
+   },
+   {
+    "q": "How does Nemo feel when his father talks to him at school?",
+    "model": "He feels angry and small, because his friends laugh at him. That is why he swims out to the boat."
+   },
+   {
+    "q": "Why do the fish in the tank want to escape?",
+    "model": "They want to live in the ocean again, and they are afraid of Darla. The tank is too small for them."
+   },
+   {
+    "q": "What would you do if you were lost far from home?",
+    "model": "I would find a safe place and ask a friendly person for help. I would try to tell my family where I am."
+   }
+  ],
   "poster": "assets/posters/finding-nemo.jpg"
  },
  {
@@ -4878,6 +7348,36 @@ window.FILM_DATA = [
     "answer": "door",
     "hint": "you open it to go in",
     "adapted": false
+   },
+   {
+    "line": "Elsa wears gloves because she is afraid of her ___.",
+    "answer": "power",
+    "hint": "the magic in her hands",
+    "adapted": true
+   },
+   {
+    "line": "Anna and Hans decide to marry after one ___.",
+    "answer": "day",
+    "hint": "24 hours",
+    "adapted": true
+   },
+   {
+    "line": "Kristoff is an ice seller, and his best friend is a ___.",
+    "answer": "reindeer",
+    "hint": "an animal with big antlers",
+    "adapted": true
+   },
+   {
+    "line": "Elsa builds a big ice palace on the top of a ___.",
+    "answer": "mountain",
+    "hint": "a very high hill",
+    "adapted": true
+   },
+   {
+    "line": "Olaf likes warm ___ and dreams about summer.",
+    "answer": "hugs",
+    "hint": "holding someone with your arms",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -4910,6 +7410,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Anna sings it at Elsa's door, year after year."
+   },
+   {
+    "quote": "I like warm hugs!",
+    "options": [
+     "Olaf",
+     "Anna",
+     "Sven"
+    ],
+    "answer": 0,
+    "note": "The snowman says it when he meets Anna, and it is why everybody loves him."
+   },
+   {
+    "quote": "For the first time in forever.",
+    "options": [
+     "Elsa",
+     "Anna",
+     "The Duke of Weselton"
+    ],
+    "answer": 1,
+    "note": "Anna sings it on coronation day, when the gates finally open."
    }
   ],
   "quiz": [
@@ -4962,6 +7482,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Anna steps between Hans and Elsa, and that act of love saves her."
+   },
+   {
+    "q": "Why do the castle gates stay closed for years?",
+    "options": [
+     "The family is poor",
+     "The castle is broken",
+     "Elsa is afraid people will see her magic"
+    ],
+    "answer": 2,
+    "why": "After the accident with Anna, the family hides Elsa and her power."
+   },
+   {
+    "q": "Why does Anna go after Elsa?",
+    "options": [
+     "She wants to bring her sister home and stop the winter",
+     "She wants the crown",
+     "She wants to see the ice palace"
+    ],
+    "answer": 0,
+    "why": "Elsa's magic has frozen the kingdom, and only Elsa can stop it."
+   },
+   {
+    "q": "Why does Kristoff take Anna to the trolls?",
+    "options": [
+     "He wants to sell ice",
+     "He hopes they can cure her frozen heart",
+     "He needs a new sledge"
+    ],
+    "answer": 1,
+    "why": "Her heart is frozen, and the trolls are the only ones who may know how to help."
    }
   ],
   "roleplay": {
@@ -5010,6 +7560,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a2.json",
+  "truefalse": [
+   {
+    "s": "Elsa's magic turns the water of the fjord into ice.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Anna has ice powers too.",
+    "answer": false,
+    "fix": "Only Elsa has the power; Anna is an ordinary girl."
+   },
+   {
+    "s": "Hans helps Anna because he loves her.",
+    "answer": false,
+    "fix": "Hans only wants the throne, and he leaves Anna alone in the cold."
+   },
+   {
+    "s": "Kristoff is an ice harvester and Sven is his reindeer.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The Duke of Weselton is afraid of Elsa's magic.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Olaf melts at the end and disappears for ever.",
+    "answer": false,
+    "fix": "Elsa makes a small snow cloud for him, so Olaf stays alive."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Elsa stay away from Anna for years?",
+    "model": "She is afraid she will hurt her sister again with her magic. She thinks that staying away keeps Anna safe."
+   },
+   {
+    "q": "How does Anna feel when Elsa runs away?",
+    "model": "She is confused and sad, because she has lost her sister again. She still wants to help her."
+   },
+   {
+    "q": "Why does Hans's plan fail?",
+    "model": "He thinks a kiss from him will save Anna, but he does not love her. Anna saves Elsa instead, and that act of love saves her."
+   },
+   {
+    "q": "What would you do if you had a secret like Elsa's?",
+    "model": "I would ask for help from someone I trust instead of keeping it alone. A secret is easier to carry with a friend."
+   }
+  ],
   "poster": "assets/posters/frozen.jpg"
  },
  {
@@ -5128,6 +7728,36 @@ window.FILM_DATA = [
     "answer": "woof",
     "hint": "the sound a dog makes",
     "adapted": false
+   },
+   {
+    "line": "His mother runs through the airport and shouts his ___.",
+    "answer": "name",
+    "hint": "what people call you",
+    "adapted": true
+   },
+   {
+    "line": "The old neighbour is not scary; he is just ___.",
+    "answer": "lonely",
+    "hint": "sad because you are alone",
+    "adapted": true
+   },
+   {
+    "line": "Kevin puts water on the stairs, and it becomes ___.",
+    "answer": "ice",
+    "hint": "frozen water",
+    "adapted": true
+   },
+   {
+    "line": "Harry and Marv watch the house from a white ___.",
+    "answer": "van",
+    "hint": "a big car for workers",
+    "adapted": true
+   },
+   {
+    "line": "Kevin listens to the old man talk about his ___.",
+    "answer": "son",
+    "hint": "a male child in a family",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -5160,6 +7790,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "He says it as a joke — and then starts to believe it."
+   },
+   {
+    "quote": "Look what you did, you little jerk!",
+    "options": [
+     "Uncle Frank",
+     "Buzz",
+     "Marv"
+    ],
+    "answer": 0,
+    "note": "Uncle Frank says it at dinner, before the family leaves for Paris."
+   },
+   {
+    "quote": "I want my family back.",
+    "options": [
+     "Santa Claus",
+     "Kevin",
+     "Marv"
+    ],
+    "answer": 1,
+    "note": "Kevin says it to a Santa in a shop, and it is the wish of the whole film."
    }
   ],
   "quiz": [
@@ -5212,6 +7862,36 @@ window.FILM_DATA = [
     ],
     "answer": 1,
     "why": "He wanted his family gone, then discovered that he wanted them back."
+   },
+   {
+    "q": "How does Kevin get food while he is alone?",
+    "options": [
+     "He buys it at the supermarket",
+     "His neighbour brings it",
+     "He finds it in the attic"
+    ],
+    "answer": 0,
+    "why": "He goes shopping with his father's card and comes home with bags of food."
+   },
+   {
+    "q": "What does Kevin do to make the house look full?",
+    "options": [
+     "He plays loud music and puts figures in the windows",
+     "He invites the neighbours",
+     "He calls his whole family home"
+    ],
+    "answer": 0,
+    "why": "The music and the moving figures look like a party from outside."
+   },
+   {
+    "q": "What does Kevin's mother do when she learns he is alone?",
+    "options": [
+     "She stays in Paris and waits",
+     "She turns back and takes any plane home",
+     "She sends the police to the house"
+    ],
+    "answer": 1,
+    "why": "She gives up her seat and travels home any way she can."
    }
   ],
   "roleplay": {
@@ -5260,6 +7940,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a2.json",
+  "truefalse": [
+   {
+    "s": "Kevin fights the burglars before his family leaves for Paris.",
+    "answer": false,
+    "fix": "The family leaves first; the fight happens days later, when they are in Paris."
+   },
+   {
+    "s": "Kevin's family flies to Paris without him.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Kevin is afraid of the old neighbour at the start of the film.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The burglars leave the house with the money at the end.",
+    "answer": false,
+    "fix": "The police catch them in the house, and they lose everything."
+   },
+   {
+    "s": "Kevin plays loud music and puts figures in the windows to make the house look full.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Kevin's mother stays in Paris and waits for news.",
+    "answer": false,
+    "fix": "She turns back at once and travels home by any plane she can find."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Kevin want his family to disappear at the start?",
+    "model": "He is angry because his brother and the other children are unkind to him. He says it as a wish, not as a real plan."
+   },
+   {
+    "q": "How does Kevin feel when he wakes up and the house is quiet?",
+    "model": "At first he is excited, because he can do what he wants all day. Later he feels lonely and afraid."
+   },
+   {
+    "q": "What would you do if you were alone at home for three days?",
+    "model": "I would lock the doors and call my parents every evening. I would not open the door to anyone."
+   },
+   {
+    "q": "Why does the old neighbour help Kevin at the end?",
+    "model": "Kevin talks to him in the church and is not afraid of him. The old man wants to help the boy who was kind to him."
+   }
+  ],
   "poster": "assets/posters/home-alone.jpg"
  },
  {
@@ -5379,6 +8109,36 @@ window.FILM_DATA = [
     "answer": "start",
     "hint": "the beginning of something",
     "adapted": true
+   },
+   {
+    "line": "Riley is eleven and her family moves from Minnesota to ___.",
+    "answer": "san francisco",
+    "hint": "the city in California",
+    "adapted": true
+   },
+   {
+    "line": "Joy and Sadness must find their way back to ___.",
+    "answer": "headquarters",
+    "hint": "the control room in Riley's head",
+    "adapted": true
+   },
+   {
+    "line": "When Bing Bong cries, his tears are ___.",
+    "answer": "candy",
+    "hint": "sweet food",
+    "adapted": true
+   },
+   {
+    "line": "Each memory is a ball whose colour shows the ___.",
+    "answer": "feeling",
+    "hint": "what you feel inside",
+    "adapted": true
+   },
+   {
+    "line": "Riley sits on the couch and tells her parents she feels ___.",
+    "answer": "sad",
+    "hint": "not happy",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -5411,6 +8171,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Bing Bong's last words to Joy in the memory dump."
+   },
+   {
+    "quote": "I've got a good feeling about today.",
+    "options": [
+     "Joy",
+     "Sadness",
+     "Bing Bong"
+    ],
+    "answer": 0,
+    "note": "Joy says it at the start, before the first day at the new school."
+   },
+   {
+    "quote": "Sadness, don't touch the memories.",
+    "options": [
+     "Disgust",
+     "Joy",
+     "Anger"
+    ],
+    "answer": 1,
+    "note": "Joy tries to keep Sadness away from the happy memories."
    }
   ],
   "quiz": [
@@ -5463,6 +8243,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "She takes a bus to Minnesota, then comes back and talks to her parents."
+   },
+   {
+    "q": "Why is Riley unhappy after the move?",
+    "options": [
+     "She does not like her new school",
+     "She misses her friends, her house and her team",
+     "Her parents are unkind"
+    ],
+    "answer": 1,
+    "why": "She has lost her old life in Minnesota, and nothing in San Francisco feels like home."
+   },
+   {
+    "q": "Why do Joy and Sadness have to work together?",
+    "options": [
+     "Sadness is the only one who can help Riley feel better",
+     "Joy cannot walk alone",
+     "They share a map"
+    ],
+    "answer": 0,
+    "why": "Riley needs to be sad and talk about it, and only Sadness can start that."
+   },
+   {
+    "q": "Why do the personality islands fall?",
+    "options": [
+     "Riley breaks them",
+     "Anger burns them",
+     "The memories that hold them are lost"
+    ],
+    "answer": 2,
+    "why": "Without Joy and Sadness, the core memories lose their power and the islands break."
    }
   ],
   "roleplay": {
@@ -5511,6 +8321,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "wave2-a.json",
+  "truefalse": [
+   {
+    "s": "Joy is the first emotion to appear in Riley's life.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Riley's parents are angry with her for being sad.",
+    "answer": false,
+    "fix": "They listen to her and hug her, and they say they miss Minnesota too."
+   },
+   {
+    "s": "Bing Bong is a real friend from Riley's school.",
+    "answer": false,
+    "fix": "He is Riley's imaginary friend, and he lives in her memory."
+   },
+   {
+    "s": "Riley plays ice hockey in Minnesota.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "At the end Riley cries in front of her parents.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The film says that being sad is a bad thing.",
+    "answer": false,
+    "fix": "It shows that sadness helps Riley get help and feel better."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why is Joy afraid of Sadness at first?",
+    "model": "She thinks Sadness makes Riley unhappy and that happy memories are the only good ones. She wants to keep Riley cheerful."
+   },
+   {
+    "q": "How does Riley feel on her first day at school?",
+    "model": "She feels nervous and out of place, and she misses her old friends. When she talks about home, she cries."
+   },
+   {
+    "q": "Why does Bing Bong stay behind in the memory dump?",
+    "model": "He knows that Joy must get back to Headquarters, and he cannot go with her. He chooses to help Riley instead of himself."
+   },
+   {
+    "q": "What would you do if your family moved to a new city?",
+    "model": "I would feel sad at first, and I would call my old friends. I would try one new thing every week."
+   }
+  ],
   "poster": "assets/posters/inside-out.jpg"
  },
  {
@@ -5630,6 +8490,36 @@ window.FILM_DATA = [
     "answer": "believe",
     "hint": "think it is true",
     "adapted": false
+   },
+   {
+    "line": "Po works in his father's noodle shop and dreams about ___.",
+    "answer": "kung fu",
+    "hint": "the fighting sport he loves",
+    "adapted": true
+   },
+   {
+    "line": "Oogway points at Po during the kung fu ___.",
+    "answer": "tournament",
+    "hint": "a competition with many fights",
+    "adapted": true
+   },
+   {
+    "line": "Shifu trains Po with dumplings because Po learns best with ___.",
+    "answer": "food",
+    "hint": "things you eat",
+    "adapted": true
+   },
+   {
+    "line": "Tai Lung escapes from prison and wants the Dragon ___.",
+    "answer": "scroll",
+    "hint": "a long piece of paper",
+    "adapted": true
+   },
+   {
+    "line": "Mr. Ping says the secret ingredient is ___.",
+    "answer": "nothing",
+    "hint": "not a thing",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -5662,6 +8552,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Oogway's advice under the peach tree."
+   },
+   {
+    "quote": "One often meets his destiny on the road he takes to avoid it.",
+    "options": [
+     "Master Oogway",
+     "Shifu",
+     "Po"
+    ],
+    "answer": 0,
+    "note": "Oogway says it to Shifu when Shifu wants to send Po home."
+   },
+   {
+    "quote": "There is no charge for awesomeness.",
+    "options": [
+     "Po",
+     "Shifu",
+     "Mr. Ping"
+    ],
+    "answer": 0,
+    "note": "Po says it at the start of the film, when he dreams about being a hero."
    }
   ],
   "quiz": [
@@ -5714,6 +8624,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Mr. Ping is the goose who adopted Po and runs the noodle shop."
+   },
+   {
+    "q": "Why does Shifu not want Po to be the Dragon Warrior?",
+    "options": [
+     "Po is too old",
+     "Po is clumsy and knows nothing about kung fu",
+     "Po is a goose"
+    ],
+    "answer": 1,
+    "why": "Shifu trained the best fighters in the valley, and Po cannot even touch his toes."
+   },
+   {
+    "q": "Why does Po stay at the Jade Palace after Shifu sends him away?",
+    "options": [
+     "He wants to see the Dragon Scroll",
+     "He has nowhere to go",
+     "He wants to eat the palace food"
+    ],
+    "answer": 0,
+    "why": "He believes he was chosen for a reason, and he wants to see the scroll."
+   },
+   {
+    "q": "Why can Po fight Tai Lung at the end?",
+    "options": [
+     "He learns the secret move from the scroll",
+     "He is himself and uses his own style",
+     "He has a special weapon"
+    ],
+    "answer": 1,
+    "why": "The scroll is empty, so Po fights as a panda who loves food — and it works."
    }
   ],
   "roleplay": {
@@ -5762,6 +8702,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "wave2-a.json",
+  "truefalse": [
+   {
+    "s": "Po works in a noodle shop with his father.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Tai Lung is chosen as the Dragon Warrior.",
+    "answer": false,
+    "fix": "Po is chosen; Tai Lung is the villain who wants the scroll."
+   },
+   {
+    "s": "Shifu is Po's father.",
+    "answer": false,
+    "fix": "Mr. Ping the goose is Po's father; Shifu is his teacher."
+   },
+   {
+    "s": "The Dragon Scroll is empty and shows only a reflection.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Po uses a move called the Wuxi finger hold to beat Tai Lung.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Po learns kung fu easily from his first day at the palace.",
+    "answer": false,
+    "fix": "He is clumsy and fails many times before he finds his own style."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why do the other masters not accept Po?",
+    "model": "They think a big, clumsy panda cannot be a warrior. They trained for years and he knows nothing."
+   },
+   {
+    "q": "How does Po feel when he is chosen?",
+    "model": "He is shocked and very happy, but also afraid. He does not understand why Oogway chose him."
+   },
+   {
+    "q": "Why does the empty scroll help Po?",
+    "model": "It shows him that there is no secret power outside himself. He only needs to believe in who he is."
+   },
+   {
+    "q": "What would you do if nobody believed in you?",
+    "model": "I would keep practising and find my own way to do things. I would prove them wrong by working hard."
+   }
+  ],
   "poster": "assets/posters/kung-fu-panda.jpg"
  },
  {
@@ -5880,6 +8870,36 @@ window.FILM_DATA = [
     "answer": "door",
     "hint": "you open it to go in",
     "adapted": true
+   },
+   {
+    "line": "Matilda reads every book in the library, and the librarian is ___.",
+    "answer": "surprised",
+    "hint": "not expecting it",
+    "adapted": true
+   },
+   {
+    "line": "Miss Honey has no money because the headmistress takes her ___.",
+    "answer": "money",
+    "hint": "what you pay with",
+    "adapted": true
+   },
+   {
+    "line": "Lavender hides a newt in the headmistress's ___.",
+    "answer": "glass",
+    "hint": "you drink water from it",
+    "adapted": true
+   },
+   {
+    "line": "Matilda can move a glass with her ___.",
+    "answer": "mind",
+    "hint": "the part of you that thinks",
+    "adapted": true
+   },
+   {
+    "line": "At the end Matilda lives with Miss Honey in a small ___.",
+    "answer": "house",
+    "hint": "a building where people live",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -5912,6 +8932,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "She says it to Miss Honey, and it is the happiest line in the film."
+   },
+   {
+    "quote": "Have you ever heard of the Chokey?",
+    "options": [
+     "Miss Trunchbull",
+     "Miss Honey",
+     "Mr. Wormwood"
+    ],
+    "answer": 0,
+    "note": "The headmistress says it to the children as a threat."
+   },
+   {
+    "quote": "I think I can move things with my mind.",
+    "options": [
+     "Lavender",
+     "Matilda",
+     "Miss Honey"
+    ],
+    "answer": 1,
+    "note": "Matilda tells her teacher about her new power."
    }
   ],
   "quiz": [
@@ -5964,6 +9004,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Her parents leave the country, and Miss Honey becomes her family."
+   },
+   {
+    "q": "Why do Matilda's parents not like her reading?",
+    "options": [
+     "Books are too expensive",
+     "They think books are a waste of time",
+     "They want her to play sport"
+    ],
+    "answer": 1,
+    "why": "They watch television and think a girl should not sit with books all day."
+   },
+   {
+    "q": "How does Matilda answer the Trunchbull in class?",
+    "options": [
+     "She is silent and afraid",
+     "She says nothing and cries",
+     "She answers back and is not afraid"
+    ],
+    "answer": 2,
+    "why": "Matilda stays calm and speaks the truth, and the Trunchbull hates it."
+   },
+   {
+    "q": "What does Matilda put in her father's hat?",
+    "options": [
+     "Superglue",
+     "Water",
+     "Paint"
+    ],
+    "answer": 0,
+    "why": "She glues the hat to his head, and he has to cut his hair to get it off."
    }
   ],
   "roleplay": {
@@ -6012,6 +9082,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a2.json",
+  "truefalse": [
+   {
+    "s": "Matilda's parents are proud of her reading.",
+    "answer": false,
+    "fix": "They think books are a waste of time and tell her to watch television instead."
+   },
+   {
+    "s": "Miss Honey is Matilda's teacher.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The Trunchbull was a famous athlete before she ran the school.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Matilda's brother Michael is clever and reads many books.",
+    "answer": false,
+    "fix": "Michael watches television and does not read; Matilda is the clever one."
+   },
+   {
+    "s": "Lavender is Matilda's friend at school.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Matilda's parents take her with them when they leave the country.",
+    "answer": false,
+    "fix": "They leave without her, and Miss Honey adopts her."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Matilda go to the library every day?",
+    "model": "Her house is noisy and nobody talks to her, so the library is quiet and full of stories. The librarian is kind to her."
+   },
+   {
+    "q": "How does Matilda feel about her family?",
+    "model": "She is lonely and angry, because they do not listen to her. She finds a real family with Miss Honey."
+   },
+   {
+    "q": "Why is the Trunchbull so cruel to children?",
+    "model": "She hates children and she likes to control everyone. She is also afraid of anyone who is not afraid of her."
+   },
+   {
+    "q": "What would you do if a teacher was unkind to you?",
+    "model": "I would tell my parents and another teacher. I would not stay silent, because it is not my fault."
+   }
+  ],
   "poster": "assets/posters/matilda.jpg"
  },
  {
@@ -6131,6 +9251,36 @@ window.FILM_DATA = [
     "answer": "hook",
     "hint": "a curved tool for fishing",
     "adapted": true
+   },
+   {
+    "line": "Moana's father wants her to become the next ___ of the island.",
+    "answer": "chief",
+    "hint": "the leader of the people",
+    "adapted": true
+   },
+   {
+    "line": "Gramma Tala shows Moana the boats in a cave behind a ___.",
+    "answer": "waterfall",
+    "hint": "water falling down a rock",
+    "adapted": true
+   },
+   {
+    "line": "Moana sails across the sea with a chicken called ___.",
+    "answer": "heihei",
+    "hint": "the chicken's name",
+    "adapted": true
+   },
+   {
+    "line": "The island has no fish, and the plants are ___.",
+    "answer": "dying",
+    "hint": "not living any more",
+    "adapted": true
+   },
+   {
+    "line": "Te Ka is a big monster made of lava and ___.",
+    "answer": "rock",
+    "hint": "hard stone",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -6163,6 +9313,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Gramma Tala tells Moana why the sea keeps helping her."
+   },
+   {
+    "quote": "I am Moana of Motunui.",
+    "options": [
+     "Moana",
+     "Gramma Tala",
+     "Maui"
+    ],
+    "answer": 0,
+    "note": "Moana says it to Maui when she asks him to come with her."
+   },
+   {
+    "quote": "See the line where the sky meets the sea, it calls me.",
+    "options": [
+     "Moana",
+     "Gramma Tala",
+     "Her father"
+    ],
+    "answer": 0,
+    "note": "She sings it in How Far I'll Go, when she wants to leave the island."
    }
   ],
   "quiz": [
@@ -6215,6 +9385,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "She returns the heart and saves her island."
+   },
+   {
+    "q": "Why does Moana sail away from her island?",
+    "options": [
+     "She wants an adventure",
+     "She must return the heart to Te Fiti",
+     "Her father sends her"
+    ],
+    "answer": 1,
+    "why": "The island is dying, and the heart must go back to Te Fiti."
+   },
+   {
+    "q": "Why does Maui first refuse to help Moana?",
+    "options": [
+     "He is afraid and wants his hook back",
+     "He does not like boats",
+     "He wants to be chief"
+    ],
+    "answer": 0,
+    "why": "He has lost his hook and he does not want to fight Te Ka without it."
+   },
+   {
+    "q": "Why does the ocean choose Moana?",
+    "options": [
+     "She is the chief's daughter",
+     "She is the best sailor",
+     "She is kind and helps a baby turtle"
+    ],
+    "answer": 2,
+    "why": "As a baby she helps a turtle to the water, and the ocean sees her kind heart."
    }
   ],
   "roleplay": {
@@ -6263,6 +9463,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "wave2-a.json",
+  "truefalse": [
+   {
+    "s": "Moana is the daughter of the chief of Motunui.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Maui is a young boy who lives on Moana's island.",
+    "answer": false,
+    "fix": "Maui is a demigod who has been alone on an island for a thousand years."
+   },
+   {
+    "s": "Gramma Tala tells Moana that her people were voyagers.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The heart of Te Fiti is a red jewel.",
+    "answer": false,
+    "fix": "It is a green stone with a spiral on it."
+   },
+   {
+    "s": "Moana gives the heart back to Te Fiti at the end.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Moana's father is happy when she leaves the island.",
+    "answer": false,
+    "fix": "He is angry and afraid at first, but later he sails with her."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Moana's father not want her to sail?",
+    "model": "He is afraid of the ocean because he lost a friend there. He wants to keep his daughter safe on the island."
+   },
+   {
+    "q": "How does Moana feel before she sails away?",
+    "model": "She is afraid and sad, because she is leaving her family. She also knows that the ocean is calling her."
+   },
+   {
+    "q": "Why does Maui change his mind about helping Moana?",
+    "model": "He sees that she is brave and that she needs him. He also wants to be a hero again."
+   },
+   {
+    "q": "What would you do if the sea called you like that?",
+    "model": "I would be afraid, but I would follow it and take a friend. I would want to help my home."
+   }
+  ],
   "poster": "assets/posters/moana.jpg"
  },
  {
@@ -6381,6 +9631,36 @@ window.FILM_DATA = [
     "answer": "right",
     "hint": "good and correct",
     "adapted": true
+   },
+   {
+    "line": "Mr. Brown is not happy about a bear in his ___.",
+    "answer": "house",
+    "hint": "the building where a family lives",
+    "adapted": true
+   },
+   {
+    "line": "Paddington tries to wash, and the bathroom becomes very ___.",
+    "answer": "wet",
+    "hint": "covered with water",
+    "adapted": true
+   },
+   {
+    "line": "Millicent wants to put Paddington in a ___.",
+    "answer": "museum",
+    "hint": "a place with old and rare things",
+    "adapted": true
+   },
+   {
+    "line": "An earthquake destroys the bears' home, so Paddington travels to ___.",
+    "answer": "london",
+    "hint": "the capital of England",
+    "adapted": true
+   },
+   {
+    "line": "Paddington has a special sandwich recipe from his ___.",
+    "answer": "aunt",
+    "hint": "the sister of your mother or father",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -6413,6 +9693,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Mary Brown says it when her husband wants the bear out of the house."
+   },
+   {
+    "quote": "Can we keep him, please?",
+    "options": [
+     "Jonathan",
+     "Judy",
+     "Mrs. Bird"
+    ],
+    "answer": 0,
+    "note": "The children want the bear to stay from the first day."
+   },
+   {
+    "quote": "What a magnificent specimen.",
+    "options": [
+     "Millicent",
+     "Mrs. Brown",
+     "Mr. Curry"
+    ],
+    "answer": 0,
+    "note": "Millicent is a taxidermist, and she says it about the bear."
    }
   ],
   "quiz": [
@@ -6465,6 +9765,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He stays at 32 Windsor Gardens, and the Browns become his family."
+   },
+   {
+    "q": "Why does Paddington come to London?",
+    "options": [
+     "He wants to find gold",
+     "His home in Peru is destroyed",
+     "He is on holiday"
+    ],
+    "answer": 1,
+    "why": "An earthquake destroys the bears' home, and Aunt Lucy sends him to England."
+   },
+   {
+    "q": "Why is Mr. Brown not sure about the bear at first?",
+    "options": [
+     "He likes a quiet, tidy house",
+     "He is afraid of bears",
+     "He has no money"
+    ],
+    "answer": 0,
+    "why": "Mr. Brown likes his routine and his clean house, and a bear brings both danger and mess."
+   },
+   {
+    "q": "What happens when Paddington has a bath?",
+    "options": [
+     "The water is cold",
+     "He falls asleep",
+     "The bathroom floods"
+    ],
+    "answer": 2,
+    "why": "He does not understand the taps, and the water runs through the floor."
    }
   ],
   "roleplay": {
@@ -6513,6 +9843,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a2.json",
+  "truefalse": [
+   {
+    "s": "Paddington arrives in London at a train station.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The Browns find Paddington at the airport.",
+    "answer": false,
+    "fix": "They find him at Paddington station, which is where his name comes from."
+   },
+   {
+    "s": "Paddington's name comes from the station where the Browns found him.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Mr. Brown wants the bear to stay from the first minute.",
+    "answer": false,
+    "fix": "Mr. Brown is not sure at first; the children want him to stay at once."
+   },
+   {
+    "s": "Paddington likes marmalade and keeps a sandwich under his hat.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Millicent is a kind neighbour who helps the Browns.",
+    "answer": false,
+    "fix": "Millicent is a taxidermist who wants to put Paddington in her collection."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Paddington leave Peru?",
+    "model": "An earthquake destroys the home he shares with his aunt, so she sends him to London to find a safe home."
+   },
+   {
+    "q": "How does Paddington feel on his first night in London?",
+    "model": "He is excited but also lonely and confused, because the city is loud and nobody stops to help him."
+   },
+   {
+    "q": "Why does the Brown family change their mind about Paddington?",
+    "model": "He is polite and kind, and he helps them without asking for anything. They see that he needs a family."
+   },
+   {
+    "q": "What would you do if you found a stranger alone at a station?",
+    "model": "I would ask if they need help and then call an adult or the police. I would not leave them alone."
+   }
+  ],
   "poster": "assets/posters/paddington.jpg"
  },
  {
@@ -6635,6 +10015,36 @@ window.FILM_DATA = [
     "answer": "outside",
     "hint": "not inside the house",
     "adapted": true
+   },
+   {
+    "line": "Peppa and George watch the rain from the kitchen ___.",
+    "answer": "window",
+    "hint": "glass in the wall",
+    "adapted": true
+   },
+   {
+    "line": "Mummy Pig says you must wear your ___ before you jump.",
+    "answer": "boots",
+    "hint": "shoes for rain and mud",
+    "adapted": true
+   },
+   {
+    "line": "George jumps in the biggest puddle and gets very ___.",
+    "answer": "wet",
+    "hint": "covered with water",
+    "adapted": true
+   },
+   {
+    "line": "Daddy Pig jumps in a puddle and everybody ___.",
+    "answer": "laughs",
+    "hint": "makes a happy sound",
+    "adapted": true
+   },
+   {
+    "line": "Peppa's family all jump together and have a lot of ___.",
+    "answer": "fun",
+    "hint": "enjoyment",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -6667,6 +10077,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The closing line — the episode says its moral twice, slowly."
+   },
+   {
+    "quote": "It's only mud.",
+    "options": [
+     "Daddy Pig",
+     "Mummy Pig",
+     "Peppa"
+    ],
+    "answer": 0,
+    "note": "Daddy Pig says it when the children come home dirty, so nobody is in trouble."
+   },
+   {
+    "quote": "I love muddy puddles.",
+    "options": [
+     "Peppa",
+     "George",
+     "The narrator"
+    ],
+    "answer": 0,
+    "note": "Peppa says it before they put on their boots."
    }
   ],
   "quiz": [
@@ -6719,6 +10149,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "She says it in the first minute: 'This is my little brother, George.'"
+   },
+   {
+    "q": "Why do Peppa and George stay inside at the start?",
+    "options": [
+     "It is raining outside",
+     "They are ill",
+     "It is bedtime"
+    ],
+    "answer": 0,
+    "why": "The rain is too heavy, so they watch it from the window."
+   },
+   {
+    "q": "What rule does Mummy Pig give?",
+    "options": [
+     "You must stay inside",
+     "You must wear boots in the puddles",
+     "You must not get wet"
+    ],
+    "answer": 1,
+    "why": "Boots keep their feet dry, and the rule is repeated twice in the episode."
+   },
+   {
+    "q": "Why does George cry?",
+    "options": [
+     "Peppa takes his boots",
+     "He is hungry",
+     "The rain stops and he wants to stay outside"
+    ],
+    "answer": 2,
+    "why": "He loves the puddles, and the rain stopping means the game is over."
    }
   ],
   "roleplay": {
@@ -6766,7 +10226,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "wave2-s1.json"
+  "_src": "wave2-s1.json",
+  "truefalse": [
+   {
+    "s": "The story starts on a rainy day.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Peppa puts on her boots after she jumps in the puddles.",
+    "answer": false,
+    "fix": "Mummy Pig makes them put on boots before they go outside."
+   },
+   {
+    "s": "George jumps in the biggest puddle.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "George is Peppa's big brother.",
+    "answer": false,
+    "fix": "George is her little brother."
+   },
+   {
+    "s": "Daddy Pig jumps in the puddles too.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The children must stay inside all day.",
+    "answer": false,
+    "fix": "They go outside in boots and play in the puddles."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why do Peppa and George want to go outside?",
+    "model": "They see the rain and they want to jump in the puddles. For them, rain means a new game."
+   },
+   {
+    "q": "How does George feel when the rain stops?",
+    "model": "He is unhappy, because he wants to stay outside and jump. He cries until he can play again."
+   },
+   {
+    "q": "Why does Mummy Pig make a rule about boots?",
+    "model": "She wants the children to stay dry and clean, and mud is difficult to wash. It is a simple rule they can remember."
+   },
+   {
+    "q": "What would you do on a rainy day?",
+    "model": "I would put on my boots and jump in the puddles, then go home for hot chocolate. I would not stay inside all day."
+   }
+  ]
  },
  {
   "id": "wizard-of-oz",
@@ -6884,6 +10394,36 @@ window.FILM_DATA = [
     "answer": "curtain",
     "hint": "it covers a window",
     "adapted": false
+   },
+   {
+    "line": "Dorothy lives on a farm with Aunt Em and Uncle ___.",
+    "answer": "henry",
+    "hint": "the man's name in the film",
+    "adapted": false
+   },
+   {
+    "line": "The Tin Man carries an axe and wants a ___.",
+    "answer": "heart",
+    "hint": "the part of you that feels love",
+    "adapted": true
+   },
+   {
+    "line": "The Cowardly Lion is afraid of everything and wants ___.",
+    "answer": "courage",
+    "hint": "being brave when you are afraid",
+    "adapted": true
+   },
+   {
+    "line": "Toto opens the curtain and shows that the Wizard is a ___.",
+    "answer": "man",
+    "hint": "not a wizard, not a monster",
+    "adapted": true
+   },
+   {
+    "line": "The Wicked Witch sends flying ___ to catch Dorothy.",
+    "answer": "monkeys",
+    "hint": "animals that live in trees",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -6916,6 +10456,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The Wizard shouts it when Toto opens the curtain."
+   },
+   {
+    "quote": "Toto, I've a feeling we're not in Kansas anymore.",
+    "options": [
+     "Dorothy",
+     "Glinda",
+     "The Scarecrow"
+    ],
+    "answer": 0,
+    "note": "Dorothy says it just after she lands in Oz and sees the colours."
+   },
+   {
+    "quote": "I'm melting! Oh, what a world!",
+    "options": [
+     "The Wicked Witch",
+     "Glinda",
+     "Aunt Em"
+    ],
+    "answer": 0,
+    "note": "The Witch says it when Dorothy throws water over her."
    }
   ],
   "quiz": [
@@ -6968,6 +10528,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Glinda tells her that the slippers can take her home."
+   },
+   {
+    "q": "Why does Dorothy run away from home?",
+    "options": [
+     "Her aunt is angry with her",
+     "Miss Gulch wants to take Toto",
+     "She wants to see the Wizard"
+    ],
+    "answer": 1,
+    "why": "Miss Gulch takes Toto away, so Dorothy runs away to save her dog."
+   },
+   {
+    "q": "Why do the Munchkins celebrate when Dorothy arrives?",
+    "options": [
+     "The witch's sister is dead",
+     "Dorothy arrives from Kansas",
+     "The Wizard is coming"
+    ],
+    "answer": 0,
+    "why": "Dorothy's house lands on the Wicked Witch of the East and kills her."
+   },
+   {
+    "q": "Why can the Wizard not help Dorothy at first?",
+    "options": [
+     "He is too busy",
+     "He is not a real wizard",
+     "He has no magic book"
+    ],
+    "answer": 1,
+    "why": "He is an ordinary man with machines, and he hides behind a curtain."
    }
   ],
   "roleplay": {
@@ -7016,6 +10606,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a2.json",
+  "truefalse": [
+   {
+    "s": "Dorothy's house lands on the Wicked Witch of the North.",
+    "answer": false,
+    "fix": "It lands on the Wicked Witch of the East, and her ruby slippers go to Dorothy."
+   },
+   {
+    "s": "The Scarecrow, the Tin Man and the Lion travel with Dorothy to the Emerald City.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The Wizard of Oz is a real wizard with great power.",
+    "answer": false,
+    "fix": "He is an ordinary man who hides behind a curtain and uses machines."
+   },
+   {
+    "s": "The Lion is afraid for most of the film.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Aunt Em and Uncle Henry go to Oz with Dorothy.",
+    "answer": false,
+    "fix": "They stay in Kansas; only Dorothy and Toto make the journey."
+   },
+   {
+    "s": "Dorothy wakes up in bed at the end and tells her family about Oz.",
+    "answer": true,
+    "fix": ""
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Dorothy want to leave Kansas at the start?",
+    "model": "She feels lonely on the farm and dreams of a beautiful place far away. Miss Gulch also wants to take her dog."
+   },
+   {
+    "q": "How do the three friends become braver during the journey?",
+    "model": "They help each other when there is danger. The Scarecrow thinks, the Tin Man cares, and the Lion protects them."
+   },
+   {
+    "q": "Why does the Wizard ask for the witch's broomstick?",
+    "model": "He wants her to do something very difficult so he does not have to help her. He hopes she will fail and go away."
+   },
+   {
+    "q": "What would you ask the Wizard of Oz for?",
+    "model": "I would ask for more confidence, because I am shy when I speak in front of people. I would also ask for a safe journey home."
+   }
+  ],
   "poster": "assets/posters/wizard-of-oz.jpg"
  },
  {
@@ -7135,6 +10775,36 @@ window.FILM_DATA = [
     "answer": "peace",
     "hint": "the opposite of war",
     "adapted": false
+   },
+   {
+    "line": "Woody is Andy's favourite toy and sleeps on his ___.",
+    "answer": "bed",
+    "hint": "the place where you sleep",
+    "adapted": true
+   },
+   {
+    "line": "The toys in Andy's room move and talk when people ___.",
+    "answer": "leave",
+    "hint": "go away from the room",
+    "adapted": true
+   },
+   {
+    "line": "Woody and Buzz get lost at a gas ___.",
+    "answer": "station",
+    "hint": "a place to buy petrol",
+    "adapted": false
+   },
+   {
+    "line": "Andy's family goes to a restaurant called Pizza ___.",
+    "answer": "planet",
+    "hint": "a big round world in space",
+    "adapted": false
+   },
+   {
+    "line": "Buzz sees an advert on TV and learns the ___ about himself.",
+    "answer": "truth",
+    "hint": "what is really true",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -7167,6 +10837,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Woody's pull string says it. He cannot choose his own lines."
+   },
+   {
+    "quote": "You are a sad, strange little man.",
+    "options": [
+     "Woody",
+     "Sid",
+     "Andy"
+    ],
+    "answer": 0,
+    "note": "Woody says it to Buzz when Buzz still believes he is a real space ranger."
+   },
+   {
+    "quote": "I'm not a toy, I'm a space ranger!",
+    "options": [
+     "Sid",
+     "Buzz",
+     "Woody"
+    ],
+    "answer": 1,
+    "note": "Buzz says it many times before he sees the advert and learns the truth."
    }
   ],
   "quiz": [
@@ -7219,6 +10909,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Woody lights the rocket and it carries them into the air, just as the family drives away."
+   },
+   {
+    "q": "Why is the family packing boxes at the start?",
+    "options": [
+     "They are cleaning the attic",
+     "They are moving to a new house",
+     "They are going on holiday"
+    ],
+    "answer": 1,
+    "why": "The family is moving, so every room is packed, including Andy's room."
+   },
+   {
+    "q": "Why is Woody angry with Buzz on the first night?",
+    "options": [
+     "Andy puts Buzz on the bed instead of him",
+     "Buzz breaks his hat",
+     "Buzz tells Andy a secret"
+    ],
+    "answer": 0,
+    "why": "Buzz takes the place next to Andy, and Woody is not the favourite any more."
+   },
+   {
+    "q": "What do the other toys think when Buzz falls out of the window?",
+    "options": [
+     "That Buzz ran away",
+     "That Andy took him",
+     "That Woody pushed him"
+    ],
+    "answer": 2,
+    "why": "They see the two toys fighting, so they believe Woody did it."
    }
   ],
   "roleplay": {
@@ -7267,6 +10987,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "a2.json",
+  "truefalse": [
+   {
+    "s": "Woody is the new toy in Andy's room.",
+    "answer": false,
+    "fix": "Buzz is the new toy; Woody was Andy's favourite before he arrived."
+   },
+   {
+    "s": "Buzz thinks he is a real space ranger at the start of the film.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Woody and Buzz get lost at the airport.",
+    "answer": false,
+    "fix": "They get lost at a gas station during the family's move."
+   },
+   {
+    "s": "Sid has a dog called Scud, and the dog is not friendly.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The other toys turn against Woody after Buzz disappears.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "At the end Buzz and Woody are still angry with each other.",
+    "answer": false,
+    "fix": "They become friends again after they escape from Sid's house."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why is Woody jealous of Buzz?",
+    "model": "Andy sleeps with Buzz and takes him everywhere, so Woody is no longer the favourite. Woody is afraid of losing his place."
+   },
+   {
+    "q": "How does Buzz feel when he sees the advert for Buzz toys?",
+    "model": "He feels shocked and sad, because the advert shows many other Buzz toys like him. He understands that he is a toy."
+   },
+   {
+    "q": "Why do the other toys stop trusting Woody?",
+    "model": "They see Buzz fall out of the window and think Woody pushed him. Woody is jealous, so it is easy to believe."
+   },
+   {
+    "q": "What would you do if your best friend got a new favourite toy?",
+    "model": "I would talk to my friend and tell them how I feel. I would not take the new toy away."
+   }
+  ],
   "poster": "assets/posters/toy-story.jpg"
  },
  {
@@ -7386,6 +11156,36 @@ window.FILM_DATA = [
     "answer": "you",
     "hint": "the person in the mirror",
     "adapted": false
+   },
+   {
+    "line": "Judy comes from a big family of rabbits in ___.",
+    "answer": "bunnyburrow",
+    "hint": "the name of her home town",
+    "adapted": true
+   },
+   {
+    "line": "Judy moves to Zootopia and lives in a small cheap ___.",
+    "answer": "apartment",
+    "hint": "a home in a big building",
+    "adapted": true
+   },
+   {
+    "line": "Nick sells ice lollies on the street with his friend ___.",
+    "answer": "finnick",
+    "hint": "the small fox's name",
+    "adapted": true
+   },
+   {
+    "line": "Judy has only 48 hours to find the missing ___.",
+    "answer": "animals",
+    "hint": "the ones who disappeared",
+    "adapted": true
+   },
+   {
+    "line": "Bellwether uses a flower to make the animals go ___.",
+    "answer": "savage",
+    "hint": "wild and dangerous",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -7418,6 +11218,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "From Judy's speech near the end."
+   },
+   {
+    "quote": "Never let them see that they get to you.",
+    "options": [
+     "Nick",
+     "Judy",
+     "Bellwether"
+    ],
+    "answer": 0,
+    "note": "Nick says it to Judy after a hard day, and it is the lesson he learned as a fox."
+   },
+   {
+    "quote": "Fear always works.",
+    "options": [
+     "Judy",
+     "Bellwether",
+     "Chief Bogo"
+    ],
+    "answer": 1,
+    "note": "Bellwether says it at the end, and it explains her whole plan."
    }
   ],
   "quiz": [
@@ -7470,6 +11290,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Bellwether uses a night howler serum to make predators look dangerous."
+   },
+   {
+    "q": "Why does Judy leave her family's farm?",
+    "options": [
+     "She wants to see the city",
+     "She wants to be a police officer in Zootopia",
+     "Her family sends her"
+    ],
+    "answer": 1,
+    "why": "She has wanted to be a police officer since she was a child."
+   },
+   {
+    "q": "Why does Nick help Judy with the case?",
+    "options": [
+     "Judy records him breaking the law",
+     "He is a police officer",
+     "He wants to find his friend"
+    ],
+    "answer": 0,
+    "why": "Judy records him talking about his illegal business, so he has to help her."
+   },
+   {
+    "q": "Why is the scene at the DMV funny?",
+    "options": [
+     "The sloth is asleep",
+     "The office is closed",
+     "The sloth is very slow and Nick enjoys it"
+    ],
+    "answer": 2,
+    "why": "Flash the sloth works very slowly, and Nick makes the wait even longer."
    }
   ],
   "roleplay": {
@@ -7518,6 +11368,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "wave2-a.json",
+  "truefalse": [
+   {
+    "s": "Judy is a fox and Nick is a rabbit.",
+    "answer": false,
+    "fix": "Judy is a rabbit and Nick is a fox."
+   },
+   {
+    "s": "Judy is the first rabbit police officer in Zootopia.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Chief Bogo gives Judy the big case on her first day.",
+    "answer": false,
+    "fix": "He gives her parking tickets and only later lets her take the case."
+   },
+   {
+    "s": "Judy records Nick talking about his illegal business.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The missing animals are kept in a secret laboratory.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Mayor Lionheart is the real villain of the film.",
+    "answer": false,
+    "fix": "Bellwether is behind the savage animals; Lionheart only hid what he found."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Judy want to be a police officer?",
+    "model": "She wants to help people, and she believes anyone can do any job in Zootopia. Her parents want her to stay on the farm."
+   },
+   {
+    "q": "How does Nick feel when Judy talks about foxes?",
+    "model": "He feels hurt and angry, because she repeats what people say about foxes. He walks away from her."
+   },
+   {
+    "q": "Why is Bellwether's plan dangerous for the city?",
+    "model": "It makes everyone afraid of predators and turns neighbour against neighbour. A city cannot work if everybody is afraid."
+   },
+   {
+    "q": "What would you do if everyone said you could not do your dream job?",
+    "model": "I would practise harder and find someone who supports me. I would show them what I can do."
+   }
+  ],
   "poster": "assets/posters/zootopia.jpg"
  },
  {
@@ -7636,6 +11536,36 @@ window.FILM_DATA = [
     "answer": "gigawatts",
     "hint": "a very large unit of power",
     "adapted": true
+   },
+   {
+    "line": "Great ___!",
+    "answer": "Scott",
+    "hint": "a man's name; Doc says it when he is surprised",
+    "adapted": false
+   },
+   {
+    "line": "Are you telling me you built a time machine out of a ___?",
+    "answer": "DeLorean",
+    "hint": "a car with steel doors",
+    "adapted": true
+   },
+   {
+    "line": "The flux ___ is what makes time travel possible.",
+    "answer": "capacitor",
+    "hint": "a part that stores electric charge",
+    "adapted": true
+   },
+   {
+    "line": "When this baby hits eighty-eight miles per ___, you're gonna see some serious stuff.",
+    "answer": "hour",
+    "hint": "60 minutes",
+    "adapted": true
+   },
+   {
+    "line": "I'm sure that in 1985, plutonium is available in every corner ___ store.",
+    "answer": "drug",
+    "hint": "a shop that sells medicine",
+    "adapted": false
    }
   ],
   "quotes": [
@@ -7668,6 +11598,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "George says it as a published writer; the boy who could not speak has found his voice."
+   },
+   {
+    "quote": "History is gonna change.",
+    "options": [
+     "Doc",
+     "Marty",
+     "Biff"
+    ],
+    "answer": 0,
+    "note": "Doc says it when he understands what Marty's trip to the past could do."
+   },
+   {
+    "quote": "Your kids are gonna love it.",
+    "options": [
+     "Marty",
+     "Doc",
+     "Jennifer"
+    ],
+    "answer": 1,
+    "note": "Doc's last line, as the car lifts off and the future begins."
    }
   ],
   "quiz": [
@@ -7720,6 +11670,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He uses the lightning that strikes the clock tower at 10:04."
+   },
+   {
+    "q": "Who helps Marty get back to 1985?",
+    "options": [
+     "The 1955 version of Doc Brown",
+     "Biff",
+     "Jennifer"
+    ],
+    "answer": 0,
+    "why": "Marty finds the younger Doc, who works out how to send him home with the clock tower lightning."
+   },
+   {
+    "q": "Why does Lorraine look after Marty in 1955?",
+    "options": [
+     "Her father's car hits him and she feels responsible",
+     "He saves her from Biff",
+     "He is a friend of George"
+    ],
+    "answer": 0,
+    "why": "Lorraine's father knocks Marty down with his car, so she takes him home to recover."
+   },
+   {
+    "q": "How does George finally stand up to Biff?",
+    "options": [
+     "He punches him when Biff attacks Lorraine",
+     "He calls the police",
+     "He runs away"
+    ],
+    "answer": 0,
+    "why": "George finds Biff harassing Lorraine and knocks him out, which changes how everyone sees him."
    }
   ],
   "roleplay": {
@@ -7768,6 +11748,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b1.json",
+  "truefalse": [
+   {
+    "s": "Doc builds the time machine from a DeLorean car.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Biff bullies George and works for him in 1985.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Lorraine is a teenager in 1955.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Marty travels to 1955 after the clock tower is struck by lightning.",
+    "answer": false,
+    "fix": "He travels to 1955 by accident; the lightning at the clock tower is how he gets home."
+   },
+   {
+    "s": "Doc is shot by the terrorists and stays dead.",
+    "answer": false,
+    "fix": "He survives because he is wearing a bulletproof vest."
+   },
+   {
+    "s": "Marty plays the violin at the school dance.",
+    "answer": false,
+    "fix": "He plays the guitar at the dance."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Marty's trip to 1955 put his own existence at risk?",
+    "model": "He accidentally stops his parents from falling in love, so he might never be born. Everything he does in 1955 is really about getting them back together."
+   },
+   {
+    "q": "What does the film suggest about the future being what you make it?",
+    "model": "It shows that small choices, like George standing up to Biff, can change a whole life. The future is not fixed; people build it."
+   },
+   {
+    "q": "Would you have gone with Doc in the time machine? Why?",
+    "model": "I would be curious, but I would also be afraid of changing something important. I would probably go only if Doc explained the plan first."
+   },
+   {
+    "q": "Why does George's new confidence change the whole family's life?",
+    "model": "Once George believes in himself, he becomes successful and the family grows up richer and happier. His confidence changes what his children expect from life."
+   }
+  ],
   "poster": "assets/posters/back-to-the-future.jpg"
  },
  {
@@ -7887,6 +11917,36 @@ window.FILM_DATA = [
     "answer": "play",
     "hint": "take part in a game",
     "adapted": true
+   },
+   {
+    "line": "Football is my ___.",
+    "answer": "life",
+    "hint": "the thing that matters most",
+    "adapted": true
+   },
+   {
+    "line": "You have to follow your ___.",
+    "answer": "heart",
+    "hint": "what you truly feel",
+    "adapted": true
+   },
+   {
+    "line": "I don't want to ___ you.",
+    "answer": "disappoint",
+    "hint": "make someone unhappy by not doing what they hoped",
+    "adapted": true
+   },
+   {
+    "line": "It's not the end of the ___.",
+    "answer": "world",
+    "hint": "the planet; a phrase meaning 'not a disaster'",
+    "adapted": true
+   },
+   {
+    "line": "I want to play football for a ___.",
+    "answer": "living",
+    "hint": "to earn money from it",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -7919,6 +11979,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The coach asks the question the whole film is built on."
+   },
+   {
+    "quote": "It's my life.",
+    "options": [
+     "Jess",
+     "Joe",
+     "Pinky"
+    ],
+    "answer": 0,
+    "note": "Jess says it when her family tries to decide her future for her."
+   },
+   {
+    "quote": "I'm proud of you.",
+    "options": [
+     "Jess's father",
+     "Joe",
+     "Pinky"
+    ],
+    "answer": 0,
+    "note": "Her father says it after the final, when he finally accepts her football."
    }
   ],
   "quiz": [
@@ -7971,6 +12051,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He was a good sportsman who was stopped by racism, so he wants to protect her."
+   },
+   {
+    "q": "Why does Jess's father finally let her play in the final?",
+    "options": [
+     "He sees how much she loves the game and remembers his own dream",
+     "He needs her to win money",
+     "Joe asks him to"
+    ],
+    "answer": 0,
+    "why": "He recognises his daughter's talent and does not want her to give up what he once gave up."
+   },
+   {
+    "q": "What happens after the final match?",
+    "options": [
+     "Jess is offered a place at an American university",
+     "Jess gives up football",
+     "Her family moves to India"
+    ],
+    "answer": 0,
+    "why": "Her performance earns her a football scholarship in America."
+   },
+   {
+    "q": "Who is Tony?",
+    "options": [
+     "Jess's friend who pretends to be her boyfriend",
+     "Jess's coach",
+     "Pinky's husband"
+    ],
+    "answer": 0,
+    "why": "Tony helps Jess hide football from her family by acting as her boyfriend."
    }
   ],
   "roleplay": {
@@ -8019,6 +12129,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b1.json",
+  "truefalse": [
+   {
+    "s": "Jess is from a British-Indian family in London.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Jules is Jess's teammate and best friend.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Jess's sister Pinky is getting married.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Joe is the captain of the Indian cricket team.",
+    "answer": false,
+    "fix": "Joe is the coach of Jess's football team."
+   },
+   {
+    "s": "Jess's parents want her to become a professional footballer.",
+    "answer": false,
+    "fix": "They want her to study, cook and marry."
+   },
+   {
+    "s": "The team is called the London Lions.",
+    "answer": false,
+    "fix": "The team is called the Hounslow Harriers."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Jess hide football from her parents for so long?",
+    "model": "She knows they see football as a waste of time for a girl. She wants to keep playing without disappointing them."
+   },
+   {
+    "q": "What does the film suggest about balancing family and your own dream?",
+    "model": "It suggests that you do not have to choose completely. Jess finds a way to respect her family and still play, but only after she is honest with them."
+   },
+   {
+    "q": "Would you have told your parents the truth earlier? Why?",
+    "model": "Yes, because lying made everything harder and hurt them more in the end. I would rather argue honestly than live a double life."
+   },
+   {
+    "q": "Why does Joe's opinion of Jess change during the film?",
+    "model": "At first he sees her as a talented player, but later he sees her courage and loyalty. He understands what she risks to play."
+   }
+  ],
   "poster": "assets/posters/bend-it-like-beckham.jpg"
  },
  {
@@ -8137,6 +12297,36 @@ window.FILM_DATA = [
     "answer": "medical",
     "hint": "a school for future doctors",
     "adapted": true
+   },
+   {
+    "line": "O Captain! My ___!",
+    "answer": "Captain",
+    "hint": "the name Keating's students give him",
+    "adapted": false
+   },
+   {
+    "line": "I stand upon my ___ to remind myself that we must look at things differently.",
+    "answer": "desk",
+    "hint": "a table you write at",
+    "adapted": true
+   },
+   {
+    "line": "Boys, you must strive to find your own ___.",
+    "answer": "voice",
+    "hint": "the way you speak and think for yourself",
+    "adapted": true
+   },
+   {
+    "line": "Most men lead lives of quiet ___.",
+    "answer": "desperation",
+    "hint": "quiet unhappiness",
+    "adapted": true
+   },
+   {
+    "line": "There's a time for daring and a time for ___.",
+    "answer": "caution",
+    "hint": "being careful",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -8169,6 +12359,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Todd starts it at the end, and the whole class follows."
+   },
+   {
+    "quote": "Language was invented for one reason, boys: to woo women.",
+    "options": [
+     "Keating",
+     "Neil",
+     "Todd"
+    ],
+    "answer": 0,
+    "note": "Keating uses the joke to make poetry feel alive and human."
+   },
+   {
+    "quote": "I went to the woods because I wanted to live deliberately.",
+    "options": [
+     "Keating",
+     "Neil",
+     "Todd"
+    ],
+    "answer": 0,
+    "note": "Keating quotes Thoreau to show the boys how to live fully."
    }
   ],
   "quiz": [
@@ -8221,6 +12431,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He calls it a page of formulas and orders them to rip it out."
+   },
+   {
+    "q": "What does Neil's father want him to become?",
+    "options": [
+     "A doctor",
+     "An actor",
+     "A teacher"
+    ],
+    "answer": 0,
+    "why": "His father has planned a medical career for him and refuses to accept the theatre."
+   },
+   {
+    "q": "Why do the boys stand on their desks at the end?",
+    "options": [
+     "To show that they still support Keating",
+     "To clean the classroom",
+     "To hide from the headmaster"
+    ],
+    "answer": 0,
+    "why": "Keating taught them to stand up for what they believe, and the gesture is their silent answer."
+   },
+   {
+    "q": "Who is blamed for Neil's death and forced to leave the school?",
+    "options": [
+     "Keating",
+     "Todd",
+     "Charlie"
+    ],
+    "answer": 0,
+    "why": "The school and Neil's father blame Keating's teaching, and he loses his job."
    }
   ],
   "roleplay": {
@@ -8269,6 +12509,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b1.json",
+  "truefalse": [
+   {
+    "s": "Keating teaches English at Welton Academy.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Neil auditions for the school play without telling his father.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Todd is a shy new student at Welton.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Keating tells the boys to follow the school rules without question.",
+    "answer": false,
+    "fix": "He tells them to think for themselves and seize the day."
+   },
+   {
+    "s": "Neil's father supports his acting and comes to watch the play.",
+    "answer": false,
+    "fix": "His father forbids the play and plans to send him to military school."
+   },
+   {
+    "s": "Charlie is expelled for standing on his desk.",
+    "answer": false,
+    "fix": "Charlie is expelled after his article and for refusing to sign the confession."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Neil hide the play from his father?",
+    "model": "He knows his father will forbid it and force him back onto the medical path. Hiding it is the only way he can do something he loves."
+   },
+   {
+    "q": "What does Keating mean when he tells the boys to 'seize the day'?",
+    "model": "He means they should not wait for permission to live fully. They should use the time they have and make their lives matter."
+   },
+   {
+    "q": "Would you have signed the confession? Why?",
+    "model": "I would find it very hard, because signing would mean betraying Keating. But I would also be afraid of being expelled, so I understand why the boys hesitate."
+   },
+   {
+    "q": "What does the ending suggest about whether Keating's lessons worked?",
+    "model": "Todd stands on his desk and calls him 'Captain', so the lessons clearly worked. Keating leaves, but the boys have learned to speak for themselves."
+   }
+  ],
   "poster": "assets/posters/dead-poets.jpg"
  },
  {
@@ -8388,6 +12678,36 @@ window.FILM_DATA = [
     "answer": "half",
     "hint": "not a whole number",
     "adapted": true
+   },
+   {
+    "line": "Jenny and me was like peas and ___.",
+    "answer": "carrots",
+    "hint": "a long orange vegetable; the two go together",
+    "adapted": true
+   },
+   {
+    "line": "That's all I have to say about ___.",
+    "answer": "that",
+    "hint": "the thing we were just talking about",
+    "adapted": false
+   },
+   {
+    "line": "Lieutenant Dan got me invested in some kind of ___ company.",
+    "answer": "fruit",
+    "hint": "apples and oranges belong to this group",
+    "adapted": true
+   },
+   {
+    "line": "Mama said they was my magic ___.",
+    "answer": "shoes",
+    "hint": "you wear them on your feet",
+    "adapted": true
+   },
+   {
+    "line": "I'm pretty tired. I think I'll go home ___.",
+    "answer": "now",
+    "hint": "at this moment",
+    "adapted": false
    }
   ],
   "quotes": [
@@ -8420,6 +12740,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Jenny throws stones at her old house; the line is about a childhood she cannot undo."
+   },
+   {
+    "quote": "Lieutenant Dan, you got new legs.",
+    "options": [
+     "Forrest",
+     "Lieutenant Dan",
+     "Bubba"
+    ],
+    "answer": 0,
+    "note": "Forrest says it without thinking when Dan arrives with metal legs."
+   },
+   {
+    "quote": "Dear God, make me a bird, so I can fly far, far away.",
+    "options": [
+     "Jenny",
+     "Forrest",
+     "Mrs Gump"
+    ],
+    "answer": 0,
+    "note": "Young Jenny prays it when her father is cruel to her."
    }
   ],
   "quiz": [
@@ -8472,6 +12812,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "One day he starts running and does not stop for three and a half years."
+   },
+   {
+    "q": "What does Forrest learn to do in the army hospital?",
+    "options": [
+     "Play ping-pong",
+     "Play the guitar",
+     "Speak French"
+    ],
+    "answer": 0,
+    "why": "He is shot in the buttocks, recovers in hospital, and becomes a ping-pong star."
+   },
+   {
+    "q": "Why does Forrest start running across America?",
+    "options": [
+     "He feels like running after Jenny leaves",
+     "He is training for a race",
+     "He wants to visit every state"
+    ],
+    "answer": 0,
+    "why": "He says he just felt like running, and he keeps going for more than three years."
+   },
+   {
+    "q": "What does Forrest give to Bubba's family?",
+    "options": [
+     "Money from the shrimp business",
+     "Bubba's old guitar",
+     "A letter from the army"
+    ],
+    "answer": 0,
+    "why": "Bubba's share of the shrimp money goes to his family after the war."
    }
   ],
   "roleplay": {
@@ -8520,6 +12890,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b1.json",
+  "truefalse": [
+   {
+    "s": "Forrest grows up in Greenbow, Alabama.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Bubba dies in the war in Vietnam.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Forrest and Bubba meet in the army and plan a shrimp business together.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Forrest grows up in Savannah, Georgia.",
+    "answer": false,
+    "fix": "He grows up in Greenbow, Alabama; Savannah is where he tells his story."
+   },
+   {
+    "s": "Lieutenant Dan dies in the hurricane on the shrimp boat.",
+    "answer": false,
+    "fix": "He survives the storm and later gets new legs."
+   },
+   {
+    "s": "Jenny marries Lieutenant Dan before she dies.",
+    "answer": false,
+    "fix": "Jenny marries Forrest, and their son is called Forrest Jr."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Forrest keep waiting for Jenny all those years?",
+    "model": "He loves her and keeps his promise to look after her, even when she stays away. Waiting is simply how he shows that love."
+   },
+   {
+    "q": "What does the ending suggest when the feather rises into the sky?",
+    "model": "It suggests that life goes on and that Forrest will keep going too. The feather is free, like him."
+   },
+   {
+    "q": "Would you have run across America like Forrest? Why?",
+    "model": "Probably not, because I need a reason and a plan. But I admire that he runs simply because he feels like it."
+   },
+   {
+    "q": "Why does Lieutenant Dan find it so hard to thank Forrest?",
+    "model": "Forrest saved his life, but Dan believed he was meant to die in the war. Thanking Forrest means accepting a life he did not choose."
+   }
+  ],
   "poster": "assets/posters/forrest-gump.jpg"
  },
  {
@@ -8641,6 +13061,36 @@ window.FILM_DATA = [
     "answer": "tell",
     "hint": "say to someone",
     "adapted": false
+   },
+   {
+    "line": "I'm not going to ___ him.",
+    "answer": "marry",
+    "hint": "become someone's husband or wife",
+    "adapted": true
+   },
+   {
+    "line": "I've never had a ___.",
+    "answer": "job",
+    "hint": "work you are paid for",
+    "adapted": true
+   },
+   {
+    "line": "I need a ___.",
+    "answer": "plan",
+    "hint": "an idea about what to do next",
+    "adapted": true
+   },
+   {
+    "line": "I'm going to make it on my ___.",
+    "answer": "own",
+    "hint": "without help",
+    "adapted": true
+   },
+   {
+    "line": "I'm not going back to ___.",
+    "answer": "Barry",
+    "hint": "the man she was going to marry",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -8673,6 +13123,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Rachel's image for the life other people planned for her."
+   },
+   {
+    "quote": "I left him at the altar.",
+    "options": [
+     "Rachel",
+     "Monica",
+     "Phoebe"
+    ],
+    "answer": 0,
+    "note": "Rachel explains why she arrived in a wedding dress."
+   },
+   {
+    "quote": "I'm an actor.",
+    "options": [
+     "Joey",
+     "Chandler",
+     "Ross"
+    ],
+    "answer": 0,
+    "note": "Joey's proud answer whenever anyone asks what he does."
    }
   ],
   "quiz": [
@@ -8725,6 +13195,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "She takes the room, and the friends welcome her to her new life."
+   },
+   {
+    "q": "Who is Barry?",
+    "options": [
+     "The man Rachel was going to marry",
+     "Monica's brother",
+     "A waiter at Central Perk"
+    ],
+    "answer": 0,
+    "why": "Barry is Rachel's fiancé, and she leaves him at the wedding."
+   },
+   {
+    "q": "Why does Ross look unhappy at the start?",
+    "options": [
+     "His wife has left him",
+     "He has lost his job",
+     "He cannot find a date"
+    ],
+    "answer": 0,
+    "why": "His wife Carol has left him, and he is still hurt by it."
+   },
+   {
+    "q": "Why does Rachel decide to stay with Monica?",
+    "options": [
+     "She wants to start a new life and has nowhere else to go",
+     "She cannot afford a hotel",
+     "Monica asks her to clean the flat"
+    ],
+    "answer": 0,
+    "why": "She has just run away from her wedding and needs a place to begin again."
    }
   ],
   "roleplay": {
@@ -8772,7 +13272,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "wave2-s1.json"
+  "_src": "wave2-s1.json",
+  "truefalse": [
+   {
+    "s": "Rachel arrives at Central Perk in a wedding dress.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Monica and Rachel were friends at school.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Ross is Monica's brother.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Rachel marries Barry at the end of the episode.",
+    "answer": false,
+    "fix": "She leaves Barry and stays with Monica."
+   },
+   {
+    "s": "Phoebe is Monica's roommate at the start.",
+    "answer": false,
+    "fix": "Monica lives alone until Rachel moves in."
+   },
+   {
+    "s": "Chandler is a chef.",
+    "answer": false,
+    "fix": "Monica is the chef; Chandler has an office job."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Rachel leave the wedding instead of telling Barry?",
+    "model": "She realises in the ceremony that she does not want the life everyone planned for her. Running away is easier than explaining that to Barry and her family."
+   },
+   {
+    "q": "What does the episode suggest about starting over?",
+    "model": "It is frightening and messy, but friends can make it possible. Rachel has no plan, only courage and a place to stay."
+   },
+   {
+    "q": "Would you have let Rachel stay? Why?",
+    "model": "Yes, because she had nowhere else to go and clearly needed help. It would be hard, but friendship means making room."
+   },
+   {
+    "q": "Why does Ross not tell Rachel how he feels?",
+    "model": "He is afraid of being hurt again after his marriage ended. He would rather hide his feelings than risk losing her friendship."
+   }
+  ]
  },
  {
   "id": "groundhog-day",
@@ -8890,6 +13440,36 @@ window.FILM_DATA = [
     "answer": "here",
     "hint": "this place",
     "adapted": true
+   },
+   {
+    "line": "It's cold out there today. It's cold out there every ___.",
+    "answer": "day",
+    "hint": "24 hours",
+    "adapted": true
+   },
+   {
+    "line": "It's the same ___ every day.",
+    "answer": "thing",
+    "hint": "the situation never changes",
+    "adapted": true
+   },
+   {
+    "line": "I am not going to live by their ___ anymore.",
+    "answer": "rules",
+    "hint": "what people say you must do",
+    "adapted": false
+   },
+   {
+    "line": "Sometimes I wish I had a thousand ___.",
+    "answer": "lifetimes",
+    "hint": "whole lives",
+    "adapted": true
+   },
+   {
+    "line": "I have been stabbed, shot, poisoned, frozen and ___.",
+    "answer": "burned",
+    "hint": "hurt by fire",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -8922,6 +13502,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "He has stopped panicking and started thinking."
+   },
+   {
+    "quote": "I'm a god. I'm not the God, I don't think.",
+    "options": [
+     "Phil",
+     "Rita",
+     "Ned"
+    ],
+    "answer": 0,
+    "note": "Phil says it after hundreds of repeats, when the day has made him feel all-powerful."
+   },
+   {
+    "quote": "It's Groundhog Day.",
+    "options": [
+     "Rita",
+     "Phil",
+     "Ned"
+    ],
+    "answer": 1,
+    "note": "Phil says it flatly when he realises the same day has started again."
    }
   ],
   "quiz": [
@@ -8974,6 +13574,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Punxsutawney Phil the groundhog is supposed to predict the end of winter."
+   },
+   {
+    "q": "Where does Phil travel to report on Groundhog Day?",
+    "options": [
+     "Punxsutawney",
+     "Pittsburgh",
+     "Buffalo"
+    ],
+    "answer": 0,
+    "why": "He leaves Pittsburgh for the small town of Punxsutawney, where the groundhog ceremony happens."
+   },
+   {
+    "q": "Why does Phil start taking crazy risks at first?",
+    "options": [
+     "He believes nothing he does has consequences",
+     "He wants to impress Rita",
+     "He is ordered to by his boss"
+    ],
+    "answer": 0,
+    "why": "He realises the day resets, so he drives dangerously and breaks rules without fear."
+   },
+   {
+    "q": "How does Phil finally escape the loop?",
+    "options": [
+     "He becomes a better person and the next morning arrives",
+     "He drives out of town",
+     "Rita tells him the secret"
+    ],
+    "answer": 0,
+    "why": "He stops chasing what he wants and starts helping people, and only then does tomorrow finally come."
    }
   ],
   "roleplay": {
@@ -9022,6 +13652,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b1.json",
+  "truefalse": [
+   {
+    "s": "Phil is a TV weatherman from Pittsburgh.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Phil travels to Punxsutawney for the Groundhog Day report.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Rita is Phil's producer.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Phil wakes up to the sound of a rooster every morning.",
+    "answer": false,
+    "fix": "He wakes up to the song 'I Got You Babe' on the radio."
+   },
+   {
+    "s": "Phil learns to play the violin.",
+    "answer": false,
+    "fix": "He learns to play the piano."
+   },
+   {
+    "s": "Ned Ryerson is the mayor of Punxsutawney.",
+    "answer": false,
+    "fix": "Ned is an old school friend of Phil's who works in insurance."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Phil stop trying to escape the day?",
+    "model": "He tries everything and nothing works, so he finally accepts the situation. Once he stops fighting it, he starts using the time to help people."
+   },
+   {
+    "q": "What does the film suggest about whether a person can really change?",
+    "model": "It suggests that change is possible, but it takes time and repetition. Phil becomes kinder through practice, not through one big decision."
+   },
+   {
+    "q": "Would you have told Rita the truth about the loop? Why?",
+    "model": "Yes, because keeping it secret made Phil lonely and strange. Telling her is the first honest thing he does."
+   },
+   {
+    "q": "Why does Rita fall for Phil only after he stops pretending?",
+    "model": "Before, he was trying to impress her with tricks and lies. When he becomes genuinely kind, she can finally trust him."
+   }
+  ],
   "poster": "assets/posters/groundhog-day.jpg"
  },
  {
@@ -9143,6 +13823,36 @@ window.FILM_DATA = [
     "answer": "different",
     "hint": "not the same",
     "adapted": true
+   },
+   {
+    "line": "I'm a real ___ agent.",
+    "answer": "estate",
+    "hint": "property; Phil sells houses",
+    "adapted": true
+   },
+   {
+    "line": "This is my partner, ___.",
+    "answer": "Cameron",
+    "hint": "Mitchell's husband",
+    "adapted": true
+   },
+   {
+    "line": "Our daughter Lily is from ___.",
+    "answer": "Vietnam",
+    "hint": "a country in Southeast Asia",
+    "adapted": false
+   },
+   {
+    "line": "I'm going to be a ___.",
+    "answer": "father",
+    "hint": "a dad",
+    "adapted": true
+   },
+   {
+    "line": "I'm the ___.",
+    "answer": "mom",
+    "hint": "Claire's role in the family",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -9175,6 +13885,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Paraphrased — Mitchell's worry in this episode is that he is not ready to be a father."
+   },
+   {
+    "quote": "I'm a lawyer.",
+    "options": [
+     "Mitchell",
+     "Phil",
+     "Jay"
+    ],
+    "answer": 0,
+    "note": "Mitchell introduces himself by his job, which tells us how serious he is."
+   },
+   {
+    "quote": "I'm from Colombia.",
+    "options": [
+     "Claire",
+     "Gloria",
+     "Mitchell"
+    ],
+    "answer": 1,
+    "note": "Gloria says it proudly, and it explains part of the family's culture."
    }
   ],
   "quiz": [
@@ -9227,6 +13957,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The dinner is where the three families finally sit together."
+   },
+   {
+    "q": "Why does Mitchell feel nervous about becoming a father?",
+    "options": [
+     "He is afraid he will not be good at it",
+     "He does not like children",
+     "He wants to move away"
+    ],
+    "answer": 0,
+    "why": "He worries that he has no idea how to be a parent, even though he wants the baby."
+   },
+   {
+    "q": "Who is Lily?",
+    "options": [
+     "Mitchell and Cameron's adopted daughter",
+     "Jay's new wife",
+     "Claire's baby"
+    ],
+    "answer": 0,
+    "why": "Lily is the baby girl Mitchell and Cameron adopt from Vietnam."
+   },
+   {
+    "q": "Why does Manny live with Jay?",
+    "options": [
+     "His mother Gloria has married Jay",
+     "He is Jay's nephew",
+     "He is a neighbour"
+    ],
+    "answer": 0,
+    "why": "Gloria and Manny move into Jay's house after Jay and Gloria marry."
    }
   ],
   "roleplay": {
@@ -9274,7 +14034,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "wave2-s1.json"
+  "_src": "wave2-s1.json",
+  "truefalse": [
+   {
+    "s": "Jay is Claire and Mitchell's father.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Gloria is from Colombia.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Mitchell and Cameron adopt a baby girl called Lily.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Phil is Jay's son.",
+    "answer": false,
+    "fix": "Phil is married to Claire, Jay's daughter."
+   },
+   {
+    "s": "Manny is Gloria's grandson.",
+    "answer": false,
+    "fix": "Manny is Gloria's son."
+   },
+   {
+    "s": "The three families live in the same house.",
+    "answer": false,
+    "fix": "They live in different houses and meet for dinner."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Phil try so hard to be a 'cool dad'?",
+    "model": "He wants his children to like him more than they respect him. He is also a little insecure about being the fun parent."
+   },
+   {
+    "q": "What does the episode suggest about how different families can still be close?",
+    "model": "It suggests that love and effort matter more than tradition. The three families are very different, but they keep showing up for each other."
+   },
+   {
+    "q": "Would you want a camera crew following your family? Why?",
+    "model": "No, because we would start performing for the camera instead of being ourselves. Some family moments should stay private."
+   },
+   {
+    "q": "Why does Jay find it difficult to accept Manny at first?",
+    "model": "He is not used to being a stepfather, and Manny is strange and very direct. Jay needs time to see that Manny is part of his new family."
+   }
+  ]
  },
  {
   "id": "notting-hill",
@@ -9392,6 +14202,36 @@ window.FILM_DATA = [
     "answer": "goat",
     "hint": "a farm animal with horns",
     "adapted": false
+   },
+   {
+    "line": "We met by ___ in my bookshop.",
+    "answer": "chance",
+    "hint": "not planned",
+    "adapted": true
+   },
+   {
+    "line": "I didn't spill the juice on ___.",
+    "answer": "purpose",
+    "hint": "not by accident",
+    "adapted": true
+   },
+   {
+    "line": "I think we should just be ___.",
+    "answer": "friends",
+    "hint": "not lovers",
+    "adapted": true
+   },
+   {
+    "line": "I've never seen a film star in ___ before.",
+    "answer": "person",
+    "hint": "face to face, not on a screen",
+    "adapted": true
+   },
+   {
+    "line": "In the ___, she comes back to the shop.",
+    "answer": "end",
+    "hint": "finally",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -9424,6 +14264,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The whole problem of the film in two short sentences."
+   },
+   {
+    "quote": "Surreal, but nice.",
+    "options": [
+     "Anna",
+     "William",
+     "Spike"
+    ],
+    "answer": 1,
+    "note": "William's quiet summary of a very strange and very happy moment."
+   },
+   {
+    "quote": "I'm leaving tomorrow.",
+    "options": [
+     "Anna",
+     "William",
+     "Honey"
+    ],
+    "answer": 0,
+    "note": "Anna says it at the press conference, before she changes her mind."
    }
   ],
   "quiz": [
@@ -9476,6 +14336,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "They tell their saddest story to win the last brownie."
+   },
+   {
+    "q": "Why does William think a relationship with Anna is impossible?",
+    "options": [
+     "Their lives are too different",
+     "She is married",
+     "He is moving abroad"
+    ],
+    "answer": 0,
+    "why": "He is a quiet bookseller and she is a famous actress with a very public life."
+   },
+   {
+    "q": "What do Anna and William do in the private garden?",
+    "options": [
+     "They climb over a wall and sit on a bench",
+     "They have a picnic",
+     "They get married"
+    ],
+    "answer": 0,
+    "why": "They sneak into a neighbour's garden at night and talk on a bench."
+   },
+   {
+    "q": "How does Anna return to William at the end?",
+    "options": [
+     "She comes to his bookshop and says she is staying",
+     "She sends him a letter",
+     "She calls him from America"
+    ],
+    "answer": 0,
+    "why": "She appears in the shop, and they finally admit how they feel."
    }
   ],
   "roleplay": {
@@ -9524,6 +14414,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b1.json",
+  "truefalse": [
+   {
+    "s": "William runs a bookshop in Notting Hill.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Anna is a famous American film star.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Spike is William's flatmate.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Anna spills orange juice on William.",
+    "answer": false,
+    "fix": "William spills orange juice on Anna."
+   },
+   {
+    "s": "William and Anna meet for the first time at a birthday party.",
+    "answer": false,
+    "fix": "They meet in William's bookshop; the dinner party comes later."
+   },
+   {
+    "s": "William lives in Beverly Hills.",
+    "answer": false,
+    "fix": "William lives in Notting Hill; Anna lives in Beverly Hills."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does William keep saying that he and Anna are from different worlds?",
+    "model": "He is afraid that her fame and his ordinary life cannot fit together. Saying it protects him from hoping for something that might hurt him."
+   },
+   {
+    "q": "What does the film suggest about whether fame makes love easier or harder?",
+    "model": "It makes love harder, because Anna's life is public and full of people with opinions. William has to decide whether he can live with that."
+   },
+   {
+    "q": "Would you have gone to the press conference? Why?",
+    "model": "Yes, because it would be my last chance to tell her the truth. Staying at home would only guarantee that I lost her."
+   },
+   {
+    "q": "Why does Anna come back to the bookshop at the end?",
+    "model": "She chooses an ordinary life with William over the safe, glamorous life she had planned. The bookshop is where their real story began."
+   }
+  ],
   "poster": "assets/posters/notting-hill.jpg"
  },
  {
@@ -9645,6 +14585,36 @@ window.FILM_DATA = [
     "answer": "declined",
     "hint": "become less",
     "adapted": true
+   },
+   {
+    "line": "The ocean is the largest ___ on Earth.",
+    "answer": "habitat",
+    "hint": "the natural home of a plant or animal",
+    "adapted": true
+   },
+   {
+    "line": "We are the first generation to know we are ___ the planet.",
+    "answer": "destroying",
+    "hint": "damaging completely",
+    "adapted": true
+   },
+   {
+    "line": "We need to live in ___ with nature.",
+    "answer": "harmony",
+    "hint": "peace and balance",
+    "adapted": true
+   },
+   {
+    "line": "Nature is not a place to visit. It is our ___.",
+    "answer": "home",
+    "hint": "where we live",
+    "adapted": true
+   },
+   {
+    "line": "This is a story of ___.",
+    "answer": "hope",
+    "hint": "believing things can get better",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -9677,6 +14647,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Paraphrased — the note of hope that closes the episode."
+   },
+   {
+    "quote": "This is the only home we have.",
+    "options": [
+     "David Attenborough",
+     "A scientist",
+     "A farmer"
+    ],
+    "answer": 0,
+    "note": "The narrator says it to remind viewers that there is no second planet."
+   },
+   {
+    "quote": "There is still time.",
+    "options": [
+     "A scientist",
+     "David Attenborough",
+     "A farmer"
+    ],
+    "answer": 1,
+    "note": "It is the episode's final note of hope."
    }
   ],
   "quiz": [
@@ -9729,6 +14719,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The warning and the hope at the end both point to the same job."
+   },
+   {
+    "q": "Which place does the episode show with a great animal migration?",
+    "options": [
+     "The Serengeti",
+     "The Sahara",
+     "The Amazon"
+    ],
+    "answer": 0,
+    "why": "The episode follows the huge herds of the Serengeti and the animals that hunt them."
+   },
+   {
+    "q": "By how much does the episode say wildlife has fallen in fifty years?",
+    "options": [
+     "60%",
+     "10%",
+     "90%"
+    ],
+    "answer": 0,
+    "why": "It reports that wild animal populations have fallen by around sixty per cent."
+   },
+   {
+    "q": "Why does the episode end with a message of hope?",
+    "options": [
+     "It says we can still fix the damage",
+     "It says the planet is already saved",
+     "It says animals do not need help"
+    ],
+    "answer": 0,
+    "why": "The final message is that the future is not decided yet and people can still act."
    }
   ],
   "roleplay": {
@@ -9776,7 +14796,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "wave2-s1.json"
+  "_src": "wave2-s1.json",
+  "truefalse": [
+   {
+    "s": "The episode is narrated by David Attenborough.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The episode shows animals and places from different parts of the world.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The episode says that everything in nature is connected.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The episode says wildlife has grown in the last fifty years.",
+    "answer": false,
+    "fix": "It says wildlife has declined sharply in the last fifty years."
+   },
+   {
+    "s": "The episode is set only in Africa.",
+    "answer": false,
+    "fix": "It travels to many continents and oceans."
+   },
+   {
+    "s": "The episode says humans cannot change the planet.",
+    "answer": false,
+    "fix": "It says humans have the power to change the planet, for good or bad."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does the episode show the same message in different places?",
+    "model": "It wants to show that the same problems affect very different habitats. That makes the damage feel global rather than distant."
+   },
+   {
+    "q": "What does the ending suggest about the future?",
+    "model": "It suggests that the future is still open, but only if people act soon. The film ends with hope, not with a promise."
+   },
+   {
+    "q": "Would you change anything in your life after watching? Why?",
+    "model": "I would try to waste less and buy fewer things I do not need. The programme makes it clear that small habits add up."
+   },
+   {
+    "q": "Why does Attenborough say the natural world is our greatest ally?",
+    "model": "Because healthy nature gives us clean air, water and food. Protecting it is also protecting ourselves."
+   }
+  ]
  },
  {
   "id": "plan-9-from-outer-space",
@@ -9900,6 +14970,36 @@ window.FILM_DATA = [
     "answer": "universe",
     "hint": "everything that exists",
     "adapted": true
+   },
+   {
+    "line": "I'm not ___, I tell you.",
+    "answer": "crazy",
+    "hint": "mad",
+    "adapted": true
+   },
+   {
+    "line": "The saucer has ___.",
+    "answer": "landed",
+    "hint": "come down to Earth",
+    "adapted": true
+   },
+   {
+    "line": "The Earth is in ___.",
+    "answer": "danger",
+    "hint": "not safe",
+    "adapted": true
+   },
+   {
+    "line": "This is only the ___.",
+    "answer": "beginning",
+    "hint": "the start, not the end",
+    "adapted": true
+   },
+   {
+    "line": "It's too ___.",
+    "answer": "late",
+    "hint": "there is no time left",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -9932,6 +15032,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The alien's threat, delivered with complete calm."
+   },
+   {
+    "quote": "There's no proof.",
+    "options": [
+     "The police inspector",
+     "Criswell",
+     "Eros"
+    ],
+    "answer": 0,
+    "note": "The police dismiss the witnesses because they have no evidence."
+   },
+   {
+    "quote": "We have no choice.",
+    "options": [
+     "Eros",
+     "Criswell",
+     "Inspector Clay"
+    ],
+    "answer": 0,
+    "note": "Eros says it to justify the aliens' plan to the people of Earth."
    }
   ],
   "quiz": [
@@ -9984,6 +15104,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The saucer departs and the resurrected bodies collapse."
+   },
+   {
+    "q": "Why do the aliens resurrect the dead?",
+    "options": [
+     "To frighten humanity into listening to them",
+     "To build an army of workers",
+     "To bring back their own families"
+    ],
+    "answer": 0,
+    "why": "Their plan is to make people so afraid that they will stop destroying the universe."
+   },
+   {
+    "q": "Who leads the aliens?",
+    "options": [
+     "Eros",
+     "Criswell",
+     "Inspector Clay"
+    ],
+    "answer": 0,
+    "why": "Eros gives the orders and explains the aliens' plan to the humans."
+   },
+   {
+    "q": "What happens to Inspector Clay?",
+    "options": [
+     "He is killed and comes back as a zombie",
+     "He flies the saucer",
+     "He leaves the police"
+    ],
+    "answer": 0,
+    "why": "The aliens kill him in the cemetery, and he later returns as one of the walking dead."
    }
   ],
   "roleplay": {
@@ -10032,6 +15182,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "open.json",
+  "truefalse": [
+   {
+    "s": "Criswell narrates the film.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The aliens' plan involves raising the dead.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The film is in black and white.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The film is set in New York City.",
+    "answer": false,
+    "fix": "It is set in California, around a cemetery and a nearby house."
+   },
+   {
+    "s": "Eros is a police officer.",
+    "answer": false,
+    "fix": "Eros is the leader of the aliens."
+   },
+   {
+    "s": "The aliens succeed in taking over the world.",
+    "answer": false,
+    "fix": "Their plan fails, and the dead fall down again at the end."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why do the aliens think humans are dangerous?",
+    "model": "They believe humans will keep building weapons until they destroy the whole universe. They see their plan as a warning, not an attack."
+   },
+   {
+    "q": "What makes Plan 9 a famous 'bad' film?",
+    "model": "The sets shake, the acting is flat, and the story makes little sense. People enjoy it because it is so strange and earnest."
+   },
+   {
+    "q": "Would you have believed the witnesses? Why?",
+    "model": "I would probably not believe them at first, because their story sounds impossible. But I would want to see the cemetery for myself."
+   },
+   {
+    "q": "What does the ending suggest about the future?",
+    "model": "It suggests that the danger is never completely over, because the aliens may come back. The narrator also warns that the future belongs to the audience."
+   }
+  ],
   "poster": "assets/posters/plan-9-from-outer-space.jpg"
  },
  {
@@ -10150,6 +15350,36 @@ window.FILM_DATA = [
     "answer": "rocking",
     "hint": "playing rock music",
     "adapted": true
+   },
+   {
+    "line": "That's the ___!",
+    "answer": "spirit",
+    "hint": "the right attitude",
+    "adapted": true
+   },
+   {
+    "line": "We need a ___ for the band.",
+    "answer": "name",
+    "hint": "what people call you",
+    "adapted": true
+   },
+   {
+    "line": "Let's get ___.",
+    "answer": "started",
+    "hint": "begin",
+    "adapted": true
+   },
+   {
+    "line": "You're in the ___.",
+    "answer": "band",
+    "hint": "the group that plays music",
+    "adapted": true
+   },
+   {
+    "line": "You have to feel the ___.",
+    "answer": "beat",
+    "hint": "the rhythm",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -10182,6 +15412,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Freddy says it outside Dewey's flat, and it is the reason the band turns up."
+   },
+   {
+    "quote": "I'm a rock star.",
+    "options": [
+     "Dewey",
+     "Ned",
+     "Rosalie"
+    ],
+    "answer": 0,
+    "note": "Dewey's answer to almost everything, and the lie he needs to believe himself."
+   },
+   {
+    "quote": "I'm the manager.",
+    "options": [
+     "Summer",
+     "Zack",
+     "Dewey"
+    ],
+    "answer": 0,
+    "note": "Summer takes the job seriously and refuses to be left out."
    }
   ],
   "quiz": [
@@ -10234,6 +15484,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "She is proud of the school's exam results and afraid of anything else."
+   },
+   {
+    "q": "Why does Dewey pretend to be Ned Schneebly?",
+    "options": [
+     "He needs a job and uses his friend's name",
+     "He wants to teach music",
+     "Ned asks him to"
+    ],
+    "answer": 0,
+    "why": "He has no money and takes the teaching job by pretending to be his flatmate."
+   },
+   {
+    "q": "What happens when Rosalie visits the classroom during band practice?",
+    "options": [
+     "The children hide the instruments and pretend to study",
+     "They play her a song",
+     "She joins the band"
+    ],
+    "answer": 0,
+    "why": "They quickly hide what they are doing so the headmistress does not discover the plan."
+   },
+   {
+    "q": "Why do the children keep the band a secret?",
+    "options": [
+     "They want to play at the Battle of the Bands",
+     "They are afraid of Dewey",
+     "They want to miss lessons"
+    ],
+    "answer": 0,
+    "why": "They know the school would stop them, and they want their one chance on stage."
    }
   ],
   "roleplay": {
@@ -10282,6 +15562,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b1.json",
+  "truefalse": [
+   {
+    "s": "Dewey is kicked out of his band at the start.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Dewey pretends to be Ned Schneebly to get a teaching job.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Zack plays electric guitar in the class band.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Dewey is a real music teacher at the school.",
+    "answer": false,
+    "fix": "He is a fake substitute teacher who is not qualified."
+   },
+   {
+    "s": "Rosalie Mullins is the school's music teacher.",
+    "answer": false,
+    "fix": "She is the headmistress of the school."
+   },
+   {
+    "s": "The children come from a poor state school.",
+    "answer": false,
+    "fix": "They come from a private school."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Dewey care more about the band than about the school rules?",
+    "model": "Music is the one place where he feels successful and free. The rules feel small compared with the chance to make something real."
+   },
+   {
+    "q": "What does the film suggest about learning through something you love?",
+    "model": "The children work harder for the band than they ever did for tests. When learning feels like play, they discover what they can really do."
+   },
+   {
+    "q": "Would you have joined Dewey's band? Why?",
+    "model": "Yes, because it would be exciting to make something with other people. I would worry about getting in trouble, but the fun would win."
+   },
+   {
+    "q": "Why do the children respect Dewey by the end, even though he lied to them?",
+    "model": "He lied about who he was, but he kept his promise to give them a real show. They respect what he did for them, not his name."
+   }
+  ],
   "poster": "assets/posters/school-of-rock.jpg"
  },
  {
@@ -10400,6 +15730,36 @@ window.FILM_DATA = [
     "answer": "pace",
     "hint": "speed",
     "adapted": false
+   },
+   {
+    "line": "Florals? For ___? Groundbreaking.",
+    "answer": "spring",
+    "hint": "the season after winter",
+    "adapted": false
+   },
+   {
+    "line": "Everybody wants this. Everybody wants to be ___.",
+    "answer": "us",
+    "hint": "Miranda and her world",
+    "adapted": false
+   },
+   {
+    "line": "You're not trying. You're ___.",
+    "answer": "whining",
+    "hint": "complaining in a childish way",
+    "adapted": true
+   },
+   {
+    "line": "Get me the ___.",
+    "answer": "manuscript",
+    "hint": "a book before it is published",
+    "adapted": true
+   },
+   {
+    "line": "You sold your soul to the ___.",
+    "answer": "devil",
+    "hint": "the evil one in the title",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -10432,6 +15792,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The blue sweater speech: Andy learns she is inside the system, not above it."
+   },
+   {
+    "quote": "Everybody wants this. Everybody wants to be us.",
+    "options": [
+     "Miranda",
+     "Andy",
+     "Nigel"
+    ],
+    "answer": 0,
+    "note": "Miranda says it to Andy in Paris, and it explains why she never apologises."
+   },
+   {
+    "quote": "Fashion is not about utility.",
+    "options": [
+     "Miranda",
+     "Nigel",
+     "Emily"
+    ],
+    "answer": 1,
+    "note": "Nigel says it when he explains why the blue sweater matters."
    }
   ],
   "quiz": [
@@ -10484,6 +15864,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "She throws the phone away when Miranda calls, and walks off."
+   },
+   {
+    "q": "What does Andy hope to become before she takes the fashion job?",
+    "options": [
+     "A journalist",
+     "A fashion designer",
+     "A lawyer"
+    ],
+    "answer": 0,
+    "why": "She wants to write, and she takes the magazine job as a stepping stone."
+   },
+   {
+    "q": "Why does Andy throw her phone into the fountain?",
+    "options": [
+     "She is fed up with Miranda calling her at all hours",
+     "She has bought a new phone",
+     "She wants to call her boyfriend"
+    ],
+    "answer": 0,
+    "why": "Miranda's constant demands finally push her too far, and the phone becomes a symbol of that life."
+   },
+   {
+    "q": "What does Miranda ask Andy to bring before it is published?",
+    "options": [
+     "The new Harry Potter manuscript",
+     "A pair of shoes",
+     "A cup of coffee"
+    ],
+    "answer": 0,
+    "why": "Miranda wants the unpublished book for her twins, and Andy has to find it."
    }
   ],
   "roleplay": {
@@ -10532,6 +15942,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b1.json",
+  "truefalse": [
+   {
+    "s": "Andy gets a job as Miranda's junior assistant.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The magazine is called Runway.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Nigel helps Andy with her makeover.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Andy goes to London Fashion Week with Miranda.",
+    "answer": false,
+    "fix": "She goes to Paris Fashion Week with Miranda."
+   },
+   {
+    "s": "Miranda is kind and patient with her assistants.",
+    "answer": false,
+    "fix": "She is demanding and often cold."
+   },
+   {
+    "s": "Andy decides to stay in Paris and become Miranda's favourite.",
+    "answer": false,
+    "fix": "She walks away from Miranda and leaves the job."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Andy find it hard to leave Miranda's job even when it hurts her?",
+    "model": "The job makes her feel chosen and capable, and she wants to prove she can survive it. Leaving would feel like admitting that Miranda won."
+   },
+   {
+    "q": "What does the film suggest about success and friendship?",
+    "model": "It suggests that success is empty if you lose the people who knew you before. Andy only feels free when she chooses her own values over Miranda's approval."
+   },
+   {
+    "q": "Would you have taken the job with Miranda? Why?",
+    "model": "I would probably take it for the experience, but I would set a limit on how long I stayed. Nobody should lose themselves for a job."
+   },
+   {
+    "q": "Why does Miranda say that everybody wants to be 'us'?",
+    "model": "She believes that power and beauty are what everyone secretly wants. It is also her way of justifying how badly she treats people."
+   }
+  ],
   "poster": "assets/posters/devil-wears-prada.jpg"
  },
  {
@@ -10650,6 +16110,36 @@ window.FILM_DATA = [
     "answer": "happyness",
     "hint": "the title word, spelled with a y",
     "adapted": true
+   },
+   {
+    "line": "We're going to be ___.",
+    "answer": "okay",
+    "hint": "fine, all right",
+    "adapted": true
+   },
+   {
+    "line": "I'm not going to ___ up.",
+    "answer": "give",
+    "hint": "stop trying",
+    "adapted": true
+   },
+   {
+    "line": "It's a numbers ___.",
+    "answer": "game",
+    "hint": "something you play",
+    "adapted": true
+   },
+   {
+    "line": "I'll do my ___.",
+    "answer": "best",
+    "hint": "as well as I can",
+    "adapted": true
+   },
+   {
+    "line": "Life, liberty and the pursuit of ___.",
+    "answer": "happiness",
+    "hint": "the word in the title, spelled differently there",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -10682,6 +16172,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The interview joke that saves him, after a man with no shirt is mentioned."
+   },
+   {
+    "quote": "People can't do something themselves, they want to tell you you can't do it.",
+    "options": [
+     "Chris",
+     "Jay Twistle",
+     "Christopher"
+    ],
+    "answer": 0,
+    "note": "Chris says it to his son after the boy gives up on basketball."
+   },
+   {
+    "quote": "I'm going to be a stockbroker.",
+    "options": [
+     "Chris",
+     "Jay Twistle",
+     "Christopher"
+    ],
+    "answer": 0,
+    "note": "Chris decides it in the street, before he has any idea how to get there."
    }
   ],
   "quiz": [
@@ -10734,6 +16244,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He is offered the job at Dean Witter after the internship."
+   },
+   {
+    "q": "Why does Chris take the unpaid internship at the firm?",
+    "options": [
+     "It is his only way into a paid job",
+     "He wants to study at university",
+     "His wife asks him to"
+    ],
+    "answer": 0,
+    "why": "The internship is a six-month competition, and only one person will get the paid position."
+   },
+   {
+    "q": "Why does Chris carry a bone-density scanner everywhere?",
+    "options": [
+     "It is the only thing he can sell to make money",
+     "He uses it as a suitcase",
+     "He wants to give it to his son"
+    ],
+    "answer": 0,
+    "why": "The scanners are his business, and every sale means rent and food."
+   },
+   {
+    "q": "What happens when Chris finally gets the job?",
+    "options": [
+     "He walks out into the street and cries",
+     "He buys a car",
+     "He calls his wife"
+    ],
+    "answer": 0,
+    "why": "He holds back tears in the office, then lets them out among the crowd outside."
    }
   ],
   "roleplay": {
@@ -10782,6 +16322,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b1.json",
+  "truefalse": [
+   {
+    "s": "Chris sells bone-density scanners.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Chris and his son sleep in a station toilet at one point.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Chris wins the paid job at the end.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Chris's wife stays with him through the whole film.",
+    "answer": false,
+    "fix": "She leaves him and moves to New York."
+   },
+   {
+    "s": "Chris gets the internship because he is the boss's nephew.",
+    "answer": false,
+    "fix": "He earns it by showing his intelligence and persistence."
+   },
+   {
+    "s": "Chris solves a crossword puzzle in the taxi.",
+    "answer": false,
+    "fix": "He solves a Rubik's cube."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Chris hide his situation from his boss?",
+    "model": "He is afraid that being homeless will make him look unreliable. He needs the job more than he needs sympathy."
+   },
+   {
+    "q": "What does the film suggest about the difference between being rich and being happy?",
+    "model": "Chris is poor for most of the film but never stops loving his son. The ending suggests that happiness comes from hope and effort, not money alone."
+   },
+   {
+    "q": "Would you have taken an unpaid internship with no home? Why?",
+    "model": "It would be terrifying, and I am not sure I could do it with a child. But Chris has no better route, so the risk makes sense for him."
+   },
+   {
+    "q": "Why does Chris keep telling his son to protect his dream?",
+    "model": "He does not want his son to accept other people's limits, as he once did. The advice is also a promise to himself."
+   }
+  ],
   "poster": "assets/posters/pursuit-of-happyness.jpg"
  },
  {
@@ -10900,6 +16490,36 @@ window.FILM_DATA = [
     "answer": "real",
     "hint": "true, not pretend",
     "adapted": true
+   },
+   {
+    "line": "We accept the ___ of the world with which we're presented.",
+    "answer": "reality",
+    "hint": "what is real",
+    "adapted": true
+   },
+   {
+    "line": "The world is a ___ place.",
+    "answer": "sick",
+    "hint": "not healthy; cruel",
+    "adapted": true
+   },
+   {
+    "line": "There is no more ___ out there than in the world I made for you.",
+    "answer": "truth",
+    "hint": "what is true",
+    "adapted": true
+   },
+   {
+    "line": "You can leave at any ___.",
+    "answer": "time",
+    "hint": "whenever you want",
+    "adapted": true
+   },
+   {
+    "line": "Do you ever feel like you're being ___?",
+    "answer": "watched",
+    "hint": "looked at all the time",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -10932,6 +16552,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The director defends his town as a better world; the film lets you decide."
+   },
+   {
+    "quote": "Was nothing real?",
+    "options": [
+     "Truman",
+     "Christof",
+     "Marlon"
+    ],
+    "answer": 0,
+    "note": "Truman asks it at the edge of the set, when the truth finally reaches him."
+   },
+   {
+    "quote": "There's no more truth out there than in the world I created for you.",
+    "options": [
+     "Christof",
+     "Sylvia",
+     "Meryl"
+    ],
+    "answer": 0,
+    "note": "Christof says it to defend the world he built."
    }
   ],
   "quiz": [
@@ -10984,6 +16624,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He sails to the painted wall and walks out through a door."
+   },
+   {
+    "q": "Who created Seahaven and controls Truman's life?",
+    "options": [
+     "Christof",
+     "Marlon",
+     "Sylvia"
+    ],
+    "answer": 0,
+    "why": "Christof is the director of the show and speaks to Truman from the control room."
+   },
+   {
+    "q": "Why does Truman begin to doubt his perfect life?",
+    "options": [
+     "People repeat themselves and behave strangely",
+     "He finds a newspaper from the future",
+     "His wife tells him the truth"
+    ],
+    "answer": 0,
+    "why": "A lamp falls from the sky, his father returns, and the same routines keep repeating."
+   },
+   {
+    "q": "What happens to Truman's father during the film?",
+    "options": [
+     "He reappears on the street",
+     "He dies in a storm",
+     "He takes Truman to Fiji"
+    ],
+    "answer": 0,
+    "why": "The actor who played his father comes back, and Truman recognises him."
    }
   ],
   "roleplay": {
@@ -11032,6 +16702,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b1.json",
+  "truefalse": [
+   {
+    "s": "Truman lives in a town called Seahaven.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Truman works as an insurance salesman.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Marlon is Truman's best friend.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Truman's wife Meryl secretly helps him escape.",
+    "answer": false,
+    "fix": "Meryl is an actress in the show, and she tries to keep him inside Seahaven."
+   },
+   {
+    "s": "Christof plays Truman's father in the show.",
+    "answer": false,
+    "fix": "Christof is the director who created the show; another actor plays his father."
+   },
+   {
+    "s": "Truman escapes by plane to Fiji.",
+    "answer": false,
+    "fix": "He escapes through a door in the wall at the edge of the set."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does Christof believe the show is good for Truman?",
+    "model": "He thinks the real world is dangerous and that Seahaven gives Truman a safe, happy life. He sees himself as a father protecting his child."
+   },
+   {
+    "q": "What does the ending suggest when Truman bows and walks out?",
+    "model": "It suggests that he chooses reality over comfort, even though he does not know what comes next. The bow is his goodbye to the audience and to his old life."
+   },
+   {
+    "q": "Would you have chosen to leave Seahaven? Why?",
+    "model": "Yes, because a safe life that is not really mine would feel like a prison. I would rather be free and uncertain."
+   },
+   {
+    "q": "Why do the viewers at the end change channels so quickly?",
+    "model": "For them the show was only entertainment, so when it ends they simply look for the next programme. It shows that Truman mattered to them less than he thought."
+   }
+  ],
   "poster": "assets/posters/truman-show.jpg"
  },
  {
@@ -11150,6 +16870,36 @@ window.FILM_DATA = [
     "answer": "reasons",
     "hint": "the 'why' behind something",
     "adapted": false
+   },
+   {
+    "line": "Alicia stood ___ him when everyone else walked away.",
+    "answer": "by",
+    "hint": "supported him",
+    "adapted": true
+   },
+   {
+    "line": "Nash's idea came to him in a sudden ___ of genius.",
+    "answer": "stroke",
+    "hint": "one brilliant moment",
+    "adapted": true
+   },
+   {
+    "line": "Alicia never ___ up on him, even when the doctors had no answers.",
+    "answer": "gave",
+    "hint": "stopped believing",
+    "adapted": true
+   },
+   {
+    "line": "He learned to keep the delusions at ___.",
+    "answer": "bay",
+    "hint": "under control, at a distance",
+    "adapted": true
+   },
+   {
+    "line": "Nash ___ back into his delusions when he stopped the medication.",
+    "answer": "slipped",
+    "hint": "fell back",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -11182,6 +16932,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "His first line as a teacher — a warning, and a fair description of himself."
+   },
+   {
+    "quote": "I've always believed in numbers.",
+    "options": [
+     "Nash",
+     "Hansen",
+     "Dr Rosen"
+    ],
+    "answer": 0,
+    "note": "The opening of his Nobel speech, and the belief the film quietly tests."
+   },
+   {
+    "quote": "Find a truly original idea. It's the only way I'll ever matter.",
+    "options": [
+     "Nash",
+     "Hansen",
+     "Parcher"
+    ],
+    "answer": 0,
+    "note": "His answer to the question of what he wants from Princeton."
    }
   ],
   "quiz": [
@@ -11234,6 +17004,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He is honoured in Stockholm in 1994, with Alicia in the audience."
+   },
+   {
+    "q": "Why does Nash stop taking his medication?",
+    "options": [
+     "It flattens his thinking, and he cannot work",
+     "He cannot afford the prescription",
+     "Alicia asks him to stop"
+    ],
+    "answer": 0,
+    "why": "The drugs dull his mind and his marriage, and he decides that thinking is the part of himself he cannot lose."
+   },
+   {
+    "q": "What makes Alicia realise that Charles is not real?",
+    "options": [
+     "Marcee, the little girl, never grows older",
+     "Nash tells her the truth",
+     "Dr Rosen shows her the hospital file"
+    ],
+    "answer": 0,
+    "why": "She runs after Nash and sees that the child has stayed exactly the same age for years."
+   },
+   {
+    "q": "What is the turning point in Nash's treatment?",
+    "options": [
+     "He learns to recognise the delusions and ignore them",
+     "A new drug cures him",
+     "He leaves Alicia and moves away"
+    ],
+    "answer": 0,
+    "why": "He cannot make the figures disappear, so he learns to test them and to live alongside them."
    }
   ],
   "roleplay": {
@@ -11282,6 +17082,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b2.json",
+  "truefalse": [
+   {
+    "s": "Nash's delusions include a roommate, a little girl and a government agent.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Nash wins the Nobel Prize in Economics in 1994.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Alicia is a physics student when she meets Nash.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Nash's great idea is a code-breaking machine.",
+    "answer": false,
+    "fix": "His great idea is game theory, which later wins him the Nobel Prize."
+   },
+   {
+    "s": "Nash is diagnosed with schizophrenia while he is still a student at Princeton.",
+    "answer": false,
+    "fix": "He is diagnosed years later, after his marriage, when the delusions have taken hold."
+   },
+   {
+    "s": "Alicia leaves Nash when she learns about his illness.",
+    "answer": false,
+    "fix": "She stays, and the film makes her decision the centre of its second half."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "The film shows the world from inside Nash's head. Whose version of reality do you trust, and how does the film make us doubt both?",
+    "model": "We trust Alicia because she sees what we cannot, but the film has already taught us to believe Nash's visions, so our own judgement becomes part of the story."
+   },
+   {
+    "q": "Nash learns to live with his hallucinations instead of curing them. Why is that a braver ending?",
+    "model": "A cure would be a miracle; living with an illness he cannot argue away is the harder and more honest victory."
+   },
+   {
+    "q": "Alicia almost never raises her voice. Why does the film keep her quiet at the moment she decides to stay?",
+    "model": "Her quietness makes the decision look deliberate rather than dramatic, which is more frightening and more convincing than a speech."
+   },
+   {
+    "q": "The film changes some facts of Nash's life. Is that a lie, or is that what fiction is for?",
+    "model": "It is a shaping rather than a lie: the film uses one life to say something true about illness and love, and the cost is accuracy about the details."
+   }
+  ],
   "poster": "assets/posters/beautiful-mind.jpg"
  },
  {
@@ -11403,6 +17253,36 @@ window.FILM_DATA = [
     "answer": "unit",
     "hint": "a rented metal room",
     "adapted": true
+   },
+   {
+    "line": "Jake was ___ on winning the bet from the first minute.",
+    "answer": "bent",
+    "hint": "determined",
+    "adapted": true
+   },
+   {
+    "line": "The squad was ___ aback by Holt's first order.",
+    "answer": "taken",
+    "hint": "surprised",
+    "adapted": true
+   },
+   {
+    "line": "Amy ___ her nose up at Jake's shortcuts.",
+    "answer": "turned",
+    "hint": "showed contempt",
+    "adapted": true
+   },
+   {
+    "line": "Boyle could not ___ up the courage to ask Rosa out.",
+    "answer": "work",
+    "hint": "build it slowly",
+    "adapted": true
+   },
+   {
+    "line": "The bet got out of ___ by the end of the day.",
+    "answer": "hand",
+    "hint": "out of control",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -11435,6 +17315,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Amy's verdict after Jake solves the electronics robbery - the bet starts here."
+   },
+   {
+    "quote": "I need my rabbi.",
+    "options": [
+     "Jake",
+     "Boyle",
+     "Gina"
+    ],
+    "answer": 0,
+    "note": "Jake's word for the mentor he wants in a captain, said before he has met one."
+   },
+   {
+    "quote": "Catch bad guys and look good doing it.",
+    "options": [
+     "Jake",
+     "Holt",
+     "Terry"
+    ],
+    "answer": 0,
+    "note": "His summary of the job at the end of the arrest, tie and all."
    }
   ],
   "quiz": [
@@ -11487,6 +17387,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The bear's camera filmed the robbery, and Jake spots it in the footage."
+   },
+   {
+    "q": "Why does Amy make the bet with Jake?",
+    "options": [
+     "She wants to prove that proper police work beats his shortcuts",
+     "She wants a date with him",
+     "Holt tells her to compete"
+    ],
+    "answer": 0,
+    "why": "Jake's success without paperwork offends her sense of the job, and the bet is her chance to prove that method matters."
+   },
+   {
+    "q": "Why does Jake take the bet instead of ignoring it?",
+    "options": [
+     "He cannot resist proving he is the better detective",
+     "He wants her car",
+     "Holt orders him to compete"
+    ],
+    "answer": 0,
+    "why": "The bet is not really about the date: it is about being told, again, that he is not good enough."
+   },
+   {
+    "q": "What is the turning point for Jake and Holt?",
+    "options": [
+     "Holt tells him something personal in the car and Jake listens",
+     "Jake apologises for the impression",
+     "Holt praises his arrest record"
+    ],
+    "answer": 0,
+    "why": "The captain offers a fact about himself instead of a rule, and Jake has to decide whether to make a joke of it."
    }
   ],
   "roleplay": {
@@ -11534,7 +17464,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "wave2-s2.json"
+  "_src": "wave2-s2.json",
+  "truefalse": [
+   {
+    "s": "Jake finds the camera hidden inside a teddy bear.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Terry is on administrative leave because he is afraid of getting hurt.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Jake is sent to the records room after Ratko escapes.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Holt's first order is that the detectives must wear uniforms.",
+    "answer": false,
+    "fix": "He asks for a necktie, not a uniform, though Jake works out that the tie is about being part of a team."
+   },
+   {
+    "s": "The bet is about who can close more cases this month.",
+    "answer": false,
+    "fix": "It is about who makes more arrests this year, with a car and a date as the prizes."
+   },
+   {
+    "s": "Holt was given his own command as soon as he made captain.",
+    "answer": false,
+    "fix": "He was put in a public affairs unit for years and only now has a command of his own."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Jake is a great detective and a terrible adult. Can someone be excellent at their job and still be a problem?",
+    "model": "Yes, and the film is careful to show both: his arrests are real, and so is the cost to everyone who has to work with him."
+   },
+   {
+    "q": "Holt makes Jake wear a tie. Is that about discipline, respect, or power?",
+    "model": "It is about all three at once, and Jake only understands it when he sees that Holt was kept off the team for years."
+   },
+   {
+    "q": "Amy and Jake bet a car against a date. Is that competitive fun or something less healthy?",
+    "model": "The film plays it as fun, but the stakes are uneven: one prize is an object and the other is a person, and Amy knows it."
+   },
+   {
+    "q": "Holt speaks in full sentences and never uses contractions. Why does the show give him that voice?",
+    "model": "It makes him sound like the rules themselves, and it makes the moment he speaks personally in the car land much harder."
+   }
+  ]
  },
  {
   "id": "erin-brockovich",
@@ -11652,6 +17632,36 @@ window.FILM_DATA = [
     "answer": "speak",
     "hint": "say something on their behalf",
     "adapted": true
+   },
+   {
+    "line": "Ed told Erin to take it down a ___.",
+    "answer": "notch",
+    "hint": "a level",
+    "adapted": true
+   },
+   {
+    "line": "Erin would not take no for an ___.",
+    "answer": "answer",
+    "hint": "a reply",
+    "adapted": true
+   },
+   {
+    "line": "The company tried to buy the families ___.",
+    "answer": "off",
+    "hint": "with money, to keep them quiet",
+    "adapted": true
+   },
+   {
+    "line": "The numbers in the file did not ___ up.",
+    "answer": "add",
+    "hint": "make sense when counted",
+    "adapted": true
+   },
+   {
+    "line": "The families in Hinkley lived hand to ___.",
+    "answer": "mouth",
+    "hint": "with just enough for food",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -11684,6 +17694,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The line that makes the case personal, and the reason Erin keeps driving back to Hinkley."
+   },
+   {
+    "quote": "I don't need pity. I need a paycheck.",
+    "options": [
+     "Erin",
+     "Donna Jensen",
+     "Rosalind"
+    ],
+    "answer": 0,
+    "note": "Her answer when Ed apologises for losing her case, and the reason she refuses to leave without a job."
+   },
+   {
+    "quote": "It's called accountability.",
+    "options": [
+     "Ed Masry",
+     "Kurt Potter",
+     "Theresa"
+    ],
+    "answer": 0,
+    "note": "Ed's reply when Erin says she left a message and then vanished for a week."
    }
   ],
   "quiz": [
@@ -11736,6 +17766,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "It was one of the largest direct-action settlements in American history at the time."
+   },
+   {
+    "q": "Why does Erin refuse Ed's first bonus?",
+    "options": [
+     "She thinks the figure does not match the work she did",
+     "She wants to become a partner",
+     "She is leaving for another firm"
+    ],
+    "answer": 0,
+    "why": "The number is smaller than agreed, and for Erin the insult is about respect rather than money."
+   },
+   {
+    "q": "Why do the families turn against Erin before the arbitration?",
+    "options": [
+     "They are told that she has sold them out",
+     "She loses the company documents",
+     "She misses a court date"
+    ],
+    "answer": 0,
+    "why": "A letter from one plaintiff says they have been lied to, and Erin has to win their trust back one kitchen at a time."
+   },
+   {
+    "q": "What makes Charles Embry agree to make a declaration?",
+    "options": [
+     "Erin lets him tell his story without pushing",
+     "Ed offers him money",
+     "He wants to be quoted in the newspaper"
+    ],
+    "answer": 0,
+    "why": "She sits with him and stays quiet, and the story of the shredded documents comes out on its own."
    }
   ],
   "roleplay": {
@@ -11784,6 +17844,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b2.json",
+  "truefalse": [
+   {
+    "s": "Erin finds the medical records filed with a property sale.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Ed fires Erin for disappearing for a week, then hires her back.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "More than six hundred families join the case.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The chemical in the Hinkley water is lead.",
+    "answer": false,
+    "fix": "It is hexavalent chromium, which PG&E used to stop rust in its cooling towers."
+   },
+   {
+    "s": "PG&E's first settlement offer is 333 million dollars.",
+    "answer": false,
+    "fix": "The first offer is twenty million dollars; 333 million is the final settlement."
+   },
+   {
+    "s": "Erin has a law degree but has never practised.",
+    "answer": false,
+    "fix": "She has no law degree at all, and she says her brain is what she has instead."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Erin has no law degree and no manners. Why does she succeed where trained lawyers fail?",
+    "model": "She treats the families as people rather than clients, so they tell her things they would never tell a lawyer in a suit."
+   },
+   {
+    "q": "Whose version of the truth do you trust: the company's documents, the residents' memories, or Erin's reading of both?",
+    "model": "The documents are the strongest evidence, but the residents' memories tell us what the documents meant, and Erin is the one who puts the two together."
+   },
+   {
+    "q": "Why does the film keep showing the babysitter, the bounced cheque and the broken car?",
+    "model": "The domestic detail makes the case cost something visible: every hour Erin spends in Hinkley is an hour taken from her children."
+   },
+   {
+    "q": "Erin is rude and usually right. Is she a hero, or a difficult person who happens to be correct?",
+    "model": "The film refuses to choose: her rudeness is what makes her effective and what makes her hard to live with, and both are true."
+   }
+  ],
   "poster": "assets/posters/erin-brockovich.jpg"
  },
  {
@@ -11902,6 +18012,36 @@ window.FILM_DATA = [
     "answer": "mistake",
     "hint": "something done wrong",
     "adapted": true
+   },
+   {
+    "line": "Katherine had to ___ her ground in a room full of men.",
+    "answer": "hold",
+    "hint": "not give way",
+    "adapted": true
+   },
+   {
+    "line": "Mary had to ___ the odds to get into that school.",
+    "answer": "beat",
+    "hint": "succeed despite the difficulty",
+    "adapted": true
+   },
+   {
+    "line": "Katherine ran ___ and forth to a bathroom in another building.",
+    "answer": "back",
+    "hint": "in both directions",
+    "adapted": true
+   },
+   {
+    "line": "Paul Stafford tried to ___ her out of the meetings.",
+    "answer": "shut",
+    "hint": "exclude her",
+    "adapted": true
+   },
+   {
+    "line": "Mary's case ___ on an old Virginia law about segregated schools.",
+    "answer": "hinged",
+    "hint": "depended on",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -11934,6 +18074,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Dorothy's summary of the whole film, said quietly in a corridor."
+   },
+   {
+    "quote": "It's not because we wear skirts. It's because we wear glasses.",
+    "options": [
+     "Katherine",
+     "Mary",
+     "Dorothy"
+    ],
+    "answer": 0,
+    "note": "Katherine's answer to Jim Johnson, and the film's clearest statement of what the women are hired for."
+   },
+   {
+    "quote": "Despite what you may think, I have nothing against y'all.",
+    "options": [
+     "Vivian Mitchell",
+     "Al Harrison",
+     "Paul Stafford"
+    ],
+    "answer": 0,
+    "note": "Said while she is blocking a promotion: the politeness is the point."
    }
   ],
   "quiz": [
@@ -11986,6 +18146,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He refuses to fly until she has checked the figures herself."
+   },
+   {
+    "q": "Why does Harrison tear down the bathroom sign?",
+    "options": [
+     "The rule is costing him working hours and making the team look foolish",
+     "Katherine asks him to do it",
+     "A court orders him to remove it"
+    ],
+    "answer": 0,
+    "why": "He is a practical man: the runs to another building are wasting time, and the injustice only becomes visible when it slows the mission."
+   },
+   {
+    "q": "Why does Dorothy learn to program the IBM machine?",
+    "options": [
+     "She sees the machine will replace her team",
+     "Harrison orders her to learn it",
+     "She wants a job as an engineer"
+    ],
+    "answer": 0,
+    "why": "She reads the manual and teaches herself so that her group still has work after the machine arrives."
+   },
+   {
+    "q": "Why does Paul Stafford dislike Katherine at first?",
+    "options": [
+     "Her numbers make his own work look slow",
+     "He thinks she is a spy",
+     "She replaced his best friend"
+    ],
+    "answer": 0,
+    "why": "He is used to being the cleverest person in the room, and her calculations keep arriving before his."
    }
   ],
   "roleplay": {
@@ -12034,6 +18224,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b2.json",
+  "truefalse": [
+   {
+    "s": "Katherine is a computer, a woman who does the calculations by hand.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Dorothy learns FORTRAN and becomes the supervisor of the programming group.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "John Glenn asks for Katherine to check the numbers before his flight.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Mary Jackson wants to become a teacher.",
+    "answer": false,
+    "fix": "She wants to become an engineer, and the night classes she needs are held at a whites-only school."
+   },
+   {
+    "s": "The IBM machine is brought in to help the women finish their work.",
+    "answer": false,
+    "fix": "The IBM 7090 is brought in to replace the human computers, which is why Dorothy learns to program it."
+   },
+   {
+    "s": "Al Harrison is the engineer who keeps Katherine out of the Space Task Group.",
+    "answer": false,
+    "fix": "Harrison brings her into the group; it is Paul Stafford who keeps her out of the meetings."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "The film is called Hidden Figures. Who is hidden, and by whom?",
+    "model": "The women are hidden by the record and by the office itself, and the film's job is to put them back into a story that was told without them."
+   },
+   {
+    "q": "Vivian Mitchell says she has nothing against you people while blocking a promotion. What does that politeness hide?",
+    "model": "It hides the same exclusion in a softer voice; the film shows that courtesy can be a way of refusing without having to say no."
+   },
+   {
+    "q": "Katherine answers every insult with a fact. Why does she use that tone, and what does it cost her?",
+    "model": "Facts are the only language the room accepts from her, and the cost is that she never gets to be angry in public."
+   },
+   {
+    "q": "Is Al Harrison a good man who changes, or a man who moves only when it helps the mission?",
+    "model": "He changes when the injustice becomes inefficient, which is a smaller kind of courage than it looks, and the film knows it."
+   }
+  ],
   "poster": "assets/posters/hidden-figures.jpg"
  },
  {
@@ -12152,6 +18392,36 @@ window.FILM_DATA = [
     "answer": "family",
     "hint": "parents and children together",
     "adapted": true
+   },
+   {
+    "line": "Grandpa told Olive to go ___ it and ignore what anyone else thought.",
+    "answer": "for",
+    "hint": "pursue it",
+    "adapted": true
+   },
+   {
+    "line": "The family had to ___ together every time the van broke down.",
+    "answer": "pull",
+    "hint": "work as a team",
+    "adapted": true
+   },
+   {
+    "line": "Dwayne's silence drove his family up the ___.",
+    "answer": "wall",
+    "hint": "crazy",
+    "adapted": true
+   },
+   {
+    "line": "Grandpa never minced his ___ when he told Richard what he thought.",
+    "answer": "words",
+    "hint": "he said it plainly",
+    "adapted": true
+   },
+   {
+    "line": "Dwayne finally ___ his silence in the middle of the desert.",
+    "answer": "broke",
+    "hint": "ended it",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -12184,6 +18454,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The name of his programme, repeated like a prayer until it stops meaning anything."
+   },
+   {
+    "quote": "Sarcasm is the refuge of losers.",
+    "options": [
+     "Richard",
+     "Frank",
+     "Grandpa"
+    ],
+    "answer": 0,
+    "note": "Richard's line to Frank, straight out of step four of his programme."
+   },
+   {
+    "quote": "You are the most beautiful girl in the whole world.",
+    "options": [
+     "Grandpa",
+     "Richard",
+     "Frank"
+    ],
+    "answer": 0,
+    "note": "Grandpa's answer when Olive asks him whether she is pretty."
    }
   ],
   "quiz": [
@@ -12236,6 +18526,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The test result ends his dream, and the silence ends with it."
+   },
+   {
+    "q": "Why does Richard want Olive to compete even when the family is falling apart?",
+    "options": [
+     "He needs her to prove his winners-and-losers system",
+     "He wants the prize money",
+     "He has promised the pageant organisers"
+    ],
+    "answer": 0,
+    "why": "If Olive wins, his whole philosophy is right; if she does not compete, the family has lost by his own rules."
+   },
+   {
+    "q": "Why does the family run back on stage and join Olive's dance?",
+    "options": [
+     "They choose her over the audience's opinion",
+     "They want to shock the judges",
+     "They are trying to stop the music"
+    ],
+    "answer": 0,
+    "why": "After a whole film of arguing, they stand with her in public, which is the only kind of love this family knows how to show."
+   },
+   {
+    "q": "Why does Olive perform the routine that Grandpa taught her?",
+    "options": [
+     "It is the last thing they made together",
+     "She has no other talent",
+     "She wants to embarrass the judges"
+    ],
+    "answer": 0,
+    "why": "Grandpa chose the music and taught her the moves, so the dance is a goodbye as much as a performance."
    }
   ],
   "roleplay": {
@@ -12284,6 +18604,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b2.json",
+  "truefalse": [
+   {
+    "s": "The family drives from Albuquerque to Redondo Beach.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Dwayne has taken a vow of silence until he gets into flight school.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The van has to be pushed to start because the clutch is broken.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Grandpa dies in a hospital in California.",
+    "answer": false,
+    "fix": "He dies in his sleep at a motel on the road, before the family reaches California."
+   },
+   {
+    "s": "Dwayne breaks his silence when he wins a place at flight school.",
+    "answer": false,
+    "fix": "He breaks it when he learns that he is colour-blind and cannot fly."
+   },
+   {
+    "s": "Olive wins the pageant.",
+    "answer": false,
+    "fix": "She does not win; the family leaves with her, and the film ends on the drive home."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Richard divides the world into winners and losers. What does the film think of that idea?",
+    "model": "It takes the idea seriously and then shows its cost: the people Richard loves are all, by his own measure, losers, and they are worth more than his programme."
+   },
+   {
+    "q": "Olive is seven and wants to be a beauty queen. Is the film laughing at her, at the pageant, or at the adults around her?",
+    "model": "It laughs at the adults and at the pageant and never at Olive; her seriousness is the film's way of showing what the adults have forgotten."
+   },
+   {
+    "q": "Grandpa tells Olive to do what she loves, whatever other people think. Is that good advice for a child?",
+    "model": "It is good advice delivered badly: the freedom is right, but a seven-year-old also needs adults who will protect her from the room."
+   },
+   {
+    "q": "The family insults each other constantly and nobody leaves. Why does the film make love sound so rude?",
+    "model": "Because for this family insults are the only language they have left, and the film lets the shouting carry affection as well as damage."
+   }
+  ],
   "poster": "assets/posters/little-miss-sunshine.jpg"
  },
  {
@@ -12408,6 +18778,36 @@ window.FILM_DATA = [
     "answer": "rescue",
     "hint": "save us",
     "adapted": true
+   },
+   {
+    "line": "The people in the farmhouse could not ___ along for one night.",
+    "answer": "get",
+    "hint": "live peacefully together",
+    "adapted": true
+   },
+   {
+    "line": "By midnight the house was ___ off from the rest of the world.",
+    "answer": "cut",
+    "hint": "separated",
+    "adapted": true
+   },
+   {
+    "line": "Ben ___ charge while the others argued about the cellar.",
+    "answer": "took",
+    "hint": "became the leader",
+    "adapted": true
+   },
+   {
+    "line": "Tom and Judy decided to make a ___ for it in the truck.",
+    "answer": "run",
+    "hint": "a dash to safety",
+    "adapted": true
+   },
+   {
+    "line": "Everyone in the house was on ___ all night.",
+    "answer": "edge",
+    "hint": "tense and nervous",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -12440,6 +18840,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The broadcast names the thing the characters cannot accept."
+   },
+   {
+    "quote": "We'll be safer in the cellar.",
+    "options": [
+     "Harry Cooper",
+     "Ben",
+     "Tom"
+    ],
+    "answer": 0,
+    "note": "Harry's whole argument, and the plan that splits the house in two."
+   },
+   {
+    "quote": "The dead are returning to life.",
+    "options": [
+     "The radio announcer",
+     "Ben",
+     "The sheriff"
+    ],
+    "answer": 0,
+    "note": "The bulletin that names what the characters keep refusing to believe."
    }
   ],
   "quiz": [
@@ -12492,6 +18912,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The posse mistakes him for one of the dead — the film's harshest irony."
+   },
+   {
+    "q": "Why does Harry refuse to come out of the cellar?",
+    "options": [
+     "He trusts the cellar more than Ben's plan",
+     "He is looking for his daughter",
+     "He is waiting for the rescue party"
+    ],
+    "answer": 0,
+    "why": "He is afraid of the open ground floor and will not accept a plan he did not make himself."
+   },
+   {
+    "q": "Why does Barbra barely speak in the first hour?",
+    "options": [
+     "She is in shock after her brother's death",
+     "She does not trust Ben",
+     "She is looking for her father"
+    ],
+    "answer": 0,
+    "why": "She has just seen her brother killed, and the film shows the shock in her silence rather than in words."
+   },
+   {
+    "q": "What goes wrong with the plan to escape in the truck?",
+    "options": [
+     "The truck catches fire at the pump",
+     "The keys are missing",
+     "The cellar door is locked"
+    ],
+    "answer": 0,
+    "why": "The attempt ends in the fire at the pump, and after that the group has no plan left."
    }
   ],
   "roleplay": {
@@ -12540,6 +18990,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "open.json",
+  "truefalse": [
+   {
+    "s": "The film begins in a cemetery, where Barbra and her brother visit a grave.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Ben boards up the windows while Harry argues for the cellar.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The film is shot in black and white.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The survivors are rescued at dawn by the army.",
+    "answer": false,
+    "fix": "Ben is shot by a posse who mistake him for one of the dead, and the film ends with his body on a fire."
+   },
+   {
+    "s": "Barbra escapes the farmhouse with Ben.",
+    "answer": false,
+    "fix": "She never leaves the house, and Ben ends the night alone."
+   },
+   {
+    "s": "Harry Cooper wants to make a run for the nearest town.",
+    "answer": false,
+    "fix": "Harry wants everyone in the cellar; it is Ben who wants to hold the ground floor."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "The film puts strangers in one room. What does each person want, and why can't they agree?",
+    "model": "Each of them wants safety on their own terms, and the film shows that fear makes people defend a plan rather than listen to one."
+   },
+   {
+    "q": "Is this a horror film about monsters, or about people?",
+    "model": "The monsters set the clock, but the horror comes from the living: who is trusted, who is listened to, and who is shot at the end."
+   },
+   {
+    "q": "The news broadcasts give information in pieces. How does that shape the characters' choices?",
+    "model": "Half-information makes them guess and argue, which is exactly what the audience is doing too, so the film keeps us in the same fog."
+   },
+   {
+    "q": "The ending is famously harsh. What is the film saying about who gets rescued?",
+    "model": "It says that rescue depends on being recognised as human, and Ben is not, which is the film's real subject."
+   }
+  ],
   "poster": "assets/posters/night-of-the-living-dead.jpg"
  },
  {
@@ -12661,6 +19161,36 @@ window.FILM_DATA = [
     "answer": "water",
     "hint": "you drink it, but not from a kettle",
     "adapted": true
+   },
+   {
+    "line": "Rebecca planned to ___ the club into the ground.",
+    "answer": "run",
+    "hint": "destroy it slowly",
+    "adapted": true
+   },
+   {
+    "line": "Ted ___ off the journalists' jokes with a smile.",
+    "answer": "brushed",
+    "hint": "ignored them",
+    "adapted": true
+   },
+   {
+    "line": "Ted ___ up for Nate in front of the whole team.",
+    "answer": "stood",
+    "hint": "defended him",
+    "adapted": true
+   },
+   {
+    "line": "Roy tried to ___ Ted down in front of the players.",
+    "answer": "put",
+    "hint": "make him look small",
+    "adapted": true
+   },
+   {
+    "line": "Ted took the criticism in his ___.",
+    "answer": "stride",
+    "hint": "without getting upset",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -12693,6 +19223,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Ted's all-purpose reply, used here when Beard tells him to prove the press wrong."
+   },
+   {
+    "quote": "Ted Lasso is gonna help me burn it to the ground.",
+    "options": [
+     "Rebecca",
+     "Higgins",
+     "Keeley"
+    ],
+    "answer": 0,
+    "note": "Said to Higgins after the press conference: the owner's real plan in one line."
+   },
+   {
+    "quote": "I do love a locker room. Smells like potential.",
+    "options": [
+     "Ted",
+     "Coach Beard",
+     "Roy"
+    ],
+    "answer": 0,
+    "note": "His first visit to the dressing room, and the whole method in two sentences."
    }
   ],
   "quiz": [
@@ -12745,6 +19295,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Keeley, Jamie's girlfriend, is waiting for his phone and ends up helping."
+   },
+   {
+    "q": "Why does Higgins look uncomfortable while Rebecca praises Ted to the press?",
+    "options": [
+     "He knows her real plan and has to stand beside it",
+     "He disagrees with the hire",
+     "He wants Ted's job"
+    ],
+    "answer": 0,
+    "why": "Higgins is the only person in the room who knows she wants the club to fail, and his face carries the lie."
+   },
+   {
+    "q": "What does Ted do when a journalist asks whether the whole thing is a joke?",
+    "options": [
+     "He keeps answering politely and admits what he does not know",
+     "He walks out of the room",
+     "He insults the journalist back"
+    ],
+    "answer": 0,
+    "why": "He stays warm and honest about his ignorance, which makes the room's hostility look small."
+   },
+   {
+    "q": "Why does Rebecca offer Higgins a promotion?",
+    "options": [
+     "She needs his full support for her plan",
+     "She is rewarding his honesty",
+     "She wants him to leave the club"
+    ],
+    "answer": 0,
+    "why": "She buys his loyalty with a title and a raise, because her plan only works if he keeps quiet."
    }
   ],
   "roleplay": {
@@ -12792,7 +19372,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "wave2-s2.json"
+  "_src": "wave2-s2.json",
+  "truefalse": [
+   {
+    "s": "Rebecca fires the previous manager in the opening scene.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Ted's last job was coaching American football at Wichita State.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Nate is the kit man, and Ted asks his name.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Rebecca tells the journalists that she hired Ted because he is a proven coach.",
+    "answer": false,
+    "fix": "In public she calls it a fresh start; in private she tells Higgins she wants to burn the club down."
+   },
+   {
+    "s": "Ted tells the press that he has coached Premier League football before.",
+    "answer": false,
+    "fix": "He admits that he has never coached the sport they call football at any level."
+   },
+   {
+    "s": "Ted's press conference goes badly because he refuses to answer questions.",
+    "answer": false,
+    "fix": "He answers happily but gets the game wrong, saying four quarters and being corrected to two halves."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Rebecca hires Ted for a reason she keeps to herself. Is she a villain, a businesswoman, or something more complicated?",
+    "model": "She is a woman using the only power she has to hurt the man who hurt her, and the film makes her sympathetic without excusing it."
+   },
+   {
+    "q": "Ted knows almost nothing about football. Could not knowing the rules ever make a coach better?",
+    "model": "It can, because he sees the people rather than the tactics, and the players have been coached by experts for years without being seen."
+   },
+   {
+    "q": "Ted asks Nate his name, and Nate says nobody ever does. Why does that small moment matter?",
+    "model": "It shows that Ted's method is attention rather than knowledge, and it is the first proof that he might be good at the job."
+   },
+   {
+    "q": "Why does Ted answer every hostile question with a joke and a compliment?",
+    "model": "The jokes keep him in control of the room without a fight, and they buy him time to work out what he actually thinks."
+   }
+  ]
  },
  {
   "id": "the-help",
@@ -12910,6 +19540,36 @@ window.FILM_DATA = [
     "answer": "help",
     "hint": "also the word for people who clean and cook",
     "adapted": true
+   },
+   {
+    "line": "Hilly looked ___ on every woman who worked in her house.",
+    "answer": "down",
+    "hint": "as if they were beneath her",
+    "adapted": true
+   },
+   {
+    "line": "Minny's mouth got her ___ trouble more than once.",
+    "answer": "into",
+    "hint": "inside a bad situation",
+    "adapted": true
+   },
+   {
+    "line": "For years the maids had to ___ up with whatever the white families said.",
+    "answer": "put",
+    "hint": "endure it",
+    "adapted": true
+   },
+   {
+    "line": "Minny finally gave Hilly a piece of her ___.",
+    "answer": "mind",
+    "hint": "told her exactly what she thought",
+    "adapted": true
+   },
+   {
+    "line": "For once, Aibileen refused to ___ down when Hilly threatened her.",
+    "answer": "back",
+    "hint": "stop resisting",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -12942,6 +19602,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Minny's boast, and the reason she keeps finding work after Hilly is finished with her."
+   },
+   {
+    "quote": "Fried chicken just tend to make you feel better about life.",
+    "options": [
+     "Aibileen",
+     "Minny",
+     "Skeeter"
+    ],
+    "answer": 0,
+    "note": "Aibileen's voiceover, and the film's warmest line about ordinary comfort."
+   },
+   {
+    "quote": "You're a godless woman.",
+    "options": [
+     "Aibileen",
+     "Minny",
+     "Hilly"
+    ],
+    "answer": 0,
+    "note": "Aibileen's last words to Hilly in the driveway, after she is fired."
    }
   ],
   "quiz": [
@@ -12994,6 +19674,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The names are changed and the author is 'Anonymous', which is the only way it can be printed."
+   },
+   {
+    "q": "Why does Aibileen finally agree to tell her story?",
+    "options": [
+     "She has lost her own son and is raising another woman's child",
+     "She needs the money for her church",
+     "Skeeter threatens to publish without her"
+    ],
+    "answer": 0,
+    "why": "Grief and love have worn down her fear, and she decides that silence has already cost her too much."
+   },
+   {
+    "q": "What happens to Minny after Hilly spreads the word about her?",
+    "options": [
+     "No white family will hire her until Celia does",
+     "She leaves Jackson for good",
+     "She opens her own restaurant"
+    ],
+    "answer": 0,
+    "why": "Hilly's revenge keeps her out of every kitchen in town, and Celia is the only employer who does not care."
+   },
+   {
+    "q": "What does Skeeter learn about Constantine, the maid who raised her?",
+    "options": [
+     "Her mother sent her away and lied about it",
+     "She died years ago in Jackson",
+     "She moved north with Skeeter's brother"
+    ],
+    "answer": 0,
+    "why": "The discovery changes how Skeeter reads her own family, and it is why the book matters to her personally."
    }
   ],
   "roleplay": {
@@ -13042,6 +19752,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b2.json",
+  "truefalse": [
+   {
+    "s": "Skeeter comes home from university with a degree and no interest in marriage.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Minny goes to work for Celia Foote after Hilly fires her.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The published book lists its author as Anonymous.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Hilly wants separate kitchens built for the maids.",
+    "answer": false,
+    "fix": "She wants a separate toilet in every white house, and calls it a health measure."
+   },
+   {
+    "s": "Skeeter's book names every maid and every family in Jackson.",
+    "answer": false,
+    "fix": "The names are changed and the author is listed as Anonymous, which is the only way it can be printed."
+   },
+   {
+    "s": "Minny is the quiet one who avoids saying what she thinks.",
+    "answer": false,
+    "fix": "Minny is the most outspoken woman in Jackson, and her mouth is what gets her fired."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Aibileen speaks one way to the Leefolt family and another way in her own kitchen. Why does she switch?",
+    "model": "The polite voice is a survival skill, and the switch shows what segregation costs her: she must perform a smaller self to keep her job."
+   },
+   {
+    "q": "Whose book is it really: Skeeter's, Aibileen's, or all of theirs?",
+    "model": "It carries all three names in spirit but only Skeeter's career on the cover, which is exactly the injustice the film wants us to notice."
+   },
+   {
+    "q": "Hilly says she is not a racist. Why does the film give her that line?",
+    "model": "Because her politeness is the mechanism of the prejudice, not its opposite; the film shows that good manners can do the same work as a sign on a door."
+   },
+   {
+    "q": "Why does the film end with Aibileen walking away instead of showing us where she goes?",
+    "model": "The walk is the point: she has lost her job but kept her voice, and the film refuses to tidy that into a happy ending."
+   }
+  ],
   "poster": "assets/posters/the-help.jpg"
  },
  {
@@ -13160,6 +19920,36 @@ window.FILM_DATA = [
     "answer": "help",
     "hint": "make someone's work easier",
     "adapted": true
+   },
+   {
+    "line": "Jules could not bring herself to ___ over the company to a stranger.",
+    "answer": "hand",
+    "hint": "give control of it",
+    "adapted": true
+   },
+   {
+    "line": "Ben knew the office inside ___ within a week.",
+    "answer": "out",
+    "hint": "completely",
+    "adapted": true
+   },
+   {
+    "line": "The company was growing by ___ and bounds.",
+    "answer": "leaps",
+    "hint": "in big jumps",
+    "adapted": true
+   },
+   {
+    "line": "Jules was spread too ___ to notice what her team needed.",
+    "answer": "thin",
+    "hint": "not enough of her to go round",
+    "adapted": true
+   },
+   {
+    "line": "Jules ___ off the meeting with the investors at the last minute.",
+    "answer": "called",
+    "hint": "cancelled it",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -13192,6 +19982,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Jules' first answer to the whole programme; the film is about how long it takes her to mean something else."
+   },
+   {
+    "quote": "I'm loyal, I'm trustworthy, and I'm good in a crisis.",
+    "options": [
+     "Ben",
+     "Jules",
+     "Davis"
+    ],
+    "answer": 0,
+    "note": "From his application video, and the sentence that gets him the internship."
+   },
+   {
+    "quote": "I am not so fun to work for.",
+    "options": [
+     "Jules",
+     "Becky",
+     "Cameron"
+    ],
+    "answer": 0,
+    "note": "Her warning in their first two-minute meeting, which is both honest and a way of keeping him away."
    }
   ],
   "quiz": [
@@ -13244,6 +20054,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "They want experience at the top, and Jules hears it as a judgement on her."
+   },
+   {
+    "q": "Why does Jules first suggest that Ben ask for a transfer?",
+    "options": [
+     "She thinks an intern she cannot use makes her look bad",
+     "She dislikes older people",
+     "She has no budget for an intern"
+    ],
+    "answer": 0,
+    "why": "She explains that he was assigned to her to set an example, and she cannot see a real job for him."
+   },
+   {
+    "q": "What makes Jules change her mind about Ben?",
+    "options": [
+     "He quietly tidies a desk nobody asked him to touch",
+     "He complains to the human resources team",
+     "He fixes the website overnight"
+    ],
+    "answer": 0,
+    "why": "The clean desk is the first proof that he notices what everyone else walks past, and she starts giving him real work."
+   },
+   {
+    "q": "Why does Ben agree to break into Jules's mother's house?",
+    "options": [
+     "Jules needs an email deleted before her mother reads it",
+     "He wants to meet Jules's mother",
+     "Davis asks him for a favour"
+    ],
+    "answer": 0,
+    "why": "Jules has sent an email to the wrong person, and Ben organises the raid because he can see how frightened she is."
    }
   ],
   "roleplay": {
@@ -13292,6 +20132,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b2.json",
+  "truefalse": [
+   {
+    "s": "Ben applies with a video instead of a cover letter.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Ben spent forty years at a company that printed phone books.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Nobody at the company has a private office, not even the founder.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Ben is sixty-five when he starts the internship.",
+    "answer": false,
+    "fix": "He is seventy, and the interview question about ten years' time becomes a joke."
+   },
+   {
+    "s": "Jules is the founder of a company that sells furniture.",
+    "answer": false,
+    "fix": "About the Fit sells clothes online, and it has grown faster than its systems."
+   },
+   {
+    "s": "Ben is hired to work in the marketing team.",
+    "answer": false,
+    "fix": "He is assigned directly to Jules, the founder, who says she has nothing for him to do."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Ben says he wants the connection and the excitement. Why does a man with a pension want an internship rather than a job?",
+    "model": "He is not chasing money or status; he wants a place to go and people who need him, which retirement took away."
+   },
+   {
+    "q": "Jules says she is not fun to work for. Is that honesty or a way of keeping Ben at a distance?",
+    "model": "It is both: she warns him honestly, but the warning also saves her from explaining why she does not want an intern in the first place."
+   },
+   {
+    "q": "What is the film really saying about experience when Ben is given real work again?",
+    "model": "It argues that experience is not nostalgia: his value is noticing, listening and staying calm, skills the young office has forgotten how to name."
+   },
+   {
+    "q": "Why does Ben keep wearing a suit in an office where nobody else does?",
+    "model": "The suit is his way of showing respect for the job, and the film turns it from a joke into proof that old habits can be a strength."
+   }
+  ],
   "poster": "assets/posters/the-intern.jpg"
  },
  {
@@ -13410,6 +20300,36 @@ window.FILM_DATA = [
     "answer": "heard",
     "hint": "people are listening to you",
     "adapted": true
+   },
+   {
+    "line": "My game, my ___, my rules.",
+    "answer": "turf",
+    "hint": "your own territory",
+    "adapted": false
+   },
+   {
+    "line": "Lionel refused to ___ down to a duke.",
+    "answer": "bow",
+    "hint": "bend in respect",
+    "adapted": true
+   },
+   {
+    "line": "The doctors had no idea how to ___ with a stammer.",
+    "answer": "deal",
+    "hint": "handle it",
+    "adapted": true
+   },
+   {
+    "line": "Lionel caught Bertie ___ guard with a question about his childhood.",
+    "answer": "off",
+    "hint": "not prepared",
+    "adapted": true
+   },
+   {
+    "line": "David chose to walk ___ from the throne for the woman he loved.",
+    "answer": "away",
+    "hint": "in the other direction",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -13442,6 +20362,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "He says it about the life he wanted, before the crown chose him."
+   },
+   {
+    "quote": "My game, my turf, my rules.",
+    "options": [
+     "Lionel",
+     "Bertie",
+     "The Archbishop"
+    ],
+    "answer": 0,
+    "note": "Lionel's terms for the therapy, set out in the first session."
+   },
+   {
+    "quote": "I'm going to call you Bertie.",
+    "options": [
+     "Lionel",
+     "Bertie",
+     "David"
+    ],
+    "answer": 0,
+    "note": "His refusal to use the title, which shocks the Duke more than any exercise."
    }
   ],
   "quiz": [
@@ -13494,6 +20434,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "It is the broadcast of 3 September 1939, when Britain declares war on Germany."
+   },
+   {
+    "q": "Why does Lionel insist on calling the Duke Bertie?",
+    "options": [
+     "He believes the stammer grows out of fear of authority",
+     "He wants to be paid more",
+     "He has forgotten the Duke's title"
+    ],
+    "answer": 0,
+    "why": "Lionel is sure Bertie stammers worse when he is frightened of the person he is speaking to, so he removes the distance."
+   },
+   {
+    "q": "What surprises Bertie at the end of his first session?",
+    "options": [
+     "He hears himself read aloud without stammering",
+     "Lionel gives him a written cure",
+     "He is offered a place at Oxford"
+    ],
+    "answer": 0,
+    "why": "Lionel records him reading Shakespeare with music playing, and the recording proves that his voice works."
+   },
+   {
+    "q": "Who stands beside Bertie while he delivers the broadcast?",
+    "options": [
+     "Lionel, just out of shot",
+     "The Archbishop of Canterbury",
+     "Nobody at all"
+    ],
+    "answer": 0,
+    "why": "Lionel is in the room, mouthing the words with him, which is why the long speech holds together."
    }
   ],
   "roleplay": {
@@ -13541,7 +20511,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "b2.json"
+  "_src": "b2.json",
+  "truefalse": [
+   {
+    "s": "Lionel records Bertie reading at their first meeting.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Bertie's older brother David becomes king before him.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The final speech is broadcast in 1939, when Britain goes to war.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Lionel is a Harley Street doctor with a medical degree.",
+    "answer": false,
+    "fix": "Lionel is an Australian speech therapist with no formal qualifications."
+   },
+   {
+    "s": "Bertie meets Lionel for the first time at Wembley Stadium.",
+    "answer": false,
+    "fix": "His wife Elizabeth arranges a visit to Lionel's consulting room in Harley Street."
+   },
+   {
+    "s": "David gives up the throne because he is too ill to rule.",
+    "answer": false,
+    "fix": "He abdicates so that he can marry Wallis Simpson, a divorced American."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Lionel swears first and tells Bertie that he may swear too. Why does the film make swearing part of the treatment?",
+    "model": "Because fluent swearing proves that Bertie's voice works when he stops monitoring himself, so the film can show that the problem is fear rather than his mouth."
+   },
+   {
+    "q": "Why does the film keep cutting to the microphone and to the faces in the room during the final speech?",
+    "model": "The close-ups show that a radio speech is made of small breaths and looks, so we see the effort behind a voice that sounds calm."
+   },
+   {
+    "q": "Bertie says he is a naval officer rather than a king. What does that tell us about how he sees himself?",
+    "model": "He measures himself against a job where he knew he was competent, and the crown feels like a role he was given rather than one he earned."
+   },
+   {
+    "q": "Whose version of Bertie do you trust: the court's, which treats him as fragile, or Lionel's, which treats him as capable?",
+    "model": "Lionel's, because he is the only person who tests Bertie instead of protecting him, and the broadcast proves that the test was right."
+   }
+  ]
  },
  {
   "id": "the-office-s1e1",
@@ -13662,6 +20682,36 @@ window.FILM_DATA = [
     "answer": "boss",
     "hint": "the person in charge at work",
     "adapted": true
+   },
+   {
+    "line": "The staff ___ along with Michael's joke because he is the boss.",
+    "answer": "played",
+    "hint": "pretended to enjoy it",
+    "adapted": true
+   },
+   {
+    "line": "Dwight ___ at the chance to run the meeting.",
+    "answer": "jumped",
+    "hint": "took it eagerly",
+    "adapted": true
+   },
+   {
+    "line": "Michael tried to ___ the remark off as a joke.",
+    "answer": "pass",
+    "hint": "pretend it was",
+    "adapted": true
+   },
+   {
+    "line": "The meeting ___ downhill in about a minute.",
+    "answer": "went",
+    "hint": "got worse",
+    "adapted": true
+   },
+   {
+    "line": "Michael ___ the point of the meeting completely.",
+    "answer": "missed",
+    "hint": "did not understand it",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -13694,6 +20744,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Paraphrased — Michael reminds everyone who is in charge, which is the joke."
+   },
+   {
+    "quote": "I'm a friend first, a boss second and probably an entertainer third.",
+    "options": [
+     "Michael",
+     "Jim",
+     "Dwight"
+    ],
+    "answer": 0,
+    "note": "His summary of the atmosphere he has created, said straight to camera."
+   },
+   {
+    "quote": "This is my kingdom, as far as the eye can see.",
+    "options": [
+     "Michael",
+     "Dwight",
+     "Pam"
+    ],
+    "answer": 0,
+    "note": "The tour of the office floor, and the size of his ambition."
    }
   ],
   "quiz": [
@@ -13746,6 +20816,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He corrects anyone who shortens it, which shows exactly who he is."
+   },
+   {
+    "q": "Why does Michael decide not to tell the staff about the possible downsizing?",
+    "options": [
+     "He does not want to be the boss who brings bad news on camera",
+     "He has forgotten what Jan said",
+     "Jan orders him to keep it secret"
+    ],
+    "answer": 0,
+    "why": "He wants the documentary to show him as a leader, and bad news does not fit the picture he is performing."
+   },
+   {
+    "q": "Why does Jim put Dwight's stapler in Jell-O?",
+    "options": [
+     "To wind Dwight up while the cameras watch",
+     "Because Dwight asked him to",
+     "To test the office fridge"
+    ],
+    "answer": 0,
+    "why": "It is a patient, small prank, and Jim's look at the camera shows that he knows exactly how Dwight will react."
+   },
+   {
+    "q": "What is the turning point in Michael's prank on Pam?",
+    "options": [
+     "She believes she is being fired and starts to cry",
+     "She laughs before he finishes",
+     "She calls the police"
+    ],
+    "answer": 0,
+    "why": "The joke stops being funny the moment she takes it seriously, and Michael has to admit it was a prank in front of the crew."
    }
   ],
   "roleplay": {
@@ -13794,6 +20894,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "wave2-s1.json",
+  "truefalse": [
+   {
+    "s": "Michael has worked at Dunder Mifflin for twelve years.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Ryan arrives from a temp agency on his first day.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Jim has hidden Dwight's belongings in Jell-O more than once.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Jan tells Michael that the Stamford branch will definitely close.",
+    "answer": false,
+    "fix": "She says the board has not decided, and that Michael must convince her his branch can absorb the other."
+   },
+   {
+    "s": "Michael explains the downsizing news to the staff in the same meeting.",
+    "answer": false,
+    "fix": "He keeps it to himself, and compares it to a doctor not telling a patient that he has cancer."
+   },
+   {
+    "s": "Michael's prank on Pam is about stolen printer paper.",
+    "answer": false,
+    "fix": "He accuses her of stealing Post-it Notes, then admits it was a joke."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Michael wants the camera to see him as a good boss. Why is that funny and painful at the same time?",
+    "model": "Because the gap between the performance and the reality is visible in every scene, and the staff have to live inside that gap."
+   },
+   {
+    "q": "The staff say nothing when Michael is embarrassing. Would you speak up in that meeting?",
+    "model": "Their silence is a survival strategy: the boss controls the room, and the camera makes speaking up even more expensive."
+   },
+   {
+    "q": "Jim is polite to Michael and makes fun of him behind his back. Is that kind or cruel?",
+    "model": "It is neither: it is the small daily dishonesty that keeps an office running, and the film makes us complicit by letting us enjoy it."
+   },
+   {
+    "q": "Why does the show keep cutting to characters talking to the camera?",
+    "model": "The talking heads let people explain themselves and expose themselves at the same time, because what they choose to say is the joke."
+   }
+  ],
   "poster": "assets/posters/the-office-s1e1.jpg"
  },
  {
@@ -13912,6 +21062,36 @@ window.FILM_DATA = [
     "answer": "thought",
     "hint": "an idea",
     "adapted": false
+   },
+   {
+    "line": "For his first month inside, Andy kept his head ___ and spoke to nobody.",
+    "answer": "down",
+    "hint": "lowered, out of sight",
+    "adapted": true
+   },
+   {
+    "line": "Brooks simply could not ___ it on the outside.",
+    "answer": "make",
+    "hint": "succeed, manage",
+    "adapted": true
+   },
+   {
+    "line": "The Warden ruled the prison with an ___ fist.",
+    "answer": "iron",
+    "hint": "hard and unyielding",
+    "adapted": true
+   },
+   {
+    "line": "Tommy let ___ that he knew who had really killed Andy's wife.",
+    "answer": "slip",
+    "hint": "revealed it by accident",
+    "adapted": true
+   },
+   {
+    "line": "The Warden's money was ___ through a false identity.",
+    "answer": "laundered",
+    "hint": "cleaned of its criminal origin",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -13944,6 +21124,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The Warden's motto, painted on his wall — while a very different salvation waits inside Andy's cell."
+   },
+   {
+    "quote": "I hope the Pacific is as blue as it has been in my dreams.",
+    "options": [
+     "Red",
+     "Andy",
+     "Brooks"
+    ],
+    "answer": 0,
+    "note": "Red's last letter, after he decides to follow Andy south."
+   },
+   {
+    "quote": "Brooks was here.",
+    "options": [
+     "Brooks",
+     "Red",
+     "Andy"
+    ],
+    "answer": 0,
+    "note": "Carved into the beam of the halfway house, and the saddest three words in the film."
    }
   ],
   "quiz": [
@@ -13996,6 +21196,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He leaves money and a bus ticket under a black rock at the oak tree, and hopes Red will follow him south."
+   },
+   {
+    "q": "Why does the Warden have Tommy killed?",
+    "options": [
+     "Tommy could prove Andy's innocence and expose the Warden",
+     "Tommy tried to escape with Red",
+     "Tommy stole money from the Warden"
+    ],
+    "answer": 0,
+    "why": "Tommy's story would reopen Andy's case and put the Warden's money, and his control over Andy, at risk."
+   },
+   {
+    "q": "Why does Andy write a letter to the state legislature every week?",
+    "options": [
+     "To get books and money for a prison library",
+     "To ask for a shorter sentence",
+     "To complain about the food"
+    ],
+    "answer": 0,
+    "why": "He writes for years until the state finally sends money and boxes of books for the library."
+   },
+   {
+    "q": "What finally makes Red leave for Mexico?",
+    "options": [
+     "Andy's letter and the money under the black rock",
+     "A job offer in Zihuatanejo",
+     "An order from the parole board"
+    ],
+    "answer": 0,
+    "why": "The letter gives him a promise to keep, and the money gives him a way to break the habit of staying put."
    }
   ],
   "roleplay": {
@@ -14044,6 +21274,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b2.json",
+  "truefalse": [
+   {
+    "s": "Andy works in the prison laundry before he is moved to the library.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The story is narrated by Red, not by Andy.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Andy asks Red for a rock hammer in the first weeks of his sentence.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Andy escapes on a snowy winter night.",
+    "answer": false,
+    "fix": "He escapes on a rainy night with thunder, crawling out through the sewer pipe."
+   },
+   {
+    "s": "Red finds Andy's money under a white rock near Buxton.",
+    "answer": false,
+    "fix": "The rock is black, the piece of volcanic rock Andy describes in his letter."
+   },
+   {
+    "s": "Tommy is killed in a fight with another prisoner.",
+    "answer": false,
+    "fix": "He is shot by a guard on the Warden's orders, and the death is reported as an escape attempt."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Red describes terrible events in a calm, almost gentle voice. Why does the film give him that voice instead of an angry one?",
+    "model": "A calm voice makes the horror sound ordinary and remembered, which is how prison changes a man; it also earns our trust, so we believe him when he finally speaks about hope."
+   },
+   {
+    "q": "Why does the film show the parole board three times, with almost the same questions each time?",
+    "model": "The repetition shows that the system wants a performance of regret rather than the truth, and Red only gets out when he stops performing."
+   },
+   {
+    "q": "The Warden calls himself a man of God and keeps a Bible by his desk. Why does the film make him quote scripture?",
+    "model": "It exposes the gap between the words he uses in public and the money he hides; the Bible that hides the hammer makes the hypocrisy literal."
+   },
+   {
+    "q": "Red says people have to get busy living. Why does the film give that line to Andy but the last word to Red?",
+    "model": "Andy's line is a challenge, but Red is the one who has to act on it, so the film ends with the change it has been describing for twenty years."
+   }
+  ],
   "poster": "assets/posters/shawshank.jpg"
  },
  {
@@ -14162,6 +21442,36 @@ window.FILM_DATA = [
     "answer": "enemies",
     "hint": "people who hate you",
     "adapted": true
+   },
+   {
+    "line": "Eduardo was slowly ___ out of his own company.",
+    "answer": "pushed",
+    "hint": "forced to leave",
+    "adapted": true
+   },
+   {
+    "line": "Eduardo put up the ___ money when the site was only an idea.",
+    "answer": "seed",
+    "hint": "the first money for a new business",
+    "adapted": true
+   },
+   {
+    "line": "Mark refused to ___ an inch during the deposition.",
+    "answer": "budge",
+    "hint": "move even slightly",
+    "adapted": true
+   },
+   {
+    "line": "Both sides wanted to ___ a settlement before the trial.",
+    "answer": "reach",
+    "hint": "arrive at an agreement",
+    "adapted": true
+   },
+   {
+    "line": "Mark managed to rub the twins up the wrong ___ in one meeting.",
+    "answer": "way",
+    "hint": "the wrong direction",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -14194,6 +21504,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Erica's parting shot in the first scene; the film spends two hours proving and disproving it."
+   },
+   {
+    "quote": "The internet isn't written in pencil, Mark. It's written in ink.",
+    "options": [
+     "Erica",
+     "Mark",
+     "Marylin"
+    ],
+    "answer": 0,
+    "note": "Erica's warning about what he has written about her online, and what cannot be taken back."
+   },
+   {
+    "quote": "I'm not a bad guy.",
+    "options": [
+     "Mark",
+     "Eduardo",
+     "Sean"
+    ],
+    "answer": 0,
+    "note": "His line to the lawyer after the depositions, and the claim the film spends two hours testing."
    }
   ],
   "quiz": [
@@ -14246,6 +21576,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "His shares are diluted and his name disappears from the paperwork."
+   },
+   {
+    "q": "Why does Mark build FaceMash on the night Erica breaks up with him?",
+    "options": [
+     "He is angry and wants to lash out at the students around him",
+     "He is helping the twins with their site",
+     "He is finishing a class project"
+    ],
+    "answer": 0,
+    "why": "The site is built in anger and drink, and it turns the evening's humiliation into something the whole campus can vote on."
+   },
+   {
+    "q": "Why does Eduardo freeze the company bank account?",
+    "options": [
+     "He wants Mark to answer him about the new shares",
+     "He is stealing the company's money",
+     "He wants to sell the company to Google"
+    ],
+    "answer": 0,
+    "why": "Mark stops answering him, so Eduardo uses the only power he has left to force a conversation."
+   },
+   {
+    "q": "What does Sean's arrest at the party show the investors?",
+    "options": [
+     "That he is brilliant but unreliable",
+     "That he owns most of the company",
+     "That he has never met Mark"
+    ],
+    "answer": 0,
+    "why": "The party and the arrest make him a risk to the company's image just as the serious money arrives."
    }
   ],
   "roleplay": {
@@ -14294,6 +21654,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b2.json",
+  "truefalse": [
+   {
+    "s": "Mark builds FaceMash after Erica breaks up with him in a bar.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Eduardo is the first person to put money into the company.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The Winklevoss twins row for Harvard.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Mark is a student at Stanford when the site begins.",
+    "answer": false,
+    "fix": "He is a Harvard student in 2003, and the site starts in his dormitory."
+   },
+   {
+    "s": "Eduardo's share of the company is diluted to thirty percent.",
+    "answer": false,
+    "fix": "It is diluted to 0.03 per cent, while the others keep their shares."
+   },
+   {
+    "s": "The twins ask Mark to build their site before he creates FaceMash.",
+    "answer": false,
+    "fix": "They approach him after FaceMash, because they have seen what he can build."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does the film tell the same story three times, in two depositions and in flashback?",
+    "model": "Each version serves the person telling it, so the film makes us compare them instead of trusting a narrator; truth becomes something the audience has to assemble."
+   },
+   {
+    "q": "Mark says he is not a bad guy. Why does the film let him say that and then show us the depositions?",
+    "model": "The line is a defence rather than a fact: the film lets him claim it and then shows the friends he lost, so we judge the claim against the evidence."
+   },
+   {
+    "q": "Sean speaks in slogans. Why does Mark listen to him and not to Eduardo?",
+    "model": "Sean sells a future Mark wants, while Eduardo asks him to be careful; the film shows that flattery is more persuasive than friendship."
+   },
+   {
+    "q": "What is the film really saying about who gets credit for an idea?",
+    "model": "It suggests that credit goes to whoever is in the room when the thing is built and to whoever can afford the lawyers, not to whoever thought of it first."
+   }
+  ],
   "poster": "assets/posters/social-network.jpg"
  },
  {
@@ -14412,6 +21822,36 @@ window.FILM_DATA = [
     "answer": "get",
     "hint": "to manage",
     "adapted": true
+   },
+   {
+    "line": "Dixon wanted to get ___ of Viktor before the inspection.",
+    "answer": "rid",
+    "hint": "make him disappear",
+    "adapted": true
+   },
+   {
+    "line": "By the third month, Viktor was at his wits' ___.",
+    "answer": "end",
+    "hint": "the limit of his patience",
+    "adapted": true
+   },
+   {
+    "line": "Viktor ___ up for Gupta when the inspectors arrived.",
+    "answer": "stood",
+    "hint": "defended him",
+    "adapted": true
+   },
+   {
+    "line": "Dixon pulled a few ___ to keep Viktor inside the terminal.",
+    "answer": "strings",
+    "hint": "used his influence",
+    "adapted": true
+   },
+   {
+    "line": "The whole terminal came to a ___ when Viktor refused to sign.",
+    "answer": "stop",
+    "hint": "a halt",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -14444,6 +21884,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The whole plan, in four words."
+   },
+   {
+    "quote": "I am from Krakozhia.",
+    "options": [
+     "Viktor",
+     "Gupta",
+     "Officer Torres"
+    ],
+    "answer": 0,
+    "note": "His answer to every official, and the one fact none of them will accept."
+   },
+   {
+    "quote": "You're a man without a country.",
+    "options": [
+     "Dixon",
+     "Viktor",
+     "Amelia"
+    ],
+    "answer": 0,
+    "note": "Dixon's summary of the case, said with the patience of a man reading a form."
    }
   ],
   "quiz": [
@@ -14496,6 +21956,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "She passes through the terminal every week and slowly becomes his friend."
+   },
+   {
+    "q": "Why does Viktor refuse Dixon's offer to leave the airport quietly?",
+    "options": [
+     "He would have to claim he was afraid to go home",
+     "He wants to stay in America for good",
+     "He has nowhere else to go"
+    ],
+    "answer": 0,
+    "why": "The offer depends on a lie about his country, and Viktor will not say it, even to get out."
+   },
+   {
+    "q": "How does Viktor first earn money inside the terminal?",
+    "options": [
+     "By returning luggage trolleys for the coins",
+     "By selling newspapers",
+     "By cleaning the floors at night"
+    ],
+    "answer": 0,
+    "why": "He collects the abandoned trolleys and keeps the deposit coins, which is just enough to eat."
+   },
+   {
+    "q": "Why does Amelia keep coming back to the terminal?",
+    "options": [
+     "She is unhappy and Viktor listens to her",
+     "She works at the airport",
+     "She is waiting for a visa"
+    ],
+    "answer": 0,
+    "why": "She passes through every week, and Viktor is the one person who asks her nothing and listens to everything."
    }
   ],
   "roleplay": {
@@ -14544,6 +22034,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "b2.json",
+  "truefalse": [
+   {
+    "s": "Viktor's country is called Krakozhia.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Viktor lives in the international transit lounge because he never crosses the border.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Viktor came to New York to get the last autograph for his father's collection.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Viktor's father was a jazz musician.",
+    "answer": false,
+    "fix": "His father was a fan who collected the signatures of jazz musicians."
+   },
+   {
+    "s": "Amelia is a customs officer at JFK.",
+    "answer": false,
+    "fix": "She is a flight attendant who passes through the terminal every week."
+   },
+   {
+    "s": "Viktor spends his first weeks in the terminal in a hotel room paid for by the airline.",
+    "answer": false,
+    "fix": "He sleeps on a bench in the transit lounge, because he has almost no money and cannot leave."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Viktor cannot leave the airport and cannot enter the country. Is the terminal a prison or a home?",
+    "model": "It becomes both: the film shows that a place can be a cage and a community at the same time, depending on who else is in it."
+   },
+   {
+    "q": "Dixon says he is only following the rules. Is he a villain, or a man with a job?",
+    "model": "He is a bureaucrat who hides behind procedure, and the film shows that ordinary rules can do harm when nobody asks who they are hurting."
+   },
+   {
+    "q": "Viktor learns English from signs and television. What does that say about how language is really learned?",
+    "model": "It says that need and repetition teach faster than lessons; he learns the words that let him survive, one sign at a time."
+   },
+   {
+    "q": "Why does the film keep Viktor's English simple and repetitive?",
+    "model": "The short sentences make him sound honest and stubborn, and they let us hear the effort behind every answer."
+   }
+  ],
   "poster": "assets/posters/the-terminal.jpg"
  },
  {
@@ -14662,6 +22202,36 @@ window.FILM_DATA = [
     "answer": "one",
     "hint": "the number after zero",
     "adapted": false
+   },
+   {
+    "line": "I'm not saying he's innocent. I'm saying there is ___ doubt.",
+    "answer": "reasonable",
+    "hint": "doubt a jury must take seriously",
+    "adapted": true
+   },
+   {
+    "line": "We owe him a few ___.",
+    "answer": "words",
+    "hint": "things said",
+    "adapted": false
+   },
+   {
+    "line": "You can't send a boy to die on a ___.",
+    "answer": "hunch",
+    "hint": "a guess based on feeling",
+    "adapted": true
+   },
+   {
+    "line": "Let's take it one ___ at a time.",
+    "answer": "step",
+    "hint": "a single stage in a process",
+    "adapted": true
+   },
+   {
+    "line": "What if the old man was ___?",
+    "answer": "mistaken",
+    "hint": "wrong about what he saw",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -14694,6 +22264,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "It turns the final holdout into a witness, not an enemy."
+   },
+   {
+    "quote": "We owe him a few words.",
+    "options": [
+     "Juror 8",
+     "Juror 3",
+     "Foreman"
+    ],
+    "answer": 0,
+    "note": "Juror 8 asks for discussion, not acquittal, and the line gives the film its moral minimum."
+   },
+   {
+    "quote": "Only an ignorant man can believe that.",
+    "options": [
+     "Juror 9",
+     "Juror 10",
+     "Juror 4"
+    ],
+    "answer": 0,
+    "note": "Juror 9 answers a racist generalisation with a sentence that is calm, precise and unanswerable."
    }
   ],
   "quiz": [
@@ -14746,6 +22336,36 @@ window.FILM_DATA = [
     ],
     "answer": 1,
     "why": "His rage is tied to his estranged son, and the photograph exposes the personal wound behind his vote."
+   },
+   {
+    "q": "Why does the film stay in one room for almost its whole running time?",
+    "options": [
+     "To make the audience feel the pressure of a decision with no escape",
+     "To save money on sets",
+     "To show that the courthouse is old"
+    ],
+    "answer": 0,
+    "why": "The single room removes distraction and forces us to watch twelve men negotiate the same facts until the facts change."
+   },
+   {
+    "q": "Why does Juror 8 wait until late in the film to reveal his own uncertainty?",
+    "options": [
+     "To keep the room arguing long enough to test its certainty",
+     "Because he secretly knows the boy is guilty",
+     "Because he wants to be chosen foreman"
+    ],
+    "answer": 0,
+    "why": "He withholds a personal verdict so the jury must examine evidence rather than follow a leader."
+   },
+   {
+    "q": "Why does Lumet move the camera lower and closer as the afternoon wears on?",
+    "options": [
+     "To make the room feel hotter and the men more trapped",
+     "To show the ceiling and the fan",
+     "To give every juror a heroic angle"
+    ],
+    "answer": 0,
+    "why": "The tightening frame turns a debate into a physical contest, and the heat becomes part of the argument."
    }
   ],
   "roleplay": {
@@ -14794,6 +22414,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c1.json",
+  "truefalse": [
+   {
+    "s": "Juror 8 votes not guilty because he believes the boy is innocent.",
+    "answer": false,
+    "fix": "He votes not guilty because he wants the jury to discuss the evidence, not because he is certain of innocence."
+   },
+   {
+    "s": "Juror 9 is the first man to join Juror 8's vote.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The jury re-enacts the old man's walk to test how long it took him to reach the door.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Juror 3's certainty is strengthened when he sees the photograph of his son.",
+    "answer": false,
+    "fix": "The photograph exposes the personal wound behind his certainty and breaks it."
+   },
+   {
+    "s": "Juror 4 changes his vote after he realises the woman wore glasses.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The film ends with the jury still unable to reach a verdict.",
+    "answer": false,
+    "fix": "The jury reaches a unanimous not-guilty verdict, and the film ends as two jurors exchange names outside."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Defend the reading that Juror 8 is trying to win a contest, not find the truth. What evidence supports it?",
+    "model": "He introduces the knife and the timing experiment as theatrical moves, and he often waits for the room's reaction before explaining. The film lets his strategy look like leadership, which is what makes the reading possible."
+   },
+   {
+    "q": "What does the film withhold about the boy, and why?",
+    "model": "We never see the murder or hear the boy's own account, so the jury's certainty has to be built from other people's words. That gap makes the audience share the jurors' dependence on testimony."
+   },
+   {
+    "q": "How does the language of the jury room build power?",
+    "model": "Jurors gain authority by naming procedures such as reasonable doubt, burden of proof and verdict, and they lose it when they shout. The film shows that whoever controls the vocabulary of the law controls the room."
+   },
+   {
+    "q": "Why is Juror 10's racist rant met with silence and turned backs rather than a speech?",
+    "model": "The staging lets the others withdraw consent instead of arguing, which is more damning than a reply. It shows that a room can reject a speaker without ever refuting him."
+   }
+  ],
   "poster": "assets/posters/twelve-angry-men.jpg"
  },
  {
@@ -14913,6 +22583,36 @@ window.FILM_DATA = [
     "answer": "linear",
     "hint": "moving in a straight line",
     "adapted": true
+   },
+   {
+    "line": "Unlike speech, a logogram is free of ___.",
+    "answer": "time",
+    "hint": "what clocks measure",
+    "adapted": false
+   },
+   {
+    "line": "So you get to see what's to ___.",
+    "answer": "happen",
+    "hint": "take place",
+    "adapted": false
+   },
+   {
+    "line": "We have to ask better ___.",
+    "answer": "questions",
+    "hint": "things you ask",
+    "adapted": true
+   },
+   {
+    "line": "They don't experience time the way we ___.",
+    "answer": "do",
+    "hint": "the verb that replaces 'experience time'",
+    "adapted": true
+   },
+   {
+    "line": "A translation is never entirely ___.",
+    "answer": "neutral",
+    "hint": "taking no side",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -14945,6 +22645,26 @@ window.FILM_DATA = [
     ],
     "answer": 2,
     "note": "The question is addressed to Ian, but the film has already asked it of Louise."
+   },
+   {
+    "quote": "I used to think this was the beginning of your story.",
+    "options": [
+     "Louise",
+     "Ian",
+     "Hannah"
+    ],
+    "answer": 0,
+    "note": "The opening narration addresses Hannah and quietly tells us the film's story is already a memory."
+   },
+   {
+    "quote": "It conveys meaning, it does not represent sound.",
+    "options": [
+     "Ian",
+     "Louise",
+     "Weber"
+    ],
+    "answer": 0,
+    "note": "Ian's description of the logograms is the technical key to the film's view of language."
    }
   ],
   "quiz": [
@@ -14997,6 +22717,36 @@ window.FILM_DATA = [
     ],
     "answer": 2,
     "why": "She chooses the life she has seen, including its joy and its loss."
+   },
+   {
+    "q": "Why does the film open with Louise's voice-over about beginnings and endings before we see the aliens?",
+    "options": [
+     "To place the story inside a memory that already knows its ending",
+     "To explain the plot before it starts",
+     "To introduce Colonel Weber's point of view"
+    ],
+    "answer": 0,
+    "why": "The frame prepares us to read the flash-forwards as memory rather than as a separate storyline."
+   },
+   {
+    "q": "Why does Villeneuve keep the heptapods behind mist and glass for most of the film?",
+    "options": [
+     "To make us work at reading them, as the linguists must",
+     "To hide inexpensive visual effects",
+     "To suggest they are hostile from the start"
+    ],
+    "answer": 0,
+    "why": "The visual restraint turns the audience into interpreters, so the aliens' meaning is never given to us directly."
+   },
+   {
+    "q": "Why do different countries translate the word weapon differently?",
+    "options": [
+     "To show that interpretation is shaped by the interpreter's fear",
+     "To prove that the aliens speak many languages",
+     "To set up a spy subplot"
+    ],
+    "answer": 0,
+    "why": "The mistranslation turns a linguistic problem into a political one, and the film argues that fear is a kind of bad translation."
    }
   ],
   "roleplay": {
@@ -15045,6 +22795,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c1.json",
+  "truefalse": [
+   {
+    "s": "Louise is a linguist recruited by the army to communicate with the visitors.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The heptapods' written language is circular and not bound to the order of speech.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Learning the language changes how Louise experiences time.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The aliens are named Abbott and Costello by Louise.",
+    "answer": false,
+    "fix": "Ian names them Abbott and Costello."
+   },
+   {
+    "s": "The film confirms that the visitors came to attack humanity.",
+    "answer": false,
+    "fix": "Their message is a gift, and the word weapon is a mistranslation that nearly starts a war."
+   },
+   {
+    "s": "Louise chooses not to have a child once she sees her future.",
+    "answer": false,
+    "fix": "She chooses to have Hannah, knowing both the joy and the loss ahead."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Defend the reading that Arrival is about grief rather than time. What supports it?",
+    "model": "The time loop is the device, but the emotional centre is a mother rehearsing a loss she cannot prevent. Louise's choice only matters because the film treats memory as a way of loving someone before and after death."
+   },
+   {
+    "q": "What does the film withhold about the aliens' purpose, and why?",
+    "model": "It withholds a clear statement until Louise can read the logogram, so the audience shares her slow work of interpretation. The delay makes understanding feel earned rather than explained."
+   },
+   {
+    "q": "How does the language of the film build the argument that translation is an ethical act?",
+    "model": "The characters keep asking what a word can be used for, and the army's vocabulary of threat keeps misreading a gift. The film makes every translation a decision about whom to trust."
+   },
+   {
+    "q": "Why might the film refuse to show us Hannah's death directly?",
+    "model": "Showing it would turn the future into a single event, while the film wants it to exist as many ordinary moments. The restraint lets us feel the life around the loss rather than the loss alone."
+   }
+  ],
   "poster": "assets/posters/arrival.jpg"
  },
  {
@@ -15163,6 +22963,36 @@ window.FILM_DATA = [
     "answer": "celebrity",
     "hint": "a famous person",
     "adapted": false
+   },
+   {
+    "line": "I'm trying to do something ___.",
+    "answer": "important",
+    "hint": "serious and meaningful",
+    "adapted": false
+   },
+   {
+    "line": "You're the one who doesn't ___.",
+    "answer": "exist",
+    "hint": "be real or present",
+    "adapted": false
+   },
+   {
+    "line": "You're doing this because you wanna feel ___ again.",
+    "answer": "relevant",
+    "hint": "important to the present",
+    "adapted": false
+   },
+   {
+    "line": "You're not doing this for the sake of ___.",
+    "answer": "art",
+    "hint": "serious creative work",
+    "adapted": false
+   },
+   {
+    "line": "I'm not a movie star. I'm an ___.",
+    "answer": "actor",
+    "hint": "someone who performs roles",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -15195,6 +23025,26 @@ window.FILM_DATA = [
     ],
     "answer": 2,
     "note": "The voice promises that spectacle will save him; the ending tests the promise."
+   },
+   {
+    "quote": "You're not important. Get used to it.",
+    "options": [
+     "Sam",
+     "Mike",
+     "Tabitha"
+    ],
+    "answer": 0,
+    "note": "Sam says it to her father, and the film never quite proves her wrong."
+   },
+   {
+    "quote": "I'm trying to do something important.",
+    "options": [
+     "Riggan",
+     "Sam",
+     "Jake"
+    ],
+    "answer": 0,
+    "note": "Riggan's defence of the play is also a plea to be taken seriously."
    }
   ],
   "quiz": [
@@ -15247,6 +23097,36 @@ window.FILM_DATA = [
     ],
     "answer": 1,
     "why": "The film ends with Sam looking out of the window and smiling, leaving his fate open."
+   },
+   {
+    "q": "Why does the film show Riggan walking through Times Square in his underwear?",
+    "options": [
+     "To make his public humiliation literal and comic at once",
+     "To show that he cannot afford clothes",
+     "To advertise the play's opening night"
+    ],
+    "answer": 0,
+    "why": "The scene turns a private fear of exposure into a public spectacle, which is exactly what Riggan both dreads and wants."
+   },
+   {
+    "q": "Why does the camera stay behind Sam at the window instead of showing what she sees?",
+    "options": [
+     "To leave Riggan's fate open and put the interpretation on us",
+     "To hide a mistake in the special effects",
+     "To set up a sequel about Sam"
+    ],
+    "answer": 0,
+    "why": "Her smile is the only evidence, so the audience must decide whether it means flight, death or freedom."
+   },
+   {
+    "q": "Why does the voice in Riggan's head sound most confident when he is alone and failing?",
+    "options": [
+     "To show that the fantasy feeds on isolation and shame",
+     "To prove that Birdman is a real superhero",
+     "To explain the play's plot to the audience"
+    ],
+    "answer": 0,
+    "why": "The voice offers grandeur exactly when Riggan has no audience, so it works as a symptom rather than a solution."
    }
   ],
   "roleplay": {
@@ -15295,6 +23175,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c1.json",
+  "truefalse": [
+   {
+    "s": "Riggan is adapting a Raymond Carver story for the Broadway stage.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Mike Shiner is a celebrated stage actor who joins the production.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Tabitha Dickinson promises to destroy the play with her review.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Riggan actually flies over New York at the end, and the film confirms it.",
+    "answer": false,
+    "fix": "The film never confirms the flying; Sam's smile leaves it ambiguous."
+   },
+   {
+    "s": "Mike Shiner is Riggan's agent and negotiates the theatre lease.",
+    "answer": false,
+    "fix": "Mike is a stage actor who joins the cast, not Riggan's agent."
+   },
+   {
+    "s": "The film ends with Riggan dying on stage and the play closing.",
+    "answer": false,
+    "fix": "He shoots himself on stage but survives; the play becomes a success, and the ending leaves his jump unresolved."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Defend the reading that Riggan is a reliable narrator and the film's magic is real. Which moments support it?",
+    "model": "Objects move without being touched, and the voice predicts events that then happen on stage. The film never gives us a doctor's diagnosis, so the magical reading remains available."
+   },
+   {
+    "q": "What does the film withhold at the end, and why?",
+    "model": "It withholds the view from the window, so we cannot tell whether Sam is watching her father fly or fall. The choice keeps the film's argument about art and delusion unresolved."
+   },
+   {
+    "q": "How does the continuous-take illusion shape the way we judge Riggan?",
+    "model": "Because we never cut away, we are trapped in his backstage rush and see no outside perspective. The camera makes us complicit in his self-dramatisation instead of letting us stand back."
+   },
+   {
+    "q": "What does Tabitha represent in the film's argument about criticism and fame?",
+    "model": "She speaks for a cultural hierarchy that despises popular success and controls the review pages. Her power exposes how much of Riggan's crisis is really about who is allowed to call something art."
+   }
+  ],
   "poster": "assets/posters/birdman.jpg"
  },
  {
@@ -15416,6 +23346,36 @@ window.FILM_DATA = [
     "answer": "made",
     "hint": "put forward, officially",
     "adapted": false
+   },
+   {
+    "line": "There's not long to formulate our ___.",
+    "answer": "response",
+    "hint": "official reply",
+    "adapted": false
+   },
+   {
+    "line": "UKN is ___ to us.",
+    "answer": "dead",
+    "hint": "finished, no longer a friend",
+    "adapted": false
+   },
+   {
+    "line": "Everyone's ___ at us.",
+    "answer": "laughing",
+    "hint": "making fun of us",
+    "adapted": false
+   },
+   {
+    "line": "We're losing ___ of it.",
+    "answer": "control",
+    "hint": "power over the situation",
+    "adapted": true
+   },
+   {
+    "line": "The public has a right to ___.",
+    "answer": "know",
+    "hint": "be informed",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -15448,6 +23408,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The Prime Minister's first answer to the demand - before he understands the pressure."
+   },
+   {
+    "quote": "Everyone's laughing at us.",
+    "options": [
+     "Jane",
+     "Michael",
+     "Alex Cairns"
+    ],
+    "answer": 0,
+    "note": "Jane states the public mood as a fact, and her certainty is what Michael cannot answer."
+   },
+   {
+    "quote": "In their heads, that's what you're doing.",
+    "options": [
+     "Jane",
+     "Michael",
+     "Tom Blice"
+    ],
+    "answer": 0,
+    "note": "Jane tells Michael that the country has already staged the act in its imagination."
    }
   ],
   "quiz": [
@@ -15500,6 +23480,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "She was freed thirty minutes before the broadcast, and the Home Secretary keeps it from him."
+   },
+   {
+    "q": "Why does the episode show the demand spreading on screens before the government meeting?",
+    "options": [
+     "To show that the public reaction is already ahead of the official response",
+     "To introduce the kidnapper's identity",
+     "To explain how the video was made"
+    ],
+    "answer": 0,
+    "why": "The sequence reverses the usual order: the country reacts before the state has decided, and the rest of the episode is an attempt to catch up."
+   },
+   {
+    "q": "Why does the episode stay outside the room during the broadcast?",
+    "options": [
+     "To make the audience imagine the act and confront its own curiosity",
+     "To avoid showing the actor's face",
+     "To suggest that nothing happens"
+    ],
+    "answer": 0,
+    "why": "The camera's refusal turns the viewer into a witness who is denied the spectacle, which makes the episode's point about complicity."
+   },
+   {
+    "q": "Why does the episode end with approval ratings and a silent wife rather than with the princess's rescue?",
+    "options": [
+     "To show that the political story survives and the human cost does not",
+     "To set up a second episode about the princess",
+     "To prove that the Prime Minister enjoyed the broadcast"
+    ],
+    "answer": 0,
+    "why": "The ironic ending measures the event in public opinion, leaving the private damage almost wordless."
    }
   ],
   "roleplay": {
@@ -15547,7 +23557,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "wave2-s2.json"
+  "_src": "wave2-s2.json",
+  "truefalse": [
+   {
+    "s": "The kidnapper demands that the Prime Minister perform a degrading act with a pig on live television.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The kidnapper releases the princess before the broadcast.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The Home Secretary arranges a fabricated broadcast using a body double.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The Prime Minister refuses the demand and the broadcast never happens.",
+    "answer": false,
+    "fix": "He goes through with the broadcast, believing the princess is still in danger."
+   },
+   {
+    "s": "The press agrees to a D-notice and keeps the story quiet.",
+    "answer": false,
+    "fix": "The newspapers ignore the D-notice and publish within hours."
+   },
+   {
+    "s": "The episode shows the broadcast in explicit detail.",
+    "answer": false,
+    "fix": "The camera stays outside the room and shows only the reaction, not the act."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Defend the reading that the episode is about the audience, not the Prime Minister. What supports it?",
+    "model": "The kidnapper's power comes from the public's appetite, and the episode keeps cutting to screens, headlines and viewing figures. The final ratings joke makes us part of the crowd that demanded the spectacle."
+   },
+   {
+    "q": "What does the episode withhold, and why does that make it worse?",
+    "model": "It withholds the act itself and most of the princess's experience, so our imagination fills the gap. That gap turns the viewer into a collaborator rather than a spectator."
+   },
+   {
+    "q": "How does the language of news and government shape the moral choices?",
+    "model": "Phrases like the demand has been made and page one make an obscene event sound like a scheduling problem. The calm register exposes how institutions protect themselves by naming things politely."
+   },
+   {
+    "q": "Why might the episode's ending be read as a critique of approval ratings rather than of the Prime Minister?",
+    "model": "The final numbers suggest that the public judges the crisis by how it looks, not by what it cost. The wife's silence is the one reaction that cannot be turned into a statistic."
+   }
+  ]
  },
  {
   "id": "his-girl-friday",
@@ -15671,6 +23731,36 @@ window.FILM_DATA = [
     "answer": "married",
     "hint": "husband and wife",
     "adapted": true
+   },
+   {
+    "line": "I'm through with the newspaper ___.",
+    "answer": "business",
+    "hint": "the work of newspapers",
+    "adapted": false
+   },
+   {
+    "line": "You've got the brain of a ___.",
+    "answer": "pancake",
+    "hint": "a flat breakfast food",
+    "adapted": false
+   },
+   {
+    "line": "You're wonderful - in a ___ sort of way.",
+    "answer": "loathsome",
+    "hint": "disgusting but compelling",
+    "adapted": false
+   },
+   {
+    "line": "I'm no suburban bridge ___.",
+    "answer": "player",
+    "hint": "someone who plays cards",
+    "adapted": false
+   },
+   {
+    "line": "He comes by it naturally. His grandfather was a ___.",
+    "answer": "snake",
+    "hint": "a long, crawling animal",
+    "adapted": false
    }
   ],
   "quotes": [
@@ -15703,6 +23793,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Walter has no patience for private life getting in the way of copy."
+   },
+   {
+    "quote": "You've got the brain of a pancake.",
+    "options": [
+     "Walter",
+     "Hildy",
+     "Bruce"
+    ],
+    "answer": 0,
+    "note": "Walter's insult is affectionate and contemptuous at once, which is the film's whole tone."
+   },
+   {
+    "quote": "You're wonderful - in a loathsome sort of way.",
+    "options": [
+     "Hildy",
+     "Walter",
+     "Bruce"
+    ],
+    "answer": 0,
+    "note": "Hildy's compliment keeps its escape route open: admiration and disgust arrive in the same sentence."
    }
   ],
   "quiz": [
@@ -15755,6 +23865,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The last scene sends them off to cover one more story together."
+   },
+   {
+    "q": "Why does Hawks let the newsroom dialogue overlap so heavily?",
+    "options": [
+     "To make the audience feel the speed and noise of the job",
+     "To hide the plot from the audience",
+     "To suggest that nobody in the room is intelligent"
+    ],
+    "answer": 0,
+    "why": "The overlap creates the film's comic texture and trains us to catch meaning without hearing every word."
+   },
+   {
+    "q": "Why is Bruce given so little to do except wait and ask about trains?",
+    "options": [
+     "To make him the quiet measure of the life Hildy says she wants",
+     "To set up a sequel about insurance",
+     "To show that he is the film's villain"
+    ],
+    "answer": 0,
+    "why": "Bruce is decent and dull by design, so the audience feels the pull of a normal life even while enjoying Walter's chaos."
+   },
+   {
+    "q": "Why does the film end with Walter and Hildy heading off to cover another story rather than with a wedding?",
+    "options": [
+     "To show that the job is their real marriage",
+     "To leave room for a courtroom sequel",
+     "To prove that Hildy has given up writing"
+    ],
+    "answer": 0,
+    "why": "The last lines fold romance back into work, which is the film's joke and its argument."
    }
   ],
   "roleplay": {
@@ -15803,6 +23943,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "open.json",
+  "truefalse": [
+   {
+    "s": "Hildy plans to leave the newspaper and marry Bruce Baldwin.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Walter keeps inventing reasons to delay Hildy so she will stay on the story.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The death-row interview becomes a major scoop after the prisoner escapes.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Bruce is a fast-talking newspaper editor who outwits Walter.",
+    "answer": false,
+    "fix": "Bruce is a quiet insurance salesman, and Walter outmanoeuvres him repeatedly."
+   },
+   {
+    "s": "Walter wants Hildy back only because he is lonely and has no interest in the story.",
+    "answer": false,
+    "fix": "Walter wants her back on the story as much as he wants her back in his life."
+   },
+   {
+    "s": "The film ends with Hildy marrying Bruce and leaving for Albany.",
+    "answer": false,
+    "fix": "She stays with the paper and heads off with Walter to cover another story."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Defend the reading that Hildy is the real protagonist and Walter is the obstacle. What supports it?",
+    "model": "The film follows her choice between two lives, and every scene measures how much of her talent Walter can borrow. Walter drives the plot, but Hildy is the one who must decide what her work is worth."
+   },
+   {
+    "q": "What does the film's overlapping dialogue take away from the audience, and what does it give in return?",
+    "model": "It takes away the comfort of hearing every line and gives the sensation of a real, fast workplace. That loss is the point: we learn to read tone, interruption and intention rather than waiting for a clean sentence."
+   },
+   {
+    "q": "How does the film use comedy to make a serious point about work and marriage?",
+    "model": "The jokes keep proposing that a woman must choose between being a reporter and being a wife. By making that choice absurd, the film exposes how narrow the options were."
+   },
+   {
+    "q": "Why might Walter be charming rather than merely manipulative?",
+    "model": "He is honest about his desire to win, and his schemes are aimed at a person he genuinely respects. The film lets us enjoy the manipulation because it never pretends Walter is harmless."
+   }
+  ],
   "poster": "assets/posters/his-girl-friday.jpg"
  },
  {
@@ -15922,6 +24112,36 @@ window.FILM_DATA = [
     "answer": "faith",
     "hint": "belief without proof",
     "adapted": false
+   },
+   {
+    "line": "I specialize in a very specific type of ___.",
+    "answer": "security",
+    "hint": "the work of keeping something safe",
+    "adapted": false
+   },
+   {
+    "line": "If you're going to perform inception, you need ___.",
+    "answer": "imagination",
+    "hint": "the ability to invent images and ideas",
+    "adapted": false
+   },
+   {
+    "line": "What is the most resilient parasite? An ___.",
+    "answer": "idea",
+    "hint": "a thought that takes hold",
+    "adapted": true
+   },
+   {
+    "line": "You keep telling yourself what you know. But what do you ___?",
+    "answer": "believe",
+    "hint": "accept as true",
+    "adapted": false
+   },
+   {
+    "line": "The dream has become their ___.",
+    "answer": "reality",
+    "hint": "the world they think is real",
+    "adapted": false
    }
   ],
   "quotes": [
@@ -15954,6 +24174,26 @@ window.FILM_DATA = [
     ],
     "answer": 2,
     "note": "Mal repeats it in limbo, where the train is both memory and trap."
+   },
+   {
+    "quote": "What is the most resilient parasite? An idea.",
+    "options": [
+     "Cobb",
+     "Saito",
+     "Eames"
+    ],
+    "answer": 0,
+    "note": "Cobb's opening pitch to Saito turns a metaphor into the film's method."
+   },
+   {
+    "quote": "You keep telling yourself what you know. But what do you believe?",
+    "options": [
+     "Mal",
+     "Ariadne",
+     "Cobb"
+    ],
+    "answer": 0,
+    "note": "Mal asks it in limbo, and the question exposes the difference between memory and faith."
    }
   ],
   "quiz": [
@@ -16006,6 +24246,36 @@ window.FILM_DATA = [
     ],
     "answer": 1,
     "why": "Nolan cuts before the top falls, leaving Cobb's reality unresolved."
+   },
+   {
+    "q": "Why does the film show Paris folding before anyone explains the rules of dreaming?",
+    "options": [
+     "To let us feel the dream's logic before we can name it",
+     "To prove that Ariadne is a better architect than Cobb",
+     "To show that Cobb misses living in Paris"
+    ],
+    "answer": 0,
+    "why": "The spectacle teaches the audience the same lesson Ariadne is learning: in a dream, the world can obey a different physics."
+   },
+   {
+    "q": "Saito offers Cobb a clean record rather than money. Why is that the stronger offer?",
+    "options": [
+     "It answers the one thing Cobb cannot buy: going home to his children",
+     "It would make Cobb rich enough to retire",
+     "It would keep Cobb out of Fischer's dreams"
+    ],
+    "answer": 0,
+    "why": "Cobb's guilt and exile are the real stakes, so the promise of a legal identity is worth more to him than cash."
+   },
+   {
+    "q": "Why does Nolan cross-cut the van, the hotel, the snow fortress and limbo instead of finishing one level at a time?",
+    "options": [
+     "To turn four escapes into one shared deadline",
+     "To hide how little dialogue the climax contains",
+     "To show that Ariadne has lost control of the dream"
+    ],
+    "answer": 0,
+    "why": "The cuts synchronise the kicks, so the audience feels time as a single physical pressure rather than four separate stories."
    }
   ],
   "roleplay": {
@@ -16054,6 +24324,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c1.json",
+  "truefalse": [
+   {
+    "s": "Cobb's team enters Fischer's dream without his knowledge or consent.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Ariadne is recruited because she can build impossible spaces.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Saito promises to clear Cobb's name so that Cobb can return to his children.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The film confirms that Cobb is awake at the end by showing the top fall.",
+    "answer": false,
+    "fix": "The film cuts to black before the top falls, so Cobb's reality stays unresolved."
+   },
+   {
+    "s": "Mal appears in Cobb's dreams because she is a real agent working for Saito.",
+    "answer": false,
+    "fix": "Mal is Cobb's dead wife and a projection of his guilt, not a living agent."
+   },
+   {
+    "s": "The spinning top was Ariadne's totem before Cobb borrowed it.",
+    "answer": false,
+    "fix": "The top was Mal's totem, and Cobb uses it to test his own reality."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Defend the reading that the film is about Cobb's grief rather than dream technology. Which two scenes support it?",
+    "model": "The dream machinery is the language, but the engine is Cobb's refusal to accept Mal's death. His limbo confession and his repeated projection of Mal show that every job is also a visit to the same wound."
+   },
+   {
+    "q": "Nolan withholds the fall of the top. What does that withholding ask the audience to do?",
+    "model": "It forces us to choose between the evidence on screen and our need for a verdict. The cut makes the audience complicit in Cobb's leap of faith."
+   },
+   {
+    "q": "How does the heist structure keep us complicit in Cobb's lies to his team?",
+    "model": "We want the job to succeed, so we accept the rules Cobb withholds from Ariadne and the others. The film makes our suspense depend on the same omissions that endanger the team."
+   },
+   {
+    "q": "Why place Ariadne's first lesson in a Paris street rather than in a lecture hall?",
+    "model": "The street lets her touch and fold the dream instead of hearing about it, so the audience learns by spectacle. It also makes her creativity look playful before the film reveals how dangerous it is."
+   }
+  ],
   "poster": "assets/posters/inception.jpg"
  },
  {
@@ -16172,6 +24492,36 @@ window.FILM_DATA = [
     "answer": "help",
     "hint": "give you support",
     "adapted": true
+   },
+   {
+    "line": "It was an ___.",
+    "answer": "accident",
+    "hint": "something that happens by chance, not design",
+    "adapted": true
+   },
+   {
+    "line": "You can't ___ yourself.",
+    "answer": "blame",
+    "hint": "hold responsible",
+    "adapted": true
+   },
+   {
+    "line": "Some things you can't ___.",
+    "answer": "fix",
+    "hint": "repair",
+    "adapted": true
+   },
+   {
+    "line": "There's nothing ___.",
+    "answer": "there",
+    "hint": "the place already mentioned",
+    "adapted": false
+   },
+   {
+    "line": "We don't have to ___ about it.",
+    "answer": "talk",
+    "hint": "speak",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -16204,6 +24554,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "In the street scene, the simplest line is the one that costs the most."
+   },
+   {
+    "quote": "There's nothing there.",
+    "options": [
+     "Lee",
+     "Randi",
+     "Patrick"
+    ],
+    "answer": 0,
+    "note": "Lee's answer to Randi's attempt to reach him is also a description of himself."
+   },
+   {
+    "quote": "I said a lot of terrible things to you.",
+    "options": [
+     "Randi",
+     "Lee",
+     "George"
+    ],
+    "answer": 0,
+    "note": "Randi begins the street scene with an apology that Lee cannot accept without breaking."
    }
   ],
   "quiz": [
@@ -16256,6 +24626,36 @@ window.FILM_DATA = [
     ],
     "answer": 1,
     "why": "Patrick stays in Manchester with George, while Lee moves back to Boston."
+   },
+   {
+    "q": "Why does the film keep Lee's house-fire memory in brief, unmarked flashes?",
+    "options": [
+     "To make the past arrive without warning, as it does for Lee",
+     "To keep the audience from understanding what happened",
+     "To save the cost of a large set"
+    ],
+    "answer": 0,
+    "why": "The flashes refuse chronology, so we experience memory as an intrusion rather than a story Lee controls."
+   },
+   {
+    "q": "Why does the camera stay on Lee's face after the police interview instead of following the officers?",
+    "options": [
+     "To show that not being charged is not the same as being forgiven",
+     "To suggest the police are about to arrest him",
+     "To let the actor explain his feelings in a speech"
+    ],
+    "answer": 0,
+    "why": "The silence makes the legal decision feel irrelevant to the guilt Lee has already sentenced himself to."
+   },
+   {
+    "q": "Why does the film end with Lee and Patrick fishing rather than with a reconciliation?",
+    "options": [
+     "To show that ordinary routine can continue without the wound closing",
+     "To suggest that Lee has fully recovered",
+     "To introduce a new guardian for Patrick"
+    ],
+    "answer": 0,
+    "why": "The boat returns them to a shared habit, not a cure, so the ending is tender without being false."
    }
   ],
   "roleplay": {
@@ -16304,6 +24704,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c1.json",
+  "truefalse": [
+   {
+    "s": "Joe's will names Lee as Patrick's guardian.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Lee works as a handyman in Boston when the film begins.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Patrick stays in Manchester with George at the end.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Lee's children died in a car accident caused by Randi.",
+    "answer": false,
+    "fix": "They died in a house fire while Lee was out, and Randi was not responsible."
+   },
+   {
+    "s": "Lee decides to move back into his old house in Manchester to help Patrick.",
+    "answer": false,
+    "fix": "He moves back to Boston, and Patrick stays with George in Manchester."
+   },
+   {
+    "s": "The film shows the house fire in a single continuous flashback.",
+    "answer": false,
+    "fix": "The fire is shown in brief fragments, and the full memory arrives late in the film."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Defend the reading that Patrick is the strongest person in the film, not Lee. Which two choices support it?",
+    "model": "Patrick keeps playing hockey, keeps his band and insists on staying in the town that holds his father's memory. He grieves while continuing to live, which is the thing Lee cannot do."
+   },
+   {
+    "q": "What does the film withhold about Lee's guilt, and why?",
+    "model": "It never lets anyone absolve him, and it never shows the moment of the fire in full. That withholding keeps the audience in the same unfinished sentence as Lee."
+   },
+   {
+    "q": "How does the film's dialogue build the feeling of a town that cannot forget?",
+    "model": "People greet Lee with politeness that keeps slipping into blame, and the pauses do more work than the words. The script makes ordinary conversation carry a history everyone already knows."
+   },
+   {
+    "q": "Why might the film refuse to show Lee crying or explaining himself?",
+    "model": "His restraint is the subject, not an obstacle to it. By keeping him closed, the film asks us to read grief in behaviour rather than in confession."
+   }
+  ],
   "poster": "assets/posters/manchester-by-the-sea.jpg"
  },
  {
@@ -16422,6 +24872,36 @@ window.FILM_DATA = [
     "answer": "belt",
     "hint": "a hit that is unfairly low",
     "adapted": true
+   },
+   {
+    "line": "All your best acting is ___ you.",
+    "answer": "behind",
+    "hint": "in the past",
+    "adapted": false
+   },
+   {
+    "line": "You're being so much like your ___.",
+    "answer": "father",
+    "hint": "his parent",
+    "adapted": false
+   },
+   {
+    "line": "You're ___ Henry.",
+    "answer": "suffocating",
+    "hint": "not giving him room to breathe",
+    "adapted": false
+   },
+   {
+    "line": "You chose this ___.",
+    "answer": "life",
+    "hint": "the way you live",
+    "adapted": false
+   },
+   {
+    "line": "I don't know how to ___.",
+    "answer": "start",
+    "hint": "begin",
+    "adapted": false
    }
   ],
   "quotes": [
@@ -16454,6 +24934,26 @@ window.FILM_DATA = [
     ],
     "answer": 1,
     "note": "Nicole says it in Nora's office, and it reframes the marriage as a life she watched from outside."
+   },
+   {
+    "quote": "We have to prepare to go to court hoping we don't go to court.",
+    "options": [
+     "Bert Spitz",
+     "Nora Fanshaw",
+     "Charlie"
+    ],
+    "answer": 0,
+    "note": "Bert explains that the legal system makes every reasonable choice feel like a threat."
+   },
+   {
+    "quote": "Getting divorced with a kid is one of the hardest things to do.",
+    "options": [
+     "Bert Spitz",
+     "Nora Fanshaw",
+     "Charlie"
+    ],
+    "answer": 0,
+    "note": "The lawyer's plain sentence lands harder than any courtroom speech in the film."
    }
   ],
   "quiz": [
@@ -16506,6 +25006,36 @@ window.FILM_DATA = [
     ],
     "answer": 1,
     "why": "Nicole ties Charlie's shoe while he holds Henry, a small act of care after the legal war."
+   },
+   {
+    "q": "Why does the film open with two parallel montages of the things Charlie and Nicole love about each other?",
+    "options": [
+     "To make us hear the affection before the legal language takes over",
+     "To show that they are already divorced",
+     "To introduce the supporting cast"
+    ],
+    "answer": 0,
+    "why": "The lists establish an intimacy that the rest of the film will translate into evidence, so we feel the loss of a shared vocabulary."
+   },
+   {
+    "q": "Why does the film give both spouses a long monologue in a lawyer's office?",
+    "options": [
+     "To show how the same marriage becomes two incompatible stories",
+     "To prove that one of them is lying",
+     "To explain the legal process to the audience"
+    ],
+    "answer": 0,
+    "why": "Each monologue is coherent on its own terms, and the film's sadness comes from the fact that both can be true."
+   },
+   {
+    "q": "Why does the final shoe-tying gesture arrive after the legal case is over?",
+    "options": [
+     "To show that care survives the roles the law assigned them",
+     "To suggest they will remarry",
+     "To show that Charlie cannot tie his own shoes"
+    ],
+    "answer": 0,
+    "why": "The gesture is small, unprompted and outside the settlement, so it belongs to the people rather than to the case."
    }
   ],
   "roleplay": {
@@ -16554,6 +25084,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c1.json",
+  "truefalse": [
+   {
+    "s": "Charlie and Nicole begin with a mediator's exercise in which they read lists of what they love about each other.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Nora Fanshaw becomes Nicole's lawyer.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The apartment argument escalates until Charlie says something he cannot take back.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Nicole wants to stay in New York because her television work is there.",
+    "answer": false,
+    "fix": "Nicole wants to stay in Los Angeles, where her television pilot and her sense of home are."
+   },
+   {
+    "s": "The mediator succeeds in getting them to read their lists aloud together.",
+    "answer": false,
+    "fix": "Neither can finish reading the list, and the exercise collapses."
+   },
+   {
+    "s": "The film ends with Charlie and Nicole back together.",
+    "answer": false,
+    "fix": "They remain divorced; the final gesture shows care, not reconciliation."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Defend the reading that Charlie is the more sympathetic parent. Which two moments support it?",
+    "model": "He tries to keep the divorce cheap and civil, and he is the one who reads Nicole's list with tenderness. The film also shows him humiliated by a legal system he did not choose, which makes his failures look like exhaustion rather than malice."
+   },
+   {
+    "q": "What does the film withhold about the cause of the marriage's collapse, and why?",
+    "model": "It refuses a single culprit, giving each spouse a coherent account of the same years. That ambiguity makes the divorce feel like a slow mismatch rather than a crime with a defendant."
+   },
+   {
+    "q": "How does the legal language in the film change the way the couple speak to each other?",
+    "model": "Words like custody, settlement and served turn intimacy into negotiation, and both start performing for their lawyers. The film shows that a vocabulary designed to settle a case can make honest feeling harder to say."
+   },
+   {
+    "q": "Why might the film's sympathy for both spouses be a limitation as well as a strength?",
+    "model": "It lets us understand each side, which is humane and rare. But balance can blur the unequal costs the film itself exposes, especially the different standards applied to mothers and fathers."
+   }
+  ],
   "poster": "assets/posters/marriage-story.jpg"
  },
  {
@@ -16676,6 +25256,36 @@ window.FILM_DATA = [
     "answer": "chance",
     "hint": "one or the other, no skill",
     "adapted": false
+   },
+   {
+    "line": "I didn't know, I ___.",
+    "answer": "saw",
+    "hint": "perceived with my eyes",
+    "adapted": false
+   },
+   {
+    "line": "You lower the ___ of the whole street.",
+    "answer": "IQ",
+    "hint": "a measure of intelligence",
+    "adapted": false
+   },
+   {
+    "line": "I consider myself married to my ___.",
+    "answer": "work",
+    "hint": "his job",
+    "adapted": false
+   },
+   {
+    "line": "The police don't consult ___.",
+    "answer": "amateurs",
+    "hint": "people who are not professionals",
+    "adapted": false
+   },
+   {
+    "line": "I play the violin when I'm ___.",
+    "answer": "thinking",
+    "hint": "using my mind",
+    "adapted": false
    }
   ],
   "quotes": [
@@ -16708,6 +25318,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Sherlock's first deduction about John, in the lab at Bart's."
+   },
+   {
+    "quote": "Nothing happens to me.",
+    "options": [
+     "John",
+     "Sherlock",
+     "Mycroft"
+    ],
+    "answer": 0,
+    "note": "John's line to his therapist is the emptiness that the case is about to fill."
+   },
+   {
+    "quote": "Anderson, don't talk out loud. You lower the IQ of the whole street.",
+    "options": [
+     "Sherlock",
+     "Lestrade",
+     "Anderson"
+    ],
+    "answer": 0,
+    "note": "Sherlock's insult is also a demonstration: he is trying to think and the room is in his way."
    }
   ],
   "quiz": [
@@ -16760,6 +25390,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The cabbie picks up victims who are alone and offers them a lift and a choice."
+   },
+   {
+    "q": "Why does the episode show John's therapy session before we meet Sherlock?",
+    "options": [
+     "To establish the emptiness the case will fill",
+     "To explain the murder method",
+     "To introduce Mycroft"
+    ],
+    "answer": 0,
+    "why": "John's line about nothing happening gives the audience a need that Sherlock's world answers almost immediately."
+   },
+   {
+    "q": "Why does Sherlock deduce John's whole history in the taxi instead of at the flat?",
+    "options": [
+     "To turn a conversation into a demonstration of his method",
+     "To hide the fact that he already knows John",
+     "To give the driver a chance to escape"
+    ],
+    "answer": 0,
+    "why": "The enclosed cab makes John a captive audience, so the deduction is also a performance of control."
+   },
+   {
+    "q": "Why does the episode cut between the pink crime scene and Sherlock's explanation?",
+    "options": [
+     "To let us test his reasoning against the evidence we can see",
+     "To show that the police solve the case first",
+     "To keep the killer's identity secret from Sherlock"
+    ],
+    "answer": 0,
+    "why": "The intercutting makes the audience active: we are invited to follow the deduction rather than simply receive it."
    }
   ],
   "roleplay": {
@@ -16807,7 +25467,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "wave2-s2.json"
+  "_src": "wave2-s2.json",
+  "truefalse": [
+   {
+    "s": "John Watson was invalided home from Afghanistan.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Sherlock calls his job a consulting detective and says he invented it.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The killer is a London cab driver.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The dying woman wrote Rachel on the floor to name her killer.",
+    "answer": false,
+    "fix": "She was trying to write Rachel, her daughter's name and the phone's password, not the killer's name."
+   },
+   {
+    "s": "Sherlock believes the deaths are serial suicides from the start.",
+    "answer": false,
+    "fix": "He treats them as serial murders and looks for the pattern the police miss."
+   },
+   {
+    "s": "Mycroft is a police officer who resents Sherlock's help.",
+    "answer": false,
+    "fix": "Mycroft is Sherlock's older brother and a powerful government figure, not a police officer."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Defend the reading that Sherlock is not a detective story but a study of two lonely men. What supports it?",
+    "model": "The case gives them a reason to be in the same room, but the episode keeps returning to John's emptiness and Sherlock's isolation. The final standoff matters less than the fact that John chooses to stay."
+   },
+   {
+    "q": "What does the episode withhold about Sherlock's feelings, and why?",
+    "model": "It shows his rudeness and his brilliance but rarely lets him name what he wants. That gap makes his final plea to John feel like a confession in a language he barely speaks."
+   },
+   {
+    "q": "How does the dialogue build power between Sherlock and the police?",
+    "model": "He answers their procedure with deductions, so he controls the conversation without holding any rank. The police have authority, but he has the last word on what the evidence means."
+   },
+   {
+    "q": "Why might the episode's treatment of Molly be more revealing than its treatment of the killer?",
+    "model": "Molly is kind, competent and repeatedly overlooked, and Sherlock's casual cruelty shows the cost of his attention. The killer gets a theory; Molly gets a lesson in how little genius notices."
+   }
+  ]
  },
  {
   "id": "spotlight",
@@ -16926,6 +25636,36 @@ window.FILM_DATA = [
     "answer": "trail",
     "hint": "the documents that show what happened",
     "adapted": true
+   },
+   {
+    "line": "Show me this was ___.",
+    "answer": "systemic",
+    "hint": "built into the whole system",
+    "adapted": false
+   },
+   {
+    "line": "I'm not going to ___ this story.",
+    "answer": "rush",
+    "hint": "do it too quickly",
+    "adapted": false
+   },
+   {
+    "line": "They control ___.",
+    "answer": "everything",
+    "hint": "all of it",
+    "adapted": false
+   },
+   {
+    "line": "They turned child abuse into a ___ industry.",
+    "answer": "cottage",
+    "hint": "a small, informal business",
+    "adapted": true
+   },
+   {
+    "line": "We have a story about degenerate ___.",
+    "answer": "clergy",
+    "hint": "priests and church leaders",
+    "adapted": false
    }
   ],
   "quotes": [
@@ -16958,6 +25698,26 @@ window.FILM_DATA = [
     ],
     "answer": 1,
     "note": "A survivor explains what the Church took from him beyond his body."
+   },
+   {
+    "quote": "It takes a village to raise a child; it takes a village to abuse one.",
+    "options": [
+     "Mitchell Garabedian",
+     "Robby",
+     "Marty Baron"
+    ],
+    "answer": 0,
+    "note": "The lawyer's line widens the crime from one priest to a whole community that looked away."
+   },
+   {
+    "quote": "Guy leans on a guy. And suddenly the whole town just looks the other way.",
+    "options": [
+     "Robby",
+     "Mike",
+     "Sacha"
+    ],
+    "answer": 0,
+    "note": "Robby describes the Church's method as an ordinary social habit, which is what makes it horrifying."
    }
   ],
   "quiz": [
@@ -17010,6 +25770,36 @@ window.FILM_DATA = [
     ],
     "answer": 1,
     "why": "The final cards widen the story beyond Boston and beyond one institution."
+   },
+   {
+    "q": "Why does the film begin with the 1976 police report and then jump to 2001?",
+    "options": [
+     "To show that the story was known and buried long before the team arrives",
+     "To introduce the main characters as children",
+     "To explain why Boston is a newspaper town"
+    ],
+    "answer": 0,
+    "why": "The cold open gives the audience knowledge the journalists must spend the film recovering, so the investigation is also an act of un-forgetting."
+   },
+   {
+    "q": "Why does the film show so much ordinary office work such as phone calls, folders and court clerks?",
+    "options": [
+     "To make the scandal feel built from small, deniable decisions",
+     "To slow the film down before the big speeches",
+     "To show that the newsroom is badly managed"
+    ],
+    "answer": 0,
+    "why": "The procedural detail turns evil into a chain of routine choices, which is more disturbing than a single villain."
+   },
+   {
+    "q": "Why is the Church's abuse discussed rather than shown?",
+    "options": [
+     "To keep the film's focus on the system that protected abusers",
+     "To avoid naming any real priests",
+     "To make the film suitable for younger viewers"
+    ],
+    "answer": 0,
+    "why": "The restraint keeps the survivors' testimony central and refuses to turn their pain into spectacle."
    }
   ],
   "roleplay": {
@@ -17058,6 +25848,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c1.json",
+  "truefalse": [
+   {
+    "s": "The Spotlight team works for the Boston Globe.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Marty Baron pushes the team to investigate the system, not just individual priests.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The team needs the court to unseal documents that show what the Church knew.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The film ends by suggesting that the scandal was limited to Boston.",
+    "answer": false,
+    "fix": "Final cards show that the pattern reached far beyond Boston and other institutions."
+   },
+   {
+    "s": "Sacha Pfeiffer refuses to interview survivors because she is not a lawyer.",
+    "answer": false,
+    "fix": "She interviews survivors with patience, and her silence is part of how she listens."
+   },
+   {
+    "s": "Robby wants to publish as soon as the team has one priest's story.",
+    "answer": false,
+    "fix": "Robby insists on waiting until the team can show the full systemic pattern."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Defend the reading that Spotlight is really about the daily grind of good journalism rather than about abuse. Which scenes support it?",
+    "model": "The film spends its time on dockets, phone calls and editing decisions, and its heroes are people who keep showing up. That focus makes journalism look like a moral practice built from boring, repeated choices."
+   },
+   {
+    "q": "What does the film withhold about the survivors' experience, and why?",
+    "model": "It gives us their words and faces but not graphic re-enactments, so the audience stays with the person rather than the crime. The restraint keeps the film's anger directed at the institution that enabled abuse."
+   },
+   {
+    "q": "How does the film use calm, procedural language to make the Church's power visible?",
+    "model": "Terms like sick leave, unassigned and sealed documents show how bureaucracy turns children into paperwork. The film's quietness makes that vocabulary sound more damning than any speech."
+   },
+   {
+    "q": "Why might the film's focus on Boston's Catholic culture be both a strength and a limit?",
+    "model": "It grounds the story in a specific community where the Church is trusted and loved, which makes the betrayal concrete. The same focus can leave less room for the wider institutional pattern the final cards describe."
+   }
+  ],
   "poster": "assets/posters/spotlight.jpg"
  },
  {
@@ -17179,6 +26019,36 @@ window.FILM_DATA = [
     "answer": "anyone",
     "hint": "no person at all",
     "adapted": true
+   },
+   {
+    "line": "They're not the job. ___ is the job.",
+    "answer": "she",
+    "hint": "Elizabeth",
+    "adapted": false
+   },
+   {
+    "line": "You didn't hear me say ___.",
+    "answer": "that",
+    "hint": "those words",
+    "adapted": false
+   },
+   {
+    "line": "Of course, you'll miss your ___.",
+    "answer": "career",
+    "hint": "professional life",
+    "adapted": false
+   },
+   {
+    "line": "Do you, boy? Do you ___?",
+    "answer": "really",
+    "hint": "truly",
+    "adapted": false
+   },
+   {
+    "line": "The Crown is not a privilege. It is a ___.",
+    "answer": "duty",
+    "hint": "what you must do",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -17211,6 +26081,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The King's instruction to Churchill about his diagnosis - his family are not told."
+   },
+   {
+    "quote": "They're not the job. She is the job.",
+    "options": [
+     "King George VI",
+     "Prince Philip",
+     "Queen Mary"
+    ],
+    "answer": 0,
+    "note": "The King tells Philip that the titles are decoration and that loving Elizabeth is the actual work."
+   },
+   {
+    "quote": "Do you, boy? Do you really?",
+    "options": [
+     "King George VI",
+     "Churchill",
+     "Philip"
+    ],
+    "answer": 0,
+    "note": "The King's follow-up question turns Philip's polite answer into a test of character."
    }
   ],
   "quiz": [
@@ -17263,6 +26153,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Margaret confides in her sister about Townsend, the King's equerry."
+   },
+   {
+    "q": "Why does the episode open with Philip renouncing his titles rather than with the wedding itself?",
+    "options": [
+     "To show what the marriage costs him before we see what it gives him",
+     "To introduce the Greek royal family",
+     "To explain the rules of succession"
+    ],
+    "answer": 0,
+    "why": "The renunciation turns the romance into a transaction, so the wedding carries both love and loss."
+   },
+   {
+    "q": "Why does the episode spend so long in Malta, away from court?",
+    "options": [
+     "To show the ordinary marriage the couple will lose",
+     "To introduce Churchill's foreign policy",
+     "To explain Philip's naval career in detail"
+    ],
+    "answer": 0,
+    "why": "Malta gives us a baseline of private happiness, which makes the later return to duty feel like a sacrifice rather than a promotion."
+   },
+   {
+    "q": "Why does the King tell Churchill about his illness before he tells his family?",
+    "options": [
+     "To keep the state steady while his family is kept in the dark",
+     "Because Churchill is his doctor",
+     "Because he trusts Churchill more than his wife"
+    ],
+    "answer": 0,
+    "why": "The choice shows the monarchy's instinct to protect the institution first, and it leaves the family outside the truth."
    }
   ],
   "roleplay": {
@@ -17310,7 +26230,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "wave2-s2.json"
+  "_src": "wave2-s2.json",
+  "truefalse": [
+   {
+    "s": "Philip renounces his Greek and Danish titles to marry Elizabeth as a British subject.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Elizabeth and Philip live in Malta for several years while Philip serves in the Royal Navy.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The King asks Elizabeth to take his place on a Commonwealth tour.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The King tells his wife and daughters about his diagnosis before he tells Churchill.",
+    "answer": false,
+    "fix": "He tells Churchill first and keeps the diagnosis from his family."
+   },
+   {
+    "s": "Margaret asks Elizabeth to help her marry Peter Townsend immediately.",
+    "answer": false,
+    "fix": "She asks Elizabeth to keep the relationship secret, not to arrange a marriage."
+   },
+   {
+    "s": "Churchill loses the 1951 election and leaves office.",
+    "answer": false,
+    "fix": "Churchill wins the 1951 election and returns as Prime Minister."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Defend the reading that the episode is about a family being turned into an institution. What supports it?",
+    "model": "The wedding, the tour and the diagnosis are all private events that the Crown converts into public duties. Even the King's secrecy is less about protecting his wife than about protecting the throne."
+   },
+   {
+    "q": "What does the episode withhold about the King's illness, and why?",
+    "model": "It shows the X-ray and the word shadow but not the full diagnosis in front of the family. That gap puts the audience in the same position as Elizabeth: close enough to suspect, not allowed to be told."
+   },
+   {
+    "q": "How does the language of the court build power?",
+    "model": "Indirect requests, titles and understatement make obedience feel like courtesy. The episode shows that the most powerful people rarely give orders; they create a silence others must fill."
+   },
+   {
+    "q": "Why might Philip's renunciation be read as both love and humiliation?",
+    "model": "He gives up his name, faith and career for Elizabeth, which is a genuine sacrifice. But the ceremony also strips him of a public identity, and the series keeps asking what is left for him to be."
+   }
+  ]
  },
  {
   "id": "grand-budapest",
@@ -17429,6 +26399,36 @@ window.FILM_DATA = [
     "answer": "poison",
     "hint": "a substance that can kill you",
     "adapted": false
+   },
+   {
+    "line": "I'm afraid I don't quite ___ your meaning.",
+    "answer": "follow",
+    "hint": "understand what someone is saying",
+    "adapted": true
+   },
+   {
+    "line": "A concierge must be discreet to a ___.",
+    "answer": "fault",
+    "hint": "an imperfection",
+    "adapted": false
+   },
+   {
+    "line": "You can't blame someone for their basic lack of moral ___.",
+    "answer": "fiber",
+    "hint": "strength of character",
+    "adapted": false
+   },
+   {
+    "line": "The plot, as they say, ___.",
+    "answer": "thickens",
+    "hint": "becomes more complicated",
+    "adapted": false
+   },
+   {
+    "line": "He certainly sustained the illusion with marvellous ___.",
+    "answer": "grace",
+    "hint": "elegance and ease",
+    "adapted": false
    }
   ],
   "quotes": [
@@ -17461,6 +26461,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Jopling's compliment is a death sentence, and the film lets the irony sit."
+   },
+   {
+    "quote": "To be frank, I think his world had vanished long before he ever entered it.",
+    "options": [
+     "Zero",
+     "Gustave",
+     "The Author"
+    ],
+    "answer": 0,
+    "note": "Old Zero's narration turns Gustave into a man already out of time when we meet him."
+   },
+   {
+    "quote": "Nobody move; everybody's under arrest.",
+    "options": [
+     "Henckels",
+     "Jopling",
+     "Dmitri"
+    ],
+    "answer": 0,
+    "note": "The Inspector restores order by arresting the whole room, which is the film's idea of a solution."
    }
   ],
   "quiz": [
@@ -17513,6 +26533,36 @@ window.FILM_DATA = [
     ],
     "answer": 2,
     "why": "He dies defending Zero at a military checkpoint, and Zero inherits everything."
+   },
+   {
+    "q": "Why does Anderson frame the hotel in symmetrical, centred shots even during the shootout?",
+    "options": [
+     "To make violence look like one more decorative ritual",
+     "To show that the hotel was built by an architect",
+     "To suggest the police are in control"
+    ],
+    "answer": 0,
+    "why": "The symmetry keeps the world looking composed, so the farce and the killing land as part of the same artificial order."
+   },
+   {
+    "q": "Why does the film tell Gustave's story through three narrators: the reader, the Author and old Zero?",
+    "options": [
+     "To show that memory turns a man into a legend",
+     "To explain the political history of Zubrowka",
+     "To prove that Zero is unreliable"
+    ],
+    "answer": 0,
+    "why": "Each layer adds nostalgia and distance, so we never receive Gustave directly, only as a story someone chose to preserve."
+   },
+   {
+    "q": "Why is the prison break staged with pastries and tools rather than with force?",
+    "options": [
+     "It keeps the caper comic while showing that courtesy is a practical skill",
+     "It proves that Agatha is a better fighter than Gustave",
+     "It shows that the prison guards are easily bribed"
+    ],
+    "answer": 0,
+    "why": "The escape depends on Mendl's boxes and Gustave's manners, so charm is presented as a tool of survival."
    }
   ],
   "roleplay": {
@@ -17561,6 +26611,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c1.json",
+  "truefalse": [
+   {
+    "s": "Gustave is arrested for the murder of Madame D.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Agatha hides the tools Gustave needs inside pastries from Mendl's.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Jopling kills Serge X before Serge can explain the second will.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Gustave is shot while trying to escape alone with the painting.",
+    "answer": false,
+    "fix": "He is shot at a military checkpoint while protecting Zero, not while escaping with the painting."
+   },
+   {
+    "s": "Madame D leaves the painting to Dmitri, which is why Gustave is arrested.",
+    "answer": false,
+    "fix": "Madame D leaves Boy with Apple to Gustave, and Dmitri contests the will."
+   },
+   {
+    "s": "Zero is a lawyer who defends Gustave at his trial.",
+    "answer": false,
+    "fix": "Zero is the lobby boy who becomes Gustave's ally; a lawyer handles the defence."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Gustave calls himself a servant but lectures everyone. Defend the reading that his manners are a form of power.",
+    "model": "His courtesy sets the rules of every room, so people obey him without being ordered. The film shows that politeness can be as coercive as a weapon, especially when it is never dropped."
+   },
+   {
+    "q": "What does the film gain by letting old Zero narrate a story we have already watched?",
+    "model": "The frame turns the plot into an act of remembrance, so the comedy is shadowed by loss. We see Gustave twice: as he behaved and as the man Zero needed him to have been."
+   },
+   {
+    "q": "How does the film's treatment of the painting turn an object into a person?",
+    "model": "Characters speak of Boy with Apple as if it had rights, feelings and a family tree. The joke exposes how inheritance turns art into a substitute for the love nobody in the family can say out loud."
+   },
+   {
+    "q": "Why does the film refuse to let the comic tone disappear, even at the execution and the shootout?",
+    "model": "The farce keeps the violence at a distance, which is how the film survives its own grief. Anderson makes us laugh at the surface so that the loss underneath arrives late, like a delayed punchline."
+   }
+  ],
   "poster": "assets/posters/grand-budapest.jpg"
  },
  {
@@ -17680,6 +26780,36 @@ window.FILM_DATA = [
     "answer": "illegal",
     "hint": "against the law",
     "adapted": false
+   },
+   {
+    "line": "They beat you up because you're ___.",
+    "answer": "different",
+    "hint": "not the same as the others",
+    "adapted": false
+   },
+   {
+    "line": "Was I God? No. Because God didn't win the war. We ___.",
+    "answer": "did",
+    "hint": "we won it",
+    "adapted": false
+   },
+   {
+    "line": "The hardest time to lie is when the other person is expecting to be ___ to.",
+    "answer": "lied",
+    "hint": "told an untruth",
+    "adapted": false
+   },
+   {
+    "line": "You have to trust me, even when you don't ___ me.",
+    "answer": "understand",
+    "hint": "make sense of someone",
+    "adapted": true
+   },
+   {
+    "line": "We can't afford to be ___.",
+    "answer": "sentimental",
+    "hint": "guided by tender feelings",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -17712,6 +26842,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "It is the film's key to reading every polite conversation at Bletchley."
+   },
+   {
+    "quote": "They beat you up because you're different.",
+    "options": [
+     "Christopher",
+     "Joan",
+     "Denniston"
+    ],
+    "answer": 0,
+    "note": "Christopher's correction is kinder and harder than Turing's own explanation for the bullying."
+   },
+   {
+    "quote": "Was I God? No. Because God didn't win the war. We did.",
+    "options": [
+     "Turing",
+     "Menzies",
+     "Denniston"
+    ],
+    "answer": 0,
+    "note": "Turing refuses the role of judge while quietly claiming the victory for his team."
    }
   ],
   "quiz": [
@@ -17764,6 +26914,36 @@ window.FILM_DATA = [
     ],
     "answer": 2,
     "why": "The titles report his conviction, the compulsory treatment and his death in 1954."
+   },
+   {
+    "q": "Why does the film keep cutting from Bletchley to the police interview?",
+    "options": [
+     "To make the present interrogate the story the past keeps telling about itself",
+     "To show that the police are close to solving Enigma",
+     "To give the actor a chance to play two characters"
+    ],
+    "answer": 0,
+    "why": "The interview frames Turing's war work as evidence, so every heroic scene is shadowed by the question of what the state later did to him."
+   },
+   {
+    "q": "Why are Turing's school years shown in short flashes instead of one continuous flashback?",
+    "options": [
+     "To link his first friendship to the machine and to his adult isolation",
+     "To hide the identity of Christopher",
+     "To avoid showing the war"
+    ],
+    "answer": 0,
+    "why": "The fragments make Christopher a private key that keeps unlocking the present, so the machine's name carries emotional weight."
+   },
+   {
+    "q": "Why does the film put the convoy decision immediately after the team's celebration?",
+    "options": [
+     "To turn victory into a moral debt that must be paid at once",
+     "To show that the team does not enjoy winning",
+     "To introduce Peter's brother earlier"
+    ],
+    "answer": 0,
+    "why": "The cut from cheers to the map makes the cost of intelligence inseparable from the breakthrough."
    }
   ],
   "roleplay": {
@@ -17812,6 +26992,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c1.json",
+  "truefalse": [
+   {
+    "s": "Turing names his machine Christopher after his childhood friend.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Joan Clarke joins the team as a mathematician and codebreaker.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The team decides to act on every decoded message so that no one dies.",
+    "answer": false,
+    "fix": "They act on only some messages, because acting on all of them would reveal that Enigma has been broken."
+   },
+   {
+    "s": "Turing is arrested for passing secrets to the Germans.",
+    "answer": false,
+    "fix": "He is arrested because homosexual acts were illegal, not for spying."
+   },
+   {
+    "s": "Peter Hilton's brother is on the convoy the team chooses not to save.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Joan leaves Bletchley as soon as Turing tells her the truth about himself.",
+    "answer": false,
+    "fix": "Joan refuses to leave; she tells him the work matters more than his rejection."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Defend the reading that the film is unfair to Joan Clarke. What does it give her to do, and what does it leave out?",
+    "model": "It gives her the cleverest line in the room and then makes her career depend on Turing's decisions. Her real mathematical work is mostly implied, while her loyalty is dramatised, so the film remembers the man and forgets the colleague."
+   },
+   {
+    "q": "What does the film withhold about Turing's inner life, and why might that be a choice rather than a failure?",
+    "model": "It shows his desire mainly through what he cannot say, so the audience experiences the secrecy that shaped him. The restraint keeps the film inside the period's code of silence instead of explaining it away."
+   },
+   {
+    "q": "How does the film use the idea of a game to make the audience complicit in Turing's logic?",
+    "model": "The codebreaking is framed as a puzzle with rules, so we enjoy the solution before we count its cost. That pleasure is exactly what makes the convoy decision feel like a betrayal of the story we thought we were watching."
+   },
+   {
+    "q": "Why does the film end with a title card about Turing's death rather than with a scene?",
+    "model": "The card refuses to turn his death into a tidy emotional climax. It puts the historical record in front of us and asks what the film's own storytelling has left out."
+   }
+  ],
   "poster": "assets/posters/imitation-game.jpg"
  },
  {
@@ -17930,6 +27160,36 @@ window.FILM_DATA = [
     "answer": "expected",
     "hint": "believed likely to happen",
     "adapted": false
+   },
+   {
+    "line": "You don't have what it ___.",
+    "answer": "takes",
+    "hint": "is required",
+    "adapted": true
+   },
+   {
+    "line": "Nobody remembers the ones who ___.",
+    "answer": "quit",
+    "hint": "stop trying",
+    "adapted": true
+   },
+   {
+    "line": "I'd rather die broke at thirty-four than live rich and ___.",
+    "answer": "forgotten",
+    "hint": "no longer remembered",
+    "adapted": true
+   },
+   {
+    "line": "You're holding ___.",
+    "answer": "back",
+    "hint": "not playing at full force",
+    "adapted": true
+   },
+   {
+    "line": "I never really had a Charlie ___.",
+    "answer": "Parker",
+    "hint": "the saxophonist Fletcher keeps mentioning",
+    "adapted": false
    }
   ],
   "quotes": [
@@ -17962,6 +27222,26 @@ window.FILM_DATA = [
     ],
     "answer": 2,
     "note": "Andrew says it to Nicole as an explanation, not an apology."
+   },
+   {
+    "quote": "I don't think people understood what it was I was doing at Shaffer.",
+    "options": [
+     "Fletcher",
+     "Andrew",
+     "Jim"
+    ],
+    "answer": 0,
+    "note": "Fletcher's justification for the abuse sounds reasonable until we remember what the film has shown us."
+   },
+   {
+    "quote": "I never really had a Charlie Parker.",
+    "options": [
+     "Fletcher",
+     "Andrew",
+     "Jim"
+    ],
+    "answer": 0,
+    "note": "Fletcher's confession sounds like grief for a student he never found, and like an excuse for what he did."
    }
   ],
   "quiz": [
@@ -18014,6 +27294,36 @@ window.FILM_DATA = [
     ],
     "answer": 2,
     "why": "Andrew comes back after Fletcher's trap and takes control of the performance."
+   },
+   {
+    "q": "Why does Chazelle cut the final solo like a fight scene, with close-ups on hands, eyes and sweat?",
+    "options": [
+     "To make the audience feel the performance as physical combat",
+     "To show that the band is badly lit",
+     "To prove that Fletcher is a better drummer"
+    ],
+    "answer": 0,
+    "why": "The editing turns music into a contest of endurance, so we watch bodies under pressure rather than a polished concert."
+   },
+   {
+    "q": "Why does the film never show Andrew becoming a great drummer in a way everyone agrees on?",
+    "options": [
+     "To leave the cost of his ambition unresolved",
+     "To suggest that jazz is dying",
+     "To avoid using a stunt double"
+    ],
+    "answer": 0,
+    "why": "The ending gives us intensity, not judgement, so the audience must decide whether the sacrifice was worth it."
+   },
+   {
+    "q": "Why is the dinner-table scene with Andrew's family placed before the final concert?",
+    "options": [
+     "To show that ordinary success looks empty to him",
+     "To introduce his uncle as a rival",
+     "To explain why he broke up with Nicole"
+    ],
+    "answer": 0,
+    "why": "The family's talk of model UN and football sets up the only language Andrew respects: greatness that others cannot measure."
    }
   ],
   "roleplay": {
@@ -18062,6 +27372,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c1.json",
+  "truefalse": [
+   {
+    "s": "Andrew is a drummer in Studio Band at Shaffer Conservatory.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Fletcher slaps Andrew during the rehearsal because Andrew cannot say whether he was rushing or dragging.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Andrew breaks up with Nicole because he believes the relationship will distract him from greatness.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Andrew misses the competition because he decides to stay home.",
+    "answer": false,
+    "fix": "He is hit by a truck on the way and crawls out to reach the stage."
+   },
+   {
+    "s": "At the final concert, Fletcher apologises to Andrew and offers him the solo.",
+    "answer": false,
+    "fix": "Fletcher sets him up with an unfamiliar piece; Andrew returns and takes control of the performance."
+   },
+   {
+    "s": "The film ends with Andrew deciding to give up drumming.",
+    "answer": false,
+    "fix": "It ends with him playing an extended solo while Fletcher watches, his future left open."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Defend the reading that Fletcher is the real victim of the film. Which two scenes support it?",
+    "model": "He is humiliated by his own students and by the institution that removes him, and his final confession suggests a life spent without the genius he wanted to create. The film gives him grief as well as cruelty, which is what makes the reading possible."
+   },
+   {
+    "q": "What does the film withhold about whether Andrew is actually great, and why?",
+    "model": "It shows us effort, blood and speed but never a stable external judgement of his talent. That gap forces us to ask whether greatness is a fact or a story the ambitious tell themselves."
+   },
+   {
+    "q": "How does the language of the rehearsal room build power?",
+    "model": "Fletcher controls the vocabulary of tempo, rushing and dragging, and makes Andrew repeat it until he owns the fault. The scene shows that power begins with who gets to name the mistake."
+   },
+   {
+    "q": "Why might the film refuse to let the audience simply condemn Fletcher?",
+    "model": "It gives him a sincere theory of teaching and a moment of grief for a former student, so our dislike has to compete with understanding. That discomfort is the film's argument: abuse can sound like devotion."
+   }
+  ],
   "poster": "assets/posters/whiplash.jpg"
  },
  {
@@ -18181,6 +27541,36 @@ window.FILM_DATA = [
     "answer": "table",
     "hint": "the furniture you play on",
     "adapted": true
+   },
+   {
+    "line": "I remain your most ___ servant.",
+    "answer": "obedient",
+    "hint": "willing to do as you are told",
+    "adapted": true
+   },
+   {
+    "line": "He is a man of no ___.",
+    "answer": "fortune",
+    "hint": "money and property",
+    "adapted": true
+   },
+   {
+    "line": "The ___ are in your favour.",
+    "answer": "odds",
+    "hint": "the numbers that decide a bet",
+    "adapted": true
+   },
+   {
+    "line": "By what ___ do you claim it?",
+    "answer": "right",
+    "hint": "a moral or legal claim",
+    "adapted": true
+   },
+   {
+    "line": "He bought a ___ in the army.",
+    "answer": "commission",
+    "hint": "an officer's rank, paid for with money",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -18213,6 +27603,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "A claim the film tests in every scene; the exact wording in the film is looser."
+   },
+   {
+    "quote": "You are no gentleman, sir.",
+    "options": [
+     "Lady Lyndon",
+     "Lord Bullingdon",
+     "Captain Quin"
+    ],
+    "answer": 1,
+    "note": "Bullingdon's verdict on his stepfather; the wording is a close paraphrase of the film's cold exchanges."
+   },
+   {
+    "quote": "I have lost everything.",
+    "options": [
+     "Lady Lyndon",
+     "The narrator",
+     "Barry"
+    ],
+    "answer": 2,
+    "note": "A paraphrase of Barry's position at the tables, and the sentence the whole film keeps proving."
    }
   ],
   "quiz": [
@@ -18265,6 +27675,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Lord Bullingdon's hatred drives the film towards its last duel."
+   },
+   {
+    "q": "The narrator often tells us the outcome before the scene is played. What does that do to suspense?",
+    "options": [
+     "It replaces suspense with judgement: we watch how, not whether",
+     "It removes all interest from the duels",
+     "It proves the narrator was in the room"
+    ],
+    "answer": 0,
+    "why": "Knowing the ending turns each scene into evidence, and the voice quietly tells us how to weigh it."
+   },
+   {
+    "q": "Why does Kubrick slowly pull the camera back instead of cutting closer in emotional scenes?",
+    "options": [
+     "The lens could not focus any closer",
+     "It makes the people look small inside their own lives",
+     "It hides the actors' faces from the audience"
+    ],
+    "answer": 1,
+    "why": "Distance turns feeling into a picture, so we observe the characters instead of dissolving into them."
+   },
+   {
+    "q": "The film is lit almost entirely by candlelight. What does that do to the faces?",
+    "options": [
+     "It hides which character is speaking",
+     "It makes everyone look younger",
+     "It makes them look like paintings we study rather than people we identify with"
+    ],
+    "answer": 2,
+    "why": "The soft, painted light frames every face like a portrait, which keeps us at a cool, judging distance."
    }
   ],
   "roleplay": {
@@ -18313,6 +27753,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c2.json",
+  "truefalse": [
+   {
+    "s": "Barry marries Lady Lyndon after her husband dies, and her son never accepts him.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Barry escapes the army by taking another officer's uniform and papers.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Bryan, Barry's young son, dies after a fall from a horse.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Barry wins the last duel and returns to England in triumph.",
+    "answer": false,
+    "fix": "He is wounded in the duel and leaves England ruined."
+   },
+   {
+    "s": "Lady Lyndon has no money of her own and marries Barry for love.",
+    "answer": false,
+    "fix": "She is very rich, and the film leaves her feelings for Barry in doubt."
+   },
+   {
+    "s": "Barry stays a soldier for the whole film and never returns to civilian life.",
+    "answer": false,
+    "fix": "He leaves the army, lives by gambling and cards, and ends in poverty."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does the film keep Barry's own thoughts out of the narration?",
+    "model": "A narrator who judged him from inside would make him either a hero or a villain. By staying outside, the film makes Barry a surface that other people read, which is exactly what he does to them."
+   },
+   {
+    "q": "What is the cost of Barry's social climbing, and who pays it?",
+    "model": "Bryan's death and Lady Lyndon's grief are the bills, and Barry pays with his leg and his name. The film lets the family pay first."
+   },
+   {
+    "q": "Why is the last duel shot at a distance and without music?",
+    "model": "The wide shot makes two men look like a formality being carried out rather than a climax. With no music to tell us how to feel, we supply the judgement ourselves."
+   },
+   {
+    "q": "What does the film refuse to explain about Lady Lyndon?",
+    "model": "It never tells us whether she loves Barry, tolerates him or is simply trapped. Her face in the candlelight is the only evidence, and it is not enough to settle the question."
+   }
+  ],
   "poster": "assets/posters/barry-lyndon.jpg"
  },
  {
@@ -18434,6 +27924,36 @@ window.FILM_DATA = [
     "answer": "morally",
     "hint": "about right and wrong",
     "adapted": false
+   },
+   {
+    "line": "I need a ___ to keep the cafe open.",
+    "answer": "loan",
+    "hint": "money borrowed from a bank",
+    "adapted": true
+   },
+   {
+    "line": "It is not what it ___.",
+    "answer": "looks",
+    "hint": "seems to be",
+    "adapted": true
+   },
+   {
+    "line": "I have got a lot on my ___.",
+    "answer": "plate",
+    "hint": "a lot of things to deal with",
+    "adapted": true
+   },
+   {
+    "line": "I am not in the ___ for this.",
+    "answer": "mood",
+    "hint": "how you feel just now",
+    "adapted": true
+   },
+   {
+    "line": "You have got it all ___.",
+    "answer": "wrong",
+    "hint": "not correct",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -18466,6 +27986,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The question that starts the episode's sharpest joke about feminism and vanity."
+   },
+   {
+    "quote": "It is a guinea-pig cafe.",
+    "options": [
+     "Claire",
+     "Fleabag",
+     "The bank manager"
+    ],
+    "answer": 1,
+    "note": "Her explanation of her life's work, and the line that makes the cafe's failure funny."
+   },
+   {
+    "quote": "I do not know what I am doing.",
+    "options": [
+     "Claire",
+     "Harry",
+     "Fleabag"
+    ],
+    "answer": 2,
+    "note": "The sentence under almost every joke in the episode, usually said to the camera and never to the person in the room."
    }
   ],
   "quiz": [
@@ -18518,6 +28058,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Claire is the high-achieving sister who raises her hand at the lecture too."
+   },
+   {
+    "q": "She talks to the camera at the moments when she is least honest with the people in the room. What does that make us?",
+    "options": [
+     "Accomplices in the lie rather than judges of it",
+     "Her therapists",
+     "Complete strangers"
+    ],
+    "answer": 0,
+    "why": "We are told the truth in the aside and then watch her lie, so our silence becomes part of the performance."
+   },
+   {
+    "q": "The bank manager thinks her jokes are an offer of sex. How does the scene use that?",
+    "options": [
+     "It proves she wanted the loan for sex",
+     "It shows that her performance of confidence is read as something else entirely",
+     "It shows that the bank is generous"
+    ],
+    "answer": 1,
+    "why": "For once she is not trying anything, and the misreading exposes how little control she has over what she signals."
+   },
+   {
+    "q": "The episode is twenty-seven minutes and mostly comic. Where does the sadness come through?",
+    "options": [
+     "In the music",
+     "In the scenes with her father",
+     "In the pauses just before and after the jokes"
+    ],
+    "answer": 2,
+    "why": "The comedy is a timing trick, and the half-second of stillness either side of a punchline is where the grief sits."
    }
   ],
   "roleplay": {
@@ -18561,7 +28131,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "wave2-s2.json"
+  "_src": "wave2-s2.json",
+  "truefalse": [
+   {
+    "s": "Fleabag talks directly to the camera in the middle of conversations.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "At the lecture, Fleabag and Claire raise their hands and find that nobody else has.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The cafe is failing, and the loan is meant to keep it open.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Fleabag goes to the bank to borrow money for a second cafe.",
+    "answer": false,
+    "fix": "She needs the loan to keep the one cafe open."
+   },
+   {
+    "s": "Claire is the best friend who died.",
+    "answer": false,
+    "fix": "Claire is her sister; Boo was the friend who died."
+   },
+   {
+    "s": "The episode ends with the loan approved and the cafe saved.",
+    "answer": false,
+    "fix": "It ends on a look to camera with nothing settled."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "What does the episode refuse to say out loud about Boo?",
+    "model": "Boo is named and mourned only in pieces, never in a scene where someone explains what happened. The grief leaks out through jokes, which is how the show makes it feel real."
+   },
+   {
+    "q": "Why does she look at the camera exactly when she is lying?",
+    "model": "The camera is the only place where she can be honest about being dishonest. It makes the audience a friend and an alibi at the same time."
+   },
+   {
+    "q": "What is the cost of her jokes, and who pays it?",
+    "model": "The jokes keep her in the room but stop anyone getting close, so she pays in loneliness and the people around her pay in confusion. The show never lets the jokes buy her anything lasting."
+   },
+   {
+    "q": "Is the bank scene funnier than it is sad?",
+    "model": "It is funny because she cannot stop performing, and sad because the performance is the only thing she has. The scene turns when he believes it and she realises she has been read wrong."
+   }
+  ]
  },
  {
   "id": "glengarry",
@@ -18679,6 +28299,36 @@ window.FILM_DATA = [
     "answer": "down",
     "hint": "the opposite of up",
     "adapted": false
+   },
+   {
+    "line": "These are the ___ leads.",
+    "answer": "Glengarry",
+    "hint": "the name of the best property in the office",
+    "adapted": false
+   },
+   {
+    "line": "And to you they are ___.",
+    "answer": "gold",
+    "hint": "a precious metal",
+    "adapted": false
+   },
+   {
+    "line": "Did you get the ___?",
+    "answer": "signature",
+    "hint": "the name written on a contract",
+    "adapted": true
+   },
+   {
+    "line": "He has put nothing on the ___ this week.",
+    "answer": "board",
+    "hint": "the list of sales results on the wall",
+    "adapted": true
+   },
+   {
+    "line": "He works on straight ___.",
+    "answer": "commission",
+    "hint": "a share of each sale instead of a salary",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -18711,6 +28361,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The contest is explained in one line, and the whole film follows from it."
+   },
+   {
+    "quote": "You see this watch?",
+    "options": [
+     "Roma",
+     "Blake",
+     "Williamson"
+    ],
+    "answer": 1,
+    "note": "The opening of the humiliation: the watch costs more than the listener's car."
+   },
+   {
+    "quote": "I was a closer once.",
+    "options": [
+     "Moss",
+     "Roma",
+     "Shelley"
+    ],
+    "answer": 2,
+    "note": "A paraphrase of Shelley's whole defence of himself, and the reason the others have stopped listening."
    }
   ],
   "quiz": [
@@ -18763,6 +28433,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "He needs to be a closer again, in front of men who have stopped believing him."
+   },
+   {
+    "q": "The film almost never leaves the office, the diner and the street outside. What does that restriction do?",
+    "options": [
+     "It makes the men's world feel closed and inescapable",
+     "It only saves money on locations",
+     "It shows us the property they are selling"
+    ],
+    "answer": 0,
+    "why": "With no wider world on screen, the office becomes the whole universe and every conversation becomes a last chance."
+   },
+   {
+    "q": "Why does the camera keep moving in a film that is nearly all talk?",
+    "options": [
+     "It shows off the office furniture",
+     "It keeps the pressure physical while the words do the damage",
+     "It hides the actors' faces"
+    ],
+    "answer": 1,
+    "why": "The restless camera turns talking into action, so a scene of men on telephones feels like a fight."
+   },
+   {
+    "q": "Blake's speech was written for the film and not for the play. What does that suggest?",
+    "options": [
+     "The play had no salesmen in it",
+     "The writer had forgotten his own play",
+     "The film wants a visible outside force to start the fear"
+    ],
+    "answer": 2,
+    "why": "Blake arrives from somewhere above the office, delivers the threat and leaves, so the pressure has a face rather than a rumour."
    }
   ],
   "roleplay": {
@@ -18811,6 +28511,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c2.json",
+  "truefalse": [
+   {
+    "s": "Blake appears only at the start of the film and never comes back.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Moss proposes breaking into the office to steal the leads.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Almost every outdoor scene in the film takes place at night or in the rain.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Roma is the office manager who controls the leads and the keys.",
+    "answer": false,
+    "fix": "Williamson is the manager; Roma is the salesman who has to beg him."
+   },
+   {
+    "s": "The men are selling land they have visited and can describe in detail.",
+    "answer": false,
+    "fix": "None of them has seen the land; they sell it down a telephone."
+   },
+   {
+    "s": "Shelley is the youngest man in the office and the best closer.",
+    "answer": false,
+    "fix": "Shelley is the oldest, and he was the best closer years ago."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "What does the film refuse to show us, and why does that make the office feel like a trap?",
+    "model": "We never see the land or the buyers, only voices and paper, so the product becomes pure talk. A trap is exactly right for men who cannot check whether anything they say is true."
+   },
+   {
+    "q": "What is the cost of 'always be closing', and who pays it?",
+    "model": "The men pay with their sleep, their dignity and finally their jobs. The buyers pay too, in money for land that exists only on a map."
+   },
+   {
+    "q": "Why is Blake's speech shot with him moving around the room?",
+    "model": "He invades the space of every man he speaks to, so the camera makes the threat physical without a blow. The movement also means nobody can politely look away."
+   },
+   {
+    "q": "Is Shelley a victim, a thief, or both?",
+    "model": "He was made by this system and then discarded by it, and he steals because the system taught him that only winning counts. The film lets him be both, which is why the ending is cruel rather than satisfying."
+   }
+  ],
   "poster": "assets/posters/glengarry.jpg"
  },
  {
@@ -18930,6 +28680,36 @@ window.FILM_DATA = [
     "answer": "wicked",
     "hint": "evil",
     "adapted": false
+   },
+   {
+    "line": "Yet do I fear thy ___.",
+    "answer": "nature",
+    "hint": "your character, what you are like inside",
+    "adapted": false
+   },
+   {
+    "line": "Screw your ___ to the sticking-place.",
+    "answer": "courage",
+    "hint": "bravery",
+    "adapted": false
+   },
+   {
+    "line": "All the perfumes of ___ will not sweeten this hand.",
+    "answer": "Arabia",
+    "hint": "a country famous for its scents",
+    "adapted": true
+   },
+   {
+    "line": "Out, out, brief ___!",
+    "answer": "candle",
+    "hint": "a wax light",
+    "adapted": false
+   },
+   {
+    "line": "Tomorrow, and tomorrow, and tomorrow creeps in this petty ___.",
+    "answer": "pace",
+    "hint": "a step, or the speed of walking",
+    "adapted": false
    }
   ],
   "quotes": [
@@ -18962,6 +28742,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The play's rule of reversal, and the film's: nothing looks like what it is."
+   },
+   {
+    "quote": "Yet do I fear thy nature.",
+    "options": [
+     "Macbeth",
+     "Lady Macbeth",
+     "The witches"
+    ],
+    "answer": 1,
+    "note": "She reads her husband's letter and finds him too kind for the plan she already has."
+   },
+   {
+    "quote": "Out, out, brief candle.",
+    "options": [
+     "Malcolm",
+     "The porter",
+     "Macbeth"
+    ],
+    "answer": 2,
+    "note": "Said after his wife's death, when he has no feeling left to spend on it."
    }
   ],
   "quiz": [
@@ -19014,6 +28814,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "She washes and washes; the stain is the one thing the film will not remove."
+   },
+   {
+    "q": "The film cuts many of Shakespeare's speeches and lets wind, mud and fire carry the meaning. What does that gain?",
+    "options": [
+     "The audience reads bodies and weather instead of waiting for explanations",
+     "It made the film cheaper to shoot",
+     "It removes the need for actors"
+    ],
+    "answer": 0,
+    "why": "With the verse thinned out, the audience has to interpret faces and landscape, which is closer to how the play works in a theatre."
+   },
+   {
+    "q": "Much of the dialogue is whispered. What does that do to the audience?",
+    "options": [
+     "It makes the words easier to follow",
+     "It makes us lean in and makes the court feel secretive",
+     "It shows that the characters are ill"
+    ],
+    "answer": 1,
+    "why": "Whispering forces close attention and turns public scenes into conspiracies we are eavesdropping on."
+   },
+   {
+    "q": "Why does the film show the murder of Macduff's family rather than report it?",
+    "options": [
+     "It gives Lady Macbeth more screen time",
+     "It explains the prophecy",
+     "It makes the cost of Macbeth's rule concrete"
+    ],
+    "answer": 2,
+    "why": "A reported murder is information; a shown one is a debt the audience carries into the final battle."
    }
   ],
   "roleplay": {
@@ -19062,6 +28892,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c2.json",
+  "truefalse": [
+   {
+    "s": "Macbeth is made Thane of Cawdor after the opening battle.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Lady Macbeth dies before the final battle, and Macbeth meets the news with almost no feeling.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Banquo's ghost appears at the banquet and only Macbeth can see it.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Macbeth kills Duncan to protect him from his enemies.",
+    "answer": false,
+    "fix": "He kills him out of ambition, pushed by the prophecy and by his wife."
+   },
+   {
+    "s": "Lady Macbeth dies in the same battle as her husband.",
+    "answer": false,
+    "fix": "She dies before the battle, off screen, and he barely reacts."
+   },
+   {
+    "s": "The witches tell Macbeth exactly how to keep his crown.",
+    "answer": false,
+    "fix": "They give him riddles that sound like safety and work like traps."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "What does the film refuse to explain about the witches?",
+    "model": "It never says whether they cause the future or only describe it, and it keeps them half out of frame. That uncertainty is what makes Macbeth's choices feel like his own."
+   },
+   {
+    "q": "Why is the sleepwalking scene shot in near darkness?",
+    "model": "The darkness makes her hands the only bright thing in the frame, which is where the guilt is. It also stops us reading her face, so the voice has to do the work."
+   },
+   {
+    "q": "What is the cost of Macbeth's ambition, and who pays it?",
+    "model": "His wife, his friend, Macduff's family and finally his own name are the price. The film counts the cost in bodies rather than in crowns."
+   },
+   {
+    "q": "Why does the film keep the blood on faces and hands instead of washing it away?",
+    "model": "The blood is the only record of what has been done in a film that cuts most of the explaining. Keeping it visible makes the murders cumulative rather than separate."
+   }
+  ],
   "poster": "assets/posters/macbeth.jpg"
  },
  {
@@ -19181,6 +29061,36 @@ window.FILM_DATA = [
     "answer": "good",
     "hint": "the opposite of bad",
     "adapted": true
+   },
+   {
+    "line": "It is all tape and ___.",
+    "answer": "illusion",
+    "hint": "something that looks real but is not",
+    "adapted": true
+   },
+   {
+    "line": "She came to Hollywood to be in ___.",
+    "answer": "pictures",
+    "hint": "an old word for films",
+    "adapted": true
+   },
+   {
+    "line": "Where is the blue ___?",
+    "answer": "key",
+    "hint": "it opens a small box",
+    "adapted": true
+   },
+   {
+    "line": "I am staying at my aunt's ___.",
+    "answer": "apartment",
+    "hint": "a flat in a building",
+    "adapted": true
+   },
+   {
+    "line": "She has a screen ___ on Monday.",
+    "answer": "test",
+    "hint": "a short filmed audition",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -19213,6 +29123,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The film's menace arrives in polite conditional sentences; the note is a close paraphrase of the scene."
+   },
+   {
+    "quote": "No hay banda.",
+    "options": [
+     "The master of ceremonies",
+     "Rita",
+     "Adam Kesher"
+    ],
+    "answer": 0,
+    "note": "Spanish for 'there is no band', repeated at Club Silencio until it sounds like a threat."
+   },
+   {
+    "quote": "I came here to be an actress.",
+    "options": [
+     "Rita",
+     "Betty",
+     "Diane"
+    ],
+    "answer": 1,
+    "note": "A close paraphrase of Betty's first scenes; the rest of the film tests that sentence."
    }
   ],
   "quiz": [
@@ -19265,6 +29195,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The film's most frightening image is barely shown at all."
+   },
+   {
+    "q": "The film breaks in two, and the same lines return in different mouths. What does that repetition suggest?",
+    "options": [
+     "The first half may be a dream built out of the second",
+     "The second half is a sequel set years later",
+     "All the characters are secretly related"
+    ],
+    "answer": 0,
+    "why": "The same sentences in new mouths are the film's main clue that one half is remembering the other."
+   },
+   {
+    "q": "Club Silencio tells us that every sound on stage is recorded. Why does the film confess this?",
+    "options": [
+     "To explain how the theatre pays its bills",
+     "To make us distrust music we have already been moved by",
+     "To warn that the projector is failing"
+    ],
+    "answer": 1,
+    "why": "The confession arrives exactly when the song has worked on us, so it turns our own feelings into part of the trick."
+   },
+   {
+    "q": "Why does the film show us the blue key long before we learn what it opens?",
+    "options": [
+     "So the plot can move faster",
+     "So the audience forgets about it",
+     "So its meaning builds before we can name it"
+    ],
+    "answer": 2,
+    "why": "An unexplained object gathers weight each time it appears; the film trusts the audience to hold the question."
    }
   ],
   "roleplay": {
@@ -19313,6 +29273,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c2.json",
+  "truefalse": [
+   {
+    "s": "Rita takes her name from a poster for the film Gilda.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Betty comes to Los Angeles to stay in her aunt's apartment and to audition.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The blue key and the diner behind Winkie's both return in the second half.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Adam Kesher is the detective who investigates the crash on the hill.",
+    "answer": false,
+    "fix": "Adam Kesher is a film director being pushed to cast a particular actress."
+   },
+   {
+    "s": "Betty and Rita are sisters who were separated as children.",
+    "answer": false,
+    "fix": "They meet as strangers when Rita hides in Aunt Ruth's apartment."
+   },
+   {
+    "s": "The Cowboy explains the mystery to Betty in the last scene.",
+    "answer": false,
+    "fix": "The Cowboy delivers a threat and explains nothing at all."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "What does the film refuse to explain about the woman called Rita?",
+    "model": "It never says who she was before the crash, or whether her story exists outside Diane's head. It keeps her a surface, so we have to build a person out of a face and a borrowed name."
+   },
+   {
+    "q": "Why does the audition scene keep the camera so calm and so close?",
+    "model": "The stillness lets us watch Betty become someone else the moment she starts to act. Because the camera does not cut, we cannot pretend the transformation is a trick of editing."
+   },
+   {
+    "q": "What is the cost of Diane's dream in the second half?",
+    "model": "The dream costs her the only version of her life in which she is loved, and waking leaves her with a key, a box and a debt. The film makes the cost physical before it makes it emotional."
+   },
+   {
+    "q": "Why does the last shot belong to the blue-haired woman and a single word?",
+    "model": "After two hours of noise the film finishes with a woman we have barely met telling us to be quiet. Silence is the only explanation it is willing to give."
+   }
+  ],
   "poster": "assets/posters/mulholland-drive.jpg"
  },
  {
@@ -19432,6 +29442,36 @@ window.FILM_DATA = [
     "answer": "debt",
     "hint": "money that is owed",
     "adapted": true
+   },
+   {
+    "line": "They rated it ___.",
+    "answer": "AAA",
+    "hint": "the safest credit rating",
+    "adapted": true
+   },
+   {
+    "line": "The interest rate ___ after two years.",
+    "answer": "resets",
+    "hint": "changes to a new level",
+    "adapted": true
+   },
+   {
+    "line": "It is a ___ default swap.",
+    "answer": "credit",
+    "hint": "the C in CDS",
+    "adapted": true
+   },
+   {
+    "line": "The bank is too big to ___.",
+    "answer": "fail",
+    "hint": "go under",
+    "adapted": true
+   },
+   {
+    "line": "The whole system is ___.",
+    "answer": "rigged",
+    "hint": "dishonestly controlled",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -19464,6 +29504,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "The film's thesis in four words — and Burry's only advantage."
+   },
+   {
+    "quote": "You bet against the American economy.",
+    "options": [
+     "Mark Baum",
+     "Ben Rickert",
+     "Jared Vennett"
+    ],
+    "answer": 1,
+    "note": "Said to men who have just become rich, and the film's moral centre in one sentence; a close paraphrase."
+   },
+   {
+    "quote": "This is fraud.",
+    "options": [
+     "Michael Burry",
+     "Ben Rickert",
+     "Mark Baum"
+    ],
+    "answer": 2,
+    "note": "Baum's conclusion in Florida, and the word the film keeps returning to; paraphrased."
    }
   ],
   "quiz": [
@@ -19516,6 +29576,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "They win, and the film is careful to show what their winning costs."
+   },
+   {
+    "q": "The film stops to explain its jargon straight to camera, then jokes about explaining it. What does that do?",
+    "options": [
+     "It lets us laugh at our own confusion while still learning the term",
+     "It proves the terms cannot be explained",
+     "It hides the plot from the audience"
+    ],
+    "answer": 0,
+    "why": "The joke admits that the subject is designed to be boring, and the explanation makes sure we cannot hide behind that excuse."
+   },
+   {
+    "q": "Why does the film cut from a bathtub to a blackjack table to a stripper with five mortgages?",
+    "options": [
+     "To advertise the casinos",
+     "To make a dull system feel like a scam we can enjoy watching",
+     "To show that all the characters are friends"
+    ],
+    "answer": 1,
+    "why": "The comedy keeps us entertained by the very behaviour we are being asked to condemn."
+   },
+   {
+    "q": "Why does the film end with statistics about jobs and homes lost?",
+    "options": [
+     "To prove the numbers were invented",
+     "To set up a sequel about banks",
+     "To turn the investors' win into a public cost"
+    ],
+    "answer": 2,
+    "why": "The final captions take the profit away from the characters and hand the bill to people who never appear on screen."
    }
   ],
   "roleplay": {
@@ -19564,6 +29654,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c2.json",
+  "truefalse": [
+   {
+    "s": "Burry reads the mortgage documents and realises the rates will reset and many borrowers will fail.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The film uses famous faces and direct address to camera to explain financial terms.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Burry's investors try to take their money back when his bet looks wrong.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The banks refuse to sell Burry the swaps because they know the market is unsafe.",
+    "answer": false,
+    "fix": "They sell gladly, because they think he is throwing his money away."
+   },
+   {
+    "s": "The film presents the crash as a natural disaster with nobody to blame.",
+    "answer": false,
+    "fix": "It names the banks, the lenders and the ratings agencies as the makers of it."
+   },
+   {
+    "s": "Baum makes his fortune and ends the film happy.",
+    "answer": false,
+    "fix": "He ends the film sickened by what the winnings mean."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "What does the film explain twice, and what does it never explain?",
+    "model": "It explains the jargon twice, with jokes, so nobody can claim they did not understand. It never explains why the people who saw it coming did so little, which is the harder question."
+   },
+   {
+    "q": "Why does the film keep interrupting itself with direct address?",
+    "model": "The subject is a system designed to be unreadable, so the film has to break its own story to be understood. The interruptions are also a joke about how easily we accept nonsense."
+   },
+   {
+    "q": "What is the cost of being right early, as Burry is?",
+    "model": "He loses his investors' trust and years of his life while everyone tells him he is wrong. Being right early looks exactly like being wrong until the moment it does not."
+   },
+   {
+    "q": "Is the film an explanation or an accusation?",
+    "model": "It explains enough to make the accusation legible, then uses the ending to point it at named institutions. The comedy keeps the audience in the room while the charge is read out."
+   }
+  ],
   "poster": "assets/posters/the-big-short.jpg"
  },
  {
@@ -19683,6 +29823,36 @@ window.FILM_DATA = [
     "answer": "obey",
     "hint": "to do what someone tells you",
     "adapted": true
+   },
+   {
+    "line": "The ___ will vote on the peace.",
+    "answer": "Parliament",
+    "hint": "the body that makes the laws",
+    "adapted": true
+   },
+   {
+    "line": "Everyone at court is thinking about the ___.",
+    "answer": "succession",
+    "hint": "who takes the throne next",
+    "adapted": true
+   },
+   {
+    "line": "You have the queen's ___ now.",
+    "answer": "ear",
+    "hint": "her attention and her trust",
+    "adapted": true
+   },
+   {
+    "line": "Her majesty suffers from ___.",
+    "answer": "gout",
+    "hint": "a painful disease of the joints",
+    "adapted": true
+   },
+   {
+    "line": "She was ___ from court before the winter.",
+    "answer": "dismissed",
+    "hint": "officially removed from her position",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -19715,6 +29885,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "Sarah's whole defence of herself, and the reason she loses; paraphrased from the scene."
+   },
+   {
+    "quote": "I am a lady now.",
+    "options": [
+     "Sarah",
+     "Abigail",
+     "Anne"
+    ],
+    "answer": 1,
+    "note": "Paraphrased from Abigail's insistence on her new status after her marriage."
+   },
+   {
+    "quote": "The war is ruining this country.",
+    "options": [
+     "Sarah",
+     "Anne",
+     "Harley"
+    ],
+    "answer": 2,
+    "note": "Harley's case for peace, which is also his route to power."
    }
   ],
   "quiz": [
@@ -19767,6 +29957,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "Abigail wins the ear, and Sarah loses the door."
+   },
+   {
+    "q": "The film uses wide lenses and very low light. What does that do to the court?",
+    "options": [
+     "It makes the rooms huge and the people small and strange",
+     "It makes the palace look cheap",
+     "It hides which character is speaking"
+    ],
+    "answer": 0,
+    "why": "The distorted width turns a palace into a space where people are specimens, and the darkness keeps half of each face unreadable."
+   },
+   {
+    "q": "Why does a court of 1708 speak in modern slang and swearing?",
+    "options": [
+     "Because the writers could not find period sources",
+     "So the cruelty sounds like something we might say today",
+     "To show that the queen was uneducated"
+    ],
+    "answer": 1,
+    "why": "The modern idiom removes the safety of distance: these insults could be said in a corridor now."
+   },
+   {
+    "q": "Why does the last shot hold on the two women for so long?",
+    "options": [
+     "It shows that Abigail has been forgiven",
+     "It is simply waiting for the credits",
+     "It leaves the question of who has won uncomfortably open"
+    ],
+    "answer": 2,
+    "why": "The film ends on a hand and a face rather than a verdict, so the audience has to decide what the victory is worth."
    }
   ],
   "roleplay": {
@@ -19814,7 +30034,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "c2.json"
+  "_src": "c2.json",
+  "truefalse": [
+   {
+    "s": "Abigail marries Samuel Masham and gains a title and a place at court.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Sarah is the queen's oldest friend and manages much of the household and the war.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The battle scenes are distant, muddy and confusing rather than heroic.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Anne has seventeen children and they live with her at court.",
+    "answer": false,
+    "fix": "She has lost seventeen children, and the rabbits stand for them."
+   },
+   {
+    "s": "Harley works to keep Sarah at court.",
+    "answer": false,
+    "fix": "Harley works against Sarah and helps Abigail take her place."
+   },
+   {
+    "s": "Abigail arrives at court as a rich and welcome guest.",
+    "answer": false,
+    "fix": "She arrives dirty and desperate and is treated as a servant."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "What is the cost of Abigail's success, and who pays it?",
+    "model": "She wins the queen's ear and loses any life of her own, and the last shot makes that price visible. Sarah pays too, but she keeps the one thing Abigail traded away."
+   },
+   {
+    "q": "Why does the film keep the war off screen and its violence brief?",
+    "model": "The war is a bargaining chip in the corridors, so the film shows it as noise and mud rather than as heroism. What matters is who can end it, not who fights it."
+   },
+   {
+    "q": "What does the film refuse to explain about Anne's grief?",
+    "model": "It never gives Anne a scene of mourning; we count rabbits instead of hearing her speak. That refusal makes the court's politeness look like a way of not saying the obvious."
+   },
+   {
+    "q": "Why is the final shot so uncomfortable to watch?",
+    "model": "The camera stays on two faces long after the dialogue has stopped, so we cannot pretend the story is over. It asks us to watch a relationship that has turned into a job."
+   }
+  ]
  },
  {
   "id": "the-lighthouse",
@@ -19933,6 +30203,36 @@ window.FILM_DATA = [
     "answer": "lamp",
     "hint": "the light at the top of the tower",
     "adapted": true
+   },
+   {
+    "line": "Let ___ strike ye dead!",
+    "answer": "Neptune",
+    "hint": "the Roman god of the sea",
+    "adapted": true
+   },
+   {
+    "line": "It is bad luck to kill a ___.",
+    "answer": "seabird",
+    "hint": "a bird that lives on the sea",
+    "adapted": true
+   },
+   {
+    "line": "Ye will not climb the ___ without me.",
+    "answer": "tower",
+    "hint": "the tall building on the rock",
+    "adapted": true
+   },
+   {
+    "line": "The ___ is not coming.",
+    "answer": "boat",
+    "hint": "the vessel that would take them home",
+    "adapted": true
+   },
+   {
+    "line": "Do ye ___ me, boy?",
+    "answer": "hear",
+    "hint": "listen to what I am saying",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -19965,6 +30265,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "A close paraphrase of Wake's claim to authority; he says it more than once, and it matters more each time."
+   },
+   {
+    "quote": "Let Neptune strike ye dead!",
+    "options": [
+     "Winslow",
+     "Wake",
+     "The gull"
+    ],
+    "answer": 1,
+    "note": "From the long curse in the middle of the film, aimed at Winslow and at the sea at once."
+   },
+   {
+    "quote": "I want what I am owed.",
+    "options": [
+     "Wake",
+     "The keeper before",
+     "Winslow"
+    ],
+    "answer": 2,
+    "note": "Paraphrased from Winslow's demand for his wages, which is also a demand for respect."
    }
   ],
   "quiz": [
@@ -20017,6 +30337,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The real Winslow died, and the man in the tower needed a name."
+   },
+   {
+    "q": "The film is shot in black and white on an almost square frame. What does that do to the two men?",
+    "options": [
+     "It makes them look shut in and pressed together",
+     "It makes the sea look calm",
+     "It helps us read the period costumes"
+    ],
+    "answer": 0,
+    "why": "The narrow frame leaves no room at the edges, so the two faces fill the space and the island feels like a wall."
+   },
+   {
+    "q": "Why does the sound design use foghorns, wind and a low drone?",
+    "options": [
+     "It covers a lack of dialogue",
+     "It wears the audience down before anything is explained",
+     "It shows the island is near a town"
+    ],
+    "answer": 1,
+    "why": "The noise works on the body, so we are unsettled before we have understood a single line of the dialect."
+   },
+   {
+    "q": "Wake tells the same stories in different versions. What does that suggest?",
+    "options": [
+     "That he is losing his memory",
+     "That Winslow is imagining him",
+     "That his authority is a performance he keeps rebuilding"
+    ],
+    "answer": 2,
+    "why": "Each retelling adds a detail that suits the moment, which tells us the truth matters less to him than the effect."
    }
   ],
   "roleplay": {
@@ -20065,6 +30415,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c2.json",
+  "truefalse": [
+   {
+    "s": "The film is black and white and framed almost square.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Winslow kills a gull after Wake warns him it brings bad luck.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The two men drink heavily, and the drinking blurs what is real.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Wake lets Winslow into the lamp room whenever he asks.",
+    "answer": false,
+    "fix": "Wake keeps the lamp room locked and forbids Winslow to enter."
+   },
+   {
+    "s": "Winslow is a cheerful young man who enjoys the work.",
+    "answer": false,
+    "fix": "He is sullen, secretive and increasingly violent."
+   },
+   {
+    "s": "The film ends with a rescue boat and both men going home.",
+    "answer": false,
+    "fix": "No boat comes, and the ending is a violent, unexplained image."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "What does the film refuse to explain about the lamp?",
+    "model": "It never says what is inside the lens or why Wake worships it, and it never lets us look for long. The refusal keeps the lamp powerful in a way an explanation would ruin."
+   },
+   {
+    "q": "Why is the film in black and white?",
+    "model": "The grey sea and white sky put the men on the same scale as the rock, so the island looks like a fact rather than a set. Colour would give the landscape a beauty the story does not allow."
+   },
+   {
+    "q": "What is the cost of Wake's authority, and who pays it?",
+    "model": "Winslow pays with his sanity and Wake with his life, and neither of them ever admits the debt. The authority was only ever a story about a light."
+   },
+   {
+    "q": "Why does the film end on an image rather than an explanation?",
+    "model": "An explanation would decide which of the two men's stories was true. The image leaves both versions possible and makes the audience carry the doubt out of the cinema."
+   }
+  ],
   "poster": "assets/posters/the-lighthouse.jpg"
  },
  {
@@ -20184,6 +30584,36 @@ window.FILM_DATA = [
     "answer": "succeed",
     "hint": "to do well",
     "adapted": true
+   },
+   {
+    "line": "I hate most ___.",
+    "answer": "people",
+    "hint": "human beings",
+    "adapted": false
+   },
+   {
+    "line": "There are times when I look at people and see nothing worth ___.",
+    "answer": "liking",
+    "hint": "finding anything to value",
+    "adapted": true
+   },
+   {
+    "line": "Cap the ___ before it blows.",
+    "answer": "well",
+    "hint": "a hole drilled for oil",
+    "adapted": true
+   },
+   {
+    "line": "I am a false ___.",
+    "answer": "prophet",
+    "hint": "a person who claims to speak for God",
+    "adapted": false
+   },
+   {
+    "line": "They are laying a ___ to the coast.",
+    "answer": "pipeline",
+    "hint": "a long pipe that carries oil",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -20216,6 +30646,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "A child's image used as a threat; it has become the film's most quoted moment."
+   },
+   {
+    "quote": "I hate most people.",
+    "options": [
+     "Daniel Plainview",
+     "Eli Sunday",
+     "Henry"
+    ],
+    "answer": 0,
+    "note": "Said quietly in a half-lit room, and the closest the film comes to a confession."
+   },
+   {
+    "quote": "I am a false prophet.",
+    "options": [
+     "Daniel Plainview",
+     "Eli Sunday",
+     "Abel Sunday"
+    ],
+    "answer": 1,
+    "note": "Eli's forced confession in the bowling alley; it is the price of his life."
    }
   ],
   "quiz": [
@@ -20268,6 +30718,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The last scene is a wide, calm frame that makes the violence worse."
+   },
+   {
+    "q": "The film opens with five minutes of work and almost no speech. What does that opening establish?",
+    "options": [
+     "Daniel's body and his trade before we hear his voice",
+     "The town's hostility to outsiders",
+     "Eli's power over the workers"
+    ],
+    "answer": 0,
+    "why": "We meet the man as a body in a hole before he is allowed to explain himself, and that order never quite reverses."
+   },
+   {
+    "q": "The score sounds more like a warning than a tune. What does that do to scenes that look calm?",
+    "options": [
+     "It makes the dialogue harder to hear",
+     "It keeps us tense inside them",
+     "It tells us the town band is playing"
+    ],
+    "answer": 1,
+    "why": "The strings rise under polite conversation, so the audience feels the threat before any character states it."
+   },
+   {
+    "q": "Daniel calls Eli's faith a superstition. What does the film do with that claim?",
+    "options": [
+     "It has no interest in religion",
+     "It proves that Daniel is right",
+     "It shows both men using belief as a tool"
+    ],
+    "answer": 2,
+    "why": "Eli sells belief to a crowd and Daniel sells land; the film keeps the two performances side by side rather than choosing."
    }
   ],
   "roleplay": {
@@ -20316,6 +30796,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c2.json",
+  "truefalse": [
+   {
+    "s": "Daniel builds a pipeline to the coast so he can send his oil out without the railways.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Eli asks Daniel to pay for his church, and Daniel later uses that debt to humiliate him.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The film opens in a mine shaft, years before the oil business begins.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Daniel is a generous employer who shares the profits with the town.",
+    "answer": false,
+    "fix": "He pays as little as he can and treats the town as land to be signed."
+   },
+   {
+    "s": "Eli heals people and asks for nothing in return.",
+    "answer": false,
+    "fix": "Eli performs healings and demands money and credit for the church."
+   },
+   {
+    "s": "The man who arrives claiming to be Daniel's brother really is his brother.",
+    "answer": false,
+    "fix": "He is an impostor, and Daniel kills him once he is sure."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "What does the film refuse to explain about Daniel's past?",
+    "model": "It gives us one long confession in a dark room and no dates, no family and no reason for the hatred. The gap is the point: we are asked to judge a man whose history has been kept from us."
+   },
+   {
+    "q": "Why is the church scene played with Daniel on the floor and Eli above him?",
+    "model": "The frame gives Eli every advantage of height while the dialogue gives Daniel every advantage of money. The film wants us to feel that power can be borrowed from a room and then taken back."
+   },
+   {
+    "q": "What is the cost of Daniel's competition, and who pays it?",
+    "model": "H.W., the man who called himself Henry, Eli's dignity and finally Daniel's own company are all spent on it. The film counts the cost in people rather than in dollars."
+   },
+   {
+    "q": "Why does the last scene stay in a wide, calm frame while the violence happens?",
+    "model": "The stillness refuses to let the audience call the killing a thrill. By not moving, the camera behaves like a witness who has seen this before."
+   }
+  ],
   "poster": "assets/posters/there-will-be-blood.jpg"
  },
  {
@@ -20435,6 +30965,36 @@ window.FILM_DATA = [
     "answer": "time",
     "hint": "what a clock measures",
     "adapted": true
+   },
+   {
+    "line": "We ___ him for six weeks.",
+    "answer": "tailed",
+    "hint": "followed him secretly",
+    "adapted": true
+   },
+   {
+    "line": "Meet me at the ___ house.",
+    "answer": "safe",
+    "hint": "a secret place where people can talk",
+    "adapted": true
+   },
+   {
+    "line": "He is a ___, not a friend.",
+    "answer": "defector",
+    "hint": "someone who leaves one country for another",
+    "adapted": true
+   },
+   {
+    "line": "They put him in the ___ and left him there.",
+    "answer": "cold",
+    "hint": "out of the service, forgotten",
+    "adapted": true
+   },
+   {
+    "line": "His ___ was blown in Budapest.",
+    "answer": "cover",
+    "hint": "the story that hides who you really are",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -20467,6 +31027,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "A paraphrase of the film's running joke: the man sent to catch a spy is the one nobody watches."
+   },
+   {
+    "quote": "There is a mole at the top of the Circus.",
+    "options": [
+     "Smiley",
+     "Control",
+     "Alleline"
+    ],
+    "answer": 1,
+    "note": "The sentence that starts the search; a close paraphrase of Control's warning."
+   },
+   {
+    "quote": "You were always the clever one, George.",
+    "options": [
+     "Control",
+     "Percy Alleline",
+     "Bill Haydon"
+    ],
+    "answer": 2,
+    "note": "Haydon's affection and condescension in one line; paraphrased from their last conversation."
    }
   ],
   "quiz": [
@@ -20519,6 +31099,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "The rhyme gives each suspect a name, and a child's game becomes a death list."
+   },
+   {
+    "q": "The film cuts away from important conversations and shows us the aftermath. What does that make the audience do?",
+    "options": [
+     "Build the scene from evidence, like an investigator",
+     "Lose interest in the plot",
+     "Trust the narrator more"
+    ],
+    "answer": 0,
+    "why": "We are given the same fragments the officers have, so understanding the scene becomes the exercise."
+   },
+   {
+    "q": "Why is the palette grey, brown and washed out?",
+    "options": [
+     "It hides the fact that the film is set in summer",
+     "It makes the offices feel like part of the plot",
+     "It shows that the characters are ill"
+    ],
+    "answer": 1,
+    "why": "The building and the men are the same colour, so the institution looks like something they cannot step outside of."
+   },
+   {
+    "q": "Why is the Christmas party, the warmest scene, placed near the centre of a cold film?",
+    "options": [
+     "It gives the actors a break from the plot",
+     "It proves the Circus is a happy family",
+     "It shows friendship as the place where betrayal is easiest"
+    ],
+    "answer": 2,
+    "why": "The one room with music and affection is also the room where the audience learns how close the betrayal was."
    }
   ],
   "roleplay": {
@@ -20566,7 +31176,57 @@ window.FILM_DATA = [
     "points": 10
    }
   ],
-  "_src": "c2.json"
+  "_src": "c2.json",
+  "truefalse": [
+   {
+    "s": "Smiley is brought back from retirement to find the mole.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Haydon is the mole.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Smiley's wife, Ann, has been having an affair with Haydon.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "Smiley is loud and impatient and shouts at his colleagues.",
+    "answer": false,
+    "fix": "He is quiet and patient, and he wins by listening."
+   },
+   {
+    "s": "The mole is caught because he leaves a written confession in the files.",
+    "answer": false,
+    "fix": "There is almost no written evidence; Smiley catches him by comparing what people say."
+   },
+   {
+    "s": "Prideaux is shot in Hungary and dies there.",
+    "answer": false,
+    "fix": "He survives the shooting and later lives quietly as a school teacher."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "Why does the film refuse to explain the plot twice?",
+    "model": "It treats the audience as another intelligence officer who can hold a file in their head. The confusion is the subject: every character is working from fragments as well."
+   },
+   {
+    "q": "What is the cost of Smiley's patience?",
+    "model": "He wins the argument and loses his wife, his friend and any belief that the service deserves him. The film lets the victory look like the loneliest possible outcome."
+   },
+   {
+    "q": "Why does the camera sit still in long takes during conversations?",
+    "model": "Stillness makes us watch for the small betrayals, a glance or a pause, that the dialogue is hiding. Cutting would give us the excitement the film is deliberately withholding."
+   },
+   {
+    "q": "What does the film leave unsaid about Ann?",
+    "model": "We hear about her only from men describing their own wounds. She is the one character with no scene of her own, and that absence is how the film measures what the job costs."
+   }
+  ]
  },
  {
   "id": "under-the-skin",
@@ -20685,6 +31345,36 @@ window.FILM_DATA = [
     "answer": "afraid",
     "hint": "scared",
     "adapted": true
+   },
+   {
+    "line": "What is your ___?",
+    "answer": "name",
+    "hint": "what someone is called",
+    "adapted": true
+   },
+   {
+    "line": "I do not get ___ much.",
+    "answer": "out",
+    "hint": "away from home, among people",
+    "adapted": true
+   },
+   {
+    "line": "Where are we ___?",
+    "answer": "going",
+    "hint": "moving towards somewhere",
+    "adapted": true
+   },
+   {
+    "line": "Do you want to come ___?",
+    "answer": "in",
+    "hint": "inside the house",
+    "adapted": true
+   },
+   {
+    "line": "Could you give me a ___?",
+    "answer": "hand",
+    "hint": "some help",
+    "adapted": true
    }
   ],
   "quotes": [
@@ -20717,6 +31407,26 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "note": "A short, ordinary question used as an experiment; the note marks this as a paraphrase."
+   },
+   {
+    "quote": "Do you want to come with me?",
+    "options": [
+     "The motorcyclist",
+     "The woman",
+     "A man on the beach"
+    ],
+    "answer": 1,
+    "note": "Almost her whole script, and the sentence she uses to make strangers follow her."
+   },
+   {
+    "quote": "Where are we going?",
+    "options": [
+     "The woman",
+     "The child on the beach",
+     "A man in the van"
+    ],
+    "answer": 2,
+    "note": "The men ask it, and the film never gives an answer."
    }
   ],
   "quiz": [
@@ -20769,6 +31479,36 @@ window.FILM_DATA = [
     ],
     "answer": 0,
     "why": "She eats cake, takes a bus, and tries a human life for a few days."
+   },
+   {
+    "q": "The film repeats the same pick-up with different men. What does the repetition do?",
+    "options": [
+     "It turns an atrocity into a routine, then makes the routine unbearable",
+     "It shows she is learning to drive",
+     "It fills time before the plot starts"
+    ],
+    "answer": 0,
+    "why": "By the fourth van the audience knows the ending, and the film uses that knowledge to make the ordinariness sickening."
+   },
+   {
+    "q": "Why does the camera often stay inside the van at eye level?",
+    "options": [
+     "It was the only way to record the sound",
+     "It puts us in the seat beside her, close enough to feel the trap close",
+     "It hides the Scottish landscape"
+    ],
+    "answer": 1,
+    "why": "Sitting at her shoulder, we become a passenger in the scene rather than a judge watching from outside it."
+   },
+   {
+    "q": "The black room has no furniture, no horizon and almost no sound. What does that space remove?",
+    "options": [
+     "The need for a script",
+     "The possibility of music",
+     "Every clue that would tell us where we are or what is real"
+    ],
+    "answer": 2,
+    "why": "With nothing to measure the space against, the audience loses the bearings that would let us explain what we are seeing."
    }
   ],
   "roleplay": {
@@ -20817,6 +31557,56 @@ window.FILM_DATA = [
    }
   ],
   "_src": "c2.json",
+  "truefalse": [
+   {
+    "s": "Many of the men in the van were not actors and did not know they were being filmed.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The woman rarely answers questions about herself, and her face stays still while the men talk.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The beach sequence is filmed from a distance, and we watch people in trouble without being taken close to them.",
+    "answer": true,
+    "fix": ""
+   },
+   {
+    "s": "The woman is a human being who has lost her memory.",
+    "answer": false,
+    "fix": "She is something other than human, learning what people are by watching them."
+   },
+   {
+    "s": "The motorcyclist is a police officer trying to stop her.",
+    "answer": false,
+    "fix": "He is one of her own kind, watching her and clearing up afterwards."
+   },
+   {
+    "s": "The film explains where she comes from in a short laboratory scene.",
+    "answer": false,
+    "fix": "No such scene exists; the film never explains her origin."
+   }
+  ],
+  "shortAnswers": [
+   {
+    "q": "What does the film refuse to explain about where she comes from?",
+    "model": "We never see a ship, a laboratory or a home, only a van and a black room. Without an origin she becomes pure behaviour, and the audience has to read her like an animal or a child."
+   },
+   {
+    "q": "Why does the film use non-actors in the van?",
+    "model": "Their hesitation and ordinary faces make the encounters feel unscripted, so we cannot file them safely as fiction. That discomfort is the film's real subject."
+   },
+   {
+    "q": "What is the cost of her curiosity about being human?",
+    "model": "She loses the protection of being nothing, and the world answers her with violence. The film treats tenderness as the most dangerous thing she learns."
+   },
+   {
+    "q": "Why does the score sound like an alarm rather than a melody?",
+    "model": "The strings scrape and repeat, so the sound says something is being tracked rather than something is being felt. It keeps the audience in the position of the watched."
+   }
+  ],
   "poster": "assets/posters/under-the-skin.jpg"
  }
 ];
