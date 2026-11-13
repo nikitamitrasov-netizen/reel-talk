@@ -1,0 +1,725 @@
+{
+ "the-gruffalo": {
+  "title": "The Gruffalo",
+  "found": true,
+  "note": "already on disk"
+ },
+ "room-on-the-broom": {
+  "title": "Room on the Broom",
+  "found": false,
+  "page": "Room on the Broom"
+ },
+ "stick-man": {
+  "title": "Stick Man",
+  "found": true,
+  "note": "already on disk"
+ },
+ "the-snowman": {
+  "title": "The Snowman",
+  "found": true,
+  "note": "already on disk"
+ },
+ "charlie-brown-christmas": {
+  "title": "A Charlie Brown Christmas",
+  "found": false,
+  "page": "A Charlie Brown Christmas"
+ },
+ "piper": {
+  "title": "Piper",
+  "found": true,
+  "note": "already on disk"
+ },
+ "bao": {
+  "title": "Bao",
+  "found": true,
+  "note": "already on disk"
+ },
+ "grand-day-out": {
+  "title": "Wallace & Gromit: A Grand Day Out",
+  "found": true,
+  "page": "A Grand Day Out",
+  "source": "https://upload.wikimedia.org/wikipedia/en/0/00/Wallace_%26_Gromit_in_A_Grand_Day_Out.jpg",
+  "size": [
+   232,
+   430
+  ]
+ },
+ "wrong-trousers": {
+  "title": "Wallace & Gromit: The Wrong Trousers",
+  "found": true,
+  "page": "The Wrong Trousers",
+  "source": "https://upload.wikimedia.org/wikipedia/en/b/b3/WallaceandGromitinTheWrongTrousers.jpg",
+  "size": [
+   259,
+   381
+  ]
+ },
+ "farmer-llamas": {
+  "title": "Shaun the Sheep: The Farmer's Llamas",
+  "found": true,
+  "page": "Shaun the Sheep: The Farmer's Llamas",
+  "source": "https://upload.wikimedia.org/wikipedia/en/4/42/Shaun_the_Sheep_The_Farmers_Llamas_cover.jpg",
+  "size": [
+   250,
+   350
+  ]
+ },
+ "home-alone": {
+  "title": "Home Alone",
+  "found": true,
+  "page": "Home Alone",
+  "source": "https://upload.wikimedia.org/wikipedia/en/7/76/Home_alone_poster.jpg",
+  "size": [
+   250,
+   374
+  ]
+ },
+ "toy-story": {
+  "title": "Toy Story",
+  "found": true,
+  "page": "Toy Story",
+  "source": "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+  "size": [
+   250,
+   373
+  ]
+ },
+ "finding-nemo": {
+  "title": "Finding Nemo",
+  "found": true,
+  "page": "Finding Nemo",
+  "source": "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",
+  "size": [
+   257,
+   385
+  ]
+ },
+ "charlie-chocolate": {
+  "title": "Charlie and the Chocolate Factory",
+  "found": true,
+  "page": "Charlie and the Chocolate Factory (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/1/17/Charlie_and_the_Chocolate_Factory_%28film%29.png",
+  "size": [
+   220,
+   329
+  ]
+ },
+ "matilda": {
+  "title": "Matilda",
+  "found": true,
+  "page": "Matilda (1996 film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/b/b7/Matildaposter.jpg",
+  "size": [
+   220,
+   326
+  ]
+ },
+ "paddington": {
+  "title": "Paddington",
+  "found": true,
+  "page": "File:Paddington poster.jpg",
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Paddington_poster.jpg/500px-Paddington_poster.jpg",
+  "size": [
+   500,
+   770
+  ],
+  "via": "file search"
+ },
+ "wizard-of-oz": {
+  "title": "The Wizard of Oz",
+  "found": true,
+  "page": "The Wizard of Oz",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/6/69/Wizard_of_oz_movie_poster.jpg",
+  "size": [
+   500,
+   748
+  ]
+ },
+ "et": {
+  "title": "E.T. the Extra-Terrestrial",
+  "found": true,
+  "page": "E.T. the Extra-Terrestrial",
+  "source": "https://upload.wikimedia.org/wikipedia/en/6/66/E_t_the_extra_terrestrial_ver3.jpg",
+  "size": [
+   253,
+   394
+  ]
+ },
+ "despicable-me": {
+  "title": "Despicable Me",
+  "found": true,
+  "page": "Despicable Me (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/c/c0/Despicable_Me_%282010_animated_feature_film%29.jpg",
+  "size": [
+   259,
+   383
+  ]
+ },
+ "frozen": {
+  "title": "Frozen",
+  "found": true,
+  "page": "Frozen (2013 film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/0/05/Frozen_%282013_film%29_poster.jpg",
+  "size": [
+   259,
+   383
+  ],
+  "via": "article image"
+ },
+ "forrest-gump": {
+  "title": "Forrest Gump",
+  "found": true,
+  "page": "Forrest Gump",
+  "source": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+  "size": [
+   248,
+   359
+  ]
+ },
+ "truman-show": {
+  "title": "The Truman Show",
+  "found": true,
+  "page": "The Truman Show",
+  "source": "https://upload.wikimedia.org/wikipedia/en/c/cd/Trumanshow.jpg",
+  "size": [
+   220,
+   327
+  ]
+ },
+ "groundhog-day": {
+  "title": "Groundhog Day",
+  "found": true,
+  "page": "Groundhog Day (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/b/b1/Groundhog_Day_%28movie_poster%29.jpg",
+  "size": [
+   259,
+   385
+  ]
+ },
+ "back-to-the-future": {
+  "title": "Back to the Future",
+  "found": false,
+  "page": "Back to the Future"
+ },
+ "dead-poets": {
+  "title": "Dead Poets Society",
+  "found": true,
+  "page": "Dead Poets Society",
+  "source": "https://upload.wikimedia.org/wikipedia/en/8/86/Dead_poets_society.png",
+  "size": [
+   261,
+   385
+  ]
+ },
+ "notting-hill": {
+  "title": "Notting Hill",
+  "found": true,
+  "page": "Notting Hill (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/3/38/NottingHillRobertsGrant.jpg",
+  "size": [
+   260,
+   387
+  ]
+ },
+ "devil-wears-prada": {
+  "title": "The Devil Wears Prada",
+  "found": true,
+  "page": "The Devil Wears Prada (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/e/e7/The_Devil_Wears_Prada_main_onesheet.jpg",
+  "size": [
+   250,
+   369
+  ]
+ },
+ "school-of-rock": {
+  "title": "School of Rock",
+  "found": true,
+  "page": "School of Rock",
+  "source": "https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
+  "size": [
+   258,
+   385
+  ]
+ },
+ "pursuit-of-happyness": {
+  "title": "The Pursuit of Happyness",
+  "found": true,
+  "page": "The Pursuit of Happyness",
+  "source": "https://upload.wikimedia.org/wikipedia/en/8/81/Poster-pursuithappyness.jpg",
+  "size": [
+   259,
+   384
+  ]
+ },
+ "bend-it-like-beckham": {
+  "title": "Bend It Like Beckham",
+  "found": true,
+  "page": "Bend It Like Beckham",
+  "source": "https://upload.wikimedia.org/wikipedia/en/1/1c/Bend_It_Like_Beckham_movie.jpg",
+  "size": [
+   250,
+   373
+  ]
+ },
+ "shawshank": {
+  "title": "The Shawshank Redemption",
+  "found": true,
+  "page": "The Shawshank Redemption",
+  "source": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
+  "size": [
+   248,
+   372
+  ]
+ },
+ "kings-speech": {
+  "title": "The King's Speech",
+  "found": false,
+  "page": "The King's Speech"
+ },
+ "social-network": {
+  "title": "The Social Network",
+  "found": true,
+  "page": "The Social Network",
+  "source": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Social_Network_film_poster.png",
+  "size": [
+   259,
+   384
+  ]
+ },
+ "the-intern": {
+  "title": "The Intern",
+  "found": true,
+  "page": "The Intern (2015 film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/c/c9/The_Intern_Poster.jpg",
+  "size": [
+   220,
+   326
+  ]
+ },
+ "the-help": {
+  "title": "The Help",
+  "found": true,
+  "page": "The Help (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/d/d3/The_Help_%282011_film%29.jpg",
+  "size": [
+   220,
+   326
+  ]
+ },
+ "erin-brockovich": {
+  "title": "Erin Brockovich",
+  "found": true,
+  "page": "Erin Brockovich (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/a/a9/Erin_Brockovich_%28film_poster%29.jpg",
+  "size": [
+   259,
+   383
+  ]
+ },
+ "beautiful-mind": {
+  "title": "A Beautiful Mind",
+  "found": true,
+  "page": "A Beautiful Mind",
+  "source": "https://upload.wikimedia.org/wikipedia/en/b/b8/A_Beautiful_Mind_Poster.jpg",
+  "size": [
+   256,
+   380
+  ]
+ },
+ "the-terminal": {
+  "title": "The Terminal",
+  "found": true,
+  "page": "The Terminal",
+  "source": "https://upload.wikimedia.org/wikipedia/en/8/86/Movie_poster_the_terminal.jpg",
+  "size": [
+   258,
+   385
+  ]
+ },
+ "little-miss-sunshine": {
+  "title": "Little Miss Sunshine",
+  "found": true,
+  "page": "Little Miss Sunshine",
+  "source": "https://upload.wikimedia.org/wikipedia/en/1/16/Little_miss_sunshine_poster.jpg",
+  "size": [
+   220,
+   318
+  ]
+ },
+ "hidden-figures": {
+  "title": "Hidden Figures",
+  "found": true,
+  "page": "Hidden Figures",
+  "source": "https://upload.wikimedia.org/wikipedia/en/4/4f/The_official_poster_for_the_film_Hidden_Figures%2C_2016.jpg",
+  "size": [
+   220,
+   326
+  ]
+ },
+ "inception": {
+  "title": "Inception",
+  "found": true,
+  "page": "Inception",
+  "source": "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",
+  "size": [
+   220,
+   326
+  ]
+ },
+ "grand-budapest": {
+  "title": "The Grand Budapest Hotel",
+  "found": true,
+  "page": "The Grand Budapest Hotel",
+  "source": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Grand_Budapest_Hotel.png",
+  "size": [
+   220,
+   344
+  ]
+ },
+ "twelve-angry-men": {
+  "title": "12 Angry Men",
+  "found": true,
+  "page": "12 Angry Men",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/b/b5/12_Angry_Men_%281957_film_poster%29.jpg",
+  "size": [
+   500,
+   764
+  ]
+ },
+ "imitation-game": {
+  "title": "The Imitation Game",
+  "found": true,
+  "page": "The Imitation Game",
+  "source": "https://upload.wikimedia.org/wikipedia/en/8/87/The_Imitation_Game_%282014%29.png",
+  "size": [
+   220,
+   346
+  ]
+ },
+ "whiplash": {
+  "title": "Whiplash",
+  "found": true,
+  "page": "Whiplash (2014 film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
+  "size": [
+   220,
+   326
+  ]
+ },
+ "birdman": {
+  "title": "Birdman",
+  "found": true,
+  "page": "Birdman (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/6/63/Birdman_poster.png",
+  "size": [
+   220,
+   326
+  ]
+ },
+ "manchester-by-the-sea": {
+  "title": "Manchester by the Sea",
+  "found": true,
+  "page": "Manchester by the Sea (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/d/de/Manchester_by_the_Sea.jpg",
+  "size": [
+   220,
+   326
+  ]
+ },
+ "arrival": {
+  "title": "Arrival",
+  "found": true,
+  "page": "Arrival (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg",
+  "size": [
+   220,
+   343
+  ]
+ },
+ "spotlight": {
+  "title": "Spotlight",
+  "found": true,
+  "page": "Spotlight (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/f/f3/Spotlight_%28film%29_poster.jpg",
+  "size": [
+   220,
+   325
+  ]
+ },
+ "marriage-story": {
+  "title": "Marriage Story",
+  "found": true,
+  "page": "Marriage Story",
+  "source": "https://upload.wikimedia.org/wikipedia/en/5/55/MarriageStoryPoster.png",
+  "size": [
+   220,
+   326
+  ],
+  "via": "article image"
+ },
+ "mulholland-drive": {
+  "title": "Mulholland Drive",
+  "found": true,
+  "page": "Mulholland Drive (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/0/0f/Mulholland.png",
+  "size": [
+   220,
+   330
+  ]
+ },
+ "there-will-be-blood": {
+  "title": "There Will Be Blood",
+  "found": true,
+  "page": "There Will Be Blood",
+  "source": "https://upload.wikimedia.org/wikipedia/en/d/da/There_Will_Be_Blood_Poster.jpg",
+  "size": [
+   250,
+   370
+  ]
+ },
+ "barry-lyndon": {
+  "title": "Barry Lyndon",
+  "found": true,
+  "page": "Barry Lyndon",
+  "source": "https://upload.wikimedia.org/wikipedia/en/e/ee/Barry_Lyndon_A.jpg",
+  "size": [
+   262,
+   379
+  ]
+ },
+ "the-favourite": {
+  "title": "The Favourite",
+  "found": false,
+  "page": "The Favourite"
+ },
+ "macbeth": {
+  "title": "Macbeth",
+  "found": true,
+  "page": "Macbeth (2015 film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/7/79/Macbeth_2015_poster.jpg",
+  "size": [
+   260,
+   385
+  ]
+ },
+ "glengarry": {
+  "title": "Glengarry Glen Ross",
+  "found": true,
+  "page": "Glengarry Glen Ross (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/6/65/Glengarrymovie.jpg",
+  "size": [
+   248,
+   369
+  ]
+ },
+ "the-big-short": {
+  "title": "The Big Short",
+  "found": true,
+  "page": "The Big Short (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/1/16/The_Big_Short_%282015_film_poster%29.png",
+  "size": [
+   260,
+   385
+  ]
+ },
+ "tinker-tailor": {
+  "title": "Tinker Tailor Soldier Spy",
+  "found": false,
+  "page": "Tinker Tailor Soldier Spy (film)"
+ },
+ "under-the-skin": {
+  "title": "Under the Skin",
+  "found": true,
+  "page": "Under the Skin (2013 film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/6/64/Under_the_Skin_poster.png",
+  "size": [
+   260,
+   385
+  ]
+ },
+ "the-lighthouse": {
+  "title": "The Lighthouse",
+  "found": true,
+  "page": "The Lighthouse (2019 film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/2/2c/The_Lighthouse.jpeg",
+  "size": [
+   259,
+   383
+  ]
+ },
+ "his-girl-friday": {
+  "title": "His Girl Friday",
+  "found": true,
+  "page": "His Girl Friday",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/2/21/His_Girl_Friday_%281940_poster%29_crop.jpg",
+  "size": [
+   500,
+   778
+  ]
+ },
+ "night-of-the-living-dead": {
+  "title": "Night of the Living Dead",
+  "found": true,
+  "page": "Night of the Living Dead",
+  "source": "https://upload.wikimedia.org/wikipedia/en/9/91/Night_of_the_Living_Dead_%281968%29_poster.jpg",
+  "size": [
+   245,
+   362
+  ]
+ },
+ "plan-9-from-outer-space": {
+  "title": "Plan 9 from Outer Space",
+  "found": true,
+  "page": "Plan 9 from Outer Space",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Plan_9_Alternative_poster.jpg",
+  "size": [
+   500,
+   752
+  ]
+ },
+ "for-the-birds": {
+  "title": "For the Birds",
+  "found": true,
+  "page": "For the Birds (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/7/77/For_the_Birds_%28film%29_poster.jpg",
+  "size": [
+   259,
+   383
+  ]
+ },
+ "lava": {
+  "title": "Lava",
+  "found": true,
+  "page": "Lava (2014 film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/6/64/Lava_%282015_film%29_poster.jpg",
+  "size": [
+   276,
+   361
+  ]
+ },
+ "hair-love": {
+  "title": "Hair Love",
+  "found": true,
+  "page": "Hair Love",
+  "source": "https://upload.wikimedia.org/wikipedia/en/5/52/Hair_Love_poster.jpg",
+  "size": [
+   259,
+   383
+  ]
+ },
+ "the-present": {
+  "title": "The Present",
+  "found": true,
+  "page": "The Present (2014 film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/3/31/The_Present_%282014_film%29.jpg",
+  "size": [
+   265,
+   376
+  ]
+ },
+ "zootopia": {
+  "title": "Zootopia",
+  "found": true,
+  "page": "Zootopia",
+  "source": "https://upload.wikimedia.org/wikipedia/en/9/96/Zootopia_%28movie_poster%29.jpg",
+  "size": [
+   220,
+   326
+  ]
+ },
+ "moana": {
+  "title": "Moana",
+  "found": true,
+  "page": "Moana (2016 film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/2/26/Moana_Teaser_Poster.jpg",
+  "size": [
+   259,
+   384
+  ]
+ },
+ "inside-out": {
+  "title": "Inside Out",
+  "found": true,
+  "page": "Inside Out",
+  "source": "https://upload.wikimedia.org/wikipedia/en/0/0a/Inside_Out_%282015_film%29_poster.jpg",
+  "size": [
+   220,
+   326
+  ]
+ },
+ "kung-fu-panda": {
+  "title": "Kung Fu Panda",
+  "found": true,
+  "page": "Kung Fu Panda (film)",
+  "source": "https://upload.wikimedia.org/wikipedia/en/7/76/Kungfupanda.jpg",
+  "size": [
+   259,
+   385
+  ]
+ },
+ "bluey-xylophone": {
+  "title": "Bluey",
+  "found": false,
+  "page": "Bluey (2018 TV series)"
+ },
+ "peppa-muddy-puddles": {
+  "title": "Peppa Pig",
+  "found": false,
+  "page": "Peppa Pig"
+ },
+ "friends-s1e1": {
+  "title": "Friends",
+  "found": false,
+  "page": "Friends"
+ },
+ "modern-family-s1e1": {
+  "title": "Modern Family",
+  "found": false,
+  "page": "Modern Family"
+ },
+ "our-planet-s1e1": {
+  "title": "Our Planet",
+  "found": false,
+  "page": "Our Planet"
+ },
+ "the-office-s1e1": {
+  "title": "The Office",
+  "found": true,
+  "page": "The Office",
+  "source": "https://upload.wikimedia.org/wikipedia/en/8/81/Two_Offices.jpg",
+  "size": [
+   298,
+   335
+  ]
+ },
+ "ted-lasso-s1e1": {
+  "title": "Ted Lasso",
+  "found": false,
+  "page": "Ted Lasso"
+ },
+ "brooklyn-99-s1e1": {
+  "title": "Brooklyn Nine-Nine",
+  "found": false,
+  "page": "Brooklyn Nine-Nine"
+ },
+ "sherlock-s1e1": {
+  "title": "Sherlock",
+  "found": false,
+  "page": "Sherlock (TV series)"
+ },
+ "the-crown-s1e1": {
+  "title": "The Crown",
+  "found": false,
+  "page": "The Crown (TV series)"
+ },
+ "black-mirror-s1e1": {
+  "title": "Black Mirror",
+  "found": false,
+  "page": "Black Mirror"
+ },
+ "fleabag-s1e1": {
+  "title": "Fleabag",
+  "found": false,
+  "page": "Fleabag"
+ }
+}

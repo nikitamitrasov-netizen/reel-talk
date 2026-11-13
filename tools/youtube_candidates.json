@@ -1,0 +1,418 @@
+{
+ "his-girl-friday": {
+  "target": {
+   "id": "his-girl-friday",
+   "title": "His Girl Friday",
+   "year": 1940,
+   "runtime": 92,
+   "min_minutes": 84,
+   "level": "C1",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 52
+ },
+ "charade": {
+  "target": {
+   "id": "charade",
+   "title": "Charade",
+   "year": 1963,
+   "runtime": 113,
+   "min_minutes": 105,
+   "level": "B2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 52
+ },
+ "detour": {
+  "target": {
+   "id": "detour",
+   "title": "Detour",
+   "year": 1945,
+   "runtime": 68,
+   "min_minutes": 60,
+   "level": "B2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 57
+ },
+ "doa": {
+  "target": {
+   "id": "doa",
+   "title": "D.O.A.",
+   "year": 1949,
+   "runtime": 83,
+   "min_minutes": 75,
+   "level": "B2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 58
+ },
+ "the-stranger": {
+  "target": {
+   "id": "the-stranger",
+   "title": "The Stranger",
+   "year": 1946,
+   "runtime": 95,
+   "min_minutes": 87,
+   "level": "B2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "scarlet-street": {
+  "target": {
+   "id": "scarlet-street",
+   "title": "Scarlet Street",
+   "year": 1945,
+   "runtime": 103,
+   "min_minutes": 95,
+   "level": "B2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "the-hitch-hiker": {
+  "target": {
+   "id": "the-hitch-hiker",
+   "title": "The Hitch-Hiker",
+   "year": 1953,
+   "runtime": 71,
+   "min_minutes": 63,
+   "level": "B2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "suddenly": {
+  "target": {
+   "id": "suddenly",
+   "title": "Suddenly",
+   "year": 1954,
+   "runtime": 75,
+   "min_minutes": 67,
+   "level": "B2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "beat-the-devil": {
+  "target": {
+   "id": "beat-the-devil",
+   "title": "Beat the Devil",
+   "year": 1953,
+   "runtime": 89,
+   "min_minutes": 81,
+   "level": "C1",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "meet-john-doe": {
+  "target": {
+   "id": "meet-john-doe",
+   "title": "Meet John Doe",
+   "year": 1941,
+   "runtime": 122,
+   "min_minutes": 114,
+   "level": "B2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "its-a-wonderful-life": {
+  "target": {
+   "id": "its-a-wonderful-life",
+   "title": "It's a Wonderful Life",
+   "year": 1946,
+   "runtime": 130,
+   "min_minutes": 122,
+   "level": "B1",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "the-39-steps": {
+  "target": {
+   "id": "the-39-steps",
+   "title": "The 39 Steps",
+   "year": 1935,
+   "runtime": 86,
+   "min_minutes": 78,
+   "level": "B2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "the-lady-vanishes": {
+  "target": {
+   "id": "the-lady-vanishes",
+   "title": "The Lady Vanishes",
+   "year": 1938,
+   "runtime": 96,
+   "min_minutes": 88,
+   "level": "C1",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "a-farewell-to-arms": {
+  "target": {
+   "id": "a-farewell-to-arms",
+   "title": "A Farewell to Arms",
+   "year": 1932,
+   "runtime": 89,
+   "min_minutes": 81,
+   "level": "C1",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "the-kid": {
+  "target": {
+   "id": "the-kid",
+   "title": "The Kid",
+   "year": 1921,
+   "runtime": 68,
+   "min_minutes": 60,
+   "level": "A2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "sherlock-jr": {
+  "target": {
+   "id": "sherlock-jr",
+   "title": "Sherlock Jr.",
+   "year": 1924,
+   "runtime": 45,
+   "min_minutes": 37,
+   "level": "A2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "the-general": {
+  "target": {
+   "id": "the-general",
+   "title": "The General",
+   "year": 1926,
+   "runtime": 78,
+   "min_minutes": 70,
+   "level": "A2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "little-shop-of-horrors": {
+  "target": {
+   "id": "little-shop-of-horrors",
+   "title": "The Little Shop of Horrors",
+   "year": 1960,
+   "runtime": 72,
+   "min_minutes": 64,
+   "level": "B1",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "carnival-of-souls": {
+  "target": {
+   "id": "carnival-of-souls",
+   "title": "Carnival of Souls",
+   "year": 1962,
+   "runtime": 78,
+   "min_minutes": 70,
+   "level": "B2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "house-on-haunted-hill": {
+  "target": {
+   "id": "house-on-haunted-hill",
+   "title": "House on Haunted Hill",
+   "year": 1959,
+   "runtime": 75,
+   "min_minutes": 67,
+   "level": "B2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "night-of-the-living-dead": {
+  "target": {
+   "id": "night-of-the-living-dead",
+   "title": "Night of the Living Dead",
+   "year": 1968,
+   "runtime": 96,
+   "min_minutes": 88,
+   "level": "B2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "plan-9": {
+  "target": {
+   "id": "plan-9",
+   "title": "Plan 9 from Outer Space",
+   "year": 1957,
+   "runtime": 79,
+   "min_minutes": 71,
+   "level": "B1",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "a-christmas-carol": {
+  "target": {
+   "id": "a-christmas-carol",
+   "title": "A Christmas Carol",
+   "year": 1951,
+   "runtime": 86,
+   "min_minutes": 78,
+   "level": "B1",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "big-buck-bunny": {
+  "target": {
+   "id": "big-buck-bunny",
+   "title": "Big Buck Bunny",
+   "year": 2008,
+   "runtime": 10,
+   "min_minutes": 6,
+   "level": "A1",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "sintel": {
+  "target": {
+   "id": "sintel",
+   "title": "Sintel",
+   "year": 2010,
+   "runtime": 15,
+   "min_minutes": 7,
+   "level": "A2",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "elephants-dream": {
+  "target": {
+   "id": "elephants-dream",
+   "title": "Elephants Dream",
+   "year": 2006,
+   "runtime": 11,
+   "min_minutes": 6,
+   "level": "B1",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "tears-of-steel": {
+  "target": {
+   "id": "tears-of-steel",
+   "title": "Tears of Steel",
+   "year": 2012,
+   "runtime": 12,
+   "min_minutes": 6,
+   "level": "B1",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "superman-1941": {
+  "target": {
+   "id": "superman-1941",
+   "title": "Superman The Mad Scientist",
+   "year": 1941,
+   "runtime": 10,
+   "min_minutes": 6,
+   "level": "A1",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "popeye-sindbad": {
+  "target": {
+   "id": "popeye-sindbad",
+   "title": "Popeye the Sailor Meets Sindbad the Sailor",
+   "year": 1936,
+   "runtime": 17,
+   "min_minutes": 9,
+   "level": "A1",
+   "kind": "film"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "sherlock-holmes-1954": {
+  "target": {
+   "id": "sherlock-holmes-1954",
+   "title": "Sherlock Holmes The Case of the Cunningham Heritage",
+   "year": 1954,
+   "runtime": 26,
+   "min_minutes": 18,
+   "level": "B1",
+   "kind": "series"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "dragnet-1952": {
+  "target": {
+   "id": "dragnet-1952",
+   "title": "Dragnet The Human Bomb",
+   "year": 1952,
+   "runtime": 26,
+   "min_minutes": 18,
+   "level": "B1",
+   "kind": "series"
+  },
+  "picked": [],
+  "found": 0
+ },
+ "hitchcock-revenge": {
+  "target": {
+   "id": "hitchcock-revenge",
+   "title": "Alfred Hitchcock Presents Revenge",
+   "year": 1955,
+   "runtime": 26,
+   "min_minutes": 18,
+   "level": "B2",
+   "kind": "series"
+  },
+  "picked": [],
+  "found": 0
+ }
+}

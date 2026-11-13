@@ -1,0 +1,97 @@
+[
+  {
+    "id": "home-alone",
+    "title": "Home Alone",
+    "year": 1990,
+    "level": "A2",
+    "runtime": 103,
+    "genres": ["comedy", "family"],
+    "director": "Chris Columbus",
+    "country": "USA",
+    "age": "all",
+    "mood": "warm",
+    "logline": "A boy is accidentally left at home when his family flies to Paris for Christmas, and two burglars pick the wrong house.",
+    "why": "The plot is carried by places and objects, so a missed line never means a lost scene. Family vocabulary, daily routines and short, concrete dialogue repeat often enough to stick.",
+    "language": "American English, mostly simple sentences; the burglars talk fast in a few scenes, and Kevin's older brother mumbles on purpose.",
+    "content": "Slapstick violence and cartoon traps; nobody is seriously hurt. Suitable for all ages.",
+    "scenes": [
+      {
+        "at": "00:08:20",
+        "title": "The head count",
+        "task": "Count the family members who run through the airport. Who is missing, and who finally notices?",
+        "type": "listen"
+      },
+      {
+        "at": "00:21:40",
+        "title": "Dinner for one",
+        "task": "Pause on Kevin's plate. Name everything he eats, then compare it with your own ideal dinner.",
+        "type": "observe"
+      },
+      {
+        "at": "00:42:10",
+        "title": "The burglars' plan",
+        "task": "The burglars name the houses they will rob and when. Predict: what will Kevin do about it?",
+        "type": "predict"
+      },
+      {
+        "at": "01:12:30",
+        "title": "Welcome to the traps",
+        "task": "List three traps in the order they happen. Which one made the room laugh loudest?",
+        "type": "detail"
+      }
+    ],
+    "words": [
+      {"w": "burglar", "def": "a person who breaks into a house to steal", "ex": "The burglars watch the house from a van."},
+      {"w": "attic", "def": "the room under the roof of a house", "ex": "Kevin hides in the attic when he is scared."},
+      {"w": "neighbour", "def": "a person who lives next to you", "ex": "The old neighbour is not as scary as he looks."},
+      {"w": "trap", "def": "a thing that catches or hurts someone", "ex": "The stairs become a trap."},
+      {"w": "scream", "def": "to make a loud, high sound when afraid", "ex": "Marv screams when the spider lands on him."},
+      {"w": "alone", "def": "with no other people there", "ex": "At first, Kevin loves being alone."}
+    ],
+    "questions": [
+      "Why does Kevin's family fly to Paris without him? Whose fault is it, really?",
+      "What is the first thing Kevin does when he understands that he is alone? What would you do?",
+      "Kevin says he wants his family to disappear — and then they do. Is the film a wish come true or a lesson?",
+      "Which trap is the cleverest, and which one is just cruel?",
+      "Why is Kevin afraid of the old man next door, and what changes his mind?",
+      "In your country, at what age can a child stay home alone? Is Kevin old enough?",
+      "Is Kevin a good boy or a difficult boy? Give two examples from the film.",
+      "Which line from the film would you repeat to a friend as a joke? Try to say it the same way."
+    ],
+    "gaps": [
+      {"line": "When I grow up and get married, I'm living ___!", "answer": "alone", "hint": "with nobody else", "adapted": false},
+      {"line": "I made my family ___!", "answer": "disappear", "hint": "go away, like magic", "adapted": false},
+      {"line": "Keep the change, you ___ animal.", "answer": "filthy", "hint": "very dirty", "adapted": false},
+      {"line": "This is my house. I have to ___ it.", "answer": "defend", "hint": "protect it from attack", "adapted": false},
+      {"line": "Buzz, your girlfriend... ___!", "answer": "woof", "hint": "the sound a dog makes", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "Kevin! What did you do to my room?", "options": ["Buzz", "Kate", "Marv"], "answer": 0, "note": "Buzz is the older brother — and the reason Kevin gets sent to the attic."},
+      {"quote": "Keep the change, you filthy animal.", "options": ["Kevin", "The gangster on TV", "Harry"], "answer": 1, "note": "Kevin learns it from a black-and-white gangster film and uses it as his own line."},
+      {"quote": "I made my family disappear.", "options": ["Kevin", "Marv", "The policeman"], "answer": 0, "note": "He says it as a joke — and then starts to believe it."}
+    ],
+    "quiz": [
+      {"q": "Where does the family fly for Christmas?", "options": ["Paris", "London", "New York"], "answer": 0, "why": "They fly to Paris and leave Kevin behind in Chicago."},
+      {"q": "Who does Kevin meet in the church?", "options": ["The old neighbour", "The policeman", "Santa Claus"], "answer": 0, "why": "The old man whose son he is afraid of — the meeting changes how Kevin sees him."},
+      {"q": "What time do the burglars plan to enter the house?", "options": ["Nine o'clock", "Midnight", "Six o'clock"], "answer": 0, "why": "They say they will come at nine, so Kevin prepares the house before that."},
+      {"q": "How does Kevin finally get help?", "options": ["He calls the police", "The old neighbour helps him", "His family comes home early"], "answer": 1, "why": "The old neighbour arrives with a snow shovel — and the burglars run into the police."},
+      {"q": "Why is Kevin sad at the end?", "options": ["He lost his toys", "He understands that being alone is not fun", "He must go back to school"], "answer": 1, "why": "He wanted his family gone, then discovered that he wanted them back."}
+    ],
+    "roleplay": {
+      "title": "The head count",
+      "setting": "Airport check-in at 7 a.m. The family is late, the queue is long, and nobody is counting children.",
+      "roles": [
+        {"role": "Kate", "brief": "You are the mother. You are stressed, you have five children, a passport for each one and no time for jokes. Keep asking the clerk to hurry."},
+        {"role": "Clerk", "brief": "You work for the airline. You have heard every excuse. You are polite but very slow, and you keep finding problems with the documents."},
+        {"role": "Kevin", "brief": "You are eight. You are in the middle of this chaos. You are asked nothing and say almost nothing — until the one moment it matters."}
+      ],
+      "challenge": "Play the scene twice: once as a comedy, once as a disaster film. Then swap roles and see who notices the missing child."
+    },
+    "quest": [
+      {"title": "Station 1 · The missing passenger", "task": "At the airport the family counts heads. How many people are travelling, and how many do they count? Find the moment and write both numbers.", "answer": "15 travel, 14 are counted", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find in the film: a word for the room under the roof, a word for a person who steals from houses, and a word for a person living next door.", "answer": "attic, burglar, neighbour", "points": 10},
+      {"title": "Station 3 · Trap designers", "task": "Invent one new trap for the burglars using only things you can see in a classroom. Describe it in three sentences, then act it out in slow motion.", "answer": "Any plausible three-sentence design, acted out", "points": 15},
+      {"title": "Station 4 · The order of things", "task": "Put these four events in order: the pizza delivery, the fake party, the tarantula on Marv's face, the old neighbour's snow shovel.", "answer": "pizza, fake party, tarantula, snow shovel", "points": 10}
+    ]
+  }
+]

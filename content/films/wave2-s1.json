@@ -1,0 +1,590 @@
+[
+  {
+    "id": "bluey-xylophone",
+    "title": "Bluey",
+    "year": 2018,
+    "level": "A2",
+    "runtime": 7,
+    "kind": "series",
+    "episode": "S1E1",
+    "episodeTitle": "Magic Xylophone",
+    "genres": ["animation", "family", "comedy"],
+    "director": "Joe Brumm",
+    "country": "Australia",
+    "age": "all",
+    "mood": "warm",
+    "logline": "Bluey finds a magic xylophone that freezes Dad in place, but sharing the game with her little sister proves harder than magic.",
+    "why": "Seven minutes of very short, repeated lines, and the whole story is visible: a toy, two sisters and a game. The game language repeats often enough to stick, and a 7-minute episode leaves most of the club night for talking.",
+    "language": "Australian English: 'Mum' not 'Mom', a broad Aussie accent, and fast, playful family talk; the children use short game phrases.",
+    "content": "No violence or bad language; two sisters argue over a toy and a parent pretends to be frozen. Suitable for all ages.",
+    "scenes": [
+      {
+        "at": "00:00:45",
+        "title": "The magic note",
+        "task": "Bluey plays one note and Dad stops mid-step. Catch the words she uses to explain what the xylophone does.",
+        "type": "listen"
+      },
+      {
+        "at": "00:02:00",
+        "title": "Dad as a statue",
+        "task": "Pause on frozen Dad. List three things the girls do to him while he cannot move, and say which one made you laugh.",
+        "type": "observe"
+      },
+      {
+        "at": "00:04:10",
+        "title": "Whose turn?",
+        "task": "Bingo asks for a turn and Bluey says no. Pause here: is Bluey being unfair, or is she still playing the game?",
+        "type": "think"
+      },
+      {
+        "at": "00:06:00",
+        "title": "The game ends",
+        "task": "Retell the last minute in three sentences: who is frozen, who has the xylophone, and what happens to the game?",
+        "type": "speak"
+      }
+    ],
+    "words": [
+      {"w": "xylophone", "def": "a toy that makes music", "ex": "Bluey plays a note on the xylophone."},
+      {"w": "freeze", "def": "to stop moving completely", "ex": "Dad freezes in the middle of the room."},
+      {"w": "magic", "def": "able to do impossible things", "ex": "The xylophone is magic in the game."},
+      {"w": "share", "def": "to let someone else use it", "ex": "Bluey does not want to share."},
+      {"w": "turn", "def": "your time to play", "ex": "Bingo waits for her turn."},
+      {"w": "statue", "def": "a stone figure of a person", "ex": "Dad stands still like a statue."}
+    ],
+    "questions": [
+      "Bluey does not want to give Bingo a turn. Why is sharing so hard when a game is fun?",
+      "Would you give the xylophone to your little sister or brother straight away? Be honest.",
+      "Bingo freezes Bluey. Is Bingo being mean, or is she playing the same game?",
+      "Dad plays along and stays frozen. Why does that make the game better for the children?",
+      "In your family, who always has to share? How do they feel about it?",
+      "The episode uses very short sentences. Which line did you understand first?",
+      "Which character would you like to play with, and what game would you invent?",
+      "In your country, do older children look after younger ones in the same way? What is different?"
+    ],
+    "gaps": [
+      {"line": "It's ___!", "answer": "magic", "hint": "impossible, but it works", "adapted": false},
+      {"line": "You're ___!", "answer": "frozen", "hint": "not moving at all", "adapted": false},
+      {"line": "It's my ___ now!", "answer": "turn", "hint": "your time to play", "adapted": true},
+      {"line": "Bluey, you have to ___ with your sister.", "answer": "share", "hint": "let her use it too", "adapted": true},
+      {"line": "I can't ___, Bluey!", "answer": "move", "hint": "walk or change place", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "It's magic!", "options": ["Bluey", "Bingo", "Dad"], "answer": 0, "note": "The xylophone is magic only inside the game — that is the joke the whole episode plays with."},
+      {"quote": "My turn!", "options": ["Bluey", "Bingo", "Mum"], "answer": 1, "note": "Bingo has been waiting; this short line starts the argument."},
+      {"quote": "Bluey, share.", "options": ["Mum", "Dad", "Bingo"], "answer": 0, "note": "Paraphrased — Mum's line is short and calm, and it ends the argument."}
+    ],
+    "quiz": [
+      {"q": "What does the magic xylophone do to a person?", "options": ["It freezes them", "It makes them dance", "It makes them sleep"], "answer": 0, "why": "One note and the person cannot move until the xylophone plays again."},
+      {"q": "Who does Bluey freeze first?", "options": ["Dad", "Bingo", "Mum"], "answer": 0, "why": "Dad is the first one caught, and the girls have fun with a frozen father."},
+      {"q": "Who wants a turn with the xylophone?", "options": ["Bingo", "Mum", "Dad"], "answer": 0, "why": "Bingo asks for a turn, and Bluey does not want to give it up."},
+      {"q": "How do you unfreeze a person?", "options": ["Play the xylophone again", "Say their name", "Shake them"], "answer": 0, "why": "The player must play another note — that is the rule of the game."},
+      {"q": "What does the episode say about sharing?", "options": ["It is hard but worth it", "It is a waste of time", "Only very young children share"], "answer": 0, "why": "The game is only fun for everyone when the sisters take turns."}
+    ],
+    "roleplay": {
+      "title": "The frozen game",
+      "setting": "The living room. A toy xylophone on the floor and Dad frozen by the sofa.",
+      "roles": [
+        {"role": "Bluey", "brief": "You are six. You invented this game, and you are not finished with it. You want to keep playing and you do not want to share yet."},
+        {"role": "Bingo", "brief": "You are four. You have waited a long time for your turn. You ask, then you insist, then you take the xylophone."},
+        {"role": "Dad", "brief": "You are frozen. You can only move in slow motion and say one short line at a time. You want the girls to solve this themselves."}
+      ],
+      "challenge": "Play the scene once where Bluey shares, and once where she refuses. Which ending is funnier, and which is kinder?"
+    },
+    "quest": [
+      {"title": "Station 1 · The magic rule", "task": "Find the moment Bluey explains the xylophone. What freezes a person, and what unfreezes them?", "answer": "A note freezes; another note unfreezes", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find three words in the episode: your time to play, not moving at all, and the toy that makes music.", "answer": "turn, frozen, xylophone", "points": 10},
+      {"title": "Station 3 · New game", "task": "Invent a new magic object for Bluey and Bingo. Draw it, name it and write three rules for playing with it.", "answer": "Any clear object with three playable rules", "points": 15},
+      {"title": "Station 4 · Order of the game", "task": "Put these in order: Bingo asks for a turn, Bluey freezes Dad, the sisters argue, Mum steps in.", "answer": "Bluey freezes Dad, Bingo asks, argue, Mum steps in", "points": 10}
+    ]
+  },
+  {
+    "id": "peppa-muddy-puddles",
+    "title": "Peppa Pig",
+    "year": 2004,
+    "level": "A2",
+    "runtime": 5,
+    "kind": "series",
+    "episode": "S1E1",
+    "episodeTitle": "Muddy Puddles",
+    "genres": ["animation", "family", "comedy"],
+    "director": "Neville Astley & Mark Baker",
+    "country": "UK",
+    "age": "all",
+    "mood": "pastel",
+    "logline": "On a rainy day, Peppa and George put on their boots and jump in muddy puddles, and George does not want to stop.",
+    "why": "Five minutes, slow narration and the same sentence patterns again and again — the repetition is the point, not a weakness. Pictures carry the story, so a learner can follow every jump even when a word is new.",
+    "language": "British English, slow and clear, with a narrator who repeats each sentence; 'Mummy' and 'Daddy' rather than 'Mom' and 'Dad'.",
+    "content": "Nothing upsetting: a rainy day, muddy boots and a crying toddler. Suitable for all ages.",
+    "scenes": [
+      {
+        "at": "00:00:40",
+        "title": "Rain at the window",
+        "task": "Look at the window and the garden. What is the weather like, and what do Peppa and George want to do?",
+        "type": "observe"
+      },
+      {
+        "at": "00:02:10",
+        "title": "Boots first",
+        "task": "Mummy Pig gives one rule before the children go outside. Write the rule and the word she repeats.",
+        "type": "listen"
+      },
+      {
+        "at": "00:03:30",
+        "title": "George's puddle",
+        "task": "George runs to the biggest puddle. Predict: what will he do, and what will happen to his clothes?",
+        "type": "predict"
+      },
+      {
+        "at": "00:04:30",
+        "title": "Everyone jumps",
+        "task": "Pause at the end. Say who is jumping and how they feel, using the words 'happy', 'wet' and 'muddy'.",
+        "type": "speak"
+      }
+    ],
+    "words": [
+      {"w": "puddle", "def": "a small pool of water", "ex": "George jumps in a muddy puddle."},
+      {"w": "muddy", "def": "covered in wet earth", "ex": "Their boots are muddy after the garden."},
+      {"w": "boots", "def": "shoes for rain and mud", "ex": "Peppa puts on her red boots."},
+      {"w": "rain", "def": "water falling from the sky", "ex": "It is raining today."},
+      {"w": "wet", "def": "covered with water", "ex": "George gets wet in the puddle."},
+      {"w": "jump", "def": "to push up with your legs", "ex": "They jump up and down together."}
+    ],
+    "questions": [
+      "George loves jumping in muddy puddles. What did you love doing when you were small?",
+      "Is it fun to get dirty? Would you jump in a puddle in your school clothes?",
+      "Mummy Pig says the children must wear boots. Is that a rule or part of the game?",
+      "Peppa is the big sister and tells George what to do. Is that fair?",
+      "In your country, do children play outside when it rains? Why or why not?",
+      "The narrator says the same thing many times. Does that help you understand, or is it boring?",
+      "Which word is easiest to remember: puddle, boots or muddy? Why?",
+      "If you made one more minute of this episode, what would Peppa and George do?"
+    ],
+    "gaps": [
+      {"line": "I'm Peppa ___.", "answer": "pig", "hint": "a farm animal", "adapted": false},
+      {"line": "This is my little brother, ___.", "answer": "george", "hint": "his name", "adapted": false},
+      {"line": "If you jump in muddy puddles, you must wear your ___.", "answer": "boots", "hint": "shoes for rain", "adapted": false},
+      {"line": "George's favourite game is jumping up and down in muddy ___.", "answer": "puddles", "hint": "small pools of water", "adapted": false},
+      {"line": "It is raining today, so Peppa and George cannot play ___.", "answer": "outside", "hint": "not inside the house", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "I'm Peppa Pig.", "options": ["Peppa", "George", "Mummy Pig"], "answer": 0, "note": "The first line of every episode — the show introduces itself in ten seconds."},
+      {"quote": "This is my little brother, George.", "options": ["Peppa", "The narrator", "Daddy Pig"], "answer": 0, "note": "Peppa introduces the family with the same words every time, which is exactly why they stick."},
+      {"quote": "Everyone loves jumping up and down in muddy puddles!", "options": ["The narrator", "Peppa", "Daddy Pig"], "answer": 0, "note": "The closing line — the episode says its moral twice, slowly."}
+    ],
+    "quiz": [
+      {"q": "What is George's favourite game?", "options": ["Jumping in muddy puddles", "Watching television", "Playing with a ball"], "answer": 0, "why": "The narrator says it clearly, and George shows it as soon as he is outside."},
+      {"q": "What must Peppa and George wear to jump in the puddles?", "options": ["Boots", "Socks", "Sandals"], "answer": 0, "why": "Mummy Pig's rule is boots before puddles."},
+      {"q": "What is the weather at the start?", "options": ["Rain", "Snow", "Hot sun"], "answer": 0, "why": "The rain is the reason the garden has puddles at all."},
+      {"q": "What does George do when the rain comes back?", "options": ["He cries", "He laughs", "He goes to sleep"], "answer": 0, "why": "He wants to stay outside, so he cries until the rain stops."},
+      {"q": "What does Peppa call George?", "options": ["Her little brother", "Her big brother", "Her friend"], "answer": 0, "why": "She says it in the first minute: 'This is my little brother, George.'"}
+    ],
+    "roleplay": {
+      "title": "Boots on",
+      "setting": "The kitchen door on a rainy morning. Two pairs of boots by the door and a garden full of puddles.",
+      "roles": [
+        {"role": "Peppa", "brief": "You are the big sister. You know the rule about boots and you enjoy telling George what to do. You are excited about the puddles."},
+        {"role": "George", "brief": "You are the little brother. You say very little. You point at the biggest puddle and you do not want to come inside."},
+        {"role": "Mummy Pig", "brief": "You are calm and patient. You say the rule about boots twice, because that is how this family talks."}
+      ],
+      "challenge": "Say every line twice, slowly, like the narrator. Then play the same scene fast, like a normal family."
+    },
+    "quest": [
+      {"title": "Station 1 · The rule", "task": "Find the moment Mummy Pig gives the rule about puddles. What must Peppa and George put on first?", "answer": "Their boots", "points": 10},
+      {"title": "Station 2 · Water words", "task": "Find four words in the episode about rain or water and clap the syllables in each one.", "answer": "rain, wet, muddy, puddle", "points": 10},
+      {"title": "Station 3 · Puddle map", "task": "Draw the garden after the rain. Label three puddles as small, big and biggest, then say which one George runs to.", "answer": "Any labelled drawing with one spoken sentence", "points": 15},
+      {"title": "Station 4 · Count the jumps", "task": "Watch the last minute and count how many times someone jumps. Compare your number with another team.", "answer": "Any number the teams agree on after checking", "points": 10}
+    ]
+  },
+  {
+    "id": "friends-s1e1",
+    "title": "Friends",
+    "year": 1994,
+    "level": "B1",
+    "runtime": 22,
+    "kind": "series",
+    "episode": "S1E1",
+    "episodeTitle": "The One Where Monica Gets a Roommate",
+    "genres": ["comedy", "romance"],
+    "director": "David Crane & Marta Kauffman",
+    "country": "USA",
+    "age": "12+",
+    "mood": "warm",
+    "logline": "Rachel arrives at a coffee shop in a wedding dress after leaving her wedding, and her old friend Monica has to decide what to do next.",
+    "why": "Twenty-two minutes fits one club night, and the laughter between lines gives learners time to catch up. The English is fast and colloquial, but the friends repeat the same everyday chunks about dating, jobs and flats.",
+    "language": "American English, fast sitcom timing, laughter between lines, and plenty of 1990s slang and sarcasm.",
+    "content": "Mild sexual references and jokes: one character describes a first date and a previous relationship, and divorce and a character's sexuality are discussed. Mild language ('it sucks') and social drinking.",
+    "scenes": [
+      {
+        "at": "00:01:30",
+        "title": "The wedding dress",
+        "task": "Pause when Rachel walks in. What is she wearing, what is she holding, and how do the others react?",
+        "type": "observe"
+      },
+      {
+        "at": "00:06:20",
+        "title": "Monica's date",
+        "task": "Monica explains her date to the group. Catch two words she uses to describe how she feels about him.",
+        "type": "listen"
+      },
+      {
+        "at": "00:13:10",
+        "title": "The shoe speech",
+        "task": "Rachel says she does not want to be a shoe. In your own words, what is she really saying about her life?",
+        "type": "think"
+      },
+      {
+        "at": "00:20:30",
+        "title": "Welcome to the real world",
+        "task": "Before the last line, pause and predict what Monica will tell Rachel. Then say the line together.",
+        "type": "speak"
+      }
+    ],
+    "words": [
+      {"w": "roommate", "def": "a person who shares your home", "ex": "Rachel becomes Monica's roommate."},
+      {"w": "to run out on someone", "def": "to leave someone without warning", "ex": "Rachel runs out on her wedding."},
+      {"w": "to start over", "def": "to begin a new life", "ex": "Rachel wants to start over in the city."},
+      {"w": "to break up", "def": "to end a romantic relationship", "ex": "Ross and Carol have broken up."},
+      {"w": "to go through with something", "def": "to do a plan you fear", "ex": "Rachel cannot go through with the wedding."},
+      {"w": "to be a mess", "def": "to be in a bad state", "ex": "Rachel is a mess after the wedding."}
+    ],
+    "questions": [
+      "Rachel leaves her wedding and a comfortable life. Would you make a decision that big? What would scare you most?",
+      "Why does Rachel go to Monica, and not to her family?",
+      "The friends tease each other all the time. Is that affection or cruelty? Give an example.",
+      "Ross says he just wants to be married again. Is he ready for a new relationship? What would you tell him?",
+      "In your culture, what does it mean to be 'ready' to get married? Who decides?",
+      "Monica gives Rachel a place to live but also rules. Is she a good friend or a bossy one?",
+      "Which line made you laugh most? Say it the way the character says it.",
+      "Which of the six friends is most like you, and which one would you find difficult?"
+    ],
+    "gaps": [
+      {"line": "Welcome to the real world. It ___. You're gonna love it.", "answer": "sucks", "hint": "it is not easy at all", "adapted": false},
+      {"line": "And I just want a ___ dollars!", "answer": "million", "hint": "one thousand thousand", "adapted": false},
+      {"line": "I just want to be ___ again.", "answer": "married", "hint": "having a husband or wife", "adapted": false},
+      {"line": "What if I don't want to be a ___?", "answer": "shoe", "hint": "you wear it on your foot", "adapted": false},
+      {"line": "There's nothing to ___!", "answer": "tell", "hint": "say to someone", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "Welcome to the real world. It sucks. You're gonna love it.", "options": ["Monica", "Rachel", "Phoebe"], "answer": 0, "note": "Monica's welcome to Rachel — half joke, half promise, and the line the whole show is built on."},
+      {"quote": "And I just want a million dollars!", "options": ["Chandler", "Joey", "Ross"], "answer": 0, "note": "Chandler answers Ross's wish for a wife with a wish of his own."},
+      {"quote": "What if I don't want to be a shoe?", "options": ["Rachel", "Monica", "Phoebe"], "answer": 0, "note": "Rachel's image for the life other people planned for her."}
+    ],
+    "quiz": [
+      {"q": "Why is Rachel wearing a wedding dress?", "options": ["She ran away from her wedding", "She is going to a party", "She works in a shop"], "answer": 0, "why": "She left the ceremony and came straight to the coffee shop."},
+      {"q": "Who is Rachel's old friend from school?", "options": ["Monica", "Phoebe", "Joey"], "answer": 0, "why": "Monica and Rachel went to school together, which is why Rachel comes to her."},
+      {"q": "Where do the friends meet at the start?", "options": ["A coffee shop", "A restaurant", "Monica's flat"], "answer": 0, "why": "The coffee shop is the group's usual place, and Rachel finds them there."},
+      {"q": "Who does Monica go on a date with in this episode?", "options": ["Paul, a man from work", "Ross", "Chandler"], "answer": 0, "why": "Monica's date is the episode's other story, and it goes badly in a funny way."},
+      {"q": "What does Rachel decide at the end?", "options": ["To stay and live with Monica", "To go back and marry Barry", "To leave the city"], "answer": 0, "why": "She takes the room, and the friends welcome her to her new life."}
+    ],
+    "roleplay": {
+      "title": "The morning after",
+      "setting": "Monica's kitchen, 8 a.m. Rachel has slept on the sofa and is still in yesterday's clothes.",
+      "roles": [
+        {"role": "Rachel", "brief": "You left your wedding yesterday. You are excited, scared and not sure what to do next. You want to stay, but you need someone to say yes."},
+        {"role": "Monica", "brief": "You are an old friend and you want to help, but this is your flat. You need to ask about money, space and rules before you say yes."},
+        {"role": "Ross", "brief": "You are recently divorced and still sad about it. You try to give Rachel advice, but your own life is not a good example."}
+      ],
+      "challenge": "Play it once as a sitcom, with a pause after every joke. Then play the same scene as a serious drama — same words, no jokes."
+    },
+    "quest": [
+      {"title": "Station 1 · The coffee shop", "task": "What is the name of the coffee shop where the friends meet? Find the sign or the line that names it.", "answer": "Central Perk", "points": 10},
+      {"title": "Station 2 · Chunk hunt", "task": "Find one way to say 'begin a new life' and one way to say 'leave someone suddenly'.", "answer": "to start over; to run out on someone", "points": 10},
+      {"title": "Station 3 · Rachel's speech", "task": "Write five lines for Rachel explaining to her father why she left the wedding. Perform it to another team.", "answer": "Any five-line speech using the episode's reasons", "points": 15},
+      {"title": "Station 4 · Order of events", "task": "Put in order: Rachel arrives in a dress, Ross talks about his divorce, Monica's date with Paul, Rachel moves in with Monica.", "answer": "Ross's divorce, Rachel arrives, Monica's date, Rachel moves in", "points": 10}
+    ]
+  },
+  {
+    "id": "modern-family-s1e1",
+    "title": "Modern Family",
+    "year": 2009,
+    "level": "B1",
+    "runtime": 22,
+    "kind": "series",
+    "episode": "S1E1",
+    "episodeTitle": "Pilot",
+    "genres": ["comedy", "family"],
+    "director": "Jason Winer",
+    "country": "USA",
+    "age": "12+",
+    "mood": "warm",
+    "logline": "Three related families and one camera crew: a father with a new wife, a dad trying too hard to be cool, and two new parents bringing a baby home.",
+    "why": "Twenty-two minutes is a whole club session, and the talking-to-camera format gives characters a reason to stop and explain the joke. The same family vocabulary repeats across three households, so learners hear it three times in three different voices.",
+    "language": "American English at sitcom speed; Gloria speaks with a Colombian accent and mixes idioms, while Phil talks in wordplay and jokes that need a second listen.",
+    "content": "Mild sexual jokes and innuendo; a gay couple and an adopted baby; a school-age boy with a crush. Nothing explicit.",
+    "scenes": [
+      {
+        "at": "00:02:10",
+        "title": "The cool dad",
+        "task": "Phil talks straight to the camera. Count how many times he checks whether the crew is still filming.",
+        "type": "observe"
+      },
+      {
+        "at": "00:08:30",
+        "title": "A boy at the door",
+        "task": "Haley brings a boy home. Catch the first question Claire asks him and the first joke Phil makes.",
+        "type": "listen"
+      },
+      {
+        "at": "00:14:20",
+        "title": "Two new parents",
+        "task": "Mitchell and Cameron are alone with the baby. What are they both afraid of? Find one line that shows it.",
+        "type": "think"
+      },
+      {
+        "at": "00:20:40",
+        "title": "The family table",
+        "task": "Pause at the dinner. Introduce every person at the table in one sentence each, using 'his', 'her' and 'their'.",
+        "type": "speak"
+      }
+    ],
+    "words": [
+      {"w": "stepson", "def": "the son of your husband or wife", "ex": "Manny is Jay's stepson, and Jay is still learning."},
+      {"w": "adopt", "def": "to take a child into your family", "ex": "Mitchell and Cameron adopt a baby."},
+      {"w": "generation gap", "def": "differences between young and old people", "ex": "The generation gap shows at the dinner table."},
+      {"w": "to get along", "def": "to have a friendly relationship", "ex": "The three families get along in their own way."},
+      {"w": "awkward", "def": "uncomfortable and embarrassing", "ex": "There is an awkward silence at dinner."},
+      {"w": "to film", "def": "to record with a camera", "ex": "A crew films the family for a documentary."}
+    ],
+    "questions": [
+      "Phil wants to be a 'cool dad'. Is it better to be a cool parent or a strict parent?",
+      "Jay is much older than Gloria and has a stepson. What problems might a big age difference bring?",
+      "Mitchell and Cameron are nervous about being parents. Why? What would you say to them?",
+      "Haley brings a boy home and Phil does not know what to do. Would you introduce a date to your parents? How?",
+      "In your culture, do three generations of one family usually meet for dinner? Who cooks?",
+      "The characters talk to the camera. Does that make them more honest, or less?",
+      "Which character is the funniest, and which one is the most uncomfortable?",
+      "Manny acts older than he is. Is that funny, or is it sad? What does Jay think?"
+    ],
+    "gaps": [
+      {"line": "I'm the ___ dad.", "answer": "cool", "hint": "popular and relaxed", "adapted": false},
+      {"line": "We're going to be great ___.", "answer": "parents", "hint": "mothers and fathers", "adapted": true},
+      {"line": "She's from ___.", "answer": "colombia", "hint": "a country in South America", "adapted": true},
+      {"line": "This is our ___, Lily.", "answer": "daughter", "hint": "a girl child in the family", "adapted": true},
+      {"line": "Every family is ___.", "answer": "different", "hint": "not the same", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "I'm the cool dad.", "options": ["Phil", "Jay", "Mitchell"], "answer": 0, "note": "Phil's first talking head — he is selling himself to the camera crew."},
+      {"quote": "We're going to be great parents.", "options": ["Cameron", "Mitchell", "Jay"], "answer": 0, "note": "Paraphrased — Cameron says it to calm Mitchell down, and to calm himself down too."},
+      {"quote": "I'm not sure I'm ready.", "options": ["Mitchell", "Cameron", "Phil"], "answer": 0, "note": "Paraphrased — Mitchell's worry in this episode is that he is not ready to be a father."}
+    ],
+    "quiz": [
+      {"q": "How are the three families connected?", "options": ["Jay is the father of Claire and Mitchell", "They are neighbours", "They work together"], "answer": 0, "why": "Jay's two adult children lead the other two families, so one dinner brings everyone together."},
+      {"q": "What does Phil want the camera crew to think of him?", "options": ["That he is a cool dad", "That he is a strict father", "That he is a good cook"], "answer": 0, "why": "He says it in his first talking head, and the rest of the episode tests the idea."},
+      {"q": "Where does Mitchell and Cameron's baby come from?", "options": ["Vietnam", "Colombia", "Canada"], "answer": 0, "why": "They adopt a baby girl from Vietnam and bring her home in this episode."},
+      {"q": "Who is Manny?", "options": ["Gloria's son", "Jay's son", "Claire's son"], "answer": 0, "why": "Manny is Gloria's son from before she married Jay, so he is Jay's stepson."},
+      {"q": "What happens at the end of the episode?", "options": ["The families meet for dinner", "They all go on holiday", "Mitchell moves away"], "answer": 0, "why": "The dinner is where the three families finally sit together."}
+    ],
+    "roleplay": {
+      "title": "The first dinner",
+      "setting": "Jay's dining room. The food is ready, the camera crew is in the corner, and not everyone has met the baby yet.",
+      "roles": [
+        {"role": "Jay", "brief": "You are in your sixties and you find all this attention difficult. You want the evening to be normal, and your jokes come out wrong."},
+        {"role": "Gloria", "brief": "You are proud of your son and your new family. You are warm, loud and quick to defend the people you love."},
+        {"role": "Mitchell", "brief": "You are bringing your new baby to your father's house for the first time. You want his approval and you are afraid you will not get it."}
+      ],
+      "challenge": "Play the scene with the camera in the room. Every time someone feels uncomfortable, they look at the camera and say nothing for three seconds."
+    },
+    "quest": [
+      {"title": "Station 1 · Three families", "task": "Name the three family groups and the adult who leads each one.", "answer": "Jay and Gloria; Phil and Claire; Mitchell and Cameron", "points": 10},
+      {"title": "Station 2 · Family words", "task": "Find three words for family relationships in the episode, plus the word for taking a child into your family.", "answer": "Any three family words, plus 'adopt'", "points": 10},
+      {"title": "Station 3 · Your talking head", "task": "Write a 30-second talking head about your own family. Look at the camera and say it without laughing.", "answer": "Any short, deadpan family introduction", "points": 15},
+      {"title": "Station 4 · Count the children", "task": "How many children are in Phil and Claire's family, how many in Jay's house, and how many babies do Mitchell and Cameron have?", "answer": "3, 1, 1", "points": 10}
+    ]
+  },
+  {
+    "id": "our-planet-s1e1",
+    "title": "Our Planet",
+    "year": 2019,
+    "level": "B1",
+    "runtime": 50,
+    "kind": "series",
+    "episode": "S1E1",
+    "episodeTitle": "One Planet",
+    "genres": ["documentary", "family"],
+    "director": "Alastair Fothergill",
+    "country": "UK",
+    "age": "all",
+    "mood": "earth",
+    "logline": "David Attenborough looks at the one planet all life shares, from deserts and rainforests to the ocean, and asks what keeps it in balance.",
+    "why": "Fifty minutes is long for one sitting, but the episode breaks into clear chapters, so a club can watch two or three and talk between them. The narration is slow and formal — a different listening skill from sitcom dialogue — and numbers and place names are repeated with images to support them.",
+    "language": "Formal British English narration, slow and measured; Attenborough pauses before numbers and names, which helps note-taking.",
+    "content": "Animals hunt and are hunted; some scenes show dead prey and young animals in danger. No human violence.",
+    "scenes": [
+      {
+        "at": "00:03:00",
+        "title": "Looking back at Earth",
+        "task": "The episode opens by looking back at the planet from space. Write down three adjectives Attenborough uses in the first two minutes.",
+        "type": "listen"
+      },
+      {
+        "at": "00:15:30",
+        "title": "The hunt",
+        "task": "Pause at the first hunt. Name the hunter, the prey and the place, and note how many animals are in the group.",
+        "type": "observe"
+      },
+      {
+        "at": "00:31:00",
+        "title": "Numbers that matter",
+        "task": "Catch one number and one place name in this section. What is the number measuring?",
+        "type": "listen"
+      },
+      {
+        "at": "00:46:00",
+        "title": "The final message",
+        "task": "Attenborough ends with a warning and a hope. Summarise each in one sentence, in your own words.",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "habitat", "def": "the place an animal lives", "ex": "The desert is a hard habitat for any animal."},
+      {"w": "species", "def": "a kind of animal or plant", "ex": "The episode visits many species in one hour."},
+      {"w": "predator", "def": "an animal that hunts others", "ex": "The predator waits near the water."},
+      {"w": "to migrate", "def": "to travel to another place", "ex": "Some animals migrate thousands of kilometres."},
+      {"w": "extinction", "def": "when a species dies out", "ex": "Extinction is the risk the episode warns about."},
+      {"w": "fragile", "def": "easy to damage", "ex": "The balance of life on the planet is fragile."}
+    ],
+    "questions": [
+      "Attenborough says the planet is our only home. What does that mean to you?",
+      "Which place in the episode would you most like to visit, and why?",
+      "The episode shows animals hunting. Is it right to film that for entertainment, or is it education?",
+      "Would you watch a documentary like this in your free time? Why or why not?",
+      "Does your country make nature programmes like this? How are they different?",
+      "Attenborough speaks slowly and formally. Is that easier or harder than sitcom English for you?",
+      "Which number from the episode surprised you most, and why?",
+      "The episode ends with a warning and a hope. Which do you remember better?"
+    ],
+    "gaps": [
+      {"line": "This is our ___.", "answer": "planet", "hint": "the world we live on", "adapted": false},
+      {"line": "Everything is ___.", "answer": "connected", "hint": "joined together", "adapted": true},
+      {"line": "The natural world is our greatest ___.", "answer": "ally", "hint": "a friend who helps you", "adapted": true},
+      {"line": "We have the power to ___ it.", "answer": "change", "hint": "make it different", "adapted": true},
+      {"line": "In the last fifty years, wildlife has ___.", "answer": "declined", "hint": "become less", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "This is our planet.", "options": ["David Attenborough", "A scientist in the episode", "A local guide"], "answer": 0, "note": "The line the series is named after, spoken near the opening."},
+      {"quote": "Everything is connected.", "options": ["David Attenborough", "A scientist in the episode", "A local guide"], "answer": 0, "note": "Paraphrased — the episode's key idea, said in different words several times."},
+      {"quote": "We can still fix this.", "options": ["David Attenborough", "A scientist in the episode", "A local guide"], "answer": 0, "note": "Paraphrased — the note of hope that closes the episode."}
+    ],
+    "quiz": [
+      {"q": "Who narrates the episode?", "options": ["David Attenborough", "Bear Grylls", "A team of scientists"], "answer": 0, "why": "Attenborough's slow, formal voice is the guide through every place in the episode."},
+      {"q": "What kind of programme is this?", "options": ["A nature documentary", "A drama", "A comedy"], "answer": 0, "why": "It films real animals and places, with narration and no actors."},
+      {"q": "What connects all the places in the episode?", "options": ["They are all on the same planet", "They are all in Africa", "They are all deserts"], "answer": 0, "why": "That is the argument of the title: one shared planet, one connected system."},
+      {"q": "What does the episode say is happening to wildlife?", "options": ["It is falling", "It is growing quickly", "It never changes"], "answer": 0, "why": "The episode gives numbers to show how much wildlife has been lost."},
+      {"q": "What does the episode ask people to do?", "options": ["Protect the natural world", "Move to the city", "Stop watching television"], "answer": 0, "why": "The warning and the hope at the end both point to the same job."}
+    ],
+    "roleplay": {
+      "title": "The nature pitch",
+      "setting": "A television studio. A narrator, a director and a scientist are recording one minute of a nature documentary.",
+      "roles": [
+        {"role": "Narrator", "brief": "You speak slowly and formally, like Attenborough. You pause before every number and every animal name."},
+        {"role": "Director", "brief": "You want fewer words and more drama. You keep asking for a shorter sentence and a longer pause."},
+        {"role": "Scientist", "brief": "You care about the facts. You insist that the numbers are correct, even if they make the sentence longer."}
+      ],
+      "challenge": "Record the same 60 seconds twice: first as a serious documentary, then as a comedy where the director and the scientist cannot agree."
+    },
+    "quest": [
+      {"title": "Station 1 · The first hunt", "task": "Name the hunter, the prey and the place in the first hunt you see in the episode.", "answer": "Any correct three names from that scene", "points": 10},
+      {"title": "Station 2 · Narration words", "task": "Find three words Attenborough uses for animals and the places where they live.", "answer": "species, predator, habitat", "points": 10},
+      {"title": "Station 3 · Your own narration", "task": "Choose a place you know. Write and record 60 seconds of narration in Attenborough's slow, formal style.", "answer": "Any 60-second narration in the right style", "points": 15},
+      {"title": "Station 4 · Numbers", "task": "Write down two numbers from the episode and say what each one measures.", "answer": "Any two numbers correctly explained", "points": 10}
+    ]
+  },
+  {
+    "id": "the-office-s1e1",
+    "title": "The Office",
+    "year": 2005,
+    "level": "B2",
+    "runtime": 23,
+    "kind": "series",
+    "episode": "S1E1",
+    "episodeTitle": "Pilot",
+    "genres": ["comedy", "drama"],
+    "director": "Ken Kwapis",
+    "country": "USA",
+    "age": "12+",
+    "mood": "cool",
+    "logline": "A documentary crew films the manager and staff of a small paper company, and the manager learns that his branch may be closing.",
+    "why": "Twenty-three minutes fits a club night, and the mockumentary form means characters stop and explain themselves to camera — useful for B2 listeners who need to hear attitude, not just words. The humour is uncomfortable by design, so the club should watch the silences as carefully as the lines.",
+    "language": "American English, deadpan delivery and overlapping office talk; Michael's jokes are timed like stand-up, with long pauses for the camera.",
+    "content": "Cringe comedy: a workplace 'diversity' talk includes awkward racial jokes and an offensive impersonation, aimed at the staff, not the viewer. No violence or strong language, but the embarrassment is the point.",
+    "scenes": [
+      {
+        "at": "00:01:20",
+        "title": "Meet the boss",
+        "task": "Michael introduces himself to the camera. What does he want the documentary to show about him?",
+        "type": "observe"
+      },
+      {
+        "at": "00:07:40",
+        "title": "The phone call",
+        "task": "Jan calls from corporate. Catch the news she gives Michael and the promise he makes.",
+        "type": "listen"
+      },
+      {
+        "at": "00:14:30",
+        "title": "The meeting",
+        "task": "The staff meeting gets uncomfortable. Whose silence lasts longest, and why does the camera stay on that face?",
+        "type": "think"
+      },
+      {
+        "at": "00:21:20",
+        "title": "The talking head",
+        "task": "Pause on the last talking head. Explain in three sentences why the joke is funny and why it is also painful.",
+        "type": "speak"
+      }
+    ],
+    "words": [
+      {"w": "mockumentary", "def": "a funny documentary-style show", "ex": "The Office is a mockumentary about a paper company."},
+      {"w": "cringe", "def": "to feel embarrassed for someone", "ex": "The whole room cringes at the joke."},
+      {"w": "deadpan", "def": "funny with no expression", "ex": "Jim answers in a deadpan voice."},
+      {"w": "awkward", "def": "uncomfortable and embarrassing", "ex": "There is an awkward pause after the line."},
+      {"w": "talking head", "def": "a person speaking to camera", "ex": "Each talking head explains what just happened."},
+      {"w": "to break the fourth wall", "def": "to speak directly to the camera", "ex": "Michael breaks the fourth wall to explain his joke."}
+    ],
+    "questions": [
+      "Michael wants the camera to see him as a good boss. Do you know a boss like him?",
+      "The staff say nothing when Michael is embarrassing. Would you speak up in that meeting?",
+      "The humour comes from silence and looks at the camera. Is that funny for you, or just painful?",
+      "In your culture, how do people behave when the boss makes a bad joke?",
+      "Dwight takes his job title very seriously. Is he a good worker or a joke?",
+      "Jim is polite to Michael but makes fun of him. Is that kind or cruel?",
+      "Which line made you cringe most? Say it without laughing.",
+      "Would you like to work in an office that a camera crew follows? What would you hide?"
+    ],
+    "gaps": [
+      {"line": "That's what she ___.", "answer": "said", "hint": "spoke", "adapted": false},
+      {"line": "Assistant to the ___ Manager.", "answer": "regional", "hint": "in charge of one area", "adapted": false},
+      {"line": "I'm a people ___.", "answer": "person", "hint": "a human being", "adapted": true},
+      {"line": "The branch might be ___.", "answer": "closing", "hint": "shutting down", "adapted": true},
+      {"line": "I want this documentary to show I'm a good ___.", "answer": "boss", "hint": "the person in charge at work", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "That's what she said.", "options": ["Michael", "Dwight", "Jim"], "answer": 0, "note": "Michael's signature joke — the show establishes it in the first episode."},
+      {"quote": "Assistant to the Regional Manager.", "options": ["Dwight", "Jim", "Michael"], "answer": 0, "note": "Dwight corrects his title, and the correction is funnier than the title."},
+      {"quote": "I'm the regional manager.", "options": ["Michael", "Dwight", "Ryan"], "answer": 0, "note": "Paraphrased — Michael reminds everyone who is in charge, which is the joke."}
+    ],
+    "quiz": [
+      {"q": "Where is the show set?", "options": ["A paper company office", "A television studio", "A school"], "answer": 0, "why": "Dunder Mifflin's Scranton branch sells paper, and the cameras follow the staff."},
+      {"q": "What is Michael's job?", "options": ["Regional manager", "Receptionist", "Salesman"], "answer": 0, "why": "He runs the branch and wants the documentary to see him doing it well."},
+      {"q": "Who is Ryan?", "options": ["A new temporary worker", "The company owner", "A customer"], "answer": 0, "why": "Ryan arrives for his first day, and the camera follows him into the office."},
+      {"q": "What news does Jan give Michael?", "options": ["The branch may be downsized", "He is getting a bigger office", "The company is moving"], "answer": 0, "why": "The call puts Michael's job in danger, and he does not tell the staff the truth."},
+      {"q": "What title does Dwight give himself?", "options": ["Assistant to the Regional Manager", "Head of Sales", "Office Manager"], "answer": 0, "why": "He corrects anyone who shortens it, which shows exactly who he is."}
+    ],
+    "roleplay": {
+      "title": "The camera is on",
+      "setting": "The conference room, mid-afternoon. A camera crew stands by the door and nobody knows where to look.",
+      "roles": [
+        {"role": "Michael", "brief": "You are the boss and you want to be liked. You make a joke, it lands badly, and you make another one to fix it."},
+        {"role": "Jim", "brief": "You are polite and you never actually say the rude thing. You look at the camera instead, and let the silence do the work."},
+        {"role": "Pam", "brief": "You are at reception. You watch everything, you say very little, and your face shows what you think."}
+      ],
+      "challenge": "After every awkward line, hold a five-second silence and look at the camera. The silence is the joke — play it twice, once with the silence and once without."
+    },
+    "quest": [
+      {"title": "Station 1 · The camera", "task": "Find three moments when a character looks straight at the camera. What do they hope the camera will think?", "answer": "Any three looks, explained in one sentence", "points": 10},
+      {"title": "Station 2 · Office words", "task": "Find the title Dwight gives himself, the name of the company and the name of the town.", "answer": "Assistant to the Regional Manager; Dunder Mifflin; Scranton", "points": 10},
+      {"title": "Station 3 · The silent pause", "task": "Write and perform a 20-second scene where one person says something awkward and everybody else says nothing.", "answer": "Any performed scene with a long silence", "points": 15},
+      {"title": "Station 4 · Order of the day", "task": "Put in order: the phone call from corporate, the staff meeting, the new temp arrives, the final talking head.", "answer": "The temp arrives, the phone call, the meeting, the final talking head", "points": 10}
+    ]
+  }
+]

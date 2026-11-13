@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Film — Reel Talk</title>
+<meta name="description" content="A film page from Reel Talk: discussion questions, gap-fills, quotes, quiz, a scene to act out and four QR stations.">
+<meta name="theme-color" content="#0b0b0e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%230b0b0e'/%3E%3Ccircle cx='20' cy='20' r='12' fill='none' stroke='%23e8b04b' stroke-width='2'/%3E%3Ccircle cx='20' cy='20' r='3' fill='%23e8b04b'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/film.css">
+<link rel="stylesheet" href="css/swiss.css">
+</head>
+<body class="page-film">
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="grain" aria-hidden="true"></div>
+<header class="rt-header" data-rt-header></header>
+
+<main id="main">
+  <div class="film-hero" id="filmHero" data-mood="warm">
+    <div class="film-hero-bg" aria-hidden="true"></div>
+    <div class="shell film-hero-grid">
+      <div class="film-poster" id="filmPoster"></div>
+      <div class="film-head">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">All films</a><span>/</span><span id="crumbLevel">—</span></nav>
+        <h1 id="filmTitle">—</h1>
+        <p class="film-logline" id="filmLogline">—</p>
+        <div class="film-meta" id="filmMeta"></div>
+        <div class="film-actions" id="filmActions"></div>
+        <div class="film-progress" id="filmProgress"></div>
+      </div>
+    </div>
+    <div class="film-tabs-wrap">
+      <div class="shell"><nav class="film-tabs" id="filmTabs" aria-label="Film sections"></nav></div>
+    </div>
+  </div>
+
+  <div class="shell">
+    <div id="filmPanels" class="film-panels"></div>
+  </div>
+</main>
+
+<footer class="rt-footer" data-rt-footer></footer>
+
+<script src="js/data/films.js"></script>
+<script src="js/vendor/qrcode.js"></script>
+<script src="js/core.js"></script>
+<script src="js/film.js"></script>
+</body>
+</html>

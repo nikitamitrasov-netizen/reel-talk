@@ -1,0 +1,952 @@
+[
+  {
+    "id": "home-alone",
+    "title": "Home Alone",
+    "year": 1990,
+    "level": "A2",
+    "runtime": 103,
+    "genres": ["comedy", "family"],
+    "director": "Chris Columbus",
+    "country": "USA",
+    "age": "all",
+    "mood": "warm",
+    "logline": "A boy is accidentally left at home when his family flies to Paris for Christmas, and two burglars pick the wrong house.",
+    "why": "The plot is carried by places and objects, so a missed line never means a lost scene. Family vocabulary, daily routines and short, concrete dialogue repeat often enough to stick.",
+    "language": "American English, mostly simple sentences; the burglars talk fast in a few scenes, and Kevin's older brother mumbles on purpose.",
+    "content": "Slapstick violence and cartoon traps; nobody is seriously hurt. Suitable for all ages.",
+    "scenes": [
+      {
+        "at": "00:08:20",
+        "title": "The head count",
+        "task": "Count the family members who run through the airport. Who is missing, and who finally notices?",
+        "type": "listen"
+      },
+      {
+        "at": "00:21:40",
+        "title": "Dinner for one",
+        "task": "Pause on Kevin's plate. Name everything he eats, then compare it with your own ideal dinner.",
+        "type": "observe"
+      },
+      {
+        "at": "00:42:10",
+        "title": "The burglars' plan",
+        "task": "The burglars name the houses they will rob and when. Predict: what will Kevin do about it?",
+        "type": "predict"
+      },
+      {
+        "at": "01:12:30",
+        "title": "Welcome to the traps",
+        "task": "List three traps in the order they happen. Which one made the room laugh loudest?",
+        "type": "detail"
+      }
+    ],
+    "words": [
+      {"w": "burglar", "def": "a person who breaks into a house to steal", "ex": "The burglars watch the house from a van."},
+      {"w": "attic", "def": "the room under the roof of a house", "ex": "Kevin hides in the attic when he is scared."},
+      {"w": "neighbour", "def": "a person who lives next to you", "ex": "The old neighbour is not as scary as he looks."},
+      {"w": "trap", "def": "a thing that catches or hurts someone", "ex": "The stairs become a trap."},
+      {"w": "scream", "def": "to make a loud, high sound when afraid", "ex": "Marv screams when the spider lands on him."},
+      {"w": "alone", "def": "with no other people there", "ex": "At first, Kevin loves being alone."}
+    ],
+    "questions": [
+      "Why does Kevin's family fly to Paris without him? Whose fault is it, really?",
+      "What is the first thing Kevin does when he understands that he is alone? What would you do?",
+      "Kevin says he wants his family to disappear — and then they do. Is the film a wish come true or a lesson?",
+      "Which trap is the cleverest, and which one is just cruel?",
+      "Why is Kevin afraid of the old man next door, and what changes his mind?",
+      "In your country, at what age can a child stay home alone? Is Kevin old enough?",
+      "Is Kevin a good boy or a difficult boy? Give two examples from the film.",
+      "Which line from the film would you repeat to a friend as a joke? Try to say it the same way."
+    ],
+    "gaps": [
+      {"line": "When I grow up and get married, I'm living ___!", "answer": "alone", "hint": "with nobody else", "adapted": false},
+      {"line": "I made my family ___!", "answer": "disappear", "hint": "go away, like magic", "adapted": false},
+      {"line": "Keep the change, you ___ animal.", "answer": "filthy", "hint": "very dirty", "adapted": false},
+      {"line": "This is my house. I have to ___ it.", "answer": "defend", "hint": "protect it from attack", "adapted": false},
+      {"line": "Buzz, your girlfriend... ___!", "answer": "woof", "hint": "the sound a dog makes", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "Kevin! What did you do to my room?", "options": ["Buzz", "Kate", "Marv"], "answer": 0, "note": "Buzz is the older brother — and the reason Kevin gets sent to the attic."},
+      {"quote": "Keep the change, you filthy animal.", "options": ["Kevin", "The gangster on TV", "Harry"], "answer": 1, "note": "Kevin learns it from a black-and-white gangster film and uses it as his own line."},
+      {"quote": "I made my family disappear.", "options": ["Kevin", "Marv", "The policeman"], "answer": 0, "note": "He says it as a joke — and then starts to believe it."}
+    ],
+    "quiz": [
+      {"q": "Where does the family fly for Christmas?", "options": ["Paris", "London", "New York"], "answer": 0, "why": "They fly to Paris and leave Kevin behind in Chicago."},
+      {"q": "Who does Kevin meet in the church?", "options": ["The old neighbour", "The policeman", "Santa Claus"], "answer": 0, "why": "The old man whose son he is afraid of — the meeting changes how Kevin sees him."},
+      {"q": "What time do the burglars plan to enter the house?", "options": ["Nine o'clock", "Midnight", "Six o'clock"], "answer": 0, "why": "They say they will come at nine, so Kevin prepares the house before that."},
+      {"q": "How does Kevin finally get help?", "options": ["He calls the police", "The old neighbour helps him", "His family comes home early"], "answer": 1, "why": "The old neighbour arrives with a snow shovel — and the burglars run into the police."},
+      {"q": "Why is Kevin sad at the end?", "options": ["He lost his toys", "He understands that being alone is not fun", "He must go back to school"], "answer": 1, "why": "He wanted his family gone, then discovered that he wanted them back."}
+    ],
+    "roleplay": {
+      "title": "The head count",
+      "setting": "Airport check-in at 7 a.m. The family is late, the queue is long, and nobody is counting children.",
+      "roles": [
+        {"role": "Kate", "brief": "You are the mother. You are stressed, you have five children, a passport for each one and no time for jokes. Keep asking the clerk to hurry."},
+        {"role": "Clerk", "brief": "You work for the airline. You have heard every excuse. You are polite but very slow, and you keep finding problems with the documents."},
+        {"role": "Kevin", "brief": "You are eight. You are in the middle of this chaos. You are asked nothing and say almost nothing — until the one moment it matters."}
+      ],
+      "challenge": "Play the scene twice: once as a comedy, once as a disaster film. Then swap roles and see who notices the missing child."
+    },
+    "quest": [
+      {"title": "Station 1 · The missing passenger", "task": "At the airport the family counts heads. How many people are travelling, and how many do they count? Find the moment and write both numbers.", "answer": "15 travel, 14 are counted", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find in the film: a word for the room under the roof, a word for a person who steals from houses, and a word for a person living next door.", "answer": "attic, burglar, neighbour", "points": 10},
+      {"title": "Station 3 · Trap designers", "task": "Invent one new trap for the burglars using only things you can see in a classroom. Describe it in three sentences, then act it out in slow motion.", "answer": "Any plausible three-sentence design, acted out", "points": 15},
+      {"title": "Station 4 · The order of things", "task": "Put these four events in order: the pizza delivery, the fake party, the tarantula on Marv's face, the old neighbour's snow shovel.", "answer": "pizza, fake party, tarantula, snow shovel", "points": 10}
+    ]
+  },
+  {
+    "id": "toy-story",
+    "title": "Toy Story",
+    "year": 1995,
+    "level": "A2",
+    "runtime": 81,
+    "genres": ["animation", "family", "comedy"],
+    "director": "John Lasseter",
+    "country": "USA",
+    "age": "all",
+    "mood": "warm",
+    "logline": "A cowboy doll is the favourite toy in Andy's room, until a new space toy arrives and takes his place.",
+    "why": "The story stays inside one boy's bedroom and one street, so the pictures explain almost everything. The lines are short and funny, and the words for toys, friends and feeling left out come back again and again.",
+    "language": "American English with quick comic voices: Woody talks like a cowboy, Buzz talks like a television hero, and the other toys shout over each other.",
+    "content": "Cartoon danger and a mean boy next door who breaks toys; a dog chases Woody and Buzz. Nobody is badly hurt, and the ending is happy.",
+    "scenes": [
+      {
+        "at": "00:05:10",
+        "title": "When Andy leaves",
+        "task": "List three toys you can see in Andy's room. What do they do the moment the door closes?",
+        "type": "observe"
+      },
+      {
+        "at": "00:16:20",
+        "title": "A new space toy",
+        "task": "Listen to the new toy's name and his famous line. Say both back to your partner.",
+        "type": "listen"
+      },
+      {
+        "at": "00:50:40",
+        "title": "A toy, not a ranger",
+        "task": "Buzz sees a television advert full of Buzz toys. What does he suddenly understand, and what does he do next?",
+        "type": "think"
+      },
+      {
+        "at": "01:09:50",
+        "title": "The rocket",
+        "task": "Woody lights the rocket in Sid's garden. Predict: where will the two toys land, and will they catch the van?",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "toy", "def": "a thing that children play with", "ex": "Andy has many toys in his room."},
+      {"w": "jealous", "def": "unhappy because someone has what you want", "ex": "Woody is jealous of the new space toy."},
+      {"w": "space", "def": "the place beyond the sky", "ex": "Buzz says he comes from space."},
+      {"w": "battery", "def": "a small thing that gives power", "ex": "Buzz runs on batteries, not rocket fuel."},
+      {"w": "brave", "def": "not afraid of danger", "ex": "Buzz is brave, even when he is lost."},
+      {"w": "friend", "def": "a person you like and play with", "ex": "In the end, Woody and Buzz are friends."}
+    ],
+    "questions": [
+      "Why is Woody jealous of Buzz? Do you think that is fair?",
+      "Which toy in Andy's room would you like to have? Why that one?",
+      "In your country, does a child take one special toy everywhere? What was yours?",
+      "Buzz thinks he is a real space ranger. Why is that funny — and a little sad?",
+      "What would you say to Woody after he knocks Buzz out of the window?",
+      "Sid breaks toys for fun. Is he a bad boy or just a bored boy?",
+      "Which moment made you laugh most? Show it to the class, slowly.",
+      "If your family moved house tomorrow, which three things would you take?"
+    ],
+    "gaps": [
+      {"line": "To infinity and ___!", "answer": "beyond", "hint": "further than everything", "adapted": false},
+      {"line": "You are a ___!", "answer": "toy", "hint": "a thing a child plays with", "adapted": false},
+      {"line": "Reach for the ___!", "answer": "sky", "hint": "the place above you", "adapted": false},
+      {"line": "There's a snake in my ___!", "answer": "boots", "hint": "things you wear on your feet", "adapted": false},
+      {"line": "I am Buzz Lightyear. I come in ___.", "answer": "peace", "hint": "the opposite of war", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "To infinity and beyond!", "options": ["Buzz", "Woody", "Andy"], "answer": 0, "note": "Buzz says it before every jump, and it becomes the film's most famous line."},
+      {"quote": "You are a toy!", "options": ["Woody", "Sid", "Mr. Potato Head"], "answer": 0, "note": "Woody shouts it at the gas station, when he is losing his place as Andy's favourite."},
+      {"quote": "There's a snake in my boots!", "options": ["Woody", "Mr. Potato Head", "Andy"], "answer": 0, "note": "Woody's pull string says it. He cannot choose his own lines."}
+    ],
+    "quiz": [
+      {"q": "What does Andy get for his birthday that changes everything?", "options": ["A new space toy", "A bicycle", "A puppy"], "answer": 0, "why": "Buzz Lightyear arrives, and Andy loves him at once."},
+      {"q": "Where do Woody and Buzz get left behind?", "options": ["At a gas station", "At school", "In a supermarket"], "answer": 0, "why": "The family drives away from the gas station without them."},
+      {"q": "Who takes Buzz home from the pizza restaurant?", "options": ["Sid", "Andy", "The pizza man"], "answer": 0, "why": "Sid finds Buzz and takes him to his house."},
+      {"q": "What does Buzz see on television?", "options": ["An advert for Buzz toys", "A cowboy film", "The news"], "answer": 0, "why": "The advert shows a shop full of Buzz toys, and Buzz finally understands that he is a toy."},
+      {"q": "How do the two toys catch the moving van?", "options": ["They fly out of Sid's garden on a rocket", "They take a bus", "Andy comes back for them"], "answer": 0, "why": "Woody lights the rocket and it carries them into the air, just as the family drives away."}
+    ],
+    "roleplay": {
+      "title": "The new toy",
+      "setting": "Andy's bedroom, the night Buzz arrives. Woody has been the favourite for years, and every toy is watching.",
+      "roles": [
+        {"role": "Woody", "brief": "You are the old favourite. You are polite and funny, but you want your place back and you do not like this stranger."},
+        {"role": "Buzz", "brief": "You are a space ranger. You do not understand that you are a toy. You answer every question with a report from your mission."},
+        {"role": "Andy", "brief": "You are eight. You just want to play with both toys, and you do not see that one of them is upset."}
+      ],
+      "challenge": "Play it twice: once with Woody as the good guy, once with Buzz as the good guy. Which version is funnier?"
+    },
+    "quest": [
+      {"title": "Station 1 · The owner", "task": "Find the name of the boy who owns the toys. Then find what he writes on Buzz's boot.", "answer": "Andy; he writes his own name", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find three words in the film for: a child's plaything, a bad feeling about a rival, and the power source inside a toy.", "answer": "toy, jealous, battery", "points": 10},
+      {"title": "Station 3 · Design a toy", "task": "Invent a new toy for Andy. Give it a name, one special power and one weakness. Describe it in three sentences.", "answer": "Any named toy with a power and a weakness", "points": 15},
+      {"title": "Station 4 · The order", "task": "Put these in order: the birthday party, the gas station, the pizza restaurant, Sid's rocket.", "answer": "birthday party, gas station, pizza restaurant, rocket", "points": 10}
+    ]
+  },
+  {
+    "id": "finding-nemo",
+    "title": "Finding Nemo",
+    "year": 2003,
+    "level": "A2",
+    "runtime": 100,
+    "genres": ["animation", "family"],
+    "director": "Andrew Stanton",
+    "country": "USA",
+    "age": "all",
+    "mood": "cool",
+    "logline": "A small fish with one weak fin is taken from the sea, and his worried father swims across the ocean to bring him home.",
+    "why": "The story is a simple journey with one clear goal, and every new place brings a new, funny character. The sea is full of colour and movement, so the pictures carry the meaning when a line goes past too fast.",
+    "language": "American English, fast and playful: Dory talks very quickly, the sharks speak slowly and seriously, and the turtles use surfer slang.",
+    "content": "The opening has a barracuda attack that leaves Nemo without his mother, and a shark shows its teeth. Sad and a little frightening for small children, but the rest is cartoon adventure.",
+    "scenes": [
+      {
+        "at": "00:09:40",
+        "title": "The first day of school",
+        "task": "Watch Marlin and Nemo at the edge of the reef. How many times does Marlin say 'no'?",
+        "type": "observe"
+      },
+      {
+        "at": "00:31:20",
+        "title": "Fish are friends",
+        "task": "Listen to the sharks' meeting. Write down the words they promise to say.",
+        "type": "listen"
+      },
+      {
+        "at": "00:56:40",
+        "title": "Riding the current",
+        "task": "The turtles call Marlin 'dude'. What does his face tell you about his feelings?",
+        "type": "think"
+      },
+      {
+        "at": "01:22:10",
+        "title": "Nemo plays dead",
+        "task": "The fish in the tank have a plan. Predict: will it work, and what could go wrong?",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "ocean", "def": "a very large sea", "ex": "The ocean is big and full of danger."},
+      {"w": "fin", "def": "the part a fish swims with", "ex": "Nemo has one small fin."},
+      {"w": "tank", "def": "a glass home for pet fish", "ex": "Nemo lives in a dentist's tank."},
+      {"w": "forget", "def": "to not remember something", "ex": "Dory forgets names and places."},
+      {"w": "brave", "def": "not afraid of danger", "ex": "Marlin learns to be brave."},
+      {"w": "rescue", "def": "to save someone from danger", "ex": "Marlin wants to rescue his son."}
+    ],
+    "questions": [
+      "Marlin is very careful with Nemo. Is he a good father, or too careful?",
+      "Nemo has one small fin. How does that change the way he swims, and the way he feels?",
+      "Dory forgets everything. Why is she still a good friend to Marlin?",
+      "What would you say to Nemo when he swims up to the boat?",
+      "In your country, at what age do children go to school alone?",
+      "The fish in the tank want to escape. Would you help them? How?",
+      "Which character would you like as a friend: Dory, Crush or Gill? Why?",
+      "Which line made you laugh? Say it the way the character says it."
+    ],
+    "gaps": [
+      {"line": "Fish are friends, not ___!", "answer": "food", "hint": "what you eat", "adapted": false},
+      {"line": "Just keep ___.", "answer": "swimming", "hint": "moving through the water", "adapted": false},
+      {"line": "P. Sherman, 42 Wallaby Way, ___!", "answer": "sydney", "hint": "a big city in Australia", "adapted": false},
+      {"line": "All drains lead to the ___.", "answer": "ocean", "hint": "the big sea", "adapted": false},
+      {"line": "I shall call him ___ and he shall be mine.", "answer": "squishy", "hint": "soft when you press it", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "Just keep swimming.", "options": ["Dory", "Marlin", "Gill"], "answer": 0, "note": "Dory sings it when Marlin wants to stop and give up."},
+      {"quote": "Fish are friends, not food.", "options": ["Bruce the shark", "Marlin", "Gill"], "answer": 0, "note": "Bruce says it at his shark support group."},
+      {"quote": "Mine! Mine! Mine!", "options": ["The seagulls", "The turtles", "The fish in the tank"], "answer": 0, "note": "The seagulls say it when they see something to eat."}
+    ],
+    "quiz": [
+      {"q": "What is Nemo's father called?", "options": ["Marlin", "Gill", "Crush"], "answer": 0, "why": "Marlin is Nemo's father, and he is very careful with him."},
+      {"q": "Why does Nemo swim out to the boat?", "options": ["His friends dare him", "He is looking for food", "He wants to meet the diver"], "answer": 0, "why": "His classmates dare him to touch the boat, and a diver takes him away."},
+      {"q": "Who helps Marlin on his journey?", "options": ["Dory", "Gill", "Bruce"], "answer": 0, "why": "Dory is a blue fish with a very short memory."},
+      {"q": "Where does Nemo end up?", "options": ["In a fish tank in a dentist's office", "In a restaurant", "In a zoo"], "answer": 0, "why": "A diver takes him to a dentist's tank in Sydney."},
+      {"q": "Who is Darla?", "options": ["The dentist's niece", "Nemo's sister", "A shark"], "answer": 0, "why": "Darla is the dentist's niece, and the fish say she is bad news for fish."}
+    ],
+    "roleplay": {
+      "title": "The first day of school",
+      "setting": "The coral reef, early morning. It is Nemo's first day, and Mr. Ray is waiting with the class.",
+      "roles": [
+        {"role": "Marlin", "brief": "You are worried. Before you say hello, you ask three questions about safety, and you answer every question with a warning."},
+        {"role": "Nemo", "brief": "You are excited. You want to swim with the other children and you do not want your father to come with you."},
+        {"role": "Mr. Ray", "brief": "You are the teacher. You are patient and cheerful, and you sing the names of the fish in your class."}
+      ],
+      "challenge": "Play the scene twice: once with Marlin calm, once with Marlin very, very worried. Which one is more like your own parents?"
+    },
+    "quest": [
+      {"title": "Station 1 · The address", "task": "A diver's mask falls into the sea. Write the address on it.", "answer": "P. Sherman, 42 Wallaby Way, Sydney", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find three words from the film for: the part a fish swims with, a glass home for fish, and the big water.", "answer": "fin, tank, ocean", "points": 10},
+      {"title": "Station 3 · New sea creature", "task": "Invent a sea animal for this film. Draw it, give it a name and say what it can do.", "answer": "Any named sea animal with one ability", "points": 15},
+      {"title": "Station 4 · The journey", "task": "Put these four places in the order Marlin reaches them: the shark meeting, the jellyfish, the turtles, Sydney.", "answer": "shark meeting, jellyfish, turtles, Sydney", "points": 10}
+    ]
+  },
+  {
+    "id": "charlie-chocolate",
+    "title": "Charlie and the Chocolate Factory",
+    "year": 2005,
+    "level": "A2",
+    "runtime": 115,
+    "genres": ["family", "comedy"],
+    "director": "Tim Burton",
+    "country": "USA",
+    "age": "all",
+    "mood": "pastel",
+    "logline": "Five children win a golden ticket to visit the strangest chocolate factory in the world, and one of them is very poor.",
+    "why": "Every scene repeats the same pattern: a new room, a rule, and a child who breaks it. That makes the story easy to predict and the language easy to follow, and the factory gives you colours, machines and songs to talk about.",
+    "language": "British and American English mixed; Willy Wonka speaks quickly in short, strange sentences, and the four other children are loud and rude.",
+    "content": "Children are greedy and rude, and some are in real danger in the factory: one is pulled into a pipe and one is carried away by squirrels. Nothing is bloody, but the humour is dark and strange.",
+    "scenes": [
+      {
+        "at": "00:13:30",
+        "title": "Five winners",
+        "task": "Watch the television news. Write the name and the country of each winner.",
+        "type": "listen"
+      },
+      {
+        "at": "00:36:40",
+        "title": "The last ticket",
+        "task": "Charlie holds the last chocolate bar. Pause before he opens it. Predict: ticket or no ticket?",
+        "type": "predict"
+      },
+      {
+        "at": "01:05:10",
+        "title": "The nut room",
+        "task": "The squirrels decide who is a 'bad nut'. Why does Veruca go down the chute, and not her father?",
+        "type": "think"
+      },
+      {
+        "at": "01:41:30",
+        "title": "Wonka's father",
+        "task": "Willy Wonka remembers his father, the dentist. What did his father want for him, and what did Willy want?",
+        "type": "observe"
+      }
+    ],
+    "words": [
+      {"w": "factory", "def": "a place where things are made", "ex": "Wonka's factory makes chocolate."},
+      {"w": "ticket", "def": "a small paper that lets you enter", "ex": "Charlie finds a golden ticket."},
+      {"w": "greedy", "def": "wanting too much of everything", "ex": "Augustus is greedy and eats too much."},
+      {"w": "invent", "def": "to make something new", "ex": "Wonka invents amazing sweets."},
+      {"w": "machine", "def": "a thing that does work for you", "ex": "A big machine mixes the chocolate."},
+      {"w": "prize", "def": "something that you win", "ex": "The ticket is the best prize in the world."}
+    ],
+    "questions": [
+      "Charlie's family is very poor. How does the film show that without telling us?",
+      "Which of the other four children is the worst? Why?",
+      "Would you like to visit Wonka's factory? Which room would you go to first?",
+      "In your country, are there competitions with big prizes? What do people win?",
+      "Wonka says his factory is the best in the world. Is he proud, or is he lonely?",
+      "What would you say to Charlie when he finds the last ticket?",
+      "Charlie says no to Wonka's offer. Was that the right choice?",
+      "Which line from the film is the funniest? Say it loudly, like the character."
+    ],
+    "gaps": [
+      {"line": "Everything in this room is ___.", "answer": "eatable", "hint": "you can eat it", "adapted": false},
+      {"line": "I want it ___!", "answer": "now", "hint": "at this moment", "adapted": false},
+      {"line": "I've got a golden ___!", "answer": "ticket", "hint": "a paper that lets you in", "adapted": true},
+      {"line": "I want an ___ now!", "answer": "oompa loompa", "hint": "a small worker in the factory", "adapted": true},
+      {"line": "Oompa Loompa, doompety ___!", "answer": "doo", "hint": "a funny sound, not a word", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "I want it now!", "options": ["Veruca", "Violet", "Charlie"], "answer": 0, "note": "Veruca sings it when her father cannot buy what she wants."},
+      {"quote": "Everything in this room is eatable.", "options": ["Willy Wonka", "Grandpa Joe", "Augustus"], "answer": 0, "note": "Wonka says it as the children run into the chocolate room."},
+      {"quote": "I'm a gum chewer.", "options": ["Violet", "Veruca", "Mike"], "answer": 0, "note": "Violet says it with pride, and gum is the reason she gets into trouble."}
+    ],
+    "quiz": [
+      {"q": "How many golden tickets are there?", "options": ["Five", "Three", "Ten"], "answer": 0, "why": "Five tickets are hidden in chocolate bars around the world."},
+      {"q": "Who finds the last golden ticket?", "options": ["Charlie", "Augustus", "Veruca"], "answer": 0, "why": "Charlie finds some money in the snow, buys a bar and finds the last ticket."},
+      {"q": "What happens to Violet?", "options": ["She turns blue and round", "She falls in the river", "She loses her ticket"], "answer": 0, "why": "She eats experimental gum, and her body swells up and turns blue."},
+      {"q": "Who goes to the factory with Charlie?", "options": ["Grandpa Joe", "His mother", "His sister"], "answer": 0, "why": "Grandpa Joe gets out of bed for the first time in years."},
+      {"q": "What does Wonka ask Charlie to do at the end?", "options": ["To leave his family and come alone", "To give back the ticket", "To work as a cleaner"], "answer": 0, "why": "Charlie says no, and that answer is why Wonka chooses him."}
+    ],
+    "roleplay": {
+      "title": "The five winners on TV",
+      "setting": "A television studio. A reporter is interviewing the five children who found golden tickets.",
+      "roles": [
+        {"role": "Reporter", "brief": "You ask the same three questions to everyone: What is your name? Where are you from? What will you ask Mr. Wonka?"},
+        {"role": "Veruca", "brief": "You are rich, bored and very rude. Nothing is good enough for you, and you want everything now."},
+        {"role": "Charlie", "brief": "You are shy and kind. You have never been on television, and you keep looking at your grandfather."}
+      ],
+      "challenge": "Play it as a serious interview, then again as a comedy. Which child is easiest to interview?"
+    },
+    "quest": [
+      {"title": "Station 1 · The dentist", "task": "Wonka's father had a job that is the opposite of making sweets. What was his job?", "answer": "a dentist", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find three words from the factory: a place where things are made, a paper that lets you in, and a person who wants everything.", "answer": "factory, ticket, greedy", "points": 10},
+      {"title": "Station 3 · New sweet", "task": "Invent a sweet for Wonka's factory. Give it a name, a taste and one strange effect. Describe it in three sentences.", "answer": "Any named sweet with a taste and an effect", "points": 15},
+      {"title": "Station 4 · The accidents", "task": "Put the four accidents in order: Violet, Augustus, Mike, Veruca.", "answer": "Augustus, Violet, Veruca, Mike", "points": 10}
+    ]
+  },
+  {
+    "id": "matilda",
+    "title": "Matilda",
+    "year": 1996,
+    "level": "A2",
+    "runtime": 102,
+    "genres": ["comedy", "family"],
+    "director": "Danny DeVito",
+    "country": "USA",
+    "age": "all",
+    "mood": "warm",
+    "logline": "A clever girl is ignored by her family and sent to a school with a terrible headmistress, and then she discovers her own power.",
+    "why": "The film is built from small, everyday places: a house, a school, a library, a playground. The goodies and the baddies are drawn in loud colours and loud voices, so a beginner can always hear who is speaking and how they feel.",
+    "language": "Mostly American English; Miss Trunchbull shouts in a strong British accent, and Matilda speaks slowly and clearly.",
+    "content": "A frightening headmistress shouts at children, swings a girl by her pigtails and locks children in a small cupboard full of nails. It is played for comedy, but the threat feels real.",
+    "scenes": [
+      {
+        "at": "00:08:10",
+        "title": "A girl who reads",
+        "task": "Look at Matilda in the library. What is she doing, and how is she different from other children of her age?",
+        "type": "think"
+      },
+      {
+        "at": "00:22:30",
+        "title": "Meet the Trunchbull",
+        "task": "Watch the headmistress walk down the steps. Write three rules she gives the children.",
+        "type": "observe"
+      },
+      {
+        "at": "00:52:10",
+        "title": "Miss Honey's house",
+        "task": "Look at Miss Honey's little house. Why is it so small and empty? What does that tell you about her?",
+        "type": "think"
+      },
+      {
+        "at": "01:20:40",
+        "title": "The chalk writes",
+        "task": "The chalk writes a name on the board. Predict: who is writing, and why is the Trunchbull so afraid?",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "clever", "def": "able to learn quickly", "ex": "Matilda is a very clever girl."},
+      {"w": "bully", "def": "a person who is unkind to others", "ex": "The Trunchbull is a bully."},
+      {"w": "library", "def": "a place with many books", "ex": "Matilda reads in the library every day."},
+      {"w": "strict", "def": "making people follow many rules", "ex": "The headmistress is very strict."},
+      {"w": "adopt", "def": "to take a child into your family", "ex": "Miss Honey wants to adopt Matilda."},
+      {"w": "mind", "def": "the part of you that thinks", "ex": "Matilda moves things with her mind."}
+    ],
+    "questions": [
+      "Matilda's parents do not see that she is clever. Why not?",
+      "Why is Miss Trunchbull so unkind to children? What do you think she is afraid of?",
+      "Would you like Miss Honey as your teacher? What would be different in her classroom?",
+      "In your country, what can a pupil do when a teacher is unfair?",
+      "Matilda reads big books alone in the library. What is the first book you read alone?",
+      "Matilda uses her mind, not her voice, to fight the Trunchbull. Is that better than shouting?",
+      "Which character would you choose to help Matilda: Miss Honey, Lavender or Bruce? Why?",
+      "What would you say to Matilda on her first day at Crunchem Hall?"
+    ],
+    "gaps": [
+      {"line": "I'm big, you're little. I'm right, you're ___.", "answer": "wrong", "hint": "not correct", "adapted": true},
+      {"line": "I love to ___.", "answer": "read", "hint": "look at books and understand them", "adapted": false},
+      {"line": "Fresh ___!", "answer": "meat", "hint": "what people eat", "adapted": false},
+      {"line": "You chose books, I chose ___.", "answer": "looks", "hint": "how you appear to people", "adapted": false},
+      {"line": "The Chokey is a tall, narrow hole in a wall behind a ___.", "answer": "door", "hint": "you open it to go in", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "I'm smart, you're dumb. I'm big, you're little.", "options": ["Harry Wormwood", "Miss Trunchbull", "Michael"], "answer": 0, "note": "Matilda's father says it to her when she asks him to sell good cars."},
+      {"quote": "Fresh meat!", "options": ["Miss Trunchbull", "Lavender", "Harry Wormwood"], "answer": 0, "note": "The headmistress says it when she sees Matilda for the first time."},
+      {"quote": "I love to read.", "options": ["Matilda", "Miss Honey", "Michael"], "answer": 0, "note": "She says it to Miss Honey, and it is the happiest line in the film."}
+    ],
+    "quiz": [
+      {"q": "Who is Miss Trunchbull?", "options": ["The headmistress", "Matilda's mother", "A teacher"], "answer": 0, "why": "She runs Crunchem Hall, and she says she hates children."},
+      {"q": "What is the Chokey?", "options": ["A small cupboard for punishment", "A classroom", "A game"], "answer": 0, "why": "It is a narrow cupboard with nails and broken glass inside."},
+      {"q": "What can Matilda do that other children cannot?", "options": ["Move things with her mind", "Fly", "Read very fast"], "answer": 0, "why": "She discovers that she can move objects just by looking at them."},
+      {"q": "Who is kind to Matilda at school?", "options": ["Miss Honey", "Miss Trunchbull", "Hortensia"], "answer": 0, "why": "Miss Honey is her teacher, and she becomes her friend."},
+      {"q": "What happens to Matilda at the end?", "options": ["Miss Honey adopts her", "She goes to another school", "She lives with her parents"], "answer": 0, "why": "Her parents leave the country, and Miss Honey becomes her family."}
+    ],
+    "roleplay": {
+      "title": "The first day",
+      "setting": "The playground at Crunchem Hall, first break. Matilda has just arrived, and everybody is watching her.",
+      "roles": [
+        {"role": "Matilda", "brief": "You are new, and you want a friend. You ask questions, and you are not afraid to say what you think."},
+        {"role": "Lavender", "brief": "You know every rule and every danger in this school, and you enjoy telling them to somebody who has never heard them."},
+        {"role": "Miss Trunchbull", "brief": "You walk past, stop when you see a new face, and give her one rule and one warning. You do not smile."}
+      ],
+      "challenge": "Play it twice: once with the children brave, once with them afraid. Which version is more like a real first day?"
+    },
+    "quest": [
+      {"title": "Station 1 · The power", "task": "Find the moment Matilda first moves something without touching it. What is the object?", "answer": "the television set", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find three words for: a person who is unkind to weaker people, a place full of books, and the part of you that thinks.", "answer": "bully, library, mind", "points": 10},
+      {"title": "Station 3 · The chalk", "task": "Write one message you would put on the blackboard to stop a bully. Four words or fewer.", "answer": "Any short, clear message", "points": 15},
+      {"title": "Station 4 · The order", "task": "Put these in order: Matilda starts school, Matilda visits Miss Honey's house, the chalk writes on the board, Miss Honey adopts Matilda.", "answer": "school, Miss Honey's house, chalk, adoption", "points": 10}
+    ]
+  },
+  {
+    "id": "paddington",
+    "title": "Paddington",
+    "year": 2014,
+    "level": "A2",
+    "runtime": 95,
+    "genres": ["comedy", "family"],
+    "director": "Paul King",
+    "country": "UK",
+    "age": "all",
+    "mood": "warm",
+    "logline": "A young bear from Peru arrives in London with a suitcase, a label and a love of marmalade, and one family takes him home.",
+    "why": "The film explains itself with objects: a label, a suitcase, a bathroom, a sandwich under a hat. The family is ordinary and the bear is not, so the everyday language of homes, trains and food comes back in a funny situation.",
+    "language": "British English, polite and quick; Paddington speaks slowly and formally, while the Londoners use more slang and short forms.",
+    "content": "A woman with a dark workshop wants to put Paddington in a museum, and those scenes are creepy. Otherwise it is gentle comedy, with a few jokes about accidents in the house.",
+    "scenes": [
+      {
+        "at": "00:07:20",
+        "title": "A bear at the station",
+        "task": "Look at the label round Paddington's neck. What does it say, and who wrote it?",
+        "type": "observe"
+      },
+      {
+        "at": "00:27:20",
+        "title": "The bathroom",
+        "task": "Paddington tries to wash. List three things that go wrong in the bathroom.",
+        "type": "observe"
+      },
+      {
+        "at": "00:48:00",
+        "title": "One night or more",
+        "task": "Listen to Mr. and Mrs. Brown. How long does each one want the bear to stay?",
+        "type": "listen"
+      },
+      {
+        "at": "01:12:00",
+        "title": "The workshop",
+        "task": "Pause when Millicent opens the door. What can you see in the room, and how does it make you feel?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "marmalade", "def": "a sweet food made from oranges", "ex": "Paddington loves marmalade sandwiches."},
+      {"w": "station", "def": "a place where trains stop", "ex": "They meet at Paddington station."},
+      {"w": "polite", "def": "saying please and thank you", "ex": "Paddington is always polite."},
+      {"w": "suitcase", "def": "a bag for clothes when you travel", "ex": "He carries one small suitcase."},
+      {"w": "stranger", "def": "a person you do not know", "ex": "A stranger at the station helps him."},
+      {"w": "brave", "def": "not afraid of danger", "ex": "Paddington is brave when his friends need him."}
+    ],
+    "questions": [
+      "Paddington arrives with a suitcase and a label. What would you write on your own label?",
+      "The Browns are not sure about keeping a bear. Why do they say yes in the end?",
+      "In your country, what do people usually do when a stranger needs help?",
+      "Would you like Paddington to live in your house? What would go wrong first?",
+      "Mr. Brown loves rules and lists. Is he a good father?",
+      "Millicent wants to put Paddington in a museum. Why is that a terrible idea?",
+      "Which character is the kindest? Give one example from the film.",
+      "What would you say to Paddington on his first night in London?"
+    ],
+    "gaps": [
+      {"line": "Please look after this ___.", "answer": "bear", "hint": "a big animal with fur", "adapted": false},
+      {"line": "I come from Darkest ___.", "answer": "peru", "hint": "a country in South America", "adapted": false},
+      {"line": "I always keep a marmalade sandwich under my ___.", "answer": "hat", "hint": "you wear it on your head", "adapted": true},
+      {"line": "A bear? In ___?", "answer": "london", "hint": "the capital of England", "adapted": true},
+      {"line": "If we are kind and polite, the world will be ___.", "answer": "right", "hint": "good and correct", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Please look after this bear.", "options": ["Aunt Lucy", "Mr. Brown", "Millicent"], "answer": 0, "note": "It is written on the label round Paddington's neck, in Aunt Lucy's hand."},
+      {"quote": "Good afternoon.", "options": ["Paddington", "Mr. Brown", "Millicent"], "answer": 0, "note": "His polite hello to almost everybody, even when they are rude to him."},
+      {"quote": "He's a bear, Henry.", "options": ["Mrs. Brown", "Mrs. Bird", "Judy"], "answer": 0, "note": "Mary Brown says it when her husband wants the bear out of the house."}
+    ],
+    "quiz": [
+      {"q": "Where does Paddington come from?", "options": ["Peru", "Brazil", "India"], "answer": 0, "why": "He comes from Darkest Peru, where he lived with his aunt."},
+      {"q": "Where do the Browns find him?", "options": ["At Paddington station", "In a park", "At the airport"], "answer": 0, "why": "He is sitting at the station with a suitcase and a label."},
+      {"q": "What is Paddington's favourite food?", "options": ["Marmalade", "Chocolate", "Fish"], "answer": 0, "why": "He loves marmalade, and he keeps a sandwich under his hat."},
+      {"q": "Why does Millicent want Paddington?", "options": ["To put him in a museum", "To sell him", "To take him to Peru"], "answer": 0, "why": "She is a taxidermist, and she wants him for her collection."},
+      {"q": "What does the Brown family do at the end?", "options": ["They make him part of the family", "They send him back to Peru", "They give him to a zoo"], "answer": 0, "why": "He stays at 32 Windsor Gardens, and the Browns become his family."}
+    ],
+    "roleplay": {
+      "title": "A bear at the door",
+      "setting": "The Brown house, late at night. Mr. Brown opens the door and finds a bear with a suitcase and a label.",
+      "roles": [
+        {"role": "Mr. Brown", "brief": "You like rules and order. You do not want a bear in the house, and you ask the same question again and again: 'Who is going to clean this?'"},
+        {"role": "Mrs. Brown", "brief": "You are kind and curious. You want to help, and you can see that the bear is tired and alone."},
+        {"role": "Paddington", "brief": "You are polite and very tired. You have a label round your neck, and you say 'good evening' before anything else."}
+      ],
+      "challenge": "Play it twice: once as a comedy, once as a serious film about a stranger who needs help."
+    },
+    "quest": [
+      {"title": "Station 1 · The label", "task": "Find the words on the label round Paddington's neck and write them exactly.", "answer": "Please look after this bear. Thank you.", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find three words from the film for: a sweet orange food, a bag for clothes, and a person you do not know.", "answer": "marmalade, suitcase, stranger", "points": 10},
+      {"title": "Station 3 · A new home", "task": "Write three rules for a bear who comes to live in your house. Make them funny and useful.", "answer": "Any three clear, funny rules", "points": 15},
+      {"title": "Station 4 · The order", "task": "Put these four places in the order Paddington sees them: the station, the Brown house, the bathroom, Millicent's workshop.", "answer": "station, Brown house, bathroom, workshop", "points": 10}
+    ]
+  },
+  {
+    "id": "wizard-of-oz",
+    "title": "The Wizard of Oz",
+    "year": 1939,
+    "level": "A2",
+    "runtime": 102,
+    "genres": ["musical", "family"],
+    "director": "Victor Fleming",
+    "country": "USA",
+    "age": "all",
+    "mood": "sepia",
+    "logline": "A girl and her dog are carried by a tornado to a strange land, where she must find the Wizard of Oz to get home.",
+    "why": "The film says everything twice: once in dialogue and once in colour, song or costume. The story is a straight road with three friends, so a beginner always knows where the characters are and what they want.",
+    "language": "1930s American English, slow and very clear, with songs that repeat the same lines many times; a few old farm words may be new.",
+    "content": "The Wicked Witch and her flying monkeys are frightening for small children, and there is a scene with fire. Nothing is bloody; the witch melts at the end.",
+    "scenes": [
+      {
+        "at": "00:10:30",
+        "title": "Over the rainbow",
+        "task": "Dorothy sings about a place far away. Listen for three things she hopes to find there.",
+        "type": "listen"
+      },
+      {
+        "at": "00:27:40",
+        "title": "The Munchkins",
+        "task": "Look at the Munchkins and their clothes. What has changed about the film since the farm in Kansas?",
+        "type": "observe"
+      },
+      {
+        "at": "00:52:00",
+        "title": "Three friends on the road",
+        "task": "The Scarecrow, the Tin Man and the Lion each want something. Write the three things.",
+        "type": "observe"
+      },
+      {
+        "at": "01:22:30",
+        "title": "Behind the curtain",
+        "task": "Toto pulls the curtain open. Predict: who is the Wizard really, and what will Dorothy do?",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "tornado", "def": "a very strong wind that spins", "ex": "A tornado carries Dorothy's house away."},
+      {"w": "witch", "def": "a woman with magic powers", "ex": "The Wicked Witch wants the ruby slippers."},
+      {"w": "brain", "def": "the part of you that thinks", "ex": "The Scarecrow wants a brain."},
+      {"w": "courage", "def": "being brave when you are afraid", "ex": "The Lion wants courage."},
+      {"w": "slippers", "def": "soft shoes for inside the house", "ex": "Dorothy wears red ruby slippers."},
+      {"w": "home", "def": "the place where you live", "ex": "Dorothy only wants to go home."}
+    ],
+    "questions": [
+      "Dorothy sings about a place 'over the rainbow'. What is your 'over the rainbow'?",
+      "The Scarecrow wants a brain, the Tin Man a heart and the Lion courage. Which is the most important? Why?",
+      "Would you walk to the Emerald City with these three friends? What would you ask them first?",
+      "In your country, what do people say when they want to go home?",
+      "The Wizard is only a man behind a curtain. Why does that matter?",
+      "Which character is the bravest? Give one example from the film.",
+      "Is this film scary for small children? Which part?",
+      "What would you say to Dorothy before she clicks her heels?"
+    ],
+    "gaps": [
+      {"line": "There's no place like ___.", "answer": "home", "hint": "the place where you live", "adapted": false},
+      {"line": "Follow the Yellow ___ Road.", "answer": "brick", "hint": "a hard block for building", "adapted": false},
+      {"line": "I'll get you, my pretty, and your little ___ too!", "answer": "dog", "hint": "an animal that says woof", "adapted": false},
+      {"line": "Lions and tigers and ___, oh my!", "answer": "bears", "hint": "big animals with fur", "adapted": false},
+      {"line": "Pay no attention to that man behind the ___!", "answer": "curtain", "hint": "it covers a window", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "There's no place like home.", "options": ["Dorothy", "Glinda", "The Wizard"], "answer": 0, "note": "Dorothy says it at the end, and it is the film's message."},
+      {"quote": "I'll get you, my pretty, and your little dog too!", "options": ["The Wicked Witch of the West", "Glinda", "Aunt Em"], "answer": 0, "note": "The witch says it to Dorothy and Toto."},
+      {"quote": "Pay no attention to that man behind the curtain!", "options": ["The Wizard", "The Tin Man", "The Wicked Witch"], "answer": 0, "note": "The Wizard shouts it when Toto opens the curtain."}
+    ],
+    "quiz": [
+      {"q": "Where does Dorothy live at the start?", "options": ["Kansas", "Oz", "New York"], "answer": 0, "why": "She lives on a farm in Kansas with Aunt Em and Uncle Henry."},
+      {"q": "How does Dorothy get to Oz?", "options": ["A tornado carries her house", "A boat takes her", "A horse carries her"], "answer": 0, "why": "A tornado lifts the house with Dorothy and Toto inside."},
+      {"q": "What does the Scarecrow want?", "options": ["A brain", "A heart", "Courage"], "answer": 0, "why": "He thinks he has no brain, but he is the cleverest of the three."},
+      {"q": "What must Dorothy bring back to the Wizard?", "options": ["The witch's broomstick", "The ruby slippers", "A golden cap"], "answer": 0, "why": "He says he will help her if she brings the Wicked Witch's broomstick."},
+      {"q": "How does Dorothy finally get home?", "options": ["She clicks her ruby slippers", "She flies in a balloon", "The Wizard takes her"], "answer": 0, "why": "Glinda tells her that the slippers can take her home."}
+    ],
+    "roleplay": {
+      "title": "The Wizard's throne room",
+      "setting": "The Emerald City, a huge green room. A giant face floats in smoke above the throne.",
+      "roles": [
+        {"role": "Dorothy", "brief": "You want to go home. You are tired, you are a little angry, and you have come a very long way to ask for help."},
+        {"role": "The Wizard", "brief": "You speak in a big, slow voice and you hide behind smoke. You ask the same question three times."},
+        {"role": "The Scarecrow", "brief": "You want a brain. You ask for it politely, and you explain why you need it."}
+      ],
+      "challenge": "Play it twice: once with the Wizard terrifying, once with him obviously pretending. Which one is funnier?"
+    },
+    "quest": [
+      {"title": "Station 1 · The shoes", "task": "What colour are Dorothy's shoes, and who puts them on her feet?", "answer": "Ruby red; Glinda", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find three words for: a woman with magic, the part of you that thinks, and being brave when you are afraid.", "answer": "witch, brain, courage", "points": 10},
+      {"title": "Station 3 · A fourth friend", "task": "Invent a fourth friend for Dorothy. What is it made of, and what does it want? Act out the moment it joins the road.", "answer": "Any new character with a material and a wish", "points": 15},
+      {"title": "Station 4 · The road", "task": "Put these in order: the tornado, the Munchkins, the Emerald City, the witch's castle.", "answer": "tornado, Munchkins, Emerald City, witch's castle", "points": 10}
+    ]
+  },
+  {
+    "id": "et",
+    "title": "E.T. the Extra-Terrestrial",
+    "year": 1982,
+    "level": "A2",
+    "runtime": 115,
+    "genres": ["sci-fi", "family"],
+    "director": "Steven Spielberg",
+    "country": "USA",
+    "age": "all",
+    "mood": "cool",
+    "logline": "A boy finds a small alien in his garden shed and hides him in his bedroom, while the two of them try to find a way home.",
+    "why": "The story is told through faces and hands, and the children speak in short, everyday sentences. The alien repeats the same few words, so a beginner hears the same language twice and understands a little more each time.",
+    "language": "American English with fast family talk; the alien speaks in a slow, strange voice with very few words.",
+    "content": "Government agents with cars and guns chase the children, E.T. becomes very ill and seems to die, and there is a sad goodbye. Frightening for small children, fine for teenagers.",
+    "scenes": [
+      {
+        "at": "00:14:30",
+        "title": "Something in the shed",
+        "task": "What does Elliott see in the shed, and what does he take out with him?",
+        "type": "observe"
+      },
+      {
+        "at": "00:33:00",
+        "title": "E.T. learns to speak",
+        "task": "Write down the first three words E.T. says. Who teaches him?",
+        "type": "listen"
+      },
+      {
+        "at": "00:56:40",
+        "title": "Halloween night",
+        "task": "Gertie is a cowgirl. What are the other children wearing, and who stays at home?",
+        "type": "observe"
+      },
+      {
+        "at": "01:22:10",
+        "title": "The bikes fly",
+        "task": "The children are stopped by cars and men. Predict: how will they get past them?",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "alien", "def": "a person or thing from space", "ex": "E.T. is a small alien."},
+      {"w": "shed", "def": "a small building in a garden", "ex": "Elliott finds E.T. in the shed."},
+      {"w": "phone", "def": "to call someone on a telephone", "ex": "E.T. wants to phone home."},
+      {"w": "sick", "def": "not healthy or well", "ex": "E.T. gets very sick."},
+      {"w": "secret", "def": "a thing you do not tell anyone", "ex": "The children keep E.T. a secret."},
+      {"w": "space", "def": "the place beyond the sky", "ex": "E.T. comes from space."}
+    ],
+    "questions": [
+      "Elliott finds an alien in the garden. What would you do first: tell your parents or hide him?",
+      "Why do the children keep E.T. a secret from their mother?",
+      "In your country, what do children do if they find a hurt animal?",
+      "Would you like a friend from space? What would you show them in your town?",
+      "Gertie is small, and she is not afraid of E.T. Why not?",
+      "E.T. wants to phone home. What does 'home' mean for you?",
+      "E.T. says very few words. How does he show his feelings without them?",
+      "What would you say to E.T. when he leaves?"
+    ],
+    "gaps": [
+      {"line": "E.T. ___ home.", "answer": "phone", "hint": "to call someone", "adapted": false},
+      {"line": "Be ___, Elliott.", "answer": "good", "hint": "kind and well-behaved", "adapted": false},
+      {"line": "I'll be right ___.", "answer": "here", "hint": "in this place", "adapted": false},
+      {"line": "I'm ___ him.", "answer": "keeping", "hint": "not giving him away", "adapted": false},
+      {"line": "Is he a boy or a ___?", "answer": "girl", "hint": "not a boy", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "E.T. phone home.", "options": ["E.T.", "Elliott", "Gertie"], "answer": 0, "note": "His most famous line: he wants to call his people and go home."},
+      {"quote": "I'll be right here.", "options": ["E.T.", "Mary", "Keys"], "answer": 0, "note": "His last words, with a finger on Elliott's head: he will stay in Elliott's memory."},
+      {"quote": "I'm keeping him.", "options": ["Elliott", "Michael", "Gertie"], "answer": 0, "note": "Elliott says it the moment his brother sees the alien."}
+    ],
+    "quiz": [
+      {"q": "Where does Elliott find E.T.?", "options": ["In the garden shed", "In the forest", "At school"], "answer": 0, "why": "He follows a noise outside and finds the alien hiding in the tool shed."},
+      {"q": "What does E.T. want to do?", "options": ["Phone home", "Find food", "Sleep for a year"], "answer": 0, "why": "He builds a machine to call his people."},
+      {"q": "What does E.T. drink that makes him strange?", "options": ["Beer from the fridge", "Milk", "Orange juice"], "answer": 0, "why": "He finds a beer in the fridge, and Elliott feels the effect at school."},
+      {"q": "Why does Elliott get ill?", "options": ["He feels everything E.T. feels", "He eats too much", "He catches a cold"], "answer": 0, "why": "The two are connected, so when E.T. becomes ill, Elliott does too."},
+      {"q": "How do the children escape from the agents?", "options": ["The bikes fly", "They hide in a car", "They run through a tunnel"], "answer": 0, "why": "E.T. lifts the bicycles into the air and over the roadblock."}
+    ],
+    "roleplay": {
+      "title": "The secret in the bedroom",
+      "setting": "Elliott's bedroom, after school. Gertie has just seen E.T., and Michael has just walked in.",
+      "roles": [
+        {"role": "Elliott", "brief": "You want to keep E.T. safe. You must make the others promise to say nothing, and you are not sure you can trust them."},
+        {"role": "Gertie", "brief": "You are small, curious and terrible at keeping secrets. You ask the questions that nobody wants to answer."},
+        {"role": "Michael", "brief": "You are the big brother. You think this is dangerous, but you really want to see the alien."}
+      ],
+      "challenge": "Play it twice: once as a family argument, once as a spy film. Which one is easier to keep secret in?"
+    },
+    "quest": [
+      {"title": "Station 1 · The wish", "task": "What does E.T. want more than anything? Write the three words he says.", "answer": "phone home", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find three words for: a small building in a garden, a thing you do not tell, and a person from another planet.", "answer": "shed, secret, alien", "points": 10},
+      {"title": "Station 3 · A message home", "task": "Write a short message from E.T. to his family on the back of a school book. Five words or fewer.", "answer": "Any short message with a clear meaning", "points": 15},
+      {"title": "Station 4 · The order", "task": "Put these in order: the shed, the Halloween costumes, the flying bikes, the goodbye.", "answer": "shed, Halloween, flying bikes, goodbye", "points": 10}
+    ]
+  },
+  {
+    "id": "despicable-me",
+    "title": "Despicable Me",
+    "year": 2010,
+    "level": "A2",
+    "runtime": 95,
+    "genres": ["animation", "comedy", "family"],
+    "director": "Pierre Coffin & Chris Renaud",
+    "country": "USA",
+    "age": "all",
+    "mood": "neon",
+    "logline": "A supervillain who wants to steal the moon adopts three little girls to help him, and finds that being a dad is harder than being bad.",
+    "why": "The plot is simple and visual: one plan, three girls, one big rocket. The minions speak almost no real language, so the story has to be understood through action, which is exactly what an A2 listener needs.",
+    "language": "American English with quick comic voices; Gru has a heavy accent, the girls speak very clearly, and the minions speak a made-up language.",
+    "content": "Cartoon violence: explosions, a shrink ray, and a girl in mild danger near the end. An orphanage, a bad neighbour and a lot of shouting are all played for laughs.",
+    "scenes": [
+      {
+        "at": "00:10:00",
+        "title": "The plan",
+        "task": "Listen to Gru explain his plan to the minions. What does he want to steal, and why?",
+        "type": "listen"
+      },
+      {
+        "at": "00:25:00",
+        "title": "Three girls",
+        "task": "Watch the girls at the orphanage. What does each one want, and who is the bravest?",
+        "type": "observe"
+      },
+      {
+        "at": "00:48:00",
+        "title": "The shrink ray",
+        "task": "Vector has the shrink ray. Predict: how will Gru get it back?",
+        "type": "predict"
+      },
+      {
+        "at": "01:15:00",
+        "title": "The recital",
+        "task": "Gru is late for the girls' show. What does he do when he arrives, and how do the girls react?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "villain", "def": "a bad person in a story", "ex": "Gru is a villain with a big plan."},
+      {"w": "adopt", "def": "to take a child into your family", "ex": "Gru adopts three girls."},
+      {"w": "shrink", "def": "to make something smaller", "ex": "The ray can shrink a building."},
+      {"w": "moon", "def": "the big light in the night sky", "ex": "Gru wants to steal the moon."},
+      {"w": "proud", "def": "feeling good about what you did", "ex": "Gru is proud of the girls."},
+      {"w": "plan", "def": "a list of things you will do", "ex": "Gru's plan has many steps."}
+    ],
+    "questions": [
+      "Gru wants to steal the moon. Is he a bad man, or a man who needs a family?",
+      "Which girl is most like you: Margo, Edith or Agnes? Why?",
+      "Would you like to live in Gru's house? What would you change about it?",
+      "In your country, what do people say about a man who lives alone?",
+      "The minions love Gru and never leave. Why do they stay?",
+      "Agnes wants a unicorn. What did you want most when you were small?",
+      "Which is funnier: the minions or Vector? Show one moment to the class.",
+      "What would you say to Gru the first time the girls call him 'Dad'?"
+    ],
+    "gaps": [
+      {"line": "It's so ___!", "answer": "fluffy", "hint": "soft, like a toy", "adapted": false},
+      {"line": "Three little kittens, they lost their ___.", "answer": "mittens", "hint": "warm clothes for your hands", "adapted": false},
+      {"line": "I'm going to steal the ___.", "answer": "moon", "hint": "the big light at night", "adapted": true},
+      {"line": "When the world needed a hero, they got a ___.", "answer": "villain", "hint": "a bad person in a story", "adapted": true},
+      {"line": "Will you come to our ___?", "answer": "show", "hint": "a performance for people", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "It's so fluffy!", "options": ["Agnes", "Edith", "Margo"], "answer": 0, "note": "Agnes says it about her toy unicorn, and it becomes the film's best-loved line."},
+      {"quote": "Banana!", "options": ["A minion", "Vector", "Gru"], "answer": 0, "note": "The minions shout it whenever they are happy."},
+      {"quote": "I commit crimes with both direction and magnitude.", "options": ["Vector", "Gru", "Dr. Nefario"], "answer": 0, "note": "Vector introduces himself this way, and usually adds 'Oh, yeah!'"}
+    ],
+    "quiz": [
+      {"q": "What does Gru want to steal?", "options": ["The moon", "A famous painting", "The Eiffel Tower"], "answer": 0, "why": "He wants to shrink the moon and take it."},
+      {"q": "Why does Gru adopt the girls?", "options": ["To get into Vector's house", "Because he is lonely", "Because the orphanage asks him"], "answer": 0, "why": "The girls sell cookies, and that gets him to Vector's door."},
+      {"q": "Who takes the shrink ray first?", "options": ["Vector", "Gru", "Dr. Nefario"], "answer": 0, "why": "Vector steals it from Gru at the start of the film."},
+      {"q": "What do the minions love?", "options": ["Bananas", "Cookies", "Ice cream"], "answer": 0, "why": "They shout 'Banana!' and sing about them."},
+      {"q": "What does Gru do at the end?", "options": ["He saves the girls and becomes their father", "He flies away with the moon", "He goes back to being a villain"], "answer": 0, "why": "He chooses the girls, and the moon goes back into the sky."}
+    ],
+    "roleplay": {
+      "title": "The bedtime story",
+      "setting": "The girls' bedroom, night. Gru is reading 'Three Little Kittens' for the third time.",
+      "roles": [
+        {"role": "Gru", "brief": "You are a villain, and you do not know how to read to children. You do all the animal voices badly and you want to leave."},
+        {"role": "Agnes", "brief": "You want one more story, and you know exactly how to get it. You are small, sweet and very difficult to refuse."},
+        {"role": "Edith", "brief": "You are not sleepy. You ask difficult questions about the kittens and about Gru's job."}
+      ],
+      "challenge": "Play it twice: once with Gru very scary, once with Gru very soft. Which one makes the girls sleep?"
+    },
+    "quest": [
+      {"title": "Station 1 · The three girls", "task": "Write the names of the three girls, from oldest to youngest.", "answer": "Margo, Edith, Agnes", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find three words for: a bad person in a story, to take a child into your family, and to make something smaller.", "answer": "villain, adopt, shrink", "points": 10},
+      {"title": "Station 3 · A new minion", "task": "Invent a minion. Give it a name, a favourite food and one job in Gru's laboratory.", "answer": "Any named minion with a food and a job", "points": 15},
+      {"title": "Station 4 · The plan", "task": "Put these in order: the shrink ray is stolen, Gru adopts the girls, the girls' show, the moon comes back.", "answer": "ray stolen, adoption, show, moon returns", "points": 10}
+    ]
+  },
+  {
+    "id": "frozen",
+    "title": "Frozen",
+    "year": 2013,
+    "level": "A2",
+    "runtime": 102,
+    "genres": ["animation", "musical", "family"],
+    "director": "Chris Buck & Jennifer Lee",
+    "country": "USA",
+    "age": "all",
+    "mood": "ice",
+    "logline": "Two sisters grow up apart because one of them has a secret power over ice, and on coronation day the secret gets out.",
+    "why": "The songs repeat the key words again and again, and the story turns on three simple ideas: two sisters, fear, and a closed door. The dialogue is short and modern, and the pictures carry each new place.",
+    "language": "American English, clear and quick; the songs are slower and repeat a lot, which makes them useful for listening practice.",
+    "content": "The sisters' parents die at sea, a snow monster chases the heroes, and one character slowly freezes. Sad and a little frightening, but there is no blood.",
+    "scenes": [
+      {
+        "at": "00:14:40",
+        "title": "Two sisters, one door",
+        "task": "Watch the girls at the bedroom door. Why does Elsa close it, and what does Anna do?",
+        "type": "observe"
+      },
+      {
+        "at": "00:40:20",
+        "title": "The coronation",
+        "task": "Listen to Anna and Hans. How many questions does Anna ask him in one minute?",
+        "type": "listen"
+      },
+      {
+        "at": "01:05:00",
+        "title": "Hans shows his plan",
+        "task": "Hans stops being nice. What does he really want, and how does Anna react?",
+        "type": "think"
+      },
+      {
+        "at": "01:31:30",
+        "title": "An act of true love",
+        "task": "Pause before Anna runs to Elsa. Predict: who will save Anna, and how?",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "ice", "def": "hard water that is very cold", "ex": "Elsa can turn water into ice."},
+      {"w": "snowman", "def": "a person made of snow", "ex": "Olaf is a friendly snowman."},
+      {"w": "secret", "def": "a thing you do not tell anyone", "ex": "Elsa keeps her power a secret."},
+      {"w": "fear", "def": "the feeling when you are afraid", "ex": "Elsa's fear makes her powers stronger."},
+      {"w": "hug", "def": "to hold someone with your arms", "ex": "Anna wants to hug her sister."},
+      {"w": "sister", "def": "the girl in your family", "ex": "Anna and Elsa are sisters."}
+    ],
+    "questions": [
+      "Elsa has a secret. Why is it so hard to tell Anna the truth?",
+      "Would you like to build a snowman with Olaf? What would you ask him?",
+      "In your country, do families talk about their feelings, or keep them inside?",
+      "Anna follows her sister alone. Is that brave or silly?",
+      "Which song stays in your head: 'Let It Go' or another one? Sing one line.",
+      "Hans says 'I love you', but he does not. How can you see that he is lying?",
+      "Which character changes the most: Elsa, Anna or Kristoff?",
+      "What would you say to Elsa at the coronation, if you were Anna?"
+    ],
+    "gaps": [
+      {"line": "Let it ___!", "answer": "go", "hint": "the opposite of stay", "adapted": false},
+      {"line": "Do you want to build a ___?", "answer": "snowman", "hint": "a person made of snow", "adapted": false},
+      {"line": "The cold never ___ me anyway.", "answer": "bothered", "hint": "made me worry", "adapted": false},
+      {"line": "Some people are worth ___ for.", "answer": "melting", "hint": "turning from ice to water", "adapted": false},
+      {"line": "Love is an open ___.", "answer": "door", "hint": "you open it to go in", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "Let it go!", "options": ["Elsa", "Anna", "Olaf"], "answer": 0, "note": "Elsa sings it when she stops hiding her power."},
+      {"quote": "Some people are worth melting for.", "options": ["Olaf", "Kristoff", "Hans"], "answer": 0, "note": "Olaf says it while he melts next to the fire."},
+      {"quote": "Do you want to build a snowman?", "options": ["Young Anna", "Elsa", "Kristoff"], "answer": 0, "note": "Anna sings it at Elsa's door, year after year."}
+    ],
+    "quiz": [
+      {"q": "What is Elsa's power?", "options": ["Ice and snow", "Fire", "Flight"], "answer": 0, "why": "She can make ice and snow with her hands."},
+      {"q": "Why does Elsa run away after the coronation?", "options": ["Everyone sees her power", "She is angry with Anna", "She wants to find Olaf"], "answer": 0, "why": "Her magic turns the water to ice in front of everyone, and she runs away in fear."},
+      {"q": "Who is Kristoff's best friend?", "options": ["Sven the reindeer", "Olaf", "Hans"], "answer": 0, "why": "Sven goes everywhere with him."},
+      {"q": "Who is really the villain?", "options": ["Hans", "The Duke of Weselton", "Marshmallow"], "answer": 0, "why": "Hans only wants the throne, and he says so to Anna when she is weak."},
+      {"q": "What saves Anna at the end?", "options": ["An act of true love: she saves Elsa", "A kiss from Hans", "A magic spell from Olaf"], "answer": 0, "why": "Anna steps between Hans and Elsa, and that act of love saves her."}
+    ],
+    "roleplay": {
+      "title": "Behind the door",
+      "setting": "Outside Elsa's bedroom door in the castle. Anna is eight, Elsa is twelve, and their parents have just left.",
+      "roles": [
+        {"role": "Anna", "brief": "You want to play. You do not understand why the door is closed, and you ask the same question again and again."},
+        {"role": "Elsa", "brief": "You are afraid of your own hands. You must not open the door, and you cannot explain why."},
+        {"role": "The Queen", "brief": "You are the mother. You love both girls, you are scared, and you choose the easiest answer instead of the true one."}
+      ],
+      "challenge": "Play it twice: once with Elsa silent, once with Elsa trying to explain. Which one is sadder?"
+    },
+    "quest": [
+      {"title": "Station 1 · The kingdom", "task": "What is the name of the kingdom, and what is the name of the snowman?", "answer": "Arendelle; Olaf", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find three words for: hard cold water, a thing you do not tell, and the feeling when you are afraid.", "answer": "ice, secret, fear", "points": 10},
+      {"title": "Station 3 · A new verse", "task": "Write one new verse for 'Do You Want to Build a Snowman?'. Three lines, from Anna's side of the door.", "answer": "Any three lines about waiting at the door", "points": 15},
+      {"title": "Station 4 · The order", "task": "Put these in order: the coronation, 'Let It Go', Olaf's song, Hans's betrayal.", "answer": "coronation, Let It Go, Olaf's song, Hans's betrayal", "points": 10}
+    ]
+  }
+]

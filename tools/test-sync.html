@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Reel Talk — sync self-test</title>
+<style>
+  body { background: #111; color: #eee; font: 14px/1.5 monospace; padding: 20px; }
+  iframe { width: 900px; height: 620px; border: 1px solid #333; display: block; margin-bottom: 16px; }
+  .pass { color: #6f6; } .fail { color: #f66; }
+  pre { white-space: pre-wrap; }
+</style>
+</head>
+<body>
+<h1>sync self-test</h1>
+<div id="frames"></div>
+<pre id="result">running…</pre>
+<script>
+  const out = [];
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  const room = 'T' + Math.random().toString(36).slice(2, 7).toUpperCase();
+
+  function frame(src) {
+    const f = document.createElement('iframe');
+    f.src = src;
+    document.getElementById('frames').appendChild(f);
+    return f;
+  }
+  const check = (name, ok, info) => out.push((ok ? 'PASS ' : 'FAIL ') + name + (info ? '  [' + info + ']' : ''));
+
+  async function waitFor(win, sel, ms) {
+    const t0 = Date.now();
+    while (Date.now() - t0 < (ms || 9000)) {
+      try { if (win.document && win.document.querySelector(sel)) return true; } catch (e) {}
+      await sleep(200);
+    }
+    return false;
+  }
+
+  async function main() {
+    const host = frame('../watch.html?room=' + room + '&host=1&relay=none#/w/inception');
+    const guest = frame('../watch.html?room=' + room + '&relay=none#/w/inception');
+    const H = host.contentWindow, G = guest.contentWindow;
+    await waitFor(H, '#btnPlay');
+    await waitFor(G, '#btnPlay');
+    await sleep(600);
+
+    const hd = H.document, gd = G.document;
+
+    check('host page booted', !!hd.querySelector('#btnPlay'));
+    check('guest page booted', !!gd.querySelector('#btnPlay'));
+    check('guest is not host', gd.querySelector('#roleTag').textContent.indexOf('guest') === 0,
+      gd.querySelector('#roleTag').textContent);
+
+    // 1. host presses play
+    hd.querySelector('#btnPlay').click();
+    await sleep(2200);
+    const hTime = hd.querySelector('#tc').textContent;
+    const gTime = gd.querySelector('#tc').textContent;
+    const sec = (t) => { const p = t.split(':').map(Number); return p.length === 3 ? p[0] * 3600 + p[1] * 60 + p[2] : p[0] * 60 + p[1]; };
+    check('host clock running', sec(hTime) >= 1, hTime);
+    check('guest follows host clock', Math.abs(sec(gTime) - sec(hTime)) <= 2, hTime + ' vs ' + gTime);
+
+    // 2. host pauses
+    hd.querySelector('#btnPlay').click();
+    await sleep(900);
+    const paused1 = hd.querySelector('#tc').textContent;
+    await sleep(1200);
+    const paused2 = hd.querySelector('#tc').textContent;
+    check('host pause freezes clock', paused1 === paused2, paused1 + ' / ' + paused2);
+    const gPaused = gd.querySelector('#tc').textContent;
+    check('guest also frozen', Math.abs(sec(gPaused) - sec(paused2)) <= 2, gPaused + ' vs ' + paused2);
+
+    // 3. host jumps to a cue
+    hd.querySelectorAll('.cue-mini')[1].click();
+    await sleep(1200);
+    const jumpH = hd.querySelector('#tc').textContent;
+    const jumpG = gd.querySelector('#tc').textContent;
+    check('jump moves host', sec(jumpH) > 60, jumpH);
+    check('jump reaches guest', Math.abs(sec(jumpG) - sec(jumpH)) <= 2, jumpH + ' vs ' + jumpG);
+
+    // 4. capture a moment -> chat on both
+    hd.querySelector('#btnCapture').click();
+    await sleep(900);
+    const chatG = gd.querySelector('#chatLog').textContent;
+    check('captured moment reaches guest chat', chatG.indexOf('⏱') >= 0, chatG.slice(0, 60));
+
+    // 5. guest cannot drive the clock
+    const before = gd.querySelector('#tc').textContent;
+    gd.querySelector('#btnFwd').click();
+    await sleep(600);
+    check('guest controls are inert', gd.querySelector('#tc').textContent === before);
+
+    // 6. film tasks: correct answers raise the score
+    const tasks = frame('../film.html#/f/home-alone/tasks');
+    await waitFor(tasks.contentWindow, '#scoreNum');
+    await sleep(400);
+    const td = tasks.contentWindow.document;
+    const answers = ['alone', 'disappear', 'filthy', 'defend', 'woof'];
+    td.querySelectorAll('input[data-gap]').forEach((inp, i) => {
+      inp.value = answers[i];
+      inp.dispatchEvent(new Event('input', { bubbles: true }));
+      inp.dispatchEvent(new Event('blur'));
+    });
+    await sleep(500);
+    const score = td.querySelector('#scoreNum').textContent;
+    check('gap-fill scores correct answers', score === '5/22', score);
+
+    // 7. quiz click marks one answer
+    td.querySelector('#quiz .opt').click();
+    await sleep(300);
+    check('quiz option registers', td.querySelector('#scoreNum').textContent === '6/22', td.querySelector('#scoreNum').textContent);
+
+    // 7b. extra drills + rating
+    check('vocabulary drill has six pairs', td.querySelectorAll('#matchWords .match-item').length === 6);
+    check('scene order drill has four chips', td.querySelectorAll('#orderChips .order-chip').length === 4);
+    check('two scramble lines', td.querySelectorAll('.scramble').length === 2);
+    const wordBtn = td.querySelector('#matchWords [data-w="0"]');
+    const defBtn = td.querySelector('#matchDefs [data-d="0"]');
+    if (wordBtn && defBtn) {
+      wordBtn.click(); defBtn.click();
+      await sleep(400);
+      check('matching a pair scores it', td.querySelector('#scoreNum').textContent === '7/22', td.querySelector('#scoreNum').textContent);
+    }
+    const star = td.querySelector('#rateBox [data-star="4"]');
+    if (star) {
+      star.click();
+      await sleep(900);
+      check('voting saves a club rating', !!td.querySelector('#rateBox .rate-mine'), (td.querySelector('#rateBox .rate-meta') || {}).textContent || 'no meta');
+    }
+
+    // 8. live poll
+    const askBtn = hd.querySelector('#askList [data-poll]');
+    check('host has poll launchers', !!askBtn);
+    if (askBtn) {
+      askBtn.click();
+      await sleep(800);
+      const bannerG = gd.querySelector('#pollBanner');
+      check('poll appears for the guest', !bannerG.hidden && bannerG.textContent.length > 10, bannerG.textContent.slice(0, 40).replace(/\s+/g, ' '));
+      const opt = gd.querySelectorAll('#pollBox .poll-opt')[1];
+      check('guest sees poll options', !!opt && gd.querySelectorAll('#pollBox .poll-opt').length === 3);
+      if (opt) { opt.click(); await sleep(1000); }
+      const hostBanner = hd.querySelector('#pollBanner').textContent;
+      check('guest vote reaches the host', hostBanner.indexOf('1 vote') >= 0, hostBanner.slice(0, 50).replace(/\s+/g, ' '));
+      const revBtn = hd.querySelector('#pollBox [data-reveal]');
+      if (revBtn) { revBtn.click(); await sleep(700); }
+      check('reveal marks the right answer for the guest', gd.querySelectorAll('#pollBanner .poll-row.is-right').length === 1,
+        String(gd.querySelectorAll('#pollBanner .poll-row.is-right').length));
+      const promptBtn = hd.querySelector('#askList [data-prompt]');
+      if (promptBtn) { promptBtn.click(); await sleep(600); }
+      const pp = gd.querySelector('#promptPop');
+      check('discussion prompt shows on the guest screen', pp && !pp.hidden && pp.textContent.length > 10, pp ? pp.textContent.slice(0, 30) : 'none');
+    }
+
+    // 8b. 20-minute taster
+    hd.querySelector('#btnTaster').click();
+    await sleep(400);
+    const goBtn = document.querySelector('.modal-backdrop #tasterGo') || hd.querySelector('#tasterGo');
+    check('taster dialog opens', !!goBtn);
+    if (goBtn) {
+      goBtn.click();
+      await sleep(1400);
+      const tTime = hd.querySelector('#tc').textContent;
+      const tSec = (() => { const p = tTime.split(':').map(Number); return p.length === 3 ? p[0] * 3600 + p[1] * 60 + p[2] : p[0] * 60 + p[1]; })();
+      check('taster jumps to the first clip', tSec > 600, tTime);
+      check('taster starts playback', hd.querySelector('#playIcon').innerHTML.indexOf('rect') >= 0, hd.querySelector('#playIcon').innerHTML.slice(0, 20));
+    }
+
+    // 8c. external page source
+    localStorage.setItem('rt.source.whiplash', JSON.stringify({ type: 'page', url: 'https://example.com/film', label: 'External player' }));
+    const pageRoom = frame('../watch.html?room=PAGE1&host=1&relay=none#/w/whiplash');
+    await waitFor(pageRoom.contentWindow, '#stageEmpty a.btn-primary');
+    const pageLink = pageRoom.contentWindow.document.querySelector('#stageEmpty a.btn-primary');
+    check('external page link opens from the room', !!pageLink && pageLink.href.indexOf('example.com') >= 0, pageLink ? pageLink.href : 'none');
+
+    // 9. quest auto-scoring
+    const board = frame('../quest.html?relay=none#/build/home-alone');
+    await waitFor(board.contentWindow, '.scoreboard');
+    await sleep(600);
+    const bw = board.contentWindow;
+    const room2 = bw.RT.questRoom('home-alone');
+    const station = frame('../quest.html?room=' + room2 + '&relay=none#/s/home-alone/0');
+    await waitFor(station.contentWindow, '#stInput');
+    await sleep(900);
+    const sd = station.contentWindow.document;
+    sd.querySelector('#stInput').value = '15 travel, 14 are counted';
+    sd.querySelector('#stForm').dispatchEvent(new Event('submit', { cancelable: true, bubbles: true }));
+    await sleep(600);
+    const teamBtn = sd.querySelector('#teamBtns button');
+    check('station asks which team', !!teamBtn, teamBtn ? teamBtn.textContent.trim() : 'none');
+    if (teamBtn) {
+      teamBtn.click();
+      await sleep(1400);
+    }
+    const boardDoc = bw.document;
+    const sb = boardDoc.querySelector('.scoreboard');
+    check('scoreboard still mounted', !!sb, boardDoc.body.innerHTML.slice(0, 140).replace(/\s+/g, ' '));
+    const boardText = sb ? sb.textContent.replace(/\s+/g, ' ') : '';
+    check('station score lands on the board', /Team A 10/.test(boardText) || boardText.indexOf('10') >= 0, boardText.slice(0, 90));
+
+    const fails = out.filter((l) => l.startsWith('FAIL')).length;
+    document.getElementById('result').textContent = out.join('\n') + '\n\n' + (fails ? fails + ' FAILED' : 'ALL PASSED');
+    document.title = fails ? 'FAIL ' + fails : 'PASS';
+  }
+
+  main().catch((e) => {
+    document.getElementById('result').textContent = 'ERROR ' + e.message + '\n' + e.stack;
+    document.title = 'ERROR';
+  });
+</script>
+</body>
+</html>

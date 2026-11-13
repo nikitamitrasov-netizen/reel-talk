@@ -1,0 +1,752 @@
+[
+  {
+    "id": "shawshank",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "level": "B2",
+    "runtime": 142,
+    "genres": ["drama", "crime"],
+    "director": "Frank Darabont",
+    "country": "USA",
+    "age": "15+",
+    "mood": "sepia",
+    "logline": "A banker convicted of murder in 1947 Maine builds a quiet life inside Shawshank prison, and a friendship with the man who can get things.",
+    "why": "Red's narration is slow and reflective, so the group can follow the story even when a sentence covers five years of prison life. The financial and legal vocabulary is repeated in context, and the film rewards the kind of interpretation B2 learners are ready for.",
+    "language": "Mostly calm American narration, with period prison slang, a few Southern accents and some fast, overlapping arguments in the yard.",
+    "content": "Prison violence and a non-graphic reference to sexual assault by other inmates; one suicide and one killing; strong language. Dark, but never explicit.",
+    "scenes": [
+      {"at": "00:05:40", "title": "The trial", "task": "Listen to how the prosecutor describes the night of the murders. What does he leave out, and why does the film begin with his version?", "type": "think"},
+      {"at": "00:34:50", "title": "Beer on the roof", "task": "Pause after Andy talks to the head guard. What exactly does he offer, and what does he ask for in return? Note the word he uses for the money.", "type": "listen"},
+      {"at": "01:04:00", "title": "Mozart in the yard", "task": "Andy plays music over the loudspeakers. What does Red say the music does to the men, and why is the punishment so severe?", "type": "think"},
+      {"at": "01:50:00", "title": "The longest night", "task": "It is raining and Andy is not in his cell. Predict how he leaves the prison, then check your guess when the film explains it.", "type": "predict"}
+    ],
+    "words": [
+      {"w": "a life sentence", "def": "a prison punishment that lasts until you die", "ex": "Andy is given two life sentences in one afternoon."},
+      {"w": "to frame someone", "def": "to make an innocent person look guilty", "ex": "Andy is sure that somebody framed him for the murders."},
+      {"w": "to smuggle something in", "def": "to bring something into a place secretly", "ex": "Red can smuggle almost anything into the prison."},
+      {"w": "to keep a low profile", "def": "to avoid attracting attention", "ex": "Andy keeps a low profile for his first month inside."},
+      {"w": "on parole", "def": "free from prison early, under conditions", "ex": "After forty years, Red is finally let out on parole."},
+      {"w": "to hold on to hope", "def": "to keep believing that things can get better", "ex": "Red tells Andy that hope is a dangerous thing to hold on to."}
+    ],
+    "questions": [
+      "The title promises redemption — being saved or forgiven. Who is redeemed in this film, and what are they saved from?",
+      "Whose version of that night in 1947 do you trust: Andy's, the prosecutor's, or the one we hear much later? Why does the film start in a courtroom?",
+      "Red calls himself the man who can get things. Is that power, or just usefulness? What is the difference inside a prison?",
+      "Red warns Andy that hope is dangerous. In this film, is hope a strength, or a kind of disobedience?",
+      "Why does the film give so much time to Brooks after he leaves prison? What is it saying about institutions — and does your country's prison system aim to punish or to reform?",
+      "Is Andy a hero or a survivor? Choose one scene that proves your answer and be ready to defend it.",
+      "Red describes terrible things in a calm, almost poetic voice. Why does he talk like that, and what does his calm do to us as listeners?",
+      "Which line would you say to a friend who is going through a long, hopeless year? Would you really say it out loud?"
+    ],
+    "gaps": [
+      {"line": "Hope is a good thing, maybe the best of things, and no good thing ever ___.", "answer": "dies", "hint": "stops living", "adapted": false},
+      {"line": "Get busy living, or get busy ___.", "answer": "dying", "hint": "the opposite of living", "adapted": false},
+      {"line": "These walls are funny. First you hate them, then you get ___ to them.", "answer": "used", "hint": "familiar with something", "adapted": true},
+      {"line": "I had to come to prison to be a ___.", "answer": "crook", "hint": "a criminal", "adapted": false},
+      {"line": "I find I'm so excited I can barely sit still or hold a ___ in my head.", "answer": "thought", "hint": "an idea", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "Hope is a good thing, maybe the best of things.", "options": ["Red", "Andy", "Warden Norton"], "answer": 0, "note": "Red writes it in his last letter — the man who spent years warning Andy against hope."},
+      {"quote": "Get busy living, or get busy dying.", "options": ["Andy", "Red", "Tommy"], "answer": 0, "note": "Andy says it in the yard, when Red admits that he is afraid of the world outside."},
+      {"quote": "Salvation lies within.", "options": ["Warden Norton", "Andy", "Brooks"], "answer": 0, "note": "The Warden's motto, painted on his wall — while a very different salvation waits inside Andy's cell."}
+    ],
+    "quiz": [
+      {"q": "Why is Andy sent to prison?", "options": ["He murdered his wife and her lover", "He robbed a bank", "He refused to fight in the war"], "answer": 0, "why": "He is convicted of the murders in 1947, although he says he is innocent."},
+      {"q": "What does Andy ask Red to get for him first?", "options": ["A rock hammer", "A poster", "A harmonica"], "answer": 0, "why": "A small rock hammer, which Red thinks would take a lifetime to dig with."},
+      {"q": "What job does Andy end up doing for the Warden?", "options": ["Teaching the guards to read", "Keeping the Warden's financial records", "Working in the laundry"], "answer": 1, "why": "He creates a false identity and moves the Warden's money through it."},
+      {"q": "How long does Andy work on his escape?", "options": ["About nineteen years", "Five years", "Thirty years"], "answer": 0, "why": "He digs a little every night for nineteen years."},
+      {"q": "Where does Andy ask Red to meet him one day?", "options": ["Zihuatanejo, Mexico", "Buxton, Maine", "Boston"], "answer": 0, "why": "He leaves money and a bus ticket under a black rock at the oak tree, and hopes Red will follow him south."}
+    ],
+    "roleplay": {
+      "title": "The parole board",
+      "setting": "A small room with three chairs, a table and a file. Ten years into a life sentence, a prisoner is applying for parole.",
+      "roles": [
+        {"role": "The prisoner", "brief": "You have said the same words at every hearing. This time you want to be believed — but you must not ask for pity."},
+        {"role": "Board member A", "brief": "You have read the file and you think he is still dangerous. Ask about the crime, then ask what has changed since."},
+        {"role": "Board member B", "brief": "You are tired of the system and you want to say yes to somebody today. Ask about work, housing and family."}
+      ],
+      "challenge": "The prisoner has two minutes to answer, then the board votes. Play it again with the prisoner refusing to answer one question and see how the room changes."
+    },
+    "quest": [
+      {"title": "Station 1 · The hidden sentence", "task": "Find the speech where Red says a man will do anything to stay inside. Then write down how many years Brooks spent in prison.", "answer": "Fifty years", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find a punishment that lasts until death, a verb meaning to bring something in secretly, and a word for a criminal.", "answer": "life sentence, smuggle, crook", "points": 10},
+      {"title": "Station 3 · The letter", "task": "Write the first five lines of Red's letter from Mexico, using two words from today's list. Read it aloud the way Red would.", "answer": "Any five lines with two target words", "points": 15},
+      {"title": "Station 4 · Numbers and order", "task": "Put these in order: Brooks leaves prison, Andy arrives, Tommy arrives, Red is paroled.", "answer": "Andy arrives, Brooks leaves, Tommy arrives, Red is paroled", "points": 10}
+    ]
+  },
+  {
+    "id": "kings-speech",
+    "title": "The King's Speech",
+    "year": 2010,
+    "level": "B2",
+    "runtime": 118,
+    "genres": ["drama", "historical"],
+    "director": "Tom Hooper",
+    "country": "UK",
+    "age": "12+",
+    "mood": "ice",
+    "logline": "A prince who cannot finish a sentence, an Australian therapist with no qualifications, and a country that needs its next king to speak.",
+    "why": "The dialogue is stage-clear: two people in a room, slow exchanges and long pauses that carry meaning. The period setting supplies strong, concrete vocabulary while the subject stays personal and emotional.",
+    "language": "Upper-class British English of the 1930s, plus broad Australian English from Lionel. The speeches are slow and formal; the arguments are fast and sharp.",
+    "content": "One long burst of strong language during a therapy session, where swearing is the treatment; tense family scenes; no violence.",
+    "scenes": [
+      {"at": "00:03:40", "title": "The silence of Wembley", "task": "Watch the crowd while Bertie speaks. What do their faces do that his voice cannot?", "type": "think"},
+      {"at": "00:14:30", "title": "The first session", "task": "Pause when Lionel asks Bertie to read aloud. What exactly does he ask for, and what does Bertie refuse to do?", "type": "listen"},
+      {"at": "01:18:00", "title": "I have a voice", "task": "Pause after the argument. Who won it, and what did each man actually want from the other?", "type": "think"},
+      {"at": "01:45:30", "title": "The broadcast", "task": "Listen once without subtitles. Note three words that carry the weight of the whole speech.", "type": "listen"}
+    ],
+    "words": [
+      {"w": "a stammer", "def": "a speech problem that makes words hard to say", "ex": "Bertie has had a stammer since he was a child."},
+      {"w": "to abdicate", "def": "to give up a throne officially", "ex": "David abdicates so that he can marry the woman he loves."},
+      {"w": "to be tongue-tied", "def": "unable to speak because of nerves", "ex": "Bertie is tongue-tied in every public room."},
+      {"w": "to put someone at ease", "def": "to make someone feel relaxed", "ex": "Lionel puts the Duke at ease by making him laugh."},
+      {"w": "to look down on someone", "def": "to think you are better than someone", "ex": "The court looks down on a therapist from Australia."},
+      {"w": "to rise to the occasion", "def": "to do well when a big moment comes", "ex": "On the night of the broadcast, Bertie rises to the occasion."}
+    ],
+    "questions": [
+      "Bertie can swear fluently but cannot say a sentence to a crowd. What does that tell us about stammering — is it a problem in the mouth or in the mind?",
+      "Lionel insists on calling the Duke 'Bertie' and refuses to bow. Why does that matter more than any exercise?",
+      "Why does the film open in 1925, with that terrible silence at Wembley?",
+      "Lionel has no medical qualifications and the doctors have plenty. Whose version of the problem do you trust, and why does the untrained man win?",
+      "Is Bertie a hero or a survivor? Is it braver to speak with a stammer or to let somebody else speak for you?",
+      "In the consulting room Bertie swears in one long, fluent stream. Why does the film let him swear like that, and what has changed by the end of the scene?",
+      "In your country, how are people who speak differently — a stammer, a strong accent, a dialect — treated in public life?",
+      "Which line would you borrow for a moment when you are nervous? Would you really say it out loud?"
+    ],
+    "gaps": [
+      {"line": "Because I have a ___!", "answer": "voice", "hint": "you use it to speak and sing", "adapted": false},
+      {"line": "In this grave hour, perhaps the most fateful in our ___, I send to every household...", "answer": "history", "hint": "everything that happened before now", "adapted": false},
+      {"line": "I'm not a king, I'm a ___ officer.", "answer": "naval", "hint": "relating to the navy", "adapted": true},
+      {"line": "To be, or not to ___.", "answer": "be", "hint": "Hamlet's question", "adapted": false},
+      {"line": "You don't need to be perfect. You just need to be ___.", "answer": "heard", "hint": "people are listening to you", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Because I have a voice!", "options": ["Bertie", "Lionel", "Elizabeth"], "answer": 0, "note": "The end of the argument — the first time he says what he is really afraid of."},
+      {"quote": "In this grave hour, perhaps the most fateful in our history...", "options": ["King George VI", "Winston Churchill", "Edward VIII"], "answer": 0, "note": "The opening of the broadcast of 3 September 1939."},
+      {"quote": "I'm not a king, I'm a naval officer.", "options": ["Bertie", "David", "Lionel"], "answer": 0, "note": "He says it about the life he wanted, before the crown chose him."}
+    ],
+    "quiz": [
+      {"q": "Why does Bertie need a speech therapist?", "options": ["He has a stammer", "He is losing his hearing", "He is not a native English speaker"], "answer": 0, "why": "He has stammered since childhood, and public speaking makes it worse."},
+      {"q": "Who is Lionel Logue?", "options": ["An Australian speech therapist with no formal qualifications", "A Harley Street doctor", "The King's private secretary"], "answer": 0, "why": "He treats speech as a matter of confidence rather than medicine, and it works."},
+      {"q": "Why does King Edward VIII give up the throne?", "options": ["He wants to marry Wallis Simpson, a divorced American", "He is too ill to rule", "He wants to fight in the war"], "answer": 0, "why": "The government and the Church will not accept the marriage, so he abdicates in 1936."},
+      {"q": "What shocks Bertie at his first meeting with Lionel?", "options": ["Lionel calls him Bertie and asks personal questions", "Lionel asks him to sing", "Lionel refuses to shake his hand"], "answer": 0, "why": "Lionel treats the Duke as an equal, which nobody else in his life does."},
+      {"q": "What is the final speech about?", "options": ["Britain going to war", "The abdication", "A Christmas message"], "answer": 0, "why": "It is the broadcast of 3 September 1939, when Britain declares war on Germany."}
+    ],
+    "roleplay": {
+      "title": "The first session",
+      "setting": "A shabby consulting room in Harley Street, 1926. A sofa, a chair, a gramophone and a window nobody has cleaned.",
+      "roles": [
+        {"role": "Bertie", "brief": "You are a duke and you do not need help. You came to please your wife. Answer every question as briefly as possible and keep your temper."},
+        {"role": "Lionel", "brief": "You are an Australian who has cured nobody famous. You need one page read aloud. Be warm, nosy and impossible to refuse."},
+        {"role": "The private secretary", "brief": "You are watching the clock. Your job is to end this meeting in five minutes and to make sure nothing embarrassing is said."}
+      ],
+      "challenge": "Lionel must get a whole page read aloud before the secretary ends the meeting. Then swap: play Bertie as the one who gives the orders."
+    },
+    "quest": [
+      {"title": "Station 1 · The first reading", "task": "Find the passage Lionel asks Bertie to read at their first meeting. Which writer wrote it?", "answer": "Shakespeare; 'To be, or not to be'", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find the word for a speech problem, the word for giving up a throne, and the word for someone outside the inner circle.", "answer": "stammer, abdicate, outsider", "points": 10},
+      {"title": "Station 3 · The broadcast", "task": "Record a sixty-second radio announcement for your school in the King's rhythm: short sentences, long pauses, no rushing. Play it to another team.", "answer": "Any clear sixty-second broadcast with pauses", "points": 15},
+      {"title": "Station 4 · The order of history", "task": "Put these in order: the abdication, the coronation, the Wembley speech, the war broadcast.", "answer": "Wembley, abdication, coronation, war broadcast", "points": 10}
+    ]
+  },
+  {
+    "id": "social-network",
+    "title": "The Social Network",
+    "year": 2010,
+    "level": "B2",
+    "runtime": 120,
+    "genres": ["drama", "historical"],
+    "director": "David Fincher",
+    "country": "USA",
+    "age": "15+",
+    "mood": "cool",
+    "logline": "A Harvard student builds a website in one angry night, then spends years in glass meeting rooms explaining who really invented it.",
+    "why": "The dialogue is fast and overlapping — the next skill after B1 — but the same story is told three times in the depositions, so nobody gets lost. Legal and business vocabulary is used in context and then argued about.",
+    "language": "Fast American English, overlapping arguments, sarcasm and tech slang; the twins speak in polite, formal sentences that hide the same anger.",
+    "content": "Constant fast argument, heavy drinking and party scenes, a brief sexual reference and some drug references; no violence.",
+    "scenes": [
+      {"at": "00:01:50", "title": "The bar", "task": "Listen to Erica. What is she actually accusing Mark of? Pause before he answers.", "type": "listen"},
+      {"at": "00:12:00", "title": "FaceMash", "task": "The site goes live and the whole campus votes. What does Mark do in the first hour, and what does he never do?", "type": "observe"},
+      {"at": "00:52:00", "title": "A billion dollars", "task": "Sean names a number that is 'cool'. What does the room do with it, and what does Mark do?", "type": "listen"},
+      {"at": "01:56:00", "title": "The friend request", "task": "Hold on the last shot. Why end on a computer screen and not on a face?", "type": "think"}
+    ],
+    "words": [
+      {"w": "to dump someone", "def": "to end a relationship with someone", "ex": "Erica dumps Mark in the first five minutes."},
+      {"w": "to sue someone", "def": "to take someone to court for money", "ex": "The twins sue Mark for stealing their idea."},
+      {"w": "to settle a case", "def": "to end a legal case by agreement", "ex": "Most of them settle quietly, with money and a signature."},
+      {"w": "to sell someone out", "def": "to betray someone for your own gain", "ex": "Eduardo believes Mark has sold him out."},
+      {"w": "to have a stake in a company", "def": "to own part of a business", "ex": "Eduardo thinks he still has a stake in the company."},
+      {"w": "to take credit for something", "def": "to let people believe you did it", "ex": "Everyone wants to take credit for the idea."}
+    ],
+    "questions": [
+      "The film is built out of two lawsuits. Whose version do you trust: Mark's, Eduardo's or the twins'? Why does the film refuse to give us a clean answer?",
+      "Mark builds a site about friendship and loses his only friend. Is that irony, tragedy, or just business?",
+      "Is Mark a hero, a villain, or neither? Name one moment that makes him sympathetic and one that makes him cold.",
+      "The film keeps cutting from 2003 to the glass rooms of the depositions. What does that editing do to the idea of truth?",
+      "Sean speaks in slogans: 'a billion dollars', 'we're going to live on the internet'. Why does he talk like that, and why does Mark listen?",
+      "Which line made you laugh and then feel uncomfortable? Say it exactly the way the character says it.",
+      "What is the film really saying about who gets credit for an idea? Think of an example from your own country, school or workplace.",
+      "The last shot is Mark alone, waiting to be accepted. Is that a happy ending? What would you have done with the last thirty seconds?"
+    ],
+    "gaps": [
+      {"line": "You are going to go through life thinking that girls don't like you because you're a ___.", "answer": "nerd", "hint": "a clever, unfashionable student", "adapted": false},
+      {"line": "A million dollars isn't cool. You know what's cool? A ___ dollars.", "answer": "billion", "hint": "a thousand million", "adapted": false},
+      {"line": "If you guys were the inventors of Facebook, you'd have ___ Facebook.", "answer": "invented", "hint": "made it for the first time", "adapted": false},
+      {"line": "We lived in farms, then we lived in cities, and now we're going to live on the ___.", "answer": "internet", "hint": "the network of computers", "adapted": false},
+      {"line": "You don't get to five hundred million friends without making a few ___.", "answer": "enemies", "hint": "people who hate you", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "If you guys were the inventors of Facebook, you'd have invented Facebook.", "options": ["Mark", "Eduardo", "Cameron Winklevoss"], "answer": 0, "note": "Mark's answer in a deposition: polite, brutal and impossible to argue with."},
+      {"quote": "A million dollars isn't cool. You know what's cool?", "options": ["Sean Parker", "Mark", "Eduardo"], "answer": 0, "note": "Sean's line at a restaurant table, and the moment this stops being a dorm-room project."},
+      {"quote": "You're going to go through life thinking that girls don't like you because you're a nerd.", "options": ["Erica", "Marilyn", "Christy"], "answer": 0, "note": "Erica's parting shot in the first scene; the film spends two hours proving and disproving it."}
+    ],
+    "quiz": [
+      {"q": "Where does Mark study when the film begins?", "options": ["Harvard", "Stanford", "MIT"], "answer": 0, "why": "He is a Harvard student in 2003, and the site begins in his dormitory."},
+      {"q": "What does Mark build in one night after the breakup?", "options": ["FaceMash", "Napster", "ConnectU"], "answer": 0, "why": "He puts photos of students side by side and lets people vote on them."},
+      {"q": "Who are the Winklevoss twins?", "options": ["Harvard rowers who want a website built", "Mark's roommates", "Investors from Silicon Valley"], "answer": 0, "why": "They row for Harvard and ask Mark to build their site, Harvard Connection."},
+      {"q": "Who introduces Mark to serious money in California?", "options": ["Sean Parker", "Eduardo Saverin", "Bill Gates"], "answer": 0, "why": "Sean Parker, who founded Napster, becomes his guide to Silicon Valley."},
+      {"q": "Why does Eduardo end up in court?", "options": ["His share of the company is cut and he is pushed out", "Mark stole his code", "Mark sold the company to Google"], "answer": 0, "why": "His shares are diluted and his name disappears from the paperwork."}
+    ],
+    "roleplay": {
+      "title": "The equity meeting",
+      "setting": "A bare meeting room in Palo Alto, 2004. Three people, one sheet of paper, and a number that has to be written on it.",
+      "roles": [
+        {"role": "Mark", "brief": "You built the thing. You think control matters more than friendship, but you do not want to say that out loud."},
+        {"role": "Eduardo", "brief": "You paid for everything at the start. You want your name, your shares and an apology — in that order."},
+        {"role": "Sean", "brief": "You want Eduardo out and you have a reasonable argument for it. Be charming; never say the word 'betray'."}
+      ],
+      "challenge": "Everyone must leave with a number they can defend to a lawyer. Play it twice: once with Sean in the room, once with only Mark and Eduardo."
+    },
+    "quest": [
+      {"title": "Station 1 · The name of the site", "task": "What is the site Mark builds in one night called, and what are people asked to do on it?", "answer": "FaceMash; vote on photos of students", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find the verb for taking someone to court, the verb for ending a case with money, and the phrase for betraying a friend for profit.", "answer": "sue, settle, sell out", "points": 10},
+      {"title": "Station 3 · The status update", "task": "Write Eduardo's five-line status update on the night he is pushed out, using 'to sell someone out'. Keep it cold, not tearful.", "answer": "Any five cold lines using the phrase", "points": 15},
+      {"title": "Station 4 · Order of events", "task": "Put these in order: FaceMash, the request from the twins, Sean's restaurant scene, the one-millionth user.", "answer": "FaceMash, the twins' request, Sean's restaurant, one million users", "points": 10}
+    ]
+  },
+  {
+    "id": "the-intern",
+    "title": "The Intern",
+    "year": 2015,
+    "level": "B2",
+    "runtime": 121,
+    "genres": ["comedy", "drama"],
+    "director": "Nancy Meyers",
+    "country": "USA",
+    "age": "12+",
+    "mood": "warm",
+    "logline": "A seventy-year-old widower takes an internship at a Brooklyn fashion startup, where the young founder has no time for him — at first.",
+    "why": "The comedy comes from small office situations and politeness rather than from plot, so a missed joke costs nothing. Workplace vocabulary and the language of polite disagreement are exactly what B2 learners need for meetings.",
+    "language": "Calm, clear American English, with the fast, clipped speech of a startup office and the slower, formal English of a man who last worked in the 1970s.",
+    "content": "Mild language, an office affair, a marriage crisis and some drinking at a party; warm and gentle overall.",
+    "scenes": [
+      {"at": "00:09:30", "title": "The application video", "task": "Listen to what Ben chooses to say about himself. Which sentence would you cut, and which one gets him the job?", "type": "listen"},
+      {"at": "00:26:00", "title": "The invisible intern", "task": "Pause after Ben tidies a table nobody asked him to touch. What has he changed, and why does Jules notice?", "type": "observe"},
+      {"at": "01:05:00", "title": "The empty office", "task": "Jules talks to Ben when the office is finally quiet. What does she admit that she would never say to her team?", "type": "think"},
+      {"at": "01:52:00", "title": "Tai chi in the park", "task": "Compare the last shot with the first. What has changed for Ben, and what has not?", "type": "think"}
+    ],
+    "words": [
+      {"w": "to shadow someone", "def": "to follow someone at work to learn the job", "ex": "Ben is told to shadow Jules for his first week."},
+      {"w": "a startup", "def": "a new small company trying to grow fast", "ex": "The company is a startup that grew faster than its systems."},
+      {"w": "to keep up", "def": "to stay at the same speed as others", "ex": "Ben has to keep up with a team half his age."},
+      {"w": "to step in", "def": "to take over and help in a difficult moment", "ex": "Ben steps in when the office is falling apart."},
+      {"w": "to have someone's back", "def": "to support someone when they are attacked", "ex": "Ben has Jules' back when the investors arrive."},
+      {"w": "to be out of your depth", "def": "to be in a situation you cannot manage", "ex": "For the first week, Ben is completely out of his depth."}
+    ],
+    "questions": [
+      "Ben is seventy and applies for an internship designed for graduates. Is that brave, stubborn, or something quieter? Would you send the video?",
+      "Jules can run a company but cannot hand over a single decision. What is the film really saying about control?",
+      "Which of Ben's old-fashioned habits — the suit, the briefcase, the handkerchief — actually work at the office? What does that say about what 'professional' means?",
+      "Whose version of Jules do you trust: the investors' (she needs a CEO) or her own (she is the company)? What evidence would change your mind?",
+      "Jason says he gave up his career for Jules' dream. Is he generous or resentful, and whose side are you on?",
+      "Why does Jules say she is not a good mother when she is clearly devoted to her daughter — and why does she say it to Ben rather than to Jason?",
+      "In your country, how are older workers treated in offices? Would a seventy-year-old intern be possible where you live?",
+      "Which line from the film would you write on a note for your desk, and would you actually live by it?"
+    ],
+    "gaps": [
+      {"line": "Experience never gets ___.", "answer": "old", "hint": "not young", "adapted": false},
+      {"line": "You're never wrong to do the right ___.", "answer": "thing", "hint": "an action or an object", "adapted": false},
+      {"line": "Always carry a ___. A person should be prepared.", "answer": "handkerchief", "hint": "a small cloth for your nose", "adapted": true},
+      {"line": "Jules, you cannot do all of this ___.", "answer": "alone", "hint": "with nobody's help", "adapted": true},
+      {"line": "I'm not here to take your job. I'm here to ___ you.", "answer": "help", "hint": "make someone's work easier", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Experience never gets old.", "options": ["Ben", "Jules", "Fiona"], "answer": 0, "note": "The film's tagline, and Ben's whole argument for being hired."},
+      {"quote": "You're never wrong to do the right thing.", "options": ["Ben", "Jason", "Davis"], "answer": 0, "note": "Ben's rule for work and for life, and the reason Jules keeps him close."},
+      {"quote": "I don't need an intern.", "options": ["Jules", "Fiona", "Jason"], "answer": 0, "note": "Jules' first answer to the whole programme; the film is about how long it takes her to mean something else."}
+    ],
+    "quiz": [
+      {"q": "How old is Ben when he applies?", "options": ["Seventy", "Sixty-five", "Fifty-nine"], "answer": 0, "why": "He is seventy, retired, and tired of tai chi, funerals and empty afternoons."},
+      {"q": "What was Ben's old job?", "options": ["An executive at a phone book company", "A teacher", "A journalist"], "answer": 0, "why": "He spent forty years at a company that printed phone books, and he was good at it."},
+      {"q": "What kind of company does Jules run?", "options": ["An online clothing retailer", "A fashion magazine", "A coffee chain"], "answer": 0, "why": "About the Fit sells clothes online and has grown faster than its systems."},
+      {"q": "What does Jules' husband Jason do?", "options": ["He stays at home with their daughter", "He works at the company", "He is a lawyer"], "answer": 0, "why": "Jason gave up his job to look after Paige, and he is not entirely at peace with it."},
+      {"q": "Why do the investors want Jules to hire a CEO?", "options": ["The company has grown too fast for one person", "The company is losing money", "Jules is leaving"], "answer": 0, "why": "They want experience at the top, and Jules hears it as a judgement on her."}
+    ],
+    "roleplay": {
+      "title": "The internship interview",
+      "setting": "A bright open-plan office in Brooklyn. One long table, four interviews in a row, and a candidate who is much older than the job description.",
+      "roles": [
+        {"role": "Ben", "brief": "You want to be useful again. Do not mention your age. Answer everything with one calm sentence and one example."},
+        {"role": "The HR manager", "brief": "You have forty applicants and an hour. You are polite, quick, and sure this one is a mistake — unless he says something you can use."},
+        {"role": "Jules", "brief": "You are passing through with a phone in your hand. You do not want an intern. Say one sentence and leave — then come back."}
+      ],
+      "challenge": "The HR manager must write one real reason to hire Ben on the form. Then swap: play Ben as arrogant and see whether he still gets the job."
+    },
+    "quest": [
+      {"title": "Station 1 · The morning routine", "task": "What does Ben do in the park every morning, and what does it tell you about how he lives?", "answer": "Tai chi; calm, disciplined, sociable", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find the word for a new fast-growing company, the verb for following someone to learn their job, and the phrase for supporting a colleague under attack.", "answer": "startup, shadow, have someone's back", "points": 10},
+      {"title": "Station 3 · Three rules", "task": "Write Ben's three rules for a first day in a new job, then explain one of them to another team in two sentences.", "answer": "Any three sensible rules, one explained", "points": 15},
+      {"title": "Station 4 · Numbers", "task": "Ben is seventy. How many years did he work at his old company, and what did that company sell?", "answer": "Forty years; phone books", "points": 10}
+    ]
+  },
+  {
+    "id": "the-help",
+    "title": "The Help",
+    "year": 2011,
+    "level": "B2",
+    "runtime": 146,
+    "genres": ["drama", "historical"],
+    "director": "Tate Taylor",
+    "country": "USA",
+    "age": "12+",
+    "mood": "earth",
+    "logline": "In Jackson, Mississippi, in 1963, a young white writer asks the Black women who raise the town's children to tell her what their lives are really like.",
+    "why": "The scenes are long and domestic — kitchens, porches, bridge tables — so the group can follow the power in the room even when the dialect is hard. The film offers both the polite English of the white families and the richer, funnier English of the maids, and asks learners to hear the difference.",
+    "language": "Strong Southern American accents and 1960s Black Southern English, with double negatives and vivid idiom; the white characters speak in polite euphemism.",
+    "content": "Racist language and constant humiliation, one violent scene at home, a crude practical joke and a funeral. The film is honest about segregation and never graphic.",
+    "scenes": [
+      {"at": "00:12:00", "title": "You is kind", "task": "Listen to the words Aibileen repeats to Mae Mobley. Why those three words, and who else in the film needs to hear them?", "type": "listen"},
+      {"at": "00:31:00", "title": "The bathroom plan", "task": "Hilly presents her idea to the bridge club. What exactly is she afraid of? Notice how politely she says it.", "type": "think"},
+      {"at": "01:14:00", "title": "The kitchen table", "task": "The stories are being told at last. Whose voice changes when she starts talking about her own life?", "type": "observe"},
+      {"at": "02:19:00", "title": "The walk away", "task": "Aibileen walks down the street and the film ends. Where is she going, and why does the film not show us?", "type": "think"}
+    ],
+    "words": [
+      {"w": "segregation", "def": "a system that keeps races apart by law", "ex": "Segregation decides which door, which school and which toilet."},
+      {"w": "outspoken", "def": "saying what you think, even when it shocks", "ex": "Minny is the most outspoken woman in Jackson."},
+      {"w": "to stand up to someone", "def": "to refuse to accept unfair treatment", "ex": "Aibileen finally stands up to Hilly."},
+      {"w": "to turn a blind eye", "def": "to pretend not to notice something wrong", "ex": "The town turns a blind eye to what happens in those kitchens."},
+      {"w": "to speak out", "def": "to say publicly that something is wrong", "ex": "Telling their stories is a way of speaking out."},
+      {"w": "to know your place", "def": "to behave as others expect your class to behave", "ex": "Hilly expects every maid to know her place."}
+    ],
+    "questions": [
+      "Whose book is it really: Skeeter's, Aibileen's, or all of theirs? Who takes the risk, and who gets the credit?",
+      "Aibileen speaks one way to the Leefolt family and another way in her own kitchen. Why does she switch, and what does the switching cost her?",
+      "Is Hilly a monster, or a product of her time and class? Which question is more useful to ask about her?",
+      "Skeeter needs these women's stories to become a writer. Is she an ally, or is she using them? Where is the line?",
+      "Would you have agreed to be interviewed, knowing what could happen to your family? What would you need first?",
+      "Minny fights with her mouth and Aibileen fights with patience. Which kind of courage does more in this film?",
+      "In your country, who does the cleaning and the childcare? Are those workers visible, and do they have rights?",
+      "Which line did you find yourself repeating after the film, and why does it stay with you?"
+    ],
+    "gaps": [
+      {"line": "You is kind. You is smart. You is ___.", "answer": "important", "hint": "worth a lot to somebody", "adapted": false},
+      {"line": "Hilly wants a separate ___ in every white house, just for the help.", "answer": "toilet", "hint": "you use it in the bathroom", "adapted": true},
+      {"line": "I want to write something that ___.", "answer": "matters", "hint": "is important", "adapted": true},
+      {"line": "Minny, you cannot say that to Miss Hilly — she will have you ___.", "answer": "fired", "hint": "lose your job", "adapted": true},
+      {"line": "The book is called '___', and the author is listed as Anonymous.", "answer": "help", "hint": "also the word for people who clean and cook", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "You is kind. You is smart. You is important.", "options": ["Aibileen", "Minny", "Skeeter"], "answer": 0, "note": "Aibileen's morning ritual with Mae Mobley, and the moral centre of the film."},
+      {"quote": "I want to be a writer.", "options": ["Skeeter", "Hilly", "Elizabeth"], "answer": 0, "note": "Skeeter's answer when her mother asks what she plans to do with her degree."},
+      {"quote": "I'm the best cook in Jackson, Mississippi.", "options": ["Minny", "Celia", "Aibileen"], "answer": 0, "note": "Minny's boast, and the reason she keeps finding work after Hilly is finished with her."}
+    ],
+    "quiz": [
+      {"q": "Where and when is the film set?", "options": ["Jackson, Mississippi, 1963", "Atlanta, 1955", "Memphis, 1968"], "answer": 0, "why": "It is Jackson, Mississippi, at the height of the civil rights movement."},
+      {"q": "What does Skeeter want to do with her life?", "options": ["Be a writer", "Run her family's farm", "Teach at the local school"], "answer": 0, "why": "She comes home from university with a degree and no interest in marriage."},
+      {"q": "What does Hilly want to install in white homes?", "options": ["Separate toilets for the maids", "Separate entrances", "Separate kitchens"], "answer": 0, "why": "She calls it a health measure; everybody else hears what it really is."},
+      {"q": "Who does Minny go to work for after Hilly fires her?", "options": ["Celia Foote", "Elizabeth Leefolt", "Skeeter's mother"], "answer": 0, "why": "Celia is an outsider too, and the two women slowly become friends."},
+      {"q": "What is unusual about the published book?", "options": ["It is anonymous and the stories are disguised", "It names every maid", "It is a cookbook"], "answer": 0, "why": "The names are changed and the author is 'Anonymous', which is the only way it can be printed."}
+    ],
+    "roleplay": {
+      "title": "The kitchen table",
+      "setting": "Aibileen's kitchen, late evening, 1963. A notebook, a glass of iced tea, and the sound of a fan.",
+      "roles": [
+        {"role": "Skeeter", "brief": "You need one true sentence on paper. You cannot promise her safety and you know it. Ask carefully."},
+        {"role": "Aibileen", "brief": "You have a job, a church and a family. You have seen what happens to people who talk. Answer only what you choose."},
+        {"role": "Minny", "brief": "You think this is a bad idea and you say so. You are also the funniest person in the room, and you know it."}
+      ],
+      "challenge": "Skeeter must get one sentence on paper without making a promise she cannot keep. Then swap: Aibileen asks the questions and Skeeter has to answer."
+    },
+    "quest": [
+      {"title": "Station 1 · The title", "task": "What is the book called when it is published, and what name is printed on the cover?", "answer": "The Help, by Anonymous", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find the word for the system that kept races apart, the adjective for someone who says exactly what she thinks, and the phrase for pretending not to see something wrong.", "answer": "segregation, outspoken, turn a blind eye", "points": 10},
+      {"title": "Station 3 · Three rules for a child", "task": "Write three things Aibileen would tell a small child every morning, in her own voice. Read them aloud the way she would.", "answer": "Any three kind, simple rules in her voice", "points": 15},
+      {"title": "Station 4 · Order of events", "task": "Put these in order: Skeeter comes home from university, Minny loses her job, Aibileen tells her story, the book is published.", "answer": "Skeeter comes home, Minny is fired, Aibileen talks, the book appears", "points": 10}
+    ]
+  },
+  {
+    "id": "erin-brockovich",
+    "title": "Erin Brockovich",
+    "year": 2000,
+    "level": "B2",
+    "runtime": 131,
+    "genres": ["drama", "historical"],
+    "director": "Steven Soderbergh",
+    "country": "USA",
+    "age": "15+",
+    "mood": "sepia",
+    "logline": "A broke single mother talks her way into a lawyer's office, then starts pulling medical files out of a house sale folder.",
+    "why": "The legal plot is carried by documents, maps and repeated numbers, so the group can follow the case even when Erin talks over everybody. She is also the best model of B2 persuasion on this list: interrupting, insisting and refusing a polite no.",
+    "language": "Fast, blunt American English with strong language; the legal and medical terms are explained by the characters themselves, usually twice.",
+    "content": "Strong language throughout, including several f-words; cancer and serious illness in children; a brief sexual scene; adult drinking.",
+    "scenes": [
+      {"at": "00:08:30", "title": "The case she loses", "task": "The lawyer tells her what her case is worth. Listen to what Erin hears, and what she says back.", "type": "listen"},
+      {"at": "00:27:00", "title": "The folder", "task": "Erin finds medical records inside a property file. Pause there: what made her open that folder at all?", "type": "observe"},
+      {"at": "00:57:00", "title": "The town meeting", "task": "Watch the room, not Erin. Who decides to trust her, and what changes their mind?", "type": "observe"},
+      {"at": "01:50:00", "title": "The numbers", "task": "The settlement is read out. What does Erin do with her face while the number is spoken?", "type": "think"}
+    ],
+    "words": [
+      {"w": "contamination", "def": "poison or dirt that has got into water or air", "ex": "The contamination spread through the groundwater for years."},
+      {"w": "a class action", "def": "one court case brought by many people together", "ex": "Six hundred families joined a class action against the company."},
+      {"w": "to cover something up", "def": "to hide the truth about something wrong", "ex": "The company covered up the test results for years."},
+      {"w": "to settle out of court", "def": "to end a case by agreement, without a trial", "ex": "In the end, the company settled out of court."},
+      {"w": "persistent", "def": "continuing to try when others refuse", "ex": "Erin is persistent in a way that annoys everyone."},
+      {"w": "to dig into something", "def": "to search for information about something", "ex": "She digs into files nobody has opened in years."}
+    ],
+    "questions": [
+      "Erin has no law degree, no money and no manners. Why does she succeed where trained lawyers fail?",
+      "Whose version do you trust: the company's documents, the residents' memories, or Erin's reading of both? What makes evidence convincing?",
+      "Erin is rude, impatient and usually right. Is she a hero, or a difficult person who happens to be correct?",
+      "The film keeps showing the babysitter, the bounced cheque and the broken car. Why does a legal story need all that domestic detail?",
+      "The residents trust Erin more than the lawyers in suits. Why? What does she do that they do not?",
+      "Would you have signed the paper and taken the money, as most families did, or held out? What would you need to know first?",
+      "In your country, who protects a small town when a big company poisons the water — lawyers, journalists, or the state?",
+      "Which line would you paint on a wall outside a courthouse, and who would you want to read it?"
+    ],
+    "gaps": [
+      {"line": "The water is ___. That is why the children are sick.", "answer": "poisoned", "hint": "made dangerous to drink", "adapted": true},
+      {"line": "You cannot ___ this from six hundred families.", "answer": "hide", "hint": "keep it secret", "adapted": true},
+      {"line": "I don't have a law degree, but I have a ___.", "answer": "brain", "hint": "the thing you think with", "adapted": true},
+      {"line": "I am not doing this for the ___.", "answer": "money", "hint": "what you are paid", "adapted": true},
+      {"line": "Somebody has to ___ for these people.", "answer": "speak", "hint": "say something on their behalf", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "I don't have a law degree, but I have a brain.", "options": ["Erin", "Ed Masry", "Kurt Potter"], "answer": 0, "note": "Her answer to every man who asks what she is doing in the room."},
+      {"quote": "It's in the water.", "options": ["Erin", "Donna Jensen", "The company lawyer"], "answer": 0, "note": "The sentence that turns a property file into a poisoning case."},
+      {"quote": "My daughter is sick and nobody will tell me why.", "options": ["Donna Jensen", "Erin", "Theresa"], "answer": 0, "note": "The line that makes the case personal, and the reason Erin keeps driving back to Hinkley."}
+    ],
+    "quiz": [
+      {"q": "What does Erin ask Ed Masry for after he loses her accident case?", "options": ["A job", "An apology", "Money for a new car"], "answer": 0, "why": "She talks her way into the office and starts answering the telephone."},
+      {"q": "Which company is responsible for the water in Hinkley?", "options": ["PG&E", "A local farm", "The water board"], "answer": 0, "why": "The power company used chromium-6 to stop rust in its cooling towers."},
+      {"q": "What is chromium-6?", "options": ["A chemical that can cause cancer", "A fertiliser", "A cleaning product"], "answer": 0, "why": "It leaked into the groundwater and stayed there for decades."},
+      {"q": "Who helps Erin find the company's documents?", "options": ["A records clerk called Charles Embry", "Kurt Potter", "George"], "answer": 0, "why": "A clerk who keeps the files nobody else ever asks for."},
+      {"q": "How much did the families finally receive?", "options": ["333 million dollars", "33 million dollars", "3 million dollars"], "answer": 0, "why": "It was one of the largest direct-action settlements in American history at the time."}
+    ],
+    "roleplay": {
+      "title": "The first meeting in Hinkley",
+      "setting": "A church hall with forty folding chairs, most of them empty. A woman with a folder nobody asked for, and a town that has heard promises before.",
+      "roles": [
+        {"role": "Erin", "brief": "You have the papers and no authority. You need three signatures before you leave. Do not lie about the money."},
+        {"role": "Donna Jensen", "brief": "Your family is ill and your husband has left. You want to believe her, but you have been polite to lawyers before."},
+        {"role": "Ed Masry", "brief": "You are her boss and you want to go home. You think this meeting is a mistake, and you say so in front of everyone."}
+      ],
+      "challenge": "Get three signatures in three minutes without promising a result. Then swap: Erin must answer the town's hardest question in one sentence."
+    },
+    "quest": [
+      {"title": "Station 1 · The chemical", "task": "What is the chemical found in the water, and what does the company use it for?", "answer": "Chromium-6; to stop rust in cooling towers", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find the term for a case brought by many people together, the verb for hiding wrongdoing, and the adjective for someone who never gives up.", "answer": "class action, cover up, persistent", "points": 10},
+      {"title": "Station 3 · The note on the desk", "task": "Write the four-line note Erin leaves on Ed's desk after her first week, using 'to dig into'. Sign it the way she would.", "answer": "Any four blunt lines using the phrase", "points": 15},
+      {"title": "Station 4 · Two numbers", "task": "How much was the final settlement, and how much did Erin herself receive?", "answer": "333 million dollars; 2 million dollars", "points": 10}
+    ]
+  },
+  {
+    "id": "beautiful-mind",
+    "title": "A Beautiful Mind",
+    "year": 2001,
+    "level": "B2",
+    "runtime": 135,
+    "genres": ["drama", "historical"],
+    "director": "Ron Howard",
+    "country": "USA",
+    "age": "12+",
+    "mood": "cool",
+    "logline": "A brilliant, awkward mathematician at Princeton finds fame, love and a government secret that may not exist.",
+    "why": "The plot is complex but the scenes are long, usually two people in a room with clear emotional stakes. Mathematics is never the point; the language of doubt, diagnosis and love is, and that is exactly B2 territory.",
+    "language": "Measured American English with period academic formality; Nash speaks in fast, clipped bursts when he is excited, and Alicia's quiet voice carries the second half.",
+    "content": "Mental illness shown in frightening detail, including delusions and forced hospital treatment; a tense moment of possible self-harm; no graphic violence.",
+    "scenes": [
+      {"at": "00:20:00", "title": "The Pentagon", "task": "Watch how Nash reacts to the code. What tells you he is more excited than frightened?", "type": "observe"},
+      {"at": "01:06:00", "title": "The lecture", "task": "Pause when the room turns. What is real in this scene, and how does the film show us the difference?", "type": "think"},
+      {"at": "01:38:00", "title": "They are not real", "task": "Nash names the three people. Why does he say it to Alicia and not to a doctor?", "type": "think"},
+      {"at": "02:05:00", "title": "The pens", "task": "Look at the table, not at Nash. What is being said without any words?", "type": "observe"}
+    ],
+    "words": [
+      {"w": "a breakthrough", "def": "an important discovery after long effort", "ex": "Nash makes a breakthrough in game theory as a student."},
+      {"w": "a hallucination", "def": "something you see or hear that is not there", "ex": "Charles is a hallucination, but Nash does not know it."},
+      {"w": "to be diagnosed with", "def": "to be told by a doctor what illness you have", "ex": "Nash is diagnosed with schizophrenia in his thirties."},
+      {"w": "to relapse", "def": "to become ill again after getting better", "ex": "He relapses when he stops taking the medication."},
+      {"w": "to come to terms with something", "def": "to accept a difficult fact", "ex": "Nash slowly comes to terms with what he cannot cure."},
+      {"w": "paranoid", "def": "believing that other people want to harm you", "ex": "He becomes paranoid about cars and strangers."}
+    ],
+    "questions": [
+      "The film shows the world from inside Nash's head. Whose version of reality do you trust — his or Alicia's — and how does the film make us doubt both?",
+      "Is Nash a hero, a victim, or a survivor? Which word would you choose, and what does each one hide?",
+      "Alicia stays. Is that love, duty, or a decision she makes again every morning? Would you have stayed?",
+      "The film changes some facts of Nash's life to make a cleaner story. Is that a lie, or is that what fiction is for? Where is the line?",
+      "Nash learns to live with his hallucinations instead of curing them. Why is that a braver ending than a cure?",
+      "Alicia almost never raises her voice. Why does the film make her quiet at the moment she decides to stay, and why is that more frightening than shouting?",
+      "In your country, how are people with mental illness treated by their families and by the state? What would Nash's life look like there?",
+      "Which line did you find beautiful, and which one did you find too much? Be honest."
+    ],
+    "gaps": [
+      {"line": "Classes will dull your mind, destroy the potential for authentic ___.", "answer": "creativity", "hint": "the ability to make new things", "adapted": false},
+      {"line": "It's only in the mysterious equations of ___ that any logical reasons can be found.", "answer": "love", "hint": "a deep feeling for another person", "adapted": false},
+      {"line": "Perhaps it is good to have a beautiful mind, but an even greater gift is to discover a beautiful ___.", "answer": "heart", "hint": "the place where feelings live", "adapted": false},
+      {"line": "I need to believe that something extraordinary is ___.", "answer": "possible", "hint": "it can happen", "adapted": false},
+      {"line": "You are the reason I am. You are all my ___.", "answer": "reasons", "hint": "the 'why' behind something", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "It's only in the mysterious equations of love that any logical reasons can be found.", "options": ["Nash", "Alicia", "Charles"], "answer": 0, "note": "From his Nobel speech: the mathematician's last proof is about love."},
+      {"quote": "I need to believe that something extraordinary is possible.", "options": ["Alicia", "Nash", "Dr Rosen"], "answer": 0, "note": "Alicia's line, in the worst year of their marriage."},
+      {"quote": "Classes will dull your mind.", "options": ["Nash", "Hansen", "Parcher"], "answer": 0, "note": "His first line as a teacher — a warning, and a fair description of himself."}
+    ],
+    "quiz": [
+      {"q": "Where does the young Nash study?", "options": ["Princeton", "MIT", "Harvard"], "answer": 0, "why": "He arrives at Princeton in 1947 with a scholarship and no patience for classes."},
+      {"q": "What is Nash's great idea?", "options": ["Game theory", "A code-breaking machine", "The theory of relativity"], "answer": 0, "why": "His work on games and equilibrium later wins him the Nobel Prize in Economics."},
+      {"q": "Who is Charles Herman?", "options": ["Nash's roommate, who is not real", "His brother", "A government agent"], "answer": 0, "why": "Charles appears at Princeton and stays in Nash's life for years, though nobody else can see him."},
+      {"q": "Who is Alicia?", "options": ["A physics student who becomes his wife", "A nurse at the hospital", "A journalist"], "answer": 0, "why": "She meets him at MIT, marries him, and becomes the person who keeps him in the world."},
+      {"q": "What does Nash receive at the end of the film?", "options": ["The Nobel Prize in Economics", "The Fields Medal", "A professorship in Chicago"], "answer": 0, "why": "He is honoured in Stockholm in 1994, with Alicia in the audience."}
+    ],
+    "roleplay": {
+      "title": "The doctor's office",
+      "setting": "A small office in 1959. One desk, three chairs, and a diagnosis nobody in the room wants to hear.",
+      "roles": [
+        {"role": "Dr Rosen", "brief": "You have treated him for months. You are honest, tired, and you need Alicia to understand the risk. Do not use the word 'crazy'."},
+        {"role": "Alicia", "brief": "You are pregnant, frightened and practical. You need facts: what happens next, and what happens to the baby."},
+        {"role": "Nash", "brief": "You are certain this is a conspiracy and that your work matters more than your health. Argue logically; never raise your voice."}
+      ],
+      "challenge": "Nash must give one reason why he is not ill, and Alicia must decide whether to sign the form. Play it again with Nash winning the argument."
+    },
+    "quest": [
+      {"title": "Station 1 · The three visitors", "task": "Name the three people who appear to Nash and are not real. When did you first suspect the first one?", "answer": "Charles, Marcee, Parcher", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find the word for seeing something that is not there, the verb for becoming ill again, and the phrase for accepting a hard fact.", "answer": "hallucination, relapse, come to terms with", "points": 10},
+      {"title": "Station 3 · The note", "task": "Write a four-line note from Alicia to Dr Rosen the night she decides to stay, using 'to come to terms with'. Do not make it sentimental.", "answer": "Any four clear lines using the phrase", "points": 15},
+      {"title": "Station 4 · The prize", "task": "Which prize does Nash win, in which year, and in which subject?", "answer": "The Nobel Prize in Economics, 1994", "points": 10}
+    ]
+  },
+  {
+    "id": "the-terminal",
+    "title": "The Terminal",
+    "year": 2004,
+    "level": "B2",
+    "runtime": 128,
+    "genres": ["comedy", "drama"],
+    "director": "Steven Spielberg",
+    "country": "USA",
+    "age": "12+",
+    "mood": "warm",
+    "logline": "A traveller from a country that has just ceased to exist lands at JFK with broken English and a small tin can, and settles in to wait.",
+    "why": "Viktor's English is deliberately simple and repetitive, which lets a B2 group watch a native-speed film without drowning. The airport vocabulary is visual and repeated, and the comedy is physical rather than verbal.",
+    "language": "Slow, careful English from Viktor, who is learning as he goes; fast official American English from the airport staff; small amounts of Hindi and an invented language.",
+    "content": "Mild language, one brief fight, a man living in an airport for months, and a sad story about a death in the family; gentle and family-friendly.",
+    "scenes": [
+      {"at": "00:09:00", "title": "The passport", "task": "Listen to the officer's questions. Which three words does Viktor not understand, and how does he answer anyway?", "type": "listen"},
+      {"at": "00:35:00", "title": "Home", "task": "Look at what Viktor has built in the gate. List three objects and say what each one is for.", "type": "observe"},
+      {"at": "01:20:00", "title": "Dinner for two", "task": "Viktor sets a table in the terminal. What does he do to make it feel like a restaurant, and what does Amelia notice?", "type": "observe"},
+      {"at": "01:52:00", "title": "The signature", "task": "Hold the shot at the hotel door. Why does the film not show us the meeting itself?", "type": "think"}
+    ],
+    "words": [
+      {"w": "to be stranded", "def": "to be unable to leave a place", "ex": "Viktor is stranded at JFK with a passport nobody accepts."},
+      {"w": "red tape", "def": "official rules that slow everything down", "ex": "Red tape keeps him in the terminal for months."},
+      {"w": "to make do", "def": "to manage with whatever you have", "ex": "He makes do with a bench, a vending machine and a coin."},
+      {"w": "to pick up a language", "def": "to learn a language by hearing it", "ex": "He picks up English from signs and television."},
+      {"w": "to get by", "def": "to manage with very little money", "ex": "He gets by on coins people drop and jobs nobody wants."},
+      {"w": "in limbo", "def": "in a situation where nothing can move forward", "ex": "For months, Viktor lives in limbo between two countries."}
+    ],
+    "questions": [
+      "Viktor cannot leave the airport and cannot enter the country. Is the terminal a prison or a home? What makes the difference?",
+      "Dixon says he is only following the rules. Is he a villain, or a man with a job? Whose version of the law do you trust?",
+      "Viktor learns English from signs, adverts and television. What does the film say about how language is really learned — and what does that say to you as a learner?",
+      "Is Viktor a hero, a survivor, or simply a stubborn man? Find one scene for each word and see which one fits best.",
+      "Gupta is afraid to go home. Is staying in an airport safer than facing your past? Would you go back?",
+      "Viktor speaks in short, careful sentences: 'I wait', 'I go'. Why does the film keep his English simple, and what does that simplicity give him?",
+      "In your country, what happens to a person who arrives with no valid papers? Could somebody really live in an airport where you live?",
+      "Which of Viktor's lines would you put on an airport wall, and why that one?"
+    ],
+    "gaps": [
+      {"line": "Your country doesn't ___ any more, Mr Navorski.", "answer": "exist", "hint": "to be real", "adapted": true},
+      {"line": "I came to New York for one ___.", "answer": "signature", "hint": "a famous person's name, written by hand", "adapted": true},
+      {"line": "I have no ___ to go.", "answer": "place", "hint": "a location", "adapted": true},
+      {"line": "One day in New York. That is all I ___.", "answer": "ask", "hint": "to request", "adapted": true},
+      {"line": "I have almost no money. I ___ by.", "answer": "get", "hint": "to manage", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "I wait.", "options": ["Viktor", "Dixon", "Gupta"], "answer": 0, "note": "His answer to almost every question in the first hour of the film."},
+      {"quote": "Your country doesn't exist any more.", "options": ["Dixon", "Officer Torres", "Amelia"], "answer": 0, "note": "The sentence that leaves Viktor with nowhere to go and nothing to travel on."},
+      {"quote": "I go to New York.", "options": ["Viktor", "Gupta", "Enrique"], "answer": 0, "note": "The whole plan, in four words."}
+    ],
+    "quiz": [
+      {"q": "Where is Viktor from?", "options": ["Krakozhia", "Croatia", "Kazakhstan"], "answer": 0, "why": "Krakozhia is a fictional country, and while he is in the air its government falls."},
+      {"q": "Why can Viktor neither enter the US nor fly home?", "options": ["His country no longer exists, so his papers are invalid", "He has lost his passport", "He has no visa application"], "answer": 0, "why": "A coup cancels his citizenship while he is flying, and no country will take him."},
+      {"q": "Where does Viktor live during his stay?", "options": ["In the international transit lounge", "In a hotel near the airport", "In a staff room"], "answer": 0, "why": "He never crosses the border, so he stays inside the terminal."},
+      {"q": "Why did Viktor come to New York?", "options": ["To get the last autograph in his father's collection", "To find work", "To visit his brother"], "answer": 0, "why": "His father collected the signatures of jazz musicians, and one was missing."},
+      {"q": "Who is Amelia?", "options": ["A flight attendant", "A customs officer", "A cleaner"], "answer": 0, "why": "She passes through the terminal every week and slowly becomes his friend."}
+    ],
+    "roleplay": {
+      "title": "The commissioner's office",
+      "setting": "A small office at JFK: a desk, a stamp, a form, and a man who has been in the terminal for nine months.",
+      "roles": [
+        {"role": "Dixon", "brief": "You have an inspection next week and this man is a problem. You want one signature on one form. Stay polite; never lose control."},
+        {"role": "Viktor", "brief": "You have a folder of papers and about forty words of English. You will not sign something that is not true."},
+        {"role": "Officer Torres", "brief": "You are new, you translate, and you sympathise more than you should. You have a job to keep."}
+      ],
+      "challenge": "Dixon must get the signature; Viktor must refuse without raising his voice. Play it twice — once with Torres translating, once without."
+    },
+    "quest": [
+      {"title": "Station 1 · The can", "task": "What is in the tin can Viktor carries, and how many signatures does it hold?", "answer": "Jazz musicians' autographs; fifty-seven", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find the phrase for official rules that slow everything down, the verb for learning a language by hearing it, and the phrase for managing with very little.", "answer": "red tape, pick up, get by", "points": 10},
+      {"title": "Station 3 · The sign", "task": "Write the sign Viktor would put above his bench in the terminal, in five words or fewer. Explain it in one sentence.", "answer": "Any short sign, clearly explained", "points": 15},
+      {"title": "Station 4 · Numbers and order", "task": "Put these in order: Viktor builds a bed, Viktor meets Amelia, Viktor gets a job with the builders, Viktor leaves in a taxi.", "answer": "Bed, Amelia, building job, taxi", "points": 10}
+    ]
+  },
+  {
+    "id": "little-miss-sunshine",
+    "title": "Little Miss Sunshine",
+    "year": 2006,
+    "level": "B2",
+    "runtime": 101,
+    "genres": ["comedy", "drama"],
+    "director": "Jonathan Dayton & Valerie Faris",
+    "country": "USA",
+    "age": "15+",
+    "mood": "earth",
+    "logline": "A family of misfits drives a broken yellow van from New Mexico to California so that seven-year-old Olive can enter a beauty pageant.",
+    "why": "The humour is dry and the family talks over each other constantly, which is exactly the step after B1. The van, the motel and the pageant give the group four clear locations and a simple map to follow, even when the jokes fly past.",
+    "language": "Fast American English with overlapping family arguments, sarcasm and a lot of swearing; Grandpa mumbles badly, and Dwayne says nothing at all for half the film.",
+    "content": "Strong language, a suicide attempt discussed, drug use by an older character, a death on the road, and a children's pageant that includes a suggestive dance.",
+    "scenes": [
+      {"at": "00:06:00", "title": "Dinner, four ways", "task": "Everyone talks at once. Write down one thing each person wants tonight — and who gets it.", "type": "listen"},
+      {"at": "00:22:00", "title": "The push start", "task": "The van will not start unless everybody pushes. What does this become by the end of the film?", "type": "observe"},
+      {"at": "00:58:00", "title": "The test result", "task": "Dwayne breaks his silence. Why now, and what does he do with his notebook?", "type": "think"},
+      {"at": "01:22:00", "title": "The talent section", "task": "Watch the audience, not Olive. What are they thinking, and what does the family do about it?", "type": "observe"}
+    ],
+    "words": [
+      {"w": "a pageant", "def": "a competition where children sing, dance and dress up", "ex": "Olive has dreamed of the Little Miss Sunshine pageant all year."},
+      {"w": "to take a vow of silence", "def": "to promise not to speak", "ex": "Dwayne takes a vow of silence until he gets into flight school."},
+      {"w": "to hit rock bottom", "def": "to reach the worst point in your life", "ex": "Frank has hit rock bottom, and his sister comes to collect him."},
+      {"w": "self-help", "def": "books and talks that promise to improve your life", "ex": "Richard sells a self-help programme with nine steps."},
+      {"w": "colour-blind", "def": "unable to see the difference between some colours", "ex": "Dwayne is colour-blind, and that ends his plan to fly."},
+      {"w": "a quitter", "def": "a person who gives up too easily", "ex": "Richard is terrified that his daughter will be a quitter."}
+    ],
+    "questions": [
+      "Richard divides the world into winners and losers. What does the film think of that idea? Find one scene that proves it.",
+      "Olive is seven and wants to be a beauty queen. Is the film laughing at her, at the pageant, or at the adults around her?",
+      "Grandpa tells Olive to do what she loves, whatever other people think. Is that good advice for a child? For an adult?",
+      "Frank and Dwayne both reach a low point, in very different ways. Which of them is braver, and what does the film mean by brave?",
+      "The family insults each other constantly and nobody leaves. Why does the film make love sound so rude?",
+      "Would you have gone on stage after the judges reacted like that? Would you want your family in the front row?",
+      "In your country, are children's competitions — pageants, exams, sport — a joy or a machine? What does your culture say about winning?",
+      "Which line made you laugh and then think? Say it in the voice of the character who said it."
+    ],
+    "gaps": [
+      {"line": "There are two kinds of people in this world: winners and ___.", "answer": "losers", "hint": "people who do not win", "adapted": false},
+      {"line": "My programme is called Refuse to ___.", "answer": "lose", "hint": "not win", "adapted": false},
+      {"line": "A real winner never gives ___.", "answer": "up", "hint": "stops trying", "adapted": true},
+      {"line": "I have taken a vow of ___.", "answer": "silence", "hint": "not speaking", "adapted": true},
+      {"line": "We are a ___, and families do not leave each other by the road.", "answer": "family", "hint": "parents and children together", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "There are two kinds of people in this world: winners and losers.", "options": ["Richard", "Grandpa", "Sheryl"], "answer": 0, "note": "Richard's whole philosophy, and the thing the film quietly takes apart."},
+      {"quote": "I hate everyone.", "options": ["Dwayne", "Frank", "Olive"], "answer": 0, "note": "Written in Dwayne's notebook after months of silence — and the funniest line in the film."},
+      {"quote": "Refuse to lose.", "options": ["Richard", "Frank", "Olive"], "answer": 0, "note": "The name of his programme, repeated like a prayer until it stops meaning anything."}
+    ],
+    "quiz": [
+      {"q": "Why does the family drive to California?", "options": ["Olive is in a beauty pageant", "They are visiting Grandpa", "They are moving house"], "answer": 0, "why": "Olive is entered in the Little Miss Sunshine pageant in Redondo Beach."},
+      {"q": "Where do they start from?", "options": ["Albuquerque, New Mexico", "Phoenix, Arizona", "Los Angeles, California"], "answer": 0, "why": "The film opens in Albuquerque, and the drive takes two days."},
+      {"q": "What is wrong with the van?", "options": ["The clutch is broken, so it must be pushed to start", "The brakes have failed", "The horn will not stop"], "answer": 0, "why": "Every stop becomes a team effort: everybody gets out and pushes."},
+      {"q": "What has Dwayne promised not to do?", "options": ["Speak", "Eat meat", "Leave his room"], "answer": 0, "why": "He has taken a vow of silence until he gets into flight school."},
+      {"q": "Why does Dwayne finally speak?", "options": ["He discovers he is colour-blind and cannot fly", "He wins a prize", "Olive is missing"], "answer": 0, "why": "The test result ends his dream, and the silence ends with it."}
+    ],
+    "roleplay": {
+      "title": "The motel conference",
+      "setting": "A motel room with two beds, a broken air conditioner and one very bad decision to make before morning.",
+      "roles": [
+        {"role": "Richard", "brief": "You have a schedule and a pageant entry fee. You think stopping is for losers. Keep it practical and a little too loud."},
+        {"role": "Sheryl", "brief": "You are holding the family together with both hands. You want to stop, and you want somebody to say that it is allowed."},
+        {"role": "Grandpa", "brief": "You have no patience left for either of them. Say the thing nobody else will say, then go back to your magazine."}
+      ],
+      "challenge": "Decide in three minutes whether to continue, and let each person speak once without being interrupted. Play it again with Grandpa's chair empty."
+    },
+    "quest": [
+      {"title": "Station 1 · The pageant", "task": "What is the pageant called, and in which town does it take place?", "answer": "Little Miss Sunshine; Redondo Beach", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find the word for a children's competition, the phrase for reaching the worst point of your life, and the word for someone who gives up too easily.", "answer": "pageant, hit rock bottom, quitter", "points": 10},
+      {"title": "Station 3 · The speech", "task": "Write the three-line thank-you speech Olive would give if she won, in her own words, and read it as she would.", "answer": "Any three sincere lines in Olive's voice", "points": 15},
+      {"title": "Station 4 · Order on the road", "task": "Put these in order: the phone call about the pageant, Grandpa's death, Dwayne's discovery, the dance on stage.", "answer": "Phone call, Grandpa's death, Dwayne's discovery, the dance", "points": 10}
+    ]
+  },
+  {
+    "id": "hidden-figures",
+    "title": "Hidden Figures",
+    "year": 2016,
+    "level": "B2",
+    "runtime": 127,
+    "genres": ["drama", "historical"],
+    "director": "Theodore Melfi",
+    "country": "USA",
+    "age": "all",
+    "mood": "pastel",
+    "logline": "Three Black women do the maths that puts an American astronaut into orbit in 1961, in a building where they cannot use the same bathroom.",
+    "why": "The maths is visual — blackboards, numbers, a rocket — and the plot runs on clear obstacles and clear victories, which suits a group moving up from B1. It also gives learners a rare chance to hear calm, professional English used to fight a very old prejudice.",
+    "language": "Quiet, precise American English in the offices, warmer Southern English among the women, and fast technical talk about orbits, capsules and computers.",
+    "content": "Racist language and constant humiliation, but no violence; a warm telling that is honest about segregation.",
+    "scenes": [
+      {"at": "00:20:00", "title": "The coffee pot", "task": "Watch the office react to the coffee pot. Nobody says a word. What is being said anyway?", "type": "think"},
+      {"at": "00:40:00", "title": "The bathroom sign", "task": "Harrison takes the sign down. What does he say, and what does he leave unsaid?", "type": "listen"},
+      {"at": "01:02:00", "title": "The library book", "task": "Dorothy needs a book that is not for her. What does she do, and what does the guard do?", "type": "observe"},
+      {"at": "01:32:00", "title": "Get the girl", "task": "Glenn asks for Katherine by name. Why does the film put that request at the worst possible moment?", "type": "think"}
+    ],
+    "words": [
+      {"w": "segregated", "def": "separated by race, by law", "ex": "The office, the buses and the bathrooms are segregated."},
+      {"w": "a computer", "def": "in 1961, a person who does calculations all day", "ex": "Katherine is a computer before the machine takes the name."},
+      {"w": "to petition", "def": "to ask a court formally for something", "ex": "Mary petitions the court to attend the night classes."},
+      {"w": "to double-check", "def": "to check something again very carefully", "ex": "Katherine double-checks every number before the launch."},
+      {"w": "to be qualified", "def": "to have the training for a job", "ex": "Mary is qualified, but the school will not let her in."},
+      {"w": "to break down barriers", "def": "to remove unfair limits for a group of people", "ex": "The three women break down barriers one office at a time."}
+    ],
+    "questions": [
+      "The film is called Hidden Figures. Who is hidden, and by whom — NASA, history, or the film itself?",
+      "Vivian Mitchell says she has nothing against 'you people' while blocking a promotion. What does that kind of politeness hide?",
+      "Katherine runs half a mile to a bathroom and still finishes the work. Is she a hero, or is the film making her one after the fact?",
+      "Is Al Harrison a good man who changes, or a man who only moves when it helps the mission? Find the moment he changes.",
+      "Would you have walked into that courtroom, or driven north where the rules were different? What would you have needed?",
+      "Katherine answers every insult with a fact and never with anger. Why does she use that tone, and what does it cost her?",
+      "In your country, which jobs were 'not for' women or minorities thirty years ago? What has changed, and what has not?",
+      "Which line from the film would you teach to a class of ten-year-olds, and how would you explain it?"
+    ],
+    "gaps": [
+      {"line": "Here at NASA we all pee the same ___.", "answer": "color", "hint": "what you see in a rainbow", "adapted": false},
+      {"line": "Get the girl to check the ___.", "answer": "numbers", "hint": "what you do in maths", "adapted": false},
+      {"line": "Every time we get a chance to get ahead, they move the ___.", "answer": "finish line", "hint": "the end of a race", "adapted": false},
+      {"line": "I am not a computer. I am a ___.", "answer": "mathematician", "hint": "a person who works with numbers and proof", "adapted": true},
+      {"line": "Katherine checks a number three times. She cannot afford a ___.", "answer": "mistake", "hint": "something done wrong", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Here at NASA we all pee the same color.", "options": ["Al Harrison", "Paul Stafford", "Vivian Mitchell"], "answer": 0, "note": "Harrison's answer to the bathroom problem, said in front of the whole office."},
+      {"quote": "Get the girl to check the numbers.", "options": ["John Glenn", "Al Harrison", "Paul Stafford"], "answer": 0, "note": "The astronaut trusts her more than he trusts the machine."},
+      {"quote": "Every time we get a chance to get ahead, they move the finish line.", "options": ["Dorothy Vaughan", "Mary Jackson", "Vivian Mitchell"], "answer": 0, "note": "Dorothy's summary of the whole film, said quietly in a corridor."}
+    ],
+    "quiz": [
+      {"q": "Where does the film take place?", "options": ["NASA Langley, Virginia", "Houston, Texas", "Cape Canaveral, Florida"], "answer": 0, "why": "It is the Langley Research Center in Hampton, Virginia, in 1961."},
+      {"q": "What is Katherine's job at the start?", "options": ["A human calculator in the West Area Computing group", "An engineer in the Space Task Group", "A secretary"], "answer": 0, "why": "She is a 'computer' — a woman who does the maths by hand."},
+      {"q": "What does Mary want?", "options": ["To become an engineer", "To be a teacher", "To move north"], "answer": 0, "why": "She has the degree, but the classes she needs are held at a whites-only school."},
+      {"q": "What new machine threatens the women's jobs?", "options": ["The IBM mainframe computer", "A new rocket", "A satellite"], "answer": 0, "why": "The IBM 7090 can do their work faster, so Dorothy learns to program it."},
+      {"q": "Why does John Glenn ask for Katherine before the launch?", "options": ["He trusts her numbers", "He wants a photograph", "He needs her to translate"], "answer": 0, "why": "He refuses to fly until she has checked the figures herself."}
+    ],
+    "roleplay": {
+      "title": "The courtroom",
+      "setting": "A small Virginia courtroom in 1961. A judge, a young Black woman, and a clerk who knows every rule and enjoys reading them out.",
+      "roles": [
+        {"role": "Mary Jackson", "brief": "You want to attend night classes at a whites-only school so you can become an engineer. Be calm, be specific, and do not insult the state."},
+        {"role": "The judge", "brief": "You are busy and you have heard every argument. You need one reason to say yes that will not make you look foolish."},
+        {"role": "The clerk", "brief": "You read the rules aloud, slowly, with pleasure. You are not on anybody's side, but you enjoy being right."}
+      ],
+      "challenge": "Mary has two minutes and one precedent to use. Then swap: the judge must rule against her and still sound convincing."
+    },
+    "quest": [
+      {"title": "Station 1 · The sign", "task": "What does Al Harrison do to the bathroom sign, and what has Katherine been doing before that?", "answer": "He tears it down; she has been running to another building", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "What did the word 'computer' mean at NASA in 1961? Find a word for separating people by race, and the verb for asking a court for something.", "answer": "A person who calculates; segregated; petition", "points": 10},
+      {"title": "Station 3 · The letter home", "task": "Write four sentences from Katherine to her family after her first week in the Space Task Group, using 'to double-check'. Keep it dry and funny.", "answer": "Any four sentences using the phrase", "points": 15},
+      {"title": "Station 4 · Order of events", "task": "Put these in order: the car breaks down, Katherine joins the Space Task Group, Dorothy takes the library book, Glenn's launch.", "answer": "Car, Space Task Group, library book, launch", "points": 10}
+    ]
+  }
+]

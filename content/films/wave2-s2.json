@@ -1,0 +1,589 @@
+[
+  {
+    "id": "ted-lasso-s1e1",
+    "title": "Ted Lasso",
+    "kind": "series",
+    "episode": "S1E1",
+    "episodeTitle": "Pilot",
+    "year": 2020,
+    "level": "B2",
+    "runtime": 30,
+    "genres": ["comedy", "sport"],
+    "director": "Tom Marshall",
+    "country": "USA",
+    "age": "15+",
+    "mood": "warm",
+    "logline": "An American college football coach arrives in London to manage a Premier League club he knows nothing about, and the owner has her own reasons for hiring him.",
+    "why": "The humour comes from culture clash rather than plot, so the jokes still work if a line is missed, and the football and office vocabulary repeats across scenes. Ted's slow, warm American delivery is a useful counterweight to the fast British banter around him.",
+    "language": "Kansas American English - slow, warm and full of folksy idioms - against fast London speech, with football slang such as 'gaffer', 'pitch' and 'into touch'.",
+    "content": "Frequent strong language, including a homophobic slur in the opening scene, crude jokes, and a marriage in difficulty; Ted's son is in America.",
+    "scenes": [
+      {
+        "at": "00:02:10",
+        "title": "Fired in four minutes",
+        "task": "Rebecca ends the manager's contract and then tells Higgins who she wants next. Note the exact reason she gives, and what Higgins does with his face.",
+        "type": "listen"
+      },
+      {
+        "at": "00:09:30",
+        "title": "Nobody asks my name",
+        "task": "Watch the man who carries the bags. What is his name, who introduces him, and how does Ted treat him differently from everyone else?",
+        "type": "observe"
+      },
+      {
+        "at": "00:16:20",
+        "title": "Two halves, not quarters",
+        "task": "Pause after the first press question. List three things Ted gets wrong about football, then predict how the room will react.",
+        "type": "predict"
+      },
+      {
+        "at": "00:24:50",
+        "title": "Straighten the sign",
+        "task": "Ted is hanging a sign in the locker room. Say the word on it out loud, then explain why Keeley's help matters to him.",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "gaffer", "def": "British slang for the manager of a team", "ex": "Nathan explains that the players call the manager the gaffer."},
+      {"w": "pitch", "def": "the field where football is played", "ex": "Ted is politely told to get off the pitch."},
+      {"w": "kit man", "def": "the person who looks after a team's clothes and equipment", "ex": "Nate is the kit man, and nobody usually asks his name."},
+      {"w": "into touch", "def": "off the side of the pitch, out of play", "ex": "Beard bets Ted five dollars that he can use 'into touch' in a sentence."},
+      {"w": "ussie", "def": "British slang for a photo of two or more people", "ex": "A stranger at the airport asks Ted for an ussie."},
+      {"w": "banter", "def": "friendly joking and teasing between people", "ex": "The British banter in the press room is much faster than Ted's jokes."}
+    ],
+    "questions": [
+      "Rebecca hires Ted for a reason she keeps to herself. Is she a villain, a businesswoman, or something more complicated?",
+      "Ted knows almost nothing about football. Could not knowing the rules ever make a coach better? Why?",
+      "Ted asks Nate his name, and Nate says nobody ever does. Why does that small moment matter in a workplace?",
+      "How would the sports journalists in your country treat a foreign coach who did not know the sport? Would they be as rude as Trent Crimm?",
+      "Which culture clash is funniest to you: the tea, 'two halves', the ussie, or the press conference? Explain the joke to someone who missed it.",
+      "Roy calls Ted 'Ronald McDonald'. Is that cruelty, humour, or a test? How does Ted answer it?",
+      "At the end Ted's wife asks for space. Should a big job ever come before a marriage? What would you do?",
+      "Which line would you steal for your own English? Say it with Ted's rhythm, then with Roy's."
+    ],
+    "gaps": [
+      {"line": "No one ever asks my ___.", "answer": "name", "hint": "what people call you", "adapted": false},
+      {"line": "I want to ___ Rupert.", "answer": "torture", "hint": "make him suffer", "adapted": false},
+      {"line": "You could fill two ___ with what I don't know about football.", "answer": "internets", "hint": "the plural is the joke", "adapted": false},
+      {"line": "I have never coached the sport that you folks call ___.", "answer": "football", "hint": "soccer, in British English", "adapted": false},
+      {"line": "I always figured tea was just gonna taste like hot brown ___.", "answer": "water", "hint": "you drink it, but not from a kettle", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "No one ever asks my name.", "options": ["Nate", "Ted", "Roy"], "answer": 0, "note": "The kit man says it without self-pity - and Ted immediately asks."},
+      {"quote": "I want to torture Rupert.", "options": ["Rebecca", "Higgins", "Keeley"], "answer": 0, "note": "Said to Higgins after the press conference: the owner's real plan, in one line."},
+      {"quote": "I appreciate that.", "options": ["Ted", "Coach Beard", "Trent Crimm"], "answer": 0, "note": "Ted's all-purpose reply, used here when Beard tells him to prove the press wrong."}
+    ],
+    "quiz": [
+      {"q": "Which club does Ted agree to manage?", "options": ["AFC Richmond", "Wichita State", "Crystal Palace"], "answer": 0, "why": "Rebecca Welton hires him for AFC Richmond, a Premier League club."},
+      {"q": "What was Ted's job before he came to London?", "options": ["College American football coach", "Premier League scout", "Sports journalist"], "answer": 0, "why": "He coached the Wichita State Shockers to a national title in American football."},
+      {"q": "Why does Rebecca hire Ted?", "options": ["To damage the club her ex-husband loved", "Because he is the best coach available", "Because the players asked for him"], "answer": 0, "why": "She tells Higgins she wants to burn the club to the ground to hurt Rupert."},
+      {"q": "What does Ted hang in the locker room?", "options": ["A sign saying Believe", "A photo of his son", "An American flag"], "answer": 0, "why": "Keeley helps him straighten a sign with one word on it: Believe."},
+      {"q": "Who helps Ted with the sign?", "options": ["Keeley", "Rebecca", "Nate"], "answer": 0, "why": "Keeley, Jamie's girlfriend, is waiting for his phone and ends up helping."}
+    ],
+    "roleplay": {
+      "title": "The first press conference",
+      "setting": "A cramped press room in a football stadium. Thirty reporters, one microphone, and a new manager who has never coached the sport.",
+      "roles": [
+        {"role": "Ted", "brief": "You are friendly and relaxed. You answer every question with a story, a joke or a compliment, and you never admit that you are lost."},
+        {"role": "Trent Crimm", "brief": "You are polite, precise and dangerous. You want one straight answer, and you keep asking the same question in different words."},
+        {"role": "Rebecca", "brief": "You stand at the back. You want him to fail, but you must look supportive in front of the press."}
+      ],
+      "challenge": "Play it twice: once with Ted winning the room, once with Ted losing it. The journalists decide which one they believed."
+    },
+    "quest": [
+      {"title": "Station 1 - Name check", "task": "Find the moment the kit man introduces himself. Write his name and the thing he says nobody ever does.", "answer": "Nate; he says nobody ever asks his name", "points": 10},
+      {"title": "Station 2 - Word hunt", "task": "Find the British words for: the manager, the field, and the ball going off the side of the pitch.", "answer": "gaffer, pitch, into touch", "points": 10},
+      {"title": "Station 3 - Team talk", "task": "Write a 30-second team talk in Ted's voice. Use one American word, one British word and one compliment for each player. Perform it.", "answer": "Any talk with a US word, a UK word and a compliment", "points": 15},
+      {"title": "Station 4 - Order of events", "task": "Put in order: the press conference, Rebecca firing the old manager, Keeley and the sign, Ted meeting Nate.", "answer": "firing, meeting Nate, press conference, the sign", "points": 10}
+    ]
+  },
+  {
+    "id": "brooklyn-99-s1e1",
+    "title": "Brooklyn Nine-Nine",
+    "kind": "series",
+    "episode": "S1E1",
+    "episodeTitle": "Pilot",
+    "year": 2013,
+    "level": "B2",
+    "runtime": 23,
+    "genres": ["comedy", "crime"],
+    "director": "Phil Lord & Christopher Miller",
+    "country": "USA",
+    "age": "12+",
+    "mood": "cool",
+    "logline": "A brilliant but childish detective gets a new, painfully serious captain, and a bet with his rival turns every arrest into a race.",
+    "why": "The pilot moves fast and overlaps its jokes, but the situation is clear from the sets and uniforms, so learners can follow the case while catching maybe half the gags. Holt's deadpan sentences are short, complete and easy to shadow.",
+    "language": "Fast New York English with overlapping banter and police slang; Holt speaks slowly and formally, without contractions, which makes a useful listening contrast.",
+    "content": "Mild innuendo and some strong language; a murder investigation with a body, played for laughs. Captain Holt is openly gay, and the squad treats it as ordinary.",
+    "scenes": [
+      {
+        "at": "00:03:10",
+        "title": "The teddy bear",
+        "task": "Pause when Jake finds the camera. What was it hidden inside, and why does Amy refuse to call that good police work?",
+        "type": "observe"
+      },
+      {
+        "at": "00:08:40",
+        "title": "The new captain",
+        "task": "Holt walks in while Jake is imitating him. Note the order Holt gives about clothing, and how he makes Jake repeat his own words.",
+        "type": "listen"
+      },
+      {
+        "at": "00:15:20",
+        "title": "The files",
+        "task": "Terry describes each detective for Holt. Write one adjective for each one, then predict who will cause the captain the most trouble.",
+        "type": "predict"
+      },
+      {
+        "at": "00:20:40",
+        "title": "In the car",
+        "task": "Holt tells Jake something personal while they wait. Watch Jake's face: why does the joke suddenly become uncomfortable?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "precinct", "def": "a local police station and the area it covers", "ex": "The 99th precinct is in Brooklyn."},
+      {"w": "perp", "def": "police slang for a person who commits a crime", "ex": "Jake jokes with the perp while he arrests him."},
+      {"w": "suspect", "def": "a person the police think may have committed a crime", "ex": "The suspect, Ratko, escapes from the interview."},
+      {"w": "bet", "def": "an agreement where the loser pays or does something", "ex": "Jake and Amy make a bet about who can make more arrests."},
+      {"w": "civilian", "def": "a person who is not in the police or the army", "ex": "Gina is the civilian administrator of the precinct."},
+      {"w": "deadpan", "def": "saying something funny with no expression at all", "ex": "Holt's deadpan delivery is funnier than any joke."}
+    ],
+    "questions": [
+      "Jake is a great detective and a terrible adult. Can someone be excellent at their job and still be a problem for the people around them?",
+      "Holt makes Jake wear a tie. Is that about discipline, respect, or power? What do work clothes mean in your country?",
+      "Amy and Jake bet a car against a date. Is that competitive fun or something less healthy?",
+      "Terry is on administrative leave and talks about it carefully. How do police series in your country show officers' private fears?",
+      "Boyle cannot ask Rosa out. What advice would you give him, and what advice would you give Rosa?",
+      "Gina calls herself the most important person in the room. Is confidence like hers a strength or a shield?",
+      "Holt is openly gay and the show makes no drama of it. Why does that still matter on television?",
+      "Which line made you laugh? Say it in Holt's voice, then in Jake's - the same words, two different characters."
+    ],
+    "gaps": [
+      {"line": "Detective, you're not wearing a ___.", "answer": "tie", "hint": "you wear it round your neck", "adapted": true},
+      {"line": "Detective, I'm ___.", "answer": "gay", "hint": "the fact he states without apology", "adapted": true},
+      {"line": "If I win, you go on a ___ with me.", "answer": "date", "hint": "an evening with someone you like", "adapted": true},
+      {"line": "The camera was hidden inside a teddy ___.", "answer": "bear", "hint": "a soft toy animal", "adapted": true},
+      {"line": "He keeps his things in a storage ___ in Boerum Hill.", "answer": "unit", "hint": "a rented metal room", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "I'm gay.", "options": ["Holt", "Jake", "Boyle"], "answer": 0, "note": "He says it plainly in the car. The comedy is Jake's awkwardness, not the fact itself."},
+      {"quote": "You're not wearing a tie.", "options": ["Holt", "Terry", "Gina"], "answer": 0, "note": "His first order to Jake, and the start of a small running argument."},
+      {"quote": "You got lucky.", "options": ["Amy", "Rosa", "Holt"], "answer": 0, "note": "Amy's verdict after Jake solves the electronics robbery - the bet starts here."}
+    ],
+    "quiz": [
+      {"q": "Where does the squad work?", "options": ["The 99th precinct in Brooklyn", "The 12th precinct in Manhattan", "A police station in Queens"], "answer": 0, "why": "The whole series is set in the fictional 99th precinct of the NYPD."},
+      {"q": "Who is the new commanding officer?", "options": ["Raymond Holt", "Terry Jeffords", "Michael Hitchcock"], "answer": 0, "why": "Captain Holt arrives after the old captain retires."},
+      {"q": "What does Holt tell Jake to wear?", "options": ["A necktie", "A uniform hat", "A badge on his belt"], "answer": 0, "why": "Holt wants the detectives to look like a team, not a group of individuals."},
+      {"q": "What is the prize if Jake wins the bet?", "options": ["A date with Amy", "Amy's car", "A week off"], "answer": 0, "why": "If Jake makes more arrests, Amy goes on a date with him; if she wins, she gets his car."},
+      {"q": "How does Jake identify the robber in the electronics store?", "options": ["A teddy bear with a hidden camera", "A fingerprint on the till", "A witness's phone video"], "answer": 0, "why": "The bear's camera filmed the robbery, and Jake spots it in the footage."}
+    ],
+    "roleplay": {
+      "title": "The morning briefing",
+      "setting": "The briefing room at 8 a.m. Everyone is standing. The new captain has a list of rules and the squad has a hundred jokes.",
+      "roles": [
+        {"role": "Holt", "brief": "You speak in complete sentences, never use contractions, and never laugh. You are not trying to be liked. You are trying to be understood."},
+        {"role": "Jake", "brief": "You are funny and you know it. You test every rule with a joke, but you also want the captain to think you are good at your job."},
+        {"role": "Terry", "brief": "You are the sergeant. You have to keep both men in the room and the meeting moving, and you are scared of neither of them."}
+      ],
+      "challenge": "Play Holt once as a machine and once as a human being. The squad guesses which version will last longer than a week."
+    },
+    "quest": [
+      {"title": "Station 1 - The toy", "task": "What was hidden inside the teddy bear, and what did it show? Name the object and the crime.", "answer": "A small camera; it filmed the electronics robbery", "points": 10},
+      {"title": "Station 2 - Job words", "task": "Find the words for: the area a station covers, the person the police think did it, and someone who is not police.", "answer": "precinct, suspect, civilian", "points": 10},
+      {"title": "Station 3 - Holt's rules", "task": "Write three precinct rules in Holt's voice: full sentences, no contractions, no jokes. Read them out without smiling.", "answer": "Any three formal rules, no contractions", "points": 15},
+      {"title": "Station 4 - Order", "task": "Put in order: the teddy bear, the morning briefing, the conversation in the car, Ratko's arrest.", "answer": "teddy bear, briefing, car, arrest", "points": 10}
+    ]
+  },
+  {
+    "id": "sherlock-s1e1",
+    "title": "Sherlock",
+    "kind": "series",
+    "episode": "S1E1",
+    "episodeTitle": "A Study in Pink",
+    "year": 2010,
+    "level": "C1",
+    "runtime": 88,
+    "genres": ["crime", "mystery", "drama"],
+    "director": "Paul McGuigan",
+    "country": "UK",
+    "age": "12+",
+    "mood": "cool",
+    "logline": "A doctor home from Afghanistan needs a flat and a reason to get up; the man who offers him both solves the crimes the police cannot.",
+    "why": "Sherlock's deduction monologues are dense, fast and full of inference, which is exactly the listening C1 learners need to practise. The case is familiar and visual, so the class can pause, replay and rebuild the reasoning without losing the story.",
+    "language": "Fast London British English, clipped and overlapping; Sherlock speaks in rapid lists, while John's slower, plainer English gives the ear somewhere to rest.",
+    "content": "Deaths staged to look like suicide, a man held at gunpoint, a pill that may be poison, and a shooting; almost no blood is shown.",
+    "scenes": [
+      {
+        "at": "00:06:30",
+        "title": "Nothing happens to me",
+        "task": "With subtitles off, listen to John and his therapist. Write down the sentence he uses about his own life, then check it with subtitles on.",
+        "type": "listen"
+      },
+      {
+        "at": "00:26:40",
+        "title": "One word on the floor",
+        "task": "Pause before Sherlock explains. The dying woman scratched four letters. Guess the word, then listen to how her coat, her case and the rain prove it.",
+        "type": "think"
+      },
+      {
+        "at": "00:51:20",
+        "title": "The phone in the pocket",
+        "task": "Subtitles off for the taxi ride. Count how many facts Sherlock reads from John's phone, then compare your list with a partner.",
+        "type": "listen"
+      },
+      {
+        "at": "01:17:30",
+        "title": "Two bottles",
+        "task": "Pause when the cabbie puts the bottles down. What is the game, and why does he need a player rather than a victim?",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "deduction", "def": "a conclusion reached by reasoning from evidence", "ex": "Sherlock explains each deduction while the police watch."},
+      {"w": "psychosomatic", "def": "a real symptom caused by the mind, not the body", "ex": "Sherlock says John's limp is psychosomatic."},
+      {"w": "morgue", "def": "a place where dead bodies are kept", "ex": "Molly works in the morgue and lets Sherlock examine bodies."},
+      {"w": "landlady", "def": "a woman who rents rooms to other people", "ex": "Mrs Hudson is the landlady at 221B Baker Street."},
+      {"w": "serial", "def": "happening again and again in a series", "ex": "The police call the deaths serial suicides."},
+      {"w": "consulting detective", "def": "a detective paid to advise the police", "ex": "Sherlock invented the job of consulting detective."}
+    ],
+    "questions": [
+      "Sherlock tells John he is an army doctor before John says a word. Is that brilliant, rude, or both?",
+      "John says 'Nothing happens to me'. Why does he accept a flat with a man he has just met?",
+      "Would you share a flat with someone like Sherlock? What would be the first thing to drive you mad?",
+      "The police call the deaths suicides and stop looking. Why is it dangerous to accept the easy explanation?",
+      "How do police series in your country show the relationship between the detective and the police? Is Sherlock an insult to them?",
+      "Mycroft pretends to be an enemy and turns out to be a brother. Which other characters in the episode are not what they seem?",
+      "Molly brings coffee and gets a lecture about her lipstick. Is Sherlock cruel, or simply unable to see her? Does it matter?",
+      "Which deduction did you follow, and which one lost you? Which line would you replay to catch it?"
+    ],
+    "gaps": [
+      {"line": "Afghanistan or ___?", "answer": "iraq", "hint": "the other war", "adapted": false},
+      {"line": "I'm not a psychopath, I'm a high-functioning ___.", "answer": "sociopath", "hint": "a person who ignores other people's feelings", "adapted": false},
+      {"line": "The game, Mrs. Hudson, is ___!", "answer": "on", "hint": "it has started", "adapted": false},
+      {"line": "Because you're an ___.", "answer": "idiot", "hint": "not clever - Sherlock's verdict on most people", "adapted": false},
+      {"line": "It's a 50-50 ___.", "answer": "chance", "hint": "one or the other, no skill", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "I'm not a psychopath, I'm a high-functioning sociopath.", "options": ["Sherlock", "Anderson", "Lestrade"], "answer": 0, "note": "Said to Anderson during the fake drugs bust. The correction matters to him."},
+      {"quote": "I occupy a minor position in the British Government.", "options": ["Mycroft", "Sherlock", "Lestrade"], "answer": 0, "note": "Mycroft's understatement - he is the British Government in everything but name."},
+      {"quote": "You're an army doctor.", "options": ["Sherlock", "Mike Stamford", "Mycroft"], "answer": 0, "note": "Sherlock's first deduction about John, in the lab at Bart's."}
+    ],
+    "quiz": [
+      {"q": "How did John Watson get his injury?", "options": ["Serving as an army doctor in Afghanistan", "A car accident in London", "A climbing accident in Scotland"], "answer": 0, "why": "He was invalided home after being wounded in Afghanistan."},
+      {"q": "What does Sherlock call his job?", "options": ["A consulting detective", "A private investigator", "A police consultant"], "answer": 0, "why": "He says he invented the job: the police consult him when they are out of their depth."},
+      {"q": "What name does Sherlock think the dying woman was trying to write?", "options": ["Rachel", "Rache", "Rebecca"], "answer": 0, "why": "The letters on the floor are R-a-c-h-e; Sherlock argues she was starting 'Rachel', her dead daughter's name and her phone password."},
+      {"q": "What is the killer's game?", "options": ["The victim chooses one of two pills", "The victim runs a maze", "The victim answers three riddles"], "answer": 0, "why": "One pill is harmless and one is poison; he takes the other, so the deaths look like suicides."},
+      {"q": "Who is the killer?", "options": ["A London cab driver", "A police officer", "A journalist"], "answer": 0, "why": "The cabbie picks up victims who are alone and offers them a lift and a choice."}
+    ],
+    "roleplay": {
+      "title": "The client on the stairs",
+      "setting": "221B Baker Street, late evening. A new client arrives with a problem and no idea how much she has already told Sherlock.",
+      "roles": [
+        {"role": "Sherlock", "brief": "You deduce out loud and ask no polite questions. You are delighted by the case and bored by the person."},
+        {"role": "The client", "brief": "You are nervous and you are hiding one true fact. You answer questions with as little as possible."},
+        {"role": "John", "brief": "You try to make the conversation normal, offer tea, and quietly notice the fact the client is hiding."}
+      ],
+      "challenge": "The client must hide one true fact. Sherlock must name it in under two minutes using only what he can see."
+    },
+    "quest": [
+      {"title": "Station 1 - The pink case", "task": "What was the dead woman's name, and what word was she trying to write on the floor?", "answer": "Jennifer Wilson; she tried to write Rachel", "points": 10},
+      {"title": "Station 2 - Detective words", "task": "Find the words for: a reasoned conclusion, a symptom caused by the mind, and the person who rents you a room.", "answer": "deduction, psychosomatic, landlady", "points": 10},
+      {"title": "Station 3 - Deduce a classmate", "task": "Choose one person in the room. Write three deductions from their shoes, bag and hands. Read them out; the person says which are true.", "answer": "Three deductions, at least one correct", "points": 15},
+      {"title": "Station 4 - Order", "task": "Put in order: the taxi ride, the crime scene in pink, John meeting Mike Stamford, the shot through the window.", "answer": "Mike, pink crime scene, taxi, the shot", "points": 10}
+    ]
+  },
+  {
+    "id": "the-crown-s1e1",
+    "title": "The Crown",
+    "kind": "series",
+    "episode": "S1E1",
+    "episodeTitle": "Wolferton Splash",
+    "year": 2016,
+    "level": "C1",
+    "runtime": 57,
+    "genres": ["historical", "drama"],
+    "director": "Stephen Daldry",
+    "country": "UK",
+    "age": "12+",
+    "mood": "sepia",
+    "logline": "A princess marries a prince who gives up his titles, and her father's failing health quietly changes what the family must prepare for.",
+    "why": "The story is historical and clear, so the difficulty is language rather than plot: 1950s court English, indirect requests and a great deal of meaning carried by silence. That register is exactly what C1 learners need to hear and then imitate.",
+    "language": "Period upper-class British English - clipped, formal and full of understatement - with the King's slower, warmer speech and Churchill's theatrical delivery.",
+    "content": "Lung cancer, surgery and a terminal diagnosis; the King keeps the truth from his family, and a hunting scene shows shot birds.",
+    "scenes": [
+      {
+        "at": "00:07:40",
+        "title": "The man without a country",
+        "task": "Listen to how Philip's new name and title are announced. What does he give up, and what does the wedding give him?",
+        "type": "listen"
+      },
+      {
+        "at": "00:19:50",
+        "title": "Malta",
+        "task": "Pause on the ordinary domestic scene. List three things this couple can do here that they could never do in London.",
+        "type": "observe"
+      },
+      {
+        "at": "00:36:30",
+        "title": "The words they use",
+        "task": "Watch the scene between the King and his doctor. Write down the words they use for the illness, and notice what the King does not ask.",
+        "type": "listen"
+      },
+      {
+        "at": "00:50:20",
+        "title": "A private word",
+        "task": "The King asks Elizabeth to take his place abroad. Predict what she understands and what she does not.",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "abdicate", "def": "to give up the throne as king or queen", "ex": "Edward VIII abdicated in 1936, and the family has not forgotten it."},
+      {"w": "equerry", "def": "an officer who attends a member of the royal family", "ex": "Peter Townsend is the King's equerry."},
+      {"w": "consort", "def": "the husband or wife of a king or queen", "ex": "Philip will be the consort of a queen."},
+      {"w": "accession", "def": "the moment someone becomes king or queen", "ex": "Nobody in the family says the word accession out loud."},
+      {"w": "confide", "def": "to tell someone a secret, trusting them", "ex": "The King confides in Churchill before he tells his family."},
+      {"w": "physician", "def": "a doctor, especially one for a family or a court", "ex": "The physician shows the King the X-ray."}
+    ],
+    "questions": [
+      "Philip gives up his titles and his religion to marry. Is that love, ambition, or both?",
+      "The Queen Mother and Queen Mary are not kind about Philip's family. Why do royal families care so much about who marries in?",
+      "Would you give up your nationality for the person you love? What would you refuse to give up?",
+      "The King tells Churchill before he tells his wife and daughters. Is that protection or cowardice?",
+      "In your country, how do families talk about a serious illness? Is silence a form of respect or a form of lying?",
+      "Elizabeth is asked to take her father's place on a tour. When does a daughter stop being a daughter and start being an office?",
+      "Margaret asks her sister to keep a secret about a man. Should a future queen keep a sister's secret?",
+      "Which line sounded most foreign to you - too formal, too indirect, too polite? Try saying it in modern English."
+    ],
+    "gaps": [
+      {"line": "There may be no greater act of ___.", "answer": "patriotism", "hint": "love of your country", "adapted": false},
+      {"line": "I pronounce that they be man and ___ together.", "answer": "wife", "hint": "the other half of the wedding pair", "adapted": false},
+      {"line": "It is a shadow on your ___.", "answer": "lung", "hint": "the organ they operate on", "adapted": true},
+      {"line": "You must take my ___ on this tour.", "answer": "place", "hint": "instead of me", "adapted": true},
+      {"line": "Not a word to ___.", "answer": "anyone", "hint": "no person at all", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "There may be no greater act of patriotism. Or love.", "options": ["King George VI", "Winston Churchill", "Lord Mountbatten"], "answer": 0, "note": "The King, on Philip renouncing his titles in order to marry Elizabeth."},
+      {"quote": "I pronounce that they be man and wife together.", "options": ["The Archbishop of Canterbury", "The King", "The Duke of Edinburgh"], "answer": 0, "note": "The wedding service in Westminster Abbey, 1947."},
+      {"quote": "Not a word to anyone.", "options": ["King George VI", "Queen Mary", "Anthony Eden"], "answer": 0, "note": "The King's instruction to Churchill about his diagnosis - his family are not told."}
+    ],
+    "quiz": [
+      {"q": "Why does Philip renounce his Greek and Danish titles?", "options": ["So he can marry Elizabeth as a British subject", "Because he wants to join the army", "Because the King orders him to leave Britain"], "answer": 0, "why": "He becomes Lieutenant Philip Mountbatten, a British citizen, before the wedding."},
+      {"q": "Where do Elizabeth and Philip live for several years after the wedding?", "options": ["Malta", "Canada", "Scotland"], "answer": 0, "why": "Philip serves in the Royal Navy there, and they live far more simply than in London."},
+      {"q": "Who becomes Prime Minister again in 1951?", "options": ["Winston Churchill", "Clement Attlee", "Anthony Eden"], "answer": 0, "why": "Churchill wins the general election, to the King's relief."},
+      {"q": "What does the King ask Elizabeth to do?", "options": ["Take his place on a Commonwealth tour", "Move into Buckingham Palace at once", "Give up her title"], "answer": 0, "why": "He asks her to represent him abroad, and the request carries more than it says."},
+      {"q": "What secret does Margaret ask Elizabeth to keep?", "options": ["That she is in love with Peter Townsend", "That she wants to leave London", "That she has refused a proposal"], "answer": 0, "why": "Margaret confides in her sister about Townsend, the King's equerry."}
+    ],
+    "roleplay": {
+      "title": "The Christmas shoot",
+      "setting": "Sandringham, December 1951. Between the birds and the guns, the King has something to say to his son-in-law and cannot say it.",
+      "roles": [
+        {"role": "King George VI", "brief": "You are tired, formal and indirect. You talk about the estate, the weather and the future, and never name the thing you mean."},
+        {"role": "Philip", "brief": "You are restless and blunt. You want instructions, not atmosphere, and you keep almost understanding."},
+        {"role": "A courtier", "brief": "You keep the conversation polite and you interrupt at exactly the wrong moments, because that is your job."}
+      ],
+      "challenge": "Nobody may say the word 'death'. Play it once as a hunting scene and once as a farewell."
+    },
+    "quest": [
+      {"title": "Station 1 - The renunciation", "task": "Name two things Philip gives up before the wedding, and one thing he gains.", "answer": "His Greek and Danish titles and his Orthodox faith; he becomes Duke of Edinburgh", "points": 10},
+      {"title": "Station 2 - Court language", "task": "Find the words for: a royal husband, an officer who attends the King, and the moment a monarch begins to rule.", "answer": "consort, equerry, accession", "points": 10},
+      {"title": "Station 3 - The announcement", "task": "Write the palace announcement of the engagement in 1947 style: no contractions, no first names, two sentences. Read it aloud.", "answer": "Any formal two-sentence announcement", "points": 15},
+      {"title": "Station 4 - Four years", "task": "The episode runs from November 1947 to December 1951. How many years is that, and which two events frame it?", "answer": "Four years; the wedding and the King's illness", "points": 10}
+    ]
+  },
+  {
+    "id": "black-mirror-s1e1",
+    "title": "Black Mirror",
+    "kind": "series",
+    "episode": "S1E1",
+    "episodeTitle": "National Anthem",
+    "year": 2011,
+    "level": "C1",
+    "runtime": 44,
+    "genres": ["thriller", "drama"],
+    "director": "Otto Bathurst",
+    "country": "UK",
+    "age": "15+",
+    "mood": "ice",
+    "logline": "A beloved princess is kidnapped, and the ransom is a demand the Prime Minister cannot imagine accepting - while the whole country watches.",
+    "why": "The vocabulary is mostly media and politics, which is useful and repeatable, but the real work is inference: reading a public reaction, a headline, a silence. That makes it a strong C1 text about how meaning is made, not just about what is said.",
+    "language": "Neutral British English, with the flat register of TV news in the studio scenes and very fast overlapping speech in the government meetings.",
+    "content": "The premise is a live broadcast of a coerced sexual act with an animal - stated plainly, never shown. Strong language, a severed finger, and adult material: 18+ in tone.",
+    "scenes": [
+      {
+        "at": "00:05:30",
+        "title": "The demand goes viral",
+        "task": "Pause on the phone screen. Which platform shows the video first, and what does the number under it do while you watch?",
+        "type": "observe"
+      },
+      {
+        "at": "00:16:20",
+        "title": "The blackout fails",
+        "task": "Listen to the meeting with the editors. Who decides whether the story runs, and which argument wins?",
+        "type": "listen"
+      },
+      {
+        "at": "00:28:40",
+        "title": "A body double",
+        "task": "The Home Secretary has a plan that is not what the Prime Minister thinks. Predict how the public will react when they learn about it.",
+        "type": "predict"
+      },
+      {
+        "at": "00:39:50",
+        "title": "The broadcast",
+        "task": "Pause before the broadcast begins. The camera stays outside the room: what does the episode refuse to show, and why does that make it worse?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "ransom", "def": "a demand made in exchange for a captured person", "ex": "The kidnapper posts his ransom demand on YouTube."},
+      {"w": "broadcast", "def": "to send out a programme on television or radio", "ex": "The Prime Minister has to appear in a live broadcast."},
+      {"w": "D-notice", "def": "an official request to the British media not to report a story", "ex": "The government issues a D-notice, and the newspapers ignore it."},
+      {"w": "trending", "def": "being discussed by very many people online", "ex": "The princess is trending within an hour."},
+      {"w": "fabricated", "def": "invented, not real", "ex": "The Home Secretary arranges a fabricated video."},
+      {"w": "coerced", "def": "forced to do something by threat", "ex": "The Prime Minister is coerced into agreeing."}
+    ],
+    "questions": [
+      "The kidnapper asks for something absurd. Why does the country take the demand seriously within hours?",
+      "Who has more power in this episode: the Prime Minister, the press, or the public? Give evidence.",
+      "Would you watch the broadcast? Be honest - and explain what your answer says about the episode's argument.",
+      "How do the news channels in your country decide what not to report? Is a D-notice ever a good idea?",
+      "Jane says 'we love humiliation'. Is she describing the public, the media, or herself?",
+      "The Home Secretary acts without telling the Prime Minister. Is she protecting him or protecting the office?",
+      "Why does the episode end with approval ratings and a silent wife rather than with the act itself?",
+      "Which line made you uncomfortable in a good way? Try to say it without the irony."
+    ],
+    "gaps": [
+      {"line": "We love humiliation. We can't not ___.", "answer": "laugh", "hint": "the sound you make at a joke", "adapted": false},
+      {"line": "It's already happening in their ___.", "answer": "heads", "hint": "where imagination lives", "adapted": false},
+      {"line": "Nothing is going to ___.", "answer": "happen", "hint": "take place", "adapted": false},
+      {"line": "Don't ___ it, Martin.", "answer": "run", "hint": "publish the story", "adapted": false},
+      {"line": "The demand has been ___.", "answer": "made", "hint": "put forward, officially", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "We love humiliation. We can't not laugh.", "options": ["Jane Callow", "Alex Cairns", "Michael Callow"], "answer": 0, "note": "The Prime Minister's wife, telling him exactly what the country will do."},
+      {"quote": "Don't run it, Martin.", "options": ["Tom Blice", "Michael Callow", "Alex Cairns"], "answer": 0, "note": "A government official warns a news editor. Within hours the warning has failed."},
+      {"quote": "Page one, that's not happening.", "options": ["Michael Callow", "Tom Blice", "Martin"], "answer": 0, "note": "The Prime Minister's first answer to the demand - before he understands the pressure."}
+    ],
+    "quiz": [
+      {"q": "Who is kidnapped?", "options": ["Princess Susannah", "The Prime Minister's wife", "A television presenter"], "answer": 0, "why": "A young member of the royal family is taken from the street."},
+      {"q": "What does the kidnapper demand?", "options": ["That the Prime Minister perform a sexual act with a pig on live television", "A ransom of ten million pounds", "That the Prime Minister resign"], "answer": 0, "why": "The demand is posted online and shared by millions within hours."},
+      {"q": "What is a D-notice?", "options": ["An official request to the media not to report a story", "A warning about bad weather", "A police order to close a road"], "answer": 0, "why": "The government asks the press to stay silent, and the press refuses."},
+      {"q": "What does the Home Secretary arrange without telling the Prime Minister?", "options": ["A fabricated broadcast using a porn actor's body", "A military rescue", "A press conference"], "answer": 0, "why": "She plans to fake the broadcast rather than let him go through with it."},
+      {"q": "What does the audience learn after the broadcast?", "options": ["The princess had already been released", "The kidnapper was never found", "The Prime Minister resigned"], "answer": 0, "why": "She was freed thirty minutes before the broadcast, and the Home Secretary keeps it from him."}
+    ],
+    "roleplay": {
+      "title": "The crisis room",
+      "setting": "A government meeting at 3 a.m. One screen, one demand, and three people who each believe they are protecting the country.",
+      "roles": [
+        {"role": "Michael", "brief": "You are the Prime Minister. You want to refuse, you are starting to understand the pressure, and you hate that you are being managed."},
+        {"role": "Alex Cairns", "brief": "You are the Home Secretary. You are practical and ruthless, you are never shocked, and you have already made one decision without him."},
+        {"role": "Press officer", "brief": "You think only about tomorrow's front pages. Every ethical question is, for you, a question about headlines."}
+      ],
+      "challenge": "Argue for two minutes each. Nobody may describe the act itself - only its consequences. Then vote, and explain your vote."
+    },
+    "quest": [
+      {"title": "Station 1 - How it spreads", "task": "Name two places where the demand appears, and one number that shows how fast it spreads.", "answer": "YouTube and Twitter; tens of thousands of views in hours", "points": 10},
+      {"title": "Station 2 - Media words", "task": "Find the words for: a demand in exchange for a person, a news blackout, and something invented to look real.", "answer": "ransom, D-notice, fabricated", "points": 10},
+      {"title": "Station 3 - Tomorrow's papers", "task": "Write three front pages about the story: one supportive, one hostile, one tabloid. Six words maximum each.", "answer": "Any three six-word headlines", "points": 15},
+      {"title": "Station 4 - The numbers", "task": "How long before the broadcast was the princess released, and how many people watched?", "answer": "Thirty minutes before; 1.3 billion watched", "points": 10}
+    ]
+  },
+  {
+    "id": "fleabag-s1e1",
+    "title": "Fleabag",
+    "kind": "series",
+    "episode": "S1E1",
+    "episodeTitle": "Episode 1",
+    "year": 2016,
+    "level": "C2",
+    "runtime": 27,
+    "genres": ["comedy", "drama"],
+    "director": "Tim Kirkby",
+    "country": "UK",
+    "age": "15+",
+    "mood": "warm",
+    "logline": "A young Londoner runs a failing guinea-pig cafe, gets left by her boyfriend again, asks a bank for money, and tells us what she is really thinking.",
+    "why": "Almost nothing is explained: the meaning lives in tone, timing and what she does not say. The plot is simple enough to follow, so a C2 class can spend its energy on irony, address to camera and the grief underneath the jokes.",
+    "language": "Contemporary London British English, fast and casual, with swearing; the direct address to camera is quieter and slower than the dialogue around it.",
+    "content": "Frank sexual talk and references throughout, strong language, and grief for a mother and a best friend; the comedy is dark and the sadness is real.",
+    "scenes": [
+      {
+        "at": "00:02:40",
+        "title": "The look",
+        "task": "Watch the first aside to camera. What does her face ask us to do, and what is she careful not to say to the man beside her?",
+        "type": "observe"
+      },
+      {
+        "at": "00:10:20",
+        "title": "The loan meeting",
+        "task": "Subtitles off. Mark the exact moment the jokes stop protecting her. Then watch again with subtitles on and check the line.",
+        "type": "listen"
+      },
+      {
+        "at": "00:18:40",
+        "title": "Bad feminists",
+        "task": "At the lecture, the speaker asks for a show of hands. Who raises a hand, who does not, and what does the look between the sisters mean?",
+        "type": "think"
+      },
+      {
+        "at": "00:24:50",
+        "title": "The last look",
+        "task": "The final shot returns to the camera. What has she told us, and what has she kept? Write one sentence she does not say.",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "aside", "def": "a remark spoken to the audience, not to the other characters", "ex": "She gives us an aside while the man is still talking."},
+      {"w": "deadpan", "def": "a flat, serious delivery of something funny", "ex": "The deadpan delivery makes the confession worse and funnier."},
+      {"w": "subtext", "def": "the meaning underneath the words", "ex": "The subtext of the loan meeting is shame."},
+      {"w": "deflection", "def": "changing the subject so you do not have to feel it", "ex": "Jokes are her deflection, and everyone can see it."},
+      {"w": "facade", "def": "a false front that hides what someone really feels", "ex": "Her confidence is a facade that slips when she is alone."},
+      {"w": "grief", "def": "deep sadness after someone dies", "ex": "The grief is under every joke in the episode."}
+    ],
+    "questions": [
+      "She talks to us, not to the people in the room. What does that make us - friends, judges, or accomplices?",
+      "Why does she make a joke at the exact moment when honesty would be easier? Would you do that, or would you tell the truth?",
+      "The bank manager thinks she is offering sex for money. Is the scene funny, sad, or both? Where exactly does it turn?",
+      "How does your culture treat a woman who talks about sex as directly as Fleabag does? Would this episode be made there?",
+      "She says she is a 'bad feminist'. Is the show making fun of feminism, or of the impossibility of being a perfect one?",
+      "Which relationship in the episode is the most damaged: with Harry, with Claire, with her father, or with herself? Choose one.",
+      "Does the direct address to camera make her more honest or less? Could this story be told without it?",
+      "Which line landed hardest for you? Say it once for the joke and once for the truth underneath."
+    ],
+    "gaps": [
+      {"line": "We are ___ feminists.", "answer": "bad", "hint": "not good ones", "adapted": false},
+      {"line": "I can't even call myself a ___.", "answer": "feminist", "hint": "someone who believes in equality for women", "adapted": true},
+      {"line": "You get all that from your ___.", "answer": "mother", "hint": "the parent who died", "adapted": false},
+      {"line": "Would you trade five years of your life for the so-called '___ body'?", "answer": "perfect", "hint": "without a fault", "adapted": false},
+      {"line": "A greedy, perverted, selfish, apathetic, cynical, depraved, ___ bankrupt woman.", "answer": "morally", "hint": "about right and wrong", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "We are bad feminists.", "options": ["Fleabag", "Claire", "The lecturer"], "answer": 0, "note": "Whispered to Claire after both sisters raise their hands and see that nobody else has."},
+      {"quote": "You get all that from your mother.", "options": ["Dad", "Claire", "The Bank Manager"], "answer": 0, "note": "Her father's reply to her confession - affection and avoidance in one line."},
+      {"quote": "Would you trade five years of your life for the so-called 'perfect body'?", "options": ["The lecturer", "Fleabag", "Claire"], "answer": 0, "note": "The question that starts the episode's sharpest joke about feminism and vanity."}
+    ],
+    "quiz": [
+      {"q": "What kind of cafe does Fleabag run?", "options": ["A guinea-pig themed cafe", "A vegan bakery", "A cocktail bar"], "answer": 0, "why": "She and her friend Boo decorated it with guinea pigs."},
+      {"q": "Who is Boo?", "options": ["Her best friend and business partner, who has died", "Her sister", "Her bank manager"], "answer": 0, "why": "Boo's death is the loss the whole episode is built around."},
+      {"q": "Why does Fleabag go to the bank?", "options": ["To ask for a loan to keep the cafe open", "To open a savings account", "To complain about a charge"], "answer": 0, "why": "The cafe is failing and the lease is coming up for renewal."},
+      {"q": "What does the Bank Manager think she is doing?", "options": ["Trying to use sex to get the loan", "Trying to sell him the cafe", "Trying to rob him"], "answer": 0, "why": "He misreads her nervous joke - for once she really is not trying anything."},
+      {"q": "Who is Claire?", "options": ["Fleabag's sister", "Harry's new girlfriend", "The cafe's only customer"], "answer": 0, "why": "Claire is the high-achieving sister who raises her hand at the lecture too."}
+    ],
+    "roleplay": {
+      "title": "The interview, with asides",
+      "setting": "A bank office, 4 p.m. A small business owner needs money and a manager needs a reason to say yes.",
+      "roles": [
+        {"role": "Fleabag", "brief": "You are funny, evasive, and honest at all the wrong moments. You want this loan and you will not ask for it properly."},
+        {"role": "The Bank Manager", "brief": "You are tired and decent. You have heard every story, you want to help, and you are afraid of being made a fool of."}
+      ],
+      "challenge": "Perform it twice: once with asides to the audience, once without. The class guesses what the asides added - and what they hid."
+    },
+    "quest": [
+      {"title": "Station 1 - Hands up", "task": "At the lecture, how many people raise a hand, and what does Fleabag whisper to Claire?", "answer": "Two - Fleabag and Claire; 'We are bad feminists'", "points": 10},
+      {"title": "Station 2 - The language of hiding", "task": "Find the words for: a remark to the audience, the meaning under the words, and a false front.", "answer": "aside, subtext, facade", "points": 10},
+      {"title": "Station 3 - Your aside", "task": "Write and perform a 20-second aside about your day: polite words, honest face, no props.", "answer": "Any 20-second aside performed to camera", "points": 15},
+      {"title": "Station 4 - The money question", "task": "What does Fleabag need from the bank, and what does the manager think she wants?", "answer": "A loan for the cafe; he thinks she is offering sex", "points": 10}
+    ]
+  }
+]

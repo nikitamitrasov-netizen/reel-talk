@@ -1,0 +1,7 @@
+# local runtime data, never publish
+tools/votes.json
+tools/__pycache__/
+__pycache__/
+*.pyc
+.chrome-*/
+tools/_*.html

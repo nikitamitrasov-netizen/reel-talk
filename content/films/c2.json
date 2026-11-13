@@ -1,0 +1,952 @@
+[
+  {
+    "id": "mulholland-drive",
+    "title": "Mulholland Drive",
+    "year": 2001,
+    "level": "C2",
+    "runtime": 147,
+    "genres": ["mystery", "thriller", "noir"],
+    "director": "David Lynch",
+    "country": "USA",
+    "age": "18+",
+    "mood": "noir",
+    "logline": "A car crash on Mulholland Drive leaves a woman with no memory, and an aspiring actress finds her hiding in her aunt's Los Angeles apartment.",
+    "why": "The film runs on dream logic: scenes are joined by sound, colour and recurring objects rather than by explanation, so learners must read faces and rooms. It rewards the skills a C2 group is ready for — holding two readings at once and noticing what is deliberately missing.",
+    "language": "Calm American English with long pauses, whispered lines and a Spanish-speaking master of ceremonies; the second half repeats earlier dialogue in new mouths, so the same sentence changes meaning.",
+    "content": "Nudity and sex scenes, a graphic shooting, and sustained nightmare imagery; one of the darkest films in the club, 18+ and worth introducing with a warning.",
+    "scenes": [
+      {
+        "at": "00:09:30",
+        "title": "The crash on the hill",
+        "task": "Pause just after the crash. Describe the two cars, the road and the woman's face — what has the film told us without a single line?",
+        "type": "observe"
+      },
+      {
+        "at": "00:21:30",
+        "title": "Winkie's, early morning",
+        "task": "Listen to the man describing his dream. Note the three things he says will happen, then tick them off as the scene unfolds.",
+        "type": "listen"
+      },
+      {
+        "at": "00:58:00",
+        "title": "Betty's audition",
+        "task": "Watch the audition twice: once for Betty, once for the man watching her. What changes in her voice when she starts to act?",
+        "type": "think"
+      },
+      {
+        "at": "01:47:00",
+        "title": "No hay banda",
+        "task": "At Club Silencio everything is playback. Pause when the singer collapses: why does the film tell us the sound is fake and then make us cry anyway?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "amnesia", "def": "the loss of memory, usually after an accident", "ex": "Rita has amnesia, so she cannot explain who she is."},
+      {"w": "audition", "def": "a short performance to win an acting job", "ex": "Betty's audition is the calmest scene in the film."},
+      {"w": "doppelgänger", "def": "a double; another version of the same person", "ex": "The second half gives Betty a doppelgänger with a harder life."},
+      {"w": "eerie", "def": "strange in a way that quietly frightens you", "ex": "The empty apartment at night is eerie."},
+      {"w": "to be at sea", "def": "to be confused and unsure what is happening", "ex": "Most viewers are at sea for the first hour — on purpose."},
+      {"w": "to piece together", "def": "to understand something by joining small parts", "ex": "We piece the story together from a key, a box and a robe."}
+    ],
+    "questions": [
+      "The film breaks in half: a dream, then a colder and more ordinary world. Which half do you trust, and what in the film supports your choice?",
+      "What does the film withhold about the woman called Rita — and why might Lynch refuse to give us her history?",
+      "Club Silencio announces that every sound we hear is recorded. Why put that confession in the middle of a film that depends on music?",
+      "Winkie's diner, the Cowboy, the blue key. Choose one of these and explain what the film does with it, scene by scene.",
+      "Would you rather watch this a second time or read an explanation? What does each option cost you?",
+      "Which line stayed with you — and did it work because of the words, or because of the silence around them?",
+      "Los Angeles here is a city of apartments, diners and casting offices. How does your own city appear in films, and what does that image leave out?",
+      "At the end, is Diane's act jealousy, grief, or something the film never names? Defend a reading you are not sure about."
+    ],
+    "gaps": [
+      {"line": "This is the ___.", "answer": "girl", "hint": "a young woman — the phrase a director uses to choose an actress", "adapted": false},
+      {"line": "I don't know who I ___.", "answer": "am", "hint": "the verb 'to be', first person", "adapted": true},
+      {"line": "There is no ___ — everything you hear is recorded.", "answer": "band", "hint": "a group of musicians", "adapted": true},
+      {"line": "It was all a ___.", "answer": "dream", "hint": "what you see when you sleep", "adapted": true},
+      {"line": "You'll see me one more time if you do ___.", "answer": "good", "hint": "the opposite of bad", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "This is the girl.", "options": ["Adam Kesher", "Betty", "The Cowboy"], "answer": 0, "note": "The director says it in a casting session, and the line comes back much later in a very different mouth."},
+      {"quote": "I don't know who I am.", "options": ["Rita", "Betty", "Aunt Ruth"], "answer": 0, "note": "The clearest sentence in the film, and the one it spends two hours refusing to answer."},
+      {"quote": "You'll see me one more time if you do good.", "options": ["The Cowboy", "Adam Kesher", "Detective McKnight"], "answer": 0, "note": "The film's menace arrives in polite conditional sentences; the note is a close paraphrase of the scene."}
+    ],
+    "quiz": [
+      {"q": "Where does the car crash happen?", "options": ["Mulholland Drive", "Sunset Boulevard", "Laurel Canyon"], "answer": 0, "why": "The title comes from the road where the limousine stops."},
+      {"q": "Where does the woman with no memory take her new name from?", "options": ["A cinema poster", "A newspaper", "Betty's diary"], "answer": 0, "why": "She sees the name Rita on a poster for the film Gilda."},
+      {"q": "What is Adam Kesher's job?", "options": ["Film director", "Detective", "Barman"], "answer": 0, "why": "He is a director being pushed to cast a particular actress."},
+      {"q": "What does the master of ceremonies at Club Silencio insist?", "options": ["Everything is an illusion", "The theatre is closing", "The singer is ill"], "answer": 0, "why": "He repeats 'no hay banda' — there is no band, only recording."},
+      {"q": "What waits behind Winkie's diner?", "options": ["A figure in the alley", "A police car", "A blue box"], "answer": 0, "why": "The film's most frightening image is barely shown at all."}
+    ],
+    "roleplay": {
+      "title": "The audition",
+      "setting": "A casting office in Los Angeles, 2001. Two actresses, one page of script, and a director who says almost nothing.",
+      "roles": [
+        {"role": "Casting director", "brief": "You are polite, tired and powerful. You ask for the same page four times and never say whether it was good."},
+        {"role": "Betty", "brief": "You are new in town and desperate to be liked. Your reading is excellent, and that frightens you."},
+        {"role": "Rita", "brief": "You have no idea who you are. You read the page as if the words might remind you."}
+      ],
+      "challenge": "Play it three ways: as a job interview, as a seduction, and as an interrogation. Notice which version makes the room go quiet."
+    },
+    "quest": [
+      {"title": "Station 1 · The blue key", "task": "Find the first time the blue key appears and the first time it is used. What happens between those two moments?", "answer": "Given early; used after Club Silencio", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find three words from the list that describe memory, performance and confusion, and use each in a sentence about the film.", "answer": "amnesia, audition, to be at sea", "points": 10},
+      {"title": "Station 3 · Dream sequel", "task": "Write six lines of dialogue for the scene that might follow the last shot. Keep every line under eight words and let one object do the work.", "answer": "Any six-line scene with a recurring object", "points": 15},
+      {"title": "Station 4 · The order of things", "task": "Put these in order: the crash, the dream in the diner, Club Silencio, the audition.", "answer": "crash, diner, audition, Club Silencio", "points": 10}
+    ]
+  },
+  {
+    "id": "there-will-be-blood",
+    "title": "There Will Be Blood",
+    "year": 2007,
+    "level": "C2",
+    "runtime": 158,
+    "genres": ["drama", "historical", "western"],
+    "director": "Paul Thomas Anderson",
+    "country": "USA",
+    "age": "15+",
+    "mood": "earth",
+    "logline": "An oil prospector arrives in a poor California town, where a young preacher controls the land and the people, and the two men begin a long contest.",
+    "why": "The dialogue is plain and slow, but almost every line is a negotiation, so the group can work on tone, pause and threat rather than on vocabulary. Long wordless passages give C2 learners room to read faces, machines and landscape.",
+    "language": "Hard, plain frontier American English, delivered slowly and quietly; Daniel Plainview's low growl and Eli Sunday's theatrical preaching are two completely different kinds of performance.",
+    "content": "Violence: a bad accident in a mine shaft, a beating, a killing at the end, and a child in danger. No sexual content.",
+    "scenes": [
+      {
+        "at": "00:06:30",
+        "title": "Five minutes, no words",
+        "task": "Watch the mine sequence with the sound low. What do we learn about Daniel before he speaks? Then rewind and listen to the music.",
+        "type": "observe"
+      },
+      {
+        "at": "00:24:30",
+        "title": "I'm an oil man",
+        "task": "Listen to the speech to the townspeople. Count how often he says 'I' and how often he says 'we'. What is he really selling?",
+        "type": "listen"
+      },
+      {
+        "at": "01:08:00",
+        "title": "The church humiliation",
+        "task": "Pause as Daniel kneels. Who has the power in this scene — the man on the floor or the man with the microphone?",
+        "type": "think"
+      },
+      {
+        "at": "02:22:00",
+        "title": "The bowling alley",
+        "task": "Before the last scene, predict who will still be standing. Then watch how the camera stays completely still while everything falls apart.",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "prospector", "def": "a person who searches for oil, gold or metal", "ex": "Daniel is a prospector before he is a businessman."},
+      {"w": "derrick", "def": "a tall tower built over an oil well", "ex": "The derrick burns against the night sky."},
+      {"w": "lease", "def": "a contract that lets you use someone's land", "ex": "He buys the lease to every field around the town."},
+      {"w": "to strong-arm someone", "def": "to force someone with threats or pressure", "ex": "Daniel strong-arms the landowners into signing."},
+      {"w": "sanctimonious", "def": "showing that you think you are morally better than others", "ex": "Eli's sanctimonious sermons fill the little church."},
+      {"w": "to drive a hard bargain", "def": "to negotiate very firmly for your own advantage", "ex": "He drives a hard bargain and never pays full price."}
+    ],
+    "questions": [
+      "What does the film withhold about Daniel's past — and why does it give us only one long confession, late, in a half-lit room?",
+      "Daniel says he has a competition in him. Is that ambition, hatred, or something the film refuses to name?",
+      "Would you sign Daniel's lease if the oil under your land could lift your family out of poverty? What would you ask for?",
+      "Eli and Daniel both perform for crowds. Which performance is more honest, and which is more dangerous?",
+      "The film has very little music and long stretches of machinery. What does the sound of the pump do to the peace of the town?",
+      "Which line landed hardest — and was it the words or the pause before them?",
+      "In many countries oil, land and religion arrive together. Does this film resemble a story your family or region tells about that?",
+      "H.W. is deafened and then sent away. What does the film lose when it loses his point of view?"
+    ],
+    "gaps": [
+      {"line": "I'm an ___ man.", "answer": "oil", "hint": "the black liquid under the ground", "adapted": false},
+      {"line": "I have a competition in ___.", "answer": "me", "hint": "the person who is speaking", "adapted": false},
+      {"line": "I drink your ___!", "answer": "milkshake", "hint": "a cold drink made with milk", "adapted": false},
+      {"line": "There is a whole ocean of ___ under our feet.", "answer": "oil", "hint": "the black liquid they are drilling for", "adapted": true},
+      {"line": "I want no one else to ___.", "answer": "succeed", "hint": "to do well", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "I'm an oil man.", "options": ["Daniel Plainview", "Eli Sunday", "H.W."], "answer": 0, "note": "The whole character in four words: he introduces himself as a trade, not a person."},
+      {"quote": "I have a competition in me.", "options": ["Daniel Plainview", "Henry", "Eli Sunday"], "answer": 0, "note": "Said quietly, to the one person he almost trusts."},
+      {"quote": "I drink your milkshake.", "options": ["Daniel Plainview", "Eli Sunday", "H.W."], "answer": 0, "note": "A child's image used as a threat; it has become the film's most quoted moment."}
+    ],
+    "quiz": [
+      {"q": "Where does Daniel start drilling after the prologue?", "options": ["California", "Texas", "Pennsylvania"], "answer": 0, "why": "He arrives in Little Boston, California, and leases the Sunday ranch."},
+      {"q": "What is the name of Eli's church?", "options": ["The Church of the Third Revelation", "The First Baptist Church", "The Little Boston Mission"], "answer": 0, "why": "Eli preaches in a small wooden church he wants Daniel to pay for."},
+      {"q": "What happens to H.W. at the derrick?", "options": ["He is deafened by a blowout", "He breaks his leg", "He is lost in the fire"], "answer": 0, "why": "A gas blowout throws him from the platform and takes his hearing."},
+      {"q": "What does Eli keep asking Daniel for?", "options": ["Money for his church", "A share of the lease", "An apology"], "answer": 0, "why": "Eli wants the church built; Daniel wants the land and the silence that comes with it."},
+      {"q": "How does the film end?", "options": ["With violence in a bowling alley", "With a wedding", "With Daniel leaving California"], "answer": 0, "why": "The last scene is a wide, calm frame that makes the violence worse."}
+    ],
+    "roleplay": {
+      "title": "The lease",
+      "setting": "The Sunday ranch, 1902. A table, a contract, two brothers and a stranger with a bag of money.",
+      "roles": [
+        {"role": "Daniel", "brief": "You are charming, patient and completely certain. You never raise your voice; you only repeat the price."},
+        {"role": "Eli", "brief": "You are the preacher of the family. You want the church funded and you want the credit. You quote scripture when you are losing."},
+        {"role": "Abel Sunday", "brief": "You own the land and you are tired. You want the money and you want the argument to end."}
+      ],
+      "challenge": "Play it twice: once with Daniel winning, once with Eli winning. Every threat must stay polite."
+    },
+    "quest": [
+      {"title": "Station 1 · The introduction", "task": "Find the exact words Daniel uses to introduce himself to the town. Write them down, then say the line in his voice.", "answer": "I'm an oil man", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find or define: a tower over a well, a contract for land, and a word for someone who thinks he is morally superior.", "answer": "derrick, lease, sanctimonious", "points": 10},
+      {"title": "Station 3 · The sermon", "task": "Write and perform a sixty-second sermon in Eli's style about something in your school or town. Use one repetition and one threat.", "answer": "Any performance with repetition and threat", "points": 15},
+      {"title": "Station 4 · Counting the 'I'", "task": "In the speech at 00:24, count how many times Daniel says 'I'. Compare counts, then explain what the number does to the room.", "answer": "Roughly twenty — the speech is all 'I'", "points": 10}
+    ]
+  },
+  {
+    "id": "barry-lyndon",
+    "title": "Barry Lyndon",
+    "year": 1975,
+    "level": "C2",
+    "runtime": 185,
+    "genres": ["drama", "historical", "war"],
+    "director": "Stanley Kubrick",
+    "country": "UK",
+    "age": "12+",
+    "mood": "sepia",
+    "logline": "An Irish gambler's son fights, gambles and marries his way into eighteenth-century society, and learns how easily a gentleman can be unmade.",
+    "why": "The narration speaks in complete, formal eighteenth-century sentences while the images stay almost silent, so the group can compare two kinds of telling. Kubrick's slow zooms and candlelit rooms give C2 learners time to find irony in faces rather than in dialogue.",
+    "language": "Formal period English in the narration, with Irish and English accents in the dialogue; many scenes have almost no speech and rely on music, candlelight and faces.",
+    "content": "Duels, war, the death of a child and casual cruelty between husband and wife; no explicit sex. Long and slow at three hours.",
+    "scenes": [
+      {
+        "at": "00:20:00",
+        "title": "The first duel",
+        "task": "Watch the duel without subtitles. Who is afraid, and how does the film show it before anyone speaks?",
+        "type": "observe"
+      },
+      {
+        "at": "00:52:00",
+        "title": "War, then desertion",
+        "task": "Pause when Barry puts on another man's uniform. List three things he takes from him, and what each one buys.",
+        "type": "detail"
+      },
+      {
+        "at": "01:35:00",
+        "title": "The card table",
+        "task": "Listen to the narration over the gambling. Who is telling this story, and does that voice like Barry?",
+        "type": "think"
+      },
+      {
+        "at": "02:52:00",
+        "title": "The last duel",
+        "task": "Before the pistols are loaded, predict who will fire first. Then watch the coin toss and the camera's slow pull back.",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "obsequious", "def": "too eager to please people with power", "ex": "Barry is obsequious to every lord in the room."},
+      {"w": "to squander", "def": "to waste money or a chance", "ex": "He squanders his wife's fortune at the tables."},
+      {"w": "duel", "def": "a formal fight between two men with weapons", "ex": "The film ends with a duel in a barn."},
+      {"w": "dowry", "def": "money or property a bride brings to a marriage", "ex": "Lady Lyndon's dowry is the real prize."},
+      {"w": "a social climber", "def": "a person who pushes hard to rise in society", "ex": "Barry is a social climber with a sword."},
+      {"w": "to cut someone dead", "def": "to pretend not to see someone you know", "ex": "The countess cuts him dead at the assembly."}
+    ],
+    "questions": [
+      "The narrator tells us what will happen before it happens. What does that voice withhold — and why does Kubrick keep Barry's own thoughts out of the film?",
+      "Barry calls himself a gentleman. What does the film think a gentleman is, and does it ever let him become one?",
+      "Would you leave your family and your country for a chance at a title, as Barry does? What would you be giving up?",
+      "Lady Lyndon has money and no power; Barry has charm and no money. Is their marriage a trade, a love story, or both?",
+      "The film is lit by candles and moved by slow zooms. Choose one shot and explain how the camera judges Barry.",
+      "Which line of narration stayed with you? Say it aloud and hear how the formality makes the cruelty worse.",
+      "In your culture, how much does a family's name still decide a marriage or a career? Is that changing?",
+      "Bryan's death is handled in a few quiet shots. Would you have shown more, or is restraint the whole point?"
+    ],
+    "gaps": [
+      {"line": "They are all ___ now.", "answer": "equal", "hint": "the same as each other", "adapted": false},
+      {"line": "I am a ___, sir.", "answer": "gentleman", "hint": "a man of good family and manners", "adapted": true},
+      {"line": "He had a genius for ___.", "answer": "gambling", "hint": "playing cards for money", "adapted": true},
+      {"line": "You must learn to hold your ___.", "answer": "tongue", "hint": "the thing you speak with", "adapted": true},
+      {"line": "He lost everything at the card ___.", "answer": "table", "hint": "the furniture you play on", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "They are all equal now.", "options": ["The narrator", "Barry", "Lady Lyndon"], "answer": 0, "note": "The film's last words, spoken over a family that has lost almost everything."},
+      {"quote": "It was in the reign of George III.", "options": ["The narrator", "Barry", "Captain Potzdorf"], "answer": 0, "note": "The film begins with a date and a voice from outside the story: a historian, not a friend."},
+      {"quote": "I am a gentleman.", "options": ["Barry", "Captain Quin", "The narrator"], "answer": 0, "note": "A claim the film tests in every scene; the exact wording in the film is looser."}
+    ],
+    "quiz": [
+      {"q": "Where is Barry from?", "options": ["Ireland", "England", "Prussia"], "answer": 0, "why": "He is an Irish gentleman's son, and his accent follows him everywhere."},
+      {"q": "Why does Barry leave Ireland?", "options": ["He believes he has killed a man in a duel", "He is sent away to school", "He joins the navy"], "answer": 0, "why": "Captain Quin falls, and Barry runs before anyone can check the wound."},
+      {"q": "What is Barry forced to do in the Prussian army?", "options": ["Spy on a gambler", "Become a general", "Guard a prison"], "answer": 0, "why": "Captain Potzdorf uses him to watch the Chevalier de Balibari."},
+      {"q": "Who narrates the film?", "options": ["An unseen narrator", "Barry as an old man", "Lady Lyndon"], "answer": 0, "why": "Michael Hordern's voice tells the story from outside, with judgement."},
+      {"q": "How does Barry's stepson feel about him?", "options": ["He despises him", "He admires him", "He never meets him"], "answer": 0, "why": "Lord Bullingdon's hatred drives the film towards its last duel."}
+    ],
+    "roleplay": {
+      "title": "The proposal",
+      "setting": "A drawing room in England, 1773. A widow with a large fortune, her young son, and an Irish gentleman who has just lost at cards.",
+      "roles": [
+        {"role": "Barry", "brief": "You are charming and broke. Be respectful and slightly sad, and never mention money."},
+        {"role": "Lady Lyndon", "brief": "You are lonely and careful. You want to be persuaded, but you will not be rushed in front of your son."},
+        {"role": "Lord Bullingdon", "brief": "You are a boy who sees exactly what is happening. Say one short, rude sentence and then leave."}
+      ],
+      "challenge": "Improvise the scene twice: once with Barry winning, once with Lady Lyndon seeing through him. Nobody may raise their voice."
+    },
+    "quest": [
+      {"title": "Station 1 · The uniform", "task": "Find the moment Barry takes another man's clothes and papers. Name what he gains by putting them on.", "answer": "An officer's uniform and despatches; safe passage", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find or define: too eager to please, to waste money, and a formal fight between two men.", "answer": "obsequious, to squander, duel", "points": 10},
+      {"title": "Station 3 · The narrator", "task": "Write two sentences of narration about a moment in your own week, in the voice of the film's narrator. Read it aloud without smiling.", "answer": "Any formal two-sentence narration", "points": 15},
+      {"title": "Station 4 · The order of things", "task": "Put in order: the duel with Quin, the marriage to Lady Lyndon, the death of Bryan, the last duel.", "answer": "Quin, marriage, Bryan, last duel", "points": 10}
+    ]
+  },
+  {
+    "id": "the-favourite",
+    "title": "The Favourite",
+    "year": 2018,
+    "level": "C2",
+    "runtime": 119,
+    "genres": ["historical", "drama", "comedy"],
+    "director": "Yorgos Lanthimos",
+    "country": "UK",
+    "age": "15+",
+    "mood": "cool",
+    "logline": "At the court of Queen Anne, two women compete for the queen's ear, her affection and the right to run a country at war.",
+    "why": "The dialogue is sharp, modern and deliberately out of period, so the jokes land even when the politics are dense. Three superb performances give the group plenty to argue about: who is acting, who is sincere and who is winning.",
+    "language": "British English with rapid, overlapping insults and a very modern vocabulary inside a 1708 court; Sarah speaks in commands, Abigail in careful politeness, and the queen in sudden bursts.",
+    "content": "Sex scenes, cruelty, vomiting, a rabbit repeatedly in danger and strong language. 15+, with a warning for the animal scenes.",
+    "scenes": [
+      {
+        "at": "00:14:00",
+        "title": "Abigail arrives",
+        "task": "Watch Abigail's first walk through the palace. List three ways she is treated as a servant before anyone speaks to her.",
+        "type": "observe"
+      },
+      {
+        "at": "00:44:00",
+        "title": "The shooting party",
+        "task": "Pause after the guns. Who is really being aimed at in this scene — the birds, or someone in the group?",
+        "type": "think"
+      },
+      {
+        "at": "01:18:00",
+        "title": "The dance",
+        "task": "Watch the dance with the sound off, then again with the music. Which version tells you more about who has power?",
+        "type": "observe"
+      },
+      {
+        "at": "01:52:00",
+        "title": "The last shot",
+        "task": "The film ends on a long, uncomfortable close-up. Hold the pause and describe what the queen is doing with her hands.",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "courtier", "def": "a person who lives and works at a royal court", "ex": "Every courtier in the room wants the queen's attention."},
+      {"w": "to grovel", "def": "to behave with too much humility to please someone", "ex": "Abigail grovels until she no longer needs to."},
+      {"w": "to scheme", "def": "to make secret plans for your own advantage", "ex": "The two women scheme over letters and appointments."},
+      {"w": "to undermine someone", "def": "to weaken someone quietly, behind their back", "ex": "Sarah undermines her rivals with a single sentence."},
+      {"w": "malicious", "def": "intending to hurt or upset someone", "ex": "The rumour is malicious and extremely useful."},
+      {"w": "heir", "def": "the person who will inherit a title or a throne", "ex": "Anne has no surviving heir, and everyone is counting."}
+    ],
+    "questions": [
+      "The film keeps the queen's grief almost off-screen, then gives us seventeen rabbits. What does it withhold about Anne, and why show it this way?",
+      "Who is the 'favourite' of the title? Has your answer changed by the last shot?",
+      "Would you rather be Sarah — honest and exiled — or Abigail — successful and owned? Explain what each choice costs.",
+      "Abigail's rise is a story about class, not only about ambition. What does the film say about who is allowed to be cruel?",
+      "The wide-angle lenses make the palace look enormous and the people small. Choose a shot where the camera is openly unkind.",
+      "Which insult made you laugh, and why does cruelty sound funny in this film?",
+      "In your country's history, who has held real power behind a weak ruler? Is there a story your family tells about it?",
+      "Anne says little and rules a war. Is she a victim, a tyrant, or a woman doing a difficult job badly?"
+    ],
+    "gaps": [
+      {"line": "I am the ___.", "answer": "queen", "hint": "the female ruler", "adapted": true},
+      {"line": "You are not my friend — you are my ___.", "answer": "servant", "hint": "someone paid to work in a house", "adapted": true},
+      {"line": "We are at ___ with France.", "answer": "war", "hint": "fighting between countries", "adapted": true},
+      {"line": "The queen has no surviving ___.", "answer": "heir", "hint": "the person who inherits the throne", "adapted": true},
+      {"line": "You will ___ me, or you will leave.", "answer": "obey", "hint": "to do what someone tells you", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "I am the queen.", "options": ["Anne", "Sarah", "Abigail"], "answer": 0, "note": "Anne says it rarely, and the film makes each time cost her something; the line is a close paraphrase."},
+      {"quote": "You are not my friend. You are my servant.", "options": ["Anne", "Sarah", "Harley"], "answer": 0, "note": "Paraphrased from the film's coldest exchange — the point is who is allowed to say it."},
+      {"quote": "I have always told you the truth.", "options": ["Sarah", "Abigail", "Harley"], "answer": 0, "note": "Sarah's whole defence of herself, and the reason she loses; paraphrased from the scene."}
+    ],
+    "quiz": [
+      {"q": "Who is the queen's closest adviser at the start?", "options": ["Sarah Churchill", "Abigail Masham", "Robert Harley"], "answer": 0, "why": "Sarah runs the household, the war and much of the queen's day."},
+      {"q": "How is Abigail related to Sarah?", "options": ["Cousin", "Sister", "Former maid"], "answer": 0, "why": "Abigail is Sarah's cousin, fallen from the family's fortune."},
+      {"q": "What are the seventeen rabbits?", "options": ["A memory of her dead children", "A gift from France", "A cure for her illness"], "answer": 0, "why": "Each rabbit stands for a child Anne lost."},
+      {"q": "What is the country doing for most of the film?", "options": ["Fighting a war with France", "Preparing a coronation", "Negotiating a marriage"], "answer": 0, "why": "The war is the real business of every conversation in the palace."},
+      {"q": "What happens to Sarah at the end?", "options": ["She is sent away from court", "She becomes queen", "She marries Harley"], "answer": 0, "why": "Abigail wins the ear, and Sarah loses the door."}
+    ],
+    "roleplay": {
+      "title": "The corridor",
+      "setting": "A cold corridor outside the queen's bedroom, 1708. Two women, one door, and thirty seconds to say the right thing.",
+      "roles": [
+        {"role": "Sarah", "brief": "You have known Anne for twenty years. You speak to her like a sister and you are usually right. You will not apologise."},
+        {"role": "Abigail", "brief": "You are new, polite and watching everything. You agree with whoever is in the room, and you remember everything."},
+        {"role": "Anne", "brief": "You are tired, in pain and bored. You interrupt, change the subject, and then ask one question that decides everything."}
+      ],
+      "challenge": "Play the scene three times, each time with a different woman holding the door key. Nobody may say the word 'politics'."
+    },
+    "quest": [
+      {"title": "Station 1 · The rabbits", "task": "Find the rabbits. How many are named or counted, and what are they for?", "answer": "Seventeen; Anne's dead children", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find or define: someone at court, someone who flatters too much, and someone who plots.", "answer": "courtier, to grovel, to scheme", "points": 10},
+      {"title": "Station 3 · The letter", "task": "Write one paragraph from Abigail to Sarah asking for a favour. Make every sentence polite and every sentence a small threat.", "answer": "Any letter with politeness and pressure", "points": 15},
+      {"title": "Station 4 · The order of things", "task": "Put in order: Abigail's arrival, the shooting party, the dance, Sarah's departure from court.", "answer": "arrival, shooting, dance, Sarah's departure", "points": 10}
+    ]
+  },
+  {
+    "id": "macbeth",
+    "title": "Macbeth",
+    "year": 2015,
+    "level": "C2",
+    "runtime": 113,
+    "genres": ["drama", "war", "historical"],
+    "director": "Justin Kurzel",
+    "country": "UK",
+    "age": "15+",
+    "mood": "earth",
+    "logline": "A Scottish general hears three witches promise him a crown, and the ambition that follows turns a cold kingdom colder.",
+    "why": "Shakespeare's text is cut to the bone and half-whispered, so the group works with rhythm and image as much as with meaning. Fassbender and Cotillard make the verse physical, which gives learners something to read in the body when the words are hard.",
+    "language": "Early modern English from the play, heavily cut and often whispered under wind and battle noise; Scottish accents, long pauses, and several lines almost lost beneath the music.",
+    "content": "Battle violence, blood, the on-screen murder of a child, and a burning finale. 15+, with a warning for the child's death.",
+    "scenes": [
+      {
+        "at": "00:12:00",
+        "title": "The witches on the field",
+        "task": "Listen once with subtitles, once without. Write three words you catch each time — what does the sound tell you before the sense does?",
+        "type": "listen"
+      },
+      {
+        "at": "00:33:00",
+        "title": "The banquet",
+        "task": "Pause as Macbeth sees the ghost. Where is Banquo in the frame, and who else in the room can see him?",
+        "type": "observe"
+      },
+      {
+        "at": "01:02:00",
+        "title": "The sleepwalking",
+        "task": "Watch Lady Macbeth's hands. What is she doing, and what does the film refuse to show us?",
+        "type": "think"
+      },
+      {
+        "at": "01:38:00",
+        "title": "The last battle",
+        "task": "Predict before you watch: what colour will dominate the ending? Then count how many times the film uses fire.",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "prophecy", "def": "a prediction about what will happen", "ex": "The witches' prophecy changes everything."},
+      {"w": "to usurp", "def": "to take power that is not yours", "ex": "Macbeth usurps the crown from Duncan's line."},
+      {"w": "tyrant", "def": "a cruel ruler who uses power unfairly", "ex": "By the end, the thanes call him a tyrant."},
+      {"w": "equivocation", "def": "the use of ambiguous words to hide the truth", "ex": "The witches' equivocation lets Macbeth fool himself."},
+      {"w": "remorse", "def": "deep regret for something you have done", "ex": "Lady Macbeth feels no remorse until she does."},
+      {"w": "to be damned", "def": "to be condemned to hell", "ex": "He is sure he is damned, and he keeps killing."}
+    ],
+    "questions": [
+      "The film cuts many of Shakespeare's lines and lets images carry them. What does that cutting withhold from us, and what does it gain?",
+      "The witches speak in short, rhythmic riddles. Are they reporting the future or planting it?",
+      "Would you tell your partner everything if you were Macbeth? What would you keep back, and why?",
+      "Lady Macbeth pushes her husband and then breaks. Whose tragedy is this film really?",
+      "The film is full of mud, smoke and fire. Choose an image that repeats and say what it comes to mean.",
+      "Which line of the play hit hardest in this version — and was that because of the delivery rather than the words?",
+      "In your country's history, is there a story about a ruler who took power and could not hold it? How is it told?",
+      "Macduff kills Macbeth on a burning field. Is the ending justice, or just more violence?"
+    ],
+    "gaps": [
+      {"line": "Is this a ___ which I see before me?", "answer": "dagger", "hint": "a short knife", "adapted": false},
+      {"line": "Out, damned ___!", "answer": "spot", "hint": "a dirty mark", "adapted": false},
+      {"line": "Fair is foul, and foul is ___.", "answer": "fair", "hint": "the opposite of foul", "adapted": false},
+      {"line": "Life's but a walking ___.", "answer": "shadow", "hint": "a dark shape with no body", "adapted": false},
+      {"line": "Something ___ this way comes.", "answer": "wicked", "hint": "evil", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "Is this a dagger which I see before me?", "options": ["Macbeth", "Banquo", "Macduff"], "answer": 0, "note": "Whispered almost to himself in this version, so the audience becomes the thing he is talking to."},
+      {"quote": "Out, damned spot, out, I say!", "options": ["Lady Macbeth", "The gentlewoman", "Lady Macduff"], "answer": 0, "note": "Her most famous line, and in this film barely louder than breathing."},
+      {"quote": "Fair is foul, and foul is fair.", "options": ["The witches", "Macbeth", "Malcolm"], "answer": 0, "note": "The play's rule of reversal, and the film's: nothing looks like what it is."}
+    ],
+    "quiz": [
+      {"q": "Who is King of Scotland at the start?", "options": ["Duncan", "Macbeth", "Malcolm"], "answer": 0, "why": "Duncan rewards Macbeth for the battle, then spends the night under his roof."},
+      {"q": "What do the witches promise Banquo?", "options": ["That his descendants will be kings", "That he will die in battle", "That he will marry a queen"], "answer": 0, "why": "Banquo's heirs, not Macbeth's, will hold the crown; it is the play's deepest threat."},
+      {"q": "Who kills King Duncan?", "options": ["Macbeth", "Lady Macbeth", "Macduff"], "answer": 0, "why": "In this version the killing is given to Macbeth's own hands, in a tent, in near darkness."},
+      {"q": "Where does the final battle take place?", "options": ["Dunsinane", "Fife", "Scone"], "answer": 0, "why": "Birnam Wood comes to Dunsinane, as the prophecy promised, and Macbeth cannot believe it."},
+      {"q": "What does Lady Macbeth see on her hands?", "options": ["Blood", "Ink", "Water"], "answer": 0, "why": "She washes and washes; the stain is the one thing the film will not remove."}
+    ],
+    "roleplay": {
+      "title": "The prophecy",
+      "setting": "A windswept heath, 1040. Three figures, one soldier, and a promise that cannot be untaken.",
+      "roles": [
+        {"role": "Macbeth", "brief": "You want to believe and you want to be seen not believing. Ask practical questions, then ask the one question you are afraid of."},
+        {"role": "Lady Macbeth", "brief": "You are not in the scene, but you are a voice he imagines. Interrupt with facts and plans, never with comfort."},
+        {"role": "The witches", "brief": "You speak in short lines, half-rhymes and unfinished sentences. You never answer a question directly."}
+      ],
+      "challenge": "Play it twice: once with Macbeth believing, once with Macbeth mocking. Nobody may explain the prophecy."
+    },
+    "quest": [
+      {"title": "Station 1 · The dagger", "task": "Find the moment Macbeth says the dagger line. What is he holding, and what is actually in front of him?", "answer": "A dagger he holds; nothing is there", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find or define: a prediction, taking power wrongly, and a cruel ruler.", "answer": "prophecy, to usurp, tyrant", "points": 10},
+      {"title": "Station 3 · Three images", "task": "Write three images for your own town in the witches' style: one sound, one animal, one kind of weather. Perform them together.", "answer": "Any three short images", "points": 15},
+      {"title": "Station 4 · The order of things", "task": "Put in order: the prophecy, the murder of Duncan, Banquo's ghost at the banquet, Lady Macbeth's sleepwalking, the final battle.", "answer": "prophecy, Duncan, the ghost, sleepwalking, battle", "points": 10}
+    ]
+  },
+  {
+    "id": "glengarry",
+    "title": "Glengarry Glen Ross",
+    "year": 1992,
+    "level": "C2",
+    "runtime": 100,
+    "genres": ["drama", "crime"],
+    "director": "James Foley",
+    "country": "USA",
+    "age": "18+",
+    "mood": "cool",
+    "logline": "Four salesmen in a failing property office are told that only the top two will keep their jobs, and the pressure turns every phone call into a fight.",
+    "why": "The film is a masterclass in interruption: men talk over each other, change the subject and use politeness as a weapon. That is exactly the listening challenge C2 groups need, and the office setting keeps the stakes concrete.",
+    "language": "Fast American English with overlapping lines, heavy profanity and a lot of sales jargon; the same words can be friendly, threatening or desperate, and the meaning depends on who is losing.",
+    "content": "Very strong language throughout, including one long insulting speech; a burglary and a police interrogation. 18+ for language.",
+    "scenes": [
+      {
+        "at": "00:07:00",
+        "title": "Blake's speech",
+        "task": "Listen once with subtitles off and write down five words you catch. Then check with subtitles: how much of the threat was in the tone?",
+        "type": "listen"
+      },
+      {
+        "at": "00:28:00",
+        "title": "The diner",
+        "task": "Watch Moss and Aaronow. Who is proposing a crime, and who is only listening? Show the exact moment one becomes the other.",
+        "type": "think"
+      },
+      {
+        "at": "00:52:00",
+        "title": "Roma and Lingk",
+        "task": "Roma does not sell property in this scene; he sells a feeling. Name three things he does with his voice.",
+        "type": "observe"
+      },
+      {
+        "at": "01:26:00",
+        "title": "The interrogation",
+        "task": "Pause before the last accusation. Who has already lost, and does he know it yet?",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "a closer", "def": "a salesperson whose job is to finish a deal", "ex": "Blake wants closers, not talkers."},
+      {"w": "a lead", "def": "the name of a possible customer", "ex": "The good leads are locked in Williamson's office."},
+      {"w": "to browbeat someone", "def": "to push someone around with words", "ex": "Roma browbeats Lingk into another signature."},
+      {"w": "contempt", "def": "the feeling that someone is worthless", "ex": "There is contempt in every word Blake says."},
+      {"w": "to bluff", "def": "to pretend to be stronger than you are", "ex": "Shelley bluffs, and the room believes him for a while."},
+      {"w": "to close a deal", "def": "to succeed in making a sale", "ex": "He closes the deal from a phone box in the rain."}
+    ],
+    "questions": [
+      "The film never shows us the land the salesmen are selling. What does it withhold, and why does that make the office feel like a trap?",
+      "Blake's speech is the most famous scene. Is it a motivational speech or an act of violence?",
+      "Would you take a job where a colleague's failure is your only security? What would you tell yourself on the first day?",
+      "Shelley is the oldest man and the best talker. Is he a victim, a thief, or both?",
+      "The film is nearly all talk and almost no action. How does Foley keep the camera moving without ever letting us outside?",
+      "Which line did you want to repeat — and which one made you uncomfortable?",
+      "In your country, how do people talk about sales work? Is 'always be closing' a joke, an insult or a compliment?",
+      "Roma ends the film with a deal in his hand and nothing else. Is that a happy ending in this world?"
+    ],
+    "gaps": [
+      {"line": "Always be ___.", "answer": "closing", "hint": "finishing the deal", "adapted": false},
+      {"line": "Coffee is for ___ only.", "answer": "closers", "hint": "people who finish deals", "adapted": false},
+      {"line": "Third prize is you're ___.", "answer": "fired", "hint": "dismissed from your job", "adapted": false},
+      {"line": "The leads are ___.", "answer": "weak", "hint": "not strong", "adapted": false},
+      {"line": "Put that coffee ___.", "answer": "down", "hint": "the opposite of up", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "Always be closing.", "options": ["Blake", "Roma", "Moss"], "answer": 0, "note": "Three words that become the film's curse: the men repeat it to themselves all night."},
+      {"quote": "The leads are weak.", "options": ["Shelley", "Roma", "Blake"], "answer": 0, "note": "Blake's answer — 'you're weak' — is the crueller sentence, and the one Shelley cannot forget."},
+      {"quote": "Third prize is you're fired.", "options": ["Blake", "Williamson", "Moss"], "answer": 0, "note": "The contest is explained in one line, and the whole film follows from it."}
+    ],
+    "quiz": [
+      {"q": "What is the first prize in Blake's contest?", "options": ["A Cadillac", "A set of steak knives", "A week's holiday"], "answer": 0, "why": "A car for the man who closes best; the prize is deliberately childish."},
+      {"q": "What is the second prize?", "options": ["A set of steak knives", "A Cadillac", "A new office"], "answer": 0, "why": "Knives, because the second man is still in the fight."},
+      {"q": "Who keeps the good leads locked in his office?", "options": ["Williamson", "Roma", "Aaronow"], "answer": 0, "why": "The office manager controls the Glengarry leads, and everyone needs him."},
+      {"q": "What happens to the office at the start of the film?", "options": ["It is burgled", "It is sold", "It is closed by the police"], "answer": 0, "why": "The break-in, and the stolen leads, become the film's crime."},
+      {"q": "How does Shelley try to survive?", "options": ["He sells to Lingk and exaggerates the sale", "He resigns", "He asks Blake for help"], "answer": 0, "why": "He needs to be a closer again, in front of men who have stopped believing him."}
+    ],
+    "roleplay": {
+      "title": "The leads",
+      "setting": "A rain-soaked sales office, Friday night. One locked cabinet, two men, and next month's rent.",
+      "roles": [
+        {"role": "Shelley", "brief": "You were the best salesman in this office ten years ago. You need the leads and you need respect, in that order."},
+        {"role": "Williamson", "brief": "You are the manager. You have the keys and no authority. You answer every question with another question."},
+        {"role": "Moss", "brief": "You are loud, funny and dangerous. You suggest something illegal and then pretend you were joking."}
+      ],
+      "challenge": "Play the scene twice: once where Williamson opens the cabinet, once where he does not. Nobody may leave the room."
+    },
+    "quest": [
+      {"title": "Station 1 · The speech", "task": "During Blake's speech he names three prizes. Write them in order, with what each one means for the man who gets it.", "answer": "Cadillac, steak knives, fired", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find or define: someone who finishes deals, a possible customer's name, and the feeling that someone is worthless.", "answer": "closer, lead, contempt", "points": 10},
+      {"title": "Station 3 · The pitch", "task": "Sell a classmate something ordinary — a pen, a chair — in exactly thirty seconds. You may not lie about the object.", "answer": "Any thirty-second pitch", "points": 15},
+      {"title": "Station 4 · The numbers", "task": "How many salesmen share the office, and how many will keep their jobs? Count them and name the survivors.", "answer": "Four men; two keep their jobs", "points": 10}
+    ]
+  },
+  {
+    "id": "the-big-short",
+    "title": "The Big Short",
+    "year": 2015,
+    "level": "C2",
+    "runtime": 130,
+    "genres": ["drama", "comedy", "historical"],
+    "director": "Adam McKay",
+    "country": "USA",
+    "age": "15+",
+    "mood": "neon",
+    "logline": "A few investors notice that the American housing market is built on loans that cannot be repaid, and bet against it while everyone else laughs.",
+    "why": "The film is openly about not understanding finance, and it keeps stopping to explain itself, which gives C2 learners a rare chance to study how jargon is taught on screen. It is fast, funny and full of direct address to the camera.",
+    "language": "Fast American English, overlapping narration, dense financial jargon and a lot of swearing; several characters explain terms straight to camera, which helps and also jokes about helping.",
+    "content": "Strong language, a strip-club scene, and constant talk about money and fraud; no graphic violence. 15+.",
+    "scenes": [
+      {
+        "at": "00:09:00",
+        "title": "The fine print",
+        "task": "Watch Burry read the mortgage documents. What has he found that nobody else bothered to read? Write it in one sentence.",
+        "type": "observe"
+      },
+      {
+        "at": "00:35:00",
+        "title": "The bath",
+        "task": "Pause after the explanation of subprime. Retell it to your partner in three sentences, with no jargon at all.",
+        "type": "speak"
+      },
+      {
+        "at": "01:06:00",
+        "title": "The empty houses",
+        "task": "In Florida, count the signs that something is wrong: the pool, the houses, the man's job. Which detail lands hardest?",
+        "type": "detail"
+      },
+      {
+        "at": "01:58:00",
+        "title": "The collapse",
+        "task": "Listen to the phone calls as the market falls. Whose voice changes most, and what does that tell you about winning?",
+        "type": "listen"
+      }
+    ],
+    "words": [
+      {"w": "subprime", "def": "a loan given to someone unlikely to repay it", "ex": "The bank sold subprime loans as safe investments."},
+      {"w": "mortgage", "def": "a loan used to buy a house", "ex": "A mortgage is only safe if the borrower can pay."},
+      {"w": "to short something", "def": "to bet that its price will fall", "ex": "Burry shorts the housing market years too early."},
+      {"w": "default", "def": "failure to pay back a loan", "ex": "When the loans default, the whole chain breaks."},
+      {"w": "bubble", "def": "prices rising far above real value", "ex": "Everyone insists there is no bubble."},
+      {"w": "credit default swap", "def": "insurance against a loan failing, sold as a bet", "ex": "A credit default swap is a bet dressed as insurance."}
+    ],
+    "questions": [
+      "The film explains its jargon straight to camera, then jokes about explaining it. What does it still withhold, and from whom?",
+      "Who is the villain here: the banks, the ratings agencies, the buyers, or the investors who saw it coming and profited?",
+      "Would you short the housing market if you were certain — knowing your profit would come from other people's losses?",
+      "Burry is right and rude. Does the film want us to like him, and what does his character cost the argument?",
+      "The film cuts from a bath to a blackjack table to a stripper's five mortgages. What does that editing do to the seriousness of the subject?",
+      "Which explanation worked best for you, and which one was just noise? Why?",
+      "In your country, what does the word 'mortgage' mean to a family your age? Has the housing market changed how people plan their lives?",
+      "The film ends by naming what the crash cost ordinary people. Is that an ending, or an apology?"
+    ],
+    "gaps": [
+      {"line": "I want to short the housing ___.", "answer": "market", "hint": "the buying and selling of houses", "adapted": false},
+      {"line": "These loans are ___ — they were never going to be repaid.", "answer": "subprime", "hint": "risky, below the best quality", "adapted": true},
+      {"line": "It's not a bubble until it ___.", "answer": "pops", "hint": "bursts suddenly", "adapted": true},
+      {"line": "Nobody reads the ___.", "answer": "fine print", "hint": "the small writing in a contract", "adapted": true},
+      {"line": "The whole system is built on ___.", "answer": "debt", "hint": "money that is owed", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "I want to short the housing market.", "options": ["Michael Burry", "Mark Baum", "Jared Vennett"], "answer": 0, "note": "A paraphrase of Burry's proposal; the point is that nobody in the room thinks it is possible."},
+      {"quote": "It's not a bubble until it pops.", "options": ["Jared Vennett", "Michael Burry", "Ben Rickert"], "answer": 0, "note": "Vennett's line to camera, and the film's whole argument in seven words."},
+      {"quote": "Nobody reads the fine print.", "options": ["Michael Burry", "Mark Baum", "The narrator"], "answer": 0, "note": "The film's thesis in four words — and Burry's only advantage."}
+    ],
+    "quiz": [
+      {"q": "What does Michael Burry do for a living?", "options": ["He runs an investment fund", "He works for a bank", "He is a journalist"], "answer": 0, "why": "He manages other people's money and reads what nobody else reads."},
+      {"q": "What does Burry discover in the mortgage documents?", "options": ["Many loans are likely to fail", "The banks are lying about prices", "Houses are too expensive"], "answer": 0, "why": "The loans are adjustable and many borrowers will not survive the first rise."},
+      {"q": "Who explains subprime lending in a bath?", "options": ["Margot Robbie", "Selena Gomez", "Anthony Bourdain"], "answer": 0, "why": "The film uses a famous face and a glass of champagne to make a dull term stick."},
+      {"q": "What does Mark Baum find in Florida?", "options": ["Empty houses and a man with five mortgages", "A new housing estate", "A bank that refuses to lend"], "answer": 0, "why": "The boom is real on paper and hollow in the street."},
+      {"q": "What happens to the investors who shorted the market?", "options": ["They make a lot of money", "They lose everything", "They are arrested"], "answer": 0, "why": "They win, and the film is careful to show what their winning costs."}
+    ],
+    "roleplay": {
+      "title": "The pitch",
+      "setting": "A bank's meeting room, 2006. One trader, two bankers, and a proposal that sounds like a joke.",
+      "roles": [
+        {"role": "The trader", "brief": "Your bet only works if the whole housing market fails. You must sound calm and slightly bored."},
+        {"role": "The banker", "brief": "You believe house prices only go up. You are polite, superior and completely wrong, and you do not know it yet."},
+        {"role": "The risk officer", "brief": "You are paid to worry. Ask the one question nobody wants to answer."}
+      ],
+      "challenge": "Play it once as a comedy and once as a tragedy. The same lines must work both times."
+    },
+    "quest": [
+      {"title": "Station 1 · The five houses", "task": "Find the scene where someone admits to owning several houses on several loans. How many, and what is their job?", "answer": "Five; a stripper in a club", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find or define: a house loan, a loan for risky borrowers, and betting that a price will fall.", "answer": "mortgage, subprime, to short", "points": 10},
+      {"title": "Station 3 · Explain it", "task": "Explain 'credit default swap' to a ten-year-old in two sentences, with no financial words. Perform it for another team.", "answer": "Any clear two-sentence analogy", "points": 15},
+      {"title": "Station 4 · The numbers", "task": "The story runs from about 2005 to 2008. How many years pass between Burry buying his swaps and the crash?", "answer": "About three", "points": 10}
+    ]
+  },
+  {
+    "id": "tinker-tailor",
+    "title": "Tinker Tailor Soldier Spy",
+    "year": 2011,
+    "level": "C2",
+    "runtime": 127,
+    "genres": ["thriller", "mystery", "drama"],
+    "director": "Tomas Alfredson",
+    "country": "UK",
+    "age": "15+",
+    "mood": "ice",
+    "logline": "A retired intelligence officer is asked to find a Soviet mole inside British intelligence, using old files, careful questions and a great deal of silence.",
+    "why": "Nothing is explained twice: names arrive in one line and are never repeated, and the plot is carried by looks across a table. That makes it an ideal C2 exercise in inference, because the group has to build the story from fragments.",
+    "language": "Quiet, clipped British English with a wide range of accents and a great deal of unstated meaning; several scenes are whispered, and the film refuses to underline its own dialogue.",
+    "content": "One shooting, a brief torture memory, smoking throughout and a cold, paranoid tone. 15+.",
+    "scenes": [
+      {
+        "at": "00:12:00",
+        "title": "The Hungary operation",
+        "task": "Watch the sequence with no subtitles. Who is being watched, and by whom? Then check what the dialogue actually told you.",
+        "type": "observe"
+      },
+      {
+        "at": "00:44:00",
+        "title": "The interview",
+        "task": "Smiley asks questions and gives nothing back. Count how often he speaks in this scene, and how often he simply waits.",
+        "type": "detail"
+      },
+      {
+        "at": "01:08:00",
+        "title": "The Christmas party",
+        "task": "Pause in the middle of the party. Who is looking at whom, and what does the camera refuse to show us?",
+        "type": "think"
+      },
+      {
+        "at": "01:55:00",
+        "title": "The safe house",
+        "task": "Before the last scene, predict who the mole is. Then watch how the film tells you without a single raised voice.",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "a mole", "def": "a spy who works secretly inside his own service", "ex": "Control believes there is a mole at the top."},
+      {"w": "a defector", "def": "a person who leaves one country for another", "ex": "The defector's story starts the whole search."},
+      {"w": "tradecraft", "def": "the skills and methods of spying", "ex": "The film is full of tradecraft: dead drops, tails, codes."},
+      {"w": "surveillance", "def": "the act of watching someone secretly", "ex": "The surveillance photographs are the only reliable evidence."},
+      {"w": "a dead drop", "def": "a hiding place for passing secret messages", "ex": "They leave the film in a dead drop."},
+      {"w": "to debrief", "def": "to question someone thoroughly after an event", "ex": "Guillam is debriefed about the operation."}
+    ],
+    "questions": [
+      "The film is famous for what it does not explain. What does it withhold about the mole, and why does that make the last scene stronger?",
+      "Smiley listens more than he speaks. Is he the film's hero, or just the last professional left in the building?",
+      "Would you work for an organisation that requires you to lie to everyone you love? Where would you draw the line?",
+      "The Christmas party is the warmest scene and the most dangerous one. What is the film saying about friendship inside institutions?",
+      "The palette is grey, brown and washed out. How does that choice make the offices feel like part of the plot?",
+      "Which line was the most sinister, and was it sinister because of the words or the pause after them?",
+      "In your country, how is the Cold War remembered — as history, as a family story, or not at all?",
+      "Smiley wins by knowing people. Is that wisdom, or just a more patient kind of cruelty?"
+    ],
+    "gaps": [
+      {"line": "There is a ___ in the Circus.", "answer": "mole", "hint": "a spy inside his own service", "adapted": true},
+      {"line": "Who can spy on the ___?", "answer": "spies", "hint": "people who gather secrets", "adapted": true},
+      {"line": "I am a ___ man, not a fieldman.", "answer": "desk", "hint": "office work, not field work", "adapted": true},
+      {"line": "Trust no one. Suspect ___.", "answer": "everyone", "hint": "every person", "adapted": true},
+      {"line": "We are running out of ___.", "answer": "time", "hint": "what a clock measures", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Who can spy on the spies?", "options": ["Control", "Smiley", "Guillam"], "answer": 0, "note": "The question that starts the search, and the reason a desk man is the only one who can answer it."},
+      {"quote": "I'm not a fieldman.", "options": ["Smiley", "Guillam", "Haydon"], "answer": 0, "note": "Smiley's modesty is accurate, and also his best disguise."},
+      {"quote": "You're a desk man, George.", "options": ["Guillam", "Control", "Haydon"], "answer": 0, "note": "A paraphrase of the film's running joke: the man sent to catch a spy is the one nobody watches."}
+    ],
+    "quiz": [
+      {"q": "What is Smiley's first name?", "options": ["George", "Peter", "Bill"], "answer": 0, "why": "George Smiley, the quiet man everyone underestimates."},
+      {"q": "What does 'the Circus' mean in the film?", "options": ["British intelligence headquarters", "A spy ring in Moscow", "A safe house in Paris"], "answer": 0, "why": "The nickname for the service's London building, where everyone is watched."},
+      {"q": "What happens to Jim Prideaux in Hungary?", "options": ["He is shot", "He defects", "He is arrested"], "answer": 0, "why": "The operation fails and Prideaux pays for it; the film keeps the moment brief and cold."},
+      {"q": "Who is Karla?", "options": ["A Soviet intelligence chief", "A British double agent", "Smiley's wife"], "answer": 0, "why": "Karla is the opposite number Smiley has studied for years."},
+      {"q": "Where does the film's list of codenames come from?", "options": ["The nursery rhyme 'Tinker Tailor'", "A deck of cards", "The planets"], "answer": 0, "why": "The rhyme gives each suspect a name, and a child's game becomes a death list."}
+    ],
+    "roleplay": {
+      "title": "The debrief",
+      "setting": "A safe house outside London, 1973. Two chairs, a file, and a cup of tea going cold.",
+      "roles": [
+        {"role": "Smiley", "brief": "You ask short questions and never fill a silence. You already know more than you say."},
+        {"role": "The witness", "brief": "You are frightened and you are lying about one thing only. Answer slowly, and change the subject once."},
+        {"role": "Guillam", "brief": "You are the younger officer. You want results and you keep interrupting, until you are told to wait outside."}
+      ],
+      "challenge": "Play it with one rule: nobody may answer a question directly. The scene ends when Smiley stands up."
+    },
+    "quest": [
+      {"title": "Station 1 · The operation", "task": "Find the name of Control's operation against the mole. Write the codename and who chose it.", "answer": "Witchcraft", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find or define: a spy inside his own service, the skills of spying, and a hiding place for messages.", "answer": "mole, tradecraft, dead drop", "points": 10},
+      {"title": "Station 3 · The dead drop", "task": "Write a five-line message that sounds completely innocent. Another team must guess which single word is the signal.", "answer": "Any innocent message with one hidden signal", "points": 15},
+      {"title": "Station 4 · The rhyme", "task": "Complete the rhyme the codenames come from: 'Tinker, tailor, soldier, sailor...' — then count how many suspects wear those names.", "answer": "rich man, poor man, beggar man, thief; five suspects", "points": 10}
+    ]
+  },
+  {
+    "id": "under-the-skin",
+    "title": "Under the Skin",
+    "year": 2013,
+    "level": "C2",
+    "runtime": 108,
+    "genres": ["sci-fi", "drama", "thriller"],
+    "director": "Jonathan Glazer",
+    "country": "UK",
+    "age": "18+",
+    "mood": "ice",
+    "logline": "A young woman drives a white van through Scotland, picking up men she meets in the street, and studies what it is to be human.",
+    "why": "There is almost no dialogue, so the film asks learners to read faces, glances and sound instead of sentences, which is a genuinely different C2 skill. The Scottish street scenes are unscripted and mumbly, so the group must learn to tolerate not catching every word.",
+    "language": "Very little speech; what there is comes in thick Scottish accents, often half-heard inside a moving van. The score and the ambient sound carry most of the meaning.",
+    "content": "Full nudity, unsettling images of men sinking in a black void, a scene of sexual assault and a disturbing ending. 18+.",
+    "scenes": [
+      {
+        "at": "00:12:00",
+        "title": "The van",
+        "task": "Watch the first pick-up with subtitles off. What does she do with her face while he talks, and where does she look?",
+        "type": "observe"
+      },
+      {
+        "at": "00:27:00",
+        "title": "The black room",
+        "task": "Pause as the man walks forward. Describe the space in three words, then watch the next two minutes and check your words.",
+        "type": "think"
+      },
+      {
+        "at": "00:52:00",
+        "title": "The beach",
+        "task": "Watch the whole beach sequence with the sound up. Who is left behind, and what does the camera choose not to look at?",
+        "type": "observe"
+      },
+      {
+        "at": "01:33:00",
+        "title": "The forest",
+        "task": "The last ten minutes have almost no words. Retell what happens in five sentences, then compare with a partner.",
+        "type": "speak"
+      }
+    ],
+    "words": [
+      {"w": "to lure", "def": "to attract someone into a trap", "ex": "She lures men into the van with a smile."},
+      {"w": "predatory", "def": "hunting or using other people for your own need", "ex": "Her stillness is predatory, even when she smiles."},
+      {"w": "a void", "def": "a completely empty, dark space", "ex": "The men walk into a void and never come out."},
+      {"w": "detached", "def": "emotionally separate, not involved", "ex": "Her face stays detached while he talks about his life."},
+      {"w": "to pass for human", "def": "to seem to be a normal person", "ex": "She studies how to pass for human."},
+      {"w": "to recoil", "def": "to move back suddenly in fear or disgust", "ex": "He recoils when he sees what is under the skin."}
+    ],
+    "questions": [
+      "The film withholds almost all explanation: no backstory, no names, barely any dialogue. What does that withholding force the audience to do?",
+      "Whose point of view are we in? The film keeps cutting to the motorcyclist, so what does that do to our sympathy?",
+      "Would you get into a stranger's van for a conversation? What does the film assume about how men and women meet?",
+      "Most of the men in the van are not actors, speaking as themselves. Does that make the film more honest or more uncomfortable?",
+      "The score is screeching strings and long drones. How does sound do the work that dialogue usually does?",
+      "There are almost no lines to quote. Choose a look, a gesture or a sound, and explain how it 'speaks'.",
+      "The film shows Scotland as rain, roads and empty estates. How does your country look when a film stops trying to make it beautiful?",
+      "At the end, is she becoming human or being punished for trying? Defend a reading."
+    ],
+    "gaps": [
+      {"line": "Do you want a ___?", "answer": "lift", "hint": "a ride in someone's car", "adapted": true},
+      {"line": "Are you all ___?", "answer": "right", "hint": "okay, not hurt", "adapted": true},
+      {"line": "Where are you ___?", "answer": "from", "hint": "the preposition for origin", "adapted": true},
+      {"line": "I'm not from ___ here.", "answer": "around", "hint": "near this place", "adapted": true},
+      {"line": "Don't be ___.", "answer": "afraid", "hint": "scared", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Do you want a lift?", "options": ["The woman", "The motorcyclist", "A man on the beach"], "answer": 0, "note": "The film's only real pick-up line, and almost the whole script; paraphrased from the van scenes."},
+      {"quote": "You're not from around here, are you?", "options": ["A man in the van", "The motorcyclist", "The child on the beach"], "answer": 0, "note": "The film's quiet joke: the alien is the only one who truly does not belong."},
+      {"quote": "Are you all right?", "options": ["The woman", "The man with the scarred face", "The motorcyclist"], "answer": 0, "note": "A short, ordinary question used as an experiment; the note marks this as a paraphrase."}
+    ],
+    "quiz": [
+      {"q": "What does the woman drive?", "options": ["A white van", "A black car", "A motorbike"], "answer": 0, "why": "The van is ordinary, which is what makes the pick-ups possible."},
+      {"q": "Where is the film set?", "options": ["Scotland", "England", "Iceland"], "answer": 0, "why": "Glasgow streets, highland roads and a grey coastline."},
+      {"q": "What happens to the men she takes to the house?", "options": ["They sink into a black void", "They are arrested", "They are driven home"], "answer": 0, "why": "The film shows almost nothing, and the almost is the horror."},
+      {"q": "Who follows her through the film?", "options": ["A man on a motorbike", "A police officer", "Her sister"], "answer": 0, "why": "The motorcyclist watches, cleans up and never speaks."},
+      {"q": "What does she do after she leaves the van behind?", "options": ["She tries to live as a woman", "She returns home", "She finds the motorcyclist"], "answer": 0, "why": "She eats cake, takes a bus, and tries a human life for a few days."}
+    ],
+    "roleplay": {
+      "title": "The lift",
+      "setting": "A rainy street in Glasgow, 11 p.m. A white van, a stranger, and a conversation that is not really a conversation.",
+      "roles": [
+        {"role": "The woman", "brief": "You are friendly and completely blank. Ask three questions, then stop listening. Never answer a question about yourself."},
+        {"role": "The man", "brief": "You are lonely and flattered. Talk about yourself for two minutes; you want to be interesting."},
+        {"role": "The motorcyclist", "brief": "You say nothing. You watch from across the street and you write down the address."}
+      ],
+      "challenge": "Play it twice: once where the man is dangerous, once where the woman is. Nobody may raise their voice."
+    },
+    "quest": [
+      {"title": "Station 1 · No words", "task": "Find a thirty-second stretch with no dialogue. Write down every sound you hear, then compare lists with another team.", "answer": "Any accurate sound list", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find or define: to attract someone into a trap, a completely empty dark space, and to seem human.", "answer": "to lure, a void, to pass for human", "points": 10},
+      {"title": "Station 3 · The statement", "task": "Write a police statement from the motorcyclist describing the woman. Use only what he could actually see and hear.", "answer": "Any statement limited to observation", "points": 15},
+      {"title": "Station 4 · The order of things", "task": "Put today's four scenes in order and give each one a single-word title: the van, the black room, the beach, the forest.", "answer": "van, black room, beach, forest", "points": 10}
+    ]
+  },
+  {
+    "id": "the-lighthouse",
+    "title": "The Lighthouse",
+    "year": 2019,
+    "level": "C2",
+    "runtime": 109,
+    "genres": ["drama", "horror", "mystery"],
+    "director": "Robert Eggers",
+    "country": "USA",
+    "age": "18+",
+    "mood": "noir",
+    "logline": "Two lighthouse keepers arrive on a bare rock in the 1890s, and as the fog closes in, neither can say what is real.",
+    "why": "The dialogue is written in a dense 1890s New England dialect, half-spoken and half-shouted, so the group must use rhythm and repetition to follow it. The black-and-white images and the two-man structure make every pause easy to analyse.",
+    "language": "Period New England speech: 'ye', 'yer', doubled negatives and old nautical words, delivered in shouts, whispers and songs; Pattinson mumbles and Dafoe performs.",
+    "content": "Violence, a killing, madness, sexual fantasies, a dead gull and heavy drinking. 18+, and genuinely disturbing in the last third.",
+    "scenes": [
+      {
+        "at": "00:13:00",
+        "title": "The rules",
+        "task": "Listen to Wake list the rules of the lighthouse. Write three of them. Which one is really about power, not work?",
+        "type": "listen"
+      },
+      {
+        "at": "00:35:00",
+        "title": "The toast",
+        "task": "Pause on the table. What is on it, and how does the camera make two men look like a married couple?",
+        "type": "observe"
+      },
+      {
+        "at": "01:02:00",
+        "title": "The storm",
+        "task": "Watch the argument with subtitles off, then on. Which words did you catch, and how much did you understand from the bodies?",
+        "type": "listen"
+      },
+      {
+        "at": "01:40:00",
+        "title": "The lamp",
+        "task": "The film ends with images, not explanations. Describe the last shot in one sentence and say what it withholds.",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "to haul", "def": "to pull something heavy with effort", "ex": "They haul coal up the stairs all day."},
+      {"w": "rations", "def": "fixed amounts of food given to each person", "ex": "The rations shrink as the fog holds."},
+      {"w": "marooned", "def": "trapped somewhere with no way to leave", "ex": "The two men are marooned on the rock."},
+      {"w": "superstition", "def": "a belief in luck, omens and curses", "ex": "Wake's superstition about the gulls rules the island."},
+      {"w": "logbook", "def": "the official record of a ship's voyage", "ex": "The logbook must be filled in every day."},
+      {"w": "to be all at sea", "def": "to be completely confused", "ex": "By the end, both men are all at sea."}
+    ],
+    "questions": [
+      "The film withholds the truth about the lamp and about Winslow's past. Why does it keep both just out of reach?",
+      "Wake forbids the lamp, then worships it. What is the lamp here — God, money, or something the film never names?",
+      "Would you take a job on a rock with one other person for a month? What would break first, your patience or your manners?",
+      "Winslow's name is not his own. Does that make him a liar, or just a man starting again?",
+      "The film is shot in a small square black-and-white frame. How does that shape make the two men look trapped?",
+      "Which line did you enjoy saying aloud, and why does the dialect make insults funnier?",
+      "Lighthouse keeping was a real job in many countries, including possibly yours. What do you know about it, and who did it?",
+      "The ending is ambiguous. Is that a cop-out, or the only honest way to finish this story?"
+    ],
+    "gaps": [
+      {"line": "Why'd ya spill yer ___?", "answer": "beans", "hint": "a food that comes in a tin", "adapted": false},
+      {"line": "You're fond of me ___, ain't ye?", "answer": "lobster", "hint": "a sea animal with claws", "adapted": false},
+      {"line": "Keep yer ___ off the lamp.", "answer": "hands", "hint": "the things at the end of your arms", "adapted": true},
+      {"line": "We're ___. There is no boat.", "answer": "marooned", "hint": "trapped with no way off", "adapted": true},
+      {"line": "The ___ is the only thing that matters.", "answer": "lamp", "hint": "the light at the top of the tower", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "You're fond of me lobster, ain't ye?", "options": ["Wake", "Winslow", "The gull"], "answer": 0, "note": "The old man's pride and his need to be admired, in one sentence."},
+      {"quote": "Why'd ya spill yer beans?", "options": ["Winslow", "Wake", "The keeper's ghost"], "answer": 0, "note": "The question that turns the film: it means 'why did you tell the secret?'"},
+      {"quote": "I'm the lighthouse keeper here.", "options": ["Wake", "Winslow", "The narrator"], "answer": 0, "note": "A close paraphrase of Wake's claim to authority; he says it more than once, and it matters more each time."}
+    ],
+    "quiz": [
+      {"q": "When is the film set?", "options": ["The 1890s", "The 1920s", "The 1850s"], "answer": 0, "why": "The costumes, the dialect and the logbook all point to the end of the nineteenth century."},
+      {"q": "What is Winslow's job at the start?", "options": ["Assistant keeper", "Captain", "Cook"], "answer": 0, "why": "He has come for the work, and Wake reminds him of it constantly."},
+      {"q": "What does Wake forbid Winslow to do?", "options": ["Enter the lamp room", "Drink", "Write in the logbook"], "answer": 0, "why": "The lamp is Wake's private kingdom, and the rule is the whole plot."},
+      {"q": "Which animal does Winslow kill?", "options": ["A gull", "A rat", "A dog"], "answer": 0, "why": "Wake says killing a gull brings bad luck, and the film lets us decide whether he is right."},
+      {"q": "What does the film suggest about Winslow's name?", "options": ["He took another man's name", "He is Wake's son", "He has forgotten it"], "answer": 0, "why": "The real Winslow died, and the man in the tower needed a name."}
+    ],
+    "roleplay": {
+      "title": "The lamp room",
+      "setting": "A stone tower on a bare rock, 1892. One locked door, two men, and a bottle that is nearly empty.",
+      "roles": [
+        {"role": "Wake", "brief": "You are the keeper. You speak in proverbs and threats, and you never answer a straight question. You have the only key."},
+        {"role": "Winslow", "brief": "You are younger, stronger and losing your temper. You want one honest answer and you will not get it."},
+        {"role": "The gull", "brief": "You have no lines. You stand on the table, stare at Winslow, and refuse to move."}
+      ],
+      "challenge": "Play it twice: once as a workplace argument, once as a religious one. The gull must not be harmed."
+    },
+    "quest": [
+      {"title": "Station 1 · The rules", "task": "Find the scene where Wake lists the rules. Write four of them and mark the one that is about obedience, not work.", "answer": "The lamp-room rule; it is about power", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find or define: to pull something heavy, fixed amounts of food, and trapped with no way off.", "answer": "to haul, rations, marooned", "points": 10},
+      {"title": "Station 3 · The logbook", "task": "Write one page of the lighthouse logbook for the day the fog arrives. Use the keeper's formal voice, and hide one lie in it.", "answer": "Any formal logbook page with one lie", "points": 15},
+      {"title": "Station 4 · The tally", "task": "In one two-minute scene, count every time Wake says 'ye' or 'yer'. Compare totals, then explain what the dialect does to his authority.", "answer": "Any tally; the dialect marks his class and his power", "points": 10}
+    ]
+  }
+]

@@ -1,0 +1,952 @@
+[
+  {
+    "id": "forrest-gump",
+    "title": "Forrest Gump",
+    "year": 1994,
+    "level": "B1",
+    "runtime": 142,
+    "genres": ["drama", "comedy", "romance"],
+    "director": "Robert Zemeckis",
+    "country": "USA",
+    "age": "12+",
+    "mood": "sepia",
+    "logline": "A kind-hearted Alabama man with a low IQ tells the story of his life, and somehow ends up in the middle of America's biggest moments.",
+    "why": "The narrator speaks slowly and clearly, so a long film stays easy to follow even when the history moves fast. The same few ideas come back for forty years — kindness, luck, keeping a promise — so the new words return again and again.",
+    "language": "Southern American English with a slow Alabama accent; the voice-over is clear, but some scenes use fast 1960s slang and news-reader voices.",
+    "content": "War scenes and injuries, drug use and addiction, and the death of a close character; the story also suggests a suicide attempt.",
+    "scenes": [
+      {
+        "at": "00:07:20",
+        "title": "The feather and the bench",
+        "task": "Follow the feather until it lands. Who is sitting next to Forrest, and what does that person do while he talks?",
+        "type": "observe"
+      },
+      {
+        "at": "00:26:40",
+        "title": "Run, Forrest, run",
+        "task": "Catch the exact words the girl shouts. Then watch the leg braces: what happens to them, and why is this a turning point?",
+        "type": "listen"
+      },
+      {
+        "at": "01:03:10",
+        "title": "Rain that never stops",
+        "task": "Forrest lists the kinds of rain he has seen. Pause after the list and say what the weather tells us about the soldiers' life.",
+        "type": "think"
+      },
+      {
+        "at": "02:12:00",
+        "title": "The bus stops again",
+        "task": "The film ends with a feather and a school bus. Pause before the last line: what has changed since the first scene?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "to keep a promise", "def": "to do what you said you would do", "ex": "Forrest keeps his promise to Bubba."},
+      {"w": "to make a living", "def": "to earn enough money to live on", "ex": "Bubba wants to make a living from shrimp."},
+      {"w": "to give up", "def": "to stop trying because something is too hard", "ex": "Lieutenant Dan wants to give up after the war."},
+      {"w": "to run into", "def": "to meet someone you know by chance", "ex": "Forrest runs into Jenny in the street."},
+      {"w": "to lose touch", "def": "to stop talking to someone over time", "ex": "Forrest and Jenny lose touch for years."},
+      {"w": "to look after", "def": "to take care of someone or something", "ex": "Forrest looks after Bubba's family."}
+    ],
+    "questions": [
+      "Forrest's mother says that life is like a box of chocolates. What do you think she means, and is it good advice?",
+      "Forrest never makes a big plan: the army, the shrimp boat, the running — other people suggest them. Why do you think he is happy like that?",
+      "Jenny keeps leaving and Forrest keeps waiting. Is that patience, or is it something sadder?",
+      "Lieutenant Dan has to decide whether to thank Forrest or to blame him. Why is that decision so hard for him?",
+      "Which scene or line stayed with you after the film? Say it in your own words and explain why it stays.",
+      "In your culture, how do schools and neighbours treat a child who learns more slowly? Is Forrest's school like the schools you know?",
+      "Would you sit next to Forrest at the bus stop and listen to his whole story? What would you ask him first?",
+      "The film puts one invented man inside real history. Does that make the history easier to feel, or harder to trust?"
+    ],
+    "gaps": [
+      {"line": "If God had wanted everybody to be the same, he'd have given us all ___ on our legs.", "answer": "braces", "hint": "metal supports for weak legs", "adapted": true},
+      {"line": "I'm not a smart man, but I know what ___ is.", "answer": "love", "hint": "a strong feeling for someone", "adapted": false},
+      {"line": "Life is like a box of ___. You never know what you're gonna get.", "answer": "chocolates", "hint": "sweet things in a box", "adapted": true},
+      {"line": "You have to put the past ___ you before you can move on.", "answer": "behind", "hint": "at your back, not in front", "adapted": true},
+      {"line": "I ran for three and a ___ years.", "answer": "half", "hint": "not a whole number", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Stupid is as stupid does.", "options": ["Forrest", "Jenny", "Lieutenant Dan"], "answer": 0, "note": "His mother's words, used as armour when a stranger calls him stupid."},
+      {"quote": "I'm not a smart man, but I know what love is.", "options": ["Forrest", "Bubba", "Lieutenant Dan"], "answer": 0, "note": "He says it to Jenny — the simplest sentence in the film, and the bravest."},
+      {"quote": "Sometimes there just aren't enough rocks.", "options": ["Jenny", "Forrest", "Mrs Gump"], "answer": 0, "note": "Jenny throws stones at her old house; the line is about a childhood she cannot undo."}
+    ],
+    "quiz": [
+      {"q": "Where does Forrest grow up?", "options": ["Greenbow, Alabama", "Savannah, Georgia", "New York City"], "answer": 0, "why": "He grows up in Greenbow, Alabama, and tells his story on a bench in Savannah."},
+      {"q": "What does Bubba want to do after the army?", "options": ["Run a shrimp boat", "Become a teacher", "Play football"], "answer": 0, "why": "Bubba talks about shrimp all day, and Forrest starts the business for him."},
+      {"q": "What happens to Forrest's leg braces?", "options": ["They break off when he runs", "A doctor removes them", "He throws them in a river"], "answer": 0, "why": "He runs from the bullies, the braces fall apart, and he keeps running."},
+      {"q": "Who is Lieutenant Dan?", "options": ["Forrest's officer in Vietnam", "Forrest's teacher", "Jenny's husband"], "answer": 0, "why": "He leads Forrest's platoon and loses his legs in the ambush."},
+      {"q": "What does Forrest do for more than three years?", "options": ["He runs across America", "He works in a factory", "He sails around the world"], "answer": 0, "why": "One day he starts running and does not stop for three and a half years."}
+    ],
+    "roleplay": {
+      "title": "The bus stop listener",
+      "setting": "A bench in Savannah, Georgia. Forrest has a suitcase, a box of chocolates and a long story; the stranger has a bus to catch in ten minutes.",
+      "roles": [
+        {"role": "Forrest", "brief": "You are friendly and slow. Tell one story about your life in short sentences, and never notice when people want to leave."},
+        {"role": "Stranger", "brief": "You are polite but in a hurry. Ask two questions, look at your watch, and try to end the conversation without being rude."},
+        {"role": "Bus driver", "brief": "You arrive twice and call the route. You have one line each time, and you decide whether the stranger gets on."}
+      ],
+      "challenge": "Play it once with the stranger staying to the end of the story, and once with the stranger leaving early. Which version feels more like the film?"
+    },
+    "quest": [
+      {"title": "Station 1 · The town on the bench", "task": "Forrest names the town where he grew up. Find it and write the town and the state.", "answer": "Greenbow, Alabama", "points": 10},
+      {"title": "Station 2 · Three phrasal verbs", "task": "In the first hour, find the phrase for 'to stop trying', the one for 'to meet by chance' and the one for 'to take care of'.", "answer": "give up, run into, look after", "points": 10},
+      {"title": "Station 3 · A box of chocolates", "task": "Write four sentences: one thing in your life you did not choose, one you did, and what came next. Read it to the group.", "answer": "Any four honest sentences, read aloud", "points": 15},
+      {"title": "Station 4 · The order of a life", "task": "Put these in the order Forrest lives them: the shrimp boat, the army, the long run, college football.", "answer": "college football, army, shrimp boat, long run", "points": 10}
+    ]
+  },
+  {
+    "id": "truman-show",
+    "title": "The Truman Show",
+    "year": 1998,
+    "level": "B1",
+    "runtime": 103,
+    "genres": ["drama", "sci-fi"],
+    "director": "Peter Weir",
+    "country": "USA",
+    "age": "12+",
+    "mood": "pastel",
+    "logline": "A cheerful insurance salesman begins to notice that his perfect seaside town repeats itself, and that everyone around him may be acting.",
+    "why": "The dialogue is slow and friendly, and the story is built on small details you can point at on screen. It gives B1 learners a real reason to use words for doubt, certainty and pretending.",
+    "language": "Clear American English in a small-town accent; Truman speaks slowly, while the director's voice over the loudspeakers is calm and controlled.",
+    "content": "A man is watched and controlled for his whole life; there is a frightening storm at sea and a memory of a drowning, but no blood and no sex.",
+    "scenes": [
+      {
+        "at": "00:05:10",
+        "title": "The same morning",
+        "task": "Count the things that happen twice: the greeting, the dog, the car, the neighbours. Which detail is the first one that feels wrong?",
+        "type": "observe"
+      },
+      {
+        "at": "00:19:40",
+        "title": "Behind the elevator",
+        "task": "Pause when the elevator door opens. What is behind it, and how does Truman explain it to himself?",
+        "type": "think"
+      },
+      {
+        "at": "00:58:00",
+        "title": "The father on the street",
+        "task": "Truman sees a man he thought was dead. Pause and predict: what will the town do next, and why?",
+        "type": "predict"
+      },
+      {
+        "at": "01:24:30",
+        "title": "The edge of the world",
+        "task": "The boat reaches a painted wall. Pause and describe what Truman does with his hands, then with his voice.",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "to keep an eye on", "def": "to watch someone carefully over a period of time", "ex": "The cameras keep an eye on Truman all day."},
+      {"w": "to go along with", "def": "to accept a plan without fighting it", "ex": "At first Truman goes along with everything."},
+      {"w": "to make sense", "def": "to be logical or easy to understand", "ex": "The lamp falling from the sky does not make sense."},
+      {"w": "to play a part", "def": "to pretend to be someone you are not", "ex": "Everyone in Seahaven plays a part."},
+      {"w": "to be fed up with", "def": "to be tired and annoyed with something", "ex": "Truman is fed up with the same routine."},
+      {"w": "to take control", "def": "to decide what happens and how it happens", "ex": "Christof takes control of the weather."}
+    ],
+    "questions": [
+      "If you found out tonight that your whole life was a television show, what would you do in the first hour?",
+      "Truman decides to sail into the storm instead of staying safe on the island. Was that brave, stupid, or both?",
+      "Christof says he gave Truman a safe and normal life. Do you believe him, and what does Truman lose in that safety?",
+      "Which moment or line made you stop and think? Describe the scene and say why it stayed with you.",
+      "In your country, how much of daily life is filmed by phones and cameras? Is Seahaven so far from that?",
+      "Would you accept a perfect town if the rules were clear? What would you ask for before you signed?",
+      "Truman's wife and best friend say kind things that were written for them. How can you tell when someone is being honest with you?",
+      "The film was made in 1998. Is its warning about television, about the internet, or about both?"
+    ],
+    "gaps": [
+      {"line": "In case I don't see ya — good afternoon, good evening and good ___!", "answer": "night", "hint": "the last greeting of the day", "adapted": false},
+      {"line": "How's it going to ___?", "answer": "end", "hint": "finish", "adapted": false},
+      {"line": "When I was a boy, I wanted to be an ___.", "answer": "explorer", "hint": "a person who travels to find new places", "adapted": true},
+      {"line": "Seahaven is the way the world ___ be.", "answer": "should", "hint": "used for what is right or correct", "adapted": false},
+      {"line": "You were ___. That's what made you so good to watch.", "answer": "real", "hint": "true, not pretend", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "In case I don't see ya — good afternoon, good evening and good night!", "options": ["Truman", "Marlon", "Christof"], "answer": 0, "note": "His everyday greeting — and the last thing he says on the show."},
+      {"quote": "How's it going to end?", "options": ["Sylvia", "Meryl", "Christof"], "answer": 0, "note": "The question on her badge becomes the question of the whole film."},
+      {"quote": "Seahaven is the way the world should be.", "options": ["Christof", "Marlon", "Meryl"], "answer": 0, "note": "The director defends his town as a better world; the film lets you decide."}
+    ],
+    "quiz": [
+      {"q": "What is Truman's job?", "options": ["Insurance salesman", "Bus driver", "Bank clerk"], "answer": 0, "why": "He sells insurance in Seahaven and does the same round every day."},
+      {"q": "What falls from the sky at the start?", "options": ["A studio lamp", "A plane", "A camera"], "answer": 0, "why": "A lamp labelled 'Sirius' crashes in the street — the first real clue."},
+      {"q": "Who is Marlon?", "options": ["Truman's best friend", "Truman's boss", "A journalist"], "answer": 0, "why": "Marlon is his best friend, and also an actor on the show."},
+      {"q": "Why is Truman afraid of the sea?", "options": ["He saw his father drown", "He fell into a river", "He cannot swim"], "answer": 0, "why": "The show invented the drowning, and the fear keeps him on the island."},
+      {"q": "How does Truman leave Seahaven?", "options": ["Through a door in the wall", "By plane", "Through the town gate"], "answer": 0, "why": "He sails to the painted wall and walks out through a door."}
+    ],
+    "roleplay": {
+      "title": "The perfect neighbour",
+      "setting": "A quiet morning in Seahaven. Truman has just heard a strange radio channel, and he is asking questions in the street.",
+      "roles": [
+        {"role": "Truman", "brief": "You are friendly and curious. Ask three questions about the town, the road and the strange light you saw last night."},
+        {"role": "Neighbour", "brief": "You are an actor playing a neighbour. Stay cheerful, change the subject, and never answer directly."},
+        {"role": "Voice", "brief": "You are the director in the earpiece. You may whisper one short line to the neighbour between questions, and only one."}
+      ],
+      "challenge": "Play it twice: once where the neighbour is convincing, once where he makes three mistakes that Truman could notice."
+    },
+    "quest": [
+      {"title": "Station 1 · The town on the sea", "task": "Find the name of the town and the name of the man who created it. Write both.", "answer": "Seahaven; Christof", "points": 10},
+      {"title": "Station 2 · Words for pretending", "task": "Which phrase from today means 'to pretend to be someone else'? Find it in the film and say who is doing it.", "answer": "to play a part; everyone in Seahaven", "points": 10},
+      {"title": "Station 3 · Your goodbye line", "task": "Write your own three-part goodbye in Truman's style (time of day, time of day, good night) and say it to the group.", "answer": "Any three-part friendly goodbye, spoken", "points": 15},
+      {"title": "Station 4 · The order of clues", "task": "Put these in order: the father returns, the lamp falls, the boat hits the wall, Sylvia's button.", "answer": "lamp, button, father, wall", "points": 10}
+    ]
+  },
+  {
+    "id": "groundhog-day",
+    "title": "Groundhog Day",
+    "year": 1993,
+    "level": "B1",
+    "runtime": 101,
+    "genres": ["comedy", "romance"],
+    "director": "Harold Ramis",
+    "country": "USA",
+    "age": "12+",
+    "mood": "ice",
+    "logline": "A grumpy weatherman is sent to a small town to report on Groundhog Day, and wakes up the next morning to find the same day starting again.",
+    "why": "The same day repeats, so the key words and situations come back again and again — perfect for listening practice. Phil's slow change from rude to kind gives the group plenty to argue about in simple language.",
+    "language": "Standard American English, with a fast and sarcastic main character; the small-town accents are gentle, and the repeating scenes make the lines easier to catch.",
+    "content": "A comic car chase and crash, and a short montage in which Phil tries to kill himself in several ways; the tone stays light but it needs a warning.",
+    "scenes": [
+      {
+        "at": "00:06:20",
+        "title": "Report from the square",
+        "task": "Watch the crowd and the groundhog. Write down three things Phil clearly hates about the ceremony.",
+        "type": "observe"
+      },
+      {
+        "at": "00:19:00",
+        "title": "Six o'clock again",
+        "task": "Listen to the radio alarm. Catch the song and one thing the presenters say, then check whether they say it again next morning.",
+        "type": "listen"
+      },
+      {
+        "at": "00:52:00",
+        "title": "A day with no rules",
+        "task": "Phil learns the piano and catches a falling boy. Pause: what is he trying to do with a day that nobody will remember?",
+        "type": "think"
+      },
+      {
+        "at": "01:30:00",
+        "title": "The last dance",
+        "task": "At the party, watch Rita's face while Phil talks. What has changed in the way the town sees him?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "to get stuck", "def": "to be unable to move or change", "ex": "Phil is stuck on the same day."},
+      {"w": "to make the most of", "def": "to use a situation as well as you can", "ex": "Phil finally makes the most of his time."},
+      {"w": "to take advantage of", "def": "to use something in an unfair way", "ex": "At first he takes advantage of the repeating day."},
+      {"w": "to cheer up", "def": "to become or make someone happier", "ex": "Rita tries to cheer Phil up."},
+      {"w": "to fall for someone", "def": "to start to love someone in a romantic way", "ex": "Phil falls for Rita without planning it."},
+      {"w": "to change your ways", "def": "to start behaving in a better way", "ex": "Phil slowly changes his ways."}
+    ],
+    "questions": [
+      "Phil learns that being rude costs him nothing — at first. Why does he stop taking advantage of the day?",
+      "If you had to live one day again and again, which day would you choose, and what would you do differently?",
+      "Rita says she likes people who help others. Is Phil's change real, or is he only trying to win her?",
+      "Phil decides to learn the piano and to help people in the town. Why does learning a skill change him more than tricks do?",
+      "Which line or small scene made you laugh? Say it the way the actor says it and explain the joke.",
+      "In your culture, is there a festival that repeats every year in the same way? How do people feel about it?",
+      "Would you tell anyone the truth if you were stuck in Phil's day? Why do people keep that kind of secret?",
+      "Phil is the only person who remembers. Is that a lonely idea, or a free one?"
+    ],
+    "gaps": [
+      {"line": "What if there is no tomorrow? There wasn't one ___.", "answer": "today", "hint": "the day we are in now", "adapted": false},
+      {"line": "Okay, campers, rise and shine — it's ___ out there today!", "answer": "cold", "hint": "not warm at all", "adapted": true},
+      {"line": "Don't drive ___.", "answer": "angry", "hint": "very cross", "adapted": false},
+      {"line": "I keep waking up on the same ___, and nobody believes me.", "answer": "morning", "hint": "the early part of the day", "adapted": true},
+      {"line": "I've got to get out of ___.", "answer": "here", "hint": "this place", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Don't drive angry.", "options": ["Phil", "Rita", "Ned"], "answer": 0, "note": "He says it to the groundhog, with the groundhog at the wheel."},
+      {"quote": "Watch out for that first step — it's a doozy!", "options": ["Ned Ryerson", "Phil", "Larry"], "answer": 0, "note": "Ned says the same thing every time they meet, which is the joke."},
+      {"quote": "What if there is no tomorrow? There wasn't one today.", "options": ["Phil", "Rita", "The doctor"], "answer": 0, "note": "He has stopped panicking and started thinking."}
+    ],
+    "quiz": [
+      {"q": "What is Phil's job?", "options": ["TV weatherman", "Newspaper reporter", "Radio presenter"], "answer": 0, "why": "He presents the weather on a Pittsburgh television station."},
+      {"q": "Which song wakes Phil every morning?", "options": ["I Got You Babe", "Yesterday", "Blue Moon"], "answer": 0, "why": "The clock radio plays the same song at six o'clock every day."},
+      {"q": "Who is Rita?", "options": ["Phil's producer", "Phil's sister", "A piano teacher"], "answer": 0, "why": "She works on the same team and is the person Phil wants to impress."},
+      {"q": "What new skill does Phil learn?", "options": ["Playing the piano", "Driving a truck", "Speaking French"], "answer": 0, "why": "He takes lessons in town and performs at the party near the end."},
+      {"q": "What animal is the festival about?", "options": ["A groundhog", "A rabbit", "A goat"], "answer": 0, "why": "Punxsutawney Phil the groundhog is supposed to predict the end of winter."}
+    ],
+    "roleplay": {
+      "title": "The live weather report",
+      "setting": "A small TV studio at 6:55 a.m. The report goes live in five minutes, and the presenter has not read the notes.",
+      "roles": [
+        {"role": "Phil", "brief": "You are bored and sarcastic. Read the weather badly, then say one nice thing about the town by accident."},
+        {"role": "Rita", "brief": "You are the producer. You are patient, you correct him quietly, and you keep the show on time."},
+        {"role": "Cameraman", "brief": "You say only three things: 'Ten seconds', 'You're on' and 'We're off'. Use your hands to count down."}
+      ],
+      "challenge": "Play the report twice: once as Phil hates the story, once as he loves it. Keep the same words."
+    },
+    "quest": [
+      {"title": "Station 1 · Six o'clock", "task": "What time does Phil wake up, and what is the first thing he hears? Write both.", "answer": "6:00 a.m.; the radio playing I Got You Babe", "points": 10},
+      {"title": "Station 2 · Stuck", "task": "Which word from today's list means 'unable to move or change'? Use it in one sentence about Phil.", "answer": "stuck", "points": 10},
+      {"title": "Station 3 · The perfect day", "task": "Write Phil's perfect morning in five short sentences, using at least two phrases from today's list.", "answer": "Any five sentences using two phrases", "points": 15},
+      {"title": "Station 4 · The order of a long day", "task": "Put these in order: the piano lessons, the first report in the square, the car chase with the groundhog, the party.", "answer": "first report, piano lessons, car chase, party", "points": 10}
+    ]
+  },
+  {
+    "id": "back-to-the-future",
+    "title": "Back to the Future",
+    "year": 1985,
+    "level": "B1",
+    "runtime": 116,
+    "genres": ["sci-fi", "comedy"],
+    "director": "Robert Zemeckis",
+    "country": "USA",
+    "age": "12+",
+    "mood": "neon",
+    "logline": "A teenager's scientist friend builds a time machine from a car, and one test drive throws the boy thirty years into the past.",
+    "why": "The plot is a clear puzzle — every object in 1955 matters — so learners listen for details, not just lines. Slang comes from two different decades, which gives B1 students a safe first taste of how English changes.",
+    "language": "American English of the 1980s and the 1950s, with 1950s slang such as 'square' and 'crazy', and some fast, joking dialogue between Marty and Doc.",
+    "content": "A shootout between criminals and a scientist, a car chase, and an attempted assault on a young woman in a parked car; nothing explicit, but the last scene is uncomfortable.",
+    "scenes": [
+      {
+        "at": "00:09:10",
+        "title": "Doc's workshop",
+        "task": "List five machines or clocks in the workshop. Which one tells you that Doc is obsessed with time?",
+        "type": "observe"
+      },
+      {
+        "at": "00:28:30",
+        "title": "One point twenty-one gigawatts",
+        "task": "Listen for the number and the unit. Write them down, then say what Doc needs them for.",
+        "type": "listen"
+      },
+      {
+        "at": "00:55:40",
+        "title": "Dinner in 1955",
+        "task": "Lorraine flirts with Marty at the table. Pause: why is this funny, and why is it dangerous for the future?",
+        "type": "think"
+      },
+      {
+        "at": "01:49:00",
+        "title": "The clock tower",
+        "task": "Before the cable falls, predict two things that could go wrong. Then watch and check your guesses.",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "to mess up", "def": "to make a mistake that spoils something", "ex": "One wrong word could mess up the future."},
+      {"w": "to stand out", "def": "to be easy to notice because you are different", "ex": "Marty's jacket stands out in 1955."},
+      {"w": "to keep quiet", "def": "to not tell anyone a secret", "ex": "Marty has to keep quiet about the future."},
+      {"w": "to count on", "def": "to trust that someone will help you", "ex": "Doc counts on Marty to drive the car."},
+      {"w": "to take a risk", "def": "to do something even if it may go wrong", "ex": "They take a risk with the lightning."},
+      {"w": "a close call", "def": "a time when something bad almost happened", "ex": "The chase through the square is a close call."}
+    ],
+    "questions": [
+      "Marty changes the past just by being there. Do small actions always change big things?",
+      "Doc decides to keep the time machine secret from everybody. Was that the right decision, and who would you tell?",
+      "Marty meets his parents when they are teenagers. Would you like to meet your parents at that age, and what would you ask them?",
+      "Which line or scene made you laugh most? Say the line and explain the joke to the group.",
+      "In your country, what was life like for teenagers in your grandparents' time? What would surprise them about today?",
+      "Would you take Doc's risk and travel to a year you know nothing about? What would you take with you?",
+      "Marty wants to go home, but he also wants to help his parents. Which matters more in the film?",
+      "Doc says the future is whatever you make it. Do you believe that, or does the past decide for us?"
+    ],
+    "gaps": [
+      {"line": "Where we're going, we don't need ___.", "answer": "roads", "hint": "the things cars drive on", "adapted": false},
+      {"line": "Marty! You've got to come back with me — back to the ___!", "answer": "future", "hint": "the time after now", "adapted": false},
+      {"line": "Kissing you is like kissing my ___.", "answer": "brother", "hint": "a boy in your family", "adapted": false},
+      {"line": "If you put your mind to it, you can accomplish ___.", "answer": "anything", "hint": "every possible thing", "adapted": false},
+      {"line": "One point twenty-one ___! That's what I need!", "answer": "gigawatts", "hint": "a very large unit of power", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Roads? Where we're going, we don't need roads.", "options": ["Doc", "Marty", "George"], "answer": 0, "note": "The last line of the film, said as the car lifts off."},
+      {"quote": "This is heavy.", "options": ["Marty", "Doc", "Biff"], "answer": 0, "note": "Marty says it twice — and Doc asks why he keeps using that word."},
+      {"quote": "If you put your mind to it, you can accomplish anything.", "options": ["George", "Doc", "Marty"], "answer": 0, "note": "George says it as a published writer; the boy who could not speak has found his voice."}
+    ],
+    "quiz": [
+      {"q": "What must the car reach for time travel?", "options": ["88 miles per hour", "100 miles per hour", "55 miles per hour"], "answer": 0, "why": "Doc's machine works at exactly 88 miles per hour."},
+      {"q": "Which year does Marty arrive in?", "options": ["1955", "1965", "1945"], "answer": 0, "why": "He lands in 1955, thirty years before his own time."},
+      {"q": "What is the time machine built from?", "options": ["A car", "A train", "A plane"], "answer": 0, "why": "Doc turns a DeLorean car into the time machine."},
+      {"q": "Who is Biff?", "options": ["A bully who works for George", "Marty's teacher", "Doc's assistant"], "answer": 0, "why": "Biff pushes George around at school and later works for him."},
+      {"q": "What does Marty use to power the machine in 1955?", "options": ["Lightning", "A car battery", "A nuclear reactor"], "answer": 0, "why": "He uses the lightning that strikes the clock tower at 10:04."}
+    ],
+    "roleplay": {
+      "title": "A Pepsi in 1955",
+      "setting": "A cafe in Hill Valley, 1955. A teenager in a strange jacket orders a drink and cannot explain his clothes.",
+      "roles": [
+        {"role": "Marty", "brief": "You are from 1985. Order a drink, answer questions badly, and try not to say the word 'future'."},
+        {"role": "Waitress", "brief": "You are friendly and curious. Ask about the jacket, the shoes and where he is from, and write the bill by hand."},
+        {"role": "Customer", "brief": "You sit nearby and listen. Ask one suspicious question, then decide whether to believe him."}
+      ],
+      "challenge": "Play it twice: once with Marty hiding everything, once with him telling the whole truth and nobody believing him."
+    },
+    "quest": [
+      {"title": "Station 1 · Ten oh four", "task": "The clock tower stops at a famous time. Find the time and say why it matters that night.", "answer": "10:04 p.m.; the lightning strikes then", "points": 10},
+      {"title": "Station 2 · Two words for surprise", "task": "Doc has a two-word exclamation he uses when he is shocked. Find it and write it.", "answer": "Great Scott", "points": 10},
+      {"title": "Station 3 · An object out of time", "task": "Choose one object from your bag. Explain in three sentences what a person in 1955 would think of it.", "answer": "Any object with three clear sentences", "points": 15},
+      {"title": "Station 4 · The order of the night", "task": "Put these in order: the dance, the clock tower, the dinner in 1955, the mall car park.", "answer": "mall car park, dinner, dance, clock tower", "points": 10}
+    ]
+  },
+  {
+    "id": "dead-poets",
+    "title": "Dead Poets Society",
+    "year": 1989,
+    "level": "B1",
+    "runtime": 128,
+    "genres": ["drama", "comedy"],
+    "director": "Peter Weir",
+    "country": "USA",
+    "age": "12+",
+    "mood": "earth",
+    "logline": "A new English teacher at a strict boys' school tells his students to think for themselves, and one of them takes a risk his father will never accept.",
+    "why": "The classroom scenes are built on short poems and clear instructions, so the language is rich but never rushed. It gives B1 students real material for talking about school, parents and freedom.",
+    "language": "Clear American English in a New England boarding school; the boys talk fast among themselves, and the headmaster speaks in slow, formal sentences.",
+    "content": "A teenage student takes his own life, and the pressure from parents and school is intense; there is no violence, but the grief is heavy.",
+    "scenes": [
+      {
+        "at": "00:11:30",
+        "title": "Carpe diem",
+        "task": "Listen for the Latin phrase and the three English words Keating gives as its meaning. Write both.",
+        "type": "listen"
+      },
+      {
+        "at": "00:36:00",
+        "title": "The cave meeting",
+        "task": "The boys meet at night, away from school. Why a cave, and why at night? Give two reasons.",
+        "type": "think"
+      },
+      {
+        "at": "01:43:00",
+        "title": "The play",
+        "task": "Neil is on stage and his father is in the audience. Pause on the father's face: what is he thinking?",
+        "type": "predict"
+      },
+      {
+        "at": "02:04:00",
+        "title": "On the desks",
+        "task": "One student stands on his desk first. Who is it, and what do the boys call their teacher?",
+        "type": "observe"
+      }
+    ],
+    "words": [
+      {"w": "to seize the day", "def": "to use the moment before it passes", "ex": "Keating tells the boys to seize the day."},
+      {"w": "to live up to", "def": "to be as good as people expect", "ex": "Neil cannot live up to his father's plan for him."},
+      {"w": "to stand up for", "def": "to defend an idea or a person", "ex": "The boys stand up for their teacher."},
+      {"w": "to give in", "def": "to stop fighting and accept something", "ex": "Neil's father never gives in."},
+      {"w": "to be under pressure", "def": "to feel that people expect too much", "ex": "The boys are under pressure to become doctors."},
+      {"w": "to look up to", "def": "to respect and admire someone older or wiser", "ex": "The younger boys look up to Keating."}
+    ],
+    "questions": [
+      "Keating tells the boys to seize the day. What would seizing the day look like in your own life this month?",
+      "Neil decides to act in the play without telling his father. Was that the right decision, and what would you have done?",
+      "Neil's father decides his son's whole future. In your culture, how much should a parent decide for a seventeen-year-old?",
+      "Which line or moment did you find most powerful? Say it and explain why it stays with you.",
+      "Keating breaks the school's rules. Was he a good teacher, and would a school today accept him?",
+      "Todd is afraid to speak in class. Why does Keating make him do it anyway, and was that fair?",
+      "Could this story happen in your country today — the school, the parents, the pressure? What would be different?",
+      "Would you join a secret club like the Dead Poets Society? What would your club read or do?"
+    ],
+    "gaps": [
+      {"line": "Carpe diem. Seize the day, boys. Make your lives ___.", "answer": "extraordinary", "hint": "far better than usual", "adapted": false},
+      {"line": "We don't read and write poetry because it's ___.", "answer": "cute", "hint": "pretty in a small, sweet way", "adapted": false},
+      {"line": "No matter what anybody tells you, words and ideas can change the ___.", "answer": "world", "hint": "everything and everyone around us", "adapted": false},
+      {"line": "Suck the marrow out of ___.", "answer": "life", "hint": "the thing you are living", "adapted": false},
+      {"line": "You will go to ___ school and you will become a doctor.", "answer": "medical", "hint": "a school for future doctors", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Carpe diem. Seize the day, boys.", "options": ["Keating", "Neil", "The headmaster"], "answer": 0, "note": "Whispered in the hall on the first day, then written on the board."},
+      {"quote": "I was good. I was really good.", "options": ["Neil", "Todd", "Knox"], "answer": 0, "note": "After the play, Neil is proud of himself for the first time."},
+      {"quote": "O Captain! My Captain!", "options": ["Todd", "Neil", "Charlie"], "answer": 0, "note": "Todd starts it at the end, and the whole class follows."}
+    ],
+    "quiz": [
+      {"q": "What does Keating make the boys do on the first day?", "options": ["Look at old photographs", "Write a long essay", "Run around the school"], "answer": 0, "why": "He takes them to the trophy case and tells them to look at the faces of past students."},
+      {"q": "What is the boys' secret club called?", "options": ["The Dead Poets Society", "The Cave Club", "The Welton Writers"], "answer": 0, "why": "They meet in a cave to read poetry, far from the school rules."},
+      {"q": "What does Neil want to do?", "options": ["Act in a play", "Become a doctor", "Write a novel"], "answer": 0, "why": "He auditions for A Midsummer Night's Dream and wins the part of Puck."},
+      {"q": "Who is Todd Anderson?", "options": ["A shy new student", "The headmaster's son", "Neil's brother"], "answer": 0, "why": "Todd arrives new, cannot speak in class, and later finds his voice."},
+      {"q": "What does Keating tell the boys to do with the textbook's introduction?", "options": ["Tear it out", "Copy it", "Learn it by heart"], "answer": 0, "why": "He calls it a page of formulas and orders them to rip it out."}
+    ],
+    "roleplay": {
+      "title": "Parents and teacher",
+      "setting": "A corridor at Welton Academy after the play. Mr Perry has just seen his son on stage, and Mr Keating is holding the door.",
+      "roles": [
+        {"role": "Mr Perry", "brief": "You are Neil's father. You are angry and frightened. You believe you know what is best, and you say so in short, hard sentences."},
+        {"role": "Mr Keating", "brief": "You are the teacher. Stay calm and polite. Ask questions instead of giving orders: what does Neil want, and have you asked him?"},
+        {"role": "Neil", "brief": "You are the son. You may speak only one sentence in the whole scene, and you must choose the right moment for it."}
+      ],
+      "challenge": "Play it twice: once as a shouting match, once with both adults listening. Then let Neil speak his one sentence in each version."
+    },
+    "quest": [
+      {"title": "Station 1 · The school on the hill", "task": "Find the name of the school and the four words of its motto.", "answer": "Welton Academy; tradition, honour, discipline, excellence", "points": 10},
+      {"title": "Station 2 · Two words from Latin", "task": "'Carpe diem' is Latin. Find the three English words Keating gives as its meaning.", "answer": "seize the day", "points": 10},
+      {"title": "Station 3 · A poem for one place", "task": "Write four lines about a place you love, using one word from the poems in the film. Read it aloud.", "answer": "Any four lines, read aloud", "points": 15},
+      {"title": "Station 4 · The order of the year", "task": "Put these in order: the first class, the first cave meeting, Neil's play, the boys standing on their desks.", "answer": "first class, cave, play, desks", "points": 10}
+    ]
+  },
+  {
+    "id": "notting-hill",
+    "title": "Notting Hill",
+    "year": 1999,
+    "level": "B1",
+    "runtime": 124,
+    "genres": ["romance", "comedy"],
+    "director": "Roger Michell",
+    "country": "UK",
+    "age": "12+",
+    "mood": "warm",
+    "logline": "A London bookshop owner meets a famous American film star by chance, and their very different lives begin to collide.",
+    "why": "The dialogue is slow and polite, built on everyday scenes — a shop, a dinner, a date — that B1 learners can reuse the next day. British humour and class differences give the group something to compare with their own country.",
+    "language": "British English in London, with polite middle-class speech; a few characters mumble or talk fast, and there are jokes about class and money.",
+    "content": "Mild sexual jokes, a few swear words, and a character who is chased by the press; no violence.",
+    "scenes": [
+      {
+        "at": "00:07:30",
+        "title": "A customer in the shop",
+        "task": "Watch their first conversation. What does Anna do that is completely normal, and what does William do that shows he is nervous?",
+        "type": "observe"
+      },
+      {
+        "at": "00:33:00",
+        "title": "The last brownie",
+        "task": "Listen to the rules of the game at the dinner table. Who wins, and what is the prize?",
+        "type": "listen"
+      },
+      {
+        "at": "01:02:00",
+        "title": "The date that goes wrong",
+        "task": "Pause after the restaurant scene. List two things that go wrong, and say who is more embarrassed.",
+        "type": "think"
+      },
+      {
+        "at": "01:47:00",
+        "title": "The press conference",
+        "task": "Before Anna answers the last question, predict what she will say. Then compare it with the real line.",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "to bump into", "def": "to meet someone you know by chance", "ex": "William bumps into Anna in the street."},
+      {"w": "to be a big fan of", "def": "to like a person or thing very much", "ex": "William is a big fan of her early films."},
+      {"w": "to keep in touch", "def": "to stay in contact with someone", "ex": "They promise to keep in touch."},
+      {"w": "to make a fool of yourself", "def": "to look silly in front of people", "ex": "He makes a fool of himself at the party."},
+      {"w": "out of your league", "def": "too good or too famous for you", "ex": "William thinks Anna is out of his league."},
+      {"w": "to get on well with", "def": "to have a good relationship with someone", "ex": "William gets on well with his flatmate."}
+    ],
+    "questions": [
+      "Anna is famous and William is ordinary. Does the film believe that love can ignore that difference?",
+      "William lets Anna leave without fighting for her. Was that decision fair to her, or was he protecting himself?",
+      "Which line or scene made you smile? Say it the way the actor says it.",
+      "In your country, how would a family react if their son or daughter brought home a famous person? What would they worry about?",
+      "Would you rather live in a small flat above a shop in London or in a big house with security? Why?",
+      "William's friends are loyal and a bit strange. Is friendship in the film realistic?",
+      "Anna says she is just a girl standing in front of a boy. Why does she need to say something so simple?",
+      "The film jokes about class and money. Which joke did you understand last, and why?"
+    ],
+    "gaps": [
+      {"line": "I'm just a girl, standing in front of a boy, asking him to ___ her.", "answer": "love", "hint": "feel deep affection for", "adapted": false},
+      {"line": "The fame thing isn't really ___, you know.", "answer": "real", "hint": "true, not pretend", "adapted": false},
+      {"line": "I'm the man who spilled ___ on you.", "answer": "orange juice", "hint": "a drink at breakfast", "adapted": true},
+      {"line": "You live in Beverly Hills. My mother has trouble remembering my ___.", "answer": "name", "hint": "what people call you", "adapted": true},
+      {"line": "Happiness isn't happiness without a violin-playing ___.", "answer": "goat", "hint": "a farm animal with horns", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "I'm just a girl, standing in front of a boy, asking him to love her.", "options": ["Anna", "William", "Spike"], "answer": 0, "note": "Said at a press conference, in front of the world's cameras."},
+      {"quote": "Happiness isn't happiness without a violin-playing goat.", "options": ["William", "Anna", "Spike"], "answer": 0, "note": "About a Chagall painting on his wall — and about what he is missing."},
+      {"quote": "I live in Notting Hill. You live in Beverly Hills.", "options": ["William", "Anna", "Anna's agent"], "answer": 0, "note": "The whole problem of the film in two short sentences."}
+    ],
+    "quiz": [
+      {"q": "What is William's job?", "options": ["He runs a bookshop", "He writes for a newspaper", "He drives a taxi"], "answer": 0, "why": "He owns a small travel bookshop in Notting Hill."},
+      {"q": "What does William spill on Anna?", "options": ["Orange juice", "Coffee", "Red wine"], "answer": 0, "why": "He walks into her with a glass of juice at his flat."},
+      {"q": "Where is Anna from?", "options": ["America", "Australia", "Ireland"], "answer": 0, "why": "She is an American film star, and her world is far from his."},
+      {"q": "Who is Spike?", "options": ["William's flatmate", "William's brother", "Anna's driver"], "answer": 0, "why": "Spike is the flatmate who never knocks and never leaves."},
+      {"q": "What do the friends compete for at dinner?", "options": ["The last brownie", "A bottle of wine", "The bill"], "answer": 0, "why": "They tell their saddest story to win the last brownie."}
+    ],
+    "roleplay": {
+      "title": "The book return",
+      "setting": "A small travel bookshop in Notting Hill, ten minutes before closing. A customer wants to return a guidebook she bought three months ago.",
+      "roles": [
+        {"role": "Customer", "brief": "You are polite but determined. You have no receipt. Think of two reasons why the shop should take the book back."},
+        {"role": "William", "brief": "You are the owner. You are kind and a little too shy to say no. Try to help without losing money."},
+        {"role": "Spike", "brief": "You are the flatmate, visiting for no reason. Interrupt once with a completely useless suggestion."}
+      ],
+      "challenge": "Play it twice: once with William refusing politely, once with him accepting. Which ending is more like him?"
+    },
+    "quest": [
+      {"title": "Station 1 · The famous door", "task": "Find the colour of the door of William's flat. Write the colour and one thing that happens in front of it.", "answer": "blue; Anna and William meet the press there", "points": 10},
+      {"title": "Station 2 · Meeting by chance", "task": "Which phrase from today's list means 'to meet by chance'? Use it in a sentence about the film.", "answer": "to bump into", "points": 10},
+      {"title": "Station 3 · A shop-window review", "task": "Write a four-line review of Anna's new film for William's window. Make it funny and kind at the same time.", "answer": "Any four-line review, read aloud", "points": 15},
+      {"title": "Station 4 · The order of a romance", "task": "Put these in order: the spilled juice, the brownie dinner, the press conference, the meeting in the shop.", "answer": "meeting in the shop, spilled juice, brownie dinner, press conference", "points": 10}
+    ]
+  },
+  {
+    "id": "devil-wears-prada",
+    "title": "The Devil Wears Prada",
+    "year": 2006,
+    "level": "B1",
+    "runtime": 109,
+    "genres": ["comedy", "drama"],
+    "director": "David Frankel",
+    "country": "USA",
+    "age": "12+",
+    "mood": "cool",
+    "logline": "A young journalist takes a job as assistant to a terrifying fashion magazine editor, and discovers that keeping the job may cost her more than she thought.",
+    "why": "The office setting gives learners the language of jobs, bosses and phone calls — high-frequency English they can use immediately. Miranda's lines are short and icy, which is easier to follow than it looks and excellent practice for tone.",
+    "language": "American English, fast and clipped in the office; Miranda speaks slowly and quietly, which makes her more frightening, and there is a lot of fashion vocabulary.",
+    "content": "Constant workplace humiliation, some drinking and mild sexual references; no violence.",
+    "scenes": [
+      {
+        "at": "00:09:30",
+        "title": "The interview",
+        "task": "Listen to the first two questions Miranda asks. What does she never do while Andy answers them?",
+        "type": "listen"
+      },
+      {
+        "at": "00:28:00",
+        "title": "The blue sweater",
+        "task": "Miranda explains where Andy's sweater came from. Pause and retell her argument in three sentences.",
+        "type": "think"
+      },
+      {
+        "at": "00:52:00",
+        "title": "The impossible errand",
+        "task": "Andy is given a task that seems impossible. Note the two things she has to do, and who helps her.",
+        "type": "observe"
+      },
+      {
+        "at": "01:44:00",
+        "title": "The phone in the fountain",
+        "task": "Pause before Andy throws the phone. What exactly is she choosing between, and what does the choice cost?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "to keep up with", "def": "to move at the same speed as others", "ex": "Andy cannot keep up with Miranda's demands."},
+      {"w": "to get used to", "def": "to become familiar with something new over time", "ex": "Andy gets used to the long hours."},
+      {"w": "to let someone down", "def": "to disappoint someone who trusts you", "ex": "Andy does not want to let Miranda down."},
+      {"w": "to make it", "def": "to succeed in a difficult world", "ex": "Andy wants to make it in New York."},
+      {"w": "to be worth it", "def": "to be good enough for the effort", "ex": "The job is hard — but is it worth it?"},
+      {"w": "to be on top of something", "def": "to control a situation and know all the details", "ex": "Miranda is always on top of everything."}
+    ],
+    "questions": [
+      "Miranda is cruel, but she is also the best in her job. Can you respect a boss who treats people badly?",
+      "Andy decides to change her clothes, her friends and her plans to keep the job. At what moment should she have stopped?",
+      "Which line or scene did you enjoy most, and would you repeat it to a friend?",
+      "In your culture, is it normal for a boss to speak to an assistant the way Miranda speaks to Andy? Where is the line?",
+      "Andy's boyfriend says she is not the person he met. Is he right, or is he afraid of her success?",
+      "Would you take a job you hated if it opened a door to the career you wanted? For how long?",
+      "Nigel gives Andy the makeover but warns her about the cost. Why do the people around her keep warning her?",
+      "Emily is funny, but she is also trapped in the same system. Is she a villain or a colleague?"
+    ],
+    "gaps": [
+      {"line": "A million girls would ___ for this job.", "answer": "kill", "hint": "want it very, very much", "adapted": false},
+      {"line": "I'm one stomach flu away from my goal ___.", "answer": "weight", "hint": "how heavy you are", "adapted": false},
+      {"line": "The details of your ___ do not interest me.", "answer": "incompetence", "hint": "being unable to do your job", "adapted": false},
+      {"line": "You're wearing the sweater that was selected for you by the people in this ___.", "answer": "room", "hint": "the place where you are standing", "adapted": false},
+      {"line": "By all means, move at a glacial ___.", "answer": "pace", "hint": "speed", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "A million girls would kill for this job.", "options": ["Emily", "Miranda", "Nigel"], "answer": 0, "note": "Emily says it to the new girl, and the queue outside proves it."},
+      {"quote": "That's all.", "options": ["Miranda", "Emily", "Andy"], "answer": 0, "note": "Two words that end every conversation and dismiss you."},
+      {"quote": "You're wearing the sweater that was selected for you.", "options": ["Miranda", "Nigel", "Emily"], "answer": 0, "note": "The blue sweater speech: Andy learns she is inside the system, not above it."}
+    ],
+    "quiz": [
+      {"q": "What job does Andy get?", "options": ["Junior assistant to an editor", "Fashion designer", "Newspaper reporter"], "answer": 0, "why": "She becomes the second assistant to Miranda Priestly at Runway."},
+      {"q": "What is the magazine called?", "options": ["Runway", "Vogue", "Style Weekly"], "answer": 0, "why": "Runway is the fashion magazine that Miranda edits."},
+      {"q": "Where does Andy go with Miranda?", "options": ["Paris Fashion Week", "Milan", "London"], "answer": 0, "why": "She takes Emily's place on the trip to Paris and sees Miranda's private world."},
+      {"q": "Who helps Andy with her makeover?", "options": ["Nigel", "Emily", "Miranda"], "answer": 0, "why": "Nigel chooses the clothes and tells her what the job will cost."},
+      {"q": "What does Andy throw into the fountain?", "options": ["Her phone", "Her bag", "Her notebook"], "answer": 0, "why": "She throws the phone away when Miranda calls, and walks off."}
+    ],
+    "roleplay": {
+      "title": "The interview",
+      "setting": "The Runway office, 9 a.m. Andy has no fashion experience and a good degree. Miranda has five minutes.",
+      "roles": [
+        {"role": "Miranda", "brief": "You are the editor. You do not smile. Ask two questions, interrupt one answer, and end the interview with 'That's all.'"},
+        {"role": "Andy", "brief": "You are smart and nervous. Answer honestly, and say one thing that makes Miranda look at you twice."},
+        {"role": "Emily", "brief": "You are the first assistant. You open the door, warn Andy with your eyes, and say one line about the previous assistant."}
+      ],
+      "challenge": "Play it twice: once where Andy is too honest, once where she is too polished. Which one gets the job?"
+    },
+    "quest": [
+      {"title": "Station 1 · The coat on the desk", "task": "What does Miranda do with her coat and bag when she arrives? Write the exact action.", "answer": "She drops them on Andy's desk.", "points": 10},
+      {"title": "Station 2 · Disappointing someone", "task": "Which phrase from today means 'to disappoint someone who trusts you'? Use it in a sentence.", "answer": "to let someone down", "points": 10},
+      {"title": "Station 3 · A note from Miranda", "task": "Write a three-line note from Miranda to a designer saying no. Polite, short, and a little terrifying.", "answer": "Any three-line note in Miranda's voice", "points": 15},
+      {"title": "Station 4 · The order of a career", "task": "Put these in order: the interview, the blue sweater speech, the Paris trip, Andy leaving the job.", "answer": "interview, sweater speech, Paris, leaving", "points": 10}
+    ]
+  },
+  {
+    "id": "school-of-rock",
+    "title": "School of Rock",
+    "year": 2003,
+    "level": "B1",
+    "runtime": 109,
+    "genres": ["comedy", "musical"],
+    "director": "Richard Linklater",
+    "country": "USA",
+    "age": "12+",
+    "mood": "neon",
+    "logline": "A failed rock musician pretends to be a substitute teacher at a private school, and turns his class into a band.",
+    "why": "The classroom language repeats in every scene — instructions, questions, mistakes — so learners hear the same patterns many times. Music gives shy students a way into speaking, and the jokes are physical enough to survive a missed word.",
+    "language": "American English with fast, slangy rock talk from Dewey and clear, careful speech from the children; some jokes are loud rather than difficult.",
+    "content": "Rude jokes and a few mild sexual references, and a man lies to get a job; no violence.",
+    "scenes": [
+      {
+        "at": "00:10:00",
+        "title": "The new substitute",
+        "task": "What name does Dewey give the class, and whose name is it really? Write both answers.",
+        "type": "observe"
+      },
+      {
+        "at": "00:31:00",
+        "title": "The first lesson",
+        "task": "Listen to how Dewey talks to the class. Catch two instructions he gives and two questions he asks.",
+        "type": "listen"
+      },
+      {
+        "at": "00:57:00",
+        "title": "The secret plan",
+        "task": "The class prepares for the Battle of the Bands. Pause: what do the children have to hide from their parents?",
+        "type": "think"
+      },
+      {
+        "at": "01:37:00",
+        "title": "The Battle of the Bands",
+        "task": "While the song plays, describe the performance in five sentences. What does the audience do that the school never does?",
+        "type": "speak"
+      }
+    ],
+    "words": [
+      {"w": "to be into something", "def": "to like something a lot and enjoy it", "ex": "Dewey is really into rock music."},
+      {"w": "to get away with", "def": "to do something wrong without punishment", "ex": "He gets away with being a fake teacher."},
+      {"w": "to give it a go", "def": "to try something for the first time", "ex": "The children give it a go at the audition."},
+      {"w": "to look forward to", "def": "to feel excited about a future event", "ex": "The class looks forward to the competition."},
+      {"w": "to take something seriously", "def": "to treat something as important and worth effort", "ex": "The children take the band seriously."},
+      {"w": "to be in charge", "def": "to be the leader of a group or class", "ex": "Dewey is in charge of the class."}
+    ],
+    "questions": [
+      "Dewey lies to get the job, then gives the children something the school never could. Can a good result excuse a bad decision?",
+      "The head teacher, Rosalie, believes in rules and hard work. Is she the villain of the film, or is she right?",
+      "Which line or scene made you laugh most? Say it with the same energy.",
+      "In your country, how much music and art do students get at school compared with maths and science?",
+      "Would you rather be in a band with friends or get top marks alone? What does the film say about teamwork?",
+      "The parents are shocked by the band. Were they wrong to worry about their children's exams?",
+      "Dewey is not a great musician, but he is a good teacher. Is that possible, and what makes a good teacher?",
+      "Would you join a secret band at your school? What would it be called, and who would play what?"
+    ],
+    "gaps": [
+      {"line": "Those who can't do, ___.", "answer": "teach", "hint": "work as a teacher", "adapted": false},
+      {"line": "Stick it to the ___!", "answer": "man", "hint": "the people in power", "adapted": false},
+      {"line": "We are The School of ___!", "answer": "rock", "hint": "loud guitar music", "adapted": true},
+      {"line": "One great rock show can change the ___.", "answer": "world", "hint": "everything around us", "adapted": false},
+      {"line": "I service society by ___.", "answer": "rocking", "hint": "playing rock music", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Stick it to the man!", "options": ["Dewey", "Rosalie", "Summer"], "answer": 0, "note": "His first and favourite lesson; the children repeat it with delight."},
+      {"quote": "You're a joke. You're the worst teacher I've ever had.", "options": ["Summer", "Rosalie", "Freddy"], "answer": 0, "note": "Summer says it in Dewey's 'tell me off' lesson, and he thanks her for the delivery."},
+      {"quote": "One great rock show can change the world.", "options": ["Freddy", "Dewey", "Rosalie"], "answer": 0, "note": "Freddy says it outside Dewey's flat, and it is the reason the band turns up."}
+    ],
+    "quiz": [
+      {"q": "Why does Dewey need a job?", "options": ["He is kicked out of his band", "He wants to teach", "He lost his guitar"], "answer": 0, "why": "His band fires him and he has no money for rent."},
+      {"q": "Whose name does he use at the school?", "options": ["Ned Schneebly", "Zack Mooneyham", "Rosalie Mullins"], "answer": 0, "why": "He answers the phone as his flatmate Ned and takes Ned's job."},
+      {"q": "Which instrument does Zack play?", "options": ["Electric guitar", "Drums", "Keyboard"], "answer": 0, "why": "Zack is the guitarist and writes the song with Dewey."},
+      {"q": "Who becomes the band's manager?", "options": ["Summer", "Zack", "Katie"], "answer": 0, "why": "Summer talks her way into the job and organises everything."},
+      {"q": "What does Rosalie want the children to focus on?", "options": ["Their studies", "The concert", "Sport"], "answer": 0, "why": "She is proud of the school's exam results and afraid of anything else."}
+    ],
+    "roleplay": {
+      "title": "The head teacher's office",
+      "setting": "Horace Green School, 4 p.m. The music room has been loud all week, and Rosalie has called the substitute in.",
+      "roles": [
+        {"role": "Rosalie", "brief": "You are the head teacher. You are formal and fair. Ask about the noise, the curriculum and the parents."},
+        {"role": "Dewey", "brief": "You are the substitute. You believe rock music is education. Answer every question with a story and never apologise."},
+        {"role": "Summer", "brief": "You are the class representative. You knock, enter, and defend the project in three clear sentences."}
+      ],
+      "challenge": "Play it twice: once where Rosalie wins, once where Dewey wins. Keep the same arguments."
+    },
+    "quest": [
+      {"title": "Station 1 · The borrowed name", "task": "What name does Dewey use at the school, and who is the real man with that name? Write both.", "answer": "Mr. Schneebly; his flatmate Ned", "points": 10},
+      {"title": "Station 2 · Try it once", "task": "Which phrase from today means 'to try something for the first time'? Use it in a sentence about the audition.", "answer": "give it a go", "points": 10},
+      {"title": "Station 3 · Your band", "task": "Invent a band: a name, four instruments and one line of a song. Perform the line for the group.", "answer": "Any band with four instruments and one performed line", "points": 15},
+      {"title": "Station 4 · The order of the term", "task": "Put these in order: the first lesson, the auditions, the secret rehearsals, the Battle of the Bands.", "answer": "first lesson, auditions, secret rehearsals, Battle of the Bands", "points": 10}
+    ]
+  },
+  {
+    "id": "pursuit-of-happyness",
+    "title": "The Pursuit of Happyness",
+    "year": 2006,
+    "level": "B1",
+    "runtime": 117,
+    "genres": ["drama", "family"],
+    "director": "Gabriele Muccino",
+    "country": "USA",
+    "age": "12+",
+    "mood": "warm",
+    "logline": "A single father in San Francisco takes an unpaid internship at a stockbroker's firm while he and his son fight to keep a roof over their heads.",
+    "why": "The English is everyday and emotional — phone calls, interviews, small talk — exactly the situations B1 learners meet outside the classroom. The story also works without dialogue, so students can watch faces and gestures while they listen.",
+    "language": "American English, sometimes fast on the phone and in the office; Chris speaks clearly, and his son's lines are short and simple.",
+    "content": "A family becomes homeless and sleeps in a shelter and a station toilet; there is strong emotional stress and some swearing, but no violence.",
+    "scenes": [
+      {
+        "at": "00:10:00",
+        "title": "The machine that costs too much",
+        "task": "Watch Chris carry the scanner through the street. Why is it so hard to sell? Give two reasons.",
+        "type": "observe"
+      },
+      {
+        "at": "00:29:00",
+        "title": "The Rubik's cube",
+        "task": "Chris solves the cube in a taxi. What does this prove to the man next to him — and to us?",
+        "type": "think"
+      },
+      {
+        "at": "01:22:00",
+        "title": "The bathroom floor",
+        "task": "Pause after the door is locked. What does Chris do with his hands, and what does he not say to his son?",
+        "type": "think"
+      },
+      {
+        "at": "01:46:00",
+        "title": "The last day",
+        "task": "The manager calls Chris into the room. Predict what he will say and how Chris will react, then watch.",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "to make ends meet", "def": "to have just enough money for your needs", "ex": "Chris works every day to make ends meet."},
+      {"w": "to get by", "def": "to survive with very little money", "ex": "The family gets by on almost nothing."},
+      {"w": "to hold on", "def": "to keep going in a difficult time", "ex": "Chris holds on to his plan."},
+      {"w": "to show up", "def": "to arrive at a place, often for work", "ex": "He always shows up on time."},
+      {"w": "to look on the bright side", "def": "to see the good part of a bad thing", "ex": "Chris tries to look on the bright side."},
+      {"w": "to land a job", "def": "to succeed in getting a job you wanted", "ex": "He wants to land a job at the firm."}
+    ],
+    "questions": [
+      "Chris decides to take an unpaid internship instead of a paid job. Was that a good decision for his son?",
+      "Chris tells his son never to let anybody say he cannot do something. Why does he say it to a five-year-old?",
+      "Which line or scene stayed with you? Describe it and say why it is powerful.",
+      "In your country, what help does a family get if they lose their home? Is it enough?",
+      "Would you sleep in a station toilet with your child rather than ask for help? Who could Chris have asked?",
+      "The title spells 'happyness' with a y. Why do you think that spelling matters?",
+      "Chris is often late, tired and badly dressed. Do bosses judge people by their clothes, and should they?",
+      "What does success mean in this film — money, a job, or being a good father? What does it mean to you?"
+    ],
+    "gaps": [
+      {"line": "Don't ever let somebody tell you you can't do something. Not even ___.", "answer": "me", "hint": "the person speaking", "adapted": false},
+      {"line": "You want something? Go ___ it. Period.", "answer": "get", "hint": "take it for yourself", "adapted": false},
+      {"line": "You got a dream? You gotta ___ it.", "answer": "protect", "hint": "keep it safe", "adapted": false},
+      {"line": "If you ask me a question, I'm going to tell you that I don't ___.", "answer": "know", "hint": "have the answer", "adapted": true},
+      {"line": "This little part of my life is called ___.", "answer": "happyness", "hint": "the title word, spelled with a y", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Don't ever let somebody tell you you can't do something.", "options": ["Chris", "Linda", "Jay Twistle"], "answer": 0, "note": "Said to his son on a basketball court, and to himself."},
+      {"quote": "You want something? Go get it. Period.", "options": ["Chris", "Christopher", "Linda"], "answer": 0, "note": "The end of the same speech; 'period' means the discussion is finished."},
+      {"quote": "He must have had on some really nice pants.", "options": ["Chris", "Jay Twistle", "The manager"], "answer": 0, "note": "The interview joke that saves him, after a man with no shirt is mentioned."}
+    ],
+    "quiz": [
+      {"q": "What does Chris sell?", "options": ["Bone density scanners", "Cars", "Insurance"], "answer": 0, "why": "He invested his savings in scanners that hospitals do not want."},
+      {"q": "What does Chris solve in the taxi?", "options": ["A Rubik's cube", "A crossword", "A chess problem"], "answer": 0, "why": "He solves it for Jay Twistle, who remembers him later."},
+      {"q": "Who is Jay Twistle?", "options": ["A manager at the firm", "Chris's landlord", "A taxi driver"], "answer": 0, "why": "He works at Dean Witter and gives Chris his chance."},
+      {"q": "Where do Chris and his son sleep when they lose the flat?", "options": ["In a shelter and a station toilet", "At a friend's house", "In a hotel"], "answer": 0, "why": "They queue for a shelter bed and spend one night locked in a station toilet."},
+      {"q": "What job does Chris win at the end?", "options": ["Stockbroker", "Taxi driver", "Teacher"], "answer": 0, "why": "He is offered the job at Dean Witter after the internship."}
+    ],
+    "roleplay": {
+      "title": "The shelter queue",
+      "setting": "A church hall at 5 p.m. There are more people than beds, and Chris has a five-year-old with him.",
+      "roles": [
+        {"role": "Chris", "brief": "You need two beds. You are polite, tired and proud. Give one reason, then wait, then ask again."},
+        {"role": "Shelter worker", "brief": "You follow the rules: first come, first served. You are not unkind, but you have heard every story."},
+        {"role": "Another father", "brief": "You are ahead in the queue. You have been here before, and you can tell Chris one thing that helps."}
+      ],
+      "challenge": "Play it twice: once where Chris gets the beds, once where he does not. Keep the same polite words in both."
+    },
+    "quest": [
+      {"title": "Station 1 · The wrong letter", "task": "The word 'happyness' in the film is spelled wrongly. Write the correct spelling.", "answer": "happiness", "points": 10},
+      {"title": "Station 2 · Enough money", "task": "Which idiom from today means 'to have just enough money for your needs'? Use it in a sentence about Chris.", "answer": "make ends meet", "points": 10},
+      {"title": "Station 3 · One minute of confidence", "task": "Write and perform Chris's one-minute speech: why should the firm choose him and not the other interns?", "answer": "Any one-minute speech, performed", "points": 15},
+      {"title": "Station 4 · The order of a hard year", "task": "Put these in order: the Rubik's cube, the internship interview, the night in the station toilet, the job offer.", "answer": "Rubik's cube, interview, station toilet, job offer", "points": 10}
+    ]
+  },
+  {
+    "id": "bend-it-like-beckham",
+    "title": "Bend It Like Beckham",
+    "year": 2002,
+    "level": "B1",
+    "runtime": 112,
+    "genres": ["comedy", "drama", "sport"],
+    "director": "Gurinder Chadha",
+    "country": "UK",
+    "age": "12+",
+    "mood": "earth",
+    "logline": "A British-Indian teenager loves football, but her traditional family wants her to study, cook and marry, so she plays in secret.",
+    "why": "Family scenes put two cultures in the same kitchen, so learners hear everyday English and Indian-accented English side by side. Football vocabulary is visual and repeated, which lets B1 students follow a fast scene without every word.",
+    "language": "London English with Indian, Irish and Scottish accents in the same film; some Punjabi is spoken at home, and the football scenes are noisy and fast.",
+    "content": "Mild sexual references, jokes about being gay, and a changing-room scene; no violence, and the family conflict ends warmly.",
+    "scenes": [
+      {
+        "at": "00:08:00",
+        "title": "The park match",
+        "task": "Watch Jess play with the boys. Note two things she does well and one thing her mother says about it.",
+        "type": "observe"
+      },
+      {
+        "at": "00:26:00",
+        "title": "The try-out",
+        "task": "Listen to Joe's instructions on the pitch. Catch three football words he uses and say what they mean.",
+        "type": "listen"
+      },
+      {
+        "at": "00:55:00",
+        "title": "The wedding plans",
+        "task": "Watch the family prepare for Pinky's wedding. Pause: what does the family expect Jess to do in the next three days?",
+        "type": "think"
+      },
+      {
+        "at": "01:32:00",
+        "title": "The final",
+        "task": "Before the last goal, predict who will score and how. Then watch and check your guess.",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "to be proud of", "def": "to feel happy about something you did", "ex": "Jess's father is proud of her."},
+      {"w": "to keep a secret", "def": "to not tell anyone about something private", "ex": "Jess keeps her football a secret."},
+      {"w": "to be torn between", "def": "to be unable to choose between two things", "ex": "Jess is torn between football and her family."},
+      {"w": "to go behind someone's back", "def": "to do something without telling them", "ex": "She goes behind her parents' back to play."},
+      {"w": "to be a big deal", "def": "to be very important to a group of people", "ex": "Pinky's wedding is a big deal for the family."},
+      {"w": "to play fair", "def": "to follow the rules and be honest", "ex": "Joe wants the team to play fair."}
+    ],
+    "questions": [
+      "Jess hides football from her parents. Was that the only way, or could she have told them earlier?",
+      "Which line or scene did you find funniest or most moving? Say it in your own words.",
+      "In your culture, how much should a young person follow the family's plan? Where is the line between respect and control?",
+      "Would you choose your family's approval or your own dream? Can a person have both?",
+      "The film laughs at everyone — the family, the coach, the English girls. Is that fair, or is it mocking?",
+      "Pinky's wedding is the biggest day of the family's year. What is the biggest family day in your culture, and what happens?",
+      "Joe's own career ended with an injury. Why does he push Jess so hard, and is that fair to her?",
+      "The title says 'bend it like Beckham'. What does 'bend it' mean, and why is it the perfect title for this film?"
+    ],
+    "gaps": [
+      {"line": "Who can bend a ball like ___?", "answer": "Beckham", "hint": "a famous English footballer", "adapted": false},
+      {"line": "Football is not for ___.", "answer": "girls", "hint": "young female people", "adapted": true},
+      {"line": "You have got a great left ___.", "answer": "foot", "hint": "the thing you kick with", "adapted": true},
+      {"line": "I've been lying to my ___ for months.", "answer": "parents", "hint": "your mother and father", "adapted": true},
+      {"line": "No daughter of mine is going to ___ football.", "answer": "play", "hint": "take part in a game", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Anyone can cook aloo Gobi, but who can bend a ball like Beckham?", "options": ["Jess", "Joe", "Jules"], "answer": 0, "note": "Jess says it to Tony about her own talent — and it became the film's tagline."},
+      {"quote": "Do you mind? This is my wedding!", "options": ["Pinky", "Jess's mother", "Jules"], "answer": 0, "note": "Pinky says it while the family argues in the middle of her big day."},
+      {"quote": "Whose life are you living, Jess?", "options": ["Joe", "Jess's father", "Tony"], "answer": 0, "note": "The coach asks the question the whole film is built on."}
+    ],
+    "quiz": [
+      {"q": "What sport does Jess love?", "options": ["Football", "Cricket", "Tennis"], "answer": 0, "why": "She plays in the park with the boys and is better than most of them."},
+      {"q": "What is the name of Jess's team?", "options": ["Hounslow Harriers", "London Lions", "Southall United"], "answer": 0, "why": "Joe coaches the Hounslow Harriers, and Jess joins after a try-out."},
+      {"q": "Who coaches the team?", "options": ["Joe", "Jess's father", "Pinky"], "answer": 0, "why": "Joe is the young coach whose own career ended with an injury."},
+      {"q": "What big family event is planned?", "options": ["Pinky's wedding", "Jess's birthday", "A family holiday"], "answer": 0, "why": "The wedding takes over the house and the family's plans."},
+      {"q": "Why does Jess's father not want her to play at first?", "options": ["He fears she will be hurt by a world that excludes her", "He hates football", "He needs her at home"], "answer": 0, "why": "He was a good sportsman who was stopped by racism, so he wants to protect her."}
+    ],
+    "roleplay": {
+      "title": "The family dinner",
+      "setting": "The Bhamra kitchen, 7 p.m. The wedding is in three days, and Jess has a match on the same afternoon.",
+      "roles": [
+        {"role": "Jess", "brief": "You are eighteen. You want to play in the final. Ask once, clearly, and do not shout."},
+        {"role": "Mother", "brief": "You are worried about the family's name and your daughter's future. You love her, and it comes out as rules."},
+        {"role": "Father", "brief": "You say little. Ask two questions, listen to both answers, and then decide."}
+      ],
+      "challenge": "Play it twice: once as a shouting match, once with everyone speaking quietly at the table. Which version gets closer to an agreement?"
+    },
+    "quest": [
+      {"title": "Station 1 · The team", "task": "Find the name of Jess's team and the name of her coach.", "answer": "Hounslow Harriers; Joe", "points": 10},
+      {"title": "Station 2 · Two things at once", "task": "Which phrase from today means 'unable to choose between two things'? Use it in a sentence about Jess.", "answer": "torn between", "points": 10},
+      {"title": "Station 3 · The family speech", "task": "Write four lines for Jess explaining football to her mother, using one phrase from today's list. Read it aloud.", "answer": "Any four lines, read aloud", "points": 15},
+      {"title": "Station 4 · The order of the season", "task": "Put these in order: the park match, the try-out, the argument at home, the final whistle.", "answer": "park match, try-out, argument at home, final whistle", "points": 10}
+    ]
+  }
+]

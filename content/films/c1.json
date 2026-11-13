@@ -1,0 +1,952 @@
+[
+  {
+    "id": "inception",
+    "title": "Inception",
+    "year": 2010,
+    "level": "C1",
+    "runtime": 148,
+    "genres": ["sci-fi", "thriller", "crime"],
+    "director": "Christopher Nolan",
+    "country": "USA",
+    "age": "12+",
+    "mood": "cool",
+    "logline": "A thief who steals secrets from dreams is offered a clean record if he can plant an idea in a rival's mind.",
+    "why": "The film's dense exposition is anchored by a clear heist structure, so learners can track who wants what even when the dialogue overlaps. Its real C1 work is inference: characters explain the rules while hiding their motives.",
+    "language": "American and British English at speed, with technical dream-sharing terms, whispered instructions and characters talking over one another.",
+    "content": "Gunfights, car chases and a train in the street; characters die inside dreams, and the ending is deliberately ambiguous.",
+    "scenes": [
+      {
+        "at": "00:13:00",
+        "title": "The job offer",
+        "task": "Listen to how Saito describes the job. What does he offer Cobb, and what does he avoid naming?",
+        "type": "listen"
+      },
+      {
+        "at": "00:31:00",
+        "title": "Paris folds upward",
+        "task": "Watch Ariadne bend the city. Which ordinary detail makes the impossible feel real?",
+        "type": "observe"
+      },
+      {
+        "at": "01:12:00",
+        "title": "The rotating corridor",
+        "task": "Arthur fights in a spinning corridor. What does the movement make you feel about time in the dream?",
+        "type": "think"
+      },
+      {
+        "at": "02:24:00",
+        "title": "The spinning top",
+        "task": "Pause before the cut. What does Cobb look at, and what does he choose not to wait for?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "to plant an idea", "def": "to make someone believe an idea is their own", "ex": "They need to plant an idea in Fischer's mind."},
+      {"w": "a totem", "def": "a small object used to test whether you are dreaming", "ex": "Cobb spins his totem to check whether he is awake."},
+      {"w": "limbo", "def": "a dream state where time stretches and escape becomes difficult", "ex": "Saito has been in limbo for what feels like decades."},
+      {"w": "the subconscious", "def": "the part of the mind you are not fully aware of", "ex": "Fischer's subconscious turns the streets into a battlefield."},
+      {"w": "a kick", "def": "a sudden jolt that wakes a dreamer from sleep", "ex": "The van hitting the water is the kick they need."},
+      {"w": "to take a leap of faith", "def": "to act without proof because you choose to believe", "ex": "Cobb asks Saito to take a leap of faith."}
+    ],
+    "questions": [
+      "Cobb is a thief who wants to go home. Does the film ask us to forgive him, or only to understand him?",
+      "Would you accept Saito's offer if the reward was your old life and the risk was losing your grip on reality?",
+      "Ariadne keeps returning to Cobb's dreams after she sees how dangerous they are. Is that curiosity, loyalty, or recklessness?",
+      "In your culture, are dreams ever treated as messages, warnings or memories? How does that compare with the film's dream technology?",
+      "Which line from the film stays with you, and what does its rhythm or wording add that a plain sentence would lose?",
+      "Nolan cuts between four levels while the van falls. How does the editing make time feel physical, and where did you lose track?",
+      "Cobb hides the truth from his team. Is he protecting them, or protecting the story he tells himself?",
+      "Defend an unpopular reading: argue that Cobb never leaves the dream at the end, using two visual details as evidence."
+    ],
+    "gaps": [
+      {"line": "An idea is like a virus. Resilient. Highly ___.", "answer": "contagious", "hint": "easily passed from person to person", "adapted": false},
+      {"line": "You mustn't be afraid to dream a little ___, darling.", "answer": "bigger", "hint": "larger in size or ambition", "adapted": false},
+      {"line": "You're waiting for a train. A train that will take you far ___.", "answer": "away", "hint": "to a distant place", "adapted": false},
+      {"line": "Dreams feel real while we're in them. It's only when we wake up that we realize something was actually ___.", "answer": "strange", "hint": "odd or unusual", "adapted": false},
+      {"line": "Take a leap of ___.", "answer": "faith", "hint": "belief without proof", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "An idea is like a virus. Resilient. Highly contagious.", "options": ["Cobb", "Eames", "Saito"], "answer": 0, "note": "Cobb says it as a warning, and the film turns the metaphor into the plot."},
+      {"quote": "You mustn't be afraid to dream a little bigger, darling.", "options": ["Arthur", "Eames", "Cobb"], "answer": 1, "note": "Eames says it while producing a much larger weapon."},
+      {"quote": "You're waiting for a train. A train that will take you far away.", "options": ["Ariadne", "Cobb", "Mal"], "answer": 2, "note": "Mal repeats it in limbo, where the train is both memory and trap."}
+    ],
+    "quiz": [
+      {"q": "What is Cobb's profession at the start of the film?", "options": ["A dream architect", "A police detective", "A thief who steals secrets from dreams"], "answer": 2, "why": "Cobb is an extractor: he enters dreams to steal information."},
+      {"q": "What does Saito ask Cobb to do?", "options": ["Steal a secret from a rival", "Plant an idea in Robert Fischer's mind", "Protect Fischer from assassins"], "answer": 1, "why": "Saito wants inception, not extraction, and offers to clear Cobb's name."},
+      {"q": "What does Cobb's spinning top do inside a dream?", "options": ["It falls at once", "It keeps spinning without falling", "It changes colour"], "answer": 1, "why": "The top only falls in reality, so an endless spin means he is still dreaming."},
+      {"q": "Who is Mal?", "options": ["Cobb's dead wife", "Saito's daughter", "Ariadne's teacher"], "answer": 0, "why": "Mal appears in Cobb's dreams as a projection of his guilt."},
+      {"q": "How does the film end?", "options": ["The top falls and Cobb wakes", "The top wobbles and the screen cuts to black", "Cobb destroys the top"], "answer": 1, "why": "Nolan cuts before the top falls, leaving Cobb's reality unresolved."}
+    ],
+    "roleplay": {
+      "title": "The pitch",
+      "setting": "A hotel suite, the night before the job. Cobb has ten minutes to sell a dangerous plan to a client who holds all the cards.",
+      "roles": [
+        {"role": "Cobb", "brief": "You need this job to go home. Sell the plan with total confidence, but never mention what it will cost you personally."},
+        {"role": "Saito", "brief": "You are the client. You are calm, precise and already suspicious. Ask one question Cobb cannot answer."},
+        {"role": "Ariadne", "brief": "You designed the dream. You know where it could collapse. You may interrupt once, and only once."}
+      ],
+      "challenge": "Play it twice: once where Cobb tells the truth about the risk, once where he hides it. Saito decides which version is more believable."
+    },
+    "quest": [
+      {"title": "Station 1 · The totem", "task": "What object does Cobb use to test reality, and who did it belong to?", "answer": "A spinning top; it belonged to Mal", "points": 10},
+      {"title": "Station 2 · Dream jobs", "task": "Find the three dream-team roles: the person who designs spaces, the person who makes the sedative, and the person who impersonates others.", "answer": "architect, chemist, forger", "points": 10},
+      {"title": "Station 3 · Build a level", "task": "Design a fourth dream level using only your classroom. Describe its look, its danger and its kick in three sentences.", "answer": "Any coherent classroom level with a clear kick", "points": 15},
+      {"title": "Station 4 · Depth order", "task": "Put the four active dream states in order from shallowest to deepest.", "answer": "rainy city, hotel, snow fortress, limbo", "points": 10}
+    ]
+  },
+  {
+    "id": "grand-budapest",
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "level": "C1",
+    "runtime": 99,
+    "genres": ["comedy", "drama", "crime"],
+    "director": "Wes Anderson",
+    "country": "USA",
+    "age": "15+",
+    "mood": "pastel",
+    "logline": "A young lobby boy and a legendary concierge become entangled in the theft of a priceless painting and a disputed family inheritance.",
+    "why": "The plot is a caper with clear stakes, but the pleasure is in register: deadpan courtesy, ornate insults and jokes that arrive a beat late. Visual symmetry and chapter titles give learners time to recover between fast exchanges.",
+    "language": "English with invented Central European place names, rapid deadpan delivery and Ralph Fiennes's ornate, clipped courtesy; several accents are deliberately exaggerated.",
+    "content": "Stylised violence with brief gory images, including a severed head and severed fingers; a cat is thrown from a window, and there is brief nudity, sexual references and strong language.",
+    "scenes": [
+      {
+        "at": "00:10:00",
+        "title": "The new lobby boy",
+        "task": "Watch Zero's first walk through the lobby. List three rules Gustave expects him to obey without being told.",
+        "type": "observe"
+      },
+      {
+        "at": "00:29:00",
+        "title": "The disputed will",
+        "task": "Listen to how the family talks about the painting. Which words turn an object into a person?",
+        "type": "listen"
+      },
+      {
+        "at": "00:58:00",
+        "title": "The prison break",
+        "task": "Gustave's escape depends on ordinary objects. Predict which one will matter most before it happens.",
+        "type": "predict"
+      },
+      {
+        "at": "01:28:00",
+        "title": "The hotel shootout",
+        "task": "The gunfight is staged like a farce. Where does the comedy stop and the violence become real?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "deadpan", "def": "deliberately showing no emotion, often for comic effect", "ex": "Zero delivers the punchline in a deadpan voice."},
+      {"w": "to frame someone", "def": "to make an innocent person appear guilty of a crime", "ex": "Dmitri tries to frame Gustave for his mother's murder."},
+      {"w": "an alibi", "def": "a claim that you were somewhere else when a crime happened", "ex": "Gustave has no alibi for the night of the murder."},
+      {"w": "to inherit", "def": "to receive money or property after someone has died", "ex": "Zero will inherit the hotel after Gustave dies."},
+      {"w": "a concierge", "def": "a hotel employee who looks after guests and arranges their needs", "ex": "The concierge knows every guest's secret."},
+      {"w": "a caper", "def": "a light-hearted crime story full of tricks and narrow escapes", "ex": "The film is a caper with a melancholy heart."}
+    ],
+    "questions": [
+      "Gustave calls himself a servant, yet he lectures everyone. Is he a moral centre or a charming operator?",
+      "Would you work for Gustave if he paid you badly but treated style as a moral duty? What would you last a week doing?",
+      "Zero chooses to stay loyal after Gustave is arrested. Is loyalty here a virtue or a habit he cannot break?",
+      "In your country, do people tell stories about a lost golden age of service or manners? What does that nostalgia hide?",
+      "Which line from Gustave made you laugh and then think? Say it in his clipped, courteous voice.",
+      "Anderson frames almost every shot like a picture. How does that symmetry make the violence and grief feel stranger?",
+      "The film uses a story inside a story inside a story. Who is really telling the truth about Gustave?",
+      "Defend an unpopular reading: argue that Gustave is not a hero but a self-serving performer, using two moments where his charm fails."
+    ],
+    "gaps": [
+      {"line": "Rudeness is merely an expression of ___.", "answer": "fear", "hint": "the feeling you get when you are afraid", "adapted": false},
+      {"line": "There are still faint ___ of civilization left in this barbaric slaughterhouse.", "answer": "glimmers", "hint": "small, weak signs of light", "adapted": false},
+      {"line": "A lobby boy is completely invisible, yet always in ___.", "answer": "sight", "hint": "the ability to see", "adapted": false},
+      {"line": "I've never trusted that butler. He's too ___.", "answer": "honest", "hint": "telling the truth, even when it hurts", "adapted": false},
+      {"line": "When the destiny of a great fortune is at stake, men's greed spreads like a ___ in the bloodstream.", "answer": "poison", "hint": "a substance that can kill you", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "Rudeness is merely an expression of fear.", "options": ["Dmitri", "Gustave", "Zero"], "answer": 1, "note": "Gustave offers it as a theory of human behaviour, and as a defence of his own charm."},
+      {"quote": "There are still faint glimmers of civilization left in this barbaric slaughterhouse.", "options": ["The Author", "Gustave", "Henckels"], "answer": 1, "note": "He is describing the hotel, but the film hears the coming war behind the joke."},
+      {"quote": "I've never trusted that butler. He's too honest.", "options": ["Jopling", "Dmitri", "Zero"], "answer": 0, "note": "Jopling's compliment is a death sentence, and the film lets the irony sit."}
+    ],
+    "quiz": [
+      {"q": "What is Zero's job at the Grand Budapest?", "options": ["Lobby boy", "Chef", "Lawyer"], "answer": 0, "why": "Zero starts as the new lobby boy and becomes Gustave's closest ally."},
+      {"q": "Who leaves Gustave the painting in her will?", "options": ["Agatha", "Dmitri", "Madame D"], "answer": 2, "why": "Madame D bequeaths Boy with Apple to Gustave, which enrages her family."},
+      {"q": "Why is Gustave arrested?", "options": ["He is suspected of murdering Madame D", "He stole a car", "He insulted a general"], "answer": 0, "why": "He is charged with Madame D's murder and sent to prison."},
+      {"q": "How does Agatha help Gustave escape?", "options": ["She bribes a guard", "She hides tools in pastries", "She disguises him as a soldier"], "answer": 1, "why": "She bakes the tools he needs into Mendl's pastries."},
+      {"q": "What happens to Gustave at the end?", "options": ["He inherits the hotel", "He moves to America", "He is shot by soldiers while protecting Zero"], "answer": 2, "why": "He dies defending Zero at a military checkpoint, and Zero inherits everything."}
+    ],
+    "roleplay": {
+      "title": "The inheritance",
+      "setting": "A lawyer's office in Zubrowka, 1932. The will has just been read, and nobody is behaving well.",
+      "roles": [
+        {"role": "Dmitri", "brief": "You are furious and entitled. You want the painting, the estate and an apology, and you will use politeness as a weapon."},
+        {"role": "Gustave", "brief": "You are impeccably courteous. You never raise your voice, even when you are describing someone's moral failure."},
+        {"role": "Zero", "brief": "You are the lobby boy. You speak only when spoken to, but you notice everything and write it down."}
+      ],
+      "challenge": "No direct insults. Every threat must be wrapped in a compliment. The room must stay polite until someone breaks."
+    },
+    "quest": [
+      {"title": "Station 1 · The painting", "task": "What is the painting called, and who is named as its painter?", "answer": "Boy with Apple, by Johannes van Hoytl", "points": 10},
+      {"title": "Station 2 · Word clues", "task": "Solve the clues: the hotel employee who arranges everything, a claim that you were elsewhere, and to receive money after a death.", "answer": "concierge, alibi, inherit", "points": 10},
+      {"title": "Station 3 · A new rule", "task": "Write and perform one new rule for Gustave's lobby staff. It must be polite, absurd and impossible to obey.", "answer": "Any performed rule in Gustave's voice", "points": 15},
+      {"title": "Station 4 · Order of chaos", "task": "Put these in order: Madame D's death, the prison break, the hotel shootout, Zero inherits the hotel.", "answer": "death, prison break, shootout, inheritance", "points": 10}
+    ]
+  },
+  {
+    "id": "twelve-angry-men",
+    "title": "12 Angry Men",
+    "year": 1957,
+    "level": "C1",
+    "runtime": 96,
+    "genres": ["drama", "crime"],
+    "director": "Sidney Lumet",
+    "country": "USA",
+    "age": "12+",
+    "mood": "noir",
+    "logline": "On a sweltering day, a jury retires to decide whether a teenage boy is guilty of murder, and one juror refuses to vote before the others.",
+    "why": "One room, twelve men and a single argument make this a masterclass in turn-taking, hedging and persuasion. The camera never lets you escape the consequences of a sentence.",
+    "language": "American English of the 1950s, with overlapping New York accents, period slang and heated arguments that often interrupt each other.",
+    "content": "A teenage boy is tried for murder and the jury discusses a knife, witnesses and the death penalty; one juror delivers a racist rant, but no violence is shown.",
+    "scenes": [
+      {
+        "at": "00:07:00",
+        "title": "The first vote",
+        "task": "Listen to the first vote. Who says not guilty, and how do the others react before he explains why?",
+        "type": "listen"
+      },
+      {
+        "at": "00:23:00",
+        "title": "The second knife",
+        "task": "Pause when the identical knife appears. What does Juror 8 do with it, and what does the room do with the coincidence?",
+        "type": "observe"
+      },
+      {
+        "at": "00:49:00",
+        "title": "The old man walks",
+        "task": "They time the old man's walk. What assumption about testimony is being tested, and who resists the test?",
+        "type": "think"
+      },
+      {
+        "at": "01:24:00",
+        "title": "The woman's glasses",
+        "task": "Before the final vote, predict which piece of evidence will break Juror 3. Then watch whether it is evidence or memory that does it.",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "to deliberate", "def": "to discuss evidence carefully before reaching a decision", "ex": "The jury must deliberate until it reaches a verdict."},
+      {"w": "reasonable doubt", "def": "the level of uncertainty that prevents a guilty verdict", "ex": "The defence needs only one juror with reasonable doubt."},
+      {"w": "circumstantial evidence", "def": "facts that suggest guilt without directly proving it", "ex": "The case rests on circumstantial evidence, not a confession."},
+      {"w": "to acquit", "def": "to declare in court that someone is not guilty", "ex": "A jury can acquit a defendant even when the facts look bad."},
+      {"w": "a motive", "def": "a reason why someone might commit a crime", "ex": "The prosecution says the boy had a motive for the killing."},
+      {"w": "to badger", "def": "to pressure someone with persistent questions or criticism", "ex": "Juror 3 tries to badger the old man into silence."}
+    ],
+    "questions": [
+      "Juror 8 says he does not know whether the boy is guilty. Why does that uncertainty make him powerful in the room?",
+      "Would you be able to hold out alone against eleven angry people? What would make you change your vote?",
+      "Juror 9 joins Juror 8 early. Is his support courage, curiosity, or simply loneliness?",
+      "In your country, how are juries chosen and how much do ordinary people trust them? Does the film make that trust stronger or weaker?",
+      "Which line in the jury room is the most dangerous, and why? Say it the way the character says it.",
+      "Lumet keeps the camera close and the room hot. How does the staging make the argument feel like a physical fight?",
+      "Juror 3's anger is personal, not legal. Does that discredit his argument completely, or can personal experience ever be evidence?",
+      "Defend an unpopular reading: argue that Juror 8 is not trying to find the truth but to win a contest, using two moments from the film."
+    ],
+    "gaps": [
+      {"line": "It's very hard to keep personal ___ out of a thing like this.", "answer": "prejudice", "hint": "an unfair opinion formed before you know the facts", "adapted": false},
+      {"line": "Prejudice obscures the ___.", "answer": "truth", "hint": "what is actually the case", "adapted": false},
+      {"line": "The burden of proof is on the ___.", "answer": "prosecution", "hint": "the side that brings the criminal charge", "adapted": false},
+      {"line": "We want your ___.", "answer": "arguments", "hint": "reasons offered to support a view", "adapted": false},
+      {"line": "It's eleven to ___.", "answer": "one", "hint": "the number after zero", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "It's not easy to stand alone against the ridicule of others.", "options": ["Juror 8", "Juror 9", "Juror 3"], "answer": 1, "note": "Juror 9 says it after revealing he was the first to join the lone not-guilty vote."},
+      {"quote": "I'll kill him!", "options": ["Juror 10", "Juror 7", "Juror 3"], "answer": 2, "note": "Said during a reenactment; Juror 8 repeats it calmly to show how words can be threats without intent."},
+      {"quote": "We want your arguments.", "options": ["Juror 8", "Foreman", "Juror 4"], "answer": 0, "note": "It turns the final holdout into a witness, not an enemy."}
+    ],
+    "quiz": [
+      {"q": "What is the boy accused of?", "options": ["Robbing a shop", "Stabbing his father to death", "Setting fire to a building"], "answer": 1, "why": "He is on trial for the murder of his father."},
+      {"q": "Why does Juror 8 vote not guilty at first?", "options": ["He knows the boy", "He dislikes the judge", "He wants the jury to discuss the evidence"], "answer": 2, "why": "He does not claim innocence; he asks the jury to take the discussion seriously."},
+      {"q": "What does Juror 8 bring into the room?", "options": ["A witness", "An identical switchblade", "A written confession"], "answer": 1, "why": "The knife shows that the murder weapon is not as unique as the court suggested."},
+      {"q": "What timing experiment do the jurors conduct?", "options": ["How long the boy was at the movies", "How long the old man needed to reach the door", "How long the police took to arrive"], "answer": 1, "why": "They test whether the old man could really have seen the boy run from the stairs in time."},
+      {"q": "What finally breaks Juror 3's certainty?", "options": ["A new witness", "His own grief about his son", "The judge calls"], "answer": 1, "why": "His rage is tied to his estranged son, and the photograph exposes the personal wound behind his vote."}
+    ],
+    "roleplay": {
+      "title": "The last holdout",
+      "setting": "A hot jury room, 1957. Eleven men want to go home; one man wants to talk.",
+      "roles": [
+        {"role": "Juror 8", "brief": "You believe the case has holes, but you cannot prove them yet. Ask questions; do not make speeches."},
+        {"role": "Juror 3", "brief": "You are certain the boy is guilty, and your certainty is personal. Attack the argument, not the person, until you lose control."},
+        {"role": "Foreman", "brief": "You want a unanimous verdict and an orderly room. Keep time, call votes, and try to stop the shouting."}
+      ],
+      "challenge": "Play it once with no raised voices. Then play the same scene with one interruption per line. Which version is more frightening?"
+    },
+    "quest": [
+      {"title": "Station 1 · The first count", "task": "What is the result of the first vote, and who is the only juror against it?", "answer": "11 guilty, 1 not guilty; Juror 8", "points": 10},
+      {"title": "Station 2 · Court words", "task": "Find three courtroom terms: the jury's decision, evidence that only suggests guilt, and the verb for declaring someone not guilty.", "answer": "verdict, circumstantial evidence, acquit", "points": 10},
+      {"title": "Station 3 · Change the subject", "task": "Write four lines of jury-room dialogue where one juror changes the subject whenever the evidence becomes uncomfortable.", "answer": "Any four lines with a clear evasive move", "points": 15},
+      {"title": "Station 4 · The order of doubt", "task": "Put the discoveries in order: the identical knife, the old man's walking time, the woman's glasses, the final vote.", "answer": "knife, walking time, glasses, final vote", "points": 10}
+    ]
+  },
+  {
+    "id": "imitation-game",
+    "title": "The Imitation Game",
+    "year": 2014,
+    "level": "C1",
+    "runtime": 114,
+    "genres": ["drama", "historical", "thriller"],
+    "director": "Morten Tyldum",
+    "country": "UK",
+    "age": "15+",
+    "mood": "cool",
+    "logline": "A brilliant mathematician joins a secret wartime team trying to crack the German Enigma code, while hiding a private truth that could destroy him.",
+    "why": "The film moves between three timelines, but each scene has a clear task: solve, hide, confess. That structure supports learners while the clipped, technical dialogue stretches them.",
+    "language": "British English with clipped upper-class and regional accents, fast technical talk and a great deal of meaning carried by what Turing does not say.",
+    "content": "Wartime codebreaking, a brief fight, and the aftermath of a criminal conviction for homosexuality, including chemical castration and an implied suicide; discreet but upsetting.",
+    "scenes": [
+      {
+        "at": "00:11:00",
+        "title": "The first interview",
+        "task": "Listen to Turing's answers. Which question does he answer literally, and why does that unsettle the room?",
+        "type": "listen"
+      },
+      {
+        "at": "00:37:00",
+        "title": "Building the machine",
+        "task": "Watch the machine take shape. What do the other codebreakers do while Turing works, and what does that tell you about teamwork?",
+        "type": "observe"
+      },
+      {
+        "at": "01:05:00",
+        "title": "The first breakthrough",
+        "task": "The team celebrates for a moment. What decision immediately turns the victory into a moral problem?",
+        "type": "think"
+      },
+      {
+        "at": "01:40:00",
+        "title": "The police interview",
+        "task": "Turing explains himself to a policeman. Where is he honest, and where is he performing?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "to crack a code", "def": "to solve a secret system used to send messages", "ex": "The team works day and night to crack a code."},
+      {"w": "redundant", "def": "no longer needed for a job or purpose", "ex": "After the machine works, some of the staff become redundant."},
+      {"w": "to blackmail someone", "def": "to force someone to act by threatening to reveal a secret", "ex": "Cairncross warns that someone could blackmail Turing."},
+      {"w": "a cover story", "def": "an invented explanation that hides what is really happening", "ex": "MI6 needs a cover story to explain the intelligence."},
+      {"w": "an outsider", "def": "a person who does not belong to a particular group", "ex": "Turing is an outsider even in his own team."},
+      {"w": "to compartmentalise", "def": "to keep separate parts of your life or feelings", "ex": "Turing tries to compartmentalise his private life and his work."}
+    ],
+    "questions": [
+      "Turing says he likes solving problems. What problem is he really trying to solve in his life, and does the film think he solves it?",
+      "Would you keep a secret that could save lives if telling it would also expose a friend? What would you do?",
+      "Joan chooses to stay after Turing tells her the truth about himself. Is that love, loyalty, or a career decision?",
+      "In your culture, how are brilliant but difficult people treated at school or work? Does the film romanticise Turing's isolation?",
+      "Which line from the film sounds cold at first and humane on a second hearing? Explain the change.",
+      "The film cuts between school, Bletchley and a police interview. What does the editing make you suspect about the official version of Turing's life?",
+      "The codebreakers let a convoy be attacked to protect their secret. Is that strategy or murder by arithmetic?",
+      "Defend an unpopular reading: argue that the film is unfair to Joan Clarke, using what it gives her to do and what it leaves out."
+    ],
+    "gaps": [
+      {"line": "Sometimes it is the people no one imagines anything of who do the things no one can ___.", "answer": "imagine", "hint": "form a picture of something in your mind", "adapted": false},
+      {"line": "Enigma is the most difficult problem in the ___.", "answer": "world", "hint": "the planet we live on", "adapted": false},
+      {"line": "If you are not listening carefully, you will miss ___.", "answer": "things", "hint": "objects or facts", "adapted": false},
+      {"line": "We were at war with the ___.", "answer": "clock", "hint": "the thing that measures time", "adapted": false},
+      {"line": "You can't tell anyone. It's ___.", "answer": "illegal", "hint": "against the law", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "I like solving problems, Commander.", "options": ["Hugh", "Denniston", "Turing"], "answer": 2, "note": "It is both a job interview and a confession of how he sees the world."},
+      {"quote": "Do you know why people like violence? It is because it feels good.", "options": ["Nock", "Turing", "Denniston"], "answer": 1, "note": "Turing says it to a policeman, and the line makes his own detachment sound dangerous."},
+      {"quote": "When people talk to each other, they never say what they mean.", "options": ["Turing", "Joan", "Hugh"], "answer": 0, "note": "It is the film's key to reading every polite conversation at Bletchley."}
+    ],
+    "quiz": [
+      {"q": "What is Turing's machine called?", "options": ["Enigma", "Christopher", "Bletchley"], "answer": 1, "why": "Turing names it after Christopher Morcom, his childhood friend."},
+      {"q": "Who is Joan Clarke?", "options": ["A spy", "A mathematician and codebreaker", "A police detective"], "answer": 1, "why": "Joan joins the team as a mathematician and becomes central to the work."},
+      {"q": "What difficult choice does the team face after cracking Enigma?", "options": ["Whether to tell the Germans", "Which attacks to stop and which to let through", "Whether to destroy the machine"], "answer": 1, "why": "Acting on every message would reveal that Enigma has been broken."},
+      {"q": "Why is Turing arrested after the war?", "options": ["For treason", "For his relationship with another man", "For stealing documents"], "answer": 1, "why": "Homosexual acts were illegal in Britain, and he is convicted of gross indecency."},
+      {"q": "What does the film say happened to Turing?", "options": ["He emigrated", "He became a professor", "He was chemically castrated and died by cyanide poisoning"], "answer": 2, "why": "The titles report his conviction, the compulsory treatment and his death in 1954."}
+    ],
+    "roleplay": {
+      "title": "The secret",
+      "setting": "A hut at Bletchley Park, 1941. A convoy is about to be attacked, and the team has minutes to decide.",
+      "roles": [
+        {"role": "Turing", "brief": "You have already decided to let the convoy die. Explain why with logic, not apology."},
+        {"role": "Joan", "brief": "You understand the logic, but you are the one who has to say it out loud to a friend."},
+        {"role": "Peter", "brief": "Your brother is on the ship. You are not interested in logic. You want one exception."}
+      ],
+      "challenge": "No one may say I'm sorry. Find another way to acknowledge the cost. Then swap roles and see who can hold the decision."
+    },
+    "quest": [
+      {"title": "Station 1 · The machine", "task": "What is Turing's code-breaking machine called, and who was the name borrowed from?", "answer": "Christopher; his childhood friend Christopher Morcom", "points": 10},
+      {"title": "Station 2 · Code words", "task": "Find three codebreaker words: solve a code, no longer needed, and force someone by threatening a secret.", "answer": "crack, redundant, blackmail", "points": 10},
+      {"title": "Station 3 · The hidden cost", "task": "Write a one-minute speech for Joan arguing that keeping Enigma secret is worth more than saving one convoy.", "answer": "Any speech with a clear cost and justification", "points": 15},
+      {"title": "Station 4 · Timeline", "task": "Put these in order: Turing arrives at Bletchley, the team breaks Enigma, the convoy is sacrificed, Turing is arrested.", "answer": "arrives, breaks Enigma, convoy, arrest", "points": 10}
+    ]
+  },
+  {
+    "id": "whiplash",
+    "title": "Whiplash",
+    "year": 2014,
+    "level": "C1",
+    "runtime": 107,
+    "genres": ["drama", "musical"],
+    "director": "Damien Chazelle",
+    "country": "USA",
+    "age": "15+",
+    "mood": "neon",
+    "logline": "A young jazz drummer joins an elite conservatory and meets a conductor whose pursuit of perfection turns every rehearsal into a battle.",
+    "why": "The dialogue is fast, repetitive and deliberately uncomfortable, which makes power shifts easy to feel and hard to ignore. Short scenes and loud music give learners regular emotional anchor points.",
+    "language": "American English at full speed, with jazz vocabulary, overlapping crosstalk and a teacher who moves from quiet precision to explicit verbal abuse.",
+    "content": "Sustained verbal abuse, a car crash and hands bleeding from drumming; strong language throughout, and the teacher-student intensity is deliberately hard to watch.",
+    "scenes": [
+      {
+        "at": "00:09:00",
+        "title": "The first rehearsal",
+        "task": "Watch Fletcher enter. How does the room change before he says a word?",
+        "type": "observe"
+      },
+      {
+        "at": "00:31:00",
+        "title": "Rushing or dragging",
+        "task": "Listen to the question Fletcher repeats. Why does he refuse to accept I don't know?",
+        "type": "listen"
+      },
+      {
+        "at": "01:18:00",
+        "title": "The car crash",
+        "task": "Andrew gets up and keeps going. What is the film saying about ambition in this moment?",
+        "type": "think"
+      },
+      {
+        "at": "01:43:00",
+        "title": "The final solo",
+        "task": "Pause when Andrew returns to the stage. Predict whether Fletcher will stop him, then watch who controls the ending.",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "to berate", "def": "to speak angrily and critically to someone over time", "ex": "Fletcher berates the band for a whole rehearsal."},
+      {"w": "tempo", "def": "the speed at which a piece of music is played", "ex": "Fletcher stops the band when the tempo slips."},
+      {"w": "to push someone to the limit", "def": "to make someone work as hard as they possibly can", "ex": "Fletcher pushes Andrew to the limit and beyond."},
+      {"w": "a perfectionist", "def": "someone who demands flawless standards from themselves and others", "ex": "A perfectionist can make everyone around him miserable."},
+      {"w": "to snap", "def": "to lose control suddenly because of pressure or anger", "ex": "Andrew finally snaps during the competition."},
+      {"w": "a mentor", "def": "an experienced person who advises and trains someone less experienced", "ex": "A good mentor knows when to stop pushing."}
+    ],
+    "questions": [
+      "Fletcher says there are no two words more harmful than good job. Is he a teacher, a bully, or both at once?",
+      "Would you tolerate Fletcher's methods for one year if they made you measurably better? Where would you draw the line?",
+      "Andrew breaks up with Nicole to protect his ambition. Is that honesty or cowardice dressed as honesty?",
+      "In your culture, how do teachers and coaches talk about toughness? Does the film confirm or challenge that language?",
+      "Which line from Fletcher made you lean forward? Say it, then say it again without the threat. What disappears?",
+      "Chazelle cuts the final performance like a fight scene. How does the editing make the audience complicit in Andrew's exhaustion?",
+      "The film never tells us whether Andrew is great. Is that ambiguity honest, or is it a way of avoiding the question?",
+      "Defend an unpopular reading: argue that Fletcher is the real victim of the film, using two scenes where he is humiliated or exposed."
+    ],
+    "gaps": [
+      {"line": "Not ___ my tempo.", "answer": "quite", "hint": "almost, but not completely", "adapted": false},
+      {"line": "Were you rushing or were you ___?", "answer": "dragging", "hint": "playing more slowly than the beat", "adapted": false},
+      {"line": "There are no two words in the English language more harmful than good ___.", "answer": "job", "hint": "paid employment", "adapted": false},
+      {"line": "The next Charlie Parker would never be ___.", "answer": "discouraged", "hint": "made to lose confidence", "adapted": false},
+      {"line": "I was there to push people beyond what's ___ of them.", "answer": "expected", "hint": "believed likely to happen", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "Not quite my tempo.", "options": ["Andrew", "Fletcher", "Jim"], "answer": 1, "note": "The line becomes a threat because it is repeated so quietly."},
+      {"quote": "Were you rushing or were you dragging?", "options": ["Fletcher", "Andrew", "Nicole"], "answer": 0, "note": "Fletcher asks it until Andrew gives an answer; the question is really about control."},
+      {"quote": "I wanna be one of the greats.", "options": ["Fletcher", "Nicole", "Andrew"], "answer": 2, "note": "Andrew says it to Nicole as an explanation, not an apology."}
+    ],
+    "quiz": [
+      {"q": "What instrument does Andrew play?", "options": ["Trumpet", "Drums", "Piano"], "answer": 1, "why": "Andrew is a drummer in Studio Band at Shaffer Conservatory."},
+      {"q": "What is Fletcher's role?", "options": ["Conductor of Studio Band", "Andrew's father", "A club owner"], "answer": 0, "why": "Fletcher leads Studio Band and controls who plays in it."},
+      {"q": "Why does Andrew break up with Nicole?", "options": ["He is in love with someone else", "She moves to another country", "He believes she will hold back his ambition"], "answer": 2, "why": "He tells her that his pursuit of greatness leaves no room for the relationship."},
+      {"q": "What happens on the way to the competition?", "options": ["He loses his sticks", "He is in a car crash", "He is arrested"], "answer": 1, "why": "Andrew is hit by a truck, crawls out and still tries to reach the stage."},
+      {"q": "What happens at the final concert?", "options": ["Andrew walks out", "Fletcher apologises", "Andrew returns and plays an extended solo"], "answer": 2, "why": "Andrew comes back after Fletcher's trap and takes control of the performance."}
+    ],
+    "roleplay": {
+      "title": "The rehearsal",
+      "setting": "A conservatory rehearsal room, 2 a.m. The band has been playing the same eight bars for an hour.",
+      "roles": [
+        {"role": "Fletcher", "brief": "You are precise, cruel and completely calm. You believe you are building something. Never shout until the last line."},
+        {"role": "Andrew", "brief": "You are exhausted and bleeding. You want to be great more than you want to be liked. Do not apologise."},
+        {"role": "Drummer", "brief": "You want to keep your place in the band. You agree with Fletcher in public and disagree with him with your eyes."}
+      ],
+      "challenge": "Fletcher may use only questions, never insults. Play the scene twice, then decide which version gets the better performance."
+    },
+    "quest": [
+      {"title": "Station 1 · The first stop", "task": "What piece is Studio Band playing when Fletcher first stops them, and what does he say is wrong?", "answer": "Whiplash; the tempo is not his", "points": 10},
+      {"title": "Station 2 · Music words", "task": "Find three music words: speed, the leader of an orchestra or band, and a repeated rhythmic pattern.", "answer": "tempo, conductor, beat", "points": 10},
+      {"title": "Station 3 · The review", "task": "Write four lines of a review of Andrew's final solo: one compliment, one warning, one question.", "answer": "Any review with all three moves", "points": 15},
+      {"title": "Station 4 · Order of ambition", "task": "Put these in order: the first rehearsal, the car crash, Andrew's attack on Fletcher, the final club performance.", "answer": "rehearsal, crash, attack, performance", "points": 10}
+    ]
+  },
+  {
+    "id": "birdman",
+    "title": "Birdman",
+    "year": 2014,
+    "level": "C1",
+    "runtime": 119,
+    "genres": ["comedy", "drama"],
+    "director": "Alejandro G. Iñárritu",
+    "country": "USA",
+    "age": "15+",
+    "mood": "neon",
+    "logline": "A faded superhero actor tries to revive his career with a serious Broadway play, while a voice in his head keeps telling him he is a fraud.",
+    "why": "Overlapping backstage talk and a continuous-take illusion make the film feel like a conversation you have walked into. The ambiguity is the point, so learners must weigh what they see against what Riggan says.",
+    "language": "Fast, overlapping American English with backstage theatre vocabulary and a voice that interrupts from inside Riggan's mind.",
+    "content": "Mental illness and a mocking voice are central; there is an attempted self-harm scene, strong language and brief sexual content.",
+    "scenes": [
+      {
+        "at": "00:11:00",
+        "title": "The voice returns",
+        "task": "Listen to the voice in Riggan's head. Which words sound like encouragement, and which sound like a threat?",
+        "type": "listen"
+      },
+      {
+        "at": "00:37:00",
+        "title": "The method actor",
+        "task": "Watch Mike take over the rehearsal. What does he do differently, and who in the room enjoys it?",
+        "type": "observe"
+      },
+      {
+        "at": "01:03:00",
+        "title": "Times Square walk",
+        "task": "Riggan walks through the crowd in his underwear. Is the city laughing at him, or is he imagining it?",
+        "type": "think"
+      },
+      {
+        "at": "01:53:00",
+        "title": "The final curtain",
+        "task": "The ending refuses to explain itself. What does Sam see, and why does the film deny us her point of view?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "a comeback", "def": "a return to success after a period of failure", "ex": "Riggan hopes the play will be his comeback."},
+      {"w": "a has-been", "def": "a person who was once famous but is no longer", "ex": "The tabloids call him a has-been."},
+      {"w": "self-deprecating", "def": "making jokes that criticise yourself before others can", "ex": "His self-deprecating jokes keep the room on his side."},
+      {"w": "to be typecast", "def": "to be repeatedly given the same kind of acting role", "ex": "Riggan was typecast as a superhero for twenty years."},
+      {"w": "a preview", "def": "a public performance before a show officially opens", "ex": "The first preview goes wrong in front of an audience."},
+      {"w": "delusional", "def": "believing something that is not true despite clear evidence", "ex": "Sam suggests that her father is delusional about his career."}
+    ],
+    "questions": [
+      "Riggan wants to be taken seriously. Is the film on his side, or is it laughing at him?",
+      "Would you give up a safe, well-paid career to prove you can do serious work? What would you risk?",
+      "Sam tells Riggan he does not matter. Is she cruel, honest, or both, and does the film agree with her?",
+      "In your culture, which is more respected: commercial fame or artistic prestige? How does the film play with that hierarchy?",
+      "Which line from Birdman sounds like a joke but lands as a confession? Say it and explain the shift.",
+      "The film looks like one continuous take. How does that illusion change your sense of time and backstage chaos?",
+      "Is Birdman a figment of Riggan's illness, a voice of the culture, or both? What evidence would settle it?",
+      "Defend an unpopular reading: argue that Riggan is a reliable narrator and the film's magic is real, using two moments."
+    ],
+    "gaps": [
+      {"line": "A thing is a thing, not what is said of that ___.", "answer": "thing", "hint": "the object itself", "adapted": false},
+      {"line": "I'm nothing. I'm not even ___.", "answer": "here", "hint": "in this place", "adapted": false},
+      {"line": "This play is my last chance to be taken ___.", "answer": "seriously", "hint": "as someone who deserves respect", "adapted": true},
+      {"line": "The voice keeps telling me that I'm a ___.", "answer": "fraud", "hint": "someone pretending to be what they are not", "adapted": true},
+      {"line": "You're no actor, you're a ___.", "answer": "celebrity", "hint": "a famous person", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "I'm nothing. I'm not even here.", "options": ["Birdman", "Riggan", "Sam"], "answer": 1, "note": "Riggan says it after a fight with Sam; it is both self-pity and a strange kind of relief."},
+      {"quote": "You're no actor, you're a celebrity.", "options": ["Mike", "Riggan", "Tabitha"], "answer": 0, "note": "Mike says it as an insult, but the film keeps asking whether he is right."},
+      {"quote": "They love blood. They love action.", "options": ["Jake", "Riggan", "Birdman"], "answer": 2, "note": "The voice promises that spectacle will save him; the ending tests the promise."}
+    ],
+    "quiz": [
+      {"q": "What is Riggan trying to revive?", "options": ["His film career with a Broadway play", "His marriage", "His law practice"], "answer": 0, "why": "He writes, directs and stars in a stage adaptation to prove he is a serious actor."},
+      {"q": "Which writer's story is the play based on?", "options": ["Raymond Carver", "Tennessee Williams", "Arthur Miller"], "answer": 0, "why": "The play adapts Raymond Carver's What We Talk About When We Talk About Love."},
+      {"q": "Who is Mike Shiner?", "options": ["A critic", "A celebrated stage actor", "Riggan's agent"], "answer": 1, "why": "Mike is a respected theatre actor who joins the production and clashes with Riggan."},
+      {"q": "What does Tabitha Dickinson threaten?", "options": ["To cancel the theatre lease", "To sue Riggan", "To destroy the play with a review"], "answer": 2, "why": "The critic promises to kill the play in print, whatever its merits."},
+      {"q": "What happens at the end?", "options": ["Riggan dies on stage", "Riggan shoots himself on stage, survives, then jumps from a hospital window", "Riggan moves to Los Angeles"], "answer": 1, "why": "The film ends with Sam looking out of the window and smiling, leaving his fate open."}
+    ],
+    "roleplay": {
+      "title": "The interview",
+      "setting": "A cramped dressing room before the first preview. A critic has arrived without an appointment.",
+      "roles": [
+        {"role": "Riggan", "brief": "You want respect, not publicity. Answer every question as if it were an accusation, but keep smiling."},
+        {"role": "Tabitha", "brief": "You have already decided what you think of him. Ask polite questions that contain a verdict."},
+        {"role": "Sam", "brief": "You are the daughter and the assistant. You see through both of them. You may say one true thing that ruins the room."}
+      ],
+      "challenge": "Every answer must contain a compliment and a threat. Neither character may admit to either."
+    },
+    "quest": [
+      {"title": "Station 1 · The play", "task": "Which Raymond Carver story is Riggan adapting, and who stars in it besides Riggan?", "answer": "What We Talk About When We Talk About Love; Mike Shiner", "points": 10},
+      {"title": "Station 2 · Theatre words", "task": "Find three theatre words: a public performance before opening, the person who reviews a show, and the words an actor learns.", "answer": "preview, critic, lines", "points": 10},
+      {"title": "Station 3 · Headlines", "task": "Write three tabloid headlines for Riggan's Times Square walk: one kind, one cruel, one absurd.", "answer": "Any three headlines in the three registers", "points": 15},
+      {"title": "Station 4 · Order of the show", "task": "Put these in order: Mike joins the play, Riggan is locked out in Times Square, Tabitha threatens the review, Riggan shoots himself on stage.", "answer": "Mike, Times Square, Tabitha, shooting", "points": 10}
+    ]
+  },
+  {
+    "id": "manchester-by-the-sea",
+    "title": "Manchester by the Sea",
+    "year": 2016,
+    "level": "C1",
+    "runtime": 137,
+    "genres": ["drama", "family"],
+    "director": "Kenneth Lonergan",
+    "country": "USA",
+    "age": "15+",
+    "mood": "ice",
+    "logline": "A quiet handyman returns to his hometown after his brother's death to care for his teenage nephew, and must face the family history he left behind.",
+    "why": "Much of the meaning sits in pauses, refusals and sentences that stop halfway. The film rewards learners who listen for what is not said, and its New England setting adds a useful accent challenge.",
+    "language": "Working-class New England English with dropped sounds, long pauses and overlapping family talk; some lines are deliberately hard to catch.",
+    "content": "A family tragedy involving the deaths of young children is described rather than shown; grief, guilt, a violent fight and strong language run through the film.",
+    "scenes": [
+      {
+        "at": "00:17:00",
+        "title": "The will reading",
+        "task": "Listen to the lawyer read Joe's will. What does Lee expect, and what is he actually given?",
+        "type": "listen"
+      },
+      {
+        "at": "00:49:00",
+        "title": "The open freezer",
+        "task": "Watch Patrick open the freezer. What does he do with his fear, and what does Lee do?",
+        "type": "observe"
+      },
+      {
+        "at": "01:14:00",
+        "title": "The police station",
+        "task": "The camera stays with Lee after the interview. What does his silence tell you that dialogue cannot?",
+        "type": "think"
+      },
+      {
+        "at": "02:01:00",
+        "title": "The street meeting",
+        "task": "Pause after Randi speaks to Lee. Retell the scene in three sentences without using the word sorry.",
+        "type": "speak"
+      }
+    ],
+    "words": [
+      {"w": "grief", "def": "deep sadness after someone you love has died", "ex": "Lee carries his grief like a physical weight."},
+      {"w": "to be estranged", "def": "to no longer be close to a family member", "ex": "Lee is estranged from almost everyone in Manchester."},
+      {"w": "custody", "def": "the legal right to care for a child", "ex": "The will gives Lee custody of Patrick."},
+      {"w": "to bottle something up", "def": "to hide strong feelings instead of expressing them", "ex": "Lee bottles his feelings up until he explodes."},
+      {"w": "a wake", "def": "a gathering of family and friends after a death", "ex": "The family gathers for Joe's wake at the house."},
+      {"w": "to flinch", "def": "to make a small sudden movement when startled or hurt", "ex": "Patrick flinches when Lee raises his voice."}
+    ],
+    "questions": [
+      "Lee says he cannot beat it. Is the film saying grief is permanent, or that healing takes a form he cannot accept?",
+      "Would you take responsibility for a teenager if you believed you would fail him? What would you say to Patrick?",
+      "Patrick wants to keep his life in Manchester. Is that loyalty to home or a refusal to grow up?",
+      "In your culture, how do people talk to someone who has lost a child? What does Lee need that nobody offers him?",
+      "Which line from the film is powerful because of what it does not say? Say it and then say what lies underneath it.",
+      "Lonergan uses long pauses and half-finished sentences. How does that rhythm make ordinary conversations feel dangerous?",
+      "Lee's police interview is almost calm. Is the film's restraint respectful, or does it let him off too easily?",
+      "Defend an unpopular reading: argue that Patrick is the strongest person in the film, not Lee, using two choices he makes."
+    ],
+    "gaps": [
+      {"line": "I can't ___ it.", "answer": "beat", "hint": "defeat or overcome something", "adapted": false},
+      {"line": "I can't be a father to him. I'm not ___.", "answer": "capable", "hint": "able to do what is needed", "adapted": true},
+      {"line": "This town is full of ___.", "answer": "memories", "hint": "things you remember from the past", "adapted": true},
+      {"line": "Some things you can't fix. You just have to live with ___.", "answer": "them", "hint": "the things already mentioned", "adapted": true},
+      {"line": "You have to let people ___ you.", "answer": "help", "hint": "give you support", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "I can't beat it.", "options": ["Lee", "Patrick", "George"], "answer": 0, "note": "Lee says it twice, quietly, when Randi tries to reach him."},
+      {"quote": "I don't want to go to Boston.", "options": ["Lee", "George", "Patrick"], "answer": 2, "note": "Patrick says it about the move, but the line is also about losing the life he has built."},
+      {"quote": "I love you.", "options": ["Randi", "Lee", "Patrick"], "answer": 0, "note": "In the street scene, the simplest line is the one that costs the most."}
+    ],
+    "quiz": [
+      {"q": "Who does Joe name as Patrick's guardian?", "options": ["Lee", "George", "Randi"], "answer": 0, "why": "Joe's will makes Lee Patrick's guardian, which Lee did not expect."},
+      {"q": "Where does Lee work at the start?", "options": ["A school", "A building maintenance job in Boston", "A fishing boat"], "answer": 1, "why": "Lee lives alone in Boston and does odd maintenance work for tenants."},
+      {"q": "What happened to Lee's children?", "options": ["They moved away", "They died in a house fire", "They were taken by Randi"], "answer": 1, "why": "A fire destroyed the house while Lee was out, and his children died."},
+      {"q": "Why does Lee leave Manchester at the end?", "options": ["He gets a better job", "He cannot live with the memories", "Patrick asks him to"], "answer": 1, "why": "He tells Patrick he cannot stay in a town that keeps the past too close."},
+      {"q": "Who does Patrick live with at the end?", "options": ["Lee, in Boston", "George, in Manchester", "Randi, in Boston"], "answer": 1, "why": "Patrick stays in Manchester with George, while Lee moves back to Boston."}
+    ],
+    "roleplay": {
+      "title": "The freezer",
+      "setting": "A kitchen in Manchester-by-the-Sea, late at night. The freezer door is open.",
+      "roles": [
+        {"role": "Patrick", "brief": "You are sixteen and embarrassed. You do not want to be comforted, but you do not want to be alone."},
+        {"role": "Lee", "brief": "You are trying to help and failing. You speak in short sentences. You do not touch anyone."},
+        {"role": "George", "brief": "You are the family friend. You can see what both of them need. You have one minute to say it."}
+      ],
+      "challenge": "Nobody may name the real problem. Play the scene using only practical questions about food, school and the boat."
+    },
+    "quest": [
+      {"title": "Station 1 · The will", "task": "Who does Joe name as Patrick's guardian, and what does Lee expect instead?", "answer": "Lee; he did not expect to be guardian", "points": 10},
+      {"title": "Station 2 · Grief words", "task": "Match three words: grief, estranged, custody.", "answer": "deep sadness; no longer close; legal care of a child", "points": 10},
+      {"title": "Station 3 · The unsaid", "task": "Write four lines of dialogue between Lee and Patrick in which neither says the real thing.", "answer": "Any four lines with clear subtext", "points": 15},
+      {"title": "Station 4 · Order of return", "task": "Put these in order: Joe's death, Lee learns he is guardian, the police-station flashback, Lee and Patrick fish on the boat.", "answer": "death, guardianship, flashback, fishing", "points": 10}
+    ]
+  },
+  {
+    "id": "arrival",
+    "title": "Arrival",
+    "year": 2016,
+    "level": "C1",
+    "runtime": 116,
+    "genres": ["sci-fi", "drama", "mystery"],
+    "director": "Denis Villeneuve",
+    "country": "USA",
+    "age": "12+",
+    "mood": "cool",
+    "logline": "A linguist is recruited to communicate with mysterious visitors, and the army wants answers before another country acts.",
+    "why": "The pace is slow and the visuals carry much of the meaning, which gives learners room to think about translation and time. The language is precise rather than dense, so C1 groups can focus on ambiguity and ethics.",
+    "language": "Measured American English with linguistics vocabulary; key scenes rely on silence, subtitles and the aliens' visual language rather than fast speech.",
+    "content": "A child's illness and death are shown in brief flashbacks; there is a tense first-contact standoff and a bomb, but little graphic violence.",
+    "scenes": [
+      {
+        "at": "00:12:00",
+        "title": "The first briefing",
+        "task": "Listen to Louise's first conversation with Colonel Weber. What does she refuse to do, and why does that earn her the job?",
+        "type": "listen"
+      },
+      {
+        "at": "00:34:00",
+        "title": "Inside the pod",
+        "task": "Watch the team enter the pod. Which sounds and shapes do they use before any words are exchanged?",
+        "type": "observe"
+      },
+      {
+        "at": "01:03:00",
+        "title": "Reading the logogram",
+        "task": "Louise says the language is not a weapon. What evidence in the scene supports her reading?",
+        "type": "think"
+      },
+      {
+        "at": "01:42:00",
+        "title": "The final choice",
+        "task": "Louise knows what is coming. Is her choice courage, selfishness, or something the film refuses to judge?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "a linguist", "def": "a person who studies language and how it works", "ex": "The army needs a linguist, not a soldier."},
+      {"w": "to decipher", "def": "to work out the meaning of something difficult to read", "ex": "Louise tries to decipher the circles in the air."},
+      {"w": "non-linear", "def": "not following a straight sequence from past to future", "ex": "Their non-linear language changes how Louise remembers."},
+      {"w": "free will", "def": "the power to make choices without being forced", "ex": "The film asks whether free will matters if the future is fixed."},
+      {"w": "to collaborate", "def": "to work together with others on a shared task", "ex": "The scientists must collaborate with soldiers and governments."},
+      {"w": "a palindrome", "def": "a word or phrase that reads the same both ways", "ex": "Hannah's name is a palindrome."}
+    ],
+    "questions": [
+      "Louise chooses to have a child knowing the pain ahead. Is that courage, selfishness, or something the film has no word for?",
+      "Would you want to know your whole future if the knowledge could not change it? What would you do differently?",
+      "Ian asks Louise whether she is dreaming in the aliens' language. Is her growing isolation a risk or a kind of freedom?",
+      "In your culture, how do people read silence in a conversation? How does the film use silence as a form of language?",
+      "Which line from Louise sounds simple but carries the whole film? Say it slowly and explain what it assumes about time.",
+      "Villeneuve shows the aliens in fragments, behind glass and mist. How does that visual restraint make them feel more intelligent?",
+      "The army wants a translation fast; Louise wants understanding first. Is her patience a moral position or a luxury?",
+      "Defend an unpopular reading: argue that the film is not about time at all but about grief and the stories we tell to survive it."
+    ],
+    "gaps": [
+      {"line": "It's not a weapon. It's a ___.", "answer": "gift", "hint": "something given freely", "adapted": false},
+      {"line": "It is the first weapon drawn in a ___.", "answer": "conflict", "hint": "a serious disagreement or fight", "adapted": false},
+      {"line": "If you could see your whole life from start to finish, would you change ___?", "answer": "things", "hint": "the events in your life", "adapted": false},
+      {"line": "Despite knowing the journey and where it leads, I embrace it and welcome every ___ of it.", "answer": "moment", "hint": "a very short period of time", "adapted": false},
+      {"line": "Time isn't the same for them. It isn't ___.", "answer": "linear", "hint": "moving in a straight line", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "It's not a weapon. It's a gift.", "options": ["Ian", "Louise", "Weber"], "answer": 1, "note": "Louise says it after decoding the logogram; it changes the meaning of the whole mission."},
+      {"quote": "Language is the foundation of civilization.", "options": ["Louise", "Ian", "Weber"], "answer": 0, "note": "She says it in a lecture; the next sentence calls language the first weapon drawn in a conflict."},
+      {"quote": "If you could see your whole life from start to finish, would you change things?", "options": ["Ian", "Hannah", "Louise"], "answer": 2, "note": "The question is addressed to Ian, but the film has already asked it of Louise."}
+    ],
+    "quiz": [
+      {"q": "Who is Louise Banks?", "options": ["A physicist", "A linguist", "A soldier"], "answer": 1, "why": "Louise is a linguistics professor recruited to talk to the visitors."},
+      {"q": "What are the aliens called?", "options": ["Heptapods", "Martians", "The Visitors"], "answer": 0, "why": "Ian explains that hepta means seven and pod means foot."},
+      {"q": "What does Louise discover about their language?", "options": ["It is impossible to learn", "It is a form of music", "It changes how speakers experience time"], "answer": 2, "why": "Learning the language rewires her perception of past, present and future."},
+      {"q": "Why do some countries prepare to attack?", "options": ["They receive a clear threat", "They mistranslate the word weapon", "The aliens attack first"], "answer": 1, "why": "The message is read as a threat, and the misunderstanding nearly starts a war."},
+      {"q": "What choice does Louise make?", "options": ["To leave Ian", "To destroy the logograms", "To have her daughter despite knowing her fate"], "answer": 2, "why": "She chooses the life she has seen, including its joy and its loss."}
+    ],
+    "roleplay": {
+      "title": "First contact",
+      "setting": "An army tent in Montana. A recording of the heptapods is playing, and nobody agrees what it means.",
+      "roles": [
+        {"role": "Louise", "brief": "You will not guess. You want to ask a better question, even if it frustrates the room."},
+        {"role": "Weber", "brief": "You need a result you can explain to generals. You have no patience for ambiguity, but you are not stupid."},
+        {"role": "Ian", "brief": "You are the scientist. You offer a theory, then immediately doubt it. You are the only one who admits confusion."}
+      ],
+      "challenge": "You may not use the word weapon. Explain the misunderstanding using only questions and one analogy."
+    },
+    "quest": [
+      {"title": "Station 1 · The visitors", "task": "What are the two heptapods called, and who names them?", "answer": "Abbott and Costello; Ian names them", "points": 10},
+      {"title": "Station 2 · Language words", "task": "Find three linguistics words: a person who studies language, a writing symbol that carries meaning, and a word that reads the same both ways.", "answer": "linguist, logogram, palindrome", "points": 10},
+      {"title": "Station 3 · First sentence", "task": "Invent a three-word message for the heptapods and explain why those words could be misunderstood.", "answer": "Any message with a plausible misunderstanding", "points": 15},
+      {"title": "Station 4 · Order of contact", "task": "Put these in order: Louise is recruited, the team enters the pod, Louise reads the logogram, Louise makes her choice.", "answer": "recruited, enters, reads, chooses", "points": 10}
+    ]
+  },
+  {
+    "id": "spotlight",
+    "title": "Spotlight",
+    "year": 2015,
+    "level": "C1",
+    "runtime": 129,
+    "genres": ["drama", "historical", "crime"],
+    "director": "Tom McCarthy",
+    "country": "USA",
+    "age": "15+",
+    "mood": "earth",
+    "logline": "A newspaper's investigative team looks into allegations against a local priest and uncovers a pattern that reaches far beyond one church.",
+    "why": "The film is an ensemble procedural: short scenes, overlapping newsroom talk and a clear investigative through-line. It rewards close listening to how institutions describe themselves and what those descriptions hide.",
+    "language": "American English with Boston accents, rapid newsroom crosstalk and legal and Church vocabulary; much of the film is quiet rather than shouty.",
+    "content": "The film investigates the sexual abuse of children by Catholic priests and the Church's cover-up; abuse is discussed, never shown, and the focus stays on the journalists' work.",
+    "scenes": [
+      {
+        "at": "00:14:00",
+        "title": "The new editor",
+        "task": "Listen to Marty Baron's first meeting. Which question changes the story from one priest to a system?",
+        "type": "listen"
+      },
+      {
+        "at": "00:39:00",
+        "title": "The first survivor",
+        "task": "Watch Sacha interview a survivor. What does she do with silence, and what does she avoid doing?",
+        "type": "observe"
+      },
+      {
+        "at": "01:09:00",
+        "title": "The list grows",
+        "task": "The team counts names. What does the number do to the room, and what does it do to you as a viewer?",
+        "type": "think"
+      },
+      {
+        "at": "01:55:00",
+        "title": "The publication decision",
+        "task": "Pause before the publication decision. Predict what the editors will risk, and what they will not.",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "an allegation", "def": "a claim that someone has done something wrong", "ex": "The team checks every allegation before publication."},
+      {"w": "to cover up", "def": "to hide evidence of wrongdoing from the public", "ex": "The Church tried to cover up decades of abuse."},
+      {"w": "a whistleblower", "def": "someone who reports illegal activity inside an organisation", "ex": "A whistleblower gives the team a crucial document."},
+      {"w": "to go on the record", "def": "to allow your name and words to be published", "ex": "Some survivors agree to go on the record."},
+      {"w": "an editor", "def": "a person who decides what a newspaper publishes", "ex": "The editor decides when the story is ready."},
+      {"w": "accountability", "def": "the state of being answerable for your actions", "ex": "The story is about accountability, not revenge."}
+    ],
+    "questions": [
+      "The journalists say they are going after a system, not a few bad priests. Why does that distinction matter to the story?",
+      "Would you publish a story that could hurt the Church's ordinary members but expose a cover-up? What would you weigh?",
+      "Robby refuses to rush the story. Is that professional discipline or a way of protecting the institution he loves?",
+      "In your country, how much power do religious institutions have in public life? How does the film's Boston compare?",
+      "Which line from the film is the most damning because it is so calm? Say it and explain why calm makes it worse.",
+      "The film is shot in offices, kitchens and courthouses, not in courtrooms. How does that ordinary setting make the scandal feel larger?",
+      "The team is mostly white, mostly male and shaped by Boston's Catholic culture. Does that limit what the film can see, or is it part of its honesty?",
+      "Defend an unpopular reading: argue that the film's real subject is not abuse but the daily grind of good journalism, using two scenes."
+    ],
+    "gaps": [
+      {"line": "They knew and they let it ___.", "answer": "happen", "hint": "take place", "adapted": false},
+      {"line": "The documents are under ___.", "answer": "seal", "hint": "officially closed to the public", "adapted": false},
+      {"line": "You have to go on the ___.", "answer": "record", "hint": "an official, public statement", "adapted": false},
+      {"line": "This is not one bad priest. It is a ___.", "answer": "system", "hint": "a set of connected rules and practices", "adapted": true},
+      {"line": "We need to follow the paper ___.", "answer": "trail", "hint": "the documents that show what happened", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "We're going after the system.", "options": ["Robby", "Mike", "Marty"], "answer": 2, "note": "Baron keeps repeating it until the team stops looking for one bad priest."},
+      {"quote": "They knew and they let it happen!", "options": ["Mike", "Robby", "Sacha"], "answer": 0, "note": "Mike shouts it in the newsroom, and the film lets the sentence stand without decoration."},
+      {"quote": "It's not just physical abuse. It's spiritual abuse.", "options": ["Sacha", "Phil Saviano", "Mitchell"], "answer": 1, "note": "A survivor explains what the Church took from him beyond his body."}
+    ],
+    "quiz": [
+      {"q": "Which newspaper does the Spotlight team work for?", "options": ["The Boston Globe", "The New York Times", "The Boston Herald"], "answer": 0, "why": "The Spotlight team is the Boston Globe's investigative unit."},
+      {"q": "What is the team investigating?", "options": ["Political corruption", "Sexual abuse by priests and the Church's cover-up", "A murder trial"], "answer": 1, "why": "They follow a priest abuse case and find a system of concealment."},
+      {"q": "Who is Marty Baron?", "options": ["The new editor", "A priest", "A victim's lawyer"], "answer": 0, "why": "Baron arrives from Miami and pushes the team toward systemic reporting."},
+      {"q": "What do the journalists need from the court?", "options": ["A confession", "A new witness", "Sealed documents to be unsealed"], "answer": 2, "why": "Unsealing the documents would prove what the Church knew and when."},
+      {"q": "What does the film emphasise at the end?", "options": ["One heroic reporter", "The system that enabled the abuse", "The Church's apology"], "answer": 1, "why": "The final cards widen the story beyond Boston and beyond one institution."}
+    ],
+    "roleplay": {
+      "title": "The front page",
+      "setting": "A newsroom, 2002. The story is ready, but the lawyers want one more day.",
+      "roles": [
+        {"role": "Marty Baron", "brief": "You are the editor from outside. You want the system, not the scandal. Ask what the story proves."},
+        {"role": "Robby", "brief": "You know Boston, the Church and the readers. You are afraid of getting it wrong and afraid of waiting."},
+        {"role": "Sacha", "brief": "You have spoken to the survivors. You are the one who has to say what publication will do to them."}
+      ],
+      "challenge": "Argue for publishing today. Then argue for waiting. The room must reach a decision in two minutes."
+    },
+    "quest": [
+      {"title": "Station 1 · The institution", "task": "What does Marty Baron say the team should investigate instead of individual priests?", "answer": "The system: policy and practice in the Church", "points": 10},
+      {"title": "Station 2 · Newsroom words", "task": "Match three words: allegation, whistleblower, on the record.", "answer": "a claim of wrongdoing; someone who reports it; named and published", "points": 10},
+      {"title": "Station 3 · The front page", "task": "Design the front page for the first story: headline, one photo, one sentence that explains the system.", "answer": "Any front page with a clear systemic claim", "points": 15},
+      {"title": "Station 4 · Order of the investigation", "task": "Put these in order: the Geoghan column, the sealed court documents, the list of priests, publication.", "answer": "column, documents, list, publication", "points": 10}
+    ]
+  },
+  {
+    "id": "marriage-story",
+    "title": "Marriage Story",
+    "year": 2019,
+    "level": "C1",
+    "runtime": 137,
+    "genres": ["drama", "romance"],
+    "director": "Noah Baumbach",
+    "country": "USA",
+    "age": "15+",
+    "mood": "earth",
+    "logline": "A theatre director and an actor try to end their marriage decently while lawyers, distance and old resentments pull them apart.",
+    "why": "The film moves between intimate two-person scenes and legal language, so learners hear the same conflict in two registers. Long takes and naturalistic overlap make it excellent for studying interruption and subtext.",
+    "language": "American English, intimate and fast, with overlapping arguments, legal jargon and long speeches that change tone mid-sentence.",
+    "content": "A divorce turns into a legal fight; strong language, a furious argument and references to sex and infidelity, but nothing explicit.",
+    "scenes": [
+      {
+        "at": "00:10:00",
+        "title": "The mediator's exercise",
+        "task": "Watch the mediator's exercise. What do the lists reveal that the couple cannot say to each other?",
+        "type": "observe"
+      },
+      {
+        "at": "00:36:00",
+        "title": "In Nora's office",
+        "task": "Listen to Nicole tell her story. Where does she start, and what does she keep returning to?",
+        "type": "listen"
+      },
+      {
+        "at": "01:32:00",
+        "title": "The apartment fight",
+        "task": "The fight moves from practical complaints to open cruelty. Which line changes the rules of the argument?",
+        "type": "think"
+      },
+      {
+        "at": "02:05:00",
+        "title": "The final shoe",
+        "task": "At the end, one small gesture does more than the lawyers. What is it, and what does it mean?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "a mediator", "def": "a neutral person who helps two sides reach agreement", "ex": "The mediator asks them to read their lists."},
+      {"w": "custody", "def": "the legal right to care for a child", "ex": "The lawyers argue about custody of Henry."},
+      {"w": "to serve someone", "def": "to formally deliver legal papers to someone in a case", "ex": "Charlie is served with divorce papers in Los Angeles."},
+      {"w": "a settlement", "def": "an official agreement that ends a legal dispute", "ex": "They try to reach a settlement without a trial."},
+      {"w": "to keep up appearances", "def": "to pretend that everything is normal when it is not", "ex": "They keep up appearances for Henry's school."},
+      {"w": "to hit below the belt", "def": "to attack someone unfairly in an argument or fight", "ex": "The argument hits below the belt more than once."}
+    ],
+    "questions": [
+      "Charlie and Nicole both want to be good people. Where does the legal system make that impossible?",
+      "Would you move cities for your child's other parent, even if it meant giving up your work? What would you ask for in return?",
+      "Nicole chooses Nora, then discovers how quickly a lawyer's story becomes her story. Is she using the system or being used by it?",
+      "In your culture, who is expected to make the sacrifices after a divorce? How does the film's American legal context compare?",
+      "Which line from the film is cruel but true? Say it and explain why you cannot simply dismiss it.",
+      "Baumbach lets scenes run long and overlap. How does that editing make politeness feel like a weapon?",
+      "The film gives both spouses a monologue. Does that balance make it fairer, or does it avoid taking sides when it should?",
+      "Defend an unpopular reading: argue that Charlie is the more sympathetic parent, using two moments the film seems to judge him."
+    ],
+    "gaps": [
+      {"line": "I want full ___, not weekends.", "answer": "custody", "hint": "the legal right to care for a child", "adapted": true},
+      {"line": "We need a ___, not a trial.", "answer": "settlement", "hint": "an official agreement that ends a dispute", "adapted": true},
+      {"line": "He was ___ with divorce papers at work.", "answer": "served", "hint": "formally given legal papers", "adapted": true},
+      {"line": "They agreed to keep up ___ for Henry.", "answer": "appearances", "hint": "the way things look to other people", "adapted": true},
+      {"line": "That joke was below the ___.", "answer": "belt", "hint": "a hit that is unfairly low", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "I fell in love with him two seconds after I saw him.", "options": ["Nicole", "Charlie", "Nora"], "answer": 0, "note": "Charlie reads it aloud from Nicole's letter, so the line reaches us in his voice."},
+      {"quote": "It's like a death without a body.", "options": ["Nora", "Charlie", "Bert"], "answer": 2, "note": "Bert uses it to describe divorce; the image explains why the grief has no funeral."},
+      {"quote": "I never really came alive for myself.", "options": ["Nora", "Nicole", "Charlie"], "answer": 1, "note": "Nicole says it in Nora's office, and it reframes the marriage as a life she watched from outside."}
+    ],
+    "quiz": [
+      {"q": "What are Charlie and Nicole trying to do?", "options": ["Save their theatre", "End their marriage", "Move to Europe"], "answer": 1, "why": "They separate and then begin a contested divorce."},
+      {"q": "Who is Nora Fanshaw?", "options": ["Nicole's lawyer", "Charlie's sister", "A mediator"], "answer": 0, "why": "Nora becomes Nicole's aggressive and articulate divorce lawyer."},
+      {"q": "Why does Nicole want to stay in Los Angeles?", "options": ["She has a new job and a life there", "She hates New York", "Her mother owns a house"], "answer": 0, "why": "She has a TV pilot and a sense of home that does not depend on Charlie."},
+      {"q": "What happens during the apartment argument?", "options": ["They reach an agreement", "They say things they cannot take back", "They call the police"], "answer": 1, "why": "The fight escalates until Charlie says he hopes she dies, then breaks down."},
+      {"q": "What does the final shoe-tying moment suggest?", "options": ["They will remarry", "Care survives the divorce", "Charlie is leaving for good"], "answer": 1, "why": "Nicole ties Charlie's shoe while he holds Henry, a small act of care after the legal war."}
+    ],
+    "roleplay": {
+      "title": "The mediation",
+      "setting": "A mediator's office in New York. Two lists lie on the table, face down.",
+      "roles": [
+        {"role": "Charlie", "brief": "You want to be reasonable. You have rehearsed your list and you believe it will fix something."},
+        {"role": "Nicole", "brief": "You do not want to read your list. You are not sure the person who wrote it still exists."},
+        {"role": "Mediator", "brief": "You have seen this a hundred times. You keep the room calm, but you cannot make either of them honest."}
+      ],
+      "challenge": "Read only the first sentence of each list. Then stop. Play the silence for ten seconds before anyone speaks again."
+    },
+    "quest": [
+      {"title": "Station 1 · The mediator", "task": "What exercise does the mediator ask Charlie and Nicole to do, and why does it fail?", "answer": "Read lists of what they love; neither can finish", "points": 10},
+      {"title": "Station 2 · Divorce words", "task": "Match three words: mediator, settlement, custody.", "answer": "neutral go-between; final agreement; legal care of a child", "points": 10},
+      {"title": "Station 3 · The letter", "task": "Write the paragraph Nicole cannot say aloud: what she wanted from the marriage, and what she will not give up.", "answer": "Any honest paragraph with a clear want and limit", "points": 15},
+      {"title": "Station 4 · Order of the split", "task": "Put these in order: the mediator's exercise, Nicole hires Nora, the argument in the apartment, Charlie reads Nicole's list.", "answer": "exercise, Nora, argument, list", "points": 10}
+    ]
+  }
+]

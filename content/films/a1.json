@@ -1,0 +1,952 @@
+[
+  {
+    "id": "the-gruffalo",
+    "title": "The Gruffalo",
+    "year": 2009,
+    "level": "A1",
+    "runtime": 27,
+    "genres": ["animation", "family", "comedy"],
+    "director": "Max Lang & Jakob Schuh",
+    "country": "UK",
+    "age": "all",
+    "mood": "earth",
+    "logline": "A little mouse walks through the wood and invents a monster to scare the other animals — then the monster appears.",
+    "why": "The narration is one short rhyming line per picture, and the same invitation comes back three times, so a beginner can follow the pattern without catching every word. The story is a simple chain of who the mouse meets next, which students can retell with four or five short sentences.",
+    "language": "Clear British narration in rhyme, read slowly, with polite short lines from the fox, the owl and the snake; the gruffalo speaks in a deep, slow voice.",
+    "content": "Very mild cartoon peril: a big monster follows a small mouse through the wood, but nobody is hurt. Suitable for all ages.",
+    "scenes": [
+      {
+        "at": "00:02:40",
+        "title": "The fox's invitation",
+        "task": "Pause when the fox speaks. Where does the fox live, and what food does he offer? Answer in one short sentence.",
+        "type": "observe"
+      },
+      {
+        "at": "00:08:20",
+        "title": "Tea in the treetops",
+        "task": "The owl invites the mouse for tea. Listen for three food or drink words and write them down.",
+        "type": "listen"
+      },
+      {
+        "at": "00:14:30",
+        "title": "Draw the monster",
+        "task": "Pause and draw the animal the mouse describes: eyes, tongue, back, nose. Compare your drawing with the next picture.",
+        "type": "observe"
+      },
+      {
+        "at": "00:21:40",
+        "title": "Who is afraid now?",
+        "task": "The real gruffalo walks behind the mouse. Stop here and predict: what will the fox, the owl and the snake do?",
+        "type": "predict"
+      }
+    ],
+    "words": [
+      {"w": "wood", "def": "a place with many trees", "ex": "The mouse walks through the wood."},
+      {"w": "fox", "def": "a wild animal with red fur", "ex": "The fox invites the mouse to lunch."},
+      {"w": "owl", "def": "a bird awake at night", "ex": "The owl lives in a tall tree."},
+      {"w": "snake", "def": "a long animal with no legs", "ex": "The snake slides out of the grass."},
+      {"w": "afraid", "def": "scared of something", "ex": "The animals are afraid of the gruffalo."},
+      {"w": "clever", "def": "good at thinking fast", "ex": "The mouse is small but clever."}
+    ],
+    "questions": [
+      "What does the mouse say to the fox? Try to say it in a big, brave voice.",
+      "Why do the fox, the owl and the snake run away at the end?",
+      "The mouse describes orange eyes and a black tongue. What colour are the gruffalo's eyes in the film?",
+      "Is the mouse clever or lucky? Give one example from the film.",
+      "Which animal do you like best: the fox, the owl or the snake? Why?",
+      "Would you like to walk in a dark wood at night? What would you take with you?",
+      "In your country, what animal stories do parents tell children? Is there a big monster in them?",
+      "Which line from the film do you like best? Say it the same way as the mouse."
+    ],
+    "gaps": [
+      {"line": "A mouse took a stroll through the deep dark ___.", "answer": "wood", "hint": "a place with many trees", "adapted": false},
+      {"line": "Come and have lunch in my underground ___.", "answer": "house", "hint": "the place where you live", "adapted": false},
+      {"line": "It's terribly kind of you, Fox, but ___.", "answer": "no", "hint": "not yes", "adapted": false},
+      {"line": "He has terrible tusks and terrible ___.", "answer": "claws", "hint": "sharp nails on an animal", "adapted": false},
+      {"line": "The mouse found a nut and the nut was ___.", "answer": "good", "hint": "nice, not bad", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "Come and have lunch in my underground house.", "options": ["The owl", "The fox", "The snake"], "answer": 1, "note": "The fox is the first animal the mouse meets, and the first to hear about the gruffalo."},
+      {"quote": "It's terribly kind of you, Fox, but no.", "options": ["The mouse", "The owl", "The gruffalo"], "answer": 0, "note": "The mouse is always polite, and always says no."},
+      {"quote": "A gruffalo? What's a gruffalo?", "options": ["The snake", "The mouse", "The fox"], "answer": 2, "note": "All three animals ask this; the fox asks it first."}
+    ],
+    "quiz": [
+      {"q": "Who does the mouse meet first?", "options": ["The owl", "The fox", "The snake"], "answer": 1, "why": "The fox finds the mouse first and invites him to lunch."},
+      {"q": "Where does the owl live?", "options": ["In a treetop", "In a logpile", "Underground"], "answer": 0, "why": "The owl asks the mouse up to her house in the tree."},
+      {"q": "Which animal does the mouse meet last?", "options": ["The fox", "The owl", "The snake"], "answer": 2, "why": "The snake is the third animal, just before the gruffalo appears."},
+      {"q": "Why do the animals run away?", "options": ["They see the gruffalo behind the mouse", "They hear a loud noise", "The mouse shouts at them"], "answer": 0, "why": "The mouse walks in front, so the animals see the monster and not the small mouse."},
+      {"q": "What does the mouse find at the end?", "options": ["A nut", "A hat", "A stick"], "answer": 0, "why": "After all the danger he finds a nut, and the nut is good."}
+    ],
+    "roleplay": {
+      "title": "The three invitations",
+      "setting": "The deep dark wood, in the afternoon. The mouse is walking home and one hungry animal stops him.",
+      "roles": [
+        {"role": "Mouse", "brief": "You are small and polite. You do not want to be lunch, so you invent a big friend who is coming to meet you."},
+        {"role": "Fox", "brief": "You are hungry and friendly. Your house is underground and you have lunch ready. You believe everything you hear."},
+        {"role": "Owl", "brief": "You live in a tree and you want tea. You are not sure about this monster, so you ask a lot of questions."}
+      ],
+      "challenge": "Play it three times, once with each animal. The mouse must use the same three sentences every time and change only the animal's name."
+    },
+    "quest": [
+      {"title": "Station 1 · Draw the monster", "task": "Find the moment the mouse describes the gruffalo. Write the three colours he uses for the eyes, the tongue and the back.", "answer": "orange eyes, black tongue, purple prickles", "points": 10},
+      {"title": "Station 2 · Word hunt", "task": "Find in the film: a place with many trees, a bird awake at night, and a long animal with no legs.", "answer": "wood, owl, snake", "points": 10},
+      {"title": "Station 3 · Your own monster", "task": "Invent a monster for your classroom. Describe it in three short sentences: eyes, food, home.", "answer": "Any clear three-sentence description", "points": 15},
+      {"title": "Station 4 · Who comes first?", "task": "Put these four in order: the gruffalo, the fox, the snake, the owl.", "answer": "fox, owl, snake, gruffalo", "points": 10}
+    ]
+  },
+  {
+    "id": "room-on-the-broom",
+    "title": "Room on the Broom",
+    "year": 2012,
+    "level": "A1",
+    "runtime": 25,
+    "genres": ["animation", "family"],
+    "director": "Max Lang & Jan Lachauer",
+    "country": "UK",
+    "age": "all",
+    "mood": "pastel",
+    "logline": "A witch and her cat fly on a broom, and every animal they meet asks for a ride — but the broom is getting full.",
+    "why": "The same question and the same answer come back four times, so a beginner hears the pattern enough to say it too. Hat, bow, wand and broom are easy nouns to point at, and the animals' faces show every feeling without a word.",
+    "language": "Rhyming British narration with a short repeated question and answer; the witch speaks slowly and kindly, and the dragon has a loud, low voice.",
+    "content": "A dragon chases the witch and says he wants to eat her, which may frighten very young children; the animals trick him and nobody is hurt.",
+    "scenes": [
+      {
+        "at": "00:02:30",
+        "title": "The wind takes the hat",
+        "task": "Pause when the hat flies away. Which animal brings it back, and what does that animal want?",
+        "type": "observe"
+      },
+      {
+        "at": "00:07:50",
+        "title": "A new passenger",
+        "task": "Listen for the question the new animal asks. Clap every time you hear the word 'room'.",
+        "type": "listen"
+      },
+      {
+        "at": "00:13:40",
+        "title": "The broom is full",
+        "task": "Five of them are on the broom and the wind is strong. Pause and predict: what will happen to the broom?",
+        "type": "predict"
+      },
+      {
+        "at": "00:19:30",
+        "title": "The mud monster",
+        "task": "The animals cover themselves in mud. Why is this clever, and who are they hiding from?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "witch", "def": "a woman with magic powers", "ex": "The witch flies on a broom."},
+      {"w": "broom", "def": "a brush on a long stick", "ex": "Four animals sit on the broom."},
+      {"w": "wand", "def": "a small stick for magic", "ex": "The frog finds the witch's wand."},
+      {"w": "wind", "def": "air that moves fast", "ex": "The wind takes the witch's hat."},
+      {"w": "dragon", "def": "a big animal that breathes fire", "ex": "The dragon wants the witch for dinner."},
+      {"w": "mud", "def": "wet and soft earth", "ex": "The animals put mud on their faces."}
+    ],
+    "questions": [
+      "What does the wind take first: the hat, the bow or the wand?",
+      "The cat is not happy about the new animals. Do you understand him? Why?",
+      "Why does the witch say yes to every animal? Would you say yes?",
+      "How do the animals save the witch from the dragon? Was it a good plan?",
+      "Would you get on a broom with four animals? Why or why not?",
+      "In your country, is there a story about a witch? What does she look like?",
+      "Which animal would you like to be in this story? Say why in three sentences.",
+      "Which line in the film is easy to say? Try it with the same voice as the witch."
+    ],
+    "gaps": [
+      {"line": "As long as there's ___ on the broom.", "answer": "room", "hint": "space for one more", "adapted": false},
+      {"line": "The dog brings back the witch's ___.", "answer": "hat", "hint": "you wear it on your head", "adapted": true},
+      {"line": "The frog finds the witch's ___.", "answer": "wand", "hint": "a small magic stick", "adapted": true},
+      {"line": "The cat and the witch ___ in the sky.", "answer": "fly", "hint": "move through the air", "adapted": true},
+      {"line": "The dragon is big and very ___.", "answer": "hungry", "hint": "wanting to eat", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "As long as there's room on the broom.", "options": ["The cat", "The witch", "The dog"], "answer": 1, "note": "The witch says it every time, and the broom gets fuller."},
+      {"quote": "Is there room on the broom for a dog like me?", "options": ["The dog", "The frog", "The dragon"], "answer": 0, "note": "Every animal asks the same question; the dog is the first."},
+      {"quote": "Is there room on the broom for a bird like me?", "options": ["The cat", "The witch", "The bird"], "answer": 2, "note": "The bird asks second, and she is the one who finds the bow."}
+    ],
+    "quiz": [
+      {"q": "What does the wind blow off first?", "options": ["The hat", "The bow", "The wand"], "answer": 0, "why": "The hat goes first, then the bow, then the wand."},
+      {"q": "Who finds the witch's bow?", "options": ["The dog", "The bird", "The frog"], "answer": 1, "why": "The bird picks up the bow and asks for a ride."},
+      {"q": "What does the witch say to every animal?", "options": ["No, sorry", "Yes, of course", "Maybe later"], "answer": 1, "why": "She always says yes while there is room on the broom."},
+      {"q": "Why does the broom break?", "options": ["Too many animals sit on it", "The dragon breaks it", "It is very old"], "answer": 0, "why": "Five of them are on one broom in a strong wind."},
+      {"q": "How do the animals stop the dragon?", "options": ["They make a mud monster", "They call the cat", "They fly away"], "answer": 0, "why": "Covered in mud, they look like a horrible beast and the dragon runs off."}
+    ],
+    "roleplay": {
+      "title": "The full broom",
+      "setting": "In the sky on a very small broom. The wind is strong and the cat wants his space back.",
+      "roles": [
+        {"role": "Witch", "brief": "You are kind and say yes to everyone. You have no more space, but you cannot say no."},
+        {"role": "Cat", "brief": "You were here first. You are grumpy, you count the passengers, and you hold on very tight."},
+        {"role": "Dog", "brief": "You have the hat in your mouth and you really want a ride. You are friendly and a little bit silly."}
+      ],
+      "challenge": "Add one more animal at the end with a new question and a new sound. The witch must still say yes, and the cat must count everyone."
+    },
+    "quest": [
+      {"title": "Station 1 · Lost and found", "task": "Find which animal brings back the hat, the bow and the wand, in that order.", "answer": "the dog, the bird, the frog", "points": 10},
+      {"title": "Station 2 · Word puzzle", "task": "Which lost thing do you wear? Which one is for magic? Which one is a brush on a stick?", "answer": "the hat, the wand, the broom", "points": 10},
+      {"title": "Station 3 · New passenger", "task": "Draw a new animal for the broom. Write three sentences: what it finds, what it asks, what it can do.", "answer": "Any clear three-sentence description", "points": 15},
+      {"title": "Station 4 · Count them", "task": "How many of them fly on the new broom at the end? Count and write the number and the names.", "answer": "five: witch, cat, dog, bird, frog", "points": 10}
+    ]
+  },
+  {
+    "id": "stick-man",
+    "title": "Stick Man",
+    "year": 2015,
+    "level": "A1",
+    "runtime": 27,
+    "genres": ["animation", "family"],
+    "director": "Jeroen Jaspaert",
+    "country": "UK",
+    "age": "all",
+    "mood": "earth",
+    "logline": "A stick who lives in a family tree goes out for a run and is carried far away from home.",
+    "why": "The story is a simple chain of who takes Stick Man next, told in rhyme with one line he repeats, so students can retell it as a list. Every new place gives a concrete noun to name: river, nest, snow, fire.",
+    "language": "Warm British narration in rhyme, with a few shouted lines from Stick Man; the animals and the people speak very little.",
+    "content": "Mild danger: Stick Man is almost burned in a fireplace on Christmas Eve before he is saved. Nothing frightening for young children.",
+    "scenes": [
+      {
+        "at": "00:03:10",
+        "title": "A dog wants a stick",
+        "task": "Pause when the dog takes Stick Man. What does the dog want to play? Show the action with your hands.",
+        "type": "observe"
+      },
+      {
+        "at": "00:09:40",
+        "title": "Into the water",
+        "task": "Stick Man is in the river. Pause and predict: who will pick him up next?",
+        "type": "predict"
+      },
+      {
+        "at": "00:16:20",
+        "title": "Cold and far from home",
+        "task": "It is winter and Stick Man is lost. Say three words for how he feels, then three words for the weather.",
+        "type": "think"
+      },
+      {
+        "at": "00:22:50",
+        "title": "Santa in the chimney",
+        "task": "Santa finds Stick Man in the fireplace. Retell the last two minutes in three short sentences.",
+        "type": "speak"
+      }
+    ],
+    "words": [
+      {"w": "stick", "def": "a small piece of wood", "ex": "The dog runs away with the stick."},
+      {"w": "nest", "def": "the home a bird makes", "ex": "The swan puts Stick Man in her nest."},
+      {"w": "river", "def": "water that moves to the sea", "ex": "The girl throws him into the river."},
+      {"w": "sleigh", "def": "a seat that slides on snow", "ex": "Santa's sleigh flies through the night."},
+      {"w": "fire", "def": "hot, bright flames", "ex": "Stick Man is almost on the fire."},
+      {"w": "home", "def": "the place where you live", "ex": "Stick Man wants to go home."}
+    ],
+    "questions": [
+      "Who takes Stick Man first, and what does that animal do with him?",
+      "Why does the swan want Stick Man? Is she kind to him?",
+      "Stick Man says the same thing many times. What is it? Say it with feeling.",
+      "Why is Christmas Eve a dangerous night for a stick?",
+      "Would you like to be a stick for one day? What would be good and what would be bad?",
+      "In your country, what do families do on Christmas Eve? Do you have a special tree?",
+      "Stick Man's family waits for him. How do they feel at the end?",
+      "Which line from the film can you say by heart now? Say it to your partner."
+    ],
+    "gaps": [
+      {"line": "I'm Stick Man, I'm Stick Man, I'm Stick Man, that's ___!", "answer": "me", "hint": "the word for yourself", "adapted": false},
+      {"line": "Stick Man lives in the family ___.", "answer": "tree", "hint": "a big plant with branches", "adapted": false},
+      {"line": "The dog wants to play with the ___.", "answer": "stick", "hint": "a small piece of wood", "adapted": true},
+      {"line": "Santa takes Stick Man home in his ___.", "answer": "sleigh", "hint": "it slides on snow", "adapted": true},
+      {"line": "Stick Man has three stick ___.", "answer": "children", "hint": "young people in a family", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "I'm Stick Man, I'm Stick Man, I'm Stick Man, that's me!", "options": ["Stick Man", "A dog", "Santa"], "answer": 0, "note": "He says it when someone picks him up, to explain who he is."},
+      {"quote": "I want to go home to my family tree.", "options": ["The girl", "Stick Man", "The swan"], "answer": 1, "note": "This is what he wants through the whole film."},
+      {"quote": "Stick Man lives in the family tree.", "options": ["Stick Man", "The narrator", "Santa"], "answer": 1, "note": "The narrator opens the story with this line."}
+    ],
+    "quiz": [
+      {"q": "Where does Stick Man live?", "options": ["In a tree", "In a river", "In a house"], "answer": 0, "why": "He lives in the family tree with his family."},
+      {"q": "Who takes Stick Man away to play?", "options": ["A dog", "A cat", "A bird"], "answer": 0, "why": "A dog picks him up and runs off with him."},
+      {"q": "What does the swan use Stick Man for?", "options": ["Her nest", "Her dinner", "A flag"], "answer": 0, "why": "She puts him in her nest, and he cannot move."},
+      {"q": "Who saves Stick Man on Christmas Eve?", "options": ["Santa", "A girl", "The dog"], "answer": 0, "why": "Santa comes down the chimney and takes him home in the sleigh."},
+      {"q": "How does Stick Man feel at the end?", "options": ["Happy to be home", "Angry with the dog", "Afraid of Santa"], "answer": 0, "why": "He is back in the family tree with his family."}
+    ],
+    "roleplay": {
+      "title": "Lost in the snow",
+      "setting": "A cold night, far from home. Stick Man is stuck in the snow and a child finds him.",
+      "roles": [
+        {"role": "Stick Man", "brief": "You are polite and tired. You want to go home, but nobody understands you."},
+        {"role": "Child", "brief": "You want a stick for your snowman's arm. You do not know that this stick can talk."},
+        {"role": "Santa", "brief": "You are in a hurry and your sleigh is full. You are kind, but you have no time to lose."}
+      ],
+      "challenge": "The child must not hear Stick Man speak. Play it once as a funny scene and once as a sad one."
+    },
+    "quest": [
+      {"title": "Station 1 · Who takes him?", "task": "Find three animals or people who take Stick Man before Santa does, in the right order.", "answer": "the dog, the girl, the swan", "points": 10},
+      {"title": "Station 2 · One word, three times", "task": "Stick Man says one word three times in the same line. What is the word, and what is the whole line?", "answer": "Stick Man: I'm Stick Man, I'm Stick Man, I'm Stick Man, that's me", "points": 10},
+      {"title": "Station 3 · A letter home", "task": "Write three short sentences as Stick Man to his family: where you are, what happened, what you want.", "answer": "Any clear three-sentence letter", "points": 15},
+      {"title": "Station 4 · Count the family", "task": "How many stick children are in the family tree? Write the number and the four family words.", "answer": "three children, with Stick Man and Stick Lady Love", "points": 10}
+    ]
+  },
+  {
+    "id": "the-snowman",
+    "title": "The Snowman",
+    "year": 1982,
+    "level": "A1",
+    "runtime": 26,
+    "genres": ["animation", "family"],
+    "director": "Dianne Jackson",
+    "country": "UK",
+    "age": "all",
+    "mood": "ice",
+    "logline": "A boy builds a snowman on Christmas Eve, and at midnight the snowman comes alive and takes him flying.",
+    "why": "There is no dialogue at all — the song and the pictures carry everything, so nobody has to follow fast speech. The trip gives a clear order of events (garden, house, sky, party, morning), which is exactly the narration A1 students can produce.",
+    "language": "No spoken dialogue. One song, sung in a clear high voice, over an orchestral score; the only words on screen are small labels.",
+    "content": "Gentle and sad rather than frightening: the snowman melts in the morning, which can upset small children.",
+    "scenes": [
+      {
+        "at": "00:03:00",
+        "title": "Snow in the garden",
+        "task": "Pause on the finished snowman. Name everything the boy uses — hat, scarf, nose, buttons — and say what each one is made of.",
+        "type": "observe"
+      },
+      {
+        "at": "00:08:00",
+        "title": "Midnight",
+        "task": "Listen to the music when the snowman moves. Is it fast or slow, happy or strange? Show your answer with your hand.",
+        "type": "listen"
+      },
+      {
+        "at": "00:14:00",
+        "title": "Walking in the air",
+        "task": "Pause on the flying picture. Where are they now? Describe the land under them in two sentences.",
+        "type": "speak"
+      },
+      {
+        "at": "00:20:00",
+        "title": "At the party",
+        "task": "Count the snowmen at the party. What is different about each one? Who do they meet?",
+        "type": "observe"
+      }
+    ],
+    "words": [
+      {"w": "snow", "def": "soft white pieces from the sky", "ex": "The garden is white with snow."},
+      {"w": "snowman", "def": "a man made of snow", "ex": "The boy builds a big snowman."},
+      {"w": "scarf", "def": "long warm cloth for your neck", "ex": "Father Christmas gives the boy a scarf."},
+      {"w": "midnight", "def": "twelve o'clock at night", "ex": "At midnight the snowman comes alive."},
+      {"w": "fly", "def": "to move through the air", "ex": "They fly over the sea."},
+      {"w": "melt", "def": "to turn soft and become water", "ex": "In the morning the snowman melts."}
+    ],
+    "questions": [
+      "What does the boy put on the snowman? Name three things.",
+      "The snowman walks around the house at night. Which room do you like best, and why?",
+      "Why does the snowman stand in the cold freezer? What does this tell you about him?",
+      "Would you go flying with a snowman? What would you be afraid of?",
+      "Father Christmas gives the boy a scarf and a card. Why does the boy keep the scarf?",
+      "In your country, does it snow at Christmas? What do children build in winter?",
+      "How does the boy feel in the morning? Is the ending happy or sad for you?",
+      "There are no words in this film. Which line from the song can you sing or say?"
+    ],
+    "gaps": [
+      {"line": "We're walking in the ___.", "answer": "air", "hint": "up above the ground", "adapted": false},
+      {"line": "We're floating in the moonlit ___.", "answer": "sky", "hint": "the space above us", "adapted": false},
+      {"line": "The people far ___ are sleeping as we fly.", "answer": "below", "hint": "under us", "adapted": false},
+      {"line": "At midnight the snowman comes ___.", "answer": "alive", "hint": "living, moving", "adapted": true},
+      {"line": "In the morning the snowman ___.", "answer": "melts", "hint": "turns into water", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "We're walking in the air.", "options": ["The snowman", "The song", "Father Christmas"], "answer": 1, "note": "Nobody speaks in this film; the words come from the song."},
+      {"quote": "I'm holding very tight.", "options": ["The song", "The boy's mother", "The snowman"], "answer": 0, "note": "The singer describes what the boy is doing as they fly."},
+      {"quote": "The people far below are sleeping as we fly.", "options": ["The boy's father", "The song", "Father Christmas"], "answer": 1, "note": "It is the middle of the night and the houses under them are dark."}
+    ],
+    "quiz": [
+      {"q": "When does the snowman come alive?", "options": ["At midnight", "In the morning", "At lunchtime"], "answer": 0, "why": "The clock shows twelve and the snowman starts to move."},
+      {"q": "What do the boy and the snowman do first?", "options": ["Walk around the house", "Go to school", "Call the boy's friends"], "answer": 0, "why": "They go quietly through the house and look at everything."},
+      {"q": "Where do they fly?", "options": ["To the North Pole", "To the moon", "To a big city"], "answer": 0, "why": "They fly over the sea to a party in the snow."},
+      {"q": "What does Father Christmas give the boy?", "options": ["A scarf", "A hat", "A bike"], "answer": 0, "why": "He gives him a card and a scarf with a snowman on it."},
+      {"q": "What is in the garden in the morning?", "options": ["A scarf and some melted snow", "A new snowman", "A big present"], "answer": 0, "why": "The snowman has melted, but the scarf shows that the night was real."}
+    ],
+    "roleplay": {
+      "title": "The midnight guest",
+      "setting": "A dark kitchen at midnight. The boy hears a noise downstairs and finds his snowman at the window.",
+      "roles": [
+        {"role": "Boy", "brief": "You are surprised but brave. You whisper, because your parents are asleep upstairs."},
+        {"role": "Snowman", "brief": "You have no words at all. You show everything with your hands, your head and your face."},
+        {"role": "Mother", "brief": "You are upstairs and half asleep. You call down once or twice and then go back to bed."}
+      ],
+      "challenge": "The snowman has no lines: everything must be acted. The boy says the words for both of them."
+    },
+    "quest": [
+      {"title": "Station 1 · What is left?", "task": "Find the last shot. Write everything that is left in the snow, and say what each thing was part of the snowman.", "answer": "hat, scarf, coal eyes, tangerine nose, buttons", "points": 10},
+      {"title": "Station 2 · Song words", "task": "Find a word in the song for the space above us, and a word for the space under us.", "answer": "sky (or air), below", "points": 10},
+      {"title": "Station 3 · Draw the flight", "task": "Draw the flight. Write three sentences: who flies, where they go, what they see.", "answer": "Any clear three-sentence description", "points": 15},
+      {"title": "Station 4 · Time order", "task": "Put these four moments in order: the flight, the morning, midnight, building the snowman.", "answer": "building, midnight, flight, morning", "points": 10}
+    ]
+  },
+  {
+    "id": "charlie-brown-christmas",
+    "title": "A Charlie Brown Christmas",
+    "year": 1965,
+    "level": "A1",
+    "runtime": 25,
+    "genres": ["animation", "family", "comedy"],
+    "director": "Bill Melendez",
+    "country": "USA",
+    "age": "all",
+    "mood": "cool",
+    "logline": "Charlie Brown is sad at Christmas, so he looks for the true meaning of the holiday and finds a very small tree.",
+    "why": "The children speak in short, clear American sentences and repeat the same feelings again and again, so beginners get useful emotion words almost for free. The story is slow, the pictures are simple, and the ending is easy to tell in three sentences.",
+    "language": "Slow, clear American English with children's voices and jazz music; a few words in the Bible reading are unusual and worth teaching before you watch.",
+    "content": "A gentle story about feeling sad at Christmas. One character reads the Christmas story from the Bible. Nothing violent.",
+    "scenes": [
+      {
+        "at": "00:03:20",
+        "title": "Charlie Brown is sad",
+        "task": "Pause after the first scene. Charlie Brown says he is not happy. Why? Write three words for feelings.",
+        "type": "think"
+      },
+      {
+        "at": "00:08:40",
+        "title": "The little tree",
+        "task": "Pause on the tree. How many branches has it got? What colour is it? Why do the other children laugh?",
+        "type": "observe"
+      },
+      {
+        "at": "00:14:10",
+        "title": "Linus speaks",
+        "task": "Listen to Linus. What is he telling the others, and why does everyone go quiet?",
+        "type": "listen"
+      },
+      {
+        "at": "00:20:30",
+        "title": "One small decoration",
+        "task": "The children decorate the tree. Retell what happens in three short sentences.",
+        "type": "speak"
+      }
+    ],
+    "words": [
+      {"w": "sad", "def": "not happy at all", "ex": "Charlie Brown is sad at Christmas."},
+      {"w": "tree", "def": "a tall plant with branches", "ex": "The little tree has only four branches."},
+      {"w": "present", "def": "a gift for someone", "ex": "The children want big presents."},
+      {"w": "decorate", "def": "to make something look pretty", "ex": "The children decorate the little tree."},
+      {"w": "lonely", "def": "sad because you are alone", "ex": "Charlie Brown feels lonely at Christmas."},
+      {"w": "sing", "def": "to make music with your voice", "ex": "The children sing at the end."}
+    ],
+    "questions": [
+      "Why is Charlie Brown sad at the start? Do you ever feel like that?",
+      "Lucy wants presents for Christmas. What do you want this year, and why?",
+      "Charlie Brown chooses a very small tree. Is it a good choice or a bad choice?",
+      "Why do the other children laugh at his tree?",
+      "Linus says what Christmas is really about. What is important for you at Christmas?",
+      "Would you like to be in the play? Which part would you choose?",
+      "In your country, what do people do at Christmas or at your big winter holiday?",
+      "Which line from Charlie Brown do you like? Say it with a sad voice, then a happy one."
+    ],
+    "gaps": [
+      {"line": "Good ___!", "answer": "grief", "hint": "an old way to say 'oh no'", "adapted": false},
+      {"line": "Christmas is coming, but I'm not ___.", "answer": "happy", "hint": "feeling good", "adapted": false},
+      {"line": "I know nobody ___ me.", "answer": "likes", "hint": "thinks you are nice", "adapted": false},
+      {"line": "Isn't there anyone who knows what Christmas is all ___?", "answer": "about", "hint": "the subject of something", "adapted": false},
+      {"line": "Merry Christmas, Charlie ___!", "answer": "brown", "hint": "his family name", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "Good grief!", "options": ["Snoopy", "Charlie Brown", "Linus"], "answer": 1, "note": "His famous line — he says it when something goes wrong."},
+      {"quote": "Isn't there anyone who knows what Christmas is all about?", "options": ["Linus", "Charlie Brown", "Lucy"], "answer": 1, "note": "He shouts it in the middle of the play practice."},
+      {"quote": "Sure, Charlie Brown, I can tell you what Christmas is all about.", "options": ["Linus", "Lucy", "Schroeder"], "answer": 0, "note": "Linus then tells the story of the first Christmas."}
+    ],
+    "quiz": [
+      {"q": "Why is Charlie Brown unhappy?", "options": ["He does not feel the Christmas feeling", "He lost his dog", "He is hungry"], "answer": 0, "why": "He says Christmas is coming but he is not happy."},
+      {"q": "Who asks Charlie Brown to direct the play?", "options": ["Lucy", "Linus", "Snoopy"], "answer": 0, "why": "Lucy thinks he needs a job, so she gives him the play."},
+      {"q": "What tree does Charlie Brown buy?", "options": ["A very small real tree", "A big green tree", "A plastic tree"], "answer": 0, "why": "He chooses a small, thin real tree, and the others laugh."},
+      {"q": "What does Snoopy do in the film?", "options": ["He decorates his doghouse", "He eats the tree", "He sings alone"], "answer": 0, "why": "Snoopy enters a house decoration contest and wins first prize."},
+      {"q": "How does the film end?", "options": ["Everyone sings and the tree looks beautiful", "Charlie Brown goes home sad", "Snoopy wins a race"], "answer": 0, "why": "The children decorate the little tree and sing together."}
+    ],
+    "roleplay": {
+      "title": "The Christmas play",
+      "setting": "A cold hall. The children are practising a play and nobody knows what to do next.",
+      "roles": [
+        {"role": "Charlie Brown", "brief": "You are the director and you are nervous. You want the play to be right, and nobody listens to you."},
+        {"role": "Lucy", "brief": "You want the biggest part in the play. You are bossy and you give orders."},
+        {"role": "Linus", "brief": "You are calm. You carry your blanket everywhere and you say the one thing everybody needs to hear."}
+      ],
+      "challenge": "Use no props except a chair and a bag. Play the scene twice: once with everyone shouting, once with everyone quiet."
+    },
+    "quest": [
+      {"title": "Station 1 · One little tree", "task": "Find the moment Charlie Brown chooses his tree. Write one word for its size and one word for its colour.", "answer": "small; green", "points": 10},
+      {"title": "Station 2 · Feeling words", "task": "Find three feeling words in the film and write one sentence with each.", "answer": "sad, happy, lonely", "points": 10},
+      {"title": "Station 3 · A card for Charlie Brown", "task": "Write a short card to Charlie Brown in three sentences. Use one feeling word and one present.", "answer": "Any clear three-sentence card", "points": 15},
+      {"title": "Station 4 · Put it in order", "task": "Order these four moments: Linus speaks, the tree falls at home, Charlie Brown buys the tree, the children sing.", "answer": "buys the tree, Linus speaks, the tree falls, the singing", "points": 10}
+    ]
+  },
+  {
+    "id": "piper",
+    "title": "Piper",
+    "year": 2016,
+    "level": "A1",
+    "runtime": 6,
+    "genres": ["animation", "family"],
+    "director": "Alan Barillaro",
+    "country": "USA",
+    "age": "all",
+    "mood": "cool",
+    "logline": "A tiny sandpiper is afraid of the sea, until a hermit crab shows her how to look under the water.",
+    "why": "Six minutes, no dialogue, and one clear problem: a little bird who is scared of water. Students can watch it twice and narrate every shot — who, where, and what happens next — with words they already have.",
+    "language": "No dialogue at all: music, wind, water and bird sounds. The students supply the words, so the film suits a class that is still shy about speaking.",
+    "content": "A big wave knocks the little bird over and she is wet and frightened for a moment; there is nothing else to worry about.",
+    "scenes": [
+      {
+        "at": "00:00:50",
+        "title": "Mum goes to eat",
+        "task": "Pause when the mother flies to the water. What does she eat? Point to it on the screen.",
+        "type": "observe"
+      },
+      {
+        "at": "00:02:10",
+        "title": "The big wave",
+        "task": "The little bird stands near the water. Pause before the wave: what will happen? Guess first, then watch.",
+        "type": "predict"
+      },
+      {
+        "at": "00:03:30",
+        "title": "The crab's idea",
+        "task": "The crab shows her something. What is it, and why does it help her find food?",
+        "type": "think"
+      },
+      {
+        "at": "00:05:10",
+        "title": "Food for everyone",
+        "task": "At the end the other birds follow her. Tell the ending in three sentences: who, what, why.",
+        "type": "speak"
+      }
+    ],
+    "words": [
+      {"w": "bird", "def": "an animal with wings and feathers", "ex": "The little bird has soft brown feathers."},
+      {"w": "sand", "def": "very small stones on a beach", "ex": "The birds run on the wet sand."},
+      {"w": "wave", "def": "water that moves onto the beach", "ex": "A big wave hits the little bird."},
+      {"w": "wet", "def": "covered with water", "ex": "Her feathers are wet after the wave."},
+      {"w": "crab", "def": "a small animal with a shell", "ex": "The crab digs into the sand."},
+      {"w": "brave", "def": "not afraid of anything", "ex": "At the end the little bird is brave."}
+    ],
+    "questions": [
+      "Why does the little bird not want to go to the water?",
+      "What does the wave do to her? Show the moment with your hands.",
+      "How does the crab help her? What does she learn to do?",
+      "Would you go back into the sea if a big wave knocked you down? Why or why not?",
+      "Which animal is the best teacher in this film? Say why.",
+      "In your country, do children learn to swim? At what age?",
+      "The film has no words. What did the music tell you?",
+      "If you gave the little bird one line to say, what would it be?"
+    ],
+    "gaps": [
+      {"line": "The little bird is afraid of the ___.", "answer": "water", "hint": "the sea is full of it", "adapted": true},
+      {"line": "A big ___ hits her.", "answer": "wave", "hint": "water that moves to the beach", "adapted": true},
+      {"line": "The crab digs in the ___.", "answer": "sand", "hint": "it is under your feet on a beach", "adapted": true},
+      {"line": "Open your ___ and look!", "answer": "eyes", "hint": "you see with them", "adapted": true},
+      {"line": "Her mother brings her ___ at the start.", "answer": "food", "hint": "something to eat", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "No words: the mother leaves the nest and flies to the sea.", "options": ["The mother", "The crab", "The little bird"], "answer": 0, "note": "Piper has no dialogue, so read each moment as one short sentence and ask who does it."},
+      {"quote": "No words: a big wave covers her and she is wet all over.", "options": ["The little bird", "The mother", "The crab"], "answer": 0, "note": "She is not hurt, but she is very scared of the water now."},
+      {"quote": "No words: she digs in the sand with her beak and finds food.", "options": ["The crab", "The mother", "The little bird"], "answer": 2, "note": "She copies what the crab does, and it works."}
+    ],
+    "quiz": [
+      {"q": "What animal is the star of the film?", "options": ["A little bird", "A crab", "A cat"], "answer": 0, "why": "She is a baby sandpiper, a small bird that lives by the sea."},
+      {"q": "What is she afraid of?", "options": ["The water", "The sand", "The sky"], "answer": 0, "why": "A wave knocks her over, and after that she will not go near the sea."},
+      {"q": "Who helps her?", "options": ["A crab", "Her mother", "A big bird"], "answer": 0, "why": "A small crab shows her that she can open her eyes under the water."},
+      {"q": "Where does she find the big shells?", "options": ["Under the water", "In the grass", "On a rock"], "answer": 0, "why": "Under the water she can see where the shells are."},
+      {"q": "What happens at the end?", "options": ["She eats well and the other birds follow her", "She flies away", "She goes to sleep"], "answer": 0, "why": "She finds food for the whole group, and the others copy her."}
+    ],
+    "roleplay": {
+      "title": "At the sea",
+      "setting": "A windy beach. A mother bird wants her child to find food, and the child does not want to go near the water.",
+      "roles": [
+        {"role": "Mother", "brief": "You are patient and hungry. You show your child what to do, and you will not bring the food to her."},
+        {"role": "Little Bird", "brief": "You are hungry but scared. You say no to the water, again and again."},
+        {"role": "Crab", "brief": "You are small, quick and clever. You have a trick, but you cannot explain it in many words."}
+      ],
+      "challenge": "First round: no English at all, only sounds and actions. Second round: one short sentence for every action."
+    },
+    "quest": [
+      {"title": "Station 1 · The crab's trick", "task": "Find the moment the crab helps. What does the little bird do with her eyes, and what can she see?", "answer": "she opens her eyes under the water and sees the shells", "points": 10},
+      {"title": "Station 2 · Sea words", "task": "Find the word for water that moves onto the beach, and the word for the tiny stones under your feet.", "answer": "wave, sand", "points": 10},
+      {"title": "Station 3 · Narrate it", "task": "Choose thirty seconds of the film. Write three sentences about it, then play the part and check your words.", "answer": "Any clear three-sentence narration", "points": 15},
+      {"title": "Station 4 · Put it in order", "task": "Order these four moments: the crab digs, food for all the birds, the big wave, the mother flies off.", "answer": "mother flies off, the wave, the crab digs, food for all", "points": 10}
+    ]
+  },
+  {
+    "id": "bao",
+    "title": "Bao",
+    "year": 2018,
+    "level": "A1",
+    "runtime": 8,
+    "genres": ["animation", "family"],
+    "director": "Domee Shi",
+    "country": "USA",
+    "age": "all",
+    "mood": "warm",
+    "logline": "A lonely mother makes a steamed bun that comes alive, and she raises it as her own child.",
+    "why": "Eight minutes and almost no dialogue, so the whole class can describe the same pictures together. The story is about family, food and growing up — three topics A1 students can already talk about with very simple words.",
+    "language": "No English dialogue. A short piece of Mandarin comes from a television in one scene; everything else is music and faces.",
+    "content": "A dark, sad moment: the mother eats the little bun in despair, and there is no blood — it is a dream. The ending is warm and forgiving.",
+    "scenes": [
+      {
+        "at": "00:01:00",
+        "title": "One bun comes alive",
+        "task": "Pause when the bun opens its eyes. What is on the table? Name four things you can see.",
+        "type": "observe"
+      },
+      {
+        "at": "00:03:00",
+        "title": "Mother and bun",
+        "task": "Describe their day in three sentences: what they do, what they eat, where they go.",
+        "type": "speak"
+      },
+      {
+        "at": "00:05:00",
+        "title": "The girlfriend",
+        "task": "The bun brings a girl home. Pause and predict: what will the mother say or do?",
+        "type": "predict"
+      },
+      {
+        "at": "00:07:00",
+        "title": "The real son",
+        "task": "The son comes back. Look at the mother's face. What does she feel, and what does the film say about parents?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "bun", "def": "a small round bread", "ex": "The mother makes buns in the kitchen."},
+      {"w": "kitchen", "def": "the room where you cook", "ex": "The bun sits on the kitchen table."},
+      {"w": "lonely", "def": "sad because you are alone", "ex": "The mother is lonely at home."},
+      {"w": "son", "def": "a mother's boy child", "ex": "Her son comes home at the end."},
+      {"w": "hug", "def": "to hold someone with your arms", "ex": "They hug and eat together."},
+      {"w": "dream", "def": "pictures in your head at night", "ex": "The story of the bun is a dream."}
+    ],
+    "questions": [
+      "What does the mother do with the little bun at the start, and why?",
+      "The bun grows up. What does he want to do? Does his mother agree?",
+      "Why does the mother eat the bun? Was it right or wrong?",
+      "The story is a dream. How does the film show us that?",
+      "Would you like a child made of food? What would be fun and what would be difficult?",
+      "In your country, what food does a mother make for her family? Who cooks it?",
+      "Why does the son come back at the end? What do they do together?",
+      "The film has no words. Which picture stayed in your head? Describe it."
+    ],
+    "gaps": [
+      {"line": "The mother makes ___ for dinner.", "answer": "buns", "hint": "small round bread", "adapted": true},
+      {"line": "The bun opens its ___ and looks at her.", "answer": "eyes", "hint": "you see with them", "adapted": true},
+      {"line": "The bun wants to play with other ___.", "answer": "children", "hint": "young people", "adapted": true},
+      {"line": "The mother eats the bun and then she ___.", "answer": "cries", "hint": "water comes from her eyes", "adapted": true},
+      {"line": "Her real ___ comes home.", "answer": "son", "hint": "her boy child", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "No words: the mother makes buns in the kitchen and eats alone.", "options": ["The mother", "The father", "The son"], "answer": 0, "note": "Bao has no dialogue, so read each moment as one short sentence and ask who does it."},
+      {"quote": "No words: he pulls away and walks to the door with a suitcase.", "options": ["The father", "The bun", "The girlfriend"], "answer": 1, "note": "The little bun is grown up now and wants his own life."},
+      {"quote": "No words: he sits on the bed and offers his mother something to eat.", "options": ["The bun", "The father", "The son"], "answer": 2, "note": "The real son comes back, and food is how this family says sorry."}
+    ],
+    "quiz": [
+      {"q": "What comes alive in the kitchen?", "options": ["A bun", "A toy", "A cat"], "answer": 0, "why": "One of the steamed buns the mother makes opens its eyes."},
+      {"q": "What is the mother's problem at the start?", "options": ["She is lonely", "She is hungry", "She is late"], "answer": 0, "why": "Her husband goes to work and her son has left home."},
+      {"q": "What does the bun want when he grows up?", "options": ["To leave home", "To cook", "To sleep"], "answer": 0, "why": "He wants to go out, meet a girl and live his own life."},
+      {"q": "What does the mother do when the bun tries to leave?", "options": ["She eats him", "She hugs him", "She calls the father"], "answer": 0, "why": "She cannot let him go, and she eats him in one gulp."},
+      {"q": "Who comes into the bedroom at the end?", "options": ["Her real son", "A doctor", "The bun"], "answer": 0, "why": "The whole bun story was her dream, and her son is at the door."}
+    ],
+    "roleplay": {
+      "title": "The kitchen table",
+      "setting": "A small kitchen in the evening. A mother is alone with a plate of warm buns.",
+      "roles": [
+        {"role": "Mother", "brief": "You are tired and loving. You want someone to look after, and you do not like being alone."},
+        {"role": "Bun", "brief": "You are small and curious. You want to play, and you do not understand why she says no."},
+        {"role": "Son", "brief": "You are grown up and a little shy. You want to say sorry, but you have no words for it."}
+      ],
+      "challenge": "Play it once as a comedy, with a very naughty bun, and once as a quiet, sad scene. Nobody may use more than one sentence at a time."
+    },
+    "quest": [
+      {"title": "Station 1 · The little bun", "task": "Name three things the bun does before he grows up. Use present simple and one object for each.", "answer": "he eats, he plays, he sleeps (any three)", "points": 10},
+      {"title": "Station 2 · Word puzzle", "task": "Which word means 'the room where you cook'? Which word means 'sad because you are alone'?", "answer": "kitchen, lonely", "points": 10},
+      {"title": "Station 3 · Three sentences", "task": "Tell the story in three sentences: the start, the sad middle, the happy end.", "answer": "Any clear three-sentence story", "points": 15},
+      {"title": "Station 4 · Put it in order", "task": "Order these four moments: the son comes home, the bun comes alive, the mother eats him, the bun grows up.", "answer": "comes alive, grows up, eaten, son comes home", "points": 10}
+    ]
+  },
+  {
+    "id": "grand-day-out",
+    "title": "Wallace & Gromit: A Grand Day Out",
+    "year": 1989,
+    "level": "A1",
+    "runtime": 23,
+    "genres": ["animation", "comedy", "family"],
+    "director": "Nick Park",
+    "country": "UK",
+    "age": "all",
+    "mood": "warm",
+    "logline": "Wallace and Gromit have no cheese in the house, so they build a rocket and fly to the moon to find some.",
+    "why": "There is almost no dialogue: Wallace talks, Gromit answers with his eyebrows, and the story is told by machines and faces. That makes it perfect for A1 — students can narrate the building of the rocket step by step.",
+    "language": "A few short lines from Wallace in a warm Yorkshire accent, and a lot of silence, music and machine noises; Gromit never speaks.",
+    "content": "Very mild cartoon danger with a machine on the moon; nothing scary and nobody is hurt. Suitable for all ages.",
+    "scenes": [
+      {
+        "at": "00:02:30",
+        "title": "No cheese",
+        "task": "Pause in the kitchen. What food can you see? What is missing?",
+        "type": "observe"
+      },
+      {
+        "at": "00:08:00",
+        "title": "Building the rocket",
+        "task": "The rocket is built in the cellar. Name three things they use to build it.",
+        "type": "speak"
+      },
+      {
+        "at": "00:12:30",
+        "title": "On the moon",
+        "task": "Pause when they land. What colour is the moon? What do they do first?",
+        "type": "observe"
+      },
+      {
+        "at": "00:19:00",
+        "title": "The machine wants to ski",
+        "task": "A machine follows them. What does it want, and how do you know? Look at what it watches.",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "cheese", "def": "a food made from milk", "ex": "Wallace loves cheese very much."},
+      {"w": "rocket", "def": "a machine that flies to space", "ex": "They build a rocket in the cellar."},
+      {"w": "moon", "def": "the round white thing at night", "ex": "They fly to the moon for a holiday."},
+      {"w": "holiday", "def": "a day or week with no work", "ex": "Wallace wants a holiday."},
+      {"w": "machine", "def": "a thing that does a job", "ex": "A machine lives on the moon."},
+      {"w": "cellar", "def": "a room under a house", "ex": "The rocket stands in the cellar."}
+    ],
+    "questions": [
+      "What is the problem at the start of the film? What is missing in the house?",
+      "Why do Wallace and Gromit go to the moon? Is that a good idea?",
+      "What do they eat on the moon? Would you eat it?",
+      "Gromit never speaks. How does he tell us what he thinks?",
+      "Would you fly in a rocket built at home? Why or why not?",
+      "In your country, what cheese do people eat? What food do you take on a trip?",
+      "What does the machine on the moon want? Is it friendly?",
+      "Which line of Wallace do you like? Try to say it in his voice."
+    ],
+    "gaps": [
+      {"line": "No cheese, ___!", "answer": "gromit", "hint": "the dog's name", "adapted": false},
+      {"line": "Everybody knows the moon is made of ___.", "answer": "cheese", "hint": "a food made from milk", "adapted": false},
+      {"line": "They build a ___ in the cellar.", "answer": "rocket", "hint": "it flies to space", "adapted": true},
+      {"line": "Wallace and Gromit fly to the ___.", "answer": "moon", "hint": "the white thing in the night sky", "adapted": true},
+      {"line": "Gromit is Wallace's ___.", "answer": "dog", "hint": "an animal that says woof", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Everybody knows the moon is made of cheese.", "options": ["Gromit", "Wallace", "The machine"], "answer": 1, "note": "Wallace says it like a fact, and Gromit just looks at him."},
+      {"quote": "No cheese, Gromit!", "options": ["Wallace", "The machine", "A neighbour"], "answer": 0, "note": "The whole trip starts with an empty fridge."},
+      {"quote": "No words: one eyebrow goes up.", "options": ["Gromit", "Wallace", "The machine"], "answer": 0, "note": "Gromit never speaks in any Wallace and Gromit film — his face does the talking."}
+    ],
+    "quiz": [
+      {"q": "What is Wallace looking for at the start?", "options": ["Cheese", "His hat", "A newspaper"], "answer": 0, "why": "There is no cheese in the house, and Wallace loves cheese."},
+      {"q": "Where do they build the rocket?", "options": ["In the cellar", "In the garden", "On the roof"], "answer": 0, "why": "The rocket is built under the house, in the cellar."},
+      {"q": "Where do they go?", "options": ["To the moon", "To the sea", "To a shop"], "answer": 0, "why": "Wallace wants a holiday, and the moon looks like cheese."},
+      {"q": "What does Gromit do when Wallace talks?", "options": ["He listens and says nothing", "He sings", "He shouts"], "answer": 0, "why": "Gromit never speaks; his eyes and eyebrows do all the work."},
+      {"q": "What is on the moon?", "options": ["White ground and a machine", "Green trees", "Lots of people"], "answer": 0, "why": "The moon is empty and white, and a small machine lives there."}
+    ],
+    "roleplay": {
+      "title": "The holiday plan",
+      "setting": "A small kitchen with an empty fridge. Wallace has an idea and Gromit is not sure about it.",
+      "roles": [
+        {"role": "Wallace", "brief": "You are cheerful and optimistic. You talk a lot and you think every idea is a good idea."},
+        {"role": "Gromit", "brief": "You have no lines. You show doubt with your face and your hands, and you still help."},
+        {"role": "The machine", "brief": "You are a machine on the moon. You cannot speak: you beep, point and show what you want."}
+      ],
+      "challenge": "Gromit and the machine have no words. Play it once where Wallace is right, and once where Gromit is right."
+    },
+    "quest": [
+      {"title": "Station 1 · The empty fridge", "task": "Find the moment Wallace opens the fridge. What is inside, and what does he say about it?", "answer": "almost nothing — there is no cheese", "points": 10},
+      {"title": "Station 2 · Word puzzle", "task": "Which word means 'a room under a house'? Which word means 'a food made from milk'?", "answer": "cellar, cheese", "points": 10},
+      {"title": "Station 3 · New invention", "task": "Invent a machine for Gromit. Write three sentences: what it does, when he uses it, why he needs it.", "answer": "Any clear three-sentence invention", "points": 15},
+      {"title": "Station 4 · Count them", "task": "How many of them fly to the moon? Write the number and who they are.", "answer": "two: Wallace and Gromit", "points": 10}
+    ]
+  },
+  {
+    "id": "wrong-trousers",
+    "title": "Wallace & Gromit: The Wrong Trousers",
+    "year": 1993,
+    "level": "A1",
+    "runtime": 30,
+    "genres": ["animation", "comedy", "crime"],
+    "director": "Nick Park",
+    "country": "UK",
+    "age": "all",
+    "mood": "noir",
+    "logline": "Wallace buys a pair of robot trousers and takes in a mysterious penguin lodger, who has a plan for them.",
+    "why": "The story is almost silent and told through doors, footsteps and machines, so a beginner can follow it without fast speech. Wallace's few lines are short and funny, and the long chase at the end needs no words at all.",
+    "language": "Short lines from Wallace in a Yorkshire accent and very little else; the penguin says nothing and Gromit says nothing.",
+    "content": "Cartoon peril: a criminal penguin, a chase on a model railway and a moment where Wallace is in danger. Nobody is hurt and the ending is happy.",
+    "scenes": [
+      {
+        "at": "00:03:00",
+        "title": "A birthday present",
+        "task": "Pause on the present. What is it? Would you like one, and what would you do with it?",
+        "type": "observe"
+      },
+      {
+        "at": "00:10:00",
+        "title": "The lodger arrives",
+        "task": "The penguin comes to the door. Listen: how many times does the doorbell ring, and what is the penguin carrying?",
+        "type": "listen"
+      },
+      {
+        "at": "00:17:30",
+        "title": "The trousers move alone",
+        "task": "The trousers get up at night with nobody in them. Pause and predict: who is controlling them?",
+        "type": "predict"
+      },
+      {
+        "at": "00:25:00",
+        "title": "The chase",
+        "task": "The chase is on a model railway. Narrate it in three sentences: who, where, what happens.",
+        "type": "speak"
+      }
+    ],
+    "words": [
+      {"w": "trousers", "def": "clothes for your legs", "ex": "The techno trousers walk alone."},
+      {"w": "penguin", "def": "a black and white sea bird", "ex": "A penguin comes to live with them."},
+      {"w": "lodger", "def": "a person who rents a room", "ex": "The penguin is their new lodger."},
+      {"w": "diamond", "def": "a very hard, bright stone", "ex": "The penguin wants the diamond."},
+      {"w": "chase", "def": "to run after someone", "ex": "Gromit chases the penguin on a train."},
+      {"w": "birthday", "def": "the day you were born", "ex": "It is Gromit's birthday."}
+    ],
+    "questions": [
+      "What present does Wallace give Gromit? Is it a good present for a dog?",
+      "Why does Gromit leave home? Do you think he is right?",
+      "The penguin is a lodger. What does a lodger do in a house?",
+      "How do we know the penguin is a criminal before anyone says it?",
+      "Would you like robot trousers? What would you use them for?",
+      "In your country, what do people do for a birthday? What is a good present?",
+      "Why is a model train a good place for the last scene?",
+      "Which line of Wallace is the funniest? Say it in his voice."
+    ],
+    "gaps": [
+      {"line": "It's the wrong ___, Gromit!", "answer": "trousers", "hint": "clothes for your legs", "adapted": false},
+      {"line": "The penguin is the new ___.", "answer": "lodger", "hint": "a person who rents a room", "adapted": true},
+      {"line": "Wallace gives Gromit a birthday ___.", "answer": "present", "hint": "a gift", "adapted": true},
+      {"line": "The penguin wants a ___ from the museum.", "answer": "diamond", "hint": "a hard, bright stone", "adapted": true},
+      {"line": "Gromit is a ___.", "answer": "dog", "hint": "an animal that says woof", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "It's the wrong trousers, Gromit!", "options": ["Wallace", "Gromit", "The penguin"], "answer": 0, "note": "Wallace's famous line — the trousers are doing something terrible."},
+      {"quote": "No words: one eyebrow goes up and the dog looks at the door.", "options": ["Gromit", "Wallace", "The penguin"], "answer": 0, "note": "Gromit says nothing in the whole film; his face tells you everything."},
+      {"quote": "No words: the trousers get up and walk out of the bedroom at night.", "options": ["The techno trousers", "Gromit", "The penguin"], "answer": 0, "note": "Nobody is wearing them — somebody else is in control."}
+    ],
+    "quiz": [
+      {"q": "What does Wallace buy?", "options": ["Techno trousers", "A new car", "A television"], "answer": 0, "why": "They are robot trousers from a shop, and they walk by themselves."},
+      {"q": "Who comes to live with them?", "options": ["A penguin", "A cat", "A boy"], "answer": 0, "why": "The penguin answers their advertisement and rents Gromit's room."},
+      {"q": "What does the penguin want from the museum?", "options": ["A diamond", "A painting", "A toy train"], "answer": 0, "why": "He plans to use the trousers to steal a diamond."},
+      {"q": "Why does Gromit leave home?", "options": ["The penguin takes his room", "He is ill", "He goes on holiday"], "answer": 0, "why": "Gromit has no room and no place in the house any more."},
+      {"q": "Where does the chase happen?", "options": ["On a model railway", "In a supermarket", "On a boat"], "answer": 0, "why": "The last chase runs along a toy train set in the house."}
+    ],
+    "roleplay": {
+      "title": "The new lodger",
+      "setting": "A front room in a small house. A stranger arrives with one small bag and no words.",
+      "roles": [
+        {"role": "Wallace", "brief": "You are welcoming and you trust everybody. You offer tea, a room and your best cheese."},
+        {"role": "Gromit", "brief": "You cannot speak. You are suspicious from the first minute and you watch everything the lodger does."},
+        {"role": "Penguin", "brief": "You are silent and very polite. You have one small bag and you do not want anyone to look inside it."}
+      ],
+      "challenge": "Only Wallace speaks. Gromit and the penguin must act everything. Play the scene twice: friendly, then suspicious."
+    },
+    "quest": [
+      {"title": "Station 1 · The present", "task": "Find what Wallace gives Gromit for his birthday, and what the trousers can do.", "answer": "techno trousers that walk by themselves", "points": 10},
+      {"title": "Station 2 · Word puzzle", "task": "Which word means 'clothes for your legs'? Which word means 'a person who rents a room'?", "answer": "trousers, lodger", "points": 10},
+      {"title": "Station 3 · A new plan", "task": "Write three sentences: what the penguin does next, and how Gromit stops him.", "answer": "Any clear three-sentence plan", "points": 15},
+      {"title": "Station 4 · Count them", "task": "How many live in the house at the start, and how many after the lodger comes?", "answer": "two, then three", "points": 10}
+    ]
+  },
+  {
+    "id": "farmer-llamas",
+    "title": "Shaun the Sheep: The Farmer's Llamas",
+    "year": 2015,
+    "level": "A1",
+    "runtime": 28,
+    "genres": ["animation", "comedy", "family"],
+    "director": "Jay Grace",
+    "country": "UK",
+    "age": "all",
+    "mood": "earth",
+    "logline": "The Farmer comes home from the fair with three llamas, and the sheep have to share the farm with them.",
+    "why": "There is almost no dialogue — everything is told by faces, spitting and slapstick — so students can follow without decoding speech. The farm gives a small, repeated set of words (sheep, farmer, dog, gate, house) that an A1 class already knows.",
+    "language": "Almost no dialogue: animal sounds, music and the odd grunt from the Farmer; the English you hear comes from songs on the radio.",
+    "content": "Slapstick chaos: animals ride a quad bike, break a fence and lock the Farmer in a wardrobe. Nobody is hurt, and it is played for laughs.",
+    "scenes": [
+      {
+        "at": "00:03:00",
+        "title": "The cake contest",
+        "task": "Pause at the fair. What is the Farmer carrying? What happens to the cakes?",
+        "type": "observe"
+      },
+      {
+        "at": "00:09:00",
+        "title": "Three new animals",
+        "task": "Count the new animals. How many are there, and what do they do to the sheep's field?",
+        "type": "observe"
+      },
+      {
+        "at": "00:16:00",
+        "title": "The llamas take the house",
+        "task": "The llamas go into the Farmer's house. Pause and predict: what will they do inside?",
+        "type": "predict"
+      },
+      {
+        "at": "00:23:00",
+        "title": "The plan",
+        "task": "Shaun and Bitzer make a plan. What do they use to make the llamas sleepy, and why does it work?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "llama", "def": "an animal with a long neck", "ex": "Three llamas come to the farm."},
+      {"w": "farmer", "def": "someone who works on a farm", "ex": "The farmer buys the llamas."},
+      {"w": "sheep", "def": "a farm animal with soft wool", "ex": "The sheep live on the farm."},
+      {"w": "fair", "def": "a big market with games", "ex": "They go to the fair with a cake."},
+      {"w": "flute", "def": "a tube you blow for music", "ex": "The flute music makes the llamas sleepy."},
+      {"w": "wardrobe", "def": "a big cupboard for clothes", "ex": "The llamas lock the farmer in the wardrobe."}
+    ],
+    "questions": [
+      "What do the Farmer and Bitzer take to the fair? What happens to it?",
+      "Why does the Farmer buy the llamas? Was it a good idea?",
+      "The llamas are naughty. Which thing they do is the funniest?",
+      "Why does the music stop the llamas? What music makes you sleepy?",
+      "Would you like a llama at home? What would it eat, and where would it sleep?",
+      "In your country, what animals live on farms? Which ones are naughty?",
+      "Shaun makes a plan with Bitzer. What went wrong with it?",
+      "There are almost no words in this film. How did you know how the animals felt?"
+    ],
+    "gaps": [
+      {"line": "The Farmer takes a ___ to the fair.", "answer": "cake", "hint": "a sweet food for a party", "adapted": true},
+      {"line": "Three ___ come to the farm.", "answer": "llamas", "hint": "animals with long necks", "adapted": true},
+      {"line": "The ___ music makes them sleepy.", "answer": "flute", "hint": "a long tube you blow", "adapted": true},
+      {"line": "The llamas lock the Farmer in the ___.", "answer": "wardrobe", "hint": "a cupboard for clothes", "adapted": true},
+      {"line": "Bitzer is the farm ___.", "answer": "dog", "hint": "an animal that says woof", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "No words: music from a flute makes the llamas go quiet and sleepy.", "options": ["Bitzer", "The flute player", "Shaun"], "answer": 1, "note": "The Farmer's Llamas has almost no dialogue — read each moment as one sentence and name who does it."},
+      {"quote": "No words: they play music on empty bottles and the llamas fall asleep.", "options": ["The Farmer", "Timmy and the flock", "The naughty pigs"], "answer": 1, "note": "The smallest sheep finds a new way to make the old music."},
+      {"quote": "No words: the Farmer is shut inside the wardrobe.", "options": ["The llamas", "Bitzer", "Shaun"], "answer": 0, "note": "The llamas take the house, and the Farmer becomes their guest."}
+    ],
+    "quiz": [
+      {"q": "What do the Farmer and Bitzer take to the fair?", "options": ["A cake", "A sheep", "A bottle"], "answer": 0, "why": "The cake is for the contest, and the llamas ruin it."},
+      {"q": "How many llamas come to the farm?", "options": ["Three", "One", "Ten"], "answer": 0, "why": "There are three of them: Hector, Raul and Fernando."},
+      {"q": "What makes the llamas calm?", "options": ["Music", "Rain", "Food"], "answer": 0, "why": "A flute tune sends them to sleep, and the flock copies it later."},
+      {"q": "Who finds the flute?", "options": ["Timmy", "Shaun", "The Farmer"], "answer": 0, "why": "Timmy, the smallest sheep, finds it and works out what it does."},
+      {"q": "What does the Farmer come home with at the end?", "options": ["A rhinoceros", "A horse", "A new tractor"], "answer": 0, "why": "He goes back to the auction and buys an even bigger animal."}
+    ],
+    "roleplay": {
+      "title": "The new animals",
+      "setting": "The farmyard gate. Three tall animals arrive, and the sheep are not happy about it.",
+      "roles": [
+        {"role": "Shaun", "brief": "You are clever and you try to keep order. You explain the rules of the farm in short, clear sentences."},
+        {"role": "Llama", "brief": "You are tall and rude. You do not understand the rules, and you do not really want to."},
+        {"role": "Bitzer", "brief": "You are the farm dog. You try to be in charge, and it does not work. You blow your whistle a lot."}
+      ],
+      "challenge": "The llama has no English words, only sounds and actions. Shaun and Bitzer must explain three farm rules to it."
+    },
+    "quest": [
+      {"title": "Station 1 · Count the llamas", "task": "Find the moment the llamas arrive. How many are there, and what are their names?", "answer": "three: Hector, Raul and Fernando", "points": 10},
+      {"title": "Station 2 · Word puzzle", "task": "Which word means 'someone who works on a farm'? Which word means 'a long tube you blow'?", "answer": "farmer, flute", "points": 10},
+      {"title": "Station 3 · New rules", "task": "Write three rules for the llamas at Mossy Bottom Farm. Start each one with 'Don't'.", "answer": "Any three sensible rules", "points": 15},
+      {"title": "Station 4 · Put it in order", "task": "Order these four moments: the football game, the cake contest, the bottle music, the wardrobe.", "answer": "cake contest, football, wardrobe, bottle music", "points": 10}
+    ]
+  }
+]

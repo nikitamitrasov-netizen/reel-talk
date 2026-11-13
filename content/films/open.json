@@ -1,0 +1,245 @@
+[
+  {
+    "id": "his-girl-friday",
+    "title": "His Girl Friday",
+    "year": 1940,
+    "level": "C1",
+    "runtime": 88,
+    "genres": ["comedy", "romance"],
+    "director": "Howard Hawks",
+    "country": "USA",
+    "age": "all",
+    "mood": "noir",
+    "logline": "A newspaper editor will do almost anything to stop his ex-wife and best reporter from leaving the paper to get married.",
+    "why": "This is the fastest dialogue in classical Hollywood: people talk over each other, finish each other's sentences and lie for a living. It trains the ear to catch meaning without catching every word — exactly the skill C1 needs.",
+    "language": "American English at full speed, 1940s newsroom slang, overlapping lines; some jokes are deliberately thrown away. Watch once with subtitles, once without.",
+    "content": "Smoking, drinking and a death-row story treated as comedy; no on-screen violence. Suitable for all ages.",
+    "free": {
+      "url": "https://archive.org/details/HisGirlFriday",
+      "mp4": "https://archive.org/download/HisGirlFriday/MoviePowderPresentsHisGirlFriday.mp4",
+      "duration": 5292,
+      "license": "Public domain"
+    },
+    "scenes": [
+      {"at": "00:05:10", "title": "The newsroom", "task": "Count the conversations happening at the same time. Who is actually listening to whom?", "type": "observe"},
+      {"at": "00:22:40", "title": "Lunch for three", "task": "Hildy's fiancé is in the room. Track how many times Walter changes the subject — and why.", "type": "listen"},
+      {"at": "00:51:30", "title": "The press room", "task": "Pause here. What does the room believe, and what do we know that they do not?", "type": "think"},
+      {"at": "01:19:00", "title": "The roll-top desk", "task": "Who is trapped, who is free, and who is pretending? Describe each character's position in one sentence.", "type": "speak"}
+    ],
+    "words": [
+      {"w": "to talk someone into", "def": "to persuade someone to do something they were refusing", "ex": "Walter talks Hildy into one last story."},
+      {"w": "a scoop", "def": "an important news story that one paper gets first", "ex": "The interview would be a real scoop."},
+      {"w": "to be through with", "def": "to have finished with something for good", "ex": "Hildy says she is through with newspapers."},
+      {"w": "death row", "def": "the part of a prison for prisoners waiting to be executed", "ex": "The story is about a man on death row."},
+      {"w": "to pull strings", "def": "to use private influence to get something done", "ex": "Walter pulls strings to keep the story alive."},
+      {"w": "a fast talker", "def": "someone who persuades people quickly with clever words", "ex": "Walter is the fastest talker in the building."}
+    ],
+    "questions": [
+      "Who is the real protagonist of this film — Hildy, Walter, or the newspaper itself?",
+      "Hildy says she wants a quiet life. Do you believe her? What does the film think she wants?",
+      "Walter lies constantly. Why do we still enjoy watching him? Is charm a form of power?",
+      "The film treats a death-row case as comedy. Is that still possible today, or has comedy changed?",
+      "What does this film say about work that is exciting but destroys your private life? Have you seen that trade-off?",
+      "Which character would you least like to work for, and which would you most like to work with?",
+      "The dialogue overlaps on purpose. What did you lose, and what did you still understand?",
+      "Which single line would you steal for your own speech? Say it the way the actor says it."
+    ],
+    "gaps": [
+      {"line": "That's the press, baby. Nobody can tell what the ___ is going to do.", "answer": "press", "hint": "newspapers and journalists", "adapted": false},
+      {"line": "Hildy, you're a better ___ than you are a woman.", "answer": "reporter", "hint": "her job", "adapted": true},
+      {"line": "I'm going to take a couple of shots at the ___ story.", "answer": "murder", "hint": "the crime he is chasing", "adapted": true},
+      {"line": "You've got to learn to take it ___.", "answer": "easy", "hint": "relax", "adapted": false},
+      {"line": "There's nobody in the world I'd rather be ___ with than you.", "answer": "married", "hint": "husband and wife", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "That's the press, baby. Nobody can tell what the press is going to do.", "options": ["Walter Burns", "Hildy Johnson", "The mayor"], "answer": 0, "note": "Walter's line, and the film's whole argument about his job."},
+      {"quote": "I wouldn't marry you if you were the last man on earth.", "options": ["Hildy", "Walter", "Mollie"], "answer": 0, "note": "Hildy says it, and the film spends two hours testing it."},
+      {"quote": "What do you want me to do — hold the story until you feel better?", "options": ["Walter", "Bruce", "McCue"], "answer": 0, "note": "Walter has no patience for private life getting in the way of copy."}
+    ],
+    "quiz": [
+      {"q": "What is Hildy's plan when the film opens?", "options": ["To get married and leave the paper", "To become editor", "To move to Chicago for a new job"], "answer": 0, "why": "She is engaged to Bruce and intends to stop working."},
+      {"q": "Who is Bruce Baldwin?", "options": ["Hildy's fiancé", "Walter's lawyer", "A rival reporter"], "answer": 0, "why": "Bruce is the quiet, decent man she plans to marry."},
+      {"q": "Why does Walter keep inventing reasons to delay Hildy?", "options": ["He wants her back on the story", "He needs her car", "He owes her money"], "answer": 0, "why": "Every delay is a way of keeping her in the newsroom."},
+      {"q": "What happens to the death-row interview?", "options": ["It becomes the story of the year", "It gets cancelled", "Another paper buys it"], "answer": 0, "why": "The escape turns the ordinary interview into a national scoop."},
+      {"q": "How does the film end?", "options": ["Hildy goes back to work with Walter", "Hildy marries Bruce and leaves", "Walter leaves the newspaper"], "answer": 0, "why": "The last scene sends them off to cover one more story together."}
+    ],
+    "roleplay": {
+      "title": "One last story",
+      "setting": "A newsroom at 6 p.m. Hildy is leaving the paper in ten minutes. Walter has a story he cannot lose and a reporter he cannot replace.",
+      "roles": [
+        {"role": "Walter", "brief": "You are the editor. You never ask directly — you make the other person feel that leaving would be a betrayal. Use questions, compliments and invented emergencies. Never raise your voice."},
+        {"role": "Hildy", "brief": "You have already resigned, bought the tickets and told your fiancé. You want one clean exit. You are smarter than Walter and you know it, but he has always been able to make you curious."},
+        {"role": "Bruce", "brief": "You are waiting by the door with two suitcases. You are polite, reasonable, and completely out of your depth. You keep asking what time the train leaves."}
+      ],
+      "challenge": "Play it twice. In version one, Hildy leaves. In version two, she stays. Neither ending should be explained — just played."
+    },
+    "quest": [
+      {"title": "Station 1 · The fastest room", "task": "Watch the first newsroom scene again with your eyes closed. Write down three words you could still hear. What does that tell you about the scene?", "answer": "Any three words actually in the scene, with a short reason", "points": 10},
+      {"title": "Station 2 · Newsroom slang", "task": "Find the film's words for: a great exclusive story, a prison waiting area for execution, and using influence to fix something. Give all three.", "answer": "scoop, death row, pull strings", "points": 10},
+      {"title": "Station 3 · The pitch", "task": "In 60 seconds, pitch a modern remake of this film set in your school or workplace. Name the three leads and one scene that would still work.", "answer": "Any coherent 60-second pitch with three characters and one scene", "points": 15},
+      {"title": "Station 4 · Who said it", "task": "Which character says 'That's the press, baby' — and what does the line mean in one sentence?", "answer": "Walter Burns; it means the press cannot be controlled", "points": 10}
+    ]
+  },
+  {
+    "id": "night-of-the-living-dead",
+    "title": "Night of the Living Dead",
+    "year": 1968,
+    "level": "B2",
+    "runtime": 96,
+    "genres": ["horror", "thriller"],
+    "director": "George A. Romero",
+    "country": "USA",
+    "age": "15+",
+    "mood": "noir",
+    "logline": "Strangers barricade themselves in a farmhouse as the dead begin to walk, and discover that the living are the bigger problem.",
+    "why": "One location, a small cast and a clear chain of decisions: this is a film you can argue about scene by scene. The characters explain their plans out loud, which makes fast, accented speech easier to follow.",
+    "language": "American English, 1968 broadcast diction, strong regional accents, and a lot of shouting over one another in a small space. The radio and TV bulletins are the easiest listening in the film.",
+    "content": "Black-and-white horror: flesh-eating scenes, a child in danger, a very bleak ending. Not gory by modern standards, but disturbing. 15+.",
+    "free": {
+      "url": "https://archive.org/details/night-of-the-living-dead_202408",
+      "mp4": "https://archive.org/download/night-of-the-living-dead_202408/NIGHT%20OF%20THE%20LIVING%20DEAD.mp4",
+      "duration": 5802,
+      "license": "Public domain"
+    },
+    "scenes": [
+      {"at": "00:06:30", "title": "The cemetery", "task": "The first line of the film is a joke between siblings. What changes in ten seconds?", "type": "observe"},
+      {"at": "00:24:00", "title": "The farmhouse", "task": "List the exits. Who checks them, and who does not?", "type": "detail"},
+      {"at": "00:47:30", "title": "The television", "task": "Pause on the news broadcast. What do the authorities know, and what are they still guessing?", "type": "listen"},
+      {"at": "01:16:00", "title": "The cellar", "task": "Two plans, one house. Say each plan in one sentence, then say which one you would follow.", "type": "think"}
+    ],
+    "words": [
+      {"w": "to barricade", "def": "to block a door or road with heavy objects", "ex": "They barricade the windows with boards."},
+      {"w": "a cellar", "def": "a room under a house, used for storage", "ex": "The little girl is hiding in the cellar."},
+      {"w": "a broadcast", "def": "a programme sent out on radio or television", "ex": "The broadcast explains what the dead are doing."},
+      {"w": "a siege", "def": "a situation where people are surrounded and cannot leave", "ex": "The farmhouse turns into a siege."},
+      {"w": "to panic", "def": "to lose control because of fear", "ex": "Panic is more dangerous than the dead."},
+      {"w": "to hold out", "def": "to survive in a difficult situation for as long as possible", "ex": "They decide to hold out until morning."}
+    ],
+    "questions": [
+      "The film puts strangers in one room. What does each person want, and why can't they agree?",
+      "Who is the leader of the group, and who thinks they are? Does the film have an opinion?",
+      "The news broadcasts give information in pieces. How does that shape the characters' choices?",
+      "Is this a horror film about monsters, or about people? Defend your answer with one scene.",
+      "What would you have done differently in the first hour? Be specific — which door, which person, which decision.",
+      "The ending is famously harsh. What is the film saying about who gets rescued?",
+      "How does a black-and-white film from 1968 still feel modern? What has changed, and what has not?",
+      "Which line landed hardest for you? Say it out loud with the same rhythm."
+    ],
+    "gaps": [
+      {"line": "They're coming to get you, ___.", "answer": "Barbra", "hint": "the sister's name", "adapted": false},
+      {"line": "We have to ___ the windows before it gets dark.", "answer": "board", "hint": "cover them with wood", "adapted": true},
+      {"line": "It's not the dead we have to worry about — it's the ___ ones.", "answer": "living", "hint": "not dead", "adapted": true},
+      {"line": "There's no ___ in the cellar. We'd be trapped.", "answer": "exit", "hint": "a way out", "adapted": true},
+      {"line": "They're not going to ___ us. We have to help ourselves.", "answer": "rescue", "hint": "save us", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "They're coming to get you, Barbra.", "options": ["Johnny", "Ben", "Harry"], "answer": 0, "note": "Johnny's teasing line at the start — the film's most quoted sentence."},
+      {"quote": "We're all going to die. We might as well die fighting.", "options": ["Ben", "Harry Cooper", "The sheriff"], "answer": 0, "note": "Ben argues for the plan that costs the most, but preserves the most dignity."},
+      {"quote": "That's what we're dealing with — the dead. Not the living.", "options": ["The television announcer", "Ben", "Tom"], "answer": 0, "note": "The broadcast names the thing the characters cannot accept."}
+    ],
+    "quiz": [
+      {"q": "Where does the film begin?", "options": ["In a cemetery", "In a farmhouse", "In a hospital"], "answer": 0, "why": "Two siblings visit a grave and are attacked there."},
+      {"q": "Why do the characters go to the farmhouse?", "options": ["They are looking for shelter", "They own it", "They are waiting for a car"], "answer": 0, "why": "It is the nearest building they can defend."},
+      {"q": "What does Harry Cooper want to do?", "options": ["Hide in the cellar", "Drive to the next town", "Call the police"], "answer": 0, "why": "Harry trusts the cellar; Ben trusts the boarded windows."},
+      {"q": "What do the radio and television tell people to do?", "options": ["Go to a rescue station", "Stay in their homes", "Drive north"], "answer": 0, "why": "Authorities name stations where survivors should gather."},
+      {"q": "How does the film end for Ben?", "options": ["He is shot by a rescue party", "He escapes with Barbra", "He joins the rescue team"], "answer": 0, "why": "The posse mistakes him for one of the dead — the film's harshest irony."}
+    ],
+    "roleplay": {
+      "title": "Two plans, one house",
+      "setting": "A farmhouse kitchen, midnight. The windows are boarded. Something outside is pushing against the door. The group has ten minutes to choose one plan.",
+      "roles": [
+        {"role": "Ben", "brief": "You want to hold the ground floor and keep the exits clear. You have done this before, and you are tired of being questioned. You never shout first — you state facts."},
+        {"role": "Harry", "brief": "You have a wife and a sick child. You want everyone in the cellar where nobody can see you. You think Ben is showing off, and you say so, quietly, to the others."},
+        {"role": "Helen", "brief": "You are Harry's wife. You want your daughter safe and the argument finished. You try to translate between the two men, and fail."}
+      ],
+      "challenge": "Each player must name one thing they are afraid of losing before the decision. Then vote, and show what the losing side does next."
+    },
+    "quest": [
+      {"title": "Station 1 · The exits", "task": "Count every way in and out of the farmhouse that the film shows. Which one is never guarded?", "answer": "Windows, front door, back door, cellar; the cellar hatch/windows are neglected", "points": 10},
+      {"title": "Station 2 · Broadcast language", "task": "Listen to one TV bulletin. Write two words the reporter repeats. What does the repetition do?", "answer": "Any two repeated words, with a reason about panic or authority", "points": 10},
+      {"title": "Station 3 · The new plan", "task": "Invent a fifth plan for the group. Three steps, one risk, one person who would refuse it.", "answer": "Any coherent three-step plan with a named refuser", "points": 15},
+      {"title": "Station 4 · First and last", "task": "What is the first spoken line and the last image? How do they answer each other?", "answer": "'They're coming to get you, Barbra' / bodies thrown on a fire — the joke becomes literal", "points": 10}
+    ]
+  },
+  {
+    "id": "plan-9-from-outer-space",
+    "title": "Plan 9 from Outer Space",
+    "year": 1957,
+    "level": "B1",
+    "runtime": 79,
+    "genres": ["sci-fi", "horror"],
+    "director": "Ed Wood",
+    "country": "USA",
+    "age": "all",
+    "mood": "sepia",
+    "logline": "Aliens raise the dead in a California cemetery to stop humanity from destroying the universe, and the plan goes wrong in every possible way.",
+    "why": "Famous as one of the worst films ever made, and that is the teaching point: the narration is slow and over-clear, the plot is obvious, and every scene gives students something concrete to describe — and to fix.",
+    "language": "Slow, dramatically over-articulated narration, flat 1950s TV dialogue, long pauses. Very easy to follow, very strange to listen to.",
+    "content": "Mild 1950s horror: cardboard gravestones, toy flying saucers, no blood. Funnier than it is frightening. All ages.",
+    "free": {
+      "url": "https://archive.org/details/plan-9-from-outer-space",
+      "mp4": "https://archive.org/download/plan-9-from-outer-space/plan-9-from-outer-space.mp4",
+      "duration": 4740,
+      "license": "Public domain"
+    },
+    "scenes": [
+      {"at": "00:02:40", "title": "The narrator", "task": "Criswell looks straight at you and explains the future. Write down three words he stresses.", "type": "listen"},
+      {"at": "00:20:30", "title": "The saucer", "task": "Describe the flying saucer in three adjectives. Then describe it as a film critic would.", "type": "observe"},
+      {"at": "00:44:00", "title": "The police station", "task": "Pause here. How many people believe the story? What makes the scene funny without meaning to be?", "type": "think"},
+      {"at": "01:04:30", "title": "The plan", "task": "State Plan 9 in one sentence. Then explain why it makes no sense.", "type": "speak"}
+    ],
+    "words": [
+      {"w": "a flying saucer", "def": "a round spaceship in old science fiction", "ex": "The saucer hangs on a visible string."},
+      {"w": "a grave", "def": "a place in the ground where a dead person is buried", "ex": "The dead leave their graves."},
+      {"w": "to resurrect", "def": "to bring a dead person back to life", "ex": "The aliens resurrect three bodies."},
+      {"w": "a narrator", "def": "the voice that tells the story", "ex": "The narrator speaks directly to the audience."},
+      {"w": "proof", "def": "facts that show something is true", "ex": "The police want proof before they believe."},
+      {"w": "to invade", "def": "to enter a place with an army", "ex": "The aliens plan to invade the Earth."}
+    ],
+    "questions": [
+      "The film is famous for being bad. What exactly makes a film bad — the story, the acting, the objects, or the timing?",
+      "Criswell speaks directly to the audience. Does that make the film more or less believable?",
+      "The police refuse to believe the witnesses. Is that realistic? What would you need to see?",
+      "If you had five hundred dollars and one weekend, could you make a better film? What would you change first?",
+      "Why do people still watch films like this sixty years later? Is it laughter, affection, or something else?",
+      "Which mistake in the film is the funniest, and why does it work?",
+      "Compare this with a modern science-fiction film you know. What has improved, and what has been lost?",
+      "Which line would you keep in a remake — and which one would you cut immediately?"
+    ],
+    "gaps": [
+      {"line": "We are all interested in the ___, for that is where you and I will spend the rest of our lives.", "answer": "future", "hint": "time that has not happened yet", "adapted": false},
+      {"line": "Future events such as these will affect you in the ___.", "answer": "future", "hint": "the same word again", "adapted": false},
+      {"line": "The dead are ___ again. We have to stop them.", "answer": "walking", "hint": "moving on their feet", "adapted": true},
+      {"line": "You have to believe me — there are ___ from another planet.", "answer": "visitors", "hint": "people who come to a place", "adapted": true},
+      {"line": "Plan 9 is the only way to save the ___.", "answer": "universe", "hint": "everything that exists", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "We are all interested in the future, for that is where you and I will spend the rest of our lives.", "options": ["The narrator", "Eros", "Inspector Clay"], "answer": 0, "note": "Criswell's opening — the most quoted line in the film."},
+      {"quote": "Future events such as these will affect you in the future.", "options": ["The narrator", "The police chief", "Tanna"], "answer": 0, "note": "A sentence that explains nothing and predicts everything."},
+      {"quote": "You're all going to die — and you don't even know it.", "options": ["Eros", "The narrator", "Paula"], "answer": 0, "note": "The alien's threat, delivered with complete calm."}
+    ],
+    "quiz": [
+      {"q": "What is Plan 9?", "options": ["To resurrect the dead and frighten humanity", "To destroy the moon", "To kidnap a scientist"], "answer": 0, "why": "The aliens raise corpses to scare humans into stopping their weapons."},
+      {"q": "Who is Criswell in the film?", "options": ["The narrator", "The police chief", "An alien"], "answer": 0, "why": "He appears as himself, a television psychic, speaking to the camera."},
+      {"q": "Where does most of the film take place?", "options": ["A cemetery and a small town", "A spaceship", "A city hospital"], "answer": 0, "why": "The action stays around the graveyard, the police station and a house."},
+      {"q": "Why do the police not believe the witnesses at first?", "options": ["There is no proof", "They are asleep", "They are criminals"], "answer": 0, "why": "The officers demand evidence they can see."},
+      {"q": "How does the film end?", "options": ["The aliens leave and the dead fall", "The Earth is destroyed", "The police join the aliens"], "answer": 0, "why": "The saucer departs and the resurrected bodies collapse."}
+    ],
+    "roleplay": {
+      "title": "Pitch the remake",
+      "setting": "A streaming company will give one team a small budget to remake Plan 9. Three people pitch; one is the executive who has heard every idea.",
+      "roles": [
+        {"role": "Director", "brief": "You love the original and refuse to make fun of it. You want the remake to be scary again. Pitch one scene in detail."},
+        {"role": "Producer", "brief": "You care about money and time. You interrupt with practical questions: where, when, how much, who pays."},
+        {"role": "Executive", "brief": "You have greenlit forty bad films. You are tired. You ask one question: why would anyone watch this?"}
+      ],
+      "challenge": "The pitch must include one line of dialogue from the original, spoken seriously. If the room laughs, the pitch has failed."
+    },
+    "quest": [
+      {"title": "Station 1 · Spot the object", "task": "Find three things in the film that are clearly not what they are supposed to be (a grave, a spaceship, a wall…). Name them.", "answer": "Any three visibly fake props, e.g. cardboard graves, toy saucer, shower-curtain walls", "points": 10},
+      {"title": "Station 2 · Narration", "task": "Write one sentence in the narrator's style about your own day. It must be dramatic, slow and completely obvious.", "answer": "Any sentence in Criswell's over-clear register", "points": 10},
+      {"title": "Station 3 · The review", "task": "Give the film a score out of ten and one sentence that would make someone watch it anyway.", "answer": "Any score with a persuasive, funny one-sentence review", "points": 15},
+      {"title": "Station 4 · Plan 10", "task": "Invent Plan 10 — a better alien plan in one sentence. It must be legal, cheap and actually work.", "answer": "Any coherent one-sentence plan that would work", "points": 10}
+    ]
+  }
+]

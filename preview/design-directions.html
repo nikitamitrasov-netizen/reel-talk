@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Reel Talk — design directions</title>
+<style>
+@font-face { font-family: 'Archivo'; src: url('../assets/fonts/archivo-400.woff2') format('woff2'); font-weight: 400; font-display: block; }
+@font-face { font-family: 'Archivo'; src: url('../assets/fonts/archivo-600.woff2') format('woff2'); font-weight: 600; font-display: block; }
+@font-face { font-family: 'Archivo'; src: url('../assets/fonts/archivo-800.woff2') format('woff2'); font-weight: 800; font-display: block; }
+@font-face { font-family: 'Anton'; src: url('../assets/fonts/anton-400.woff2') format('woff2'); font-weight: 400; font-display: block; }
+@font-face { font-family: 'Instrument Serif'; src: url('../assets/fonts/instrument-serif-400.woff2') format('woff2'); font-weight: 400; font-display: block; }
+@font-face { font-family: 'Inter'; src: url('../assets/fonts/inter-400.woff2') format('woff2'); font-weight: 400; font-display: block; }
+@font-face { font-family: 'Inter'; src: url('../assets/fonts/inter-600.woff2') format('woff2'); font-weight: 600; font-display: block; }
+@font-face { font-family: 'Inter'; src: url('../assets/fonts/inter-700.woff2') format('woff2'); font-weight: 700; font-display: block; }
+
+* { box-sizing: border-box; }
+body { margin: 0; background: #e9e9e6; font-family: 'Inter', sans-serif; color: #111; padding: 26px 30px; }
+.page-title { font: 600 12px/1 'Inter'; letter-spacing: .22em; text-transform: uppercase; color: #6b6b66; margin: 0 0 22px 4px; }
+
+.dir { border-radius: 3px; overflow: hidden; margin-bottom: 22px; box-shadow: 0 24px 60px -40px rgba(0,0,0,.5); }
+.dir-head { display: flex; align-items: baseline; gap: 14px; padding: 13px 26px; font: 600 12px/1 'Inter'; letter-spacing: .18em; text-transform: uppercase; }
+.dir-head b { font-size: 15px; letter-spacing: .08em; }
+.dir-head span { opacity: .55; letter-spacing: .1em; text-transform: none; font-weight: 400; font-size: 12.5px; }
+
+.stage { display: grid; grid-template-columns: minmax(0, 620px) 220px; justify-content: start; gap: 64px; padding: 26px 40px 30px; align-items: start; }
+
+.kicker { font: 600 10px/1 'Inter'; letter-spacing: .24em; text-transform: uppercase; }
+.h1 { margin: 14px 0 12px; letter-spacing: -.03em; }
+.lede { max-width: 44ch; font-size: 14px; line-height: 1.6; }
+.row { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; font: 600 13px/1 'Inter'; text-decoration: none; }
+.swatches { display: flex; gap: 8px; margin-top: 22px; }
+.sw { width: 42px; height: 42px; border-radius: 2px; position: relative; }
+.sw i { position: absolute; bottom: -16px; left: 0; font: 500 8.5px/1 'Inter'; letter-spacing: .06em; color: #8a8a85; font-style: normal; }
+.poster { width: 100%; max-width: 210px; aspect-ratio: 2/3; background: linear-gradient(165deg, #7a2f16, #2a1409 60%, #0b0b0d); color: #fff; display: flex; flex-direction: column; justify-content: flex-end; padding: 12px; position: relative; }
+.poster b { font: 600 17px/1.05 'Instrument Serif', Georgia, serif; letter-spacing: -.01em; }
+.poster small { font: 500 8px/1 'Inter'; letter-spacing: .14em; text-transform: uppercase; opacity: .65; margin-top: 6px; }
+.poster .lvl { position: absolute; top: 9px; left: 9px; font: 700 8px/1 'Inter'; letter-spacing: .1em; padding: 3px 5px; border: 1px solid rgba(255,255,255,.5); }
+.mini { margin-top: 14px; font: 500 9px/1.5 'Inter'; letter-spacing: .1em; text-transform: uppercase; }
+
+/* A — Swiss archive */
+.a { background: #fff; color: #111; }
+.a .dir-head { background: #111; color: #fff; }
+.a .kicker { color: #e2231a; }
+.a .h1 { font: 800 44px/0.95 'Archivo'; }
+.a .lede { color: #444; }
+.a .btn { background: #111; color: #fff; border: 1px solid #111; border-radius: 0; }
+.a .btn.ghost { background: #fff; color: #111; }
+.a .sw { border: 1px solid #e2e2e2; }
+.a .poster { border: 1px solid #111; }
+.a .poster b { font-family: 'Archivo'; font-weight: 800; font-size: 16px; letter-spacing: -.02em; }
+.a .poster .lvl { border-color: #fff; }
+.a .rule { border-top: 1px solid #111; margin-top: 18px; padding-top: 10px; font: 600 9px/1 'Archivo'; letter-spacing: .2em; text-transform: uppercase; }
+
+/* B — cool gallery */
+.b { background: #f2f3f6; color: #14161a; }
+.b .dir-head { background: #14161a; color: #fff; }
+.b .kicker { color: #4b3bff; }
+.b .h1 { font: 700 41px/1.0 'Inter'; letter-spacing: -.045em; }
+.b .h1 em { font-family: 'Instrument Serif'; font-weight: 400; font-style: italic; letter-spacing: -.02em; }
+.b .lede { color: #555b66; }
+.b .btn { background: #14161a; color: #fff; border-radius: 99px; }
+.b .btn.ghost { background: #fff; color: #14161a; box-shadow: inset 0 0 0 1px #d8dae0; }
+.b .sw { border-radius: 99px; }
+.b .poster { border-radius: 12px; box-shadow: 0 24px 40px -24px rgba(20,22,26,.5); }
+.b .card { background: #fff; border-radius: 14px; padding: 14px; box-shadow: 0 18px 40px -30px rgba(20,22,26,.45); }
+.b .card .meta { display: flex; justify-content: space-between; font: 600 9px/1 'Inter'; letter-spacing: .1em; text-transform: uppercase; color: #8a8f99; margin-top: 12px; }
+.b .card .t { font: 600 15px/1.2 'Inter'; margin-top: 10px; letter-spacing: -.01em; }
+
+/* C — poster brutalism */
+.c { background: #f4f3ee; color: #111; }
+.c .dir-head { background: #ffd400; color: #111; }
+.c .kicker { color: #111; border-bottom: 2px solid #111; display: inline-block; padding-bottom: 4px; }
+.c .h1 { font: 400 50px/0.9 'Anton'; text-transform: uppercase; letter-spacing: .005em; }
+.c .h1 span { color: #e2231a; }
+.c .lede { color: #333; font-weight: 500; }
+.c .btn { background: #111; color: #fff; border: 2px solid #111; box-shadow: 5px 5px 0 #ffd400; border-radius: 0; }
+.c .btn.ghost { background: #f4f3ee; color: #111; box-shadow: 5px 5px 0 #111; }
+.c .sw { border: 2px solid #111; }
+.c .poster { border: 2px solid #111; box-shadow: 8px 8px 0 #111; }
+.c .poster b { font-family: 'Anton'; font-weight: 400; text-transform: uppercase; font-size: 20px; letter-spacing: .01em; }
+</style>
+</head>
+<body>
+<p class="page-title">Reel Talk · three directions · same content, different rooms</p>
+
+<!-- A -->
+<section class="dir a">
+  <div class="dir-head"><b>A · Archive</b><span>Swiss film archive: white, black, one red. Archivo, zero radius, hard rules.</span></div>
+  <div class="stage">
+    <div>
+      <div class="kicker">English film club · A1–C2</div>
+      <h1 class="h1">Watch.<br>Talk.<br>Play the scene.</h1>
+      <p class="lede">Eighty-three graded films and series episodes. One shared clock, twenty-two tasks, and a room that keeps everyone on the same second.</p>
+      <div class="row"><a class="btn">Browse the catalogue →</a><a class="btn ghost">Start a party</a></div>
+      <div class="swatches">
+        <span class="sw" style="background:#fff"><i>#FFFFFF</i></span>
+        <span class="sw" style="background:#111"><i>#111111</i></span>
+        <span class="sw" style="background:#e2231a"><i>#E2231A</i></span>
+        <span class="sw" style="background:#f0f0ee"><i>#F0F0EE</i></span>
+      </div>
+      <div class="rule">Cue 3 · 22:40 · the burglars' plan</div>
+    </div>
+    <div>
+      <div class="poster"><span class="lvl">A2</span><b>Home Alone</b><small>1990 · 1h 43m</small></div>
+      <div class="mini">★ 4.3 · 7 votes</div>
+    </div>
+  </div>
+</section>
+
+<!-- B -->
+<section class="dir b">
+  <div class="dir-head"><b>B · Screening room</b><span>Cool grey gallery, electric indigo, soft cards, Inter + Instrument Serif accents.</span></div>
+  <div class="stage">
+    <div>
+      <div class="kicker">English film club · A1–C2</div>
+      <h1 class="h1">Watch. Talk.<br><em>Play the scene.</em></h1>
+      <p class="lede">Eighty-three graded films and series episodes. One shared clock, twenty-two tasks, and a room that keeps everyone on the same second.</p>
+      <div class="row"><a class="btn">Browse the catalogue →</a><a class="btn ghost">Start a party</a></div>
+      <div class="swatches">
+        <span class="sw" style="background:#f2f3f6"><i>#F2F3F6</i></span>
+        <span class="sw" style="background:#14161a"><i>#14161A</i></span>
+        <span class="sw" style="background:#4b3bff"><i>#4B3BFF</i></span>
+        <span class="sw" style="background:#dfe3ea"><i>#DFE3EA</i></span>
+      </div>
+      <div class="card">
+        <div class="t">The Shawshank Redemption</div>
+        <div class="meta"><span>B2 · drama</span><span>★ 4.6 · 12</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="poster"><span class="lvl">A2</span><b>Home Alone</b><small>1990 · 1h 43m</small></div>
+      <div class="mini">★ 4.3 · 7 votes</div>
+    </div>
+  </div>
+</section>
+
+<!-- C -->
+<section class="dir c">
+  <div class="dir-head"><b>C · Poster</b><span>Festival poster: Anton condensed, yellow + red, thick borders, offset shadows.</span></div>
+  <div class="stage">
+    <div>
+      <div class="kicker">English film club · A1–C2</div>
+      <h1 class="h1">Watch<br>Talk<br><span>Play</span></h1>
+      <p class="lede">Eighty-three graded films and series episodes. One shared clock, twenty-two tasks, and a room that keeps everyone on the same second.</p>
+      <div class="row"><a class="btn">Browse the catalogue →</a><a class="btn ghost">Start a party</a></div>
+      <div class="swatches">
+        <span class="sw" style="background:#f4f3ee"><i>#F4F3EE</i></span>
+        <span class="sw" style="background:#111"><i>#111111</i></span>
+        <span class="sw" style="background:#ffd400"><i>#FFD400</i></span>
+        <span class="sw" style="background:#e2231a"><i>#E2231A</i></span>
+      </div>
+      <div class="rule" style="border-top:2px solid #111;margin-top:18px;padding-top:10px;font:700 10px/1 'Inter';letter-spacing:.16em;text-transform:uppercase">Now showing · Home Alone · 20:00</div>
+    </div>
+    <div>
+      <div class="poster"><span class="lvl">A2</span><b>Home Alone</b><small>1990 · 1h 43m</small></div>
+      <div class="mini">★ 4.3 · 7 votes</div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

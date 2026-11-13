@@ -1,0 +1,762 @@
+[
+  {
+    "id": "for-the-birds",
+    "title": "For the Birds",
+    "year": 2000,
+    "level": "A1",
+    "runtime": 3,
+    "genres": ["animation", "comedy", "family"],
+    "director": "Ralph Eggleston",
+    "country": "USA",
+    "age": "all",
+    "mood": "cool",
+    "logline": "Fifteen small blue birds share a telephone wire until one very big bird lands, and everything starts to bend.",
+    "why": "There is no dialogue at all, so every joke is told with faces, feathers and a sagging wire. Colours, sizes and simple actions carry the whole story, which lets beginners follow without missing a word.",
+    "language": "No spoken words, only bird sounds and music, so there is no accent or fast speech to worry about.",
+    "content": "Cartoon slapstick: birds peck toes, the little birds fall and lose their feathers, but nobody is hurt and it is suitable for all ages.",
+    "scenes": [
+      {
+        "at": "00:00:20",
+        "title": "Birds on the wire",
+        "task": "Count the small birds on the wire. What colour are they?",
+        "type": "observe"
+      },
+      {
+        "at": "00:00:50",
+        "title": "The big bird arrives",
+        "task": "The big bird waves at the others. Is he friendly or unfriendly? Show your answer with your face.",
+        "type": "think"
+      },
+      {
+        "at": "00:01:30",
+        "title": "Toes and beaks",
+        "task": "The little birds peck the big bird's toes. In one sentence, say why they are angry.",
+        "type": "speak"
+      },
+      {
+        "at": "00:02:30",
+        "title": "The slingshot",
+        "task": "The wire jumps like a slingshot. Show with your hands what happens to the little birds.",
+        "type": "observe"
+      }
+    ],
+    "words": [
+      {"w": "bird", "def": "a small animal with wings", "ex": "The birds sit on the wire."},
+      {"w": "big", "def": "very large in size", "ex": "A big bird lands on the wire."},
+      {"w": "small", "def": "not big in size", "ex": "The small birds are blue."},
+      {"w": "laugh", "def": "to make a happy sound", "ex": "The small birds laugh at him."},
+      {"w": "feather", "def": "a soft thing on a bird", "ex": "Feathers fall from the sky."},
+      {"w": "fall", "def": "to go down fast", "ex": "The big bird falls, but he is fine."}
+    ],
+    "questions": [
+      "How many small birds sit on the wire? Count them with your partner.",
+      "What colour are the small birds? Is the big bird the same colour?",
+      "Why do the small birds laugh at the big bird? Is that kind?",
+      "The small birds peck the big bird's toes. Is that a good idea? What happens next?",
+      "Would you like to sit on that wire with the birds? Why or why not?",
+      "In your country, do people laugh at someone who is different? What can we do about it?",
+      "The big bird laughs, but then he is kind. What does he do? Why do you think he helps?",
+      "Which moment made you laugh most? Show it to the group with your face."
+    ],
+    "gaps": [
+      {"line": "The small birds sit on a ___.", "answer": "wire", "hint": "a long thin line", "adapted": true},
+      {"line": "A very ___ bird lands on the wire.", "answer": "big", "hint": "not small", "adapted": true},
+      {"line": "The little birds peck the big bird's ___.", "answer": "toes", "hint": "parts of the foot", "adapted": true},
+      {"line": "The birds lose their ___ and fly into the air.", "answer": "feathers", "hint": "soft things on a bird", "adapted": true},
+      {"line": "The big bird gives the little bird a ___ to cover itself.", "answer": "leaf", "hint": "a green part of a tree", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "The little birds laugh at the big bird.", "options": ["The little birds", "The big bird", "The wind"], "answer": 0, "note": "A moment, not a line: the little birds laugh together on the wire."},
+      {"quote": "The big bird lands and the wire goes down.", "options": ["The big bird", "A little bird", "A plane"], "answer": 0, "note": "A moment, not a line: his weight bends the wire."},
+      {"quote": "A leaf is offered to a bird with no feathers.", "options": ["The big bird", "The little birds", "A farmer"], "answer": 0, "note": "A moment, not a line: the big bird is kind at the end."}
+    ],
+    "quiz": [
+      {"q": "Where do the birds sit?", "options": ["On a wire", "In a tree", "On a car"], "answer": 0, "why": "The whole film happens on a telephone wire."},
+      {"q": "How many small birds are there?", "options": ["Fifteen", "Five", "Two"], "answer": 0, "why": "Fifteen little blue birds share the wire."},
+      {"q": "What does the big bird want?", "options": ["To sit with the others", "To eat the birds", "To sleep"], "answer": 0, "why": "He waves and lands between them because he wants company."},
+      {"q": "What happens when the last toe lets go?", "options": ["The wire throws the small birds", "The big bird flies away", "It starts to rain"], "answer": 0, "why": "The wire acts like a slingshot and sends the little birds into the air."},
+      {"q": "What does the big bird do at the end?", "options": ["He laughs and gives a leaf", "He runs away", "He eats the leaf"], "answer": 0, "why": "He laughs at the birds with no feathers, then kindly offers a leaf."}
+    ],
+    "roleplay": {
+      "title": "The wire",
+      "setting": "A telephone wire in the sky. Three small birds are sitting together when a big bird arrives.",
+      "roles": [
+        {"role": "Little Bird", "brief": "You are happy on the wire and you do not want to move. You think the big bird is too big for this place."},
+        {"role": "Big Bird", "brief": "You are big, friendly and a little shy. You only want to sit with the others, and you do not understand why they are angry."},
+        {"role": "Narrator", "brief": "You say what happens in short sentences: A big bird lands. The wire goes down. The little birds are angry."}
+      ],
+      "challenge": "Play it with words, then again with sounds and faces only. Which version is clearer?"
+    },
+    "quest": [
+      {"title": "Station 1: Count the flock", "task": "Count the small birds on the wire at the start and write the number. Then count again at the end. Is the number the same?", "answer": "15 small birds at the start and at the end", "points": 10},
+      {"title": "Station 2: Word hunt", "task": "Find the word for a soft thing on a bird. Then find the word for going down suddenly.", "answer": "feather, fall", "points": 10},
+      {"title": "Station 3: New ending", "task": "Draw the big bird and write three sentences about him: big or small, friendly or not, happy or sad.", "answer": "Any three correct sentences", "points": 15},
+      {"title": "Station 4: In order", "task": "Put these in order: the big bird lands, the little birds laugh, the wire throws the birds, the big bird gives a leaf.", "answer": "lands, laugh, throws, leaf", "points": 10}
+    ]
+  },
+  {
+    "id": "lava",
+    "title": "Lava",
+    "year": 2014,
+    "level": "A1",
+    "runtime": 7,
+    "genres": ["animation", "musical", "romance"],
+    "director": "James Ford Murphy",
+    "country": "USA",
+    "age": "all",
+    "mood": "warm",
+    "logline": "A lonely volcano sings a song of hope to the sea every day, while a small volcano under the water listens and loves him.",
+    "why": "The whole story is one slow, clear song, so there is no dialogue to follow and the bright pictures carry the feelings. The words repeat, and the volcanoes' faces show love, hope and sadness without translation.",
+    "language": "The only words are sung slowly and clearly with a Hawaiian-style ukulele song; the singers hold long notes, so lines are easy to catch.",
+    "content": "A lonely character feels sad and almost disappears, but the ending is happy; there is no violence and nothing frightening.",
+    "scenes": [
+      {
+        "at": "00:00:30",
+        "title": "A lonely volcano",
+        "task": "Look at Uku's face. How does he feel? Show the feeling with your face.",
+        "type": "observe"
+      },
+      {
+        "at": "00:01:40",
+        "title": "The song",
+        "task": "Listen for the word lava. Put up one finger every time you hear it.",
+        "type": "listen"
+      },
+      {
+        "at": "00:03:10",
+        "title": "Under the sea",
+        "task": "We see a small volcano under the water. What is she doing? Predict: will Uku see her?",
+        "type": "predict"
+      },
+      {
+        "at": "00:06:00",
+        "title": "Two volcanoes",
+        "task": "Describe the ending in three words. Is it happy, sad or funny? Say why.",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "volcano", "def": "a mountain with hot rock inside", "ex": "Uku is a lonely volcano."},
+      {"w": "island", "def": "land with water all around", "ex": "The volcano lives on a small island."},
+      {"w": "sea", "def": "the big salt water", "ex": "Lele is under the sea."},
+      {"w": "sing", "def": "to make music with your voice", "ex": "Uku sings to the sea."},
+      {"w": "dream", "def": "something you hope will happen", "ex": "Uku has a dream."},
+      {"w": "together", "def": "with each other", "ex": "At the end, they sing together."}
+    ],
+    "questions": [
+      "Where does Uku live? What is around him?",
+      "What does Uku do every day? Why does he do it?",
+      "Who is Lele? Where is she at the start?",
+      "Lele sings Uku's song back to him. Was that a good idea? Why?",
+      "How does Uku feel when he is alone? How do you feel when you are alone?",
+      "Would you like to live on a volcano island? Why or why not?",
+      "In your country, is there a song about love or the sea? Can you hum it for the group?",
+      "Which part of the song did you like best? Say one word from it."
+    ],
+    "gaps": [
+      {"line": "I have a dream, I hope will come ___.", "answer": "true", "hint": "not false", "adapted": false},
+      {"line": "That you're here with me and I'm here with ___.", "answer": "you", "hint": "the person I love", "adapted": false},
+      {"line": "I wish that the earth, sea, the sky up above will send me someone to ___.", "answer": "lava", "hint": "a funny word for love", "adapted": false},
+      {"line": "A long, long time ago, there was a ___.", "answer": "volcano", "hint": "a hot mountain", "adapted": false},
+      {"line": "Years of singing all alone turned his lava into ___.", "answer": "stone", "hint": "hard grey rock", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "I have a dream, I hope will come true.", "options": ["Uku", "Lele", "A bird"], "answer": 0, "note": "The first line of Uku's song; he sings it alone for years."},
+      {"quote": "I lava you.", "options": ["Uku and Lele", "Only Uku", "The sea"], "answer": 0, "note": "A play on I love you, sung together at the end."},
+      {"quote": "Lele sings Uku's song back to him.", "options": ["Lele", "Uku", "A bird"], "answer": 0, "note": "A moment, not a line: she sings from under the sea, and his fire comes back."}
+    ],
+    "quiz": [
+      {"q": "What is Uku?", "options": ["A volcano", "A mountain bird", "A boat"], "answer": 0, "why": "Uku is a lonely volcano on a small island."},
+      {"q": "What does Uku want?", "options": ["Someone to love", "A bigger island", "A boat"], "answer": 0, "why": "He sings for a companion every day."},
+      {"q": "Where is Lele?", "options": ["Under the sea", "On the moon", "In a tree"], "answer": 0, "why": "She is a small volcano under the water, listening to his song."},
+      {"q": "What happens when Uku hears Lele sing?", "options": ["His fire comes back", "He goes to sleep", "He flies away"], "answer": 0, "why": "Her song gives him hope and he erupts again."},
+      {"q": "What do the two volcanoes become at the end?", "options": ["One island", "Two boats", "A big bird"], "answer": 0, "why": "They rise together and become one island."}
+    ],
+    "roleplay": {
+      "title": "The song across the water",
+      "setting": "A beach on a small island. Uku is on the island and Lele is in the water below.",
+      "roles": [
+        {"role": "Uku", "brief": "You are lonely. You sing your song to the sea and look at the animals with their families."},
+        {"role": "Lele", "brief": "You are under the water. You hear the song and want to answer, but you are shy."},
+        {"role": "Narrator", "brief": "You tell the story in short sentences: Uku sings. Lele listens. Uku is sad."}
+      ],
+      "challenge": "Hum one line and let the others answer with the same line. Then swap roles."
+    },
+    "quest": [
+      {"title": "Station 1: Names", "task": "Find the name of the big volcano and the name of the small volcano. Write both.", "answer": "Uku; Lele", "points": 10},
+      {"title": "Station 2: Word puzzle", "task": "Which word in the song means a mountain with hot rock inside? Find it in the word list.", "answer": "volcano", "points": 10},
+      {"title": "Station 3: Write a song", "task": "Write two lines of a short love song for Uku. Use the word sea or lava.", "answer": "Any two sensible lines with sea or lava", "points": 15},
+      {"title": "Station 4: Song order", "task": "Put these song lines in order: I lava you, I have a dream, Years of singing all alone.", "answer": "I have a dream, Years of singing all alone, I lava you", "points": 10}
+    ]
+  },
+  {
+    "id": "hair-love",
+    "title": "Hair Love",
+    "year": 2019,
+    "level": "A1",
+    "runtime": 7,
+    "genres": ["animation", "family", "drama"],
+    "director": "Matthew A. Cherry",
+    "country": "USA",
+    "age": "all",
+    "mood": "warm",
+    "logline": "A father tries to do his daughter's hair for the first time, with help from a video and one very lively head of curls.",
+    "why": "The story is almost wordless: faces, hands, brushes and a phone video tell you everything, so beginners can follow without dialogue. The short lines are slow and simple, and the same hair words come back again and again.",
+    "language": "A few short lines in warm American English, but most of the film is music and action, so the speed is never a problem.",
+    "content": "A mother is in hospital with cancer and has lost her hair, shown gently, and the family hugs at the end; nothing is frightening.",
+    "scenes": [
+      {
+        "at": "00:00:25",
+        "title": "Zuri's hair",
+        "task": "Look at Zuri's hair. Find three words to describe it: curly, long, big?",
+        "type": "observe"
+      },
+      {
+        "at": "00:01:30",
+        "title": "The video",
+        "task": "Zuri watches a video. Who is in the video? What is she doing?",
+        "type": "observe"
+      },
+      {
+        "at": "00:03:15",
+        "title": "Dad and the hair",
+        "task": "Watch Dad with the brush and the comb. Predict: can he do Zuri's hair?",
+        "type": "predict"
+      },
+      {
+        "at": "00:05:30",
+        "title": "At the hospital",
+        "task": "Watch the mother's face. How does she feel? Show the feeling.",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "hair", "def": "the soft thing on your head", "ex": "Zuri has curly hair."},
+      {"w": "brush", "def": "a thing for making hair nice", "ex": "Dad has a brush in his hand."},
+      {"w": "curl", "def": "a small round piece of hair", "ex": "One curl is on her face."},
+      {"w": "hospital", "def": "a place for sick people", "ex": "Mum is in hospital."},
+      {"w": "brave", "def": "not scared of anything", "ex": "Zuri is brave."},
+      {"w": "hug", "def": "to hold someone with love", "ex": "The family hugs at the end."}
+    ],
+    "questions": [
+      "Who are the people in this film? Name them.",
+      "What does Zuri want to do with her hair? Why?",
+      "Dad tries many things. What does he use? Name two.",
+      "Zuri is sad when Dad cannot do her hair. What does she do next?",
+      "Would you like to do your own hair? Who helps you with your hair at home?",
+      "In your country, who usually does a child's hair? Is it the same in every family?",
+      "Mum is in hospital. How does the family show love without many words?",
+      "Which picture or moment did you like best? Say why."
+    ],
+    "gaps": [
+      {"line": "Zuri learns from a hair ___.", "answer": "video", "hint": "you watch it on a screen", "adapted": true},
+      {"line": "Dad needs a brush and a ___.", "answer": "comb", "hint": "a thing with teeth for hair", "adapted": true},
+      {"line": "Mum is in the ___ at the end.", "answer": "hospital", "hint": "a place for sick people", "adapted": true},
+      {"line": "Mum has no ___ on her head.", "answer": "hair", "hint": "it grows on your head", "adapted": true},
+      {"line": "The family ___ at the end.", "answer": "hugs", "hint": "holds with love", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "A dad fights with a hairbrush and loses.", "options": ["Zuri's dad", "Zuri", "The doctor"], "answer": 0, "note": "A moment, not a line: his face says everything."},
+      {"quote": "A little girl watches a hair video.", "options": ["Zuri", "Mum", "Dad"], "answer": 0, "note": "A moment, not a line: she follows the tutorial."},
+      {"quote": "A woman takes off her scarf and smiles.", "options": ["Mum", "Zuri", "The nurse"], "answer": 0, "note": "A moment, not a line: she has lost her hair, and she is still beautiful."}
+    ],
+    "quiz": [
+      {"q": "Who does Zuri's hair in this film?", "options": ["Her dad", "Her teacher", "The doctor"], "answer": 0, "why": "Her father tries for the first time, and finally learns how."},
+      {"q": "How does Zuri learn the hairstyle?", "options": ["From a video", "From a book", "From her friend"], "answer": 0, "why": "Her mother makes hair videos, and Zuri and Dad watch one together."},
+      {"q": "Where does the family go at the end?", "options": ["To the hospital", "To school", "To the park"], "answer": 0, "why": "They visit Mum, who is in hospital."},
+      {"q": "Why does Mum wear a scarf?", "options": ["She has cancer", "She is cold", "It is a game"], "answer": 0, "why": "The treatment for her cancer has made her hair fall out."},
+      {"q": "What is the film mostly about?", "options": ["A father's love for his daughter", "A new dog", "A school test"], "answer": 0, "why": "Dad learns a new skill because he loves Zuri and wants her to be happy."}
+    ],
+    "roleplay": {
+      "title": "The hair tutorial",
+      "setting": "A living room with a mirror, a brush and a phone. Zuri wants her hair like the video; Dad has no idea.",
+      "roles": [
+        {"role": "Zuri", "brief": "You are seven. You want your hair to look nice, and you are not patient."},
+        {"role": "Dad", "brief": "You love your daughter. You try, you fail, and you try again."},
+        {"role": "Video voice", "brief": "You are the calm voice in the video. Say each step slowly and kindly."}
+      ],
+      "challenge": "Do it in three steps: wash, brush, style. Play it once as a funny scene and once as a warm scene."
+    },
+    "quest": [
+      {"title": "Station 1: The teacher", "task": "What does Dad watch before he tries Zuri's hair again? Who made the video?", "answer": "A hair video by Zuri's mother", "points": 10},
+      {"title": "Station 2: Word hunt", "task": "Which word means a place for sick people? Find it in the word list.", "answer": "hospital", "points": 10},
+      {"title": "Station 3: Hair studio", "task": "Draw Zuri's hairstyle and write three words to describe it.", "answer": "Any picture and three describing words", "points": 15},
+      {"title": "Station 4: In order", "task": "Put these in order: Dad tries Zuri's hair, Zuri and Dad watch the video, Zuri's hair is finished, the family visits Mum.", "answer": "Dad tries, watch video, hair finished, visit Mum", "points": 10}
+    ]
+  },
+  {
+    "id": "the-present",
+    "title": "The Present",
+    "year": 2014,
+    "level": "A1",
+    "runtime": 4,
+    "genres": ["animation", "family", "drama"],
+    "director": "Jacob Frey",
+    "country": "Germany",
+    "age": "all",
+    "mood": "warm",
+    "logline": "A boy gets a surprise present from his mother: a happy little puppy with three legs who wants only one thing, to play.",
+    "why": "There is no dialogue, and the story is told through one room, one box and two faces, so the meaning is always visible. The puppy's actions repeat, run, fall, get up, bring the ball, which gives beginners useful present-simple language.",
+    "language": "No spoken words at all; music and puppy sounds carry the story, so there is nothing fast to decode.",
+    "content": "A puppy is rejected at first and the boy is unkind to it, and both the puppy and the boy have one leg; the ending is warm and nothing is frightening.",
+    "scenes": [
+      {
+        "at": "00:00:15",
+        "title": "The box",
+        "task": "What is in the box? Guess before the boy opens it.",
+        "type": "predict"
+      },
+      {
+        "at": "00:00:50",
+        "title": "Three legs",
+        "task": "Count the puppy's legs. How many does he have?",
+        "type": "observe"
+      },
+      {
+        "at": "00:01:45",
+        "title": "The red ball",
+        "task": "The puppy brings the ball. What does the boy do? Show it with your body.",
+        "type": "observe"
+      },
+      {
+        "at": "00:03:10",
+        "title": "The boy stands up",
+        "task": "Watch the boy's leg. What do you see? Say one sentence.",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "puppy", "def": "a very young dog", "ex": "The puppy jumps out of the box."},
+      {"w": "leg", "def": "a body part for walking", "ex": "The puppy has three legs."},
+      {"w": "ball", "def": "a round thing you throw", "ex": "The puppy brings a red ball."},
+      {"w": "play", "def": "to do something fun", "ex": "The boy and the puppy play."},
+      {"w": "sad", "def": "not happy at all", "ex": "The boy is sad at first."},
+      {"w": "kind", "def": "nice to other people", "ex": "The puppy is kind."}
+    ],
+    "questions": [
+      "What does the mother give the boy? What is inside?",
+      "How many legs does the puppy have? How many legs does the boy have?",
+      "Why is the boy angry at the start? Is he angry at the puppy or at himself?",
+      "What does the puppy do when the boy kicks the ball away?",
+      "Would you play with this puppy? Why or why not?",
+      "In your country, do people with one leg play sport? What do they need?",
+      "The boy changes. What changes him: the ball, the puppy's face, or something else?",
+      "The film has no words. Which face did you remember best?"
+    ],
+    "gaps": [
+      {"line": "The mother brings a ___ for the boy.", "answer": "box", "hint": "a thing with four sides", "adapted": true},
+      {"line": "The puppy has only three ___.", "answer": "legs", "hint": "you stand on them", "adapted": true},
+      {"line": "The puppy brings a red ___.", "answer": "ball", "hint": "a round toy", "adapted": true},
+      {"line": "The boy plays a ___ game.", "answer": "video", "hint": "you watch it on a screen", "adapted": true},
+      {"line": "The boy has one ___.", "answer": "leg", "hint": "you stand on it", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "A puppy with three legs jumps out of a box.", "options": ["The puppy", "The boy", "The mother"], "answer": 0, "note": "A moment, not a line: the puppy is the present."},
+      {"quote": "A boy kicks a red ball away.", "options": ["The boy", "The puppy", "The mother"], "answer": 0, "note": "A moment, not a line: he does not want to play."},
+      {"quote": "A boy stands up and takes his crutches.", "options": ["The boy", "The puppy", "The mother"], "answer": 0, "note": "A moment, not a line: now we understand him."}
+    ],
+    "quiz": [
+      {"q": "What is in the box?", "options": ["A puppy", "A ball", "A game"], "answer": 0, "why": "The mother brings a box, and a puppy jumps out."},
+      {"q": "What is different about the puppy?", "options": ["It has three legs", "It is very big", "It cannot see"], "answer": 0, "why": "The puppy is missing one front leg."},
+      {"q": "What does the puppy want?", "options": ["To play", "To sleep", "To eat"], "answer": 0, "why": "He brings his ball again and again."},
+      {"q": "What does the boy do at the end?", "options": ["He goes outside to play", "He puts the puppy back", "He cries"], "answer": 0, "why": "He turns off the game and goes out with the puppy."},
+      {"q": "What do we learn about the boy?", "options": ["He has one leg too", "He has no dog", "He is a doctor"], "answer": 0, "why": "He walks with crutches because his left leg is missing below the knee."}
+    ],
+    "roleplay": {
+      "title": "The present",
+      "setting": "A living room with a sofa, a TV and a box on the floor.",
+      "roles": [
+        {"role": "Boy", "brief": "You are twelve. You want to play your game, and you do not want a puppy."},
+        {"role": "Mother", "brief": "You are kind. You bring the box, smile, and then go to answer the phone."},
+        {"role": "Puppy", "brief": "You have three legs. You only want to play. Use your face and an imaginary ball, no words."}
+      ],
+      "challenge": "Play it with no words. Then play it again with one short sentence for each character."
+    },
+    "quest": [
+      {"title": "Station 1: Count the legs", "task": "Count the legs on the puppy and the legs on the boy. Write both numbers.", "answer": "3 and 1", "points": 10},
+      {"title": "Station 2: Word puzzle", "task": "Which word means a very young dog? Find it in the word list.", "answer": "puppy", "points": 10},
+      {"title": "Station 3: A happy ending", "task": "Write a happy ending for the boy and the puppy in three sentences.", "answer": "Any three sentences about playing together", "points": 15},
+      {"title": "Station 4: In order", "task": "Put these in order: the boy plays his video game, the boy opens the box, the puppy finds the red ball, the boy goes outside.", "answer": "plays game, opens box, finds ball, goes outside", "points": 10}
+    ]
+  },
+  {
+    "id": "zootopia",
+    "title": "Zootopia",
+    "year": 2016,
+    "level": "A2",
+    "runtime": 108,
+    "genres": ["animation", "comedy", "mystery"],
+    "director": "Byron Howard & Rich Moore",
+    "country": "USA",
+    "age": "all",
+    "mood": "neon",
+    "logline": "A small rabbit joins the police in a big city of animals and takes on a case that the bigger officers cannot solve.",
+    "why": "The plot is a clear police case: find the missing animals, so learners always know what the characters want. Everyday city vocabulary, short jokes and a lot of visual humour keep A2 students inside the story even when a line is fast.",
+    "language": "American English with many different animal voices; the sloth at the DMV speaks very slowly, the sheep speak softly, and a few characters use fast city slang.",
+    "content": "Bullying in flashbacks, a child is scratched, and some animals turn scary and savage; there is cartoon threat and fear, but no blood.",
+    "scenes": [
+      {
+        "at": "00:04:00",
+        "title": "The school play",
+        "task": "Judy is a child in a school play. What does she say she wants to be? Listen for the word police.",
+        "type": "listen"
+      },
+      {
+        "at": "00:30:00",
+        "title": "The DMV",
+        "task": "Count how many times Flash the sloth looks at the screen. Why is the scene funny?",
+        "type": "observe"
+      },
+      {
+        "at": "00:45:00",
+        "title": "Mr. Big",
+        "task": "Who is Mr. Big? Why is Judy afraid of him? Predict: will he help her?",
+        "type": "predict"
+      },
+      {
+        "at": "01:28:00",
+        "title": "The museum",
+        "task": "Watch Bellwether's face and listen to her voice. What do you learn about her?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "officer", "def": "a person who works for the police", "ex": "Judy wants to be a police officer."},
+      {"w": "case", "def": "a problem the police study", "ex": "Judy takes a hard case."},
+      {"w": "missing", "def": "lost, not where it should be", "ex": "Fourteen animals are missing."},
+      {"w": "predator", "def": "an animal that hunts other animals", "ex": "A predator hunts other animals."},
+      {"w": "prey", "def": "an animal that other animals hunt", "ex": "In Zootopia, prey animals are afraid."},
+      {"w": "brave", "def": "not afraid of danger", "ex": "Judy is brave in a big city."}
+    ],
+    "questions": [
+      "Why does Judy want to be a police officer? What does her family think?",
+      "Judy is the first rabbit officer. How do the other officers treat her at the start?",
+      "Nick is a fox and a con artist. Is he a bad animal, or a clever one who has had bad luck?",
+      "Why do the predators in the city become savage? Who is really responsible?",
+      "Judy says something at the press conference that hurts Nick. Was she right to say it? What would you say?",
+      "Would you like to live in Zootopia? Which part of the city would you visit first?",
+      "In your country, are some jobs still for men or for women? Is that changing? How does Zootopia show the same idea?",
+      "Which line made you laugh, and which line made you think? Say one of them in English."
+    ],
+    "gaps": [
+      {"line": "In Zootopia, anyone can be ___.", "answer": "anything", "hint": "no job is impossible", "adapted": false},
+      {"line": "It's called a ___, sweetheart.", "answer": "hustle", "hint": "a clever way to make money", "adapted": false},
+      {"line": "They really did hire a ___!", "answer": "bunny", "hint": "a small rabbit", "adapted": false},
+      {"line": "Life's a little bit messy. We all make ___.", "answer": "mistakes", "hint": "things we do wrong", "adapted": false},
+      {"line": "Change starts with ___.", "answer": "you", "hint": "the person in the mirror", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "It's called a hustle, sweetheart.", "options": ["Nick", "Judy", "Bellwether"], "answer": 0, "note": "Nick explains how he sells pawpsicles for more than they cost."},
+      {"quote": "In Zootopia, anyone can be anything.", "options": ["Judy", "Chief Bogo", "Mayor Lionheart"], "answer": 0, "note": "It is the city's promise, and Judy's reason for becoming a cop."},
+      {"quote": "Life's a little bit messy. We all make mistakes.", "options": ["Judy", "Nick", "Flash"], "answer": 0, "note": "From Judy's speech near the end."}
+    ],
+    "quiz": [
+      {"q": "What animal is Judy?", "options": ["A rabbit", "A fox", "A sheep"], "answer": 0, "why": "Judy Hopps is a rabbit from Bunnyburrow."},
+      {"q": "What job does Judy want?", "options": ["Police officer", "Mayor", "Teacher"], "answer": 0, "why": "She wants to be the first rabbit police officer in Zootopia."},
+      {"q": "How many animals are missing at the start of the case?", "options": ["Fourteen", "Two", "One hundred"], "answer": 0, "why": "Fourteen mammals have disappeared."},
+      {"q": "Who is Nick Wilde?", "options": ["A fox", "A wolf", "A sloth"], "answer": 0, "why": "Nick is a fox who sells pawpsicles and becomes Judy's partner."},
+      {"q": "Who is behind the savage animals?", "options": ["Bellwether", "Chief Bogo", "Mayor Lionheart"], "answer": 0, "why": "Bellwether uses a night howler serum to make predators look dangerous."}
+    ],
+    "roleplay": {
+      "title": "The press conference",
+      "setting": "City hall, many microphones. Judy has just told the city about the missing animals.",
+      "roles": [
+        {"role": "Judy", "brief": "You are tired and not sure what to say. You answer three questions from the reporters."},
+        {"role": "Reporter", "brief": "You ask about predators, fear and the missing animals. You want a clear answer."},
+        {"role": "Nick", "brief": "You stand at the side. You hear Judy's words and feel hurt, but you say nothing."}
+      ],
+      "challenge": "Play it twice: once with Judy careful, once with Judy saying too much. Then let Nick answer back."
+    },
+    "quest": [
+      {"title": "Station 1: The numbers", "task": "Find the number of missing mammals and the number of hours Judy has to solve the case.", "answer": "14 mammals; 48 hours", "points": 10},
+      {"title": "Station 2: Word pairs", "task": "Find a word for an animal that hunts other animals, and a word for an animal that is hunted.", "answer": "predator; prey", "points": 10},
+      {"title": "Station 3: New district", "task": "Design a new district for Zootopia for one kind of animal. Name it and say what is there.", "answer": "Any named district with two details", "points": 15},
+      {"title": "Station 4: In order", "task": "Put these in order: the DMV, Mr. Big's house, the museum, the school play.", "answer": "school play, DMV, Mr. Big, museum", "points": 10}
+    ]
+  },
+  {
+    "id": "moana",
+    "title": "Moana",
+    "year": 2016,
+    "level": "A2",
+    "runtime": 107,
+    "genres": ["animation", "musical", "family"],
+    "director": "Ron Clements & John Musker",
+    "country": "USA",
+    "age": "all",
+    "mood": "warm",
+    "logline": "A young girl from a Pacific island is chosen by the sea and sails out to find a demigod and bring back what he stole.",
+    "why": "The story follows one clear journey with songs that repeat key words, so A2 learners can track the goal from island to island. The visuals explain the magic, and the dialogue is slow and warm, with jokes that work even when a word is new.",
+    "language": "American English with Pacific island names and a few Polynesian words; the songs are clear but fast in places, and Maui speaks in a quick, joking voice.",
+    "content": "A grandmother dies gently on screen, and a big lava monster chases the heroes; there is mild peril and grief, but no blood.",
+    "scenes": [
+      {
+        "at": "00:05:00",
+        "title": "The ocean chooses",
+        "task": "Baby Moana meets the sea. What does the sea give her? Pause and describe it.",
+        "type": "observe"
+      },
+      {
+        "at": "00:26:00",
+        "title": "The hidden boats",
+        "task": "Gramma Tala shows Moana the boats in the cave. What does she say the people used to be? Listen for voyagers.",
+        "type": "listen"
+      },
+      {
+        "at": "01:16:00",
+        "title": "Gramma's goodbye",
+        "task": "Moana is very sad. What does she decide to do? Predict before she sails.",
+        "type": "predict"
+      },
+      {
+        "at": "01:38:00",
+        "title": "The heart returns",
+        "task": "Watch Te Kā's face. What changes? Say one sentence.",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "ocean", "def": "the very big sea", "ex": "The ocean chooses Moana."},
+      {"w": "island", "def": "land with water all around", "ex": "Moana lives on an island."},
+      {"w": "sail", "def": "to travel on water in a boat", "ex": "They sail across the sea."},
+      {"w": "journey", "def": "a long trip to a place", "ex": "The journey is long and hard."},
+      {"w": "brave", "def": "not afraid of danger", "ex": "Moana is brave."},
+      {"w": "return", "def": "to go back to a place", "ex": "She must return the heart."}
+    ],
+    "questions": [
+      "Why does Moana's father not want her to go past the reef? Is he right?",
+      "Who chooses Moana: her father, the ocean, or Maui? How do you know?",
+      "Maui is a demigod with a big personality. Is he a hero, a show-off, or both? Give an example.",
+      "Why does Gramma Tala tell Moana the old stories? Is she right to do that?",
+      "Would you leave your island to save your people? What would you take with you?",
+      "In your country, is there a story about the sea or a journey? How is it like Moana?",
+      "Moana has to learn to sail. Which is more important for her: being brave or asking for help? Why?",
+      "Which song did you like best? Say one line from it, in English or in your language."
+    ],
+    "gaps": [
+      {"line": "You're ___!", "answer": "welcome", "hint": "what you say after thank you", "adapted": false},
+      {"line": "We were ___.", "answer": "voyagers", "hint": "people who travel by boat", "adapted": false},
+      {"line": "The ocean chose ___.", "answer": "you", "hint": "the person in front of me", "adapted": false},
+      {"line": "Know who you ___.", "answer": "are", "hint": "the verb be, for you", "adapted": false},
+      {"line": "Maui's magic ___ helps him change shape.", "answer": "hook", "hint": "a curved tool for fishing", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "You're welcome!", "options": ["Maui", "Moana", "Her father"], "answer": 0, "note": "Maui's song about everything he gave the world."},
+      {"quote": "We were voyagers.", "options": ["Gramma Tala", "Moana", "Maui"], "answer": 0, "note": "She says it in the cave, among the old boats."},
+      {"quote": "The ocean chose you.", "options": ["Gramma Tala", "Maui", "Her father"], "answer": 0, "note": "Gramma Tala tells Moana why the sea keeps helping her."}
+    ],
+    "quiz": [
+      {"q": "Where does Moana live?", "options": ["On an island", "In a city", "In a desert"], "answer": 0, "why": "She lives on the island of Motunui with her family."},
+      {"q": "What does Moana's father want her to do?", "options": ["Stay on the island and lead", "Sail away", "Find Maui"], "answer": 0, "why": "He wants her to be the next chief and keep the people safe."},
+      {"q": "What does Maui steal?", "options": ["The heart of Te Fiti", "A boat", "The ocean"], "answer": 0, "why": "Long ago Maui took the heart, and darkness followed."},
+      {"q": "Who is Te Kā?", "options": ["A lava monster", "A bird", "A boat"], "answer": 0, "why": "Te Kā is a huge monster made of lava and rock."},
+      {"q": "What does Moana do at the end?", "options": ["She brings the heart back", "She stays on Maui's island", "She becomes a bird"], "answer": 0, "why": "She returns the heart and saves her island."}
+    ],
+    "roleplay": {
+      "title": "The wayfinder's lesson",
+      "setting": "A beach at night, a small boat, and a sky full of stars.",
+      "roles": [
+        {"role": "Moana", "brief": "You want to learn to sail. You ask questions and you are not afraid to try."},
+        {"role": "Maui", "brief": "You are a demigod. You are funny and you pretend you know everything."},
+        {"role": "Gramma Tala", "brief": "You are wise. You tell them to look at the stars and to trust the sea."}
+      ],
+      "challenge": "Show the others how to find one star and say which way to go. Use left, right, north and home."
+    },
+    "quest": [
+      {"title": "Station 1: Places and names", "task": "Find the name of Moana's island and the name of the demigod she looks for.", "answer": "Motunui; Maui", "points": 10},
+      {"title": "Station 2: Word hunt", "task": "Find a word for a long trip and a word for land with water all around.", "answer": "journey; island", "points": 10},
+      {"title": "Station 3: Pack the boat", "task": "Draw Moana's boat and write three things she takes with her.", "answer": "Any boat drawing and three things, e.g. oar, food, water", "points": 15},
+      {"title": "Station 4: In order", "task": "Put these in order: Moana finds Maui, Moana leaves the island, Moana meets the ocean as a baby, Moana brings the heart back.", "answer": "baby, leaves island, finds Maui, brings heart back", "points": 10}
+    ]
+  },
+  {
+    "id": "inside-out",
+    "title": "Inside Out",
+    "year": 2015,
+    "level": "A2",
+    "runtime": 95,
+    "genres": ["animation", "comedy", "family"],
+    "director": "Pete Docter",
+    "country": "USA",
+    "age": "all",
+    "mood": "pastel",
+    "logline": "Five feelings live inside a girl's head and try to help her after her family moves to a new city.",
+    "why": "The film turns feelings into characters, so emotions are visible, named and repeated, which is perfect for A2 vocabulary work. The story is a clear journey back home, and the dialogue is short and funny, with visual jokes that carry the meaning.",
+    "language": "American English, warm and clear; the five emotions speak in very different voices, with Joy fast and bright and Sadness slow and soft, which helps learners hear tone.",
+    "content": "A child is very sad, runs away from home for a short time, and an imaginary friend fades away; there is grief and family tension, handled gently, and nothing violent.",
+    "scenes": [
+      {
+        "at": "00:06:00",
+        "title": "The first memory",
+        "task": "Watch Riley's first memory. What colour is it? Which feeling is with her?",
+        "type": "observe"
+      },
+      {
+        "at": "00:31:00",
+        "title": "The dinner",
+        "task": "The family eats dinner. Which feelings take control? Act out one face.",
+        "type": "observe"
+      },
+      {
+        "at": "01:10:00",
+        "title": "The memory dump",
+        "task": "Bing Bong does something kind. What is it? Say one sentence.",
+        "type": "think"
+      },
+      {
+        "at": "01:26:00",
+        "title": "Riley comes home",
+        "task": "Riley talks to her parents. What does she say she feels?",
+        "type": "listen"
+      }
+    ],
+    "words": [
+      {"w": "feeling", "def": "something you feel inside", "ex": "Joy is a happy feeling."},
+      {"w": "memory", "def": "something you remember from before", "ex": "A memory can be happy or sad."},
+      {"w": "joy", "def": "a very happy feeling", "ex": "Joy wants Riley to be happy."},
+      {"w": "sadness", "def": "a feeling of being sad", "ex": "Sadness is blue and slow."},
+      {"w": "imaginary", "def": "not real, only in your head", "ex": "Bing Bong is an imaginary friend."},
+      {"w": "move", "def": "to go to a new home", "ex": "Riley's family moves to a new city."}
+    ],
+    "questions": [
+      "Which feeling do you have most days? Which one is your favourite in the film?",
+      "Why is Joy the leader at the start? Is it good that she controls everything?",
+      "Sadness touches a memory and makes Riley cry. Is that a bad thing? Why not?",
+      "Bing Bong gives up something important. Why does he do it? What would you do?",
+      "Would you like to see inside your own head like this? Which feelings would sit at your control desk?",
+      "In your country, do families talk about feelings? Is it easy or hard to say I am sad?",
+      "Riley's family moves to a new city. What helps a person start again in a new place?",
+      "Which line from the film stayed with you? Say it in English, then say why."
+    ],
+    "gaps": [
+      {"line": "Do you ever look at someone and wonder what is going on inside their ___?", "answer": "head", "hint": "the top part of your body", "adapted": false},
+      {"line": "Congratulations, San Francisco! You've ruined ___!", "answer": "pizza", "hint": "a round Italian food", "adapted": false},
+      {"line": "Crying helps me slow down and obsess over the weight of life's ___.", "answer": "problems", "hint": "hard things you must solve", "adapted": false},
+      {"line": "Take her to the ___ for me, okay?", "answer": "moon", "hint": "it shines at night", "adapted": false},
+      {"line": "All right, everyone, fresh ___!", "answer": "start", "hint": "the beginning of something", "adapted": true}
+    ],
+    "quotes": [
+      {"quote": "Congratulations, San Francisco! You've ruined pizza!", "options": ["Anger", "Joy", "Disgust"], "answer": 0, "note": "Anger's first big complaint about the new city."},
+      {"quote": "Crying helps me slow down and obsess over the weight of life's problems.", "options": ["Sadness", "Joy", "Fear"], "answer": 0, "note": "Sadness explains why she is useful, a line that matters at the end."},
+      {"quote": "Take her to the moon for me, okay?", "options": ["Bing Bong", "Joy", "Riley's dad"], "answer": 0, "note": "Bing Bong's last words to Joy in the memory dump."}
+    ],
+    "quiz": [
+      {"q": "Who are the five emotions?", "options": ["Joy, Sadness, Anger, Fear, Disgust", "Joy, Love, Anger, Fear, Hope", "Joy, Sadness, Hunger, Fear, Sleep"], "answer": 0, "why": "They all live and work in Riley's Headquarters."},
+      {"q": "Why is Riley sad at the start of the film?", "options": ["Her family moves to a new city", "She loses her dog", "She fails a test"], "answer": 0, "why": "The family leaves Minnesota for San Francisco, and everything feels wrong."},
+      {"q": "What is Bing Bong?", "options": ["Riley's imaginary friend", "A toy", "A neighbour"], "answer": 0, "why": "He is the friend Riley invented when she was small."},
+      {"q": "What happens to the personality islands?", "options": ["They fall", "They grow bigger", "They turn blue"], "answer": 0, "why": "Without Joy and Sadness, Riley's islands start to break and fall."},
+      {"q": "What does Riley do when she is very upset?", "options": ["She runs away", "She goes to sleep", "She calls her friend"], "answer": 0, "why": "She takes a bus to Minnesota, then comes back and talks to her parents."}
+    ],
+    "roleplay": {
+      "title": "Headquarters",
+      "setting": "A control room with five chairs and one big screen. Riley has just come home from school.",
+      "roles": [
+        {"role": "Joy", "brief": "You want to fix everything and keep Riley happy. You speak fast and you smile a lot."},
+        {"role": "Sadness", "brief": "You want to sit down and feel it. You speak slowly and softly."},
+        {"role": "Anger", "brief": "You are angry about the move and you want to shout. You speak in short, hot sentences."}
+      ],
+      "challenge": "Let each feeling say one sentence about the same day. Then decide together what Riley will do."
+    },
+    "quest": [
+      {"title": "Station 1: Two cities", "task": "Find the name of Riley's old city and her new city.", "answer": "Minnesota; San Francisco", "points": 10},
+      {"title": "Station 2: Word puzzle", "task": "Which word means something you remember? Find it in the word list.", "answer": "memory", "points": 10},
+      {"title": "Station 3: Your control desk", "task": "Draw your own control desk with five feelings. Write the name of each one.", "answer": "Any five named feelings", "points": 15},
+      {"title": "Station 4: In order", "task": "Put these in order: the family moves, Riley's first memory, Bing Bong fades, Riley cries to her parents.", "answer": "first memory, family moves, Bing Bong fades, Riley cries", "points": 10}
+    ]
+  },
+  {
+    "id": "kung-fu-panda",
+    "title": "Kung Fu Panda",
+    "year": 2008,
+    "level": "A2",
+    "runtime": 92,
+    "genres": ["animation", "comedy", "family"],
+    "director": "John Stevenson & Mark Osborne",
+    "country": "USA",
+    "age": "all",
+    "mood": "earth",
+    "logline": "A clumsy panda who loves kung fu is chosen to be the Dragon Warrior, and now he must learn to fight without losing himself.",
+    "why": "The story is a simple training plot with clear goals: be chosen, train, face the enemy. Food, family and daily routines give A2 learners concrete vocabulary, and the jokes are visual enough to follow even when the words are new.",
+    "language": "American English with a few Chinese words and names; Master Shifu speaks slowly and formally, Po talks fast and makes jokes, and the Furious Five speak in short, clear lines.",
+    "content": "Cartoon fighting, kicks and falls, and a scary snow leopard villain; nobody bleeds, but younger children may find the prison and fight scenes loud.",
+    "scenes": [
+      {
+        "at": "00:08:00",
+        "title": "The noodle shop",
+        "task": "Po works in his father's shop. What is his job? Where does he work?",
+        "type": "observe"
+      },
+      {
+        "at": "00:22:00",
+        "title": "The Dragon Warrior",
+        "task": "Oogway chooses the Dragon Warrior. Who does everyone expect? Who is chosen?",
+        "type": "think"
+      },
+      {
+        "at": "00:50:00",
+        "title": "Training with food",
+        "task": "Shifu trains Po with dumplings. Why does this work? Watch Po's face.",
+        "type": "think"
+      },
+      {
+        "at": "00:58:00",
+        "title": "The blank scroll",
+        "task": "The Dragon Scroll is empty. What does Po see in it? What does that mean?",
+        "type": "think"
+      }
+    ],
+    "words": [
+      {"w": "panda", "def": "a big black and white bear", "ex": "Po is a big panda."},
+      {"w": "noodle", "def": "a long soft food", "ex": "Po carries a bowl of noodles."},
+      {"w": "dream", "def": "something you hope will happen", "ex": "Po has a dream of kung fu."},
+      {"w": "train", "def": "to practise a skill", "ex": "Po trains every day."},
+      {"w": "warrior", "def": "a very brave fighter", "ex": "The Dragon Warrior is a hero."},
+      {"w": "believe", "def": "to think something is true", "ex": "You must believe in yourself."}
+    ],
+    "questions": [
+      "What is Po's job at the start? What does he dream about?",
+      "Why do the Furious Five not want Po at the Jade Palace? Are they fair to him?",
+      "Oogway says there are no accidents. What does he mean? Do you agree?",
+      "Shifu trains Po with food. Is that a good way to teach? Why does it work?",
+      "Would you like to train at the Jade Palace? What would be the hardest part for you?",
+      "In your country, is there a traditional sport or fighting style? How is it taught?",
+      "Po's father wants him to sell noodles. Is it wrong to want a different life from your parents?",
+      "Which line made you laugh? Say it in English with the same feeling."
+    ],
+    "gaps": [
+      {"line": "There is no secret ___.", "answer": "ingredient", "hint": "a part of a recipe", "adapted": false},
+      {"line": "I'm not a big fat panda. I'm ___ big fat panda.", "answer": "the", "hint": "the only one", "adapted": false},
+      {"line": "Yesterday is history, tomorrow is a mystery, but today is a ___.", "answer": "gift", "hint": "something you give", "adapted": false},
+      {"line": "There are no ___.", "answer": "accidents", "hint": "unplanned events", "adapted": false},
+      {"line": "To make something special, you just have to ___ it's special.", "answer": "believe", "hint": "think it is true", "adapted": false}
+    ],
+    "quotes": [
+      {"quote": "There are no accidents.", "options": ["Master Oogway", "Shifu", "Po"], "answer": 0, "note": "Oogway says it to Shifu when Po falls into the palace."},
+      {"quote": "I'm not a big fat panda. I'm THE big fat panda.", "options": ["Po", "Shifu", "Tai Lung"], "answer": 0, "note": "Po's answer when Tai Lung calls him a big fat panda."},
+      {"quote": "Yesterday is history, tomorrow is a mystery, but today is a gift.", "options": ["Master Oogway", "Mr. Ping", "Tigress"], "answer": 0, "note": "Oogway's advice under the peach tree."}
+    ],
+    "quiz": [
+      {"q": "What animal is Po?", "options": ["A panda", "A tiger", "A goose"], "answer": 0, "why": "Po is a panda who works in a noodle shop."},
+      {"q": "Who chooses the Dragon Warrior?", "options": ["Master Oogway", "Shifu", "The Furious Five"], "answer": 0, "why": "Oogway points to Po at the tournament."},
+      {"q": "What is the name of the villain?", "options": ["Tai Lung", "Oogway", "Mr. Ping"], "answer": 0, "why": "Tai Lung is the snow leopard who wants the Dragon Scroll."},
+      {"q": "What is inside the Dragon Scroll?", "options": ["Nothing", "A map", "A secret move"], "answer": 0, "why": "The scroll is blank and shows Po his own reflection."},
+      {"q": "Who is Po's father?", "options": ["Mr. Ping, a goose", "Shifu, a red panda", "A panda"], "answer": 0, "why": "Mr. Ping is the goose who adopted Po and runs the noodle shop."}
+    ],
+    "roleplay": {
+      "title": "The noodle shop",
+      "setting": "A small noodle shop in the Valley of Peace. Po is serving, Mr. Ping is cooking, a customer is waiting.",
+      "roles": [
+        {"role": "Po", "brief": "You dream of kung fu and you are not good at serving. You drop things and say sorry."},
+        {"role": "Mr. Ping", "brief": "You love your son and your noodles. You want him to stay and take over the shop."},
+        {"role": "Customer", "brief": "You are hungry and in a hurry. You only want a bowl of noodles."}
+      ],
+      "challenge": "Play it twice: once as a comedy, once as a sad scene about a son who wants a different life."
+    },
+    "quest": [
+      {"title": "Station 1: The five", "task": "Find the names of the five fighters in the Furious Five.", "answer": "Tigress, Crane, Viper, Monkey, Mantis", "points": 10},
+      {"title": "Station 2: Word puzzle", "task": "Which word means a very brave fighter? Find it in the word list.", "answer": "warrior", "points": 10},
+      {"title": "Station 3: New move", "task": "Invent one new kung fu move. Give it a name and show it in slow motion.", "answer": "Any named move, acted out", "points": 15},
+      {"title": "Station 4: In order", "task": "Put these in order: Po is chosen, Po works in the noodle shop, Po opens the Dragon Scroll, Po fights Tai Lung.", "answer": "noodle shop, chosen, scroll, fights Tai Lung", "points": 10}
+    ]
+  }
+]

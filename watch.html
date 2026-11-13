@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watch party — Reel Talk</title>
+<meta name="description" content="A shared clock for the club: everyone starts at the same second, pauses together, and talks on cue.">
+<meta name="theme-color" content="#0b0b0e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%230b0b0e'/%3E%3Ccircle cx='20' cy='20' r='12' fill='none' stroke='%23e8b04b' stroke-width='2'/%3E%3Ccircle cx='20' cy='20' r='3' fill='%23e8b04b'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/watch.css">
+<link rel="stylesheet" href="css/swiss.css">
+</head>
+<body class="page-watch">
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="grain" aria-hidden="true"></div>
+<header class="rt-header" data-rt-header></header>
+
+<main id="main" class="watch">
+  <div class="shell watch-top">
+    <div class="watch-id">
+      <a class="back-link" id="backFilm" href="index.html">← film page</a>
+      <h1 id="wTitle">Watch party</h1>
+      <p class="watch-sub" id="wMeta">—</p>
+    </div>
+    <div class="watch-top-right">
+      <button class="room-chip" id="roomChip" type="button" title="Copy the invite link">
+        <span class="lbl">Room</span><b id="roomCode">———</b><span class="ico">⧉</span>
+      </button>
+      <div class="conn" id="conn" title="Connection"><i></i><span>connecting</span></div>
+      <button class="icon-btn" id="btnRoomInfo" type="button" aria-label="Room details and QR">⛶</button>
+    </div>
+  </div>
+
+  <div class="shell watch-grid">
+    <section class="stage">
+      <div class="screen-shell">
+        <div class="screen-stage" id="stage">
+          <div class="stage-empty" id="stageEmpty">
+            <p class="kicker">No source yet</p>
+            <h2 id="emptyTitle">Bring your own screen</h2>
+            <p class="stage-lede">Everyone plays the film on their own legal stream. This room keeps you on the same second — the clock is the whole trick.</p>
+            <div class="stage-actions">
+              <button class="btn btn-primary" id="btnSource" type="button">Add a source</button>
+              <a class="btn btn-ghost" id="btnWhere2" href="#">Where to watch</a>
+            </div>
+            <p class="stage-fine">Host only: paste a direct video link or a YouTube URL. Public-domain titles play right here.</p>
+          </div>
+          <div class="stage-video" id="stageVideo" hidden></div>
+          <div class="stage-overlay" id="overlay" hidden></div>
+          <div class="cue-pop" id="cuePop" hidden></div>
+          <div class="poll-banner" id="pollBanner" hidden></div>
+          <div class="prompt-pop" id="promptPop" hidden></div>
+          <div class="taster-card" id="tasterCard" hidden></div>
+          <div class="stage-badge" id="stageBadge" hidden></div>
+        </div>
+
+        <div class="screen-bar">
+          <span class="tc" id="tc">00:00:00</span>
+          <div class="scrub" id="scrub">
+            <div class="scrub-track"><i class="scrub-fill" id="scrubFill"></i><span class="scrub-ticks" id="scrubTicks"></span></div>
+            <input type="range" id="seek" min="0" max="1000" value="0" step="1" aria-label="Seek">
+          </div>
+          <span class="tc is-dim" id="dur">00:00:00</span>
+          <button class="icon-btn" id="btnFull" type="button" aria-label="Fullscreen">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="controls" id="controls">
+        <button class="ctrl-main" id="btnPlay" type="button" aria-label="Play or pause">
+          <svg viewBox="0 0 24 24" id="playIcon"><path d="M8 5.5v13l11-6.5-11-6.5Z" fill="currentColor"/></svg>
+        </button>
+        <button class="ctrl" id="btnBack" type="button">−10s</button>
+        <button class="ctrl" id="btnFwd" type="button">+10s</button>
+        <span class="ctrl-sep"></span>
+        <button class="ctrl wide" id="btnCountdown" type="button">Start in 10s</button>
+        <button class="ctrl wide" id="btnSync" type="button">Sync everyone</button>
+        <button class="ctrl wide" id="btnCapture" type="button">Capture moment</button>
+        <button class="ctrl" id="btnTaster" type="button">Taster</button>
+        <span class="ctrl-spacer"></span>
+        <span class="role-tag" id="roleTag">joining…</span>
+      </div>
+      <p class="host-hint" id="hostHint">Loading the room…</p>
+    </section>
+
+    <aside class="rail">
+      <div class="rail-tabs" id="railTabs">
+        <button type="button" data-rt="now" class="is-on">Now</button>
+        <button type="button" data-rt="chat">Chat <span class="badge" id="chatBadge" hidden>0</span></button>
+        <button type="button" data-rt="ask">Ask</button>
+        <button type="button" data-rt="room">Room</button>
+      </div>
+
+      <div class="rail-panel is-on" data-panel="now">
+        <div class="now-head">
+          <span class="rail-kicker">On screen now</span>
+          <span class="people" id="peopleCount">1 here</span>
+        </div>
+        <div class="now-cue" id="nowCue"></div>
+        <div class="rail-kicker" style="margin-top:22px">Cue points</div>
+        <div class="cue-list-mini" id="cueList"></div>
+        <div class="rail-kicker" style="margin-top:22px">A question for the room</div>
+        <div class="now-question" id="nowQuestion">
+          <p>—</p>
+          <button class="btn btn-ghost btn-sm" id="btnNextQuestion" type="button">Another question</button>
+        </div>
+      </div>
+
+      <div class="rail-panel" data-panel="ask" hidden>
+        <div class="now-head">
+          <span class="rail-kicker">Ask the room</span>
+          <span class="people" id="askState">no poll</span>
+        </div>
+        <div id="pollBox"></div>
+        <div class="rail-kicker" style="margin-top:20px">Launch from this film</div>
+        <div class="ask-list" id="askList"></div>
+      </div>
+
+      <div class="rail-panel" data-panel="chat" hidden>
+        <div class="chat-log" id="chatLog">
+          <div class="chat-empty" id="chatEmpty">
+            <p>The chat is the back channel — spoilers, guesses, “wait, who is that?”.</p>
+          </div>
+        </div>
+        <form class="chat-form" id="chatForm">
+          <input id="chatInput" placeholder="Ask the room…" autocomplete="off" maxlength="400" aria-label="Message">
+          <button type="submit" aria-label="Send">↑</button>
+        </form>
+      </div>
+
+      <div class="rail-panel" data-panel="room" hidden>
+        <div class="room-card">
+          <span class="rail-kicker">Invite</span>
+          <div class="room-big" id="roomBig">——————</div>
+          <div class="qr-box big" id="roomQr"></div>
+          <button class="btn btn-ghost btn-block btn-sm" id="btnInvite" type="button">Copy invite link</button>
+          <p class="room-note">Scan the QR to join on a phone. Everyone needs the film; only the clock is shared.</p>
+        </div>
+
+        <div class="room-card">
+          <span class="rail-kicker">In the room</span>
+          <div class="people-list" id="peopleList"></div>
+          <label class="field"><span>Your name</span><input id="nameInput" maxlength="24" placeholder="Guest"></label>
+        </div>
+
+        <div class="room-card">
+          <span class="rail-kicker">Source</span>
+          <p class="room-line" id="sourceLine">No source — external player</p>
+          <button class="btn btn-ghost btn-block btn-sm" id="btnSource2" type="button">Change source</button>
+        </div>
+
+        <div class="room-card">
+          <span class="rail-kicker">Connection</span>
+          <p class="room-line" id="transportLine">Connecting…</p>
+          <div class="transport-actions">
+            <button class="btn btn-ghost btn-sm" id="btnTakeHost" type="button">Take over as host</button>
+            <button class="btn btn-ghost btn-sm" id="btnLocalOnly" type="button">This device only</button>
+          </div>
+          <p class="room-note">Realtime runs through the club server when it is running, the public relay otherwise. “This device only” keeps two tabs on one laptop in sync.</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="rt-footer" data-rt-footer></footer>
+
+<script src="js/data/films.js"></script>
+<script src="js/vendor/qrcode.js"></script>
+<script src="js/core.js"></script>
+<script src="js/sync.js"></script>
+<script src="js/watch.js"></script>
+</body>
+</html>

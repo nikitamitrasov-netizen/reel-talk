@@ -1,0 +1,149 @@
+/* ============================================================
+   Reel Talk — team quest
+   ============================================================ */
+
+.quest-head { padding: 44px 0 26px; }
+.quest-head h1 { font-size: clamp(36px, 4.6vw, 60px); margin: 10px 0 8px; }
+.quest-head .lede { max-width: 62ch; }
+.quest-top { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+.quest-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+
+/* ── lobby ────────────────────────────────────────────────── */
+
+.lobby-card {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--panel);
+  padding: 30px;
+  display: grid;
+  gap: 20px;
+  max-width: 760px;
+}
+.lobby-card h2 { font-size: 28px; }
+.lobby-row { display: grid; gap: 8px; }
+.lobby-row > label { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--dim); }
+.lobby-row select, .lobby-row input {
+  height: 46px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  font-size: 14px;
+  color: var(--ink);
+  outline: none;
+}
+.lobby-row select { padding-right: 34px; background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23a0998e' stroke-width='1.5'/%3E%3C/svg%3E") no-repeat right 14px center; appearance: none; }
+.lobby-row input:focus, .lobby-row select:focus { border-color: rgba(232, 176, 75, 0.55); }
+.lobby-two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.team-inputs { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.team-inputs input { height: 42px; }
+.lobby-note { font-size: 13px; color: var(--muted); line-height: 1.6; }
+
+/* ── board ────────────────────────────────────────────────── */
+
+.quest-grid { display: grid; grid-template-columns: 360px minmax(0, 1fr); gap: 22px; align-items: start; padding-bottom: 70px; }
+
+.scoreboard { border: 1px solid var(--line); border-radius: 14px; background: var(--panel); overflow: hidden; position: sticky; top: 88px; }
+.scoreboard-head { padding: 18px 20px 14px; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; align-items: baseline; }
+.scoreboard-head h2 { font-size: 20px; }
+.scoreboard-head span { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--dim); }
+.team-row { display: grid; grid-template-columns: 16px 1fr auto; gap: 12px; align-items: center; padding: 14px 20px; border-bottom: 1px solid rgba(30, 26, 20, 0.08); }
+.team-row:last-child { border-bottom: 0; }
+.team-dot { width: 9px; height: 9px; border-radius: 2px; background: var(--tc, var(--amber)); }
+.team-name { font-weight: 600; font-size: 14.5px; }
+.team-sub { font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--dim); margin-top: 2px; }
+.team-score { font-family: var(--serif); font-size: 28px; line-height: 1; color: var(--amber); min-width: 42px; text-align: right; }
+.team-plus { display: flex; gap: 4px; margin-top: 4px; justify-content: flex-end; }
+.team-plus button { width: 24px; height: 24px; border-radius: 6px; border: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1; }
+.team-plus button:hover { border-color: var(--amber); color: var(--amber); }
+.score-foot { padding: 14px 20px; border-top: 1px solid var(--line); }
+.score-foot .bar { height: 5px; border-radius: 3px; background: rgba(30, 26, 20, 0.1); overflow: hidden; margin-bottom: 8px; }
+.score-foot .bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--amber), var(--amber-2)); transition: width 0.4s; }
+.score-foot p { font-family: var(--mono); font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--dim); }
+
+.station-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.st-card {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel);
+  padding: 18px;
+  display: grid;
+  grid-template-columns: 1fr 78px;
+  gap: 14px;
+  transition: 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+.st-card:hover { border-color: rgba(232, 176, 75, 0.45); transform: translateY(-2px); }
+.st-card.is-done { border-color: rgba(127, 209, 166, 0.4); }
+.st-card.is-done::after { content: '✓'; position: absolute; top: 12px; right: 90px; color: var(--green); font-size: 13px; }
+.st-num { font-family: var(--mono); font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--amber); margin-bottom: 6px; }
+.st-card h3 { font-family: var(--sans); font-size: 15.5px; font-weight: 600; margin-bottom: 5px; line-height: 1.25; }
+.st-card p { font-size: 12.5px; color: var(--muted); line-height: 1.5; }
+.st-meta { display: flex; gap: 10px; align-items: center; margin-top: 10px; font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--dim); }
+.st-card .qr-box { width: 78px; height: 78px; align-self: start; box-shadow: 0 6px 18px -8px rgba(0,0,0,.8); }
+
+/* ── station modal ────────────────────────────────────────── */
+
+.st-modal-top { display: flex; gap: 18px; align-items: flex-start; }
+.st-modal-top .qr-box { width: 96px; height: 96px; flex: 0 0 auto; }
+.st-modal-task { font-size: 15px; color: var(--ink-soft); line-height: 1.6; margin: 4px 0 0; }
+.st-answer { border: 1px dashed var(--line-2); border-radius: 8px; padding: 12px 14px; font-size: 13.5px; color: var(--green); margin-top: 14px; display: none; }
+.st-answer.is-on { display: block; }
+.award-title { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--dim); margin: 18px 0 8px; }
+.award-grid { display: flex; gap: 8px; flex-wrap: wrap; }
+.award-grid button { padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; font-size: 12.5px; color: var(--ink-soft); }
+.award-grid button:hover { border-color: var(--amber); color: var(--amber); }
+
+/* ── station page ─────────────────────────────────────────── */
+
+.station-page { min-height: 100vh; display: grid; place-items: center; padding: 30px 0 60px; }
+.station-card {
+  width: min(560px, calc(100% - 32px));
+  border: 1px solid rgba(232, 176, 75, 0.35);
+  border-radius: 18px;
+  background: #fff;
+  padding: 34px;
+  display: grid;
+  gap: 18px;
+  box-shadow: 0 40px 90px -50px #000;
+  position: relative;
+  overflow: hidden;
+}
+.station-card::before { content: ''; position: absolute; inset: 0; background: radial-gradient(70% 50% at 50% 0%, rgba(232, 176, 75, 0.1), transparent 65%); pointer-events: none; }
+.station-card .film-line { font-family: var(--mono); font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--dim); }
+.station-card h1 { font-size: clamp(28px, 4vw, 40px); line-height: 1.08; }
+.station-card .task { font-size: 17px; line-height: 1.6; color: var(--ink-soft); }
+.station-card .pts { font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--amber); }
+.station-answer-form { display: grid; gap: 10px; }
+.station-answer-form input {
+  height: 50px;
+  padding: 0 14px;
+  border: 1px solid var(--line-2);
+  border-radius: 10px;
+  background: #fff;
+  font-size: 16px;
+  outline: none;
+}
+.station-answer-form input:focus { border-color: var(--amber); }
+.station-result { font-size: 14px; line-height: 1.55; padding: 12px 14px; border-radius: 9px; display: none; }
+.station-result.is-on { display: block; }
+.station-result.ok { background: rgba(127, 209, 166, 0.1); border: 1px solid rgba(127, 209, 166, 0.4); color: #cdf0de; }
+.station-result.bad { background: rgba(207, 90, 67, 0.1); border: 1px solid rgba(207, 90, 67, 0.4); color: #f3c0b2; }
+.station-foot { display: flex; justify-content: space-between; align-items: center; gap: 12px; border-top: 1px solid var(--line); padding-top: 16px; font-family: var(--mono); font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--dim); }
+
+/* ── responsive ───────────────────────────────────────────── */
+
+@media (max-width: 1000px) {
+  .quest-grid { grid-template-columns: 1fr; }
+  .scoreboard { position: static; }
+}
+@media (max-width: 700px) {
+  .station-cards { grid-template-columns: 1fr; }
+  .lobby-two, .team-inputs { grid-template-columns: 1fr; }
+  .lobby-card { padding: 22px; }
+  .st-card { grid-template-columns: 1fr; }
+  .st-card .qr-box { width: 84px; height: 84px; }
+  .st-card.is-done::after { right: 18px; }
+  .station-card { padding: 24px; }
+}
